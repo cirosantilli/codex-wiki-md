@@ -1,0 +1,130 @@
+# Hazard function
+
+↑ **Parent:** [Survival function](survival-function.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Hazard_function)
+
+For a [survival time](survival-time.md) with an [absolutely continuous probability distribution](absolutely-continuous-probability-distribution.md), [probability density function](probability-density-function.md) $f$, and [survival function](survival-function.md) $S$, the [hazard function](hazard-function.md) is
+
+$$
+h(t)=\frac{f(t)}{S(t)}=-\frac{S'(t)}{S(t)}
+$$
+
+where $S(t)>0$, with the [derivative](derivative.md) identity holding [almost everywhere](almost-everywhere.md). At points where the local limit exists, equivalently
+
+$$
+h(t)=\lim_{\Delta\downarrow0}\frac{\mathbb P(t<T\leq t+\Delta\mid T>t)}{\Delta}.
+$$
+
+The [hazard function](hazard-function.md) measures an instantaneous conditional rate. If time is in years, its units are inverse years, and its value can exceed one. A [probability](probability.md) for a short [interval](interval-mathematics.md) is approximately $h(t)\Delta$, not $h(t)$; for an [absolutely continuous probability distribution](absolutely-continuous-probability-distribution.md), the [probability](probability.md) of an occurrence at the single exact time $t$ is zero. The [discrete hazard](discrete-hazard.md), by contrast, is a conditional [probability](probability.md) at a possible event time.
+
+The factorization $f(t)=h(t)S(t)$ distinguishes a [probability density function](probability-density-function.md) for the original population from a [hazard function](hazard-function.md) for those still event-free. With an [exponential distribution](exponential-distribution.md) of rate $0.2$ per year, $h(5)=0.2$ per year but $f(5)=0.2e^{-1}\approx0.073576$ per year: the latter also accounts for the [probability](probability.md) of reaching year five. The [exponential survival risk over an interval](exponential-survival-risk-over-an-interval.md) example computes finite-horizon [probabilities](probability.md) from this rate.
+
+**Table of contents**
+
+- [Poisson record counts in cumulative hazard coordinates](poisson-record-counts-in-cumulative-hazard-coordinates.md)
+- [Discrete hazard](discrete-hazard.md)
+- [Population hazard of a survival mixture](population-hazard-of-a-survival-mixture.md)
+  - [Decreasing population hazard under constant individual hazards](decreasing-population-hazard-under-constant-individual-hazards.md)
+  - [Survival selection in a heterogeneous population](survival-selection-in-a-heterogeneous-population.md)
+  - [Hazard derivative for a mixture of exponential distributions](hazard-derivative-for-a-mixture-of-exponential-distributions.md)
+- [Cumulative hazard function](cumulative-hazard-function.md)
+  - [Mean accumulated hazard under independent censoring](mean-accumulated-hazard-under-independent-censoring.md)
+  - [Mean accumulated hazard before fixed censoring](mean-accumulated-hazard-before-fixed-censoring.md)
+  - [Cumulative hazard probability transformation](cumulative-hazard-probability-transformation.md)
+- [Hazard ratio](hazard-ratio.md)
+
+## ↑ Ancestors (6)
+
+1. [Survival function](survival-function.md)
+2. [Survival analysis](survival-analysis-split.md)
+3. [Probability and statistics](probability-and-statistics-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (84)
+
+- [Accelerated life family](accelerated-life-family.md)
+- [Additive excess-hazard mixture likelihood](additive-excess-hazard-mixture-likelihood.md)
+- [Administrative censoring with uniform entry](administrative-censoring-with-uniform-entry.md)
+- [Baseline survival function](baseline-survival-function.md)
+- [Compensator of a counting process](compensator-of-a-counting-process.md)
+- [Counting-process intensity](counting-process-intensity.md)
+- [Cumulative hazard function](cumulative-hazard-function.md)
+- [Cure model](cure-model.md)
+- [Exponential survival risk over an interval](exponential-survival-risk-over-an-interval.md)
+- [Gamma frailty hazard ratio](gamma-frailty-hazard-ratio.md)
+- [Gompertz distribution](gompertz-distribution.md)
+- [Gumbel auxiliary function](gumbel-auxiliary-function.md)
+- [Hazard derivative for a mixture of exponential distributions](hazard-derivative-for-a-mixture-of-exponential-distributions.md)
+- [Hazard function](hazard-function.md)
+- [Kaplan–Meier estimator](kaplan-meier-estimator.md)
+- [Kaplan–Meier estimator with delayed entry](kaplan-meier-estimator-with-delayed-entry.md)
+- [Mean accumulated hazard before fixed censoring](mean-accumulated-hazard-before-fixed-censoring.md)
+- [Solution](past-exam-of-the-mathematical-and-computational-biology-course-of-the-university-of-cambridge/2025/paper-2/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-29/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-29/2/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-29/2/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-29/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-40/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-38/2/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ia/paper-2/3f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-44/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-44/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-44/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-44/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-44/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-44/4/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-44/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-44/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-46/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-42/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ii/paper-2/27j/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-41/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-41/5/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-34/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-41/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-41/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-41/5/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-32/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-32/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-32/6/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-32/7/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-33/5/a/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-33/5/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-35/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-35/6/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-35/7/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-207/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-207/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-207/6/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-207/7/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-207/7/b/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-207/5/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-207/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-207/7/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-207/7/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-1/13j/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-207/5/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-207/5/b/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-207/5/b/vi/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-210/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-207/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-207/4/a/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-207/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-207/5/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-207/5/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-207/6/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2005/paper-1/4/b/i/solution.md)
+- [Piecewise-exponential mortality comparison](piecewise-exponential-mortality-comparison.md)
+- [Population hazard of a survival mixture](population-hazard-of-a-survival-mixture.md)
+- [Refractory limits on neuronal firing](refractory-limits-on-neuronal-firing.md)
+- [Relative survivor function](relative-survivor-function.md)
+- [Survival analysis](survival-analysis-split.md)
+- [Survival distribution](survival-distribution.md)
+- [Survival selection in a heterogeneous population](survival-selection-in-a-heterogeneous-population.md)
+- [Survival time](survival-time.md)
+- [Switching-current distribution of a Josephson junction](switching-current-distribution-of-a-josephson-junction.md)
+- [Uniform frailty survival mixture](uniform-frailty-survival-mixture.md)
+- [Von Mises conditions for extreme values](von-mises-conditions-for-extreme-values.md)
+- [Weibull accelerated-life and proportional-hazards families](weibull-accelerated-life-and-proportional-hazards-families.md)

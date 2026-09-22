@@ -1,0 +1,62 @@
+# Artiodactyla
+
+↑ **Parent:** [Laurasiatheria](laurasiatheria.md)
+
+In the broad phylogenetic usage, a [clade](clade.md) including [Cetacea](cetacea.md) together with the traditional even-toed ungulates. Whale ancestry is therefore artiodactyl ancestry, despite the loss of the adult terrestrial hoofed body plan.
+
+**Table of contents**
+
+- [Pig](pig.md)
+- [Goat](goat.md)
+- [Sheep](sheep.md)
+- [Cattle](cattle.md)
+- [Muntjac](muntjac.md)
+- [Sika deer](sika-deer.md)
+- [Fallow deer](fallow-deer.md)
+- [Red deer](red-deer.md)
+- [Wild boar](wild-boar.md)
+- [Aurochs](aurochs.md)
+- [Giant deer](giant-deer.md)
+- [Ruminantia](ruminantia.md)
+- [Ruminant](ruminant.md)
+- [Hippopotamus](hippopotamus.md)
+- [Cetacea](cetacea.md)
+  - [Dolphin](dolphin.md)
+    - [Bottlenose dolphin](bottlenose-dolphin.md)
+  - [Tail fluke](tail-fluke.md)
+  - [Basilosaurid](basilosaurid.md)
+    - [Basilosaurus](basilosaurus.md)
+  - [Protocetid](protocetid.md)
+    - [Rodhocetus](rodhocetus.md)
+  - [Ambulocetus](ambulocetus.md)
+  - [Pakicetidae](pakicetidae.md)
+  - [Pakicetid](pakicetid.md)
+  - [Mysticeti](mysticeti.md)
+    - [Baleen](baleen.md)
+  - [Odontoceti](odontoceti.md)
+
+## ↑ Ancestors (17)
+
+1. [Laurasiatheria](laurasiatheria.md)
+2. [Placental mammal](placental-mammal.md)
+3. [Eutheria](eutheria.md)
+4. [Theria](theria.md)
+5. [Mammal](mammal.md)
+6. [Mammaliaform](mammaliaform.md)
+7. [Cynodont](cynodont.md)
+8. [Therapsid](therapsid.md)
+9. [Synapsid](synapsid.md)
+10. [Amniote](amniote.md)
+11. [Tetrapod](tetrapod.md)
+12. [Vertebrate](vertebrate.md)
+13. [Animal](animal.md)
+14. [Eukaryote](eukaryote.md)
+15. [Organism](organism-split.md)
+16. [Biology](biology-split.md)
+17. [Codex Wiki](split.md)
+
+## ← Incoming links (3)
+
+- [Laurasiatheria](laurasiatheria.md)
+- [Solution](past-exam-of-the-zoology-course-of-the-university-of-cambridge/2025/paper-zl1/1/solution.md)
+- [Solution](past-exam-of-the-zoology-course-of-the-university-of-cambridge/2025/paper-zl1/2/solution.md)

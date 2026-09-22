@@ -1,0 +1,83 @@
+<h1 id="4/solution">Solution</h1>
+
+↑ **Parent:** [4](../4.md)
+
+A [connection on a vector bundle](../../../../../connection-vector-bundle.md) specifies how to compare nearby fibers without identifying them globally. Several equivalent descriptions expose its algebra, local calculations and geometry.
+
+The first description is a [vector bundle covariant derivative](../../../../../connection-vector-bundle.md), a real-linear map
+
+$$
+\nabla:\Gamma(E)\longrightarrow\Omega^1(B;E),\qquad
+\nabla(fs)=df\otimes s+f\nabla s.
+$$
+
+Equivalently $\nabla_Xs$ is linear over smooth functions in the [vector field](../../../../../vector-field.md) $X$, and obeys $\nabla_X(fs)=X(f)s+f\nabla_Xs$ in the section. The derivative term distinguishes a connection from a bundle homomorphism. The Leibniz rule also makes it local: use a smooth cutoff equal to one near a point to see that its value depends only on the section near that point. Thus a connection restricts consistently to all open subsets.
+
+The second description is a family of [connection matrices](../../../../../connection-one-form.md) in local frames. Write a frame as a row $e=(e_1,\ldots,e_m)$, so a section is $s=eu$ with coefficient column $u$. The connection is then
+
+$$
+\nabla(eu)=e(du+Au),
+$$
+
+where $A$ is a matrix of one-forms determined by $\nabla e_j=\sum_i e_iA^i{}_j$. If $e'=eg$, the same section has $u=gu'$. Expanding the Leibniz rule gives
+
+$$
+\nabla(e' u')=e\big(g\,du'+(dg+Ag)u'\big)
+=e'\big(du'+(g^{-1}Ag+g^{-1}dg)u'\big).
+$$
+
+Hence the [change of frame of a vector-bundle connection](../../../../../change-of-frame-of-a-vector-bundle-connection.md) is
+
+$$
+\boxed{A'=g^{-1}Ag+g^{-1}dg.}
+$$
+
+Conversely, matrices of one-forms satisfying this transformation rule define $\nabla(eu)=e(du+Au)$ in each frame. The displayed calculation proves that these local formulas agree on overlaps; they therefore glue to a connection and obey its Leibniz rule. This proves equivalence of the first two descriptions in both directions.
+
+A third description is [parallel transport](../../../../../parallel-transport.md). Along a smooth curve $\gamma:[a,b]\to B$, a parallel section $s(t)=e(\gamma(t))u(t)$ satisfies
+
+$$
+\nabla_{\dot\gamma}s=0,\qquad
+\dot u+A_{\gamma(t)}(\dot\gamma)u=0.
+$$
+
+Existence and uniqueness for linear ordinary differential equations supply a unique solution for each initial fiber vector, smoothly dependent on that vector and on smooth families of curves. The frame transformation law makes these local solutions glue. The resulting map $P_{\gamma,a,b}:E_{\gamma(a)}\to E_{\gamma(b)}$ is linear and invertible; reversing the curve gives its inverse, and concatenating curves composes the maps. It is generally dependent on the path, not just its endpoints.
+
+One can recover the [covariant derivative](../../../../../covariant-derivative.md) from this transport. For $\gamma(0)=b$ and $\dot\gamma(0)=X$, let $P_{0,t}$ be its transport from $0$ to $t$. Then
+
+$$
+\boxed{\nabla_Xs=\left.\frac{d}{dt}\right|_{0}P_{0,t}^{-1}s(\gamma(t)).}
+$$
+
+To verify the formula rather than assume it, use a local frame and a fundamental solution matrix $P(t)$ with $P(0)=I$ and $\dot P=-A(\dot\gamma)P$. Differentiation gives $(P^{-1}u)'|_0=\dot u(0)+A_b(X)u(0)$, exactly the local covariant-derivative formula. Conversely the connection reconstructed from transport defined by this equation has the same differential equation and, by uniqueness, the same transport. Thus this viewpoint is also equivalent for the transport rules arising from a connection.
+
+A fourth description is a [linear horizontal distribution on a vector bundle](../../../../../linear-horizontal-distribution-on-a-vector-bundle.md). In a trivialization $E|_U=U\times\mathbb R^m$, put
+
+$$
+H_{(b,v)}=\{(X,-A_b(X)v):X\in T_bB\}\subset T_{(b,v)}E.
+$$
+
+Projection maps this subspace isomorphically to $T_bB$, and it complements the vertical tangent space. Under the coordinate change $v=gv'$, differentiation gives $\dot v=(dg)(X)v'+g\dot v'$. Thus the horizontal equation transforms into $\dot v'=-A'(X)v'$, with exactly the same frame-change law. The subspaces consequently glue independently of trivializations. Their fiberwise linear dependence on $v$ is essential: an arbitrary horizontal complement can describe a nonlinear connection on the total space and need not define a vector-bundle connection. Conversely a horizontal complement with this linearity has a unique local expression of the displayed form, recovering the matrices $A$. Its horizontal lifts are precisely the parallel sections just described.
+
+One can also express the geometry on the [frame bundle](../../../../../frame-bundle.md) as a [principal connection](../../../../../connection-principal-bundle.md). In local frame-bundle coordinates $(b,g)$, its Lie-algebra-valued form is
+
+$$
+\omega=g^{-1}Ag+g^{-1}dg.
+$$
+
+It is equivariant under right translation, $R_h^*\omega=\operatorname{Ad}_{h^{-1}}\omega$, and equals $\xi$ on the vertical vector generated by $\xi$. These properties define a principal connection; its kernel is the horizontal distribution on the frame bundle. Pulling back by a local frame section gives $A$, and its frame-change rule is once again the same formula. This identifies the principal viewpoint with the earlier descriptions.
+
+Connections are not a vector space with a distinguished origin. The difference of two connections is linear over smooth functions in both $X$ and $s$, because their Leibniz terms cancel. It is a one-form with values in $\operatorname{End}E$. Conversely adding any such form to a connection gives another connection. Thus the collection is an [affine space of vector-bundle connections](../../../../../affine-space-of-vector-bundle-connections.md) modeled on $\Omega^1(B;\operatorname{End}E)$. The local curvature in the usual vector-bundle convention is $F=dA+A\wedge A$, representing $\nabla_X\nabla_Y-\nabla_Y\nabla_X-\nabla_{[X,Y]}$. It records the infinitesimal failure of path-independent [parallel transport](../../../../../parallel-transport.md). Question 6 uses the opposite curvature sign, which will be stated explicitly there.
+
+## ↑ Ancestors (10)
+
+1. [4](../4.md)
+2. [Paper 14](../../paper-14-split.md)
+3. [Iii](../../split.md)
+4. [2003](../../../split.md)
+5. [Past exam of the mathematics course of the University of Cambridge](../../../../split.md)
+6. [Mathematics course of the University of Cambridge](../../../../../mathematics-course-of-the-university-of-cambridge.md)
+7. [Course of the University of Cambridge](../../../../../course-of-the-university-of-cambridge.md)
+8. [University of Cambridge](../../../../../university-of-cambridge-split.md)
+9. [List of universities](../../../../../list-of-universities.md)
+10. [Codex Wiki](../../../../../split.md)

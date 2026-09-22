@@ -1,0 +1,50 @@
+# Fermat principle
+
+↑ **Parent:** [Mathematical physics](mathematical-physics-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Fermat_principle)
+
+**Table of contents**
+
+- [Parabolic light rays in a reciprocal-square-root speed profile](parabolic-light-rays-in-a-reciprocal-square-root-speed-profile.md)
+- [Conserved transverse optical momentum](conserved-transverse-optical-momentum.md)
+- [Two optical rays in a square-root refractive-index profile](two-optical-rays-in-a-square-root-refractive-index-profile.md)
+- [Ray in a linear-speed medium](ray-in-a-linear-speed-medium.md)
+- [Ray in an exponential-speed medium](ray-in-an-exponential-speed-medium.md)
+
+## ↑ Ancestors (3)
+
+1. [Mathematical physics](mathematical-physics-split.md)
+2. [Physics](physics-split.md)
+3. [Codex Wiki](split.md)
+
+## ← Incoming links (29)
+
+- [Beltrami identity for several dependent variables](beltrami-identity-for-several-dependent-variables.md)
+- [Catenary light ray in a linear refractive index](catenary-light-ray-in-a-linear-refractive-index.md)
+- [Circular light ray in a linear speed profile](circular-light-ray-in-a-linear-speed-profile.md)
+- [Conserved transverse optical momentum](conserved-transverse-optical-momentum.md)
+- [Geometrical optics](geometrical-optics-split.md)
+- [Helical rays in a radially graded refractive index](helical-rays-in-a-radially-graded-refractive-index.md)
+- [Light ray](light-ray.md)
+- [Optical momentum of a ray](optical-momentum-of-a-ray.md)
+- [Optical rays in a reciprocal-height refractive index](optical-rays-in-a-reciprocal-height-refractive-index.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/ib/paper-1/2d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/ib/paper-3/18d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ib/paper-1/14d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/ib/paper-2/15a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2001/paper-1/10/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2003/paper-1/9/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2010/paper-1/9/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2011/paper-1/9/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2012/paper-1/9/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2016/paper-1/9/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2019/paper-1/9/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2019/paper-1/9/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2019/paper-1/9/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-1/9/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2023/paper-1/9/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2023/paper-1/9/a/ii/solution.md)
+- [Ray in an exponential-speed medium](ray-in-an-exponential-speed-medium.md)
+- [Two optical rays in a square-root refractive-index profile](two-optical-rays-in-a-square-root-refractive-index-profile.md)
+- [Two stationary catenary rays in an inverse-height speed profile](two-stationary-catenary-rays-in-an-inverse-height-speed-profile.md)
+- [Variational principle](variational-principle.md)

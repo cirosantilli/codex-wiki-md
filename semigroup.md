@@ -1,0 +1,83 @@
+# Semigroup
+
+↑ **Parent:** [Associative property](associative-property.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Semigroup)
+
+A [semigroup](semigroup.md) is an [algebraic magma](magma-algebra.md) whose [binary operation](binary-operation.md) has the [associative property](associative-property.md). Its products can be regrouped while preserving the order of their elements. An [identity element](identity-element.md) and [inverse elements](inverse-element.md) are not required.
+
+For example, the positive [integers](integer-split.md) with [addition](addition.md) form a [semigroup](semigroup.md), since $(a+b)+c=a+(b+c)$ and a sum of positive [integers](integer-split.md) is positive. They have no [identity element](identity-element.md): it would have to be zero, which is outside that [set](set-split.md). Nonempty [words over an alphabet](string.md) with [concatenation](concatenation.md) give a noncommutative example without an [identity element](identity-element.md). Including the [empty word](empty-word.md) instead gives a [free monoid](free-monoid.md).
+
+The usefulness of a [semigroup](semigroup.md) is that an ordered list has one product regardless of its parentheses. This permits replacing a consecutive block by its already computed value. Here the empty [set](set-split.md) is also allowed as a [semigroup](semigroup.md); a [monoid](monoid.md) is necessarily nonempty because it contains an [identity element](identity-element.md).
+
+**Table of contents**
+
+- [Numerical semigroup](numerical-semigroup.md)
+- [Rectangular band](rectangular-band.md)
+  - [Cartesian closed category of rectangular bands](cartesian-closed-category-of-rectangular-bands.md)
+- [Idempotent element of a semigroup](idempotent-element-of-a-semigroup.md)
+- [Semigroup presentation](semigroup-presentation.md)
+  - [Finite semigroup presentation](finite-semigroup-presentation.md)
+    - [Semigroup simulation of a Turing machine](semigroup-simulation-of-a-turing-machine.md)
+- [Subsemigroup](subsemigroup.md)
+- [Monoid](monoid.md)
+  - [Inverse element](inverse-element.md)
+  - [Transformation monoid](transformation-monoid.md)
+    - [Full transformation monoid](full-transformation-monoid.md)
+  - [Monoid action](monoid-action.md)
+    - [Right monoid action](right-monoid-action.md)
+      - [Exponential of right monoid actions](exponential-of-right-monoid-actions.md)
+        - [Exponential of right group actions](exponential-of-right-group-actions.md)
+    - [Equivariant map of monoid sets](equivariant-map-of-monoid-sets.md)
+    - [M-set](m-set.md)
+  - [Monoid homomorphism](monoid-homomorphism.md)
+  - [Monoid automorphism](monoid-automorphism.md)
+  - [Free monoid](free-monoid.md)
+  - [Commutative monoid](commutative-monoid.md)
+    - [Free commutative monoid](free-commutative-monoid.md)
+    - [Cancellative commutative monoid](cancellative-commutative-monoid.md)
+      - [Congruence submonoid of the positive integers](congruence-submonoid-of-the-positive-integers.md)
+        - [Nonunique factorization in a congruence submonoid](nonunique-factorization-in-a-congruence-submonoid.md)
+      - [Irreducible element of a commutative monoid](irreducible-element-of-a-commutative-monoid.md)
+      - [Torsion-free cancellative commutative monoid](torsion-free-cancellative-commutative-monoid.md)
+    - [Category of commutative monoids](category-of-commutative-monoids.md)
+- [Additive semigroup](additive-semigroup.md)
+  - [Face of an additive monoid](face-of-an-additive-monoid.md)
+- [Topological semigroup](topological-semigroup.md)
+  - [Left-topological semigroup](left-topological-semigroup.md)
+    - [Ellis–Numakura lemma](ellis-numakura-lemma.md)
+
+## ↑ Ancestors (7)
+
+1. [Associative property](associative-property.md)
+2. [Binary operation](binary-operation.md)
+3. [Algebraic operation](algebraic-operation-split.md)
+4. [Algebra](algebra-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (23)
+
+- [Addition on the Stone-Čech compactification of the natural numbers](addition-on-the-stone-cech-compactification-of-the-natural-numbers.md)
+- [Additive semigroup](additive-semigroup.md)
+- [Ellis–Numakura lemma](ellis-numakura-lemma.md)
+- [Group axioms from two-sided local inverse identities](group-axioms-from-two-sided-local-inverse-identities.md)
+- [Idempotent element of a semigroup](idempotent-element-of-a-semigroup.md)
+- [Magma (algebra)](magma-algebra.md)
+- [Monoid](monoid.md)
+- [Ohnishi orderability criterion](ohnishi-orderability-criterion.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-4/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-29/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-10/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-29/6/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-104/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-104/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-130/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2025/paper-2/8/b/solution.md)
+- [Rectangular band](rectangular-band.md)
+- [Semigroup](semigroup.md)
+- [Semigroup algebra](semigroup-algebra.md)
+- [Semigroup presentation](semigroup-presentation.md)
+- [Simultaneous spectral-radius renorming](simultaneous-spectral-radius-renorming.md)
+- [Subsemigroup](subsemigroup.md)
+- [Topological semigroup](topological-semigroup.md)

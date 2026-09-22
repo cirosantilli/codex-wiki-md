@@ -1,0 +1,56 @@
+<h1 id="2/solution">Solution</h1>
+
+↑ **Parent:** [2](../2.md)
+
+For a [profinite group](../../../../../profinite-group.md), its [profinite Frattini subgroup](../../../../../profinite-frattini-subgroup.md) is
+
+$$
+\Phi(G)=\bigcap\{M:M\text{ is a maximal proper open subgroup of }G\}.
+$$
+
+Use $G$ for an empty intersection. This is a closed [normal subgroup](../../../../../normal-subgroup.md), invariant under continuous [group automorphisms](../../../../../group-automorphism.md), since these automorphisms permute the maximal open [subgroups](../../../../../subgroup.md). Let $H=\overline{\langle X\rangle}$. If $H=G$, its image certainly topologically generates $G/\Phi(G)$. Conversely, suppose $H\ne G$. For $g\notin H$, the [open normal subgroup basis of a profinite group](../../../../../open-normal-subgroup-basis-of-a-profinite-group.md) gives $N\trianglelefteq_oG$ with $g\notin HN$: choose a sufficiently small neighbourhood $gN$ disjoint from the closed [subgroup](../../../../../subgroup.md) $H$. The proper [subgroup](../../../../../subgroup.md) $HN/N$ of the [finite group](../../../../../finite-group.md) $G/N$ lies in a maximal proper [subgroup](../../../../../subgroup.md). Its preimage $M$ is a maximal proper open [subgroup](../../../../../subgroup.md) of $G$, contains $H$, and contains $\Phi(G)$. Since $H\Phi(G)$ is compact and therefore closed, density of the image of $X$ in $G/\Phi(G)$ would force $H\Phi(G)=G$, contradicting $H\Phi(G)\leq M<G$. **Generation can therefore be tested modulo the profinite Frattini subgroup.**
+
+For a [finite p-group](../../../../../finite-p-group.md), every maximal proper [subgroup](../../../../../subgroup.md) is normal and has index $p$. One proof uses the [normalizer condition for finite p-groups](../../../../../normalizer-condition-for-finite-p-groups.md): maximality forces its normalizer to be the whole [group](../../../../../group-split.md), and its simple $p$-group quotient has order $p$. Therefore every such maximal [subgroup](../../../../../subgroup.md) contains powers and [group commutators](../../../../../group-commutator.md). Conversely, the quotient by the algebraic $G^p[G,G]$ is an [elementary abelian p-group](../../../../../elementary-abelian-group.md); its nonzero elements are separated by linear maps to $\mathbb F_p$. Their kernels give maximal [subgroups](../../../../../subgroup.md). This proves the finite [Frattini subgroup](../../../../../frattini-subgroup.md) formula.
+
+Now take a [pro-p group](../../../../../pro-p-group.md) and put $D=\overline{G^p[G,G]}$, retaining the [closure](../../../../../closure-topology.md) of the algebraically generated [subgroups](../../../../../subgroup.md). A maximal open [subgroup](../../../../../subgroup.md) is the preimage of a maximal [subgroup](../../../../../subgroup.md) of a finite $p$-group quotient, so it contains $D$. If $g\notin D$, some finite quotient of the [profinite group](../../../../../profinite-group.md) $G/D$ detects $gD$. That quotient is [elementary abelian](../../../../../elementary-abelian-group.md), and a linear functional nonzero at $gD$ gives a continuous [group homomorphism](../../../../../group-homomorphism.md) $G\to\mathbb F_p$ whose kernel is a maximal open [subgroup](../../../../../subgroup.md) missing $g$. Hence
+
+$$
+\boxed{\Phi(G)=\overline{G^p[G,G]}.}
+$$
+
+The [closure](../../../../../closure-topology.md) bar is present in the original PDF; the converted TeX fraction is an extraction error.
+
+For the finite-index assertion, first pass from the arbitrary abstract [subgroup](../../../../../subgroup.md) $K$ to its [normal core of a subgroup](../../../../../core-group-theory.md) $C$. The action on the finitely many [cosets](../../../../../coset.md) of $K$ shows $[G:C]<\infty$, without assuming that $K$ or $C$ is closed. Write $m=[G:C]=p^rq$ with $(p,q)=1$, and let $X_m=\{h^m:h\in G\}$. By [Lagrange theorem](../../../../../lagrange-s-theorem.md), $X_m\subseteq C$. For $N\trianglelefteq_oG$, the quotient $G/N$ is a [finite p-group](../../../../../finite-p-group.md) of order, say, $p^s$. Choose an integer $a$ with $aq\equiv1\pmod {p^s}$. Then
+
+$$
+(g^a)^mN=g^{p^r}N,
+$$
+
+so $g^{p^r}\in X_mN$ for every such $N$. The set $X_m$ is the continuous image of the [compact space](../../../../../compact-space.md) $G$, hence is closed. Consequently $g^{p^r}\in\bigcap_NX_mN=X_m\subseteq C$. Every element of the abstract finite quotient $G/C$ thus has order dividing $p^r$. By [Cauchy theorem for groups](../../../../../cauchy-theorem-for-groups.md), no prime other than $p$ divides its order. Therefore $[G:C]$, and its divisor $[G:K]$, are powers of $p$. **This proof does not assume continuity of the finite quotient map.**
+
+To prove openness under finite generation, first establish [commutator collection with fixed generators in nilpotent groups](../../../../../commutator-collection-with-fixed-generators-in-nilpotent-groups.md). If a [nilpotent group](../../../../../nilpotent-group.md) $P$ is generated by $a_1,\ldots,a_d$, every element of $P\prime$ is
+
+$$
+[x_1,a_1]\cdots[x_d,a_d].
+$$
+
+Induct on the nilpotency class $c$. The assertion is trivial for $c=1$. Apply the induction hypothesis in $P/\gamma_c(P)$; the remaining error lies in the central [subgroup](../../../../../subgroup.md) $\gamma_c(P)=[\gamma_{c-1}(P),P]$. Since commutators in this last layer are central, collecting against words in the $a_i$ expresses the error as $\prod_i[y_i,a_i]$ with $y_i\in\gamma_{c-1}(P)$. Also $[P\prime,\gamma_{c-1}(P)]\leq\gamma_{c+1}(P)=1$. Thus replacing each $x_i$ by $x_iy_i$ multiplies the desired product by precisely that central error, proving the formula.
+
+Let $a_1,\ldots,a_d$ now topologically generate $G$. Every finite continuous quotient is a [nilpotent group](../../../../../nilpotent-group.md), so the formula holds there with these fixed generators. For $z\in\overline{[G,G]}$, the sets of tuples $(x_1,\ldots,x_d)\in G^d$ solving $z\equiv\prod_i[x_i,a_i]\pmod N$ are nonempty closed subsets of a [compact space](../../../../../compact-space.md). They have the [finite intersection property](../../../../../finite-intersection-property.md), by replacing finitely many $N$ by their intersection. A common tuple solves the equality in $G$. It follows that the algebraic [commutator subgroup](../../../../../commutator-subgroup.md) is the compact image of $G^d$ under this product map, and is closed.
+
+Its quotient $A=G/[G,G]$ is a topologically finitely generated abelian [pro-p group](../../../../../pro-p-group.md). The continuous map $\mathbb Z_p^d\to A$ taking $(\lambda_i)$ to $\prod_i\bar a_i^{\lambda_i}$ is onto, because its compact image contains a dense generating [subgroup](../../../../../subgroup.md). Therefore $A/pA$ is generated as an [elementary abelian group](../../../../../elementary-abelian-group.md) by at most $d$ elements, and $pA$ is compact. The preimage $G^p[G,G]$ of $pA$ is closed of finite index, hence open: its complement is a finite union of closed [cosets](../../../../../coset.md). The finite-index result and the maximal-subgroup property of [finite p-groups](../../../../../finite-p-group.md) show that any abstract index-$p$ [subgroup](../../../../../subgroup.md) of $G$ is normal. It contains this open [subgroup](../../../../../subgroup.md), so is itself open.
+
+Finally, a finite-index normal [subgroup](../../../../../subgroup.md) $C$ has finite $p$-group quotient. If $[G:C]>1$, choose a normal index-$p$ [subgroup](../../../../../subgroup.md) in that quotient and call its preimage $H$. The preceding argument makes $H$ open. An open [subgroup](../../../../../subgroup.md) of a finitely generated [pro-p group](../../../../../pro-p-group.md) is finitely generated: intersect a finitely generated dense abstract [subgroup](../../../../../subgroup.md) with $H$, use the [Schreier lemma](../../../../../reidemeister-schreier-theorem.md), and observe that the intersection is dense in the open [subgroup](../../../../../subgroup.md) $H$. Induction on $[G:C]$ now makes $C$ open in $H$, hence in $G$. Returning to the [normal core of a subgroup](../../../../../core-group-theory.md), $K$ is a union of open [cosets](../../../../../coset.md) of $C$. **Every finite-index subgroup of a finitely generated pro-p group is open.**
+
+## ↑ Ancestors (10)
+
+1. [2](../2.md)
+2. [Paper 5](../../paper-5-split.md)
+3. [Iii](../../split.md)
+4. [2009](../../../split.md)
+5. [Past exam of the mathematics course of the University of Cambridge](../../../../split.md)
+6. [Mathematics course of the University of Cambridge](../../../../../mathematics-course-of-the-university-of-cambridge.md)
+7. [Course of the University of Cambridge](../../../../../course-of-the-university-of-cambridge.md)
+8. [University of Cambridge](../../../../../university-of-cambridge-split.md)
+9. [List of universities](../../../../../list-of-universities.md)
+10. [Codex Wiki](../../../../../split.md)

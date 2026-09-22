@@ -1,0 +1,60 @@
+# Polymer physics
+
+↑ **Parent:** [Polymer](polymer-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Polymer_physics)
+
+[Polymer physics](polymer-physics.md) connects the conformations and motion of long [molecules](molecule-split.md) to the properties of a material. A [polymer](polymer-split.md) can change shape through many segment rotations while its chemical backbone remains intact. This makes the competition between flow and relaxation important: the same chain can behave as a coil in one experiment and an extended object in another. [Soft matter](soft-matter.md) includes both these flexible structures and [liquid crystals](liquid-crystal.md), whose orientational order produces a different route to strong mechanical and optical response.
+
+**Table of contents**
+
+- [Coil-globule transition](coil-globule-transition.md)
+- [Polymers at interfaces](polymers-at-interfaces.md)
+- [Rotational isomeric state model](rotational-isomeric-state-model.md)
+- [Hydrodynamic volume](hydrodynamic-volume.md)
+- [Zimm model](zimm-model.md)
+- [Rouse model](rouse-model.md)
+  - [Free-draining polymer friction](free-draining-polymer-friction.md)
+- [Grafted polymer chain](grafted-polymer-chain.md)
+  - [Grafting-from](grafting-from.md)
+  - [Grafting-to](grafting-to.md)
+  - [Grafting density](grafting-density.md)
+  - [Polymer brush](polymer-brush.md)
+    - [Dense-brush packing limit](dense-brush-packing-limit.md)
+    - [Polymer-brush volume fraction](polymer-brush-volume-fraction.md)
+    - [Theta-solvent brush height](theta-solvent-brush-height.md)
+    - [Alexander-de Gennes brush model](alexander-de-gennes-brush-model.md)
+    - [Polymer mushroom-to-brush crossover](polymer-mushroom-to-brush-crossover.md)
+    - [Poor-solvent brush height](poor-solvent-brush-height.md)
+    - [Good-solvent brush height](good-solvent-brush-height.md)
+  - [Polymer mushroom](polymer-mushroom.md)
+- [Polymer entanglement](polymer-entanglement.md)
+- [Polymer melt](polymer-melt.md)
+- [End-to-end distance of a polymer chain](end-to-end-distance-of-a-polymer-chain.md)
+  - [Polymer contour length](polymer-contour-length.md)
+    - [Finite extensibility of a polymer chain](finite-extensibility-of-a-polymer-chain.md)
+- [Reptation](reptation.md)
+- [Tensile blob](tensile-blob.md)
+  - [Good-solvent force-extension scaling](good-solvent-force-extension-scaling.md)
+- [Polymer adsorption](polymer-adsorption.md)
+  - [Adsorbed polymer tail](adsorbed-polymer-tail.md)
+  - [Adsorbed polymer loop](adsorbed-polymer-loop.md)
+  - [Adsorbed polymer train](adsorbed-polymer-train.md)
+  - [Equilibrium peeling force of an adsorbed Gaussian chain](equilibrium-peeling-force-of-an-adsorbed-gaussian-chain.md)
+  - [Adsorption blob](adsorption-blob.md)
+- [Polymer relaxation time](polymer-relaxation-time.md)
+- [Coil-stretch transition](coil-stretch-transition.md)
+  - [Keller four-roller polymer experiment](keller-four-roller-polymer-experiment.md)
+    - [Residence time in planar extension](residence-time-in-planar-extension.md)
+  - [Hookean dumbbell in planar extension](hookean-dumbbell-in-planar-extension.md)
+
+## ↑ Ancestors (3)
+
+1. [Polymer](polymer-split.md)
+2. [Chemistry](chemistry-split.md)
+3. [Codex Wiki](split.md)
+
+## ← Incoming links (3)
+
+- [Andrew Keller](andrew-keller.md)
+- [Polymer physics](polymer-physics.md)
+- [Soft matter](soft-matter.md)

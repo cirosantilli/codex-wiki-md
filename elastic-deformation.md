@@ -1,0 +1,23 @@
+# Elastic deformation
+
+↑ **Parent:** [Elasticity (physics)](elasticity-physics-split.md)
+
+An elastic deformation is recoverable when the deforming loads are removed. In a local elastic constitutive model the [stress](stress.md) depends on the present deformation. When this response also derives from a stored [elastic energy](elastic-energy.md), the material is a [hyperelastic material](hyperelastic-material.md). In the small-deformation approximation, the relevant kinematic variable is the [infinitesimal strain tensor](infinitesimal-strain-tensor.md).
+
+## ↑ Ancestors (5)
+
+1. [Elasticity (physics)](elasticity-physics-split.md)
+2. [Continuum mechanics](continuum-mechanics-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (7)
+
+- [Linear reversibility and yield in tensile tests](linear-reversibility-and-yield-in-tensile-tests.md)
+- [Machine compliance](machine-compliance.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-54/2/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2010/paper-1/section-b/b9/solution.md)
+- [Proportional limit](proportional-limit.md)
+- [Tensile modulus experiment](tensile-modulus-experiment.md)
+- [Torsion constant](torsion-constant.md)

@@ -1,0 +1,33 @@
+# 2012
+
+↑ **Parent:** [Past exam of the particle Astrophysics course of the University of Cambridge](../split.md)
+
+**Table of contents**
+
+- [Paper 1](paper-1.md)
+  - [1](paper-1.md#1)
+    - [Solution](paper-1.md#1/solution)
+  - [2](paper-1.md#2)
+    - [Solution](paper-1.md#2/solution)
+  - [3](paper-1.md#3)
+    - [a](paper-1.md#3/a)
+      - [Solution](paper-1.md#3/a/solution)
+    - [b](paper-1.md#3/b)
+      - [Solution](paper-1.md#3/b/solution)
+    - [c](paper-1.md#3/c)
+      - [Solution](paper-1.md#3/c/solution)
+    - [d](paper-1.md#3/d)
+      - [Solution](paper-1.md#3/d/solution)
+
+## ↑ Ancestors (10)
+
+1. [Past exam of the particle Astrophysics course of the University of Cambridge](../split.md)
+2. [Particle Astrophysics course of the University of Cambridge](../../particle-astrophysics-course-of-the-university-of-cambridge.md)
+3. [Physics course of the year 4 of the natural sciences course of the University of Cambridge](../../physics-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+4. [Year 4 of the natural sciences course of the University of Cambridge](../../year-4-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+5. [Year of the natural sciences course of the University of Cambridge](../../year-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+6. [Natural sciences course of the University of Cambridge](../../natural-sciences-course-of-the-university-of-cambridge.md)
+7. [Course of the University of Cambridge](../../course-of-the-university-of-cambridge.md)
+8. [University of Cambridge](../../university-of-cambridge-split.md)
+9. [List of universities](../../list-of-universities.md)
+10. [Codex Wiki](../../split.md)

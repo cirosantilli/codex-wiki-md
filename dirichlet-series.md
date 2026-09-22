@@ -1,0 +1,91 @@
+# Dirichlet series
+
+↑ **Parent:** [Analytic number theory](analytic-number-theory-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Dirichlet_series)
+
+A Dirichlet series is a series of the form
+
+$$
+F(s)=\sum_{n=1}^{\infty}\frac{a_n}{n^s}.
+$$
+
+Multiplication of absolutely convergent Dirichlet series corresponds to [Dirichlet convolution](dirichlet-convolution.md) of their coefficients.
+
+**Table of contents**
+
+- [Holomorphy of a Dirichlet series from bounded partial sums](holomorphy-of-a-dirichlet-series-from-bounded-partial-sums.md)
+- [Epstein zeta function](epstein-zeta-function.md)
+  - [Completed Epstein zeta function](completed-epstein-zeta-function.md)
+    - [Pole-subtracted theta integral for an Epstein zeta function](pole-subtracted-theta-integral-for-an-epstein-zeta-function.md)
+- [Dirichlet polynomial](dirichlet-polynomial.md)
+  - [Mean value of Dirichlet polynomials](mean-value-of-dirichlet-polynomials.md)
+    - [Odd moment of a prime cosine sum](odd-moment-of-a-prime-cosine-sum.md)
+- [Euler product](euler-product.md)
+  - [Euler product positivity for L-function nonvanishing](euler-product-positivity-for-l-function-nonvanishing.md)
+  - [Truncated Euler-product lower bound](truncated-euler-product-lower-bound.md)
+  - [Euler proof that the sum of reciprocals of primes diverges](euler-proof-that-the-sum-of-reciprocals-of-primes-diverges.md)
+    - [Prime reciprocal lower bound](prime-reciprocal-lower-bound.md)
+  - [Three-four-one inequality for Euler products](three-four-one-inequality-for-euler-products.md)
+- [Perron's formula](perron-s-formula.md)
+  - [Logarithmically smoothed Perron formula](logarithmically-smoothed-perron-formula.md)
+    - [Unsmoothing a logarithmically weighted sum](unsmoothing-a-logarithmically-weighted-sum.md)
+  - [Truncated Perron formula](truncated-perron-formula.md)
+    - [Short-interval Perron bound for the second Chebyshev function](short-interval-perron-bound-for-the-second-chebyshev-function.md)
+    - [Truncated Perron kernel estimate](truncated-perron-kernel-estimate.md)
+
+## ↑ Ancestors (5)
+
+1. [Analytic number theory](analytic-number-theory-split.md)
+2. [Number theory](number-theory-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (46)
+
+- [Additive twist of a cusp-form L-function](additive-twist-of-a-cusp-form-l-function.md)
+- [Analytic number theory](analytic-number-theory-split.md)
+- [Dirichlet eta function](dirichlet-eta-function.md)
+- [Dirichlet polynomial](dirichlet-polynomial.md)
+- [Dirichlet probability generating function](dirichlet-probability-generating-function.md)
+- [Euler product](euler-product.md)
+- [Generating function](generating-function.md)
+- [Hecke L-function](hecke-l-function.md)
+- [L-function](l-function.md)
+- [Landau theorem for a Dirichlet series with nonnegative coefficients](landau-theorem-for-a-dirichlet-series-with-nonnegative-coefficients.md)
+- [Logarithmically smoothed Perron formula](logarithmically-smoothed-perron-formula.md)
+- [Möbius divisor-sum identity](mobius-divisor-sum-identity.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-25/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-25/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-22/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-24/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-4/14a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-28/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-28/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-88/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-30/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-32/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-32/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-33/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ii/paper-4/11g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-25/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-25/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ii/paper-3/11i/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-29/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-25/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-25/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ii/paper-2/1h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-124/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-124/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-137/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-150/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-150/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-4/11h/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-150/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-150/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-117/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-150/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-150/3/d/solution.md)
+- [Perron's formula](perron-s-formula.md)
+- [Positive unfolding of a cusp-form square](positive-unfolding-of-a-cusp-form-square.md)
+- [Rankin–Selberg integral for holomorphic cusp forms](rankin-selberg-integral-for-holomorphic-cusp-forms.md)

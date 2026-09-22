@@ -1,0 +1,89 @@
+# Inductor
+
+↑ **Parent:** [Self-inductance](self-inductance.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Inductor)
+
+An [inductor](inductor.md) is an [electrical circuit](electrical-circuit-split.md) component designed to provide [self-inductance](self-inductance.md), often a coil such as a [solenoid](solenoid.md). An ideal linear [inductor](inductor.md) has constant $L>0$ and zero [electrical resistance](electrical-resistance.md). Its stored [magnetic energy](magnetic-energy.md), with zero chosen at zero [electric current](electric-current.md), is
+
+$$
+U=\frac12LI^2.
+$$
+
+For [self-inductance](self-inductance.md) $0.5\,\mathrm H$ and [electric current](electric-current.md) $3\,\mathrm A$, this gives $U=2.25\,\mathrm J$. Unlike [Joule heating](joule-heating.md), ideal storage is recoverable: the [inductor](inductor.md) can return [energy](energy-split.md) to an [electrical circuit](electrical-circuit-split.md) when its [electric current](electric-current.md) decreases. [OpenStax University Physics 2, §14.3: energy stored by an inductor](https://openstax.org/books/university-physics-volume-2/pages/14-3-energy-in-a-magnetic-field).
+
+The short derivation uses the terminal convention in [self-inductance](self-inductance.md). The [power](power.md) absorbed by an ideal [inductor](inductor.md) is
+
+$$
+P_L=v_L I=LI\frac{dI}{dt}=\frac{d}{dt}\left(\frac12LI^2\right).
+$$
+
+Starting from zero [electric current](electric-current.md), the [integral](integral-split.md) of this [power](power.md) gives
+
+$$
+U=\int_0^t P_L(t')\,dt'=\int_0^I Li\,di=\frac12LI^2.
+$$
+
+Positive $P_L$ increases stored [magnetic energy](magnetic-energy.md); negative $P_L$ returns [energy](energy-split.md). At constant [electric current](electric-current.md) $3\,\mathrm A$ in the example, $P_L=0$ and induced [electromotive force](electromotive-force.md) is zero, but $U=2.25\,\mathrm J$ still resides in the [magnetic field](magnetic-field-split.md). The [battery](electric-battery.md) in the steady [RL circuit](rl-circuit.md) supplies [Joule heating](joule-heating.md) in the [electrical resistance](electrical-resistance.md), rather than further increasing the [inductor](inductor.md)'s [magnetic energy](magnetic-energy.md).
+
+<a id="image-stored-magnetic-energy-and-its-release-as-joule-heating-in-an-rl-circuit"></a>
+![](inductor-energy-storage-and-release.png)
+
+**[Figure 5](#image-stored-magnetic-energy-and-its-release-as-joule-heating-in-an-rl-circuit). Stored magnetic energy and its release as Joule heating in an RL circuit**. Left: the [inductor](inductor.md)'s [magnetic energy](magnetic-energy.md) during buildup and a separate decay experiment starting at $3\,\mathrm A$. Right: the [power](power.md) of [Joule heating](joule-heating.md) during decay; the shaded [integral](integral-split.md) over all time is $2.25\,\mathrm J$. The decay path stays closed through [electrical resistance](electrical-resistance.md) $2\,\Omega$ and [self-inductance](self-inductance.md) $0.5\,\mathrm H$.
+
+During the closed-loop release in [RL circuit](rl-circuit.md), stored [magnetic energy](magnetic-energy.md) plus accumulated [Joule heating](joule-heating.md) stays $2.25\,\mathrm J$. A real coil also has [electrical resistance](electrical-resistance.md), so its [Joule heating](joule-heating.md) must be included separately from ideal [inductor](inductor.md) storage. The constant-$L$ formulas assume a fixed linear magnetic response.
+
+**Table of contents**
+
+- [Energy stored in a nonlinear inductor](energy-stored-in-a-nonlinear-inductor.md)
+
+## ↑ Ancestors (6)
+
+1. [Self-inductance](self-inductance.md)
+2. [Inductance](inductance.md)
+3. [Electromagnetism](electromagnetism-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (40)
+
+- [Coupled inductors](coupled-inductors.md)
+- [Electrical engineering](electrical-engineering-split.md)
+- [Electrical impedance](electrical-impedance.md)
+- [Electrical reactance](electrical-reactance.md)
+- [Electrical reactance bench measurement](electrical-reactance-bench-measurement.md)
+- [Electrical susceptance](electrical-susceptance.md)
+- [Free parallel RLC voltage decay](free-parallel-rlc-voltage-decay.md)
+- [Half-wave rectifier](half-wave-rectifier.md)
+- [Inductance](inductance.md)
+- [Inductor](inductor.md)
+- [Inductor voltage magnification in a series RLC circuit](inductor-voltage-magnification-in-a-series-rlc-circuit.md)
+- [LC circuit](lc-circuit.md)
+- [Parallel RLC circuit](parallel-rlc-circuit.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2013/paper-2/section-b/b7/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2015/paper-2/section-b/b6/b/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2010/paper-1/section-c/c11/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2012/paper-1/section-c/c11/a/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2012/paper-1/section-c/c11/b/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2013/paper-1/section-e/e15/c/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2014/paper-1/c10/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2014/paper-1/e15/b/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2015/paper-1/section-c/c11/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2016/paper-1/section-c/c10/b/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2016/paper-1/section-c/c10/c/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2016/paper-1/section-e/e15/c/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2018/section-e/15/c/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2019/section-a/2/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/section-b/8/a/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/section-b/8/b/solution.md)
+- [Reactance phase convention](reactance-phase-convention.md)
+- [RL circuit](rl-circuit.md)
+- [RL low-pass filter](rl-low-pass-filter.md)
+- [RLC circuit](rlc-circuit.md)
+- [Self-inductance](self-inductance.md)
+- [Series-fed parallel LC voltage response](series-fed-parallel-lc-voltage-response.md)
+- [Series RLC circuit](series-rlc-circuit.md)
+- [Solenoid](solenoid.md)
+- [Spark-excited damped oscillation](spark-excited-damped-oscillation.md)
+- [Stored energy of a solenoid](stored-energy-of-a-solenoid.md)
+- [Tuned spark wireless apparatus](tuned-spark-wireless-apparatus.md)

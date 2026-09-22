@@ -1,0 +1,47 @@
+# Paper 327
+
+↑ **Parent:** [Iii](split.md)
+
+[https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2022/paper_327.pdf](https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2022/paper_327.pdf)
+
+**Table of contents**
+
+- [1](paper-327/1.md)
+  - [a](paper-327/1/a.md)
+    - [Solution](paper-327/1/a/solution.md)
+  - [b](paper-327/1/b.md)
+    - [i](paper-327/1/b/i.md)
+      - [Solution](paper-327/1/b/i/solution.md)
+    - [ii](paper-327/1/b/ii.md)
+      - [Solution](paper-327/1/b/ii/solution.md)
+  - [c](paper-327/1/c.md)
+    - [Solution](paper-327/1/c/solution.md)
+- [2](paper-327/2.md)
+  - [a](paper-327/2/a.md)
+    - [Solution](paper-327/2/a/solution.md)
+  - [b](paper-327/2/b.md)
+    - [i](paper-327/2/b/i.md)
+      - [Solution](paper-327/2/b/i/solution.md)
+    - [ii](paper-327/2/b/ii.md)
+      - [Solution](paper-327/2/b/ii/solution.md)
+    - [iii](paper-327/2/b/iii.md)
+      - [Solution](paper-327/2/b/iii/solution.md)
+- [3](paper-327/3.md)
+  - [Solution](paper-327/3/solution.md)
+  - [i](paper-327/3/i.md)
+    - [Solution](paper-327/3/i/solution.md)
+  - [ii](paper-327/3/ii.md)
+    - [Solution](paper-327/3/ii/solution.md)
+  - [iii](paper-327/3/iii.md)
+    - [Solution](paper-327/3/iii/solution.md)
+
+## ↑ Ancestors (8)
+
+1. [Iii](split.md)
+2. [2022](../split.md)
+3. [Past exam of the mathematics course of the University of Cambridge](../../split.md)
+4. [Mathematics course of the University of Cambridge](../../../mathematics-course-of-the-university-of-cambridge.md)
+5. [Course of the University of Cambridge](../../../course-of-the-university-of-cambridge.md)
+6. [University of Cambridge](../../../university-of-cambridge-split.md)
+7. [List of universities](../../../list-of-universities.md)
+8. [Codex Wiki](../../../split.md)

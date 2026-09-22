@@ -1,0 +1,38 @@
+# Dissociation constant
+
+↑ **Parent:** [Equilibrium constant](equilibrium-constant.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Dissociation_constant)
+
+## ↑ Ancestors (8)
+
+1. [Equilibrium constant](equilibrium-constant.md)
+2. [Chemical equilibrium](chemical-equilibrium.md)
+3. [Chemical potential](chemical-potential-split.md)
+4. [Thermodynamics](thermodynamics-split.md)
+5. [Statistical physics](statistical-physics-split.md)
+6. [Branches of physics](branches-of-physics.md)
+7. [Physics](physics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (20)
+
+- [Antibody affinity](antibody-affinity.md)
+- [Antibody equilibrium occupancy](antibody-equilibrium-occupancy.md)
+- [Antibody surface plasmon resonance experiment](antibody-surface-plasmon-resonance-experiment.md)
+- [Avidity](avidity.md)
+- [Binding affinity](binding-affinity.md)
+- [Enzyme](enzyme-split.md)
+- [Hill constant](hill-constant.md)
+- [Hill equation](hill-equation.md)
+- [Inhibition constant](inhibition-constant.md)
+- [Michaelis constant](michaelis-constant.md)
+- [Solution](past-exam-of-the-biochemistry-and-molecular-biology-course-of-the-university-of-cambridge/2025/paper-2/section-b/11/f/solution.md)
+- [Solution](past-exam-of-the-biochemistry-course-of-the-university-of-cambridge/2024/paper-1/section-i/2/solution.md)
+- [Solution](past-exam-of-the-biochemistry-course-of-the-university-of-cambridge/2024/paper-5/section-2/j/solution.md)
+- [Solution](past-exam-of-the-biochemistry-course-of-the-university-of-cambridge/2025/paper-1/section-i/1/solution.md)
+- [Solution](past-exam-of-the-biochemistry-course-of-the-university-of-cambridge/2025/paper-2/section-i/2/solution.md)
+- [Solution](past-exam-of-the-biochemistry-course-of-the-university-of-cambridge/2025/paper-5/section-2/2/m/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2024/paper-2/b10/d/i/solution.md)
+- [Receptor binding occupancy](receptor-binding-occupancy.md)
+- [Receptor (biochemistry)](receptor-biochemistry.md)
+- [Weak biomolecular binding](weak-biomolecular-binding.md)

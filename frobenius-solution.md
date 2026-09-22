@@ -1,0 +1,46 @@
+# Frobenius solution
+
+↑ **Parent:** [Frobenius method](frobenius-method.md)
+
+A local series solution at a regular singular point, with exponent $r$ satisfying the indicial equation. Resonant exponents can require a logarithmic companion solution.
+
+## ↑ Ancestors (8)
+
+1. [Frobenius method](frobenius-method.md)
+2. [Regular singular point](regular-singular-point.md)
+3. [Fuchsian differential equation](fuchsian-differential-equation.md)
+4. [Complex analysis](complex-analysis-split.md)
+5. [Analysis](analysis-split.md)
+6. [Area of mathematics](area-of-mathematics.md)
+7. [Mathematics](mathematics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (27)
+
+- [Exponential reduction of a confluent hypergeometric equation with equal parameters](exponential-reduction-of-a-confluent-hypergeometric-equation-with-equal-parameters.md)
+- [Frobenius series for the Laguerre differential equation](frobenius-series-for-the-laguerre-differential-equation.md)
+- [Hypergeometric Frobenius recurrence](hypergeometric-frobenius-recurrence.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-5/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/ia/paper-2/6d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ia/paper-2/5b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-3/8c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2001/paper-1/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2011/paper-1/8/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2014/paper-1/8/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2017/paper-1/8/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2018/paper-1/8/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2018/paper-1/8/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2018/paper-1/8/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2019/paper-1/8/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2021/paper-1/8/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2021/paper-1/8/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2021/paper-1/8/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-1/8/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-1/8/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2023/paper-1/8/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2023/paper-1/8/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2024/paper-1/8/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2025/paper-1/8/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2025/paper-1/8/c/solution.md)
+- [Square-root reduction of a regular-singular differential equation](square-root-reduction-of-a-regular-singular-differential-equation.md)
+- [Undetermined coefficient at Frobenius resonance](undetermined-coefficient-at-frobenius-resonance.md)

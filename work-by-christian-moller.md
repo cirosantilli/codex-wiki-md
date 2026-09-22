@@ -1,0 +1,15 @@
+<h1 id="work-by-christian-moller">Work by Christian Møller</h1>
+
+↑ **Parent:** [Christian Møller](christian-moller.md)
+
+## 🏷️ Tagged (1)
+
+- [The Electric Quadrupole Moment of the Deuteron and the Field Theory of Nuclear Forces by Christian Møller and Léon Rosenfeld](the-electric-quadrupole-moment-of-the-deuteron-and-the-field-theory-of-nuclear-forces-by-christian-moller-and-leon-rosenfeld.md)
+
+## ↑ Ancestors (5)
+
+1. [Christian Møller](christian-moller.md)
+2. [List of physicists](list-of-physicists.md)
+3. [Physicist](physicist-split.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)

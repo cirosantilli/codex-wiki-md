@@ -1,0 +1,27 @@
+<h1 id="5/d/solution">Solution</h1>
+
+↑ **Parent:** [D](../d.md)
+
+Taking the [dot product](../../../../../dot-product.md) with $\mathbf n$ gives $\mathbf n\cdot\mathbf r=\lambda+\mu+\nu$. The necessary and sufficient condition is therefore
+
+$$
+\boxed{\lambda+\mu+\nu=1.}
+$$
+
+These coefficients describe an [affine combination](../../../../../affine-combination.md) of the three vertices, or their [barycentric coordinate system](../../../../../barycentric-coordinate-system.md). Nonnegativity would additionally restrict the point to the triangle; it is not required for the whole plane.
+
+## ↑ Ancestors (13)
+
+1. [D](../d.md)
+2. [5](../../5.md)
+3. [Paper 1](../../../paper-1-split.md)
+4. [2006](../../../split.md)
+5. [Past exam of the mathematics course of the year 1 of the natural sciences course of the University of Cambridge](../../../../split.md)
+6. [Mathematics course of the year 1 of the natural sciences course of the University of Cambridge](../../../../../mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+7. [Year 1 of the natural sciences course of the University of Cambridge](../../../../../year-1-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+8. [Year of the natural sciences course of the University of Cambridge](../../../../../year-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+9. [Natural sciences course of the University of Cambridge](../../../../../natural-sciences-course-of-the-university-of-cambridge.md)
+10. [Course of the University of Cambridge](../../../../../course-of-the-university-of-cambridge.md)
+11. [University of Cambridge](../../../../../university-of-cambridge-split.md)
+12. [List of universities](../../../../../list-of-universities.md)
+13. [Codex Wiki](../../../../../split.md)

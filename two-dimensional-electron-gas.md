@@ -1,0 +1,62 @@
+# Two-dimensional electron gas
+
+↑ **Parent:** [Fermi gas](fermi-gas.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Two-dimensional_electron_gas)
+
+An [electron gas](electron-gas.md) confined in one spatial direction, with motion available in the other two. Its [electron](electron.md) number per unit [area](surface-area.md) is $n_s=N/A$. The ideal [Fermi gas](fermi-gas.md) approximation neglects interactions between [electrons](electron.md); an actual [two-dimensional electron gas](two-dimensional-electron-gas.md) can have important interactions. Confinement alone does not require a [magnetic field](magnetic-field-split.md) or [Landau levels](landau-level.md).
+
+**Table of contents**
+
+- [Top-gate density tuning](top-gate-density-tuning.md)
+- [Transverse magnetic focusing](transverse-magnetic-focusing.md)
+  - [Ballistic focusing mobility criterion](ballistic-focusing-mobility-criterion.md)
+- [Quantum point contact](quantum-point-contact.md)
+  - [Parallel-field splitting of quantum-point-contact steps](parallel-field-splitting-of-quantum-point-contact-steps.md)
+  - [Nonlinear conductance of a quantum point contact](nonlinear-conductance-of-a-quantum-point-contact.md)
+    - [Bias spectroscopy of one-dimensional subbands](bias-spectroscopy-of-one-dimensional-subbands.md)
+    - [Voltage partition in a ballistic constriction](voltage-partition-in-a-ballistic-constriction.md)
+    - [Half-integer channel plateaus from a symmetric bias window](half-integer-channel-plateaus-from-a-symmetric-bias-window.md)
+  - [Saddle-point model of a quantum point contact](saddle-point-model-of-a-quantum-point-contact.md)
+  - [Adiabatic electron collimation](adiabatic-electron-collimation.md)
+  - [Collinear quantum point contacts](collinear-quantum-point-contacts.md)
+  - [Split gate](split-gate.md)
+
+## ↑ Ancestors (7)
+
+1. [Fermi gas](fermi-gas.md)
+2. [Fermi-Dirac distribution](fermi-dirac-distribution.md)
+3. [Quantum ideal-gas statistics](quantum-ideal-gas-statistics-split.md)
+4. [Statistical physics](statistical-physics-split.md)
+5. [Branches of physics](branches-of-physics.md)
+6. [Physics](physics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (27)
+
+- [Collinear quantum point contacts](collinear-quantum-point-contacts.md)
+- [Electrostatically defined quantum dot](electrostatically-defined-quantum-dot.md)
+- [Filling factor (quantum Hall effect)](filling-factor-quantum-hall-effect.md)
+- [Modulation-doped GaAs-AlGaAs electron gas](modulation-doped-gaas-algaas-electron-gas.md)
+- [MOSFET](mosfet.md)
+- [Solution](past-exam-of-the-advanced-quantum-condensed-matter-physics-course-of-the-university-of-cambridge/2014/paper-1/2/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2018/paper-2/section-b/19/i/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2019/paper-2/section-b/21/iii/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2020/paper-2/section-b/20/iii/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2021/paper-2/section-b/20/i/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2021/paper-2/section-b/20/iii/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2022/paper-2/section-a-ii/16/i/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2023/paper-2/section-a-ii/15/iii/solution.md)
+- [Solution](past-exam-of-the-physics-of-nanoelectronic-systems-course-of-the-university-of-cambridge/2012/paper-1/1/solution.md)
+- [Solution](past-exam-of-the-physics-of-nanoelectronic-systems-course-of-the-university-of-cambridge/2015/paper-1/1/solution.md)
+- [Solution](past-exam-of-the-physics-of-nanoelectronic-systems-course-of-the-university-of-cambridge/2015/paper-1/2/solution.md)
+- [Solution](past-exam-of-the-physics-of-nanoelectronic-systems-course-of-the-university-of-cambridge/2016/paper-1/1/solution.md)
+- [Solution](past-exam-of-the-physics-of-nanoelectronic-systems-course-of-the-university-of-cambridge/2016/paper-1/2/solution.md)
+- [Solution](past-exam-of-the-physics-of-nanoelectronic-systems-course-of-the-university-of-cambridge/2016/paper-1/3/b/solution.md)
+- [Solution](past-exam-of-the-physics-of-nanoelectronic-systems-course-of-the-university-of-cambridge/2016/paper-1/3/c/solution.md)
+- [Quantized conductance of point contacts by B. J. van Wees and others](quantized-conductance-of-point-contacts-by-b-j-van-wees-and-others.md)
+- [Quantum Hall antidot](quantum-hall-antidot.md)
+- [Quantum Hall effect](quantum-hall-effect.md)
+- [Split gate](split-gate.md)
+- [Tsui-Störmer-Gossard fractional Hall experiment](tsui-stormer-gossard-fractional-hall-experiment.md)
+- [Two-dimensional electron gas](two-dimensional-electron-gas.md)
+- [von Klitzing-Dorda-Pepper quantum Hall experiment](von-klitzing-dorda-pepper-quantum-hall-experiment.md)

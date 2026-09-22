@@ -1,0 +1,60 @@
+# Well-order
+
+↑ **Parent:** [Total order](total-order.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Well-order)
+
+A well-order is a [total order](total-order.md) in which every nonempty subset has a least element.
+
+**Table of contents**
+
+- [Decidable well-order](decidable-well-order.md)
+
+## ↑ Ancestors (7)
+
+1. [Total order](total-order.md)
+2. [Set](set-split.md)
+3. [Set theory](set-theory-split.md)
+4. [Foundations of mathematics](foundations-of-mathematics-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (37)
+
+- [Choice preservation by well-ordered names](choice-preservation-by-well-ordered-names.md)
+- [Countable union of explicitly ordered finite lists without choice](countable-union-of-explicitly-ordered-finite-lists-without-choice.md)
+- [Decidable well-order](decidable-well-order.md)
+- [Dense order](dense-order.md)
+- [Finite ordinal](finite-ordinal.md)
+- [Increasing chain of countable sets](increasing-chain-of-countable-sets.md)
+- [Increasing enumeration of an infinite subset of natural numbers](increasing-enumeration-of-an-infinite-subset-of-natural-numbers.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-18/1/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-18/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-21/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-19/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-19/7/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-24/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-24/8/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-4/16h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-25/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-1/16g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ii/paper-3/16g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-2/16g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ii/paper-3/16h/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ii/paper-3/16h/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-19/5/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ii/paper-3/13i/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-120/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-121/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-121/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-121/2/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ia/paper-4/6d/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-2/14h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-121/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-3/16g/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-2/16i/solution.md)
+- [Relative constructible hierarchy](relative-constructible-hierarchy.md)
+- [Set of well-order codes](set-of-well-order-codes.md)
+- [Set-theoretic tree](set-theoretic-tree.md)
+- [Well-order code](well-order-code.md)
+- [Well-orders are not first-order axiomatizable](well-orders-are-not-first-order-axiomatizable.md)

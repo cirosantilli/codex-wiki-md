@@ -1,0 +1,63 @@
+# Invariant mass
+
+↑ **Parent:** [Energy–momentum relation](energy-momentum-relation.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Invariant_mass)
+
+Rest mass is the invariant mass $m$ in the [relativistic energy-momentum relation](energy-momentum-relation.md). It equals the energy measured in the particle's rest frame divided by $c^2$.
+
+**Table of contents**
+
+- [Diphoton invariant mass](diphoton-invariant-mass.md)
+  - [Correlated diphoton mass resolution](correlated-diphoton-mass-resolution.md)
+- [Cascade-decay invariant-mass endpoint](cascade-decay-invariant-mass-endpoint.md)
+  - [Complementary invariant masses in a sequential decay](complementary-invariant-masses-in-a-sequential-decay.md)
+
+## ↑ Ancestors (6)
+
+1. [Energy–momentum relation](energy-momentum-relation.md)
+2. [Four-momentum](four-momentum.md)
+3. [Special relativity](special-relativity-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (38)
+
+- [Brookhaven J pair-spectrometer experiment](brookhaven-j-pair-spectrometer-experiment.md)
+- [Cascade-decay invariant-mass endpoint](cascade-decay-invariant-mass-endpoint.md)
+- [Christenson-Cronin-Fitch-Turlay kaon CP violation experiment](christenson-cronin-fitch-turlay-kaon-cp-violation-experiment.md)
+- [Deep inelastic scattering](deep-inelastic-scattering.md)
+- [Diphoton invariant mass](diphoton-invariant-mass.md)
+- [Electron-induced pair-production threshold](electron-induced-pair-production-threshold.md)
+- [Fixed-x electron scattering kinematics](fixed-x-electron-scattering-kinematics.md)
+- [Higgs boson discovery in 2012](higgs-boson-discovery-in-2012.md)
+- [Invariant-mass resolution](invariant-mass-resolution.md)
+- [Invariant-mass selection of bubble-chamber events](invariant-mass-selection-of-bubble-chamber-events.md)
+- [Mass threshold after photon absorption](mass-threshold-after-photon-absorption.md)
+- [Missing four-momentum in electron-positron collisions](missing-four-momentum-in-electron-positron-collisions.md)
+- [Missing invariant mass](missing-invariant-mass.md)
+- [Omega baryon discovery experiment](omega-baryon-discovery-experiment.md)
+- [Pair mass versus collision energy](pair-mass-versus-collision-energy.md)
+- [Pair production](pair-production.md)
+- [Particle detection](particle-detection-split.md)
+- [Particle identification](particle-identification.md)
+- [Solution](past-exam-of-the-gauge-field-theory-course-of-the-university-of-cambridge/2013/paper-1/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ib/paper-1/4b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-48/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ia/paper-4/12c/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2012/paper-1/1/b/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2019/section-b/6/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2016/paper-1/section-a/a6/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2012/paper-1/section-b/b4/solution.md)
+- [Solution](past-exam-of-the-relativity-course-of-the-university-of-cambridge/2017/3/b/solution.md)
+- [Photon-photon pair production](photon-photon-pair-production.md)
+- [Relativistic three-body decay](relativistic-three-body-decay.md)
+- [Richter-Ting independent J/psi discovery experiments](richter-ting-independent-j-psi-discovery-experiments.md)
+- [Simulated two-track invariant-mass example](simulated-two-track-invariant-mass-example.md)
+- [Soft-photon resonant capture threshold](soft-photon-resonant-capture-threshold.md)
+- [Tau-pair electron-muon missing-energy signature](tau-pair-electron-muon-missing-energy-signature.md)
+- [Transverse mass](transverse-mass.md)
+- [Two-pion kaon event reconstruction](two-pion-kaon-event-reconstruction.md)
+- [UA2 experiment](ua2-experiment.md)
+- [W and Z discovery experiments](w-and-z-discovery-experiments.md)
+- [Z pair mass and W transverse-mass limits](z-pair-mass-and-w-transverse-mass-limits.md)

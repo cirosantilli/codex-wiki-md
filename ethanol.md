@@ -1,0 +1,48 @@
+# Ethanol
+
+↑ **Parent:** [Metabolism](metabolism.md)  
+🏷️ **Tags:** [Chemical compound](chemical-compound.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Ethanol)
+
+[Ethanol](ethanol.md) is the [chemical compound](chemical-compound.md) produced by the [alcoholic fermentation](ethanol-fermentation.md) described under [Saccharomyces cerevisiae](saccharomyces-cerevisiae.md). Its two [carbon](carbon.md) [chemical atoms](atom-physics.md) explain the product bookkeeping there. See [NIST Chemistry WebBook: ethanol formula and identity](https://webbook.nist.gov/cgi/cbook.cgi?ID=C64175&Mask=4); the Biology 2e section cited under [Saccharomyces cerevisiae](saccharomyces-cerevisiae.md) identifies [ethanol](ethanol.md) as the alcohol product.
+
+## ↑ Ancestors (3)
+
+1. [Metabolism](metabolism.md)
+2. [Biology](biology-split.md)
+3. [Codex Wiki](split.md)
+
+## ← Incoming links (32)
+
+- [Alcohol](alcohol.md)
+- [Cell-free fermentation as a biochemical experiment](cell-free-fermentation-as-a-biochemical-experiment.md)
+- [Conductometric determination of activation energy](conductometric-determination-of-activation-energy.md)
+- [Conductometric saponification assay](conductometric-saponification-assay.md)
+- [Ethanol](ethanol.md)
+- [Ethanol fermentation](ethanol-fermentation.md)
+- [Ethoxide](ethoxide.md)
+- [Ethyl acetate](ethyl-acetate.md)
+- [Ethyl triphenylmethyl ether](ethyl-triphenylmethyl-ether.md)
+- [Fermentation](fermentation.md)
+- [Flow cytometric DNA-content assay](flow-cytometric-dna-content-assay.md)
+- [Heat-engine calorimetry](heat-engine-calorimetry.md)
+- [HeLa culture viability experiment](hela-culture-viability-experiment.md)
+- [Nuclear DNA content](nuclear-dna-content.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-1/b1/b/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2021/paper-1/4/b/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2023/paper-1/2/a/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2023/paper-1/2/a/iii/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2023/paper-1/2/a/iv/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2023/paper-1/2/a/v/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2023/paper-1/3/d/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2025/3/a/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2025/3/a/ii/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2021/paper-1/2/i/solution.md)
+- [Solution](past-exam-of-the-soft-condensed-matter-course-of-the-university-of-cambridge/2016/paper-1/1/b/solution.md)
+- [Ruby calibration against sodium chloride](ruby-calibration-against-sodium-chloride.md)
+- [Saccharomyces cerevisiae](saccharomyces-cerevisiae.md)
+- [Saponification](saponification.md)
+- [Saponification with limiting hydroxide](saponification-with-limiting-hydroxide.md)
+- [Selective biochemical reaction pathways](selective-biochemical-reaction-pathways.md)
+- [Solvent](solvent.md)
+- [Yeast](yeast.md)

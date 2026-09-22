@@ -1,0 +1,92 @@
+# Quadratic covariation
+
+↑ **Parent:** [Quadratic variation](quadratic-variation.md)
+
+The quadratic covariation of two continuous semimartingales is the limit in probability
+
+$$
+[M,N]_t=\lim_{|\pi|\to0}\sum_{[u,v]\in\pi}(M_v-M_u)(N_v-N_u).
+$$
+
+The [polarization identity](polarization-identity.md) gives $[M,N]=\frac14([M+N]-[M-N])$.
+
+**Table of contents**
+
+- [Quadratic covariations of an analytic Brownian image](quadratic-covariations-of-an-analytic-brownian-image.md)
+- [Covariance identity for continuous square-integrable martingales](covariance-identity-for-continuous-square-integrable-martingales.md)
+- [Weakly orthogonal continuous martingales](weakly-orthogonal-continuous-martingales.md)
+- [Orthogonal continuous local martingales](orthogonal-continuous-local-martingales.md)
+  - [Knight theorem for orthogonal martingales](knight-theorem-for-orthogonal-martingales.md)
+  - [Complex exponential of two orthogonal Brownian motions](complex-exponential-of-two-orthogonal-brownian-motions.md)
+- [Quadratic covariation under an absolutely continuous measure change](quadratic-covariation-under-an-absolutely-continuous-measure-change.md)
+  - [Quadratic variation under an absolutely continuous measure change](quadratic-variation-under-an-absolutely-continuous-measure-change.md)
+- [Martingale product identity](martingale-product-identity.md)
+- [Kunita-Watanabe inequality](kunita-watanabe-inequality.md)
+- [Realized absolute covariation](realized-absolute-covariation.md)
+
+## ↑ Ancestors (8)
+
+1. [Quadratic variation](quadratic-variation.md)
+2. [Stochastic calculus](stochastic-calculus-split.md)
+3. [Stochastic process](stochastic-process-split.md)
+4. [Probability theory](probability-theory-split.md)
+5. [Probability and statistics](probability-and-statistics-split.md)
+6. [Area of mathematics](area-of-mathematics.md)
+7. [Mathematics](mathematics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (53)
+
+- [Complex exponential of two orthogonal Brownian motions](complex-exponential-of-two-orthogonal-brownian-motions.md)
+- [Cosine-exponential Brownian local martingale](cosine-exponential-brownian-local-martingale.md)
+- [Derivative-weighted call delta martingale](derivative-weighted-call-delta-martingale.md)
+- [Itô product rule](ito-product-rule.md)
+- [Kunita-Watanabe inequality](kunita-watanabe-inequality.md)
+- [Lévy characterization of multidimensional Brownian motion](levy-characterization-of-multidimensional-brownian-motion.md)
+- [Martingale problem for Brownian motion](martingale-problem-for-brownian-motion.md)
+- [Orthogonal continuous local martingales](orthogonal-continuous-local-martingales.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-33/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-30/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-30/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-30/5/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-38/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-38/2/a/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-48/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-36/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-36/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-42/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-42/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-29/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-32/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-39/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-29/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-29/5/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-44/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-25/5/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-39/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-40/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-40/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-27/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-27/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-38/6/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-202/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-202/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-202/4/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-203/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-209/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-211/6/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-202/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-202/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-202/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-202/2/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-202/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-202/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-202/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-202/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-202/6/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-202/6/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-202/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-202/2/c/i/solution.md)
+- [Quadratic covariation under an absolutely continuous measure change](quadratic-covariation-under-an-absolutely-continuous-measure-change.md)
+- [Quadratic covariations of an analytic Brownian image](quadratic-covariations-of-an-analytic-brownian-image.md)
+- [Stratonovich integral](stratonovich-integral.md)

@@ -1,0 +1,60 @@
+# Phosphorus
+
+↑ **Parent:** [Chemical element](chemical-element.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Phosphorus)
+
+The [chemical element](chemical-element.md) with [atomic number](atomic-number.md) fifteen.
+
+**Table of contents**
+
+- [White phosphorus](white-phosphorus.md)
+
+## ↑ Ancestors (4)
+
+1. [Chemical element](chemical-element.md)
+2. [Chemical substance](chemical-substance-split.md)
+3. [Chemistry](chemistry-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (40)
+
+- [1,2-Bis(dimethylphosphino)ethane](1-2-bis-dimethylphosphino-ethane.md)
+- [Allenyl phosphine oxide](allenyl-phosphine-oxide.md)
+- [Effects of HMPA on the Structure and Reactivity of the Lithium Enolate of Cyclopentanone in THF: The Dimer is Responsible for Alkylation and Proton Exchange Reactions by Masaaki Suzuki and others](effects-of-hmpa-on-the-structure-and-reactivity-of-the-lithium-enolate-of-cyclopentanone-in-thf-the-dimer-is-responsible-for-alkylation-and-proton-exchange-reactions-by-masaaki-suzuki-and-others.md)
+- [Energy flow (ecology)](energy-flow-ecology.md)
+- [Ligand-dependent membrane phosphorylation experiment](ligand-dependent-membrane-phosphorylation-experiment.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2021/paper-1/b3/a/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2022/paper-2/b9/a/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2022/paper-2/b9/a/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2022/paper-2/b9/a/iii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2022/paper-2/b9/d/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2022/paper-2/b9/e/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-1/b3/a/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-2/b7/b/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-2/b7/b/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-2/b9/a/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-2/b9/c/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2024/paper-1/b2/c/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2024/paper-2/b6/b/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2024/paper-2/b6/b/iii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2024/paper-2/b7/a/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2025/6/a/iii/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2025/6/b/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-3-of-the-natural-sciences-course-of-the-university-of-cambridge/2021/paper-1/11/b/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-3-of-the-natural-sciences-course-of-the-university-of-cambridge/2021/paper-1/9/c/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2020/paper-1/section-b/9/i/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2020/paper-1/section-b/9/iii/a/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2020/paper-1/section-b/9/iii/b/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2021/paper-1/8/i/a/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2021/paper-1/8/i/b/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2021/paper-1/8/i/c/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2021/paper-1/8/ii/a/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2022/paper-1/section-b/9/i/b/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2013/3/solution.md)
+- [Periodic table](periodic-table.md)
+- [Phosphine oxide](phosphine-oxide.md)
+- [Phosphite ligand](phosphite-ligand.md)
+- [Ribozyme](ribozyme.md)
+- [Trifluorophosphine](trifluorophosphine.md)
+- [Trimetaphosphate](trimetaphosphate.md)
+- [Triphenyl phosphite](triphenyl-phosphite.md)

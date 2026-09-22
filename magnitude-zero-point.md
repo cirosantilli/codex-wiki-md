@@ -1,0 +1,32 @@
+# Magnitude zero point
+
+↑ **Parent:** [Apparent magnitude](apparent-magnitude.md)
+
+A magnitude zero point fixes the reference measurement $I_0$ in a specified [photometric passband](photometric-passband.md). Relative to a zero-magnitude reference, the [apparent magnitude](apparent-magnitude.md) is $m=-2.5\log_{10}(I/I_0)$. Both measurements must use the same passband and calibration convention.
+
+## ↑ Ancestors (6)
+
+1. [Apparent magnitude](apparent-magnitude.md)
+2. [Astronomical magnitude](astronomical-magnitude.md)
+3. [Astrophysics](astrophysics-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (15)
+
+- [Absolute magnitude](absolute-magnitude.md)
+- [Apparent magnitude](apparent-magnitude.md)
+- [Astronomical magnitude](astronomical-magnitude.md)
+- [Color index](color-index.md)
+- [Distance modulus](distance-modulus.md)
+- [K correction](k-correction.md)
+- [Light curve](light-curve.md)
+- [Magnitude difference](magnitude-difference.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-338/1/c/i/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2015/paper-1/section-a/4/solution.md)
+- [Phase folding of a light curve](phase-folding-of-a-light-curve.md)
+- [Photometric magnitude uncertainty](photometric-magnitude-uncertainty.md)
+- [Photometric system](photometric-system.md)
+- [Supernova calibration and population tests](supernova-calibration-and-population-tests.md)
+- [Supernova discovery of accelerating expansion](supernova-discovery-of-accelerating-expansion.md)

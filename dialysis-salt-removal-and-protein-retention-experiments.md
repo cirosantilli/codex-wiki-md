@@ -1,0 +1,16 @@
+# Dialysis salt-removal and protein-retention experiments
+
+↑ **Parent:** [Dialysis (biochemistry)](dialysis-biochemistry.md)
+
+The manufacturer-issued Protein Preparation Handbook reports a paired [dialysis](dialysis-biochemistry.md) comparison: $2\,\mathrm{mL}$ of [bovine serum albumin](bovine-serum-albumin.md), $0.25\,\mathrm{mg/mL}$ in $1\,\mathrm M$ [sodium chloride](sodium-chloride.md), was held behind a $10\,\mathrm{kDa}$ [MWCO](molecular-weight-cut-off.md) membrane against $45\,\mathrm{mL}$ of [water](water.md) in a conical tube, shaken at room [temperature](temperature-split.md). The bath was replaced after two hours. A conventional stirred-beaker treatment against $2\,\mathrm L$ of [water](water.md) supplied the comparison control. Residual [salt](salt-chemistry.md) was followed by sample [electrical conductivity](electrical-conductivity.md); results averaged two samples. This readout tests small-[ion](ion.md) removal, not [protein](protein-split.md) retention.[Protein Preparation Handbook, printed p. 11, Figure 9A and caption: sample preparation, 10K membrane, baths, conductivity and conventional-dialysis reference](protein-preparation-handbook-thermo-fisher-scientific.md)
+
+Its separate retention experiment used individual [proteins](protein-split.md) at $1\,\mathrm{mg/mL}$ in saline or carbonate-bicarbonate [buffer solution](buffer-solution.md), [pH](ph.md) $9.4$, with membranes rated $2$, $3.5$, $7$, $10$ and $20\,\mathrm{kDa}$. After seventeen hours at $4\,\mathrm{{}^{\circ}C}$, retained [protein](protein-split.md) was estimated by a [bicinchoninic acid assay](bicinchoninic-acid-assay.md). The size series and membrane series compare retention; they do not isolate shape independently of [mass](mass.md). The figure caption supplies neither a no-membrane recovery control nor a complete uncertainty analysis. These are manufacturer comparisons, not proof of universal recovery or unchanged [enzyme](enzyme-split.md) function.[Protein Preparation Handbook, printed p. 11, Figure 8 and caption: membrane series, preparation, duration, temperature and protein assay; the separately plotted vitamin B12 uses a different optical readout](protein-preparation-handbook-thermo-fisher-scientific.md)
+
+The two experiments answer complementary questions: did the small [solute](solute.md) leave, and did the desired [macromolecule](macromolecule.md) remain? In a new experiment, a bath blank and a starting [salt](salt-chemistry.md) standard would help interpret [electrical conductivity](electrical-conductivity.md), while a matched undialyzed [protein](protein-split.md) aliquot and recovered [volume](volume-thermodynamics.md) would help distinguish handling loss from dilution. Those are proposed additional controls, not controls claimed for the published figures. Other [ions](ion.md) also contribute to [electrical conductivity](electrical-conductivity.md), so the readout cannot generally identify [sodium chloride](sodium-chloride.md) alone in an unfamiliar [buffer solution](buffer-solution.md).
+
+## ↑ Ancestors (4)
+
+1. [Dialysis (biochemistry)](dialysis-biochemistry.md)
+2. [Biochemistry](biochemistry-split.md)
+3. [Chemistry](chemistry-split.md)
+4. [Codex Wiki](split.md)

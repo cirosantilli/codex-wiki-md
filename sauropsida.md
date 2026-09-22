@@ -1,0 +1,60 @@
+# Sauropsida
+
+↑ **Parent:** [Amniote](amniote.md)
+
+The reptile-side [amniote](amniote.md) lineage, including [birds](bird.md). A traditional assemblage excluding [birds](bird.md) does not contain all of this ancestry’s descendants.
+
+**Table of contents**
+
+- [Eunotosaurus](eunotosaurus.md)
+- [Diapsida](diapsida.md)
+  - [Lizard](lizard.md)
+  - [Turtle](turtle.md)
+    - [Pappochelys](pappochelys.md)
+  - [Archosauria](archosauria.md)
+    - [Pterosaur](pterosaur.md)
+    - [Panaves](panaves.md)
+    - [Dinosaur](dinosaur.md)
+      - [Theropod dinosaur](theropod-dinosaur.md)
+        - [Avialae](avialae.md)
+        - [Yutyrannus](yutyrannus.md)
+        - [Bird](bird.md)
+          - [Janavis finalidens](janavis-finalidens.md)
+          - [Ichthyornis](ichthyornis.md)
+          - [Archaeopteryx](archaeopteryx.md)
+          - [Aves](aves.md)
+            - [Neognathae](neognathae.md)
+              - [Sparrow](sparrow.md)
+              - [Galloanserae](galloanserae.md)
+                - [Waterfowl](waterfowl.md)
+                - [Landfowl](landfowl.md)
+            - [Palaeognathae](palaeognathae.md)
+              - [Tinamou](tinamou.md)
+              - [Ostrich](ostrich.md)
+          - [Great tit](great-tit.md)
+          - [Scrub jay](scrub-jay.md)
+          - [Raven](raven.md)
+          - [Darwin's finches](darwin-s-finches.md)
+            - [Geospiza conirostris](geospiza-conirostris.md)
+            - [Geospiza fortis](geospiza-fortis.md)
+          - [Barn owl](barn-owl.md)
+          - [Fork-tailed drongo](fork-tailed-drongo.md)
+    - [Crocodilian](crocodilian.md)
+  - [Lepidosaur](lepidosaur.md)
+    - [Tuatara](tuatara.md)
+- [Reptilia](reptilia.md)
+
+## ↑ Ancestors (8)
+
+1. [Amniote](amniote.md)
+2. [Tetrapod](tetrapod.md)
+3. [Vertebrate](vertebrate.md)
+4. [Animal](animal.md)
+5. [Eukaryote](eukaryote.md)
+6. [Organism](organism-split.md)
+7. [Biology](biology-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (1)
+
+- [Solution](past-exam-of-the-zoology-course-of-the-university-of-cambridge/2025/paper-zm1/4/solution.md)

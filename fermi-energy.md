@@ -1,0 +1,153 @@
+# Fermi energy
+
+↑ **Parent:** [Fermi gas](fermi-gas.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Fermi_energy)
+
+The Fermi energy is the highest occupied one-particle [energy](energy-split.md) in the [ground state](ground-state.md) of a noninteracting [Fermi gas](fermi-gas.md) at zero [temperature](temperature-split.md), measured here relative to the lowest one-particle [energy](energy-split.md). The [Pauli exclusion principle](pauli-exclusion-principle.md) allows only one [fermion](fermion.md) in each complete one-particle [quantum state](quantum-state.md), including its [spin](spin.md), so adding more particles fills progressively higher [energy eigenstates](energy-eigenstate.md). A cold gas can therefore have substantial [kinetic energy](kinetic-energy.md) even when its [temperature](temperature-split.md) is zero. In the [thermodynamic limit](thermodynamic-limit.md), with the same [energy](energy-split.md) reference, $E_F=\mu(T=0)$ where $\mu$ is the [chemical potential](chemical-potential-split.md).[Statistical Physics by David Tong; §3.6.2, equation (3.130), zero-temperature filling](statistical-physics-by-david-tong/3-quantum-gases.md)
+
+For a uniform, three-dimensional gas of noninteracting [electrons](electron.md), with [spin one-half](spin-one-half.md), equal populations of the two [spin](spin.md) states, no applied [magnetic field](magnetic-field-split.md), and [nonrelativistic particles](nonrelativistic-particle.md) of [mass](mass.md) $m=m_e$,
+
+$$
+n=\frac NV,\qquad
+p_F=\hbar(3\pi^2n)^{1/3},\qquad
+E_F=\frac{p_F^2}{2m}=\frac{\hbar^2}{2m}(3\pi^2n)^{2/3},\qquad
+T_F=\frac{E_F}{k_B}.
+$$
+
+Here $n$ is the total [number density](number-density.md), $V$ the [volume](volume.md), $p_F$ the [Fermi momentum](fermi-momentum.md), $\hbar=h/(2\pi)$ the reduced [Planck constant](planck-constant.md), and $k_B$ the [Boltzmann constant](boltzmann-constant.md). The [electron Fermi temperature](electron-fermi-temperature.md) $T_F$ expresses the same [energy](energy-split.md) scale in [kelvin](kelvin.md); it is not the actual gas [temperature](temperature-split.md). Strong degeneracy of a [degenerate electron gas](degenerate-electron-gas.md) means $T\ll T_F$. The [momentum](momentum-split.md) formula counts states and survives changing the [energy–momentum relation](energy-momentum-relation.md), whereas $E_F=p_F^2/(2m)$ requires $p_F\ll mc$.[Richard Fitzpatrick, Degenerate Electron Gases, equations (506)–(509), two spin states and density dependence](degenerate-electron-gases-by-richard-fitzpatrick.md)
+
+The reference matters: the displayed $E_F$ excludes rest [energy](energy-split.md) and sets the zero at $p=0$. Including rest [energy](energy-split.md) shifts both the one-particle [energy](energy-split.md) and the zero-temperature [chemical potential](chemical-potential-split.md) by $mc^2$, leaving occupations unchanged. More generally, adding a constant $C$ to every one-particle [energy](energy-split.md) also adds $C$ to $\mu$; the [Fermi-Dirac distribution](fermi-dirac-distribution.md) depends only on their difference. In a finite [quantum system](quantum-system-split.md) the [chemical potential](chemical-potential-split.md) at zero [temperature](temperature-split.md) can lie between the last occupied and first empty [energy eigenstates](energy-eigenstate.md); its equality with the filling edge is a continuum statement.
+
+At positive [temperature](temperature-split.md), $E_F$ remains the zero-temperature scale associated with the specified [number density](number-density.md). The [Fermi level](fermi-level.md) $\mu(T)$ must instead satisfy the particle-number condition
+
+$$
+N=\int_0^\infty\frac{g(E)}{\exp[(E-\mu(T))/(k_BT)]+1}\,dE,
+$$
+
+where $g(E)$ is the extensive [density of states](density-of-states.md), including both [spin](spin.md) states. Smearing the [Fermi-Dirac distribution](fermi-dirac-distribution.md) while arbitrarily holding $\mu=E_F$ generally changes $N$. This distinction matters when interpreting [electron heat capacity](electron-heat-capacity.md) and any experiment that infers [temperature](temperature-split.md) from an occupation profile.[Statistical Physics by David Tong; §§3.6.1–3.6.4, equation (3.127) fixes particle number, and finite-temperature chemical potential is determined separately](statistical-physics-by-david-tong/3-quantum-gases.md)
+
+**Table of contents**
+
+- [Fermi temperature](fermi-temperature.md)
+- [Fermi energy of a model electron gas](fermi-energy-of-a-model-electron-gas.md)
+- [Electron Fermi temperature](electron-fermi-temperature.md)
+- [Fermi momentum](fermi-momentum.md)
+  - [Fermi velocity](fermi-velocity.md)
+  - [Fermi wavevector](fermi-wavevector.md)
+    - [Fermi wavelength](fermi-wavelength.md)
+- [Fermi sea](fermi-sea.md)
+  - [Three-dimensional free-electron density of states](three-dimensional-free-electron-density-of-states.md)
+- [Observation of Fermi pressure in trapped lithium](observation-of-fermi-pressure-in-trapped-lithium.md)
+
+## ↑ Ancestors (7)
+
+1. [Fermi gas](fermi-gas.md)
+2. [Fermi-Dirac distribution](fermi-dirac-distribution.md)
+3. [Quantum ideal-gas statistics](quantum-ideal-gas-statistics-split.md)
+4. [Statistical physics](statistical-physics-split.md)
+5. [Branches of physics](branches-of-physics.md)
+6. [Physics](physics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (100)
+
+- [Angle-resolved photoemission spectroscopy](angle-resolved-photoemission-spectroscopy.md)
+- [Band edges of a repulsive delta-comb potential](band-edges-of-a-repulsive-delta-comb-potential.md)
+- [Band insulator](band-insulator.md)
+- [BCS electronic density of states](bcs-electronic-density-of-states.md)
+- [Carrier density in a graphene cone](carrier-density-in-a-graphene-cone.md)
+- [Coulomb-to-kinetic energy ratio of an electron gas](coulomb-to-kinetic-energy-ratio-of-an-electron-gas.md)
+- [de Haas-van Alphen effect](de-haas-van-alphen-effect.md)
+- [Degenerate electron gas](degenerate-electron-gas.md)
+- [Density crossover of a fixed-coupling BCS cutoff model](density-crossover-of-a-fixed-coupling-bcs-cutoff-model.md)
+- [Electronic and lattice heat-capacity crossover in a monovalent metal](electronic-and-lattice-heat-capacity-crossover-in-a-monovalent-metal.md)
+- [Electronic heat capacity](electronic-heat-capacity.md)
+- [Electrostatic screening](electrostatic-screening.md)
+- [Fermi contour](fermi-contour.md)
+- [Fermi contours of an isotropic Rashba band](fermi-contours-of-an-isotropic-rashba-band.md)
+- [Fermi-edge heat-capacity counting](fermi-edge-heat-capacity-counting.md)
+- [Fermi energy of a model electron gas](fermi-energy-of-a-model-electron-gas.md)
+- [Fermi level](fermi-level.md)
+- [Fermi sea](fermi-sea.md)
+- [Fermi temperature](fermi-temperature.md)
+- [Fermi-window convolution of the grand potential](fermi-window-convolution-of-the-grand-potential.md)
+- [Fixed-number low-temperature Pauli susceptibility](fixed-number-low-temperature-pauli-susceptibility.md)
+- [Gate control of graphene carrier density](gate-control-of-graphene-carrier-density.md)
+- [Geometrical thickness of a white-dwarf radiative envelope](geometrical-thickness-of-a-white-dwarf-radiative-envelope.md)
+- [Linear low-temperature heat capacity of a two-dimensional Fermi gas](linear-low-temperature-heat-capacity-of-a-two-dimensional-fermi-gas.md)
+- [Low-temperature heat capacity of a three-dimensional Fermi gas](low-temperature-heat-capacity-of-a-three-dimensional-fermi-gas.md)
+- [Mean energy of a two-dimensional Fermi gas](mean-energy-of-a-two-dimensional-fermi-gas.md)
+- [Mobility edge](mobility-edge.md)
+- [Observation of Fermi pressure in trapped lithium](observation-of-fermi-pressure-in-trapped-lithium.md)
+- [Solution](past-exam-of-the-advanced-quantum-condensed-matter-physics-course-of-the-university-of-cambridge/2013/paper-1/1/solution.md)
+- [Solution](past-exam-of-the-advanced-quantum-physics-course-of-the-university-of-cambridge/2017/2/b/solution.md)
+- [Solution](past-exam-of-the-chemistry-a-course-of-the-university-of-cambridge/2021/paper-2/a9/a/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-a-course-of-the-university-of-cambridge/2021/paper-2/a9/a/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-a-course-of-the-university-of-cambridge/2024/paper-2/a9/e/solution.md)
+- [Solution](past-exam-of-the-chemistry-a-course-of-the-university-of-cambridge/2025/paper-2/a9/d/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-1/2/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-3/34d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-3/10d/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-3/34d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ii/paper-3/34e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-317/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ii/paper-3/35a/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ii/paper-3/35a/b/ii/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2021/paper-2/section-b/20/iii/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2022/paper-2/section-a-ii/16/iii/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2023/paper-2/section-a-i/13/i/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2023/paper-2/section-a-ii/15/iii/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2023/paper-2/section-a-ii/16/i/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2016/paper-1/2/b/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2011/paper-1/section-c/c11/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2011/paper-2/section-c/c10/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2013/paper-2/section-c/c10/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2015/paper-2/section-c/c10/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2016/paper-2/section-d/d13/a/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2018/paper-2/section-c/c10/b/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2018/paper-2/section-c/c10/d/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2018/paper-2/section-c/c10/e/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2019/paper-2/section-c/c11/a/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2019/paper-2/section-c/c11/d/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2019/paper-2/section-d/d13/b/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2021/paper-2/section-d/d9/a/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2022/paper-2/section-c/c8/c/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2022/paper-2/section-c/c8/f/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2012/paper-1/section-a/a7/solution.md)
+- [Solution](past-exam-of-the-physics-of-nanoelectronic-systems-course-of-the-university-of-cambridge/2012/paper-1/1/solution.md)
+- [Solution](past-exam-of-the-physics-of-nanoelectronic-systems-course-of-the-university-of-cambridge/2013/paper-1/1/a/solution.md)
+- [Solution](past-exam-of-the-physics-of-nanoelectronic-systems-course-of-the-university-of-cambridge/2013/paper-1/1/b/solution.md)
+- [Solution](past-exam-of-the-physics-of-nanoelectronic-systems-course-of-the-university-of-cambridge/2013/paper-1/1/solution.md)
+- [Solution](past-exam-of-the-physics-of-nanoelectronic-systems-course-of-the-university-of-cambridge/2013/paper-1/3/b/solution.md)
+- [Solution](past-exam-of-the-physics-of-nanoelectronic-systems-course-of-the-university-of-cambridge/2015/paper-1/2/solution.md)
+- [Solution](past-exam-of-the-physics-of-nanoelectronic-systems-course-of-the-university-of-cambridge/2015/paper-1/3/a/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2004/section-a/4/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2008/section-b/b4/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2009/section-b/b2/a/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2009/section-b/b2/b/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2009/section-b/b3/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2009/section-b/b4/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2012/2/c/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2013/2/a/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2014/1/c/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2014/3/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2016/2/c/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2017/2/a/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2017/4/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2018/section-b/b4/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2019/section-b/5/b/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2021/section-b/5/a/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2022/section-a/3/solution.md)
+- [Solution](past-exam-of-the-superconductivity-and-quantum-coherence-course-of-the-university-of-cambridge/2014/paper-1/3/solution.md)
+- [Solution](past-exam-of-the-thermal-and-statistical-physics-course-of-the-university-of-cambridge/2014/paper-1/2/c/solution.md)
+- [Solution](past-exam-of-the-thermal-and-statistical-physics-course-of-the-university-of-cambridge/2015/paper-1/2/c/solution.md)
+- [Solution](past-exam-of-the-thermal-and-statistical-physics-course-of-the-university-of-cambridge/2016/paper-1/1/c/solution.md)
+- [Solution](past-exam-of-the-thermal-and-statistical-physics-course-of-the-university-of-cambridge/2019/section-b/6/solution.md)
+- [Peierls transition](peierls-transition.md)
+- [Quantum capacitance](quantum-capacitance.md)
+- [Quantum oscillation](quantum-oscillation.md)
+- [Shubnikov-de Haas effect](shubnikov-de-haas-effect.md)
+- [Spin normalization in two-dimensional free-electron state counting](spin-normalization-in-two-dimensional-free-electron-state-counting.md)
+- [Spin separation at a smooth quantum Hall edge](spin-separation-at-a-smooth-quantum-hall-edge.md)
+- [Thermal-shell estimate of electronic heat capacity](thermal-shell-estimate-of-electronic-heat-capacity.md)
+- [Two-wave estimate of a Bragg-gap coupling from a pocket area](two-wave-estimate-of-a-bragg-gap-coupling-from-a-pocket-area.md)

@@ -1,0 +1,65 @@
+# Circular cylinder
+
+↑ **Parent:** [Surface of revolution](surface-of-revolution.md)
+
+A circular cylinder of radius $R$ has [principal curvatures](principal-curvature.md) $0$ and $\pm1/R$, according to orientation. Hence $K=0$ and $|H|=1/(2R)$.
+
+This is the circular generating-curve case of a [Cylinder](cylinder-geometry.md); the curvature formulas here refer to its lateral surface.
+
+**Table of contents**
+
+- [Intrinsic flatness of a circular cylinder](intrinsic-flatness-of-a-circular-cylinder.md)
+  - [Geodesics on a circular cylinder](geodesics-on-a-circular-cylinder.md)
+    - [Shortest path on a circular cylinder](shortest-path-on-a-circular-cylinder.md)
+
+## ↑ Ancestors (6)
+
+1. [Surface of revolution](surface-of-revolution.md)
+2. [Differential geometry](differential-geometry-split.md)
+3. [Geometry and topology](geometry-and-topology-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (40)
+
+- [Added mass of a circular cylinder](added-mass-of-a-circular-cylinder.md)
+- [Cylinder (geometry)](cylinder-geometry.md)
+- [Differential geometry](differential-geometry-split.md)
+- [Differential geometry of surfaces](differential-geometry-of-surfaces.md)
+- [First fundamental form](first-fundamental-form.md)
+- [Gaussian curvature](gaussian-curvature.md)
+- [Geodesic](geodesic.md)
+- [Geodesics on a circular cylinder](geodesics-on-a-circular-cylinder.md)
+- [Induced metric](induced-metric.md)
+- [Intrinsic flatness of a circular cylinder](intrinsic-flatness-of-a-circular-cylinder.md)
+- [Line element](line-element.md)
+- [Maximum-area cylinder inscribed in a sphere](maximum-area-cylinder-inscribed-in-a-sphere.md)
+- [Mean curvature](mean-curvature.md)
+- [Mean curvature of a sphere and cylinder](mean-curvature-of-a-sphere-and-cylinder.md)
+- [Optimal aspect ratios of closed cylinders](optimal-aspect-ratios-of-closed-cylinders.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-56/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ia/paper-1/5b/i/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ia/paper-3/9c/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ib/paper-3/2g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/ib/paper-4/15f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ia/paper-3/9a/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ia/paper-3/9a/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-3/6c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ib/paper-3/6d/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-4/25i/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-4/25h/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-3/25g/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2001/paper-2/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2019/paper-2/19/a/solution.md)
+- [Principal curvature](principal-curvature.md)
+- [Riemannian distance](riemannian-distance.md)
+- [Riemannian distance on a circular cylinder](riemannian-distance-on-a-circular-cylinder.md)
+- [Riemannian geometry](riemannian-geometry-split.md)
+- [Riemannian metric](riemannian-metric-split.md)
+- [Shape operator](shape-operator.md)
+- [Shortest path on a circular cylinder](shortest-path-on-a-circular-cylinder.md)
+- [Solenoid](solenoid.md)
+- [Theorema Egregium](theorema-egregium.md)
+- [Uniformly magnetized cylinder](uniformly-magnetized-cylinder.md)
+- [Untwisted band](untwisted-band.md)

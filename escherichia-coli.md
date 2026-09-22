@@ -1,0 +1,56 @@
+# Escherichia coli
+
+↑ **Parent:** [Bacteria](bacteria.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Escherichia_coli)
+
+[Escherichia coli](escherichia-coli.md), often abbreviated [E. coli](escherichia-coli.md), is a bacterial [species](species.md) widely used to study [DNA replication](dna-replication.md) and [gene expression](gene-expression.md). Its [chromosome](chromosome.md) is in a [nucleoid](nucleoid.md), and its [ribosomes](ribosome.md) work in the [cytoplasm](cytoplasm.md), outside any [cell nucleus](cell-nucleus.md). A result from one laboratory strain should not automatically be generalized to every member of the [species](species.md).
+
+The original 1997 report by Blattner and colleagues presented the K-12 MG1655 [genome](genome.md) sequence as a circular [chromosome](chromosome.md) of $4{,}639{,}221$ [base pairs](base-pair.md). See [Blattner laboratory: original K-12 sequence and 1997 paper](https://www.genome.wisc.edu/sequencing/U00096.1.htm). As a bookkeeping example, one complete round of [DNA replication](dna-replication.md) from one such [chromosome](chromosome.md) produces two daughter sequence copies totaling $2\times4{,}639{,}221=9{,}278{,}442$ [base pairs](base-pair.md). This is twice the copied material, not twice the length of the reference [genome](genome.md); it does not specify the instantaneous [DNA](deoxyribonucleic-acid.md) content of a rapidly growing [E. coli](escherichia-coli.md) cell.
+
+## ↑ Ancestors (5)
+
+1. [Bacteria](bacteria.md)
+2. [Prokaryote](prokaryote.md)
+3. [Organism](organism-split.md)
+4. [Biology](biology-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (37)
+
+- [1973 plasmid construction experiment](1973-plasmid-construction-experiment.md)
+- [Bacteria](bacteria.md)
+- [Chemotaxis feedback regulation](chemotaxis-feedback-regulation.md)
+- [CheY](chey.md)
+- [Coupled-enzyme readout of glycolytic ATP formation](coupled-enzyme-readout-of-glycolytic-atp-formation.md)
+- [DNA replication](dna-replication.md)
+- [Escherichia coli](escherichia-coli.md)
+- [Evolution](evolution.md)
+- [FRET proximity readout experiment](fret-proximity-readout-experiment.md)
+- [Homeoviscous adaptation](homeoviscous-adaptation.md)
+- [Isopycnic centrifugation](isopycnic-centrifugation.md)
+- [Lac operon](lac-operon.md)
+- [Lactose permease](lactose-permease.md)
+- [Lederberg replica plating experiment](lederberg-replica-plating-experiment.md)
+- [Luria-Delbrück experiment](luria-delbruck-experiment.md)
+- [Negative feedback](negative-feedback.md)
+- [Nirenberg and Matthaei experiment](nirenberg-and-matthaei-experiment.md)
+- [Organism](organism-split.md)
+- [Solution](past-exam-of-the-biochemistry-and-molecular-biology-course-of-the-university-of-cambridge/2024/paper-1/section-a/3/solution.md)
+- [Solution](past-exam-of-the-biochemistry-and-molecular-biology-course-of-the-university-of-cambridge/2024/paper-1/section-e/14/solution.md)
+- [Solution](past-exam-of-the-biochemistry-and-molecular-biology-course-of-the-university-of-cambridge/2025/paper-1/section-a/1/solution.md)
+- [Solution](past-exam-of-the-biochemistry-and-molecular-biology-course-of-the-university-of-cambridge/2025/paper-1/section-a/3/solution.md)
+- [Solution](past-exam-of-the-biochemistry-and-molecular-biology-course-of-the-university-of-cambridge/2025/paper-1/section-e/15/solution.md)
+- [Solution](past-exam-of-the-biochemistry-course-of-the-university-of-cambridge/2024/paper-1/section-ii/4/solution.md)
+- [Solution](past-exam-of-the-biochemistry-course-of-the-university-of-cambridge/2024/paper-3/section-ii/6/solution.md)
+- [Solution](past-exam-of-the-biochemistry-course-of-the-university-of-cambridge/2025/paper-1/section-ii/7/solution.md)
+- [Solution](past-exam-of-the-biochemistry-course-of-the-university-of-cambridge/2025/paper-2/section-ii/6/solution.md)
+- [Solution](past-exam-of-the-biochemistry-course-of-the-university-of-cambridge/2025/paper-3/section-ii/4/solution.md)
+- [Solution](past-exam-of-the-biochemistry-course-of-the-university-of-cambridge/2025/paper-5/section-1/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematical-and-computational-biology-course-of-the-university-of-cambridge/2025/paper-2/7/e/solution.md)
+- [Solution](past-exam-of-the-systems-biology-course-of-the-university-of-cambridge/2024/paper-1/section-ii/2-1/solution.md)
+- [Prokaryote](prokaryote.md)
+- [RelA](rela.md)
+- [Single-molecule observation of F1 rotation](single-molecule-observation-of-f1-rotation.md)
+- [Species](species.md)
+- [Species, populations and strains](species-populations-and-strains.md)
+- [Unicellular organism](unicellular-organism.md)

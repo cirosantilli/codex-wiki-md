@@ -1,0 +1,61 @@
+# Mantle convection
+
+↑ **Parent:** [Solid Earth](solid-earth.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Mantle_convection)
+
+Mantle convection is the slow buoyancy-driven motion of a rocky planetary mantle. On geological timescales the solid mantle behaves as a highly viscous [Newtonian fluid](newtonian-fluid.md) to first approximation.
+
+**Table of contents**
+
+- [Coupled thermal histories of layered mantle convection](coupled-thermal-histories-of-layered-mantle-convection.md)
+- [Flux-driven convective layer cooling](flux-driven-convective-layer-cooling.md)
+- [Dynamic topography](dynamic-topography.md)
+- [Plate tectonics](plate-tectonics.md)
+  - [Geological fault](geological-fault.md)
+    - [Dip-slip faulting](dip-slip-faulting.md)
+      - [Reverse faulting](reverse-faulting.md)
+      - [Normal faulting](normal-faulting.md)
+    - [Oblique-slip faulting](oblique-slip-faulting.md)
+      - [Transpression](transpression.md)
+    - [Strike-slip faulting](strike-slip-faulting.md)
+  - [Triple junction](triple-junction.md)
+    - [Trench-trench-transform triple junction](trench-trench-transform-triple-junction.md)
+    - [Ridge-ridge-transform triple junction](ridge-ridge-transform-triple-junction.md)
+    - [Triple-junction velocity compatibility](triple-junction-velocity-compatibility.md)
+    - [Plate velocity triangle](plate-velocity-triangle.md)
+  - [Spreading ridge](spreading-ridge.md)
+    - [Seafloor spreading](seafloor-spreading.md)
+    - [Half-spreading rate](half-spreading-rate.md)
+  - [Transform fault](transform-fault.md)
+  - [Euler pole](euler-pole.md)
+    - [Euler angular velocity vector](euler-angular-velocity-vector.md)
+  - [Tectonic plate](tectonic-plate.md)
+  - [Ridge push](ridge-push.md)
+    - [Ridge-push force in a plate model](ridge-push-force-in-a-plate-model.md)
+  - [Subduction](subduction.md)
+    - [Overriding plate](overriding-plate.md)
+    - [Subduction trench](subduction-trench.md)
+    - [Slab pull](slab-pull.md)
+- [Rayleigh number](rayleigh-number.md)
+  - [Local Rayleigh-number closure](local-rayleigh-number-closure.md)
+    - [Marginal-stability thermal boundary-layer scaling](marginal-stability-thermal-boundary-layer-scaling.md)
+  - [Penetrative convection](penetrative-convection.md)
+    - [Density anomaly of water](density-anomaly-of-water.md)
+    - [Penetrative convection in an ice-covered lake](penetrative-convection-in-an-ice-covered-lake.md)
+
+## ↑ Ancestors (5)
+
+1. [Solid Earth](solid-earth.md)
+2. [Geophysics](geophysics-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (6)
+
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-59/4/g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-59/4/h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-332/1/d/solution.md)
+- [Solution](past-exam-of-the-physics-of-the-earth-as-a-planet-course-of-the-university-of-cambridge/2015/paper-1/3/b/solution.md)
+- [Planetary ice shell](planetary-ice-shell.md)
+- [Planetary mantle](planetary-mantle.md)

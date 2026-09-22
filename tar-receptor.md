@@ -1,0 +1,16 @@
+# Tar receptor
+
+↑ **Parent:** [Chemotaxis feedback regulation](chemotaxis-feedback-regulation.md)
+
+## ↑ Ancestors (6)
+
+1. [Chemotaxis feedback regulation](chemotaxis-feedback-regulation.md)
+2. [Negative feedback](negative-feedback.md)
+3. [Signaling feedback](signaling-feedback.md)
+4. [Signal transduction](signal-transduction-split.md)
+5. [Biology](biology-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (1)
+
+- [Negative feedback](negative-feedback.md)

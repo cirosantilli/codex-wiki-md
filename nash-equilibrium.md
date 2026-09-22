@@ -1,0 +1,111 @@
+# Nash equilibrium
+
+↑ **Parent:** [Bimatrix game](bimatrix-game.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Nash_equilibrium)
+
+A [Nash equilibrium](nash-equilibrium.md) is a [strategy profile](strategy-profile.md) in which every player's strategy is a [best response](best-response.md) to the others. For a [finite game](finite-game.md) and [mixed strategies](mixed-strategy.md), its precise condition is
+
+$$
+U_i(\sigma_i^*,\sigma_{-i}^*)\geq U_i(\tau_i,\sigma_{-i}^*)
+\quad\text{for every player }i\text{ and every }\tau_i\in\Delta(S_i).
+$$
+
+The opponents' strategies $\sigma_{-i}^*$ are held fixed while testing each [unilateral deviation](unilateral-deviation.md). Equality is allowed: a player may have other equally good [best responses](best-response.md). Because [expected payoff](expected-payoff.md) is a [linear function](linear-function.md) of the player's own mixture, it suffices to test every [pure strategy](pure-strategy.md). Equivalently, every choice in the [support of a mixed strategy](support-of-a-mixed-strategy.md) must attain the largest pure-choice [expected payoff](expected-payoff.md), and no unused choice may exceed it.
+
+The two worked examples illustrate different uses of this condition. [Matching pennies](matching-pennies.md) has no [pure strategy](pure-strategy.md) [Nash equilibrium](nash-equilibrium.md), but its unique [mixed strategy](mixed-strategy.md) [Nash equilibrium](nash-equilibrium.md) removes each player's vulnerability to predictable play. The [asymmetric coordination example](asymmetric-coordination-example.md) has three [Nash equilibria](nash-equilibrium.md), and its mixed one fails [Pareto efficiency](pareto-efficiency.md). A [Nash equilibrium](nash-equilibrium.md) tests individual incentives, whereas [Pareto efficiency](pareto-efficiency.md) compares feasible outcomes that may require several players to change together. In the [prisoner's dilemma](prisoner-s-dilemma.md), for example, mutual defection is a [Nash equilibrium](nash-equilibrium.md) even though mutual cooperation gives both players a larger [payoff](payoff.md) because $R>P$.
+
+Existence in a [finite game](finite-game.md) is guaranteed by [Nash's theorem](nash-s-theorem.md). The theorem does not select one [Nash equilibrium](nash-equilibrium.md), promise [Pareto efficiency](pareto-efficiency.md), or assert convergence of a learning process. Nash's [1950 existence paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC1063129/) used the [Kakutani fixed-point theorem](kakutani-fixed-point-theorem.md); his [1951 paper, section Existence of Equilibrium Points](https://cs.uwaterloo.ca/~klarson/teaching/F04-886/papers/nash51.pdf) gave a proof using the [Brouwer fixed-point theorem](brouwer-fixed-point-theorem.md). The connection to a [fixed point](fixed-point.md) captures the idea of choices that remain mutually optimal when considered together.
+
+**Table of contents**
+
+- [Ranked university application game](ranked-university-application-game.md)
+- [Symmetric Nash equilibrium](symmetric-nash-equilibrium.md)
+- [Equilibrium oddness theorem](equilibrium-oddness-theorem.md)
+- [Symmetric equilibrium](symmetric-equilibrium.md)
+  - [Symmetric equilibrium parity](symmetric-equilibrium-parity.md)
+  - [Symmetric Nash gain map](symmetric-nash-gain-map.md)
+    - [Gain-map proof of symmetric equilibrium](gain-map-proof-of-symmetric-equilibrium.md)
+- [Complementarity construction of a symmetric Nash equilibrium](complementarity-construction-of-a-symmetric-nash-equilibrium.md)
+- [Lemke-Howson algorithm](lemke-howson-algorithm.md)
+  - [Complementary pivoting](complementary-pivoting.md)
+- [Nash's theorem](nash-s-theorem.md)
+  - [Brouwer gain-map proof of bimatrix equilibrium](brouwer-gain-map-proof-of-bimatrix-equilibrium.md)
+- [Brouwer proof of Nash equilibrium for a two-by-two game](brouwer-proof-of-nash-equilibrium-for-a-two-by-two-game.md)
+
+## ↑ Ancestors (6)
+
+1. [Bimatrix game](bimatrix-game.md)
+2. [Game theory](game-theory-split.md)
+3. [Mathematical optimization](mathematical-optimization-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (66)
+
+- [Asymmetric coordination example](asymmetric-coordination-example.md)
+- [Bayesian Nash equilibrium](bayesian-nash-equilibrium.md)
+- [Best response](best-response.md)
+- [Brouwer gain-map proof of bimatrix equilibrium](brouwer-gain-map-proof-of-bimatrix-equilibrium.md)
+- [Complementarity construction of a symmetric Nash equilibrium](complementarity-construction-of-a-symmetric-nash-equilibrium.md)
+- [Complementary pivoting](complementary-pivoting.md)
+- [Congestion game](congestion-game.md)
+- [Equilibrium preservation under iterated weak dominance](equilibrium-preservation-under-iterated-weak-dominance.md)
+- [Evolutionarily stable strategy](evolutionarily-stable-strategy.md)
+- [Game theory](game-theory-split.md)
+- [Iterated prisoner's dilemma](iterated-prisoner-s-dilemma.md)
+- [Lemke-Howson algorithm](lemke-howson-algorithm.md)
+- [Lottery over joint action profiles](lottery-over-joint-action-profiles.md)
+- [Marginal-equivalent equilibria in additive contests](marginal-equivalent-equilibria-in-additive-contests.md)
+- [Matching pennies](matching-pennies.md)
+- [Minimax theorem](minimax-theorem.md)
+- [Mixed strategy](mixed-strategy.md)
+- [Nash equilibrium](nash-equilibrium.md)
+- [Nash's theorem](nash-s-theorem.md)
+- [Neutrality between Tit for tat and unconditional cooperation](neutrality-between-tit-for-tat-and-unconditional-cooperation.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-31/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-31/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-34/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-37/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-37/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-33/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-40/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-38/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-38/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-38/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-35/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-35/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-42/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-42/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-38/5/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-38/5/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-39/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-38/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-38/6/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-38/6/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-42/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-42/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-212/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-3/2h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ii/paper-4/12g/c/solution.md)
+- [Prisoner's dilemma](prisoner-s-dilemma.md)
+- [Quadratic-cost two-player proportional contest](quadratic-cost-two-player-proportional-contest.md)
+- [Ranked university application game](ranked-university-application-game.md)
+- [Replicator equation](replicator-equation.md)
+- [Security level payoff](security-level-payoff.md)
+- [Set cover reduction to equilibrium support](set-cover-reduction-to-equilibrium-support.md)
+- [Strategy support](strategy-support.md)
+- [Strategyproofness](strategyproofness.md)
+- [Strict dominance](strict-dominance.md)
+- [Subgame perfect equilibrium](subgame-perfect-equilibrium.md)
+- [Support enumeration for a bimatrix game](support-enumeration-for-a-bimatrix-game.md)
+- [Support of a mixed strategy](support-of-a-mixed-strategy.md)
+- [Symmetric bimatrix game](symmetric-bimatrix-game.md)
+- [Symmetric equilibrium parity](symmetric-equilibrium-parity.md)
+- [Symmetric Nash equilibrium](symmetric-nash-equilibrium.md)
+- [Total-effort formula for a proportional contest with outside effort](total-effort-formula-for-a-proportional-contest-with-outside-effort.md)
+- [Two-bid three-player least unique bid auction](two-bid-three-player-least-unique-bid-auction.md)
+- [Two-player complete-information all-pay equilibrium](two-player-complete-information-all-pay-equilibrium.md)
+- [Vickrey auction](vickrey-auction.md)
+- [Weak domination does not exclude equilibrium strategies](weak-domination-does-not-exclude-equilibrium-strategies.md)
+- [Zero-sum game](zero-sum-game.md)

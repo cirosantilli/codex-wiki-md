@@ -1,0 +1,60 @@
+# Cartesian second-rank tensor
+
+↑ **Parent:** [Cartesian tensor](cartesian-tensor.md)
+
+A Cartesian second-rank tensor has component matrix $T$ in each [orthonormal basis](orthonormal-basis.md), with transformation $T\prime=RTR^T$ under an orthogonal component change $R$. Both indices transform; this is why assigning arbitrary matrices independently in different bases does not define a [tensor](tensor.md). The [determinant](determinant.md), [trace](matrix-trace.md), and [Frobenius inner product](frobenius-inner-product.md) with another such tensor are unchanged by these basis transformations.
+
+**Table of contents**
+
+- [Symmetric tensor decomposition relative to an axis](symmetric-tensor-decomposition-relative-to-an-axis.md)
+- [Symmetric gradient and curl decomposition](symmetric-gradient-and-curl-decomposition.md)
+- [Cubically invariant second-rank tensor](cubically-invariant-second-rank-tensor.md)
+- [Scalar, symmetric-traceless and axial tensor decomposition](scalar-symmetric-traceless-and-axial-tensor-decomposition.md)
+- [Divergence of a Cartesian second-rank tensor](divergence-of-a-cartesian-second-rank-tensor.md)
+- [Oriented-axis invariant Cartesian tensor](oriented-axis-invariant-cartesian-tensor.md)
+  - [Alignment of current and field in an axisymmetric conductor](alignment-of-current-and-field-in-an-axisymmetric-conductor.md)
+- [Coordinate half-turn invariance of a second-rank tensor](coordinate-half-turn-invariance-of-a-second-rank-tensor.md)
+
+## ↑ Ancestors (8)
+
+1. [Cartesian tensor](cartesian-tensor.md)
+2. [Tensor](tensor.md)
+3. [Multilinear algebra](multilinear-algebra-split.md)
+4. [Linear algebra](linear-algebra-split.md)
+5. [Algebra](algebra-split.md)
+6. [Area of mathematics](area-of-mathematics.md)
+7. [Mathematics](mathematics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (30)
+
+- [Antisymmetric contraction test for an antisymmetric tensor](antisymmetric-contraction-test-for-an-antisymmetric-tensor.md)
+- [Axially invariant second-rank tensor](axially-invariant-second-rank-tensor.md)
+- [Blindness of symmetric contraction tests to antisymmetric arrays](blindness-of-symmetric-contraction-tests-to-antisymmetric-arrays.md)
+- [Cartesian tensor](cartesian-tensor.md)
+- [Coordinate half-turn invariance of a second-rank tensor](coordinate-half-turn-invariance-of-a-second-rank-tensor.md)
+- [Cubically invariant second-rank tensor](cubically-invariant-second-rank-tensor.md)
+- [Divergence of a Cartesian second-rank tensor](divergence-of-a-cartesian-second-rank-tensor.md)
+- [Oriented-axis invariant Cartesian tensor](oriented-axis-invariant-cartesian-tensor.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/ib/paper-2/2g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/ib/paper-2/11c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/ib/paper-2/2c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ia/paper-3/12a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ia/paper-3/10c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ia/paper-3/4c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ia/paper-3/9c/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/ia/paper-3/4c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/ia/paper-3/11c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ia/paper-3/12a/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ia/paper-3/12a/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ia/paper-3/12a/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ia/paper-3/12a/c/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ia/paper-3/12a/c/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ia/paper-3/12a/c/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2001/paper-2/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2013/paper-2/6/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2014/paper-2/6/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2018/paper-2/6/a/solution.md)
+- [Scalar contraction test for a Cartesian tensor](scalar-contraction-test-for-a-cartesian-tensor.md)
+- [Scalar, symmetric-traceless and axial tensor decomposition](scalar-symmetric-traceless-and-axial-tensor-decomposition.md)
+- [Symmetric tensor decomposition relative to an axis](symmetric-tensor-decomposition-relative-to-an-axis.md)

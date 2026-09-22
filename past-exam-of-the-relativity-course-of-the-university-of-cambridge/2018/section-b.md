@@ -1,0 +1,34 @@
+# Section B
+
+↑ **Parent:** [2018](../2018-split.md)
+
+**Table of contents**
+
+- [B2](section-b/b2.md)
+  - [Solution](section-b/b2/solution.md)
+  - [a](section-b/b2/a.md)
+    - [Solution](section-b/b2/a/solution.md)
+  - [b](section-b/b2/b.md)
+    - [Solution](section-b/b2/b/solution.md)
+- [B3](section-b/b3.md)
+  - [Solution](section-b/b3/solution.md)
+  - [i](section-b/b3/i.md)
+    - [Solution](section-b/b3/i/solution.md)
+  - [ii](section-b/b3/ii.md)
+    - [Solution](section-b/b3/ii/solution.md)
+- [B4](section-b/b4.md)
+  - [Solution](section-b/b4/solution.md)
+
+## ↑ Ancestors (11)
+
+1. [2018](../2018-split.md)
+2. [Past exam of the relativity course of the University of Cambridge](../split.md)
+3. [Relativity course of the University of Cambridge](../../relativity-course-of-the-university-of-cambridge.md)
+4. [Physics course of the year 3 of the natural sciences course of the University of Cambridge](../../physics-course-of-the-year-3-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+5. [Year 3 of the natural sciences course of the University of Cambridge](../../year-3-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+6. [Year of the natural sciences course of the University of Cambridge](../../year-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+7. [Natural sciences course of the University of Cambridge](../../natural-sciences-course-of-the-university-of-cambridge.md)
+8. [Course of the University of Cambridge](../../course-of-the-university-of-cambridge.md)
+9. [University of Cambridge](../../university-of-cambridge-split.md)
+10. [List of universities](../../list-of-universities.md)
+11. [Codex Wiki](../../split.md)

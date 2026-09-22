@@ -1,0 +1,147 @@
+# Damping
+
+↑ **Parent:** [Wave equation](wave-equation-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Damping)
+
+Damping dissipates the [energy](energy-split.md) of an [oscillation](oscillation.md), reducing its [amplitude](wave-amplitude.md). A [linearly damped string](linearly-damped-string.md) applies this mechanism to each [normal mode](normal-mode.md).
+
+Why can stronger [damping](damping.md) make a return to [equilibrium](equilibrium-point-of-a-dynamical-system.md) slower? A weak brake lets a [spring](spring.md) exchange [potential energy](potential-energy.md) with [kinetic energy](kinetic-energy.md) many times; a very strong brake makes the final motion creep. [Critical damping](critical-damping.md) marks the boundary between these behaviours. The distinction depends on the [force](force-split.md) law: the classification below concerns a single [damped harmonic oscillator](damped-harmonic-oscillator.md) with [viscous damping](viscous-damping.md), rather than every mechanism that removes [energy](energy-split.md).
+
+Let $x(t)$ be [displacement](displacement.md) from [equilibrium](equilibrium-point-of-a-dynamical-system.md), $m>0$ the moving [mass](mass.md), $k>0$ the [spring constant](spring-constant.md), and $b\geq0$ the constant coefficient of [viscous damping](viscous-damping.md). With no driving [force](force-split.md), [Newton's second law](newton-s-second-law.md) gives
+
+$$
+m\ddot x+b\dot x+kx=0,\qquad x(0)=x_0,\quad \dot x(0)=v_0.
+$$
+
+The two [initial conditions](initial-condition.md) specify [displacement](displacement.md) and [velocity](velocity.md). Define the undamped [eigenfrequency](eigenfrequency.md) as an [angular frequency](angular-frequency.md) $\omega_0=\sqrt{k/m}$ and the [damping ratio](damping-ratio.md) as $\zeta=b/(2\sqrt{mk})$. The [ordinary differential equation](ordinary-differential-equation.md) becomes $\ddot x+2\zeta\omega_0\dot x+\omega_0^2x=0$. A constant weight in a vertical [spring](spring.md) merely shifts [equilibrium](equilibrium-point-of-a-dynamical-system.md); it is already absorbed in the definition of $x$.[§15.5, equations 15.23–15.26 and the force discussion preceding 15.23](university-physics-volume-1-by-william-moebs-and-others/15-5-damped-oscillations.md)
+
+For example, the ideal parameters $m=1\,\mathrm{kg}$ and $k=4\,\mathrm{N\,m^{-1}}$ give $\omega_0=2\,\mathrm{s^{-1}}$ and [critical damping](critical-damping.md) at $b=4\,\mathrm{kg\,s^{-1}}$. Values $b=1,4,8\,\mathrm{kg\,s^{-1}}$ give [damping ratios](damping-ratio.md) $0.25,1,2$, respectively. These are model choices, not measured values. For release from rest with $x_0>0$, set $X=x/x_0$ and $\tau=\omega_0t$; then $X''+2\zeta X'+X=0$, where primes now denote [derivatives](derivative.md) with respect to $\tau$.
+
+<a id="image-ideal-viscous-oscillator-responses-release-from-rest-in-three-damping-regimes-and-the-effect-of-initial-velocity-at-critical-damping"></a>
+![](damped-oscillator-initial-value-responses.png)
+
+**[Figure 3](#image-ideal-viscous-oscillator-responses-release-from-rest-in-three-damping-regimes-and-the-effect-of-initial-velocity-at-critical-damping). Ideal viscous oscillator responses: release from rest in three damping regimes, and the effect of initial velocity at critical damping**.
+
+The left panel uses identical [initial conditions](initial-condition.md) $X(0)=1$, $X'(0)=0$. [Underdamping](underdamping.md) produces repeated crossings of [equilibrium](equilibrium-point-of-a-dynamical-system.md); [critical damping](critical-damping.md) and [overdamping](overdamping.md) give positive decreasing responses. The right panel keeps [critical damping](critical-damping.md) but changes initial [velocity](velocity.md): $X'(0)=-2$ gives one crossing, although there is no [oscillation](oscillation.md). Both panels are exact model predictions.
+
+**Table of contents**
+
+- [Antidamping](antidamping.md)
+- [Critical damping](critical-damping.md)
+  - [Critical-damping overshoot from initial velocity](critical-damping-overshoot-from-initial-velocity.md)
+- [Viscous damping](viscous-damping.md)
+  - [Damping ratio](damping-ratio.md)
+    - [Resonance versus oscillatory damping thresholds](resonance-versus-oscillatory-damping-thresholds.md)
+  - [Oscillator energy dissipation](oscillator-energy-dissipation.md)
+- [Underdamping](underdamping.md)
+  - [Turning points of an underdamped release from rest](turning-points-of-an-underdamped-release-from-rest.md)
+- [Overdamping](overdamping.md)
+- [Damping measurement from free decay](damping-measurement-from-free-decay.md)
+  - [Air track](air-track.md)
+  - [Ultrasonic motion sensor](ultrasonic-motion-sensor.md)
+  - [Logarithmic decrement](logarithmic-decrement.md)
+    - [Energy ratio between equal-phase damped crossings](energy-ratio-between-equal-phase-damped-crossings.md)
+- [Eddy-current damping](eddy-current-damping.md)
+
+## ↑ Ancestors (6)
+
+1. [Wave equation](wave-equation-split.md)
+2. [Partial differential equation](partial-differential-equation-split.md)
+3. [Analysis](analysis-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (91)
+
+- [Absorbed-power bandwidth of a viscously damped oscillator](absorbed-power-bandwidth-of-a-viscously-damped-oscillator.md)
+- [Acoustic wavelength measurement](acoustic-wavelength-measurement.md)
+- [Air track](air-track.md)
+- [Base-excited oscillator](base-excited-oscillator.md)
+- [Calibrated Einstein-de Haas torsion response](calibrated-einstein-de-haas-torsion-response.md)
+- [Cavendish torsion balance](cavendish-torsion-balance.md)
+- [Collective-curvature resonance model](collective-curvature-resonance-model.md)
+- [Critical damping](critical-damping.md)
+- [Critical gravity-tunnel settling time](critical-gravity-tunnel-settling-time.md)
+- [Damped torsional oscillation](damped-torsional-oscillation.md)
+- [Damped wave equation](damped-wave-equation.md)
+- [Damping](damping.md)
+- [Dispersion relation](dispersion-relation-split.md)
+- [Doppler cooling force](doppler-cooling-force.md)
+- [Doppler cooling limit](doppler-cooling-limit.md)
+- [Energy ratio between equal-phase damped crossings](energy-ratio-between-equal-phase-damped-crossings.md)
+- [Faraday induction-ring experiment](faraday-induction-ring-experiment.md)
+- [Fixed-end standing wave frequencies](fixed-end-standing-wave-frequencies.md)
+- [Free two-mass spring](free-two-mass-spring.md)
+- [Galvanometer current sensitivity](galvanometer-current-sensitivity.md)
+- [Galvanometer readout of an induction pulse](galvanometer-readout-of-an-induction-pulse.md)
+- [Group velocity](group-velocity.md)
+- [Information velocity](information-velocity.md)
+- [Initially circular damped planar oscillator](initially-circular-damped-planar-oscillator.md)
+- [Intermediate axis theorem](intermediate-axis-theorem.md)
+- [Laser-diffraction measurement of capillary waves](laser-diffraction-measurement-of-capillary-waves.md)
+- [Latitude law of Foucault precession](latitude-law-of-foucault-precession.md)
+- [Linear stability of principal-axis rotation](linear-stability-of-principal-axis-rotation.md)
+- [Magnetic dipole torque](magnetic-dipole-torque.md)
+- [Magneto-optical trap](magneto-optical-trap.md)
+- [Martinis-Devoret-Clarke circuit experiments](martinis-devoret-clarke-circuit-experiments.md)
+- [Mass change in a viscously damped spring oscillator](mass-change-in-a-viscously-damped-spring-oscillator.md)
+- [Mathematical model](mathematical-model.md)
+- [Normal mode](normal-mode.md)
+- [Normal modes of a rigid beam on two end springs](normal-modes-of-a-rigid-beam-on-two-end-springs.md)
+- [Optical molasses](optical-molasses.md)
+- [Orientation torque on a flux-conserving loop](orientation-torque-on-a-flux-conserving-loop.md)
+- [Overdamped RLC response](overdamped-rlc-response.md)
+- [Parallel axis theorem](parallel-axis-theorem.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2013/paper-1/2/iii/solution.md)
+- [Bound-charge response](past-exam-of-the-optics-and-electrodynamics-course-of-the-university-of-cambridge/2019/section-b/b5/bound-charge-response.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2011/paper-1/section-a/1/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2011/paper-1/section-b/b6/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2013/paper-2/section-b/b7/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2015/paper-2/section-b/b6/c/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2015/paper-2/section-b/b6/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2015/paper-2/section-c/c10/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2015/paper-2/section-d/d12/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2015/paper-2/section-d/d13/b/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2016/paper-2/section-b/b6/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2018/paper-2/section-b/b9/a/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2019/paper-2/section-b/b7/a/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2019/paper-2/section-b/b7/d/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2019/paper-2/section-b/b7/e/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2022/paper-2/section-a/3/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2022/paper-2/section-d/d9/a/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2012/paper-1/section-c/c10/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2012/paper-1/section-c/c13/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2015/paper-2/section-b/b7/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2015/paper-2/section-b/b9/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2018/paper-2/section-b/b9/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2022/paper-1/section-b/b6/d/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2012/paper-1/section-a/3/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2014/paper-1/c11/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2018/section-c/10/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2019/section-b/7/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2021/section-b/8/e/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2024/paper-1/section-b/8/d/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2014/paper-1/a2/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2012/2/b/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2012/4/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2013/1/a/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2016/2/c/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2016/4/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2017/1/a/solution.md)
+- [Quantum escape of a current-biased Josephson junction](quantum-escape-of-a-current-biased-josephson-junction.md)
+- [Restoring force](restoring-force.md)
+- [Rüchardt experiment](ruchardt-experiment.md)
+- [Scanning tunneling microscope](scanning-tunneling-microscope.md)
+- [Scattering cross-section of a harmonically bound charge](scattering-cross-section-of-a-harmonically-bound-charge.md)
+- [Simple harmonic motion](simple-harmonic-motion.md)
+- [Slow steady gyroscope precession](slow-steady-gyroscope-precession.md)
+- [Spark-excited damped oscillation](spark-excited-damped-oscillation.md)
+- [Standing wave phase and energy](standing-wave-phase-and-energy.md)
+- [Torsion constant](torsion-constant.md)
+- [Velocity-impulse response of a damped oscillator](velocity-impulse-response-of-a-damped-oscillator.md)
+- [Vibration isolation](vibration-isolation.md)
+- [Viscously damped U-tube oscillation](viscously-damped-u-tube-oscillation.md)
+- [Wave equation](wave-equation-split.md)
+- [Wave equation on a string](wave-equation-on-a-string.md)
+- [Work-energy theorem](work-energy-theorem.md)

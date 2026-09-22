@@ -1,0 +1,113 @@
+# Higgs mechanism
+
+↑ **Parent:** [Higgs field](higgs-field.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Higgs_mechanism)
+
+In the Higgs mechanism, gauge fields associated with broken generators acquire longitudinal polarizations and masses by absorbing Goldstone modes. Gauge fields of the unbroken subgroup remain massless.
+
+The phrase “absorbing” describes a rearrangement of [degrees of freedom](degree-of-freedom.md), not a collision in which a [gauge boson](gauge-boson.md) swallows another particle. The [gauge symmetry](gauge-invariance.md) remains a redundancy of the description. A chosen [vacuum expectation value](vacuum-expectation-value.md) leaves a smaller subgroup manifest, while [gauge-invariant](gauge-invariance.md) observables describe the physical masses.
+
+A one-field calculation isolates the mechanism. In an [Abelian Higgs model](abelian-higgs-model.md), write a complex [scalar field](scalar-field.md) locally as $\Phi=(v+H)e^{i\theta}/\sqrt2$, use $D_\mu=\partial_\mu-ieA_\mu$, and define $B_\mu=A_\mu-\partial_\mu\theta/e$. Then
+
+$$
+|D_\mu\Phi|^2=\frac12(\partial_\mu H)^2+\frac12e^2(v+H)^2B_\mu B^\mu.
+$$
+
+The second term contains a [Proca field](proca-field.md) mass $m_B=ev$ and its interactions with the radial [Higgs boson](higgs-boson.md). A local [gauge transformation](gauge-transformation.md) removes $\theta$ from the [scalar field](scalar-field.md) but leaves its information in the longitudinal vector polarization. The [electroweak symmetry breaking](electroweak-symmetry-breaking.md) calculation applies this idea to three broken directions.
+
+**Table of contents**
+
+- [SO(4) vector-Higgs gauge-boson spectrum](so-4-vector-higgs-gauge-boson-spectrum.md)
+- [Higgs mechanism history](higgs-mechanism-history.md)
+- [Higgs degree-of-freedom count](higgs-degree-of-freedom-count.md)
+- [Goldstone-boson equivalence theorem](goldstone-boson-equivalence-theorem.md)
+  - [Higgs cancellation in longitudinal vector scattering](higgs-cancellation-in-longitudinal-vector-scattering.md)
+- [Cubic and quartic Higgs couplings to electroweak gauge bosons](cubic-and-quartic-higgs-couplings-to-electroweak-gauge-bosons.md)
+- [SO(3) vector Higgs model](so-3-vector-higgs-model.md)
+  - [Axial transformation of orthogonal gauge connections](axial-transformation-of-orthogonal-gauge-connections.md)
+  - [Adjoint triplet Higgs spectrum](adjoint-triplet-higgs-spectrum.md)
+  - [SO(3) invariant quartic scalar potential](so-3-invariant-quartic-scalar-potential.md)
+  - [Vector Higgs field](vector-higgs-field.md)
+    - [Covariantly constant vector Higgs field](covariantly-constant-vector-higgs-field.md)
+- [SU2 adjoint Higgs model](su2-adjoint-higgs-model.md)
+- [Adjoint-Higgs breaking of SU(3) to SU(2) and U(1)](adjoint-higgs-breaking-of-su-3-to-su-2-and-u-1.md)
+- [Gauge-boson mass matrix from an adjoint scalar](gauge-boson-mass-matrix-from-an-adjoint-scalar.md)
+- [Electroweak symmetry breaking](electroweak-symmetry-breaking.md)
+  - [Electroweak phase transition](electroweak-phase-transition.md)
+    - [Mass window in a cubic electroweak transition model](mass-window-in-a-cubic-electroweak-transition-model.md)
+  - [Radiative electroweak symmetry breaking](radiative-electroweak-symmetry-breaking.md)
+  - [Electroweak scale](electroweak-scale.md)
+  - [Electroweak doublet gauge-boson mass matrix](electroweak-doublet-gauge-boson-mass-matrix.md)
+  - [Tree-level electroweak gauge-boson masses](tree-level-electroweak-gauge-boson-masses.md)
+- [Unitary gauge](unitary-gauge.md)
+  - [Orthogonal unitary-gauge slice near a scalar vacuum](orthogonal-unitary-gauge-slice-near-a-scalar-vacuum.md)
+
+## ↑ Ancestors (7)
+
+1. [Higgs field](higgs-field.md)
+2. [Electroweak interaction](electroweak-interaction.md)
+3. [Standard Model](standard-model-split.md)
+4. [Quantum field theory](quantum-field-theory-split.md)
+5. [Branches of physics](branches-of-physics.md)
+6. [Physics](physics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (57)
+
+- [Adjoint triplet Higgs spectrum](adjoint-triplet-higgs-spectrum.md)
+- [Chiral protection of a fermion mass](chiral-protection-of-a-fermion-mass.md)
+- [Complete breaking by an SU2 scalar doublet](complete-breaking-by-an-su2-scalar-doublet.md)
+- [Electroweak unification history](electroweak-unification-history.md)
+- [Gargamelle](gargamelle.md)
+- [Gauge-boson mass matrix](gauge-boson-mass-matrix.md)
+- [Gauge protection of a vector mass](gauge-protection-of-a-vector-mass.md)
+- [Gauge Theory by David Tong](gauge-theory-by-david-tong.md)
+- [Higgs cancellation in longitudinal vector scattering](higgs-cancellation-in-longitudinal-vector-scattering.md)
+- [Higgs field](higgs-field.md)
+- [Higgs field potential](higgs-field-potential.md)
+- [Longitudinal polarization of a massive vector boson](longitudinal-polarization-of-a-massive-vector-boson.md)
+- [Massive-vector propagators at large momentum](massive-vector-propagators-at-large-momentum.md)
+- [Nambu superconductivity and chiral symmetry analogy](nambu-superconductivity-and-chiral-symmetry-analogy.md)
+- [Solution](past-exam-of-the-gauge-field-theory-course-of-the-university-of-cambridge/2012/paper-1/3/b/solution.md)
+- [Solution](past-exam-of-the-gauge-field-theory-course-of-the-university-of-cambridge/2013/paper-1/2/solution.md)
+- [Solution](past-exam-of-the-gauge-field-theory-course-of-the-university-of-cambridge/2014/paper-1/1/solution.md)
+- [Solution](past-exam-of-the-gauge-field-theory-course-of-the-university-of-cambridge/2016/paper-1/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-63/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-66/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-70/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-49/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-48/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-54/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-54/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-52/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-46/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-52/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-41/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-43/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-45/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-45/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-41/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-45/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-44/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-47/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-305/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-305/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-305/1/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-305/3/b/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-305/2/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-305/3/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-305/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-307/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-305/1/i/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2012/paper-1/2/a/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2017/2/c/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-field-theory-course-of-the-university-of-cambridge/2013/paper-1/2/c/solution.md)
+- [Solution](past-exam-of-the-theoretical-physics-i-course-of-the-university-of-cambridge/2017/3/c/solution.md)
+- [Peter Higgs](peter-higgs.md)
+- [R-xi gauge](r-xi-gauge.md)
+- [Radius deformation as a Higgs mechanism](radius-deformation-as-a-higgs-mechanism.md)
+- [Renormalization](renormalization.md)
+- [Renormalization of spontaneously broken gauge theories](renormalization-of-spontaneously-broken-gauge-theories.md)
+- [Scalar electrodynamics](scalar-electrodynamics.md)
+- [Scalar mass matrix](scalar-mass-matrix.md)
+- [SU2 adjoint Higgs model](su2-adjoint-higgs-model.md)

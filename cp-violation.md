@@ -1,0 +1,73 @@
+# CP violation
+
+↑ **Parent:** [Discrete symmetry in quantum field theory](discrete-symmetry-in-quantum-field-theory.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/CP_violation)
+
+CP violation is the failure of a theory to be invariant under the combination of charge conjugation and parity. Under CPT invariance it is equivalent to time-reversal violation.
+
+[CP violation](cp-violation.md) matters experimentally because a [symmetry](symmetry-physics.md) predicts a forbidden transition, not merely a small correction to a permitted one. The [Christenson-Cronin-Fitch-Turlay kaon CP violation experiment](christenson-cronin-fitch-turlay-kaon-cp-violation-experiment.md) found evidence for precisely such a transition: a long-lived neutral [kaon](kaon.md) decaying into two [pions](pion.md). Understanding that inference requires both [two-pion kaon event reconstruction](two-pion-kaon-event-reconstruction.md) and the distinction between [kaon CP eigenstates](kaon-cp-eigenstates.md) and the physical states of [neutral kaon mixing](neutral-kaon-mixing.md).
+
+**Table of contents**
+
+- [Christenson-Cronin-Fitch-Turlay kaon CP violation experiment](christenson-cronin-fitch-turlay-kaon-cp-violation-experiment.md)
+- [Two-pion kaon event reconstruction](two-pion-kaon-event-reconstruction.md)
+- [Neutral kaon regeneration](neutral-kaon-regeneration.md)
+- [Neutral-kaon CP impurity and two-pion decay](neutral-kaon-cp-impurity-and-two-pion-decay.md)
+- [Neutral-kaon two-pion decay time dependence](neutral-kaon-two-pion-decay-time-dependence.md)
+- [Direct CP violation in two-pion kaon decay](direct-cp-violation-in-two-pion-kaon-decay.md)
+- [Direct CP asymmetry](direct-cp-asymmetry.md)
+- [Weak phase (CP violation)](weak-phase-cp-violation.md)
+- [Fermion electric dipole moment operator](fermion-electric-dipole-moment-operator.md)
+  - [Time-reversal parity of a fermion electric dipole operator](time-reversal-parity-of-a-fermion-electric-dipole-operator.md)
+- [CP-violating phase](cp-violating-phase.md)
+  - [Quantum field rephasing](quantum-field-rephasing.md)
+
+## ↑ Ancestors (5)
+
+1. [Discrete symmetry in quantum field theory](discrete-symmetry-in-quantum-field-theory.md)
+2. [Quantum field theory](quantum-field-theory-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (39)
+
+- [BABAR time-dependent CP violation experiment](babar-time-dependent-cp-violation-experiment.md)
+- [Cabibbo angle](cabibbo-angle.md)
+- [Cabibbo-Kobayashi-Maskawa matrix](cabibbo-kobayashi-maskawa-matrix.md)
+- [Christenson-Cronin-Fitch-Turlay kaon CP violation experiment](christenson-cronin-fitch-turlay-kaon-cp-violation-experiment.md)
+- [CKM parameter counting](ckm-parameter-counting.md)
+- [CKM unitarity triangle](ckm-unitarity-triangle.md)
+- [CP violation](cp-violation.md)
+- [CPT constraints on particle properties](cpt-constraints-on-particle-properties.md)
+- [Direct CP violation in two-pion kaon decay](direct-cp-violation-in-two-pion-kaon-decay.md)
+- [Heavy-boson decay baryogenesis](heavy-boson-decay-baryogenesis.md)
+- [Jarlskog invariant](jarlskog-invariant.md)
+- [Kaon CP eigenstates](kaon-cp-eigenstates.md)
+- [Kaon CP mixing parameter](kaon-cp-mixing-parameter.md)
+- [Neutral-kaon CP impurity and two-pion decay](neutral-kaon-cp-impurity-and-two-pion-decay.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-49/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-55/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-52/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-53/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-53/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-54/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-47/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-47/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-305/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-305/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-305/1/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-305/1/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-305/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-305/4/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-305/4/ii/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2012/paper-1/3/c/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2013/paper-1/2/b/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2016/paper-1/2/c/solution.md)
+- [Solution](past-exam-of-the-particle-astrophysics-course-of-the-university-of-cambridge/2012/paper-1/3/c/solution.md)
+- [Solution](past-exam-of-the-particle-astrophysics-course-of-the-university-of-cambridge/2013/paper-1/2/a/solution.md)
+- [Quark rephasing and CP conservation](quark-rephasing-and-cp-conservation.md)
+- [Sakharov conditions](sakharov-conditions.md)
+- [Time-reversal parity of a fermion electric dipole operator](time-reversal-parity-of-a-fermion-electric-dipole-operator.md)
+- [Violation of charge conjugation](violation-of-charge-conjugation.md)
+- [Weak phase (CP violation)](weak-phase-cp-violation.md)

@@ -1,0 +1,38 @@
+# Zinc
+
+↑ **Parent:** [Chemical element](chemical-element.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Zinc)
+
+## ↑ Ancestors (4)
+
+1. [Chemical element](chemical-element.md)
+2. [Chemical substance](chemical-substance-split.md)
+3. [Chemistry](chemistry-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (24)
+
+- [Anode](anode.md)
+- [Blue light-emitting diode](blue-light-emitting-diode.md)
+- [Daniell cell](daniell-cell.md)
+- [Daniell cell voltage and load experiment](daniell-cell-voltage-and-load-experiment.md)
+- [Electrode](electrode.md)
+- [Galvanic cell](galvanic-cell.md)
+- [GaN blue LED development](gan-blue-led-development.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2021/paper-1/b4/b/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-2/b7/c/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2025/4/b/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2025/4/b/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2025/4/b/iii/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-3/section-e/44/a/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-3/section-e/44/b/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-3/section-e/44/c/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-3/section-e/44/d/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-3/section-e/44/e/solution.md)
+- [Solution](past-exam-of-the-materials-science-course-of-the-university-of-cambridge/2019/paper-1/1/b/solution.md)
+- [Solution](past-exam-of-the-materials-science-course-of-the-university-of-cambridge/2019/paper-1/1/c/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2022/paper-1/section-a-iii/6/ii/solution.md)
+- [Redox electron balance](redox-electron-balance.md)
+- [Reducing agent](reducing-agent.md)
+- [Zinc chloride](zinc-chloride.md)
+- [Zinc-copper displacement experiment](zinc-copper-displacement-experiment.md)

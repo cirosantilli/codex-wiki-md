@@ -1,0 +1,52 @@
+# Geology
+
+↑ **Parent:** [Earth](earth.md)
+
+Study of the solid Earth and its history. Geological evidence provides the stratigraphic and environmental context for [fossils](fossil.md).
+
+**Table of contents**
+
+- [Geochemistry](geochemistry.md)
+  - [Geochemist](geochemist.md)
+    - [Stephane Gin](stephane-gin.md)
+      - [Work by Stephane Gin](work-by-stephane-gin.md)
+    - [G. R. Lumpkin](g-r-lumpkin.md)
+      - [Work by G. R. Lumpkin](work-by-g-r-lumpkin.md)
+    - [A. E. Ringwood](a-e-ringwood.md)
+      - [Work by A. E. Ringwood](work-by-a-e-ringwood.md)
+- [Mineralogy](mineralogy.md)
+  - [Mineral](mineral.md)
+    - [Silicate mineral](silicate-mineral.md)
+    - [Brannerite](brannerite.md)
+    - [Zirconolite](zirconolite.md)
+      - [Zirconolite-4M](zirconolite-4m.md)
+      - [Zirconolite-2M](zirconolite-2m.md)
+- [Sediment](sediment.md)
+- [Continental drift](continental-drift.md)
+  - [Gondwana](gondwana.md)
+- [Geological time scale](geological-time-scale.md)
+  - [Cretaceous–Palaeogene boundary](cretaceous-palaeogene-boundary.md)
+  - [Cenozoic](cenozoic.md)
+    - [Quaternary](quaternary.md)
+      - [Holocene](holocene.md)
+      - [Pleistocene](pleistocene.md)
+    - [Neogene](neogene.md)
+      - [Pliocene](pliocene.md)
+      - [Miocene](miocene.md)
+    - [Palaeogene](palaeogene.md)
+      - [Eocene](eocene.md)
+      - [Paleocene](paleocene.md)
+  - [Mesozoic](mesozoic.md)
+    - [Cretaceous](cretaceous.md)
+    - [Jurassic](jurassic.md)
+    - [Triassic](triassic.md)
+
+## ↑ Ancestors (7)
+
+1. [Earth](earth.md)
+2. [Planet](planet.md)
+3. [Planetary science](planetary-science-split.md)
+4. [Astrophysics](astrophysics-split.md)
+5. [Branches of physics](branches-of-physics.md)
+6. [Physics](physics-split.md)
+7. [Codex Wiki](split.md)

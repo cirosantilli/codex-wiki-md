@@ -1,0 +1,90 @@
+# Quantum error correction
+
+↑ **Parent:** [Quantum theory](quantum-theory-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Quantum_error_correction)
+
+Quantum error correction protects a [logical qubit](logical-qubit.md) by encoding its [quantum state](quantum-state.md) into a larger [Hilbert space](hilbert-space-split.md), where a specified family of physical errors can be diagnosed and reversed by a common recovery [quantum channel](quantum-channel.md). The requirement is to restore every encoded [quantum superposition](quantum-superposition.md), including its relative phase, rather than only the [computational basis](computational-basis.md) states. A [quantum error-correcting code](quantum-error-correcting-code.md) specifies which errors have this protection; it does not promise recovery from every possible disturbance.
+
+The beautiful idea is to measure relations between physical [qubits](qubit.md) that reveal an [error syndrome](error-syndrome.md) while revealing nothing about the protected [logical qubit](logical-qubit.md). For example, the [bit-flip repetition code](bit-flip-repetition-code.md) compares neighboring [qubits](qubit.md) without reading their individual values. Its parity checks can locate one [Pauli X gate](pauli-x-gate.md) error while leaving the unknown coefficients intact. Encoding is a [linear isometry](linear-isometry-of-hilbert-spaces.md), consistent with the [no-cloning theorem](no-cloning-theorem.md): redundancy in a shared [quantum state](quantum-state.md) supplies protection without making independent copies of the unknown input.
+
+Peter W. Shor's 1995 paper [Scheme for reducing decoherence in quantum computer memory](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.52.R2493), published on 1 October, introduced the nine-[qubit](qubit.md) [Shor code](shor-code.md) to reduce [quantum decoherence](quantum-decoherence.md) in memory. Andrew M. Steane's [Error Correcting Codes in Quantum Theory](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.77.793), published on 29 July 1996 and [available from its author's site](https://users.physics.ox.ac.uk/~Steane/pubs/Steane_PRL95.pdf), connected [quantum error correction](quantum-error-correction-split.md) to classical [linear codes](linear-code.md); the seven-[qubit](qubit.md) [Steane code](steane-code.md) protects against arbitrary errors on one physical [qubit](qubit.md). These constructions protect relative phase as well as [computational basis](computational-basis.md) values, going beyond the elementary [bit-flip repetition code](bit-flip-repetition-code.md).
+
+For an authored account of the mechanism, see John Preskill's [Quantum Error Correction lecture notes](https://www.preskill.caltech.edu/ph229/notes/chap7.pdf), especially section 7.1 on collective parity measurements and section 7.9 on [stabilizer codes](stabilizer-code.md). Andrew Steane's [A tutorial on quantum error correction](https://users.physics.ox.ac.uk/~Steane/pubs/Steane_2006.pdf) develops the distinction between correcting a stored [quantum state](quantum-state.md) and operating with imperfect [quantum gates](quantum-logic-gate.md).
+
+**Table of contents**
+
+- [Fault-tolerant quantum computation](fault-tolerant-quantum-computation.md)
+- [Quantum error-correcting code](quantum-error-correcting-code.md)
+- [Logical qubit](logical-qubit.md)
+- [Concatenated quantum error-correcting code](concatenated-quantum-error-correcting-code.md)
+  - [Five-qubit concatenation threshold](five-qubit-concatenation-threshold.md)
+- [Five-qubit error correcting code](five-qubit-error-correcting-code.md)
+  - [Five-qubit stabilizer syndrome table](five-qubit-stabilizer-syndrome-table.md)
+- [Quantum error detection](quantum-error-detection.md)
+  - [Correction implies detection at twice the weight](correction-implies-detection-at-twice-the-weight.md)
+- [Nondegenerate quantum error-correcting code](nondegenerate-quantum-error-correcting-code.md)
+  - [Quantum Hamming bound](quantum-hamming-bound.md)
+    - [Perfect quantum error-correcting code](perfect-quantum-error-correcting-code.md)
+- [Distance of a quantum error-correcting code](distance-of-a-quantum-error-correcting-code.md)
+  - [Correctable Pauli error radius](correctable-pauli-error-radius.md)
+  - [Quantum Singleton bound](quantum-singleton-bound.md)
+  - [Quantum erasure correction](quantum-erasure-correction.md)
+- [Linearity of coherent quantum error correction](linearity-of-coherent-quantum-error-correction.md)
+- [Knill--Laflamme condition](knill-laflamme-condition.md)
+  - [Necessity of the Knill-Laflamme condition](necessity-of-the-knill-laflamme-condition.md)
+  - [Constructive recovery from the Knill-Laflamme condition](constructive-recovery-from-the-knill-laflamme-condition.md)
+- [Stabilizer code](stabilizer-code.md)
+  - [Symplectic representation of a stabilizer code](symplectic-representation-of-a-stabilizer-code.md)
+  - [CSS code](css-code.md)
+    - [Nested-code CSS syndrome recovery](nested-code-css-syndrome-recovery.md)
+  - [Centralizer of a stabilizer group](centralizer-of-a-stabilizer-group.md)
+  - [Local correctability of a stabilizer code](local-correctability-of-a-stabilizer-code.md)
+    - [Pauli error criterion for a stabilizer code](pauli-error-criterion-for-a-stabilizer-code.md)
+  - [Dressed stabilizer under a weak local perturbation](dressed-stabilizer-under-a-weak-local-perturbation.md)
+  - [Distance of a stabilizer code](distance-of-a-stabilizer-code.md)
+  - [Error syndrome](error-syndrome.md)
+    - [Stabilizer-syndrome coset](stabilizer-syndrome-coset.md)
+  - [Phase-flip repetition code](phase-flip-repetition-code.md)
+    - [Logical Hadamard convention for a phase-flip repetition code](logical-hadamard-convention-for-a-phase-flip-repetition-code.md)
+    - [Logical failure of the three-qubit phase-flip repetition code](logical-failure-of-the-three-qubit-phase-flip-repetition-code.md)
+    - [Phase-flip protection by Hadamard conjugation](phase-flip-protection-by-hadamard-conjugation.md)
+    - [Majority-vote decoding of a repetition code](majority-vote-decoding-of-a-repetition-code.md)
+  - [Bit-flip repetition code](bit-flip-repetition-code.md)
+    - [Three-qubit bit-flip syndrome table](three-qubit-bit-flip-syndrome-table.md)
+    - [Logical failure of the three-qubit bit-flip repetition code](logical-failure-of-the-three-qubit-bit-flip-repetition-code.md)
+    - [Coherent syndrome extraction for the three-qubit repetition code](coherent-syndrome-extraction-for-the-three-qubit-repetition-code.md)
+      - [Timed bit flip during repetition-code syndrome extraction](timed-bit-flip-during-repetition-code-syndrome-extraction.md)
+        - [Exact encoded-state failure with a faulty parity check](exact-encoded-state-failure-with-a-faulty-parity-check.md)
+  - [Concatenated phase-and-bit-flip repetition code](concatenated-phase-and-bit-flip-repetition-code.md)
+    - [Shor code](shor-code.md)
+      - [Shor-code phase-flip syndrome](shor-code-phase-flip-syndrome.md)
+  - [Steane code](steane-code.md)
+    - [Nondegenerate phase-flip correction in the Steane code](nondegenerate-phase-flip-correction-in-the-steane-code.md)
+  - [Color code](color-code.md)
+    - [String operator in a topological code](string-operator-in-a-topological-code.md)
+  - [Surface code](surface-code.md)
+    - [Surface code on a chain of spheres](surface-code-on-a-chain-of-spheres.md)
+    - [Surface-code decoding as a random-bond Ising model](surface-code-decoding-as-a-random-bond-ising-model.md)
+    - [Ground-state splitting of a surface-code cylinder](ground-state-splitting-of-a-surface-code-cylinder.md)
+    - [Toric code](toric-code.md)
+      - [Surface-code anyon model](surface-code-anyon-model.md)
+
+## ↑ Ancestors (4)
+
+1. [Quantum theory](quantum-theory-split.md)
+2. [Branches of physics](branches-of-physics.md)
+3. [Physics](physics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (10)
+
+- [Distance of a quantum error-correcting code](distance-of-a-quantum-error-correcting-code.md)
+- [DiVincenzo criteria](divincenzo-criteria.md)
+- [Fault-tolerant quantum computation](fault-tolerant-quantum-computation.md)
+- [Solution](past-exam-of-the-atomic-and-optical-physics-course-of-the-university-of-cambridge/2012/paper-1/3/b/solution.md)
+- [Solution](past-exam-of-the-atomic-and-optical-physics-course-of-the-university-of-cambridge/2013/paper-1/3/b/solution.md)
+- [Solution](past-exam-of-the-quantum-information-course-of-the-university-of-cambridge/2015/paper-1/3/b/solution.md)
+- [Solution](past-exam-of-the-quantum-information-course-of-the-university-of-cambridge/2016/paper-1/3/c/solution.md)
+- [Quantum error correction](quantum-error-correction-split.md)
+- [Quantum information theory](quantum-information-theory-split.md)
+- [Timed bit flip during repetition-code syndrome extraction](timed-bit-flip-during-repetition-code-syndrome-extraction.md)

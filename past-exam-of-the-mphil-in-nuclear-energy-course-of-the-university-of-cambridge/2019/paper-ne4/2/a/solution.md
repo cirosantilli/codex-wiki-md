@@ -1,0 +1,24 @@
+<h1 id="2/a/solution">Solution</h1>
+
+↑ **Parent:** [A](../a.md)
+
+**[helium](../../../../../helium.md) changes cavity stability and [ductility](../../../../../ductility.md); [void swelling](../../../../../void-swelling.md) changes bulk volume and component dimensions.** These effects interact, but a [helium](../../../../../helium.md) bubble and a vacancy-rich void are not interchangeable descriptions.
+
+[neutron](../../../../../neutron-split.md) reactions produce [helium](../../../../../helium.md) from alloy constituents and impurities. For example, capture by boron-10 can produce [helium](../../../../../helium.md) through $^{10}\mathrm B+n\longrightarrow{}^7\mathrm{Li}+{}^4\mathrm{He}$; the production per displacement dose depends on composition and [neutron](../../../../../neutron-split.md) spectrum. Retained [helium](../../../../../helium.md) has low solubility and is trapped at defects or in bubbles. Bubble nucleation and growth at [grain boundaries](../../../../../grain-boundary.md) can assist intergranular cavitation, lowering tensile [ductility](../../../../../ductility.md) and creep-rupture resistance, particularly when [temperature](../../../../../temperature-split.md) permits the relevant transport. This is important even before a large bulk [void swelling](../../../../../void-swelling.md) is measurable. A primary study linked high-temperature [ductility](../../../../../ductility.md) loss to observed bubbles and grain-boundary weakening in irradiated [stainless steel](../../../../../stainless-steel.md).[Nature 211, 291–292, abstract: mechanical observations, thin-foil bubbles and boundary-bubble interpretation](../../../../../high-temperature-embrittlement-of-stainless-steel-irradiated-in-fast-fluxes-by-a-s-fraser-and-others.md)
+
+[displacement damage](../../../../../displacement-damage.md) continuously creates [vacancies](../../../../../vacancy.md) and [self-interstitials](../../../../../self-interstitial.md). Their different capture efficiencies at [dislocations](../../../../../dislocation.md) and other sinks can leave a [vacancy supersaturation](../../../../../vacancy-supersaturation.md) available to cavities. A stable cavity grows when its net [vacancy](../../../../../vacancy.md) uptake exceeds [vacancy](../../../../../vacancy.md) emission and interstitial absorption. [helium](../../../../../helium.md) can help stabilise small nuclei, but the later volume increase is not simply the volume of gas inserted into an unchanged matrix. Changing [helium](../../../../../helium.md) content can also change cavity number, size and competition for [point defects](../../../../../point-defect.md); a universal proportionality between [helium](../../../../../helium.md) concentration and [void swelling](../../../../../void-swelling.md) is not justified.
+
+For [nuclear fuel cladding](../../../../../nuclear-fuel-cladding.md), [void swelling](../../../../../void-swelling.md) can enlarge the diameter, alter the fuel–[nuclear fuel cladding](../../../../../nuclear-fuel-cladding.md) gap, reduce clearances and distort [reactor coolant](../../../../../reactor-coolant.md) channels or nearby structures. Nonuniform [void swelling](../../../../../void-swelling.md) generates additional [stresses](../../../../../stress.md). Bubble-assisted embrittlement and stress-dependent [creep](../../../../../creep-deformation.md) then affect the ability of the wall to contain the fuel and internal pressure. The relevant measurements combine [density](../../../../../density.md) or volume change, dimensional [strain](../../../../../strain.md), cavity microscopy and mechanical tests. Pressurised-tube experiments explicitly separated [void swelling](../../../../../void-swelling.md), [creep](../../../../../creep-deformation.md), plastic [strain](../../../../../strain.md) and [precipitation](../../../../../precipitation-chemistry.md) [strain](../../../../../strain.md); [void swelling](../../../../../void-swelling.md) itself was approximately isotropic in that study.[Journal of Nuclear Materials 367–370, 954–959; PNNL abstract, separation of strain components](../../../../../the-influence-of-cold-work-level-on-the-irradiation-creep-and-swelling-of-aisi-316-stainless-steel-by-e-r-gilbert-and-f-a-garner.md)
+
+## ↑ Ancestors (10)
+
+1. [A](../a.md)
+2. [2](../../2.md)
+3. [Module NE4](../../../paper-ne4-split.md)
+4. [2019](../../../split.md)
+5. [Past exam of the MPhil in nuclear energy course of the University of Cambridge](../../../../split.md)
+6. [MPhil in nuclear energy course of the University of Cambridge](../../../../../mphil-in-nuclear-energy-course-of-the-university-of-cambridge.md)
+7. [Course of the University of Cambridge](../../../../../course-of-the-university-of-cambridge.md)
+8. [University of Cambridge](../../../../../university-of-cambridge-split.md)
+9. [List of universities](../../../../../list-of-universities.md)
+10. [Codex Wiki](../../../../../split.md)

@@ -1,0 +1,42 @@
+# List of statisticians
+
+↑ **Parent:** [Statistician](statistician.md)
+
+**Table of contents**
+
+- [Hyungwon Choi](hyungwon-choi.md)
+  - [Work by Hyungwon Choi](work-by-hyungwon-choi.md)
+- [Bradley Efron](bradley-efron.md)
+  - [Work by Bradley Efron](work-by-bradley-efron.md)
+- [Yen-Chi Chen](yen-chi-chen.md)
+  - [Work by Yen-Chi Chen](work-by-yen-chi-chen.md)
+- [Arthur Pentland Dempster](arthur-pentland-dempster.md)
+  - [Work by Arthur Pentland Dempster](work-by-arthur-pentland-dempster.md)
+- [Nan M. Laird](nan-m-laird.md)
+  - [Work by Nan M. Laird](work-by-nan-m-laird.md)
+- [Donald B. Rubin](donald-b-rubin.md)
+  - [Work by Donald B. Rubin](work-by-donald-b-rubin.md)
+- [Shalabh](shalabh.md)
+  - [Work by Shalabh](work-by-shalabh.md)
+- [Mei-Sywe Hwang](mei-sywe-hwang.md)
+  - [Work by Mei-Sywe Hwang](work-by-mei-sywe-hwang.md)
+- [Charles M. Stein](charles-m-stein.md)
+  - [Work by Charles M. Stein](work-by-charles-m-stein.md)
+- [Purnamrita Sarkar](purnamrita-sarkar.md)
+  - [Work by Purnamrita Sarkar](work-by-purnamrita-sarkar.md)
+- [Robert E. Kass](robert-e-kass.md)
+  - [Work by Robert E. Kass](work-by-robert-e-kass.md)
+- [Larry Wasserman](larry-wasserman.md)
+  - [Work by Larry Wasserman](work-by-larry-wasserman.md)
+- [William Sealy Gosset](william-sealy-gosset.md)
+  - [Work by William Sealy Gosset](work-by-william-sealy-gosset.md)
+- [Philip J. Boland](philip-j-boland.md)
+  - [Work by Philip J. Boland](work-by-philip-j-boland.md)
+
+## ↑ Ancestors (5)
+
+1. [Statistician](statistician.md)
+2. [Probability and statistics](probability-and-statistics-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)

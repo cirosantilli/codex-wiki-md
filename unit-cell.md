@@ -1,0 +1,60 @@
+# Unit cell
+
+↑ **Parent:** [Bravais lattice](bravais-lattice.md)
+
+A region whose translates tile a lattice's ambient space, together with the lattice points represented in it. A [primitive unit cell](primitive-unit-cell.md) represents one lattice point; a conventional unit cell may represent several to display symmetry.
+
+**Table of contents**
+
+- [Primitive unit cell](primitive-unit-cell.md)
+
+## ↑ Ancestors (8)
+
+1. [Bravais lattice](bravais-lattice.md)
+2. [Crystal scattering](crystal-scattering.md)
+3. [Scattering amplitude](scattering-amplitude.md)
+4. [Quantum scattering](quantum-scattering-split.md)
+5. [Quantum mechanics](quantum-mechanics-split.md)
+6. [Branches of physics](branches-of-physics.md)
+7. [Physics](physics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (37)
+
+- [Bragg structure inference from measured intensities](bragg-structure-inference-from-measured-intensities.md)
+- [Caesium chloride structure](caesium-chloride-structure.md)
+- [Crystal structure](crystal-structure.md)
+- [Crystallography](crystallography.md)
+- [Fluorite structure](fluorite-structure.md)
+- [Fractional crystal coordinate](fractional-crystal-coordinate.md)
+- [Frenkel exciton](frenkel-exciton.md)
+- [Ionic crystal](ionic-crystal.md)
+- [Lattice constant](lattice-constant.md)
+- [Lattice constant from two indexed reflections](lattice-constant-from-two-indexed-reflections.md)
+- [Manganese monoxide neutron diffraction experiment](manganese-monoxide-neutron-diffraction-experiment.md)
+- [Miller index](miller-index.md)
+- [Monovalent atom](monovalent-atom.md)
+- [NaCl conventional cell and coordination](nacl-conventional-cell-and-coordination.md)
+- [Solution](past-exam-of-the-chemistry-a-course-of-the-university-of-cambridge/2023/paper-2/a9/a/ii/solution.md)
+- [Solution](past-exam-of-the-materials-science-course-of-the-university-of-cambridge/2017/paper-1/1/a/solution.md)
+- [Solution](past-exam-of-the-materials-science-course-of-the-university-of-cambridge/2018/paper-1/1/a/solution.md)
+- [Solution](past-exam-of-the-materials-science-course-of-the-university-of-cambridge/2019/paper-1/1/b/solution.md)
+- [Solution](past-exam-of-the-materials-science-course-of-the-university-of-cambridge/2022/paper-1/1/b/solution.md)
+- [Solution](past-exam-of-the-materials-science-course-of-the-university-of-cambridge/2022/paper-1/2/a/solution.md)
+- [Solution](past-exam-of-the-materials-science-course-of-the-university-of-cambridge/2022/paper-1/2/b/i/solution.md)
+- [Solution](past-exam-of-the-materials-science-course-of-the-university-of-cambridge/2022/paper-1/2/c/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2017/paper-2/section-a-iii/19/ii/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2017/paper-2/section-a/4/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2019/paper-2/section-c/c10/a/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2022/paper-2/section-c/c8/c/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2022/paper-2/section-c/c8/e/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2022/paper-2/section-d/d9/b/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2016/3/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2022/section-b/5/d/solution.md)
+- [Solution](past-exam-of-the-thermal-and-statistical-physics-course-of-the-university-of-cambridge/2018/section-b/b2/solution.md)
+- [Primitive cubic Bragg peak positions](primitive-cubic-bragg-peak-positions.md)
+- [Rectangular-lattice Fermi-surface reconstruction](rectangular-lattice-fermi-surface-reconstruction.md)
+- [Rock salt structure](rock-salt-structure.md)
+- [Structure factor](structure-factor.md)
+- [Wannier-Mott exciton](wannier-mott-exciton.md)
+- [X-ray crystallographic structure inference](x-ray-crystallographic-structure-inference.md)

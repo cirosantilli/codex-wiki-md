@@ -1,0 +1,61 @@
+# Right triangle
+
+↑ **Parent:** [Triangle](triangle.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Right_triangle)
+
+A right triangle has one interior angle equal to a right angle.
+
+**Table of contents**
+
+- [Leg of a right triangle](leg-of-a-right-triangle.md)
+- [Hypotenuse](hypotenuse.md)
+
+## ↑ Ancestors (6)
+
+1. [Triangle](triangle.md)
+2. [Euclidean geometry](euclidean-geometry-split.md)
+3. [Geometry and topology](geometry-and-topology-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (38)
+
+- [Altitude](altitude.md)
+- [Circumcircle](circumcircle.md)
+- [Conical pendulum](conical-pendulum.md)
+- [Cosine](cosine.md)
+- [Electrical impedance](electrical-impedance.md)
+- [Euclidean geometry](euclidean-geometry-split.md)
+- [Fermat right triangle theorem](fermat-right-triangle-theorem.md)
+- [Field of view](field-of-view.md)
+- [Hypotenuse](hypotenuse.md)
+- [Incircle of a triangle](incircle-of-a-triangle.md)
+- [Infinitely many rational right triangles from a nontorsion point](infinitely-many-rational-right-triangles-from-a-nontorsion-point.md)
+- [Mach angle](mach-angle.md)
+- [Noncongruent primes congruent to three modulo eight](noncongruent-primes-congruent-to-three-modulo-eight.md)
+- [Parsec](parsec.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-19/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/ia/paper-1/7a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-28/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-22/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-22/3/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-112/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-125/5/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-130/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2005/paper-2/6/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2019/paper-1/9/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2024/paper-1/14/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2025/paper-1/2/solution.md)
+- [Pythagorean theorem](pythagorean-theorem.md)
+- [Pythagorean trigonometric identity](pythagorean-trigonometric-identity.md)
+- [Quadratic path bound in a right triangle](quadratic-path-bound-in-a-right-triangle.md)
+- [Right-triangle geometry of internal-wave velocities](right-triangle-geometry-of-internal-wave-velocities.md)
+- [Series RC impedance](series-rc-impedance.md)
+- [Similar triangle](similar-triangle.md)
+- [Sine](sine.md)
+- [Spherical law of cosines](spherical-law-of-cosines.md)
+- [Squared edge bound for tours in the unit square](squared-edge-bound-for-tours-in-the-unit-square.md)
+- [Stellar parallax](stellar-parallax.md)
+- [Triangle](triangle.md)
+- [Trigonometric function](trigonometric-function.md)

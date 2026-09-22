@@ -1,0 +1,53 @@
+# Newtonian mechanics
+
+↑ **Parent:** [Classical mechanics](classical-mechanics-split.md)
+
+Newtonian mechanics describes motion using forces, masses and acceleration in [inertial frames](inertial-frame.md) with absolute time. It is the low-speed limit of [special relativity](special-relativity-split.md); for constant [proper acceleration](proper-acceleration.md) with $|at|\ll c$, relativistic [hyperbolic motion](hyperbolic-motion.md) reduces to $x\simeq at^2/2$.
+
+**Table of contents**
+
+- [Small-slope particle motion on a height graph](small-slope-particle-motion-on-a-height-graph.md)
+  - [Radial turning points for an inverse-square height well](radial-turning-points-for-an-inverse-square-height-well.md)
+- [Tangentially driven motion on an axisymmetric surface](tangentially-driven-motion-on-an-axisymmetric-surface.md)
+- [Friction](friction.md)
+  - [Coefficient of friction](coefficient-of-friction.md)
+  - [Lubricant](lubricant.md)
+  - [Kinetic friction](kinetic-friction.md)
+    - [Pressure-driven cork ejection](pressure-driven-cork-ejection.md)
+    - [Uniform-pressure friction torque on a circular contact](uniform-pressure-friction-torque-on-a-circular-contact.md)
+    - [Coefficient of kinetic friction](coefficient-of-kinetic-friction.md)
+      - [Constant-speed measurement of kinetic friction](constant-speed-measurement-of-kinetic-friction.md)
+      - [Load dependence of kinetic friction](load-dependence-of-kinetic-friction.md)
+      - [Corrections to a pulling measurement of kinetic friction](corrections-to-a-pulling-measurement-of-kinetic-friction.md)
+    - [Two-stage stopping under linear drag and dry friction](two-stage-stopping-under-linear-drag-and-dry-friction.md)
+  - [Contact slip](contact-slip.md)
+  - [Frictional heating](frictional-heating.md)
+- [Newton–Cartan theory](newton-cartan-theory.md)
+  - [Newton–Cartan gravitational connection](newton-cartan-gravitational-connection.md)
+    - [Newtonian tidal curvature](newtonian-tidal-curvature.md)
+
+## ↑ Ancestors (4)
+
+1. [Classical mechanics](classical-mechanics-split.md)
+2. [Branches of physics](branches-of-physics.md)
+3. [Physics](physics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (16)
+
+- [Classical mechanics](classical-mechanics-split.md)
+- [Free fall](free-fall.md)
+- [Inertial mass](inertial-mass.md)
+- [Internal force](internal-force.md)
+- [Newton–Cartan gravitational connection](newton-cartan-gravitational-connection.md)
+- [Newton–Cartan theory](newton-cartan-theory.md)
+- [Newton's third law](newton-s-third-law.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ia/paper-4/12c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ia/paper-4/3c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ia/paper-4/4c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-54/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-3/10d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ia/paper-4/12c/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2012/paper-1/section-b/b9/solution.md)
+- [Solution](past-exam-of-the-relativity-course-of-the-university-of-cambridge/2018/section-b/b4/solution.md)
+- [Rocket equation](rocket-equation.md)

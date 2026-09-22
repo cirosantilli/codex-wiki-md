@@ -1,0 +1,71 @@
+# Parametric curve
+
+↑ **Parent:** [Curve](curve.md)
+
+A [parametric curve](parametric-curve.md) is described by a vector-valued map $t\mapsto Q(t)$. Its [derivative](derivative.md) gives a [tangent vector](tangent-vector-split.md) wherever it is nonzero.
+
+// Target: geometry-and-topology.bigb
+
+**Table of contents**
+
+- [Lissajous curve](lissajous-curve.md)
+- [Parametric plane curve](parametric-plane-curve.md)
+- [Parametric curve interrogation](parametric-curve-interrogation.md)
+  - [Certified curve-plane intersection](certified-curve-plane-intersection.md)
+- [Cycloid](cycloid.md)
+  - [Area and length of a cycloid arch](area-and-length-of-a-cycloid-arch.md)
+
+## ↑ Ancestors (6)
+
+1. [Curve](curve.md)
+2. [Topology](topology-split.md)
+3. [Geometry and topology](geometry-and-topology-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (43)
+
+- [Bézier curve](bezier-curve.md)
+- [Bounding volume](bounding-volume.md)
+- [Certified curve-plane intersection](certified-curve-plane-intersection.md)
+- [Chord error bound](chord-error-bound.md)
+- [Cissoid of Diocles](cissoid-of-diocles.md)
+- [Closest-point search on a subdivision curve](closest-point-search-on-a-subdivision-curve.md)
+- [Control-point influence on a curve](control-point-influence-on-a-curve.md)
+- [Critical point of a smooth map](critical-point-of-a-smooth-map.md)
+- [Curve parameter](curve-parameter.md)
+- [Derivative along a curve](derivative-along-a-curve.md)
+- [Derivative of a vector field dotted with curve velocity](derivative-of-a-vector-field-dotted-with-curve-velocity.md)
+- [Differential form](differential-form-split.md)
+- [Fundamental theorem for line integrals](fundamental-theorem-for-line-integrals.md)
+- [Green theorem](green-theorem.md)
+- [Implicit solution](implicit-solution.md)
+- [Lissajous curve](lissajous-curve.md)
+- [One-form](one-form.md)
+- [Parametric curve](parametric-curve.md)
+- [Parametric curve interrogation](parametric-curve-interrogation.md)
+- [Parametric plane curve](parametric-plane-curve.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-56/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-68/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2001/paper-2/5/a/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2004/paper-2/4/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2007/paper-1/section-a/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2007/paper-2/section-b/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2008/paper-2/15/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2009/paper-1/10/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2010/paper-1/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2011/paper-1/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2013/paper-2/15/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2013/paper-2/15/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2015/paper-1/6/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2016/paper-2/13/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2025/paper-2/16/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2025/paper-2/16/b/solution.md)
+- [Prescribed-speed time parametrization of a curve](prescribed-speed-time-parametrization-of-a-curve.md)
+- [Reflection curve on a surface](reflection-curve-on-a-surface.md)
+- [Signed curvature](signed-curvature.md)
+- [Tangent to a circle](tangent-to-a-circle.md)
+- [Tangent vector](tangent-vector-split.md)
+- [Torus knot](torus-knot.md)
+- [Vector line integral weighted by a scalar field](vector-line-integral-weighted-by-a-scalar-field.md)

@@ -1,0 +1,61 @@
+# Measurement uncertainty
+
+↑ **Parent:** [Metrology](metrology.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Measurement_uncertainty)
+
+A quantified spread of values attributable to a measured quantity, accounting for relevant measurement information and corrections.
+
+**Table of contents**
+
+- [Measurement uncertainty budget](measurement-uncertainty-budget.md)
+- [Standard uncertainty](standard-uncertainty.md)
+
+## ↑ Ancestors (3)
+
+1. [Metrology](metrology.md)
+2. [Physics](physics-split.md)
+3. [Codex Wiki](split.md)
+
+## ← Incoming links (41)
+
+- [ABBA measurement sequence](abba-measurement-sequence.md)
+- [Air-track test of inertial motion](air-track-test-of-inertial-motion.md)
+- [Burette](burette.md)
+- [Charge lattice inference from oil drops](charge-lattice-inference-from-oil-drops.md)
+- [Drift cancellation in a g-factor comparison](drift-cancellation-in-a-g-factor-comparison.md)
+- [Gravitational constant](gravitational-constant.md)
+- [Gravitational mass degeneracy](gravitational-mass-degeneracy.md)
+- [Hess's law calorimetry experiment](hess-s-law-calorimetry-experiment.md)
+- [High-pressure experimental metrology](high-pressure-experimental-metrology.md)
+- [Ideal-solution vapor-liquid equilibrium test](ideal-solution-vapor-liquid-equilibrium-test.md)
+- [Loaded voltage divider](loaded-voltage-divider.md)
+- [Measurement calibration](measurement-calibration.md)
+- [Measurement resolution](measurement-resolution.md)
+- [Measurement zero offset](measurement-zero-offset.md)
+- [Metrology](metrology.md)
+- [Microscope scale calibration](microscope-scale-calibration.md)
+- [Oil drop charge readout and calibration](oil-drop-charge-readout-and-calibration.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2011/paper-2/section-a/4/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2016/paper-1/section-a/4/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2018/paper-1/section-d/d13/b/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2021/section-a/1/solution.md)
+- [Permanganate-iron titration](permanganate-iron-titration.md)
+- [Photodiode operating mode](photodiode-operating-mode.md)
+- [Photodiode responsivity measurement](photodiode-responsivity-measurement.md)
+- [Pion decay at rest in emulsion](pion-decay-at-rest-in-emulsion.md)
+- [Precision displacement measurement with a Michelson interferometer](precision-displacement-measurement-with-a-michelson-interferometer.md)
+- [Pressure measurement](pressure-measurement.md)
+- [Prism minimum-deviation index measurement](prism-minimum-deviation-index-measurement.md)
+- [Radiation-pressure laser power measurement](radiation-pressure-laser-power-measurement.md)
+- [Range straggling](range-straggling.md)
+- [Regulated calibration bath](regulated-calibration-bath.md)
+- [Resistance pressure gauge](resistance-pressure-gauge.md)
+- [Resistor tolerance](resistor-tolerance.md)
+- [Ruby calibration against sodium chloride](ruby-calibration-against-sodium-chloride.md)
+- [Ruby pressure uncertainty worked example](ruby-pressure-uncertainty-worked-example.md)
+- [Siegert relation](siegert-relation.md)
+- [Solution preparation and volumetric calibration](solution-preparation-and-volumetric-calibration.md)
+- [Strong acid titration model](strong-acid-titration-model.md)
+- [Vibrating-sample magnetometer](vibrating-sample-magnetometer.md)
+- [Voltage divider teaching experiment](voltage-divider-teaching-experiment.md)
+- [X-ray photoelectron spectroscopy](x-ray-photoelectron-spectroscopy.md)

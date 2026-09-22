@@ -1,0 +1,17 @@
+# A molecular network for de novo generation of the apical surface and lumen by David M. Bryant and others
+
+↑ **Parent:** [Biology bibliography](biology-bibliography-split.md)
+
+[Primary publication or institutional full text](https://www.nature.com/articles/ncb2106).
+
+By [David M. Bryant](david-m-bryant.md) and collaborators. Nature Cell Biology 12, pp. 1035–1045; [Rab11a](rab11a.md)/[Rab8a](rab8a.md), [exocyst](exocyst.md), Par3 and [Cdc42](cdc42.md) at the lumen-initiation site.
+
+## ↑ Ancestors (3)
+
+1. [Biology bibliography](biology-bibliography-split.md)
+2. [Biology](biology-split.md)
+3. [Codex Wiki](split.md)
+
+## ← Incoming links (1)
+
+- [Solution](past-exam-of-the-zoology-course-of-the-university-of-cambridge/2024/paper-zl6/6/solution.md)

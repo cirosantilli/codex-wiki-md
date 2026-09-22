@@ -1,0 +1,75 @@
+# Cross-validation
+
+↑ **Parent:** [Statistical learning](statistical-learning-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Cross-validation_(statistics))
+
+Cross-validation estimates predictive performance by repeatedly fitting on one part of the data and evaluating on held-out observations. In [K-fold cross-validation](k-fold-cross-validation.md), divide [training data](training-data.md) into disjoint folds $I_1,\ldots,I_K$; $k(i)$ identifies observation $i$'s fold, and $\widehat f^{(-k)}$ is fitted without fold $I_k$. The displayed average scores each observation using a rule that did not train on it. Weight by observation count when fold sizes differ. [Leave-one-out cross-validation](leave-one-out-cross-validation.md) uses one observation per fold. [ISLR chapter 5 slides, resampling methods](https://web.stanford.edu/~hastie/ISLR2/Slides/Ch5_Resampling_Methods.pdf)
+
+For the [training error](training-error.md) example, three folds contain indices $i$ with equal remainder modulo 3. Each fit uses eight observations. The [squared-error loss](squared-error-loss.md) averages for degrees 1, 2, and 7 are $0.724132$, $0.027192$, and $1.532790$ respectively. Select degree 2 and refit on all twelve [training data](training-data.md) observations. The folds reuse scarce data while challenging each candidate to predict unseen responses; they do not touch the final [test set](test-set.md).
+
+Any learned preprocessing, including variable selection, must also be fitted within each training fold to avoid [data leakage](data-leakage.md). [ISLR chapter 5 slides, the wrong and right way](https://web.stanford.edu/~hastie/ISLR2/Slides/Ch5_Resampling_Methods.pdf) Repeated tuning can itself overfit the [cross-validation](cross-validation.md) score; [nested cross-validation](nested-cross-validation.md) uses inner folds for [model selection](model-selection.md) and outer folds for assessment of that entire procedure. [On Over-fitting in Model Selection and Subsequent Selection Bias in Performance Evaluation by Gavin C. Cawley and others](on-over-fitting-in-model-selection-and-subsequent-selection-bias-in-performance-evaluation-by-gavin-c-cawley-and-others.md)
+
+Folds use fewer training observations than the final refit, and their scores are dependent because training observations overlap. [ISLR chapter 5 slides, correlated fold estimates](https://web.stanford.edu/~hastie/ISLR2/Slides/Ch5_Resampling_Methods.pdf) Splitting must match deployment: for [time series](time-series-split.md) forecasting, rolling-origin [cross-validation](cross-validation.md) trains on the past and evaluates later observations, preventing future information from entering a forecast. Ordinary random folds need not answer that forecasting question. [Hyndman and Athanasopoulos, time series cross-validation](https://otexts.com/fpp3/tscv.html)
+
+**Table of contents**
+
+- [Nested cross-validation](nested-cross-validation.md)
+- [Biased cross-validation for density bandwidth](biased-cross-validation-for-density-bandwidth.md)
+- [Least-squares cross-validation for density bandwidth](least-squares-cross-validation-for-density-bandwidth.md)
+- [Generalized cross-validation](generalized-cross-validation.md)
+- [Leave-one-out cross-validation](leave-one-out-cross-validation.md)
+  - [Leave-one-out residual identity for a linear smoother](leave-one-out-residual-identity-for-a-linear-smoother.md)
+- [K-fold cross-validation](k-fold-cross-validation.md)
+
+## ↑ Ancestors (7)
+
+1. [Statistical learning](statistical-learning-split.md)
+2. [Statistical modelling](statistical-modelling-split.md)
+3. [Statistical model](statistical-model-split.md)
+4. [Probability and statistics](probability-and-statistics-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (40)
+
+- [Classification tree](classification-tree.md)
+- [Cost-complexity tree pruning](cost-complexity-tree-pruning.md)
+- [Cross-validation](cross-validation.md)
+- [Kullback-Leibler divergence](kullback-leibler-divergence.md)
+- [Lasso regularization path](lasso-regularization-path.md)
+- [Mixture identifiability](mixture-identifiability.md)
+- [Nested cross-validation](nested-cross-validation.md)
+- [Nonregular mixture model selection](nonregular-mixture-model-selection.md)
+- [Overfitting](overfitting.md)
+- [Solution](past-exam-of-the-biochemistry-course-of-the-university-of-cambridge/2025/paper-2/section-i/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-28/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-28/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-36/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-39/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-43/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-46/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-48/6/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-73/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-73/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-44/3/k/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-45/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-45/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-45/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-102/4/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-32/7/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-33/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-33/6/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-206/3/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-206/5/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-206/5/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-206/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-218/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-218/6/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-218/4/d/solution.md)
+- [Reciprocal-predictor regression](reciprocal-predictor-regression.md)
+- [Residual sum of squares](residual-sum-of-squares.md)
+- [Statistical learning](statistical-learning-split.md)
+- [Test set](test-set.md)
+- [Underfitting](underfitting.md)
+- [Variable selection](variable-selection.md)

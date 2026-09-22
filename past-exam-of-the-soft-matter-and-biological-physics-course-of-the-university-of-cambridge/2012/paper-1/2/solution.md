@@ -1,0 +1,21 @@
+<h1 id="2/solution">Solution</h1>
+
+↑ **Parent:** [2](../2.md)
+
+TODO: this entire question is user-deferred. Every requested calculation and measurement is framed as an organism-specific biological or biofluid application. This includes all five unlabelled requests across the two printed pages; no biological research or solving has been performed.
+
+## ↑ Ancestors (13)
+
+1. [2](../2.md)
+2. [Paper 1](../../paper-1-split.md)
+3. [2012](../../split.md)
+4. [Past exam of the soft matter and biological physics course of the University of Cambridge](../../../split.md)
+5. [Soft Matter and Biological Physics course of the University of Cambridge](../../../../soft-matter-and-biological-physics-course-of-the-university-of-cambridge.md)
+6. [Physics course of the year 4 of the natural sciences course of the University of Cambridge](../../../../physics-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+7. [Year 4 of the natural sciences course of the University of Cambridge](../../../../year-4-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+8. [Year of the natural sciences course of the University of Cambridge](../../../../year-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+9. [Natural sciences course of the University of Cambridge](../../../../natural-sciences-course-of-the-university-of-cambridge.md)
+10. [Course of the University of Cambridge](../../../../course-of-the-university-of-cambridge.md)
+11. [University of Cambridge](../../../../university-of-cambridge-split.md)
+12. [List of universities](../../../../list-of-universities.md)
+13. [Codex Wiki](../../../../split.md)

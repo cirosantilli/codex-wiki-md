@@ -1,0 +1,43 @@
+# Section B
+
+↑ **Parent:** [2018](../2018-split.md)
+
+**Table of contents**
+
+- [B2](section-b/b2.md)
+  - [Solution](section-b/b2/solution.md)
+    - [Spectrometer and resolution](section-b/b2/spectrometer-and-resolution.md)
+    - [Polarization-dependent visibility](section-b/b2/polarization-dependent-visibility.md)
+    - [Two-line frequency separation](section-b/b2/two-line-frequency-separation.md)
+    - [Pressure-broadened lines and interferogram](section-b/b2/pressure-broadened-lines-and-interferogram.md)
+    - [Equally spaced spectral components](section-b/b2/equally-spaced-spectral-components.md)
+- [B3](section-b/b3.md)
+  - [Solution](section-b/b3/solution.md)
+    - [Oscillating current](section-b/b3/oscillating-current.md)
+    - [Vanishing field components](section-b/b3/vanishing-field-components.md)
+    - [Retarded vector potential](section-b/b3/retarded-vector-potential.md)
+    - [Radiation cuts and receiving polarization](section-b/b3/radiation-cuts-and-receiving-polarization.md)
+    - [Gain and effective collecting area](section-b/b3/gain-and-effective-collecting-area.md)
+    - [Power delivered to the second dipole](section-b/b3/power-delivered-to-the-second-dipole.md)
+    - [Returned pulse power](section-b/b3/returned-pulse-power.md)
+- [B4](section-b/b4.md)
+  - [Solution](section-b/b4/solution.md)
+    - [Four-vectors and experimental charge invariance](section-b/b4/four-vectors-and-experimental-charge-invariance.md)
+    - [Charge density and four-current](section-b/b4/charge-density-and-four-current.md)
+    - [Magnetic force between neutral wires](section-b/b4/magnetic-force-between-neutral-wires.md)
+    - [Electrostatic calculation for parallel currents](section-b/b4/electrostatic-calculation-for-parallel-currents.md)
+    - [Opposite currents](section-b/b4/opposite-currents.md)
+
+## ↑ Ancestors (11)
+
+1. [2018](../2018-split.md)
+2. [Past exam of the optics and electrodynamics course of the University of Cambridge](../split.md)
+3. [Optics and Electrodynamics course of the University of Cambridge](../../optics-and-electrodynamics-course-of-the-university-of-cambridge.md)
+4. [Physics course of the year 3 of the natural sciences course of the University of Cambridge](../../physics-course-of-the-year-3-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+5. [Year 3 of the natural sciences course of the University of Cambridge](../../year-3-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+6. [Year of the natural sciences course of the University of Cambridge](../../year-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+7. [Natural sciences course of the University of Cambridge](../../natural-sciences-course-of-the-university-of-cambridge.md)
+8. [Course of the University of Cambridge](../../course-of-the-university-of-cambridge.md)
+9. [University of Cambridge](../../university-of-cambridge-split.md)
+10. [List of universities](../../list-of-universities.md)
+11. [Codex Wiki](../../split.md)

@@ -1,0 +1,50 @@
+# Nematic order parameter
+
+↑ **Parent:** [Nematic liquid crystal](nematic-liquid-crystal.md)
+
+**Table of contents**
+
+- [Small-angle width of nematic orientation](small-angle-width-of-nematic-orientation.md)
+- [Effective orientation angle from nematic order](effective-orientation-angle-from-nematic-order.md)
+- [Uniaxial nematic order](uniaxial-nematic-order.md)
+  - [Physical range of a uniaxial nematic order parameter](physical-range-of-a-uniaxial-nematic-order-parameter.md)
+- [Rotational invariant of a symmetric traceless tensor](rotational-invariant-of-a-symmetric-traceless-tensor.md)
+- [Landau-de Gennes free energy](landau-de-gennes-free-energy.md)
+  - [Electric-field coupling to nematic order](electric-field-coupling-to-nematic-order.md)
+    - [Field-induced critical endpoint of the isotropic-nematic transition](field-induced-critical-endpoint-of-the-isotropic-nematic-transition.md)
+
+## ↑ Ancestors (8)
+
+1. [Nematic liquid crystal](nematic-liquid-crystal.md)
+2. [Liquid crystal](liquid-crystal.md)
+3. [Order parameter](order-parameter.md)
+4. [Critical phenomenon](critical-phenomenon-split.md)
+5. [Statistical physics](statistical-physics-split.md)
+6. [Branches of physics](branches-of-physics.md)
+7. [Physics](physics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (22)
+
+- [Effective orientation angle from nematic order](effective-orientation-angle-from-nematic-order.md)
+- [Electric-field coupling to nematic order](electric-field-coupling-to-nematic-order.md)
+- [Independent head-tail reversal symmetry](independent-head-tail-reversal-symmetry.md)
+- [Isotropic phase](isotropic-phase.md)
+- [Landau-de Gennes free energy](landau-de-gennes-free-energy.md)
+- [Nematic defect-antidefect annihilation](nematic-defect-antidefect-annihilation.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-344/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-344/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-344/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-344/2/a/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2005/section-a/a1/a/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2006/section-a/a1/d/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2007/section-a/a1/a/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2008/section-a/a2/a/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2009/section-a/a3/solution.md)
+- [Solution](past-exam-of-the-theoretical-physics-i-course-of-the-university-of-cambridge/2016/paper-1/4/c/solution.md)
+- [Solution](past-exam-of-the-theoretical-physics-i-course-of-the-university-of-cambridge/2016/paper-1/4/d/solution.md)
+- [Solution](past-exam-of-the-thermal-and-statistical-physics-course-of-the-university-of-cambridge/2021/section-b/5/a/solution.md)
+- [Physical range of a uniaxial nematic order parameter](physical-range-of-a-uniaxial-nematic-order-parameter.md)
+- [Planar nematic divergence-elasticity identity](planar-nematic-divergence-elasticity-identity.md)
+- [Traceless second-rank tensor](traceless-second-rank-tensor.md)
+- [Uniaxial nematic order](uniaxial-nematic-order.md)

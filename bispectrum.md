@@ -1,0 +1,27 @@
+# Bispectrum
+
+↑ **Parent:** [Time series](time-series-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Bispectrum)
+
+The [bispectrum](bispectrum.md) is the [Fourier transform](fourier-transform-split.md) of a third-order [cumulant](cumulant.md) or correlation function, with the convention specified for the process or field. It measures third-order dependence among frequency triples; the [primordial bispectrum](primordial-bispectrum.md) is a cosmological random-field application.
+
+**Table of contents**
+
+- [Trispectrum](trispectrum.md)
+
+## ↑ Ancestors (5)
+
+1. [Time series](time-series-split.md)
+2. [Probability and statistics](probability-and-statistics-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (6)
+
+- [Bispectrum](bispectrum.md)
+- [Solution](past-exam-of-the-frontiers-of-observational-astrophysics-course-of-the-university-of-cambridge/2015/paper-1/3/b/solution.md)
+- [Solution](past-exam-of-the-frontiers-of-observational-astrophysics-course-of-the-university-of-cambridge/2016/paper-1/2/b/solution.md)
+- [Primordial bispectrum](primordial-bispectrum.md)
+- [Speckle interferometry](speckle-interferometry.md)
+- [Trispectrum](trispectrum.md)

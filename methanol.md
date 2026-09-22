@@ -1,0 +1,35 @@
+# Methanol
+
+↑ **Parent:** [Chemical compound](chemical-compound.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Methanol)
+
+## ↑ Ancestors (4)
+
+1. [Chemical compound](chemical-compound.md)
+2. [Chemical substance](chemical-substance-split.md)
+3. [Chemistry](chemistry-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (21)
+
+- [2,2-Dimethoxypropane](2-2-dimethoxypropane.md)
+- [Methanolysis of an anhydro acetal](methanolysis-of-an-anhydro-acetal.md)
+- [Methoxide](methoxide.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2021/paper-1/b2/b/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2021/paper-1/b4/c/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2022/paper-1/b4/c/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-1/b2/a/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-1/b4/b/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2024/paper-1/b4/b/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2021/paper-1/3/a/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2021/paper-1/3/b/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2023/paper-1/2/a/iii/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2023/paper-1/2/a/iv/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2023/paper-1/2/a/v/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2023/paper-1/3/c/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2025/3/c/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2025/3/c/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-1/1/a/i/solution.md)
+- [Rotational monitoring of deuterium exchange](rotational-monitoring-of-deuterium-exchange.md)
+- [Ruby calibration against sodium chloride](ruby-calibration-against-sodium-chloride.md)
+- [Western blot transfer](western-blot-transfer.md)

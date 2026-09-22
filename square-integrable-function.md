@@ -1,0 +1,48 @@
+# Square-integrable function
+
+↑ **Parent:** [Lp space](lp-space.md)
+
+A [measurable function](measurable-function.md) is square-integrable when the [integral](integral-split.md) of its squared absolute value is finite. Its equivalence class belongs to the [L2 space](l2-space-is-a-hilbert-space.md); on a [probability space](probability-space-split.md), this means a finite second [moment](moment.md).
+
+## ↑ Ancestors (7)
+
+1. [Lp space](lp-space.md)
+2. [Measure theory](measure-theory-split.md)
+3. [Real analysis](real-analysis-split.md)
+4. [Analysis](analysis-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (30)
+
+- [Complex Fourier series](complex-fourier-series.md)
+- [Controllability Gramian](controllability-gramian.md)
+- [Fourier series](fourier-series-split.md)
+- [Ground-state energy](ground-state-energy.md)
+- [Haar scaling function](haar-scaling-function.md)
+- [Hilbert space](hilbert-space-split.md)
+- [Influence-function representer](influence-function-representer.md)
+- [Kalman rank criterion](kalman-rank-criterion.md)
+- [Multiresolution analysis](multiresolution-analysis.md)
+- [Nonpositive modes in a Dirichlet-Robin interval expansion](nonpositive-modes-in-a-dirichlet-robin-interval-expansion.md)
+- [Optimizing the Gaussian trial for an attractive Gaussian well](optimizing-the-gaussian-trial-for-an-attractive-gaussian-well.md)
+- [Orthonormal wavelet](orthonormal-wavelet.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/ib/paper-1/2h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-57/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/ib/paper-4/8b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-67/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-68/5/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-36/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ib/paper-4/17d/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ib/paper-4/17d/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-335/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2019/paper-2/18/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2023/paper-1/17/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2024/paper-2/18/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2003/paper-1/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2017/paper-2/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2024/paper-1/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2025/paper-1/10/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2025/paper-1/10/c/solution.md)
+- [Vanishing moment](vanishing-moment.md)

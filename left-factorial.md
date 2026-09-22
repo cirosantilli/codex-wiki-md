@@ -1,0 +1,11 @@
+# Left factorial
+
+↑ **Parent:** [Factorial](factorial.md)
+
+## ↑ Ancestors (5)
+
+1. [Factorial](factorial.md)
+2. [Combinatorics](combinatorics-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)

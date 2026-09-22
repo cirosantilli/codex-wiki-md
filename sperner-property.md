@@ -1,0 +1,13 @@
+# Sperner property
+
+↑ **Parent:** [Partially ordered set](partially-ordered-set.md)
+
+## ↑ Ancestors (7)
+
+1. [Partially ordered set](partially-ordered-set.md)
+2. [Set](set-split.md)
+3. [Set theory](set-theory-split.md)
+4. [Foundations of mathematics](foundations-of-mathematics-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)

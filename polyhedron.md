@@ -1,0 +1,62 @@
+# Polyhedron
+
+↑ **Parent:** [Euclidean geometry](euclidean-geometry-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Polyhedron)
+
+A polyhedron is a three-dimensional solid assembled from polygonal faces meeting along edges and vertices.
+
+**Table of contents**
+
+- [Bicapped square antiprism](bicapped-square-antiprism.md)
+- [Pentagonal bipyramid](pentagonal-bipyramid.md)
+- [Truncated octahedron](truncated-octahedron.md)
+- [Prism (geometry)](prism-geometry.md)
+  - [Minimum deviation of a prism](minimum-deviation-of-a-prism.md)
+    - [Prism sweep under different rotation conventions](prism-sweep-under-different-rotation-conventions.md)
+  - [Hexagonal prism](hexagonal-prism.md)
+- [Edge of a polyhedron](edge-of-a-polyhedron.md)
+- [Interior dihedral angle of a convex polyhedron](interior-dihedral-angle-of-a-convex-polyhedron.md)
+- [Pyramid](pyramid.md)
+  - [Square pyramid](square-pyramid.md)
+- [Octahedron](octahedron.md)
+- [Parallelepiped](parallelepiped.md)
+  - [Rectangular parallelepiped](rectangular-parallelepiped.md)
+- [Pentagonal prism](pentagonal-prism.md)
+- [Tetrahedron](tetrahedron.md)
+  - [Tetrahedron membership via scalar triple products](tetrahedron-membership-via-scalar-triple-products.md)
+  - [Tetrahedron centroid-to-midpoint sum of squares](tetrahedron-centroid-to-midpoint-sum-of-squares.md)
+  - [Incenter of a tetrahedron](incenter-of-a-tetrahedron.md)
+  - [Circumcenter of a tetrahedron](circumcenter-of-a-tetrahedron.md)
+  - [Regular tetrahedron](regular-tetrahedron.md)
+  - [Sphere center from three tetrahedron face distances](sphere-center-from-three-tetrahedron-face-distances.md)
+  - [Opposite edges of a tetrahedron](opposite-edges-of-a-tetrahedron.md)
+    - [Tetrahedron volume under sliding opposite edges](tetrahedron-volume-under-sliding-opposite-edges.md)
+    - [Orthogonal opposite edges of a tetrahedron](orthogonal-opposite-edges-of-a-tetrahedron.md)
+- [Platonic solid](platonic-solid.md)
+  - [Regular icosahedron](regular-icosahedron.md)
+  - [Cube](cube.md)
+  - [Dodecahedron](dodecahedron.md)
+- [Archimedean solid](archimedean-solid.md)
+  - [Icosidodecahedron](icosidodecahedron.md)
+
+## ↑ Ancestors (5)
+
+1. [Euclidean geometry](euclidean-geometry-split.md)
+2. [Geometry and topology](geometry-and-topology-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (11)
+
+- [Edge of a polyhedron](edge-of-a-polyhedron.md)
+- [Interior dihedral angle of a convex polyhedron](interior-dihedral-angle-of-a-convex-polyhedron.md)
+- [Linear polyhedron](linear-polyhedron.md)
+- [Octahedron](octahedron.md)
+- [Parallelepiped](parallelepiped.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ii/paper-4/21h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-2/21h/a/solution.md)
+- [Pentagonal bipyramid](pentagonal-bipyramid.md)
+- [Prism (geometry)](prism-geometry.md)
+- [Pyramid](pyramid.md)
+- [Vector areas of a closed polyhedron sum to zero](vector-areas-of-a-closed-polyhedron-sum-to-zero.md)

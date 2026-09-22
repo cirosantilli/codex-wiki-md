@@ -1,0 +1,49 @@
+# Paper 1
+
+↑ **Parent:** [2015](split.md)
+
+Original public paper: [Physical PDF pages 351–354](https://www.whatdotheyknow.com/request/natural_science_tripos_physics_e_2/response/2340776/attach/2/FOI%202023%20399%20Zahid%20materials.pdf?cookie_passthrough=1#page=351). All questions and all optional notes are covered. The spherical accretion estimate and pressure-negligible wind approximation are stated explicitly; neither follows from steadiness or adiabaticity alone.
+
+**Table of contents**
+
+- [1](paper-1/1.md)
+  - [a](paper-1/1/a.md)
+    - [Solution](paper-1/1/a/solution.md)
+  - [b](paper-1/1/b.md)
+    - [Solution](paper-1/1/b/solution.md)
+  - [c](paper-1/1/c.md)
+    - [Solution](paper-1/1/c/solution.md)
+- [2](paper-1/2.md)
+  - [a](paper-1/2/a.md)
+    - [Solution](paper-1/2/a/solution.md)
+  - [b](paper-1/2/b.md)
+    - [Solution](paper-1/2/b/solution.md)
+  - [c](paper-1/2/c.md)
+    - [Solution](paper-1/2/c/solution.md)
+- [3](paper-1/3.md)
+  - [Solution](paper-1/3/solution.md)
+- [4](paper-1/4.md)
+  - [a](paper-1/4/a.md)
+    - [Solution](paper-1/4/a/solution.md)
+  - [b](paper-1/4/b.md)
+    - [Solution](paper-1/4/b/solution.md)
+  - [c](paper-1/4/c.md)
+    - [Solution](paper-1/4/c/solution.md)
+  - [d](paper-1/4/d.md)
+    - [Solution](paper-1/4/d/solution.md)
+  - [e](paper-1/4/e.md)
+    - [Solution](paper-1/4/e/solution.md)
+
+## ↑ Ancestors (11)
+
+1. [2015](split.md)
+2. [Past exam of the astrophysical fluid dynamics course of the University of Cambridge](../split.md)
+3. [Astrophysical Fluid Dynamics course of the University of Cambridge](../../astrophysical-fluid-dynamics-course-of-the-university-of-cambridge.md)
+4. [Physics course of the year 3 of the natural sciences course of the University of Cambridge](../../physics-course-of-the-year-3-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+5. [Year 3 of the natural sciences course of the University of Cambridge](../../year-3-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+6. [Year of the natural sciences course of the University of Cambridge](../../year-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+7. [Natural sciences course of the University of Cambridge](../../natural-sciences-course-of-the-university-of-cambridge.md)
+8. [Course of the University of Cambridge](../../course-of-the-university-of-cambridge.md)
+9. [University of Cambridge](../../university-of-cambridge-split.md)
+10. [List of universities](../../list-of-universities.md)
+11. [Codex Wiki](../../split.md)

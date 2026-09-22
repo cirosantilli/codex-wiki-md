@@ -1,0 +1,47 @@
+# Paper 13
+
+↑ **Parent:** [1997](split.md)
+
+[https://www.cl.cam.ac.uk/teaching/exams/pastpapers/y1997PAPER13.pdf](https://www.cl.cam.ac.uk/teaching/exams/pastpapers/y1997PAPER13.pdf)
+
+**Table of contents**
+
+- [1](paper-13/1.md)
+  - [Solution](paper-13/1/solution.md)
+- [2](paper-13/2.md)
+  - [Solution](paper-13/2/solution.md)
+- [3](paper-13/3.md)
+  - [Solution](paper-13/3/solution.md)
+- [4](paper-13/4.md)
+  - [a](paper-13/4/a.md)
+    - [Solution](paper-13/4/a/solution.md)
+  - [b](paper-13/4/b.md)
+    - [Solution](paper-13/4/b/solution.md)
+- [5](paper-13/5.md)
+  - [Solution](paper-13/5/solution.md)
+- [6](paper-13/6.md)
+  - [Solution](paper-13/6/solution.md)
+- [7](paper-13/7.md)
+  - [Solution](paper-13/7/solution.md)
+- [8](paper-13/8.md)
+  - [Solution](paper-13/8/solution.md)
+- [9](paper-13/9.md)
+  - [Solution](paper-13/9/solution.md)
+- [10](paper-13/10.md)
+  - [Solution](paper-13/10/solution.md)
+- [11](paper-13/11.md)
+  - [Solution](paper-13/11/solution.md)
+- [12](paper-13/12.md)
+  - [Solution](paper-13/12/solution.md)
+- [13](paper-13/13.md)
+  - [Solution](paper-13/13/solution.md)
+
+## ↑ Ancestors (7)
+
+1. [1997](split.md)
+2. [Past exam of the computer science course of the University of Cambridge](../split.md)
+3. [Computer science course of the University of Cambridge](../../computer-science-course-of-the-university-of-cambridge.md)
+4. [Course of the University of Cambridge](../../course-of-the-university-of-cambridge.md)
+5. [University of Cambridge](../../university-of-cambridge-split.md)
+6. [List of universities](../../list-of-universities.md)
+7. [Codex Wiki](../../split.md)

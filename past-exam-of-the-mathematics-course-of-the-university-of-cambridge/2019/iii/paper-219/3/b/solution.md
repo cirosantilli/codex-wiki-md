@@ -1,0 +1,40 @@
+<h1 id="3/b/solution">Solution</h1>
+
+↑ **Parent:** [B](../b.md)
+
+At the fitted parameters, let $C=C_{\widehat\theta}$ and $\mu=\mu_{\widehat\theta}$. For prediction times $t_*$ define
+
+$$
+K_{**}=K_f(t_*,t_*),
+\qquad
+K_{*y}=\begin{pmatrix}K_f(t_*,t)&K_f(t_*,t-\widehat{\Delta t})\end{pmatrix}.
+$$
+
+The microlensing processes and measurement errors contribute no cross-covariance with the latent quasar light curve. The [Gaussian process regression posterior](../../../../../../gaussian-process-regression-posterior.md) is therefore
+
+$$
+\boxed{\mathbb E[f_*\mid y]=c\mathbf1+K_{*y}C^{-1}(y-\mu),}
+$$
+
+
+
+$$
+\boxed{\operatorname{Cov}(f_*\mid y)
+=K_{**}-K_{*y}C^{-1}K_{y*}.}
+$$
+
+The requested pointwise posterior variances are the diagonal entries of the latter matrix.
+
+## ↑ Ancestors (11)
+
+1. [B](../b.md)
+2. [3](../../3.md)
+3. [Paper 219](../../../paper-219-split.md)
+4. [Iii](../../../split.md)
+5. [2019](../../../../split.md)
+6. [Past exam of the mathematics course of the University of Cambridge](../../../../../split.md)
+7. [Mathematics course of the University of Cambridge](../../../../../../mathematics-course-of-the-university-of-cambridge.md)
+8. [Course of the University of Cambridge](../../../../../../course-of-the-university-of-cambridge.md)
+9. [University of Cambridge](../../../../../../university-of-cambridge-split.md)
+10. [List of universities](../../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../../split.md)

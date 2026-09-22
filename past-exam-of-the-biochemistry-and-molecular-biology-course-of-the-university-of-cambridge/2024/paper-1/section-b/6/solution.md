@@ -1,0 +1,29 @@
+<h1 id="section-b/6/solution">Solution</h1>
+
+↑ **Parent:** [6](../6.md)
+
+**Selecting tight binding to a transition-state analogue is an ingenious route to catalytic activity, but it is an indirect and incomplete selection for a useful enzyme.** A [catalytic antibody](../../../../../catalytic-antibody.md) can be raised against a stable molecule designed to resemble a reaction's [transition state](../../../../../transition-state.md). Preferential stabilization of that configuration relative to the substrate can lower the [activation free energy](../../../../../gibbs-energy-of-activation.md). In an early demonstration, antibodies elicited against suitable haptens catalysed ester hydrolysis and were inhibited by the corresponding transition-state analogues.[Tramontano, Janda and Lerner, 1986, abstract: ester hydrolysis and inhibition by haptens](../../../../../catalytic-antibodies-by-alfonso-tramontano-and-others.md) This established a principle of molecular recognition, rather than a guarantee that any tightly bound hapten yields efficient catalysis.
+
+A stable analogue necessarily differs from the actual fleeting transition state. Antibody maturation selects affinity for the immunizing molecule, including groups used to attach it to a carrier, rather than directly selecting rapid repeated turnover of the desired substrate. A useful catalyst must position acid/base groups, exclude or organize water, control electrostatics, traverse all reaction intermediates and release products. Binding one geometrical approximation need not optimize those steps. Strong product binding can inhibit turnover; excellent affinity can coexist with a small [turnover number](../../../../../turnover-number.md). A large rate enhancement over an exceptionally slow uncatalysed reaction can still give an impractically slow absolute reaction. Limited substrate scope, difficult analogue synthesis and the production or stability requirements of an antibody scaffold add practical costs.
+
+Performance must therefore be measured as product formation over multiple turnovers, with purified [protein](../../../../../protein-split.md), no-antibody and unrelated-antibody controls, and suitable checks against contaminating enzymes. Report both turnover and substrate dependence, preferably [catalytic efficiency](../../../../../catalytic-efficiency.md), alongside stereoselectivity, stability and achievable substrate loading. Competitive inhibition by the immunizing hapten supports involvement of the binding site, but cannot by itself exclude every alternative source of activity.
+
+[Directed evolution](../../../../../directed-evolution.md) instead mutates a gene, expresses a library and screens or selects the actual property required. Repeated selection of [subtilisin E](../../../../../subtilisin-e.md) variants for activity in an organic solvent demonstrated improvement under the intended reaction conditions without requiring a complete mechanistic prediction of every mutation.[Chen and Arnold, 1993, pp. 5618–5622, sequential mutation and screening in dimethylformamide](../../../../../tuning-the-activity-of-an-enzyme-for-unusual-environments-sequential-random-mutagenesis-of-subtilisin-e-for-catalysis-in-dimethylformamide-by-keqin-chen-and-others.md) Starting from a natural enzyme supplies a scaffold already capable of catalytic turnover. The assay can jointly select activity, selectivity or stability, although improvements are only as relevant as the assay: better expression must not be mistaken for a better purified catalyst.
+
+Contemporary [computational enzyme design](../../../../../computational-enzyme-design.md) can place a modelled catalytic arrangement into a [protein](../../../../../protein-split.md) scaffold, then use experimental screening and [directed evolution](../../../../../directed-evolution.md) to improve it. Designed [Kemp eliminases](../../../../../kemp-eliminase.md) illustrate the combination of mechanistic design with subsequent empirical optimization.[Röthlisberger and colleagues, 2008, abstract and results on designed catalysts and evolutionary improvement](../../../../../kemp-elimination-catalysts-by-computational-enzyme-design-by-daniela-rothlisberger-and-others.md) Rational mutagenesis and recombination can likewise focus a library on useful positions. These methods still face imperfect models and finite search capacity; they succeed by testing catalysis more directly and iterating. The question's historical premise is best read as a loss of prominence of the classical hapten-immunization strategy, rather than proof that catalytic-antibody research has universally ceased. **The decisive advance is selection for the reaction and operating conditions, with binding treated as one component of performance.**
+
+## ↑ Ancestors (13)
+
+1. [6](../6.md)
+2. [Section B](../../section-b.md)
+3. [Paper 1](../../../paper-1-split.md)
+4. [2024](../../../split.md)
+5. [Past exam of the biochemistry and Molecular Biology course of the University of Cambridge](../../../../split.md)
+6. [Biochemistry and Molecular Biology course of the University of Cambridge](../../../../../biochemistry-and-molecular-biology-course-of-the-university-of-cambridge.md)
+7. [Year 2 of the natural sciences course of the University of Cambridge](../../../../../year-2-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+8. [Year of the natural sciences course of the University of Cambridge](../../../../../year-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+9. [Natural sciences course of the University of Cambridge](../../../../../natural-sciences-course-of-the-university-of-cambridge.md)
+10. [Course of the University of Cambridge](../../../../../course-of-the-university-of-cambridge.md)
+11. [University of Cambridge](../../../../../university-of-cambridge-split.md)
+12. [List of universities](../../../../../list-of-universities.md)
+13. [Codex Wiki](../../../../../split.md)

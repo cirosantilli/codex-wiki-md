@@ -1,0 +1,63 @@
+# Substituent
+
+↑ **Parent:** [Stereochemistry](stereochemistry-split.md)
+
+A [substituent](substituent.md) is an attached [chemical atom](atom-physics.md) or group considered relative to a chosen molecular framework. Testing whether two [substituents](substituent.md) are identical may require comparing their full [chemical bond](chemical-bond-split.md) connectivity and [stereochemistry](stereochemistry-split.md).
+
+**Table of contents**
+
+- [Electron-donating group](electron-donating-group.md)
+- [Electron-withdrawing group](electron-withdrawing-group.md)
+- [Cyclohexyl group](cyclohexyl-group.md)
+
+## ↑ Ancestors (3)
+
+1. [Stereochemistry](stereochemistry-split.md)
+2. [Chemistry](chemistry-split.md)
+3. [Codex Wiki](split.md)
+
+## ← Incoming links (43)
+
+- [Allene](allene.md)
+- [Antiperiplanar migration in the Beckmann rearrangement](antiperiplanar-migration-in-the-beckmann-rearrangement.md)
+- [Axial chirality](axial-chirality.md)
+- [Biphenyl](biphenyl.md)
+- [Chirality (chemistry)](chirality-chemistry.md)
+- [Electron-donating group](electron-donating-group.md)
+- [Electron-withdrawing group](electron-withdrawing-group.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2021/paper-2/b10/a/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2021/paper-2/b10/a/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2021/paper-2/b7/c/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2021/paper-2/b8/b/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2021/paper-2/b9/c/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2022/paper-1/b1/a/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2022/paper-1/b2/a/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2022/paper-1/b2/b/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2022/paper-1/b3/c/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2022/paper-1/b4/b/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2022/paper-1/b4/c/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2022/paper-1/b4/d/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-1/b1/a/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-1/b1/b/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-1/b1/c/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-1/b2/a/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-1/b2/b/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-1/b2/b/iii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-1/b3/a/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-1/b3/a/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-1/b3/c/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-1/b4/a/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-1/b4/b/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2025/paper-1/b1/a/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2025/paper-1/b1/a/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2025/paper-1/b1/b/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2025/paper-1/b2/b/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2025/paper-1/b4/b/iii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2025/paper-1/b4/b/iv/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2025/paper-1/b4/b/v/solution.md)
+- [Planar chirality](planar-chirality.md)
+- [R and S configuration](r-and-s-configuration.md)
+- [Silsesquioxane](silsesquioxane.md)
+- [Stereochemical sequence rule](stereochemical-sequence-rule.md)
+- [Substituent](substituent.md)
+- [Tetrahedral mirror-image test](tetrahedral-mirror-image-test.md)

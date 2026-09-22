@@ -1,0 +1,48 @@
+# Alpha particle
+
+↑ **Parent:** [Atomic nucleus](atomic-nucleus-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Alpha_particle)
+
+The helium-four [atomic nucleus](atomic-nucleus-split.md), containing two [protons](proton.md) and two [neutrons](neutron-split.md). Its ground-state [spin](spin.md) and [isospin](isospin.md) are zero. A quantized [cubic four-Skyrmion](cubic-four-skyrmion.md) supplies a corresponding nuclear state in the soliton description.
+
+## ↑ Ancestors (4)
+
+1. [Atomic nucleus](atomic-nucleus-split.md)
+2. [Nuclear physics](nuclear-physics.md)
+3. [Physics](physics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (32)
+
+- [Alpha capture](alpha-capture.md)
+- [Alpha decay](alpha-decay.md)
+- [Alpha-decay angular-momentum and parity selection rule](alpha-decay-angular-momentum-and-parity-selection-rule.md)
+- [Ballistic radiation damage](ballistic-radiation-damage.md)
+- [Carbon-12 alpha capture](carbon-12-alpha-capture.md)
+- [Chadwick neutron discovery experiment](chadwick-neutron-discovery-experiment.md)
+- [Cockcroft-Walton lithium disintegration experiment](cockcroft-walton-lithium-disintegration-experiment.md)
+- [Effective amorphization volume per decay](effective-amorphization-volume-per-decay.md)
+- [Fowler nuclear astrophysics](fowler-nuclear-astrophysics.md)
+- [Geiger-Marsden experiment](geiger-marsden-experiment.md)
+- [Laboratory evidence for the Hoyle state](laboratory-evidence-for-the-hoyle-state.md)
+- [Lithium proton reaction energy](lithium-proton-reaction-energy.md)
+- [Lithium reaction laboratory recoil](lithium-reaction-laboratory-recoil.md)
+- [Solution](past-exam-of-the-advanced-quantum-physics-course-of-the-university-of-cambridge/2017/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-42/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-308/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-308/3/solution.md)
+- [Solution](past-exam-of-the-mphil-in-nuclear-energy-course-of-the-university-of-cambridge/2019/paper-ne1/1/a/solution.md)
+- [Solution](past-exam-of-the-mphil-in-nuclear-energy-course-of-the-university-of-cambridge/2020/paper-ne4/2/a/solution.md)
+- [Solution](past-exam-of-the-mphil-in-nuclear-energy-course-of-the-university-of-cambridge/2020/paper-ne4/2/b/solution.md)
+- [Solution](past-exam-of-the-mphil-in-nuclear-energy-course-of-the-university-of-cambridge/2020/paper-ne4/2/c/solution.md)
+- [Solution](past-exam-of-the-mphil-in-nuclear-energy-course-of-the-university-of-cambridge/2021/paper-ne1/1/d/ii/solution.md)
+- [Solution](past-exam-of-the-mphil-in-nuclear-energy-course-of-the-university-of-cambridge/2021/paper-ne4/3/d/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2012/paper-1/4/iii/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2017/3/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2021/section-a/3/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2014/paper-1/section-c/c11/b/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2019/paper-1/section-a/a4/solution.md)
+- [Resonant triple-alpha temperature sensitivity](resonant-triple-alpha-temperature-sensitivity.md)
+- [Rutherford impact-parameter relation](rutherford-impact-parameter-relation.md)
+- [Thin-foil scattering counts](thin-foil-scattering-counts.md)
+- [Wilson cloud-chamber experiment](wilson-cloud-chamber-experiment.md)

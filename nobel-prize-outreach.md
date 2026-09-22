@@ -1,0 +1,50 @@
+# Nobel Prize Outreach
+
+↑ **Parent:** [Physics author](physics-author-split.md)
+
+**Table of contents**
+
+- [Work by Nobel Prize Outreach](work-by-nobel-prize-outreach.md)
+
+## ↑ Ancestors (3)
+
+1. [Physics author](physics-author-split.md)
+2. [Physics](physics-split.md)
+3. [Codex Wiki](split.md)
+
+## ← Incoming links (34)
+
+- [Albert Einstein, Facts by Nobel Prize Outreach](albert-einstein-facts-by-nobel-prize-outreach.md)
+- [Facts on the Nobel Prize in Physics by Nobel Prize Outreach](facts-on-the-nobel-prize-in-physics-by-nobel-prize-outreach.md)
+- [Gabriel Lippmann, Nomination Physics 1907 9-0 by Nobel Prize Outreach](gabriel-lippmann-nomination-physics-1907-9-0-by-nobel-prize-outreach.md)
+- [Jean Baptiste Perrin - Facts by Nobel Prize Outreach](jean-baptiste-perrin-facts-by-nobel-prize-outreach.md)
+- [Johannes Diderik van der Waals, Facts by Nobel Prize Outreach](johannes-diderik-van-der-waals-facts-by-nobel-prize-outreach.md)
+- [Otto Stern - Facts by Nobel Prize Outreach](otto-stern-facts-by-nobel-prize-outreach.md)
+- [Paul A.M. Dirac, Facts by Nobel Prize Outreach](paul-a-m-dirac-facts-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1909 by Nobel Prize Outreach](the-nobel-prize-in-physics-1909-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1912 by Nobel Prize Outreach](the-nobel-prize-in-physics-1912-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1913 by Nobel Prize Outreach](the-nobel-prize-in-physics-1913-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1914 by Nobel Prize Outreach](the-nobel-prize-in-physics-1914-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1915 by Nobel Prize Outreach](the-nobel-prize-in-physics-1915-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1917 by Nobel Prize Outreach](the-nobel-prize-in-physics-1917-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1918 by Nobel Prize Outreach](the-nobel-prize-in-physics-1918-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1919 by Nobel Prize Outreach](the-nobel-prize-in-physics-1919-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1920 by Nobel Prize Outreach](the-nobel-prize-in-physics-1920-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1922 by Nobel Prize Outreach](the-nobel-prize-in-physics-1922-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1923 by Nobel Prize Outreach](the-nobel-prize-in-physics-1923-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1924 by Nobel Prize Outreach](the-nobel-prize-in-physics-1924-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1925 by Nobel Prize Outreach](the-nobel-prize-in-physics-1925-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1927 by Nobel Prize Outreach](the-nobel-prize-in-physics-1927-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1928 by Nobel Prize Outreach](the-nobel-prize-in-physics-1928-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1929 by Nobel Prize Outreach](the-nobel-prize-in-physics-1929-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1932 by Nobel Prize Outreach](the-nobel-prize-in-physics-1932-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1933 by Nobel Prize Outreach](the-nobel-prize-in-physics-1933-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1935 by Nobel Prize Outreach](the-nobel-prize-in-physics-1935-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1936 by Nobel Prize Outreach](the-nobel-prize-in-physics-1936-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1938 by Nobel Prize Outreach](the-nobel-prize-in-physics-1938-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1939 by Nobel Prize Outreach](the-nobel-prize-in-physics-1939-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1944 by Nobel Prize Outreach](the-nobel-prize-in-physics-1944-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1945 by Nobel Prize Outreach](the-nobel-prize-in-physics-1945-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1946 by Nobel Prize Outreach](the-nobel-prize-in-physics-1946-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1947 by Nobel Prize Outreach](the-nobel-prize-in-physics-1947-by-nobel-prize-outreach.md)
+- [The Nobel Prize in Physics 1948 by Nobel Prize Outreach](the-nobel-prize-in-physics-1948-by-nobel-prize-outreach.md)

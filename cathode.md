@@ -1,0 +1,56 @@
+# Cathode
+
+↑ **Parent:** [Electrode](electrode.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Cathode)
+
+The [cathode](cathode.md) is the [electrode](electrode.md) at which the net [electrode](electrode.md) [chemical reaction](chemical-reaction-split.md) is [reduction](reduction-chemistry.md): the reacting [chemical species](chemical-species.md) gains [electrons](electron.md). This definition is independent of terminal sign. During [Daniell cell](daniell-cell.md) discharge, $\mathrm{Cu}^{2+}$ [cations](cation.md) accept [electrons](electron.md) arriving at the [copper](copper.md) [cathode](cathode.md) and become neutral [copper](copper.md). The [cathode](cathode.md) is then the positive terminal. In an externally driven [electrolytic cell](electrolytic-cell.md), the source's negative terminal supplies [electrons](electron.md) to the negative [cathode](cathode.md). See [Pingarrón et al., §3.4: cathode](https://doi.org/10.1515/pac-2018-0109) and [Daniell cell](daniell-cell.md).
+
+An [ion](ion.md) carrying [electric current](electric-current.md) need not undergo [reduction](reduction-chemistry.md) at the [cathode](cathode.md). For example, in the ideal [Daniell cell](daniell-cell.md) charge-balance picture, [potassium](potassium.md) [cations](cation.md) arriving from a [salt bridge](salt-bridge.md) remain dissolved while $\mathrm{Cu}^{2+}$ [cations](cation.md) are consumed. Follow the [half-reaction](half-reaction.md) to identify the reacting species; follow [electric charge conservation](charge-conservation.md) to account for the other moving [ions](ion.md).
+
+## ↑ Ancestors (4)
+
+1. [Electrode](electrode.md)
+2. [Electrochemistry](electrochemistry-split.md)
+3. [Chemistry](chemistry-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (38)
+
+- [Agarose gel electrophoresis](agarose-gel-electrophoresis.md)
+- [Anode ray](anode-ray.md)
+- [Cathode](cathode.md)
+- [Daniell cell](daniell-cell.md)
+- [Daniell cell voltage and load experiment](daniell-cell-voltage-and-load-experiment.md)
+- [Electric battery](electric-battery.md)
+- [Electrochemistry](electrochemistry-split.md)
+- [Electrode](electrode.md)
+- [Electrolysis](electrolysis.md)
+- [Electrolyte](electrolyte.md)
+- [Electrolytic cell](electrolytic-cell.md)
+- [Electrorefining](electrorefining.md)
+- [Franck-Hertz experiment](franck-hertz-experiment.md)
+- [Galvanic cell](galvanic-cell.md)
+- [Gel electrophoresis](gel-electrophoresis.md)
+- [Multiwire proportional chamber](multiwire-proportional-chamber.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2025/4/b/i/solution.md)
+- [Solution](past-exam-of-the-materials-science-course-of-the-university-of-cambridge/2017/paper-1/3/a/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2017/paper-1/section-b/11/i/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2017/paper-1/section-b/11/ii/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2017/paper-1/section-b/11/iii/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2017/paper-1/section-b/11/iv/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2017/paper-1/section-b/11/v/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2017/paper-1/section-b/12/iii/c/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2019/paper-1/section-a-iii/6/i/b/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2019/paper-1/section-a-iii/6/i/c/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2019/paper-1/section-b/11/ii/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2021/paper-1/11/i/a/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2022/paper-1/section-b/11/ii/a/solution.md)
+- [Reduction (chemistry)](reduction-chemistry.md)
+- [Salt bridge](salt-bridge.md)
+- [Shot noise photocurrent measurement](shot-noise-photocurrent-measurement.md)
+- [Stark canal-ray experiment](stark-canal-ray-experiment.md)
+- [Streakline](streakline.md)
+- [Thomson charge-to-mass experiment](thomson-charge-to-mass-experiment.md)
+- [Vacuum photodiode](vacuum-photodiode.md)
+- [Western blot transfer](western-blot-transfer.md)
+- [X-ray tube](x-ray-tube.md)

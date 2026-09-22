@@ -1,0 +1,60 @@
+# Transferable utility game
+
+↑ **Parent:** [Cooperative game theory](cooperative-game-theory.md)
+
+A finite transferable utility game gives each [coalition](coalition-game-theory.md) $S\subseteq N$ a real value $v(S)$ that its members can distribute among themselves. The usual normalization is $v(\varnothing)=0$. An efficient payoff vector $x$ satisfies $\sum_{i\in N}x_i=v(N)$. [Simple cooperative games](simple-cooperative-game.md) model winning [coalitions](coalition-game-theory.md) with values zero and one; [convex cooperative games](convex-cooperative-game.md) model increasing [marginal contributions](marginal-contribution.md).
+
+**Table of contents**
+
+- [Coverage coalitional game](coverage-coalitional-game.md)
+  - [Shapley value of a coverage game](shapley-value-of-a-coverage-game.md)
+  - [Core of a coverage game](core-of-a-coverage-game.md)
+- [Bankruptcy game](bankruptcy-game.md)
+- [Superadditive coalitional game](superadditive-coalitional-game.md)
+- [Glove game](glove-game.md)
+  - [Core of a glove game](core-of-a-glove-game.md)
+- [Characteristic function of a coalitional game](characteristic-function-of-a-coalitional-game.md)
+- [Dual coalitional game](dual-coalitional-game.md)
+- [Nucleolus](nucleolus.md)
+  - [Prenucleolus](prenucleolus.md)
+- [Imputation in a coalitional game](imputation-in-a-coalitional-game.md)
+- [Marginal contribution](marginal-contribution.md)
+- [Coalition (game theory)](coalition-game-theory.md)
+  - [Excess of a coalition](excess-of-a-coalition.md)
+- [Convex cooperative game](convex-cooperative-game.md)
+  - [Shapley population monotonicity in a convex game](shapley-population-monotonicity-in-a-convex-game.md)
+  - [Shapley value belongs to the core of a convex game](shapley-value-belongs-to-the-core-of-a-convex-game.md)
+- [Core (game theory)](core-game-theory.md)
+  - [Core of the miners game](core-of-the-miners-game.md)
+- [Shapley value](shapley-value.md)
+  - [Shapley limit in a buyer-heavy exchange market](shapley-limit-in-a-buyer-heavy-exchange-market.md)
+  - [Balanced contributions of Shapley values](balanced-contributions-of-shapley-values.md)
+  - [Shapley wages in an entrepreneur-worker game](shapley-wages-in-an-entrepreneur-worker-game.md)
+  - [Shapley self-duality](shapley-self-duality.md)
+  - [Marginal contribution vector](marginal-contribution-vector.md)
+- [Weighted voting game](weighted-voting-game.md)
+- [Simple cooperative game](simple-cooperative-game.md)
+
+## ↑ Ancestors (6)
+
+1. [Cooperative game theory](cooperative-game-theory.md)
+2. [Game theory](game-theory-split.md)
+3. [Mathematical optimization](mathematical-optimization-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (12)
+
+- [Coalition (game theory)](coalition-game-theory.md)
+- [Cooperative game theory](cooperative-game-theory.md)
+- [Dual coalitional game](dual-coalitional-game.md)
+- [Imputation in a coalitional game](imputation-in-a-coalitional-game.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-31/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-34/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-33/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-40/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-35/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-42/5/a/solution.md)
+- [Simple cooperative game](simple-cooperative-game.md)
+- [Superadditive coalitional game](superadditive-coalitional-game.md)

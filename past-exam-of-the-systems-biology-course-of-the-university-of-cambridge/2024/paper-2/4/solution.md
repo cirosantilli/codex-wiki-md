@@ -1,0 +1,34 @@
+<h1 id="4/solution">Solution</h1>
+
+↑ **Parent:** [4](../4.md)
+
+A genome-wide study of [protein](../../../../protein-split.md)–[RNA](../../../../ribonucleic-acid.md) interactions usually means a **transcriptome-wide map for one selected [RNA-binding protein](../../../../rna-binding-protein.md)**, not simultaneous identification of every binding protein. The choice depends on whether the question concerns whole transcripts in an assembly or direct contacts at particular sites.
+
+**[RIP-seq](../../../../rip-seq.md).** Immunoprecipitate the selected [RNA-binding protein](../../../../rna-binding-protein.md) under native or suitably stabilized conditions, recover associated [RNA](../../../../ribonucleic-acid.md) and identify it by [RNA sequencing](../../../../rna-sequencing.md). This can preserve broad ribonucleoprotein assemblies and works without introducing a photoreactive nucleoside. It is appropriate for identifying candidate associated transcripts. Native complexes can dissociate or reassort after lysis, however, and recovered [RNA](../../../../ribonucleic-acid.md) may be attached through another [protein](../../../../protein-split.md). Enrichment across a whole transcript does not locate the binding site. Chemical fixation can stabilize assemblies but may preserve indirect contacts as well.
+
+**[CLIP-seq](../../../../clip-seq.md).** Ultraviolet irradiation creates covalent links at some close [protein](../../../../protein-split.md)–[RNA](../../../../ribonucleic-acid.md) contacts in intact material. Partial nuclease digestion shortens the [RNA](../../../../ribonucleic-acid.md); the chosen [protein](../../../../protein-split.md) is immunoprecipitated, stringently washed, and its attached fragments converted into a sequencing library. Reads map local contacts against a [reference genome](../../../../reference-genome.md) or transcript set. Unlike native [RIP-seq](../../../../rip-seq.md), the covalent linkage permits purification conditions that remove many noncovalently associated RNAs. Cross-linking efficiency is low and depends on sequence, amino-acid chemistry and local geometry, so absent signal is not proof of absent binding.
+
+**[iCLIP](../../../../iclip.md)** exploits the tendency of [reverse transcription](../../../../reverse-transcription.md) to terminate at the peptide remnant of the cross-link. Library preparation recovers these truncated products, and their starts identify contact positions at near-nucleotide precision. Random molecular barcodes help distinguish independently recovered molecules from amplification duplicates. The original work used this information to map hnRNP particles involved in [RNA splicing](../../../../rna-splicing.md).[pp. 909–912, truncated cDNA recovery, molecular barcodes and hnRNP C binding maps](../../../../iclip-reveals-the-function-of-hnrnp-particles-in-splicing-at-individual-nucleotide-resolution-by-julian-konig-and-others.md)
+
+**[PAR-CLIP](../../../../par-clip.md)** metabolically incorporates a photoreactive nucleoside such as 4-thiouridine into newly made [RNA](../../../../ribonucleic-acid.md), then uses longer-wavelength ultraviolet cross-linking. Characteristic T-to-C changes in the resulting sequence reads provide evidence of cross-link positions. This can aid contact detection but requires nucleoside uptake and incorporation, may perturb cells and preferentially samples the labeled RNA population. It is consequently harder to apply directly to an inaccessible intact tissue or a specimen that cannot be metabolically labeled.[pp. 129–132, photoreactive nucleoside incorporation and diagnostic conversions](../../../../transcriptome-wide-identification-of-rna-binding-protein-and-microrna-target-sites-by-par-clip-by-markus-hafner-and-others.md)
+
+**[eCLIP](../../../../eclip.md)** improves adapter ligation and library recovery and incorporates a size-matched input control. It retains information from cross-link-associated [reverse transcription](../../../../reverse-transcription.md) termination while helping identify sites enriched beyond background and abundant RNA. Its controls and reproducibility framework make it useful for systematic comparisons, but it still depends on the target antibody and shares cross-linking and mapping biases.[pp. 508–511, adapter strategy, molecular identifiers and size-matched input enrichment](../../../../robust-transcriptome-wide-discovery-of-rna-binding-protein-binding-sites-with-enhanced-clip-eclip-by-eric-l-van-nostrand-and-others.md)
+
+Across methods, use independent [biological replicates](../../../../biological-replicate.md), input abundance, appropriate immunoprecipitation controls, molecular duplicate handling and a suitable [reference genome](../../../../reference-genome.md). Repetitive sequences and multiple transcript isoforms can make assignment ambiguous. Compare enrichment after accounting for transcript abundance; a more abundant transcript can yield more reads without an increased bound fraction.
+
+For example, to test whether a splicing regulator affects an exon by binding an adjacent intron, choose [iCLIP](../../../../iclip.md) or [eCLIP](../../../../eclip.md) over whole-transcript [RIP-seq](../../../../rip-seq.md). A positional map can distinguish binding upstream, within or downstream of the regulated exon. Combine it with [RNA sequencing](../../../../rna-sequencing.md) after controlled depletion and an interface or RNA-site mutation, or a [minigene splicing reporter](../../../../minigene-splicing-reporter.md), to test whether the contact contributes to exon choice. For an initial survey of transcripts in a stable assembly, [RIP-seq](../../../../rip-seq.md) may instead be sufficient and simpler. **Direct contact, transcript association and functional regulation are distinct conclusions**, and no enrichment method by itself supplies all three.
+
+## ↑ Ancestors (12)
+
+1. [4](../4.md)
+2. [Paper 2](../../paper-2-split.md)
+3. [2024](../../split.md)
+4. [Past exam of the systems biology course of the University of Cambridge](../../../split.md)
+5. [Systems Biology course of the University of Cambridge](../../../../systems-biology-course-of-the-university-of-cambridge.md)
+6. [Year 4 of the natural sciences course of the University of Cambridge](../../../../year-4-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+7. [Year of the natural sciences course of the University of Cambridge](../../../../year-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+8. [Natural sciences course of the University of Cambridge](../../../../natural-sciences-course-of-the-university-of-cambridge.md)
+9. [Course of the University of Cambridge](../../../../course-of-the-university-of-cambridge.md)
+10. [University of Cambridge](../../../../university-of-cambridge-split.md)
+11. [List of universities](../../../../list-of-universities.md)
+12. [Codex Wiki](../../../../split.md)

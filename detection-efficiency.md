@@ -1,0 +1,45 @@
+# Detection efficiency
+
+↑ **Parent:** [Radioactive activity](radioactive-activity.md)
+
+The probability that an event of a specified kind produces a registered count in a specified arrangement. For a radiation detector, geometry, intervening material and the detector response can all affect [detection efficiency](detection-efficiency.md).
+
+## ↑ Ancestors (5)
+
+1. [Radioactive activity](radioactive-activity.md)
+2. [Radioactive decay](radioactive-decay.md)
+3. [Nuclear physics](nuclear-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (29)
+
+- [Accidental coincidence](accidental-coincidence.md)
+- [Blackett-Occhialini triggered cloud-chamber experiment](blackett-occhialini-triggered-cloud-chamber-experiment.md)
+- [Bothe-Geiger coincidence experiment](bothe-geiger-coincidence-experiment.md)
+- [Bubble-chamber nucleation model](bubble-chamber-nucleation-model.md)
+- [Detection efficiency](detection-efficiency.md)
+- [Energy-biased detection probability](energy-biased-detection-probability.md)
+- [Finite-acceptance dilution of beta asymmetry](finite-acceptance-dilution-of-beta-asymmetry.md)
+- [IceCube Neutrino Observatory](icecube-neutrino-observatory.md)
+- [Multiwire proportional chamber experiment](multiwire-proportional-chamber-experiment.md)
+- [Muon-neutrino electron recoil spectrum](muon-neutrino-electron-recoil-spectrum.md)
+- [Neutrino astronomy](neutrino-astronomy.md)
+- [Neutrino event classification model](neutrino-event-classification-model.md)
+- [Neutrino-flux sensitivity inversion](neutrino-flux-sensitivity-inversion.md)
+- [Neutron activation](neutron-activation.md)
+- [Neutron activation buildup and decay](neutron-activation-buildup-and-decay.md)
+- [Nuclear reaction cross-section](nuclear-reaction-cross-section.md)
+- [Particle shower](particle-shower.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2017/4/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2014/paper-1/section-a/4/solution.md)
+- [Radioactive activity](radioactive-activity.md)
+- [Solar neutrino detection](solar-neutrino-detection.md)
+- [SPEAR Mark I tau discovery experiment](spear-mark-i-tau-discovery-experiment.md)
+- [SPEAR psi energy-scan experiment](spear-psi-energy-scan-experiment.md)
+- [Spin-reversal cross-ratio for beta decay](spin-reversal-cross-ratio-for-beta-decay.md)
+- [Super-Kamiokande atmospheric-neutrino experiment](super-kamiokande-atmospheric-neutrino-experiment.md)
+- [Tau-pair electron-muon missing-energy signature](tau-pair-electron-muon-missing-energy-signature.md)
+- [Wire-address position model](wire-address-position-model.md)
+- [Wu experiment](wu-experiment.md)
+- [Z pair mass and W transverse-mass limits](z-pair-mass-and-w-transverse-mass-limits.md)

@@ -1,0 +1,40 @@
+# Section B
+
+↑ **Parent:** [Paper 1](../paper-1-split.md)
+
+**Table of contents**
+
+- [B1](section-b/b1.md)
+  - [Solution](section-b/b1/solution.md)
+  - [a](section-b/b1/a.md)
+    - [Solution](section-b/b1/a/solution.md)
+  - [b](section-b/b1/b.md)
+    - [Solution](section-b/b1/b/solution.md)
+- [B2](section-b/b2.md)
+  - [Solution](section-b/b2/solution.md)
+- [B3](section-b/b3.md)
+  - [Solution](section-b/b3/solution.md)
+- [B4](section-b/b4.md)
+  - [Solution](section-b/b4/solution.md)
+- [B5](section-b/b5.md)
+  - [Solution](section-b/b5/solution.md)
+- [B6](section-b/b6.md)
+  - [Solution](section-b/b6/solution.md)
+- [B7](section-b/b7.md)
+  - [Solution](section-b/b7/solution.md)
+- [B8](section-b/b8.md)
+  - [Solution](section-b/b8/solution.md)
+
+## ↑ Ancestors (11)
+
+1. [Paper 1](../paper-1-split.md)
+2. [2013](../split.md)
+3. [Past exam of the physics course of the year 4 of the natural sciences course of the University of Cambridge](../../split.md)
+4. [Physics course of the year 4 of the natural sciences course of the University of Cambridge](../../../physics-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+5. [Year 4 of the natural sciences course of the University of Cambridge](../../../year-4-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+6. [Year of the natural sciences course of the University of Cambridge](../../../year-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+7. [Natural sciences course of the University of Cambridge](../../../natural-sciences-course-of-the-university-of-cambridge.md)
+8. [Course of the University of Cambridge](../../../course-of-the-university-of-cambridge.md)
+9. [University of Cambridge](../../../university-of-cambridge-split.md)
+10. [List of universities](../../../list-of-universities.md)
+11. [Codex Wiki](../../../split.md)

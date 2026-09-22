@@ -1,0 +1,60 @@
+# Poisson kernel
+
+↑ **Parent:** [Poisson's equation](poisson-s-equation.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Poisson_kernel)
+
+A Poisson kernel represents the [harmonic extension](harmonic-extension.md) of [Dirichlet boundary data](dirichlet-boundary-data.md) by an integral over the boundary. When the [Dirichlet Green function](dirichlet-green-function.md) is normalized by $-\Delta G_\Omega=\delta$, its negative outward normal [derivative](derivative.md) gives the displayed kernel. The [Poisson kernel for the upper half-space](poisson-kernel-for-the-upper-half-space.md) and the [Poisson kernel for the upper half-plane](poisson-kernel-for-the-upper-half-plane.md) give explicit examples with different boundary dimensions. Boundedness or other stated growth conditions are needed when selecting a solution in an unbounded domain.
+
+**Table of contents**
+
+- [Poisson kernel for the upper half-space](poisson-kernel-for-the-upper-half-space.md)
+  - [Axial Poisson extension of a circular boundary patch](axial-poisson-extension-of-a-circular-boundary-patch.md)
+  - [Poisson kernel for the upper half-plane](poisson-kernel-for-the-upper-half-plane.md)
+  - [Poisson integral](poisson-integral.md)
+    - [Poisson extension of interval boundary data](poisson-extension-of-interval-boundary-data.md)
+    - [Dirichlet Poisson integral in a quadrant](dirichlet-poisson-integral-in-a-quadrant.md)
+      - [Bounded Dirichlet uniqueness in a quadrant](bounded-dirichlet-uniqueness-in-a-quadrant.md)
+      - [Zero-boundary harmonic growth in a quadrant](zero-boundary-harmonic-growth-in-a-quadrant.md)
+      - [Holomorphic derivative of a quadrant Dirichlet solution](holomorphic-derivative-of-a-quadrant-dirichlet-solution.md)
+    - [Schwarz integral formula](schwarz-integral-formula.md)
+      - [Schwarz integral on the unit disk](schwarz-integral-on-the-unit-disk.md)
+      - [Harmonic quadrant solution from tangential boundary derivatives](harmonic-quadrant-solution-from-tangential-boundary-derivatives.md)
+
+## ↑ Ancestors (6)
+
+1. [Poisson's equation](poisson-s-equation.md)
+2. [Partial differential equation](partial-differential-equation-split.md)
+3. [Analysis](analysis-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (27)
+
+- [Bounded exterior disk Green function](bounded-exterior-disk-green-function.md)
+- [Brownian motion conditioned to exit at a boundary point](brownian-motion-conditioned-to-exit-at-a-boundary-point.md)
+- [Dirichlet Green function inside the unit disk](dirichlet-green-function-inside-the-unit-disk.md)
+- [Dirichlet Poisson integral in a quadrant](dirichlet-poisson-integral-in-a-quadrant.md)
+- [Exterior harmonic extension of disk boundary data](exterior-harmonic-extension-of-disk-boundary-data.md)
+- [Harmonic extension](harmonic-extension.md)
+- [Harnack inequality on the unit disk](harnack-inequality-on-the-unit-disk.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-9/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-9/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-10/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-35/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-35/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-27/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-202/5/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-328/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ib/paper-4/17c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ib/paper-2/14a/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-203/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2019/paper-2/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2019/paper-2/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2024/paper-2/3/f/solution.md)
+- [Poisson integral](poisson-integral.md)
+- [Poisson integral converges nontangentially at Lebesgue points](poisson-integral-converges-nontangentially-at-lebesgue-points.md)
+- [Poisson maximal function is dominated by the Hardy-Littlewood maximal function](poisson-maximal-function-is-dominated-by-the-hardy-littlewood-maximal-function.md)
+- [Radial SLE2](radial-sle2.md)
+- [Sharp gradient bound for positive harmonic functions](sharp-gradient-bound-for-positive-harmonic-functions.md)
+- [Sign conventions for a Dirichlet Green function](sign-conventions-for-a-dirichlet-green-function.md)

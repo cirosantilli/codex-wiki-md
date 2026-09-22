@@ -1,0 +1,62 @@
+# Ether
+
+↑ **Parent:** [Chemical substance](chemical-substance-split.md)
+
+A compound containing an $\mathrm{R-O-R^\prime}$ linkage between two carbon groups.
+
+**Table of contents**
+
+- [Enol ether](enol-ether.md)
+  - [Enol ether hydrolysis](enol-ether-hydrolysis.md)
+- [Tetrahydropyranyl ether](tetrahydropyranyl-ether.md)
+- [Vinyl ether](vinyl-ether.md)
+  - [2-Chloroethyl vinyl ether](2-chloroethyl-vinyl-ether.md)
+- [Silyl ether](silyl-ether.md)
+- [Epoxide](epoxide.md)
+  - [Ethylene oxide](ethylene-oxide.md)
+  - [Epoxide ring opening](epoxide-ring-opening.md)
+  - [Peracid epoxidation](peracid-epoxidation.md)
+  - [Cyclohexene oxide](cyclohexene-oxide.md)
+  - [2,2-Dimethyloxirane](2-2-dimethyloxirane.md)
+  - [Glycal epoxide](glycal-epoxide.md)
+- [Ethyl triphenylmethyl ether](ethyl-triphenylmethyl-ether.md)
+
+## ↑ Ancestors (3)
+
+1. [Chemical substance](chemical-substance-split.md)
+2. [Chemistry](chemistry-split.md)
+3. [Codex Wiki](split.md)
+
+## ← Incoming links (31)
+
+- [Enol ether](enol-ether.md)
+- [Ethyl triphenylmethyl ether](ethyl-triphenylmethyl-ether.md)
+- [Iodoetherification](iodoetherification.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2021/paper-1/b1/b/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2022/paper-1/b1/a/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2022/paper-1/b1/a/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2022/paper-1/b2/d/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2022/paper-1/b3/b/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-1/b2/c/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-1/b2/c/iii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-1/b4/b/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2024/paper-1/b1/a/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2024/paper-1/b1/a/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2024/paper-1/b1/a/iii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2024/paper-1/b1/b/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2024/paper-1/b4/a/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2025/paper-1/b4/a/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2021/paper-1/3/a/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2023/paper-1/3/d/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2025/3/a/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-3-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-1/12/2/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-3/section-a/36/c/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-3/section-a/37/a/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-3/section-g/48/b/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-3/section-g/48/c/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2021/paper-1/10/ii/b/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2021/paper-1/5/ii/solution.md)
+- [Polyether](polyether.md)
+- [Tetrahydrofuran](tetrahydrofuran.md)
+- [Vinyl ether](vinyl-ether.md)
+- [Xanthone](xanthone.md)

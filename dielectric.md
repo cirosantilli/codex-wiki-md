@@ -1,0 +1,120 @@
+# Dielectric
+
+↑ **Parent:** [Permittivity](permittivity-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Dielectric)
+
+A [dielectric](dielectric.md) is a material in which an [electric field](electric-field-split.md) produces [electric polarization](polarization-density.md) while transport of [electric charge](electric-charge-split.md) is sufficiently small for the intended use. An insulating solid in a [capacitor](capacitor.md) is an example; real [dielectrics](dielectric.md) can still have [dielectric loss](dielectric-loss.md) and nonzero [electrical conductivity](electrical-conductivity.md).
+
+The important distinction is between rearranging bound [electric charge](electric-charge-split.md) and transporting mobile [charge carriers](charge-carrier.md) through the specimen. Bound [electric charges](electric-charge-split.md) can move a little within a [chemical atom](atom-physics.md) or [molecule](molecule-split.md), or an existing [electric dipole](electric-dipole.md) can turn. Their averaged [electric dipole moments](electric-dipole-moment.md) produce [electric polarization](polarization-density.md) even if there is negligible steady [electric current](electric-current.md) between the [electrodes](electrode.md). A changing [electric polarization](polarization-density.md) does give a [bound current](bound-current.md); the absence of steady conduction does not mean that the material is electrically unresponsive.[II.10–2 and II.10–3: induced atomic dipoles and relaxation of bound surface charge](the-feynman-lectures-on-physics-volume-ii-by-richard-feynman-and-others/chapter-10-dielectrics.md)
+
+For uniform [electric polarization](polarization-density.md) $\mathbf P=P\widehat{\mathbf x}$ in a rectangular slab, [polarization density](polarization-density.md) gives zero bound volume [charge density](charge-density.md) in the interior and opposite bound [surface charge densities](surface-charge-density.md) $-P,+P$ on the left and right faces. The [electric charge](electric-charge-split.md) has been redistributed, not created. More generally, the [divergence theorem](divergence-theorem.md) makes the cancellation explicit:
+
+$$
+\int_{\mathcal V}(-\nabla\cdot\mathbf P)\,d\mathcal V
++\int_{\partial\mathcal V}\mathbf P\cdot\mathbf n\,dA=0.
+$$
+
+Here $\mathbf n$ is the outward [normal vector](normal-vector.md) on the material boundary. This accounts for both bound volume [charge density](charge-density.md) and bound [surface charge density](surface-charge-density.md); omitting either can falsely suggest that an initially neutral [dielectric](dielectric.md) acquired net [electric charge](electric-charge-split.md).
+
+An [electrical insulator](electrical-insulator.md) between [capacitor](capacitor.md) plates supports a useful combination: appreciable [electric polarization](polarization-density.md), little leakage [electric current](electric-current.md), and tolerance of the intended [electric field](electric-field-split.md). This lets a small [parallel-plate capacitor](parallel-plate-capacitor.md) store separated [electric charge](electric-charge-split.md) and recoverable [capacitor energy](capacitor-energy.md). The comparison in [dielectric capacitor response](dielectric-capacitor-response.md) explains why specifying fixed [electric charge](electric-charge-split.md) or fixed [electric potential difference](electric-potential-difference.md) changes the answer. High [relative permittivity](relative-permittivity.md) alone does not establish good insulation or a large usable [energy density](energy-density.md); [dielectric loss](dielectric-loss.md) and [dielectric breakdown](dielectric-breakdown.md) matter as well.
+
+**Table of contents**
+
+- [Steady fields in two leaky dielectric layers](steady-fields-in-two-leaky-dielectric-layers.md)
+- [Transverse electrostatic field inside a dielectric cylinder](transverse-electrostatic-field-inside-a-dielectric-cylinder.md)
+- [Electret](electret.md)
+- [Electric susceptibility](electric-susceptibility.md)
+  - [Lorentz oscillator model](lorentz-oscillator-model.md)
+    - [Optical oscillator strength](optical-oscillator-strength.md)
+    - [Phase of a negatively charged driven oscillator](phase-of-a-negatively-charged-driven-oscillator.md)
+    - [Scattering cross-section of a harmonically bound charge](scattering-cross-section-of-a-harmonically-bound-charge.md)
+- [Microscopic dielectric polarization](microscopic-dielectric-polarization.md)
+- [Dielectric capacitor response](dielectric-capacitor-response.md)
+- [Electrical insulator](electrical-insulator.md)
+  - [Charge-transfer insulator](charge-transfer-insulator.md)
+- [Dielectric breakdown](dielectric-breakdown.md)
+  - [Breakdown-limited parallel-plate charge](breakdown-limited-parallel-plate-charge.md)
+  - [Dielectric strength](dielectric-strength.md)
+
+## ↑ Ancestors (5)
+
+1. [Permittivity](permittivity-split.md)
+2. [Electromagnetism](electromagnetism-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (72)
+
+- [Breakdown-limited parallel-plate charge](breakdown-limited-parallel-plate-charge.md)
+- [Brewster reflection from a tangentially moving dielectric](brewster-reflection-from-a-tangentially-moving-dielectric.md)
+- [Brewster solar elevation](brewster-solar-elevation.md)
+- [Capacitor gap aspect ratio](capacitor-gap-aspect-ratio.md)
+- [Depolarization factor of a dielectric ellipsoid](depolarization-factor-of-a-dielectric-ellipsoid.md)
+- [Dielectric](dielectric.md)
+- [Dielectric and optical properties of melt-grown BaTiO3 by S. H. Wemple and others](dielectric-and-optical-properties-of-melt-grown-batio3-by-s-h-wemple-and-others.md)
+- [Dielectric capacitor response](dielectric-capacitor-response.md)
+- [Dielectric loss](dielectric-loss.md)
+- [Dielectric relaxation](dielectric-relaxation.md)
+- [Electromagnetic waveguide](electromagnetic-waveguide.md)
+- [Extraordinary phase-index angular dependence](extraordinary-phase-index-angular-dependence.md)
+- [Frustrated total internal reflection](frustrated-total-internal-reflection.md)
+- [Inhibited Spontaneous Emission in Solid-State Physics and Electronics by Eli Yablonovitch](inhibited-spontaneous-emission-in-solid-state-physics-and-electronics-by-eli-yablonovitch.md)
+- [Multimeter](multimeter.md)
+- [Nanotube optical transition](nanotube-optical-transition.md)
+- [Parallel-plate transmission line](parallel-plate-transmission-line.md)
+- [Solution](past-exam-of-the-materials-science-course-of-the-university-of-cambridge/2017/paper-1/2/e/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2019/paper-1/section-a-iii/7/ii/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2019/paper-1/section-b/9/ii/a/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2019/paper-1/section-b/9/ii/b/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2019/paper-1/section-b/9/ii/c/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2021/paper-2/section-a-i/13/iii/solution.md)
+- [Solution](past-exam-of-the-optics-and-electrodynamics-course-of-the-university-of-cambridge/2013/paper-1/2/b/solution.md)
+- [Solution](past-exam-of-the-optics-and-electrodynamics-course-of-the-university-of-cambridge/2014/paper-1/2/b/solution.md)
+- [Solution](past-exam-of-the-optics-and-electrodynamics-course-of-the-university-of-cambridge/2015/paper-1/2/c/solution.md)
+- [Solution](past-exam-of-the-optics-and-electrodynamics-course-of-the-university-of-cambridge/2015/paper-1/4/solution.md)
+- [Solution](past-exam-of-the-optics-and-electrodynamics-course-of-the-university-of-cambridge/2016/paper-1/2/a/solution.md)
+- [Solution](past-exam-of-the-optics-and-electrodynamics-course-of-the-university-of-cambridge/2016/paper-1/2/c/solution.md)
+- [Solution](past-exam-of-the-optics-and-electrodynamics-course-of-the-university-of-cambridge/2016/paper-1/4/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2010/paper-1/section-b/b7/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2011/paper-1/section-b/b6/a/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2011/paper-2/section-b/b6/i/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2011/paper-2/section-b/b6/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2011/paper-2/section-b/b9/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2012/paper-2/section-a/a2/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2012/paper-2/section-b/b6/a/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2012/paper-2/section-b/b6/b/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2012/paper-2/section-b/b6/d/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2013/paper-1/section-a/a2/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2013/paper-2/section-b/b6/b/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2013/paper-2/section-b/b6/d/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2015/paper-1/section-b/b6/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2015/paper-1/section-b/b9/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2016/paper-1/section-b/b8/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2016/paper-1/section-b/b9/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2017/paper-2/section-a/a1/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2017/paper-2/section-b/b6/a/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2017/paper-2/section-b/b6/b/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2017/paper-2/section-b/b6/d/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2017/paper-2/section-b/b7/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2018/paper-2/section-b/b7/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2019/paper-2/section-a/a4/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2019/paper-2/section-b/b6/b/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2021/paper-1/section-c/c8/a/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2021/paper-1/section-c/c8/d/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2021/paper-2/section-a/a3/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2022/paper-1/section-a/a4/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2022/paper-2/section-b/b7/b/solution.md)
+- [Permittivity](permittivity-split.md)
+- [Photonic band structure](photonic-band-structure.md)
+- [Photonic structure](photonic-structure.md)
+- [Planar dielectric waveguide](planar-dielectric-waveguide.md)
+- [Polarization of environmental dielectric reflections](polarization-of-environmental-dielectric-reflections.md)
+- [Polarization parallel to the plane of incidence](polarization-parallel-to-the-plane-of-incidence.md)
+- [Polarization perpendicular to the plane of incidence](polarization-perpendicular-to-the-plane-of-incidence.md)
+- [Rayleigh optical gradient force](rayleigh-optical-gradient-force.md)
+- [Thin-film transistor](thin-film-transistor.md)
+- [Top-gate density tuning](top-gate-density-tuning.md)
+- [Total internal reflection](total-internal-reflection.md)
+- [Transverse electrostatic field inside a dielectric cylinder](transverse-electrostatic-field-inside-a-dielectric-cylinder.md)
+- [Uniqueness of an electrostatic dielectric boundary-value problem](uniqueness-of-an-electrostatic-dielectric-boundary-value-problem.md)

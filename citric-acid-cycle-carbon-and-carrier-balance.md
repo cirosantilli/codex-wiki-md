@@ -1,0 +1,28 @@
+# Citric acid cycle carbon and carrier balance
+
+↑ **Parent:** [Citric acid cycle](citric-acid-cycle.md)
+
+The [carbon](carbon.md) sequence is [oxaloacetate](oxaloacetate.md) $(4)$ plus an [acetyl group](acetyl-group.md) $(2)$ to [citrate](citrate.md) $(6)$, then [isocitrate](isocitrate.md) $(6)$, [alpha-ketoglutarate](alpha-ketoglutarate.md) $(5)$, [succinyl-CoA](succinyl-coa.md) $(4)$, [succinate](succinate.md) $(4)$, [fumarate](fumarate.md) $(4)$, [malate](malate.md) $(4)$ and back to [oxaloacetate](oxaloacetate.md) $(4)$. The numbers count the cycling [carbon](carbon.md) skeleton, excluding [coenzyme A](coenzyme-a.md). Two [carbon dioxide](carbon-dioxide.md) releases accompany the changes $6\to5\to4$.[§7.3, Steps in the Citric Acid Cycle, steps 1–8 and Figure 7.11](biology-2e-by-mary-ann-clark-and-others.md)
+
+<a id="image-carbon-counts-and-electron-carrier-outputs-around-the-citric-acid-cycle"></a>
+![](citric-acid-cycle-carbon-and-carriers.png)
+
+**[Figure 7](#image-carbon-counts-and-electron-carrier-outputs-around-the-citric-acid-cycle). Carbon counts and electron carrier outputs around the citric acid cycle**. Original schematic of one forward turn. The [carbon](carbon.md) skeleton excludes [coenzyme A](coenzyme-a.md). Labels show [NADH](nadh.md), [carbon dioxide](carbon-dioxide.md), [GTP](guanosine-triphosphate.md) and [ubiquinol](ubiquinol.md) outputs. Positions and arrow lengths carry no structural or kinetic meaning.
+
+Per [acetyl group](acetyl-group.md): three [NADH](nadh.md), one [FADH2](fadh2.md) equivalent, one [GTP](guanosine-triphosphate.md) or [ATP](adenosine-triphosphate.md) by [substrate-level phosphorylation](substrate-level-phosphorylation.md), and two [carbon dioxide](carbon-dioxide.md). [Succinate dehydrogenase](succinate-dehydrogenase.md) retains [FADH2](fadh2.md) and transfers its [electrons](electron.md) to [ubiquinone](ubiquinone.md), forming [ubiquinol](ubiquinol.md). The [FADH2](fadh2.md) equivalent and [ubiquinol](ubiquinol.md) count the same [electron](electron.md) pair.[§7.3, Citric Acid Cycle and Steps in the Citric Acid Cycle, steps 3–8, especially step 6, enzyme-bound reduced carrier; §7.4, Q and Complex II: ubiquinone reduction to QH2](biology-2e-by-mary-ann-clark-and-others.md)
+
+A useful check adds the stepwise changes. The [carbon](carbon.md) count is $4+2-1-1=4$; the [NADH](nadh.md) count is $1+1+1=3$. Each [NADH](nadh.md) carries two [electrons](electron.md), and the [succinate dehydrogenase](succinate-dehydrogenase.md) route supplies another pair, so one turn exports $3\times2+2=8$ [electrons](electron.md). This arithmetic is an accounting identity, not an [ATP](adenosine-triphosphate.md) yield calculation. Converting it to [ATP](adenosine-triphosphate.md) requires the separate [energy coupling](energy-coupling.md) and transport assumptions discussed under [oxidative phosphorylation](oxidative-phosphorylation.md).
+
+For a chosen ideal conversion of $5\,\mathrm{\mu mol}$ of [acetyl groups](acetyl-group.md), multiplication gives $15\,\mathrm{\mu mol}$ of [NADH](nadh.md), $5\,\mathrm{\mu mol}$ of [ubiquinol](ubiquinol.md), $5\,\mathrm{\mu mol}$ of [GTP](guanosine-triphosphate.md) and $10\,\mathrm{\mu mol}$ of [carbon dioxide](carbon-dioxide.md). The [electron](electron.md) output is $40\,\mathrm{\mu mol}$. If all these [electrons](electron.md) subsequently reach [oxygen](oxygen.md) with no competing sinks, four [electrons](electron.md) per [oxygen](oxygen.md) [molecule](molecule-split.md) require $10\,\mathrm{\mu mol}$ of [oxygen](oxygen.md). That is consumption by the connected [electron transport chain](electron-transport-chain.md); it is not an [oxygen](oxygen.md) term in the cycle's own [substrate](substrate-biochemistry.md) ledger.
+
+No cycle step directly consumes molecular [oxygen](oxygen.md). In ordinary aerobic mitochondrial operation, however, the [mitochondrial respiratory chain](mitochondrial-respiratory-chain.md) must reoxidize [NADH](nadh.md) and [ubiquinol](ubiquinol.md) to restore the oxidized [electron carriers](electron-carrier.md). Without that outlet, a finite oxidized-carrier pool cannot sustain continued turnover. Other [electron acceptors](electron-acceptor.md) and other forms of [metabolism](metabolism.md) require their own analysis.[Molecular Biology of the Cell, 4th edition by Bruce Alberts and others; Chapter 2, How Cells Obtain Energy from Food, The Citric Acid Cycle Generates NADH by Oxidizing Acetyl Groups to CO2: lack of direct O2 consumption and need to regenerate NAD+](molecular-biology-of-the-cell-4th-edition-by-bruce-alberts-and-others/how-cells-obtain-energy-from-food.md)
+
+The [pyruvate dehydrogenase complex](pyruvate-dehydrogenase-complex.md) acts upstream: one three-[carbon](carbon.md) [pyruvate](pyruvate.md) gives one two-[carbon](carbon.md) [acetyl group](acetyl-group.md), one [carbon dioxide](carbon-dioxide.md) and one [NADH](nadh.md). These are additional to the cycle ledger.[§7.3, Breakdown of Pyruvate, steps 1–3 and Figure 7.10](biology-2e-by-mary-ann-clark-and-others.md) Consequently, processing one [pyruvate](pyruvate.md) through both stages gives three [carbon dioxide](carbon-dioxide.md) and four [NADH](nadh.md), while the [succinate dehydrogenase](succinate-dehydrogenase.md) contribution and the [substrate-level phosphorylation](substrate-level-phosphorylation.md) contribution each remain one. Counting the upstream step inside the cycle would obscure where the extra [carbon dioxide](carbon-dioxide.md) and [NADH](nadh.md) arise.
+
+## ↑ Ancestors (5)
+
+1. [Citric acid cycle](citric-acid-cycle.md)
+2. [Metabolic pathway](metabolic-pathway.md)
+3. [Biochemistry](biochemistry-split.md)
+4. [Chemistry](chemistry-split.md)
+5. [Codex Wiki](split.md)

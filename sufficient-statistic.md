@@ -1,0 +1,105 @@
+# Sufficient statistic
+
+↑ **Parent:** [Probability and statistics](probability-and-statistics-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Sufficient_statistic)
+
+A [statistic](statistic.md) $T=T(X)$ is sufficient for a [statistical model](statistical-model-split.md) $\{P_\theta:\theta\in\Theta\}$ when the [conditional distribution](conditional-distribution.md) of the full data $X$ given $T$ has a version independent of the unknown [statistical parameter](statistical-parameter.md) $\theta$. Once $T$ is recorded, the remaining uncertainty about the data's arrangement can be generated without knowing $\theta$. [Sufficiency, Will Fithian, “Sufficiency”: definition](sufficiency-stat-210a-fall-2025-by-will-fithian.md)
+
+For data and [statistic](statistic.md) taking values in [standard Borel spaces](standard-borel-space.md), express this precisely with one [Markov kernel](markov-kernel.md) $K$, common to every [statistical parameter](statistical-parameter.md) value:
+
+$$
+P_\theta(X\in B\mid T)=K(T,B)\quad P_\theta\text{-almost surely},\qquad \theta\in\Theta,
+$$
+
+for each measurable event $B$. Thus $K(t,\cdot)$ is a [regular conditional distribution](regular-conditional-distribution.md) of $X$ given $T=t$. Equality is only required outside a [null set](null-set.md) for the distribution of $T$ under each $\theta$; the choice of version matters on impossible conditioning events. For a [continuous probability distribution](continuous-probability-distribution-split.md), the event $T=t$ may have zero [probability](probability.md) even at meaningful observations, so the definition uses a [regular conditional distribution](regular-conditional-distribution.md), rather than division by $P_\theta(T=t)$.
+
+A [sufficient statistic](sufficient-statistic.md) is a property of a specified [statistical model](statistical-model-split.md), rather than of a formula for summarizing data in isolation. It need not be an [unbiased estimator](unbiased-estimator.md) or even shorten the record: the full data $T(X)=X$ is always sufficient. An [estimator](estimator.md) instead targets a quantity such as a [mean](expected-value-split.md). An [ancillary statistic](ancillary-statistic.md) has a parameter-independent marginal [probability distribution](probability-distribution-split.md), whereas a [sufficient statistic](sufficient-statistic.md) has a parameter-independent conditional full-data law. A [minimal sufficient statistic](minimal-sufficient-statistic.md) permits the greatest reduction among [sufficient statistics](sufficient-statistic.md). A [complete statistic](complete-statistic.md) satisfies a separate condition about zero [expectations](expected-value-split.md); a [complete sufficient statistic](complete-sufficient-statistic.md) must satisfy both conditions.
+
+**Table of contents**
+
+- [Bernoulli sample sum as a sufficient statistic](bernoulli-sample-sum-as-a-sufficient-statistic.md)
+- [Statistical data compression by a sufficient statistic](statistical-data-compression-by-a-sufficient-statistic.md)
+- [Ancillary statistic](ancillary-statistic.md)
+  - [Range-conditioned uniform location inference](range-conditioned-uniform-location-inference.md)
+  - [Non-uniqueness of maximal ancillary statistics](non-uniqueness-of-maximal-ancillary-statistics.md)
+  - [Partial ancillary statistic](partial-ancillary-statistic.md)
+    - [Ancillary conditioning that eliminates a nuisance parameter](ancillary-conditioning-that-eliminates-a-nuisance-parameter.md)
+- [Complete sufficient statistic](complete-sufficient-statistic.md)
+  - [Basu's theorem](basu-s-theorem.md)
+- [Normal sample sum with known variance](normal-sample-sum-with-known-variance.md)
+- [Minimal sufficient statistic](minimal-sufficient-statistic.md)
+  - [Sufficient statistic for a symmetric uniform sample](sufficient-statistic-for-a-symmetric-uniform-sample.md)
+  - [Likelihood-ratio criterion for minimal sufficiency](likelihood-ratio-criterion-for-minimal-sufficiency.md)
+- [Fisher-Neyman factorization theorem](fisher-neyman-factorization-theorem.md)
+- [Sample mean sufficiency depends on the model](sample-mean-sufficiency-depends-on-the-model.md)
+
+## ↑ Ancestors (4)
+
+1. [Probability and statistics](probability-and-statistics-split.md)
+2. [Area of mathematics](area-of-mathematics.md)
+3. [Mathematics](mathematics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (61)
+
+- [Allele-sharing sufficiency for recessive linkage](allele-sharing-sufficiency-for-recessive-linkage.md)
+- [Ancillary conditioning that eliminates a nuisance parameter](ancillary-conditioning-that-eliminates-a-nuisance-parameter.md)
+- [Bernoulli sample sum as a sufficient statistic](bernoulli-sample-sum-as-a-sufficient-statistic.md)
+- [Boundedly complete statistic](boundedly-complete-statistic.md)
+- [Complete sufficient statistic](complete-sufficient-statistic.md)
+- [Conditional multinomial sufficient statistics](conditional-multinomial-sufficient-statistics.md)
+- [Conditional scale density in a curved Gaussian family](conditional-scale-density-in-a-curved-gaussian-family.md)
+- [Epsilon-sufficient set](epsilon-sufficient-set.md)
+- [Fisher-Neyman factorization theorem](fisher-neyman-factorization-theorem.md)
+- [Fisherian conditional inference](fisherian-conditional-inference.md)
+- [Insurance exposure](insurance-exposure.md)
+- [Kullback-Leibler divergence](kullback-leibler-divergence.md)
+- [Minimal exponential family](minimal-exponential-family.md)
+- [Natural exponential family](natural-exponential-family.md)
+- [Normal likelihood with variance equal to squared mean](normal-likelihood-with-variance-equal-to-squared-mean.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/ib/paper-1/3d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-32/6/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-32/6/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/ib/paper-1/3h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-38/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-38/6/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-38/6/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/ib/paper-4/12h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/ib/paper-1/21h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-43/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-45/1/vi/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ib/paper-1/18c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-2/27j/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-42/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-42/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-42/4/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ii/paper-1/27i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-1/27i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-3/26i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-4/27i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-42/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ib/paper-4/19h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/ib/paper-2/8h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/ib/paper-4/19h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-35/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-66/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-1/19h/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-1/19h/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-1/19h/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ib/paper-1/19h/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ib/paper-1/7h/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ib/paper-1/7h/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ib/paper-1/19h/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-4/13j/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ib/paper-1/6h/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ib/paper-1/6h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ii/paper-2/5j/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-1/5j/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/ii/paper-1/5k/solution.md)
+- [Rao-Blackwell estimator for a uniform scale interval](rao-blackwell-estimator-for-a-uniform-scale-interval.md)
+- [Rao-Blackwell theorem](rao-blackwell-theorem.md)
+- [Sample mean sufficiency depends on the model](sample-mean-sufficiency-depends-on-the-model.md)
+- [Statistic](statistic.md)
+- [Statistical data compression by a sufficient statistic](statistical-data-compression-by-a-sufficient-statistic.md)
+- [Sufficient statistic](sufficient-statistic.md)
+- [Sufficient statistic for a symmetric uniform sample](sufficient-statistic-for-a-symmetric-uniform-sample.md)

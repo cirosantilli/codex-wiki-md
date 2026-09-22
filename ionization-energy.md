@@ -1,0 +1,45 @@
+# Ionization energy
+
+↑ **Parent:** [Hydrogen atom](hydrogen-atom.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Ionization_energy)
+
+The ionization energy is the minimum energy needed to remove an electron from an isolated atom or molecule in a specified state. Ground-state hydrogen has ionization energy $13.6\,\mathrm{eV}$.
+
+## ↑ Ancestors (4)
+
+1. [Hydrogen atom](hydrogen-atom.md)
+2. [Mathematical physics](mathematical-physics-split.md)
+3. [Physics](physics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (29)
+
+- [Born-Haber cycle](born-haber-cycle.md)
+- [Chemical environment dependence of electronegativity](chemical-environment-dependence-of-electronegativity.md)
+- [Circular-orbit derivation of the Bohr model](circular-orbit-derivation-of-the-bohr-model.md)
+- [Electron attachment enthalpy](electron-attachment-enthalpy.md)
+- [Electronegativity](electronegativity-split.md)
+- [Experimental inputs to electronegativity scales](experimental-inputs-to-electronegativity-scales.md)
+- [Hydrogen transition wavelengths in the Bohr model](hydrogen-transition-wavelengths-in-the-bohr-model.md)
+- [Koopmans' theorem](koopmans-theorem.md)
+- [Lattice energy](lattice-energy.md)
+- [Lyman limit](lyman-limit.md)
+- [Mass spectrometry](mass-spectrometry.md)
+- [Mulliken electronegativity](mulliken-electronegativity.md)
+- [Solution](past-exam-of-the-chemistry-a-course-of-the-university-of-cambridge/2022/paper-2/a7/a/solution.md)
+- [Solution](past-exam-of-the-chemistry-a-course-of-the-university-of-cambridge/2022/paper-2/a7/c/solution.md)
+- [Solution](past-exam-of-the-chemistry-a-course-of-the-university-of-cambridge/2022/paper-2/a7/d/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-3-of-the-natural-sciences-course-of-the-university-of-cambridge/2021/paper-2a/section-a/17/a/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-3-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-2a/section-a/19/b/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-3-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-2a/section-b/23/c/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-3-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-2a/section-b/23/d/solution.md)
+- [Solution](past-exam-of-the-formation-of-structure-in-the-universe-course-of-the-university-of-cambridge/2016/paper-1/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-66/3/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-3/9c/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-349/1/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2014/2/a/solution.md)
+- [Photoemission spectroscopy](photoemission-spectroscopy.md)
+- [Photoionization](photoionization.md)
+- [Recombination cooling of ionized hydrogen](recombination-cooling-of-ionized-hydrogen.md)
+- [Three-step model of high harmonic generation](three-step-model-of-high-harmonic-generation.md)
+- [Ultraviolet](ultraviolet.md)

@@ -1,0 +1,46 @@
+# Self-gravity
+
+↑ **Parent:** [Newtonian gravitational field](newtonian-gravitational-field.md)
+
+Self-gravity is the [gravitational acceleration](gravitational-acceleration.md) produced by a system's own [mass density](density.md). It is obtained by solving the [Poisson equation for Newtonian gravity](poisson-equation-for-newtonian-gravity.md) for that density, rather than treating the [Newtonian gravitational potential](newtonian-gravitational-potential.md) as an externally fixed field. It competes with [pressure](pressure-split.md) and rotational support in [gravitational instability of an astrophysical disk](gravitational-instability-of-an-astrophysical-disk-split.md).
+
+## ↑ Ancestors (6)
+
+1. [Newtonian gravitational field](newtonian-gravitational-field.md)
+2. [Newton's law of universal gravitation](newton-s-law-of-universal-gravitation-split.md)
+3. [Classical mechanics](classical-mechanics-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (29)
+
+- [Galactic Bridges and Tails by Alar Toomre and Juri Toomre](galactic-bridges-and-tails-by-alar-toomre-and-juri-toomre.md)
+- [Gravity magnitude versus tidal gradient](gravity-magnitude-versus-tidal-gradient.md)
+- [Isothermal-galaxy momentum-balance shell threshold](isothermal-galaxy-momentum-balance-shell-threshold.md)
+- [Isothermal Parker wind](isothermal-parker-wind.md)
+- [Solution](past-exam-of-the-astrophysical-fluid-dynamics-course-of-the-university-of-cambridge/2014/paper-1/3/solution.md)
+- [Solution](past-exam-of-the-astrophysical-fluid-dynamics-course-of-the-university-of-cambridge/2019/section-b/6/solution.md)
+- [Solution](past-exam-of-the-astrophysical-fluid-dynamics-course-of-the-university-of-cambridge/2021/section-a/1/solution.md)
+- [Solution](past-exam-of-the-astrophysical-fluid-dynamics-course-of-the-university-of-cambridge/2021/section-b/5/e/solution.md)
+- [Solution](past-exam-of-the-formation-of-structure-in-the-universe-course-of-the-university-of-cambridge/2013/paper-1/1/b/solution.md)
+- [Solution](past-exam-of-the-formation-of-structure-in-the-universe-course-of-the-university-of-cambridge/2013/paper-1/1/d/solution.md)
+- [Solution](past-exam-of-the-formation-of-structure-in-the-universe-course-of-the-university-of-cambridge/2014/paper-1/2/solution.md)
+- [Solution](past-exam-of-the-formation-of-structure-in-the-universe-course-of-the-university-of-cambridge/2014/paper-1/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-73/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-73/1/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-65/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-59/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-52/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-54/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-54/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-54/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-57/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-58/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-64/2/b/solution.md)
+- [Solution](past-exam-of-the-relativistic-astrophysics-and-cosmology-course-of-the-university-of-cambridge/2016/paper-1/1/solution.md)
+- [Razor-thin fluid disk dispersion relation](razor-thin-fluid-disk-dispersion-relation.md)
+- [Softened Toomre dispersion relation](softened-toomre-dispersion-relation.md)
+- [Tidal force](tidal-force.md)
+- [Toomre parameter](toomre-parameter.md)
+- [Uniformly rotating gas-sheet dispersion relation](uniformly-rotating-gas-sheet-dispersion-relation.md)

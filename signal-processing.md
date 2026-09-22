@@ -1,0 +1,83 @@
+# Signal processing
+
+↑ **Parent:** [Electrical engineering](electrical-engineering-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Signal_processing)
+
+Signal processing transforms or analyzes [signals](signal.md) to extract information, change a representation, or improve a measurement. Examples include smoothing a sensor record, selecting a band of [frequencies](frequency.md), and decomposing a recording through [Fourier analysis](fourier-analysis-split.md). A [signal](signal.md) is a mathematical representation of a physical record; deciding which variation is meaningful and which is [noise](noise-signal-processing.md) is part of the problem.
+
+A [linear filter](linear-filter.md) offers a simple entry point. Its [output](output-computing.md) is assembled from weighted copies of its [input](input-computer-science.md). A [moving average](moving-average.md) can reduce rapid variation, but it also changes timing and can erase useful detail. The worked example below makes that tradeoff explicit rather than treating a smoother plot as automatic improvement.
+
+Two complementary views make the subject appealing. An [impulse response](impulse-response.md) describes the effect of a localized input; a [frequency response](frequency-response.md) describes the effect of a sustained oscillation. For a [linear time-invariant system](linear-time-invariant-system.md), both describe the same operation, connected by [convolution](convolution.md) and [Fourier analysis](fourier-analysis-split.md). [Alan Oppenheim, MIT Signals and Systems, lecture 4: impulses, complex exponentials and convolution](https://ocw.mit.edu/courses/res-6-007-signals-and-systems-spring-2011/0400ba59406d52d94c079d99928156ee_MITRES_6_007S11_lec04.pdf).
+
+**Table of contents**
+
+- [Clock jitter](clock-jitter.md)
+- [High-pass filter](high-pass-filter.md)
+- [Signal sampling](signal-sampling.md)
+- [Matched filter](matched-filter.md)
+  - [Visibility-domain matched filter](visibility-domain-matched-filter.md)
+- [Bandwidth (signal processing)](bandwidth-signal-processing.md)
+- [Analog multiplier](analog-multiplier.md)
+- [Signal distortion](signal-distortion.md)
+- [Quadrature demodulation](quadrature-demodulation.md)
+- [Signal bandwidth](signal-bandwidth.md)
+- [Signal](signal.md)
+  - [Rectangular function](rectangular-function.md)
+  - [Discrete-time signal](discrete-time-signal.md)
+  - [Noise (signal processing)](noise-signal-processing.md)
+    - [Electrical noise reduction](electrical-noise-reduction.md)
+    - [Flicker noise](flicker-noise.md)
+    - [Thermal noise](thermal-noise.md)
+    - [Shot noise](shot-noise.md)
+      - [Poisson photon counting](poisson-photon-counting.md)
+      - [Boxcar averaging of Poisson shot noise](boxcar-averaging-of-poisson-shot-noise.md)
+      - [Shot noise counting model](shot-noise-counting-model.md)
+      - [Shot noise spectral convention](shot-noise-spectral-convention.md)
+      - [Filtered shot noise](filtered-shot-noise.md)
+      - [Shot noise worked example](shot-noise-worked-example.md)
+      - [Shot noise photocurrent measurement](shot-noise-photocurrent-measurement.md)
+      - [Shot noise departures from Poisson statistics](shot-noise-departures-from-poisson-statistics.md)
+    - [Thermal electrical noise](thermal-electrical-noise.md)
+      - [Thermal noise spectral convention](thermal-noise-spectral-convention.md)
+      - [Effective noise bandwidth](effective-noise-bandwidth.md)
+      - [Thermal noise loading](thermal-noise-loading.md)
+      - [Thermal noise worked example](thermal-noise-worked-example.md)
+      - [Resistor-capacitor equilibrium noise](resistor-capacitor-equilibrium-noise.md)
+      - [Thermal noise measurement](thermal-noise-measurement.md)
+  - [Signal-to-noise ratio](signal-to-noise-ratio.md)
+  - [Power spectral density](power-spectral-density.md)
+    - [Amplitude spectral density](amplitude-spectral-density.md)
+- [Linear filter](linear-filter.md)
+  - [Relative attenuation by a linear filter](relative-attenuation-by-a-linear-filter.md)
+  - [Low-pass filter](low-pass-filter.md)
+    - [Butterworth filter](butterworth-filter.md)
+    - [Sallen-Key low-pass filter](sallen-key-low-pass-filter.md)
+      - [Sallen-Key equal-component stability bound](sallen-key-equal-component-stability-bound.md)
+    - [RL low-pass filter](rl-low-pass-filter.md)
+    - [RC low-pass filter](rc-low-pass-filter.md)
+      - [RC low-pass frequency response](rc-low-pass-frequency-response.md)
+      - [RC low-pass step response](rc-low-pass-step-response.md)
+      - [RC low-pass output loading](rc-low-pass-output-loading.md)
+      - [RC low-pass laboratory](rc-low-pass-laboratory.md)
+  - [Causal filter](causal-filter.md)
+  - [Finite impulse response](finite-impulse-response.md)
+    - [Moving average](moving-average.md)
+  - [Band-pass filter](band-pass-filter.md)
+  - [Cutoff frequency](cutoff-frequency.md)
+- [Linear time-invariant system](linear-time-invariant-system.md)
+  - [Frequency response](frequency-response.md)
+    - [Antiresonance](antiresonance.md)
+
+## ↑ Ancestors (2)
+
+1. [Electrical engineering](electrical-engineering-split.md)
+2. [Codex Wiki](split.md)
+
+## ← Incoming links (6)
+
+- [Alan V. Oppenheim](alan-v-oppenheim.md)
+- [Convolution](convolution.md)
+- [Discrete Fourier transform](discrete-fourier-transform-split.md)
+- [Electrical engineering](electrical-engineering-split.md)
+- [Jump response of a localized analyzing function](jump-response-of-a-localized-analyzing-function.md)
+- [Wavelet](wavelet.md)

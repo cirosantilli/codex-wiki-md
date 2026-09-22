@@ -1,0 +1,28 @@
+<h1 id="1/solution">Solution</h1>
+
+↑ **Parent:** [1](../1.md)
+
+Bacterial DNA-recognition and DNA-modifying systems provide ways to mark, map and perturb [eukaryotic](../../../../eukaryote.md) [chromosomes](../../../../chromosome.md). Their value comes from separating the targeting module from the reporter or effector, so a [chromosome](../../../../chromosome.md) becomes experimentally observable without assuming that its sequence alone specifies its behaviour.
+
+For [fluorescent operator-repressor chromosome labelling](../../../../fluorescent-operator-repressor-chromosome-labelling.md), an integrated array of bacterial operator sequences is bound by a fluorescent repressor fusion. A [LacI](../../../../laci.md) fusion bound to a [lac operator](../../../../lac-operator.md) array makes a selected [genetic locus](../../../../genetic-locus.md) visible in a living nucleus. Two differently labelled loci can report separation of [sister chromatids](../../../../sister-chromatids.md), movement relative to the nuclear periphery, or distributions of distances between [chromosome](../../../../chromosome.md) regions. [Carmen C. Robinett](../../../../carmen-c-robinett.md) and colleagues demonstrated operator-based imaging in mammalian cells and yeast. The tag reports the marked locus, not every part of the [chromosome](../../../../chromosome.md), and repeated operators or excessive bound repressor can perturb [DNA replication](../../../../dna-replication.md) and [chromatin](../../../../chromatin.md) structure.[Live GFP-repressor imaging and targeted yeast insertion](../../../../in-vivo-localization-of-dna-sequences-and-visualization-of-large-scale-chromatin-organization-using-lac-operator-repressor-recognition-by-carmen-c-robinett-and-others.md)
+
+The bacterial [CRISPR-Cas9](../../../../crispr-cas9.md) recognition mechanism makes targeting programmable. A fluorescent [dCas9](../../../../dcas9.md) fusion and a [guide RNA](../../../../guide-rna.md) can visualize native repeated sequences; multiple guides can improve detection of a nonrepetitive locus. [Baohui Chen](../../../../baohui-chen.md) and colleagues used this approach to follow human [genetic loci](../../../../genetic-locus.md). Catalytically inactive targeting avoids making the [DNA double-strand break](../../../../dna-double-strand-break.md) that would itself alter [chromosome](../../../../chromosome.md) behaviour. Appropriate controls include guide specificity, signal from an unlabelled locus, and whether tagging changes growth or the measured dynamics.[Live imaging of endogenous human loci](../../../../dynamic-imaging-of-genomic-loci-in-living-human-cells-by-an-optimized-crispr-cas-system-by-baohui-chen-and-others.md)
+
+For [DamID](../../../../damid.md), bacterial Dam methyltransferase is fused to a nuclear [protein](../../../../protein-split.md). Methylated GATC sites record neighbourhoods visited by the fusion. A fusion to a nuclear-envelope component can identify [lamina-associated domains](../../../../lamina-associated-domain.md), whereas one to a chromatin-binding [protein](../../../../protein-split.md) maps its genomic neighbourhoods. Comparing with untethered Dam helps control accessibility-dependent background. The accumulated methylation signal is a time-integrated proximity record: it need not establish direct binding to every recovered sequence, and resolution depends on GATC distribution and local spreading.[Principle of targeted methylation and chromatin-protein mapping](../../../../identification-of-in-vivo-dna-targets-of-chromatin-proteins-using-tethered-dam-methyltransferase-by-bas-van-steensel-and-steven-henikoff.md)
+
+Bacterial enzymes also make structural measurements possible. In [Hi-C](../../../../hi-c.md), [restriction enzymes](../../../../restriction-enzyme.md) generate [DNA](../../../../deoxyribonucleic-acid.md) fragments whose proximity-dependent ligation junctions can be sequenced. In [ATAC-seq](../../../../atac-seq.md), a modified bacterial [Tn5 transposase](../../../../tn5-transposase.md) inserts sequencing adapters preferentially into accessible [DNA](../../../../deoxyribonucleic-acid.md). Neither assay directly photographs a fixed [chromosome](../../../../chromosome.md) structure: contact frequency and accessibility are different observables. Enzyme sequence preferences, fixation, and cell-to-cell heterogeneity must be controlled. Together, live labelling, proximity recording and sequencing-based assays connect [chromosome](../../../../chromosome.md) movement, nuclear neighbourhood and [chromatin accessibility](../../../../chromatin-accessibility.md), rather than substituting one measurement for all three.
+
+## ↑ Ancestors (12)
+
+1. [1](../1.md)
+2. [Paper 1](../../paper-1-split.md)
+3. [2024](../../split.md)
+4. [Past exam of the genetics course of the University of Cambridge](../../../split.md)
+5. [Genetics course of the University of Cambridge](../../../../genetics-course-of-the-university-of-cambridge.md)
+6. [Year 3 of the natural sciences course of the University of Cambridge](../../../../year-3-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+7. [Year of the natural sciences course of the University of Cambridge](../../../../year-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+8. [Natural sciences course of the University of Cambridge](../../../../natural-sciences-course-of-the-university-of-cambridge.md)
+9. [Course of the University of Cambridge](../../../../course-of-the-university-of-cambridge.md)
+10. [University of Cambridge](../../../../university-of-cambridge-split.md)
+11. [List of universities](../../../../list-of-universities.md)
+12. [Codex Wiki](../../../../split.md)

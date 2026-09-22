@@ -1,0 +1,34 @@
+<h1 id="section-a/4/solution">Solution</h1>
+
+↑ **Parent:** [4](../4.md)
+
+Spherical symmetry makes the [electric field](../../../../../electric-field-split.md) radial and constant in magnitude on each concentric [Gaussian surface](../../../../../gaussian-surface.md). The enclosed charge is
+
+$$
+Q(r)=4\pi\int_0^r(as)s^2\,ds=\pi ar^4.
+$$
+
+[Gauss's law](../../../../../gauss-s-law.md) therefore gives
+
+$$
+\boxed{\mathbf E(r)=\frac{ar^2}{4\epsilon_0}\,\widehat{\mathbf r},\qquad
+|\mathbf E|=\frac{|a|r^2}{4\epsilon_0}.}
+$$
+
+The direction is outward for $a>0$ and inward for $a<0$; the field vanishes at the centre. No exterior [boundary condition](../../../../../boundary-condition.md) changes this spherically symmetric interior result.
+
+## ↑ Ancestors (13)
+
+1. [4](../4.md)
+2. [Section A](../../section-a.md)
+3. [Paper 1](../../../paper-1-split.md)
+4. [2013](../../../split.md)
+5. [Past exam of the physics course of the year 1 of the natural sciences course of the University of Cambridge](../../../../split.md)
+6. [Physics course of the year 1 of the natural sciences course of the University of Cambridge](../../../../../physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+7. [Year 1 of the natural sciences course of the University of Cambridge](../../../../../year-1-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+8. [Year of the natural sciences course of the University of Cambridge](../../../../../year-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+9. [Natural sciences course of the University of Cambridge](../../../../../natural-sciences-course-of-the-university-of-cambridge.md)
+10. [Course of the University of Cambridge](../../../../../course-of-the-university-of-cambridge.md)
+11. [University of Cambridge](../../../../../university-of-cambridge-split.md)
+12. [List of universities](../../../../../list-of-universities.md)
+13. [Codex Wiki](../../../../../split.md)

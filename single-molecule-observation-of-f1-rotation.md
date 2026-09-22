@@ -1,0 +1,18 @@
+# Single-molecule observation of F1 rotation
+
+↑ **Parent:** [ATP synthase](atp-synthase.md)
+
+In 1997, [Hiroyuki Noji](hiroyuki-noji.md) and colleagues attached a fluorescent [actin](actin.md) filament to the central $\gamma$ shaft of isolated $F_1$. With [ATP](adenosine-triphosphate.md) supplied, the marker made sustained rotations. This exposed rotation directly, but used [ATP](adenosine-triphosphate.md) [hydrolysis](hydrolysis.md): there was no membrane $F_0$ motor producing [ATP](adenosine-triphosphate.md) from a [proton-motive force](proton-motive-force.md) in this assay.[Noji, Yasuda, Yoshida and Kinosita Jr., Direct observation of the rotation of F1-ATPase, Nature 386 (1997), 299–302, accessible primary abstract](direct-observation-of-the-rotation-of-f1-atpase-by-hiroyuki-noji-and-others.md)
+
+A subsequent primary experiment made the optical readout much faster. Purified [Escherichia coli](escherichia-coli.md) $F_1$ was immobilized on glass in a $30\,\mathrm{\mu m}$-deep flow cell, with a $60\,\mathrm{nm}$ [gold](gold.md) bead attached to $\gamma$. With $2\,\mathrm{mM}$ [ATP](adenosine-triphosphate.md) and [magnesium](magnesium.md) supplied, laser illumination and [dark-field microscopy](dark-field-microscopy.md) recorded bead positions at $4000$ or $8000$ frames per second. The position trajectory resolved turns and intervening dwells. This apparatus follows a shaft-attached marker, rather than imaging the shaft's [chemical atoms](atom-physics.md).[Sekiya et al., 2009, Experimental Procedures: Direct Observation of gamma Subunit Rotation; Results, Figure 1](temperature-dependence-of-single-molecule-rotation-of-the-escherichia-coli-atp-synthase-f1-sector-reveals-the-importance-of-gamma-beta-subunit-interactions-in-the-catalytic-dwell-by-mizuki-sekiya-and-others.md)
+
+Controls addressed perturbation and chemical activity: comparison of $40$–$200\,\mathrm{nm}$ probes found similar rates for the two smallest sizes, supporting low [drag](drag-physics.md); a separate coupled-[enzyme](enzyme-split.md) assay followed [ATP](adenosine-triphosphate.md) [hydrolysis](hydrolysis.md) through [NADH](nadh.md) absorbance. But the rotational analysis excluded pauses longer than $0.1\,\mathrm s$, so it characterizes continuously active intervals, not total output including long inhibited periods. It neither counts transported [protons](proton.md) nor measures simultaneous single-[molecule](molecule-split.md) [ATP](adenosine-triphosphate.md) synthesis.[Sekiya et al., 2009, Experimental Procedures: Assay methods and data selection; Results: Direct Observation of Rotation Using a 60-nm Gold Bead](temperature-dependence-of-single-molecule-rotation-of-the-escherichia-coli-atp-synthase-f1-sector-reveals-the-importance-of-gamma-beta-subunit-interactions-in-the-catalytic-dwell-by-mizuki-sekiya-and-others.md)
+
+The experimental distinction is essential. Sustained directional marker motion tests a rotary mechanism. Demonstrating [proton](proton.md)-driven synthesis additionally requires intact $F_0F_1$ in a membrane with a controlled [proton-motive force](proton-motive-force.md) and a chemical [ATP](adenosine-triphosphate.md)-production readout; dependence on that driving force and inhibition or [respiratory uncoupling](respiratory-uncoupling.md) controls then test the proposed [energy coupling](energy-coupling.md). A rotation movie alone cannot establish the complete material and [free energy](thermodynamic-free-energy.md) ledger.
+
+## ↑ Ancestors (4)
+
+1. [ATP synthase](atp-synthase.md)
+2. [Enzyme](enzyme-split.md)
+3. [Biology](biology-split.md)
+4. [Codex Wiki](split.md)

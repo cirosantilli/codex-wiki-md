@@ -1,0 +1,61 @@
+# Scattering of light
+
+↑ **Parent:** [Optics](optics-split.md)
+
+Scattering of light redirects radiation through interaction with particles or spatial variations in a medium. It can remove light from a beam without true absorption, or add light from other directions. Wavelength and particle-size dependence make [Rayleigh scattering](rayleigh-scattering.md) and aerosol scattering useful probes of planetary atmospheres.
+
+**Table of contents**
+
+- [Single scattering](single-scattering.md)
+- [Scattering vector](scattering-vector.md)
+- [Guinier approximation](guinier-approximation.md)
+- [Static light scattering](static-light-scattering.md)
+- [Turbidity](turbidity.md)
+- [Multi-angle light scattering](multi-angle-light-scattering.md)
+- [Brillouin scattering](brillouin-scattering.md)
+- [Raman scattering](raman-scattering.md)
+  - [Raman and Krishnan light-scattering experiment](raman-and-krishnan-light-scattering-experiment.md)
+  - [Raman shift](raman-shift.md)
+  - [Stokes Raman scattering](stokes-raman-scattering.md)
+  - [Anti-Stokes Raman scattering](anti-stokes-raman-scattering.md)
+  - [Raman vibrational activity](raman-vibrational-activity.md)
+  - [Thermal Raman line ratio](thermal-raman-line-ratio.md)
+    - [One-mode Raman spectrum example](one-mode-raman-spectrum-example.md)
+  - [Raman spectroscopy](raman-spectroscopy.md)
+    - [Surface-enhanced Raman spectroscopy](surface-enhanced-raman-spectroscopy.md)
+      - [Chemical SERS enhancement](chemical-sers-enhancement.md)
+      - [Electromagnetic SERS enhancement](electromagnetic-sers-enhancement.md)
+
+## ↑ Ancestors (4)
+
+1. [Optics](optics-split.md)
+2. [Branches of physics](branches-of-physics.md)
+3. [Physics](physics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (24)
+
+- [Beam hardening](beam-hardening.md)
+- [Beer-Lambert measurement controls](beer-lambert-measurement-controls.md)
+- [Carbon-dioxide viewing-cell phase-transition experiment](carbon-dioxide-viewing-cell-phase-transition-experiment.md)
+- [Conservation of etendue](conservation-of-etendue.md)
+- [Critical opalescence](critical-opalescence.md)
+- [Digital optical phase conjugation](digital-optical-phase-conjugation.md)
+- [Finite-layer model of Lippmann reflection](finite-layer-model-of-lippmann-reflection.md)
+- [Fourier model of a Lyot coronagraph](fourier-model-of-a-lyot-coronagraph.md)
+- [IceCube ice-transparency calibration experiment](icecube-ice-transparency-calibration-experiment.md)
+- [Limb darkening](limb-darkening.md)
+- [Linear attenuation coefficient](linear-attenuation-coefficient.md)
+- [Lunar phase](lunar-phase.md)
+- [Lysozyme wall-removal experiment](lysozyme-wall-removal-experiment.md)
+- [Optical fiber attenuation](optical-fiber-attenuation.md)
+- [Optical fiber purity and low-loss transmission](optical-fiber-purity-and-low-loss-transmission.md)
+- [Optical scattering force](optical-scattering-force.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-315/4/g/solution.md)
+- [Radiation pressure of a directed beam](radiation-pressure-of-a-directed-beam.md)
+- [Raman and Krishnan light-scattering experiment](raman-and-krishnan-light-scattering-experiment.md)
+- [Raman spectroscopy](raman-spectroscopy.md)
+- [SEC light-scattering detection](sec-light-scattering-detection.md)
+- [Single-beam gradient trapping experiment](single-beam-gradient-trapping-experiment.md)
+- [Solar limb-darkening drift-scan experiment](solar-limb-darkening-drift-scan-experiment.md)
+- [X-ray attenuation](x-ray-attenuation.md)

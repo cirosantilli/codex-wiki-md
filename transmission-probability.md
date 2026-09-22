@@ -1,0 +1,46 @@
+# Transmission probability
+
+↑ **Parent:** [Quantum scattering](quantum-scattering-split.md)
+
+The transmission probability is the ratio of transmitted to incident [probability current](probability-current.md). When the asymptotic wavenumbers agree, it is the squared modulus of the transmission amplitude.
+
+## ↑ Ancestors (5)
+
+1. [Quantum scattering](quantum-scattering-split.md)
+2. [Quantum mechanics](quantum-mechanics-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (30)
+
+- [Alpha-particle assault frequency](alpha-particle-assault-frequency.md)
+- [Alpha preformation probability](alpha-preformation-probability.md)
+- [Current-distance test of vacuum tunnelling](current-distance-test-of-vacuum-tunnelling.md)
+- [Evanescent probability current](evanescent-probability-current.md)
+- [Opaque barrier approximation](opaque-barrier-approximation.md)
+- [Solution](past-exam-of-the-advanced-quantum-physics-course-of-the-university-of-cambridge/2016/paper-1/2/a/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-3/section-f/46/a/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ib/paper-2/16b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ib/paper-2/15c/b/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2017/paper-2/section-b/21/ii/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2019/paper-2/section-b/21/iv/c/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2014/paper-1/section-c/c11/b/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2015/paper-1/section-b/b6/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2017/paper-1/section-b/b6/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2018/paper-1/section-b/b6/d/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2019/paper-1/section-a/3/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2019/section-b/8/b/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/section-b/9/a/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/section-b/9/c/solution.md)
+- [Quantum reflection at a downward step](quantum-reflection-at-a-downward-step.md)
+- [Quantum reflection probability](quantum-reflection-probability.md)
+- [Quantum tunnelling](quantum-tunnelling.md)
+- [Rectangular barrier transmission probability](rectangular-barrier-transmission-probability.md)
+- [Rectangular-barrier tunnelling probability](rectangular-barrier-tunnelling-probability.md)
+- [Resonant transmission through a square well](resonant-transmission-through-a-square-well.md)
+- [Step potential](step-potential.md)
+- [Thick-barrier transmission prefactor](thick-barrier-transmission-prefactor.md)
+- [Transmission amplitude](transmission-amplitude.md)
+- [Tunnel diode](tunnel-diode.md)
+- [WKB tunnelling exponent](wkb-tunnelling-exponent.md)

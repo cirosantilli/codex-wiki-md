@@ -1,0 +1,60 @@
+# Orthogonal coordinates
+
+↑ **Parent:** [Change of variables formula](change-of-variables-formula.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Orthogonal_coordinates)
+
+[Orthogonal coordinates](orthogonal-coordinates.md) have pairwise [orthogonal](orthogonal-vectors.md) coordinate tangent directions. Their metric is diagonal, with [scale factors of orthogonal coordinates](scale-factors-of-orthogonal-coordinates.md) $h_i=|\partial\mathbf x/\partial q_i|$. [Spherical coordinates](spherical-coordinate-system.md) and cylindrical coordinates are examples.
+
+**Table of contents**
+
+- [Parabolic cylindrical coordinates](parabolic-cylindrical-coordinates.md)
+- [Divergence and curl from orthogonal coordinate gradients](divergence-and-curl-from-orthogonal-coordinate-gradients.md)
+- [Gradient in orthogonal coordinates](gradient-in-orthogonal-coordinates.md)
+- [Circular torus coordinates](circular-torus-coordinates.md)
+- [Bipolar coordinates](bipolar-coordinates.md)
+  - [Dirichlet problem between bipolar coordinate circles](dirichlet-problem-between-bipolar-coordinate-circles.md)
+- [Elliptic cylindrical coordinates](elliptic-cylindrical-coordinates.md)
+  - [Vector calculus in elliptic cylindrical coordinates](vector-calculus-in-elliptic-cylindrical-coordinates.md)
+- [Parabolic coordinates](parabolic-coordinates.md)
+- [Del in cylindrical and spherical coordinates](del-in-cylindrical-and-spherical-coordinates.md)
+- [Hyperspherical coordinates](hyperspherical-coordinates.md)
+  - [Spherical coordinate system](spherical-coordinate-system.md)
+    - [Longitude](longitude.md)
+    - [Colatitude](colatitude.md)
+    - [Polar angle](polar-angle.md)
+    - [Exponential spherical mass factor](exponential-spherical-mass-factor.md)
+    - [Radial unit vector in spherical coordinates](radial-unit-vector-in-spherical-coordinates.md)
+    - [Scale factors of orthogonal coordinates](scale-factors-of-orthogonal-coordinates.md)
+    - [Curl in spherical coordinates](curl-in-spherical-coordinates.md)
+  - [Volume of an n-ball](volume-of-an-n-ball.md)
+  - [Surface area of an n-sphere](surface-area-of-an-n-sphere.md)
+
+## ↑ Ancestors (8)
+
+1. [Change of variables formula](change-of-variables-formula.md)
+2. [Multivariable calculus](multivariable-calculus-split.md)
+3. [Calculus](calculus-split.md)
+4. [Real analysis](real-analysis-split.md)
+5. [Analysis](analysis-split.md)
+6. [Area of mathematics](area-of-mathematics.md)
+7. [Mathematics](mathematics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (16)
+
+- [Divergence and curl from orthogonal coordinate gradients](divergence-and-curl-from-orthogonal-coordinate-gradients.md)
+- [Elliptic cylindrical coordinates](elliptic-cylindrical-coordinates.md)
+- [Gradient in orthogonal coordinates](gradient-in-orthogonal-coordinates.md)
+- [Hyperbolic parametrization of prolate spheroidal coordinates](hyperbolic-parametrization-of-prolate-spheroidal-coordinates.md)
+- [Orthogonal coordinates](orthogonal-coordinates.md)
+- [Parabolic cylindrical coordinates](parabolic-cylindrical-coordinates.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2001/paper-1/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2005/paper-1/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2006/paper-1/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2008/paper-1/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2011/paper-1/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2019/paper-1/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2021/paper-1/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-1/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2023/paper-1/1/b/solution.md)
+- [Scale factors of orthogonal coordinates](scale-factors-of-orthogonal-coordinates.md)

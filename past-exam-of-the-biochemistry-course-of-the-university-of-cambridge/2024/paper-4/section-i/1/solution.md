@@ -1,0 +1,35 @@
+<h1 id="section-i/1/solution">Solution</h1>
+
+↑ **Parent:** [1](../1.md)
+
+**An organelle maintains a reproducible molecular and functional organization while continuously replacing its components. Identity is therefore a regulated steady state, rather than a permanent collection of molecules.** A useful explanation must connect selective delivery and retrieval to local biochemical reactions, physical boundaries and inheritance.
+
+For a membrane-bounded [organelle](../../../../../organelle.md), the [lipid bilayer](../../../../../lipid-bilayer.md) separates its contents from the [cytosol](../../../../../cytosol.md), preserves membrane-protein topology and permits lumenal conditions to differ from the surroundings. A [lysosome](../../../../../lysosome.md), for example, requires an acidic lumen and retained hydrolases as well as a membrane. Its [vacuolar proton ATPase](../../../../../vacuolar-proton-atpase.md) establishes acidity, while counterion conductance and regulated transport prevent unbounded charge accumulation. An [endoplasmic reticulum](../../../../../endoplasmic-reticulum.md) lumen instead supports protein folding and calcium storage. These environments determine which reactions occur and help stabilize the appropriate resident proteins. A boundary alone is insufficient: an empty vesicle can have the same basic bilayer architecture without the same biological identity.
+
+Membrane composition creates selective recruitment sites. Local [phosphoinositide](../../../../../phosphoinositide.md) synthesis and dephosphorylation produce membrane domains recognized by particular lipid-binding proteins. [Phosphatidylinositol 3-phosphate](../../../../../phosphatidylinositol-3-phosphate.md) is associated with early endosomal domains, whereas [phosphatidylinositol 4-phosphate](../../../../../phosphatidylinositol-4-phosphate.md) contributes to Golgi organization. These distributions reflect localized enzymes and regulated turnover, not an immutable lipid barcode. Other properties—including sterol abundance, bilayer thickness and curvature—can favour some membrane proteins over others. [Membrane contact sites](../../../../../membrane-contact-site.md) and [lipid transfer proteins](../../../../../lipid-transfer-protein.md) redistribute selected lipids while preserving the separation of the two compartments.
+
+[Rab GTPases](../../../../../rab-gtpase.md) provide a second layer of recognition. Membrane recruitment and nucleotide exchange generate an active Rab domain; effectors then promote [vesicle tethering](../../../../../vesicle-tethering.md), motor recruitment and sorting. A Rab and its effectors can reinforce one another's localization. [GTP hydrolysis](../../../../../gtp-hydrolysis.md) and extraction provide opposing reactions that prevent uncontrolled spread. [SNARE proteins](../../../../../snare-protein.md), together with tethering factors and the appropriate lipid environment, subsequently favour fusion of compatible membranes. Specificity is combinatorial: neither a Rab nor a SNARE should be treated as a unique address sufficient by itself.
+
+[Membrane trafficking](../../../../../membrane-trafficking.md) would progressively mix organelles without selective retrieval. [COPII](../../../../../copii.md) exports selected cargo from the [endoplasmic reticulum](../../../../../endoplasmic-reticulum.md), while [COPI](../../../../../copi.md)-dependent and other retrieval pathways return escaped residents and trafficking machinery. Resident proteins can be retained through interactions or retrieved using recognizable sorting information. The Golgi similarly balances forward cargo movement with recycling of processing enzymes. Endosomes sort some receptors back to the surface through recycling carriers while directing other material toward degradation. Such exchange preserves an organelle's characteristic composition without requiring every incoming molecule to remain there.
+
+Identity can also change in an organized sequence. In [endosome maturation](../../../../../endosome-maturation.md), a compartment can lose [Rab5](../../../../../rab5.md) and acquire [Rab7](../../../../../rab7.md) while retaining internalized material. Live imaging of this [Rab conversion](../../../../../rab-conversion.md) argues that an early identity is actively replaced, rather than the same early compartment retaining an unchanging molecular label forever.[Live-cell Rab-marker conversion during cargo progression](../../../../../rab-conversion-as-a-mechanism-of-progression-from-early-to-late-endosomes-by-jochen-rink-and-others.md) A cell maintains distinct early and late populations even though individual compartments pass between them. Thus stable system-level organization and changing individual organelles are compatible.
+
+Some compartments use additional rules. [Mitochondria](../../../../../mitochondria.md) and [chloroplasts](../../../../../chloroplast.md) combine [organelle protein import](../../../../../organelle-protein-import.md), genome expression, membrane growth and division; their identity cannot be reduced to vesicle fusion specificity. [Peroxisomes](../../../../../peroxisome.md) import matrix proteins and receive membrane constituents through their own biogenesis pathways. Organelle positioning, fission and inheritance keep these functions distributed through growth and division, while damage recognition and turnover remove defective components.
+
+Experimentally, one should distinguish causation from marker correlation. Acute inhibition of a localized lipid enzyme or Rab regulator can be followed by live imaging, cargo transport, lumenal pH measurements and rescue with a functional allele. A convincing identity change alters function and multiple independent features, rather than merely displacing a fluorescent marker. The central principle is **selective flux plus local self-organization, balanced by retrieval and turnover**.
+
+## ↑ Ancestors (13)
+
+1. [1](../1.md)
+2. [Section I](../../section-i.md)
+3. [Paper 4](../../../paper-4-split.md)
+4. [2024](../../../split.md)
+5. [Past exam of the biochemistry course of the University of Cambridge](../../../../split.md)
+6. [Biochemistry course of the University of Cambridge](../../../../../biochemistry-course-of-the-university-of-cambridge.md)
+7. [Year 3 of the natural sciences course of the University of Cambridge](../../../../../year-3-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+8. [Year of the natural sciences course of the University of Cambridge](../../../../../year-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+9. [Natural sciences course of the University of Cambridge](../../../../../natural-sciences-course-of-the-university-of-cambridge.md)
+10. [Course of the University of Cambridge](../../../../../course-of-the-university-of-cambridge.md)
+11. [University of Cambridge](../../../../../university-of-cambridge-split.md)
+12. [List of universities](../../../../../list-of-universities.md)
+13. [Codex Wiki](../../../../../split.md)

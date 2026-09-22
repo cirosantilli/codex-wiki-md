@@ -1,0 +1,62 @@
+# Hyperfine structure
+
+↑ **Parent:** [Quantum mechanics](quantum-mechanics-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Hyperfine_structure)
+
+Small splittings of [energy eigenvalues](energy-eigenvalue-split.md) due to interactions involving nuclear [spin](spin.md).
+
+**Table of contents**
+
+- [Clock transition](clock-transition.md)
+  - [Quadratic Zeeman shift of a clock transition](quadratic-zeeman-shift-of-a-clock-transition.md)
+  - [Rubidium-87 clock transition](rubidium-87-clock-transition.md)
+- [Hyperfine coupling for a spin-one nucleus](hyperfine-coupling-for-a-spin-one-nucleus.md)
+- [Hyperfine interaction](hyperfine-interaction.md)
+  - [Breit-Rabi formula](breit-rabi-formula.md)
+    - [Stretched hyperfine Zeeman state](stretched-hyperfine-zeeman-state.md)
+
+## ↑ Ancestors (4)
+
+1. [Quantum mechanics](quantum-mechanics-split.md)
+2. [Branches of physics](branches-of-physics.md)
+3. [Physics](physics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (36)
+
+- [Anomalous Zeeman effect](anomalous-zeeman-effect.md)
+- [Atomic clock](atomic-clock.md)
+- [Hydrogen fine-structure correction](hydrogen-fine-structure-correction.md)
+- [Hydrogen Lamb splitting](hydrogen-lamb-splitting.md)
+- [Hyperfine interaction](hyperfine-interaction.md)
+- [Kusch-Foley magnetic moment experiment](kusch-foley-magnetic-moment-experiment.md)
+- [Lamb-Retherford experiment](lamb-retherford-experiment.md)
+- [Lamb shift line-centre model](lamb-shift-line-centre-model.md)
+- [Magnetic field from a Zeeman diagram](magnetic-field-from-a-zeeman-diagram.md)
+- [Maser state selection](maser-state-selection.md)
+- [Molecular structure from rotational constants](molecular-structure-from-rotational-constants.md)
+- [Mössbauer velocity scan](mossbauer-velocity-scan.md)
+- [Normal Zeeman effect](normal-zeeman-effect.md)
+- [Solution](past-exam-of-the-advanced-quantum-physics-course-of-the-university-of-cambridge/2012/paper-1/2/b/solution.md)
+- [Solution](past-exam-of-the-advanced-quantum-physics-course-of-the-university-of-cambridge/2016/paper-1/1/a/solution.md)
+- [Solution](past-exam-of-the-advanced-quantum-physics-course-of-the-university-of-cambridge/2017/1/a/solution.md)
+- [Solution](past-exam-of-the-advanced-quantum-physics-course-of-the-university-of-cambridge/2017/3/solution.md)
+- [Solution](past-exam-of-the-advanced-quantum-physics-course-of-the-university-of-cambridge/2018/section-a/1/c/solution.md)
+- [Solution](past-exam-of-the-advanced-quantum-physics-course-of-the-university-of-cambridge/2019/section-a/3/solution.md)
+- [Solution](past-exam-of-the-atomic-and-optical-physics-course-of-the-university-of-cambridge/2013/paper-1/3/a/solution.md)
+- [Solution](past-exam-of-the-atomic-and-optical-physics-course-of-the-university-of-cambridge/2014/paper-1/1/solution.md)
+- [Solution](past-exam-of-the-atomic-and-optical-physics-course-of-the-university-of-cambridge/2015/paper-1/3/a/solution.md)
+- [Solution](past-exam-of-the-optics-and-electrodynamics-course-of-the-university-of-cambridge/2015/paper-1/2/b/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2016/paper-1/section-c/c11/a/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2017/paper-1/section-c/c10/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2012/paper-1/section-b/b5/solution.md)
+- [Polarization-selective Zeeman splitting of an alkali D1 line](polarization-selective-zeeman-splitting-of-an-alkali-d1-line.md)
+- [Quantum electrodynamics](quantum-electrodynamics.md)
+- [Rotational spectral line assignment](rotational-spectral-line-assignment.md)
+- [Sodium D-line Zeeman pattern](sodium-d-line-zeeman-pattern.md)
+- [Sodium saturation spectroscopy experiment of 1971](sodium-saturation-spectroscopy-experiment-of-1971.md)
+- [Stern-Gerlach historical and modern interpretations](stern-gerlach-historical-and-modern-interpretations.md)
+- [Three-sublevel optical pumping model](three-sublevel-optical-pumping-model.md)
+- [Trapped-ion internal and motional states](trapped-ion-internal-and-motional-states.md)
+- [Weak-field Zeeman splitting](weak-field-zeeman-splitting.md)
+- [Zeeman slower resonance tracking](zeeman-slower-resonance-tracking.md)

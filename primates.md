@@ -1,0 +1,53 @@
+# Primates
+
+↑ **Parent:** [Euarchontoglires](euarchontoglires.md)
+
+**Table of contents**
+
+- [Saimiri sciureus](saimiri-sciureus.md)
+- [Ape](ape.md)
+- [Great ape](great-ape.md)
+  - [Australopithecus](australopithecus.md)
+    - [Australopithecus afarensis](australopithecus-afarensis.md)
+  - [Paranthropus](paranthropus.md)
+    - [Paranthropus boisei](paranthropus-boisei.md)
+  - [Hominin](hominin.md)
+  - [Pierolapithecus](pierolapithecus.md)
+  - [Ardipithecus](ardipithecus.md)
+    - [Ardipithecus ramidus](ardipithecus-ramidus.md)
+  - [Pongo](pongo.md)
+  - [Gorilla](gorilla.md)
+  - [Homo](homo.md)
+    - [Denisovan](denisovan.md)
+    - [Neanderthal](neanderthal.md)
+    - [Homo sapiens](homo-sapiens.md)
+  - [Pan](pan.md)
+    - [Bonobo](bonobo.md)
+    - [Chimpanzee](chimpanzee.md)
+- [Colobinae](colobinae.md)
+- [Colobine monkey](colobine-monkey.md)
+
+## ↑ Ancestors (17)
+
+1. [Euarchontoglires](euarchontoglires.md)
+2. [Placental mammal](placental-mammal.md)
+3. [Eutheria](eutheria.md)
+4. [Theria](theria.md)
+5. [Mammal](mammal.md)
+6. [Mammaliaform](mammaliaform.md)
+7. [Cynodont](cynodont.md)
+8. [Therapsid](therapsid.md)
+9. [Synapsid](synapsid.md)
+10. [Amniote](amniote.md)
+11. [Tetrapod](tetrapod.md)
+12. [Vertebrate](vertebrate.md)
+13. [Animal](animal.md)
+14. [Eukaryote](eukaryote.md)
+15. [Organism](organism-split.md)
+16. [Biology](biology-split.md)
+17. [Codex Wiki](split.md)
+
+## ← Incoming links (2)
+
+- [Euarchontoglires](euarchontoglires.md)
+- [Solution](past-exam-of-the-zoology-course-of-the-university-of-cambridge/2025/paper-zl1/2/solution.md)

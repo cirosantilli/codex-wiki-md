@@ -1,0 +1,48 @@
+# Paper 332
+
+↑ **Parent:** [Iii](split.md)
+
+[https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2024/Paper_332.pdf](https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2024/Paper_332.pdf)
+
+**Table of contents**
+
+- [1](paper-332/1.md)
+  - [i](paper-332/1/i.md)
+    - [Solution](paper-332/1/i/solution.md)
+  - [ii](paper-332/1/ii.md)
+    - [Solution](paper-332/1/ii/solution.md)
+  - [iii](paper-332/1/iii.md)
+    - [Solution](paper-332/1/iii/solution.md)
+  - [iv](paper-332/1/iv.md)
+    - [Solution](paper-332/1/iv/solution.md)
+- [2](paper-332/2.md)
+  - [i](paper-332/2/i.md)
+    - [Solution](paper-332/2/i/solution.md)
+  - [ii](paper-332/2/ii.md)
+    - [Solution](paper-332/2/ii/solution.md)
+  - [iii](paper-332/2/iii.md)
+    - [Solution](paper-332/2/iii/solution.md)
+  - [iv](paper-332/2/iv.md)
+    - [Solution](paper-332/2/iv/solution.md)
+  - [v](paper-332/2/v.md)
+    - [Solution](paper-332/2/v/solution.md)
+  - [vi](paper-332/2/vi.md)
+    - [Solution](paper-332/2/vi/solution.md)
+- [3](paper-332/3.md)
+  - [i](paper-332/3/i.md)
+    - [Solution](paper-332/3/i/solution.md)
+  - [ii](paper-332/3/ii.md)
+    - [Solution](paper-332/3/ii/solution.md)
+  - [iii](paper-332/3/iii.md)
+    - [Solution](paper-332/3/iii/solution.md)
+
+## ↑ Ancestors (8)
+
+1. [Iii](split.md)
+2. [2024](../split.md)
+3. [Past exam of the mathematics course of the University of Cambridge](../../split.md)
+4. [Mathematics course of the University of Cambridge](../../../mathematics-course-of-the-university-of-cambridge.md)
+5. [Course of the University of Cambridge](../../../course-of-the-university-of-cambridge.md)
+6. [University of Cambridge](../../../university-of-cambridge-split.md)
+7. [List of universities](../../../list-of-universities.md)
+8. [Codex Wiki](../../../split.md)

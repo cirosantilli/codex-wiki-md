@@ -1,0 +1,25 @@
+# Sphere packing
+
+↑ **Parent:** [Geometric packing](geometric-packing.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Sphere_packing)
+
+Arrangement of [spheres](sphere.md) without interior overlap. The occupied [volume](volume.md) fraction is its [packing fraction](packing-fraction.md); it depends on the spatial arrangement and on the radii.
+
+**Table of contents**
+
+- [Hard-sphere model](hard-sphere-model.md)
+- [Simple-cubic sphere packing](simple-cubic-sphere-packing.md)
+
+## ↑ Ancestors (6)
+
+1. [Geometric packing](geometric-packing.md)
+2. [Euclidean geometry](euclidean-geometry-split.md)
+3. [Geometry and topology](geometry-and-topology-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (2)
+
+- [Geometric packing](geometric-packing.md)
+- [Hard-sphere gas](hard-sphere-gas.md)

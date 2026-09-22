@@ -1,0 +1,45 @@
+# Linear mass density
+
+↑ **Parent:** [Density](density.md)
+
+Linear mass density is [mass](mass.md) per unit [length](length.md), measured in $\mathrm{kg\,m^{-1}}$. A uniform string of mass $m$ and length $L$ has $\mu=m/L$; with constant [tension](tension.md) $T$, its transverse [wave](wave-split.md) speed is $\sqrt{T/\mu}$. [Mass density](density.md) instead measures mass per unit [volume](volume.md).
+
+## ↑ Ancestors (5)
+
+1. [Density](density.md)
+2. [Fluid mechanics](fluid-mechanics-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (29)
+
+- [Catenary from hyperbolic cosine](catenary-from-hyperbolic-cosine.md)
+- [Characteristic impedance of a stretched string](characteristic-impedance-of-a-stretched-string.md)
+- [Diameter-rod oscillation in cylindrical gravity](diameter-rod-oscillation-in-cylindrical-gravity.md)
+- [Driven string standing wave experiment](driven-string-standing-wave-experiment.md)
+- [Fixed-end standing wave frequencies](fixed-end-standing-wave-frequencies.md)
+- [Gravitational field of a finite uniform line segment](gravitational-field-of-a-finite-uniform-line-segment.md)
+- [Gravitational field of an infinite uniform cylinder](gravitational-field-of-an-infinite-uniform-cylinder.md)
+- [Gravitational potential producing a circular hanging chain](gravitational-potential-producing-a-circular-hanging-chain.md)
+- [Normal mode](normal-mode.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2014/paper-2/19/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2013/paper-2/section-b/b6/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2015/paper-2/section-a/2/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2018/paper-2/section-b/b9/a/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2018/paper-2/section-b/b9/d/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2018/paper-2/section-b/b9/e/ii/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2019/paper-2/section-a/2/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2019/paper-2/section-d/d12/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2021/paper-2/section-b/b6/a/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2021/paper-2/section-b/b6/c/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2010/paper-1/section-e/e15/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2015/paper-1/section-d/d13/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2018/section-e/14/solution.md)
+- [Reflection at a density step on a string](reflection-at-a-density-step-on-a-string.md)
+- [String density ratio for prescribed reflected power](string-density-ratio-for-prescribed-reflected-power.md)
+- [String with an endpoint mass](string-with-an-endpoint-mass.md)
+- [Tension](tension.md)
+- [Viscous termination of a stretched string](viscous-termination-of-a-stretched-string.md)
+- [Wave equation on a string](wave-equation-on-a-string.md)
+- [Wave speed](wave-speed.md)

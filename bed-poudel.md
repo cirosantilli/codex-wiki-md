@@ -1,0 +1,14 @@
+# Bed Poudel
+
+↑ **Parent:** [Materials scientist](materials-scientist.md)
+
+## ↑ Ancestors (4)
+
+1. [Materials scientist](materials-scientist.md)
+2. [Materials science](materials-science.md)
+3. [Engineering](engineering-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (1)
+
+- [High-Thermoelectric Performance of Nanostructured Bismuth Antimony Telluride Bulk Alloys by Bed Poudel and others](high-thermoelectric-performance-of-nanostructured-bismuth-antimony-telluride-bulk-alloys-by-bed-poudel-and-others.md)

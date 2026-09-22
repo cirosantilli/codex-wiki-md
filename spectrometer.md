@@ -1,0 +1,52 @@
+# Spectrometer
+
+↑ **Parent:** [Optical instrument](optical-instrument-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Spectrometer)
+
+**Table of contents**
+
+- [Electron spectrometer](electron-spectrometer.md)
+- [Electron energy analyzer](electron-energy-analyzer.md)
+- [Magnetic spectrometer](magnetic-spectrometer.md)
+- [Fourier transform spectroscopy](fourier-transform-spectroscopy.md)
+  - [Interferogram apodization](interferogram-apodization.md)
+  - [Interferogram of an equally spaced spectral multiplet](interferogram-of-an-equally-spaced-spectral-multiplet.md)
+  - [Delay-range resolution in Fourier transform spectroscopy](delay-range-resolution-in-fourier-transform-spectroscopy.md)
+- [Spectrograph](spectrograph.md)
+  - [Spectrophotometry](spectrophotometry.md)
+    - [Cuvette](cuvette.md)
+    - [Spectrophotometer](spectrophotometer.md)
+  - [Spectral resolution element](spectral-resolution-element.md)
+  - [Linear spectral dispersion](linear-spectral-dispersion.md)
+  - [Integral field spectrograph](integral-field-spectrograph.md)
+    - [Integral-field spectrograph volume scaling](integral-field-spectrograph-volume-scaling.md)
+    - [Spaxel](spaxel.md)
+    - [Image slicer](image-slicer.md)
+    - [Spectral data cube](spectral-data-cube.md)
+  - [Spectral resolving power](spectral-resolving-power.md)
+  - [Cross-dispersed echelle spectrograph](cross-dispersed-echelle-spectrograph.md)
+    - [Cross-disperser](cross-disperser.md)
+    - [Echellogram](echellogram.md)
+  - [Multi-object spectrograph](multi-object-spectrograph.md)
+    - [Multi-slit spectrograph](multi-slit-spectrograph.md)
+    - [Fiber-fed spectrograph](fiber-fed-spectrograph.md)
+
+## ↑ Ancestors (5)
+
+1. [Optical instrument](optical-instrument-split.md)
+2. [Optics](optics-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (9)
+
+- [Diffraction grating](diffraction-grating.md)
+- [Fourier transform microwave spectroscopy](fourier-transform-microwave-spectroscopy.md)
+- [Magnetic spectrometer](magnetic-spectrometer.md)
+- [Michelson measurement of length in cadmium wavelengths](michelson-measurement-of-length-in-cadmium-wavelengths.md)
+- [Solution](past-exam-of-the-nonlinear-optics-and-quantum-states-of-light-course-of-the-university-of-cambridge/2012/paper-1/3/c/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2013/paper-2/section-d/d13/c/solution.md)
+- [Prism minimum-deviation index measurement](prism-minimum-deviation-index-measurement.md)
+- [Rotational monitoring of deuterium exchange](rotational-monitoring-of-deuterium-exchange.md)
+- [Ultraviolet](ultraviolet.md)

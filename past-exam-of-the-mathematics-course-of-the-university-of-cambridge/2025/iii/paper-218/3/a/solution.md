@@ -1,0 +1,32 @@
+<h1 id="3/a/solution">Solution</h1>
+
+↑ **Parent:** [A](../a.md)
+
+The [conditional class probability](../../../../../../conditional-class-probability.md) is $p_k(x)=\mathbb P(Y=k\mid X=x)$. A [Bayes classifier](../../../../../../bayes-classifier.md) chooses
+
+$$
+h^*(x)\in\operatorname*{argmax}_{1\leq k\leq K}p_k(x),
+$$
+
+and its [Bayes risk](../../../../../../bayes-risk.md) is
+
+$$
+R_{\mathrm{Bayes}}=R(h^*)
+=\mathbb E\left[1-\max_kp_k(X)\right].
+$$
+
+A sequence of classifiers is [consistent](../../../../../../risk-consistency.md) when $R(h_n)\to R_{\mathrm{Bayes}}$ as $n\to\infty$, with convergence interpreted in probability or in expectation according to whether the training sample is conditioned upon.
+
+## ↑ Ancestors (11)
+
+1. [A](../a.md)
+2. [3](../../3.md)
+3. [Paper 218](../../../paper-218-split.md)
+4. [Iii](../../../split.md)
+5. [2025](../../../../split.md)
+6. [Past exam of the mathematics course of the University of Cambridge](../../../../../split.md)
+7. [Mathematics course of the University of Cambridge](../../../../../../mathematics-course-of-the-university-of-cambridge.md)
+8. [Course of the University of Cambridge](../../../../../../course-of-the-university-of-cambridge.md)
+9. [University of Cambridge](../../../../../../university-of-cambridge-split.md)
+10. [List of universities](../../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../../split.md)

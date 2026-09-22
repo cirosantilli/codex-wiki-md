@@ -1,0 +1,45 @@
+# Class (set theory)
+
+↑ **Parent:** [Set theory](set-theory-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Class_(set_theory))
+
+A class is a collection of sets specified by a formula, possibly with set parameters. A class is a set when one set has exactly those members.
+
+**Table of contents**
+
+- [Set-theoretic class function](set-theoretic-class-function.md)
+- [Proper class](proper-class.md)
+- [Transitive class](transitive-class.md)
+  - [Basic set-theoretic axioms inherited by a transitive class](basic-set-theoretic-axioms-inherited-by-a-transitive-class.md)
+  - [Formula relativization to a class](formula-relativization-to-a-class.md)
+    - [Set-theoretic absoluteness](set-theoretic-absoluteness.md)
+      - [Delta-one absoluteness](delta-one-absoluteness.md)
+      - [Absoluteness of well-foundedness](absoluteness-of-well-foundedness.md)
+      - [Absolute formula](absolute-formula.md)
+      - [Absoluteness of cardinalhood in limit ranks](absoluteness-of-cardinalhood-in-limit-ranks.md)
+      - [Upward absolute formula](upward-absolute-formula.md)
+      - [Downward absolute formula](downward-absolute-formula.md)
+      - [Bounded formula in set theory](bounded-formula-in-set-theory.md)
+        - [ZF-equivalent bounded formula](zf-equivalent-bounded-formula.md)
+      - [Absoluteness of infinitude between transitive models](absoluteness-of-infinitude-between-transitive-models.md)
+      - [Downward absoluteness of cardinalhood](downward-absoluteness-of-cardinalhood.md)
+      - [Upward absoluteness of countability](upward-absoluteness-of-countability.md)
+      - [Nonabsoluteness of singular cardinalhood](nonabsoluteness-of-singular-cardinalhood.md)
+      - [Cardinal nonabsoluteness in a small transitive model](cardinal-nonabsoluteness-in-a-small-transitive-model.md)
+      - [Strong-inaccessibility absoluteness from rank agreement](strong-inaccessibility-absoluteness-from-rank-agreement.md)
+      - [Lévy hierarchy](levy-hierarchy.md)
+        - [Delta-one formula modulo ZFC](delta-one-formula-modulo-zfc.md)
+        - [Pi-one formula in set theory](pi-one-formula-in-set-theory.md)
+        - [Sigma-one formula in set theory](sigma-one-formula-in-set-theory.md)
+        - [Pi-one formula modulo ZF](pi-one-formula-modulo-zf.md)
+          - [Regular cardinalhood is Pi-one definable](regular-cardinalhood-is-pi-one-definable.md)
+          - [Cardinalhood is Pi-one definable](cardinalhood-is-pi-one-definable.md)
+        - [Delta-one formula in set theory](delta-one-formula-in-set-theory.md)
+
+## ↑ Ancestors (5)
+
+1. [Set theory](set-theory-split.md)
+2. [Foundations of mathematics](foundations-of-mathematics-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)

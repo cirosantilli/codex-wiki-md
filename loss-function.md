@@ -1,0 +1,39 @@
+# Loss function
+
+↑ **Parent:** [Empirical risk minimization](empirical-risk-minimization.md)
+
+A loss function assigns a numerical penalty to a prediction and its observed outcome. Its [expected value](expected-value-split.md) is the population risk optimized by a statistical learning procedure.
+
+**Table of contents**
+
+- [Logarithmic loss](logarithmic-loss.md)
+- [Population risk](population-risk.md)
+
+## ↑ Ancestors (6)
+
+1. [Empirical risk minimization](empirical-risk-minimization.md)
+2. [Statistical learning theory](statistical-learning-theory.md)
+3. [Foundations of mathematics](foundations-of-mathematics-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (17)
+
+- [Common representer coefficients for a sum of kernels](common-representer-coefficients-for-a-sum-of-kernels.md)
+- [Huber loss](huber-loss.md)
+- [Logarithmic loss](logarithmic-loss.md)
+- [Loss class](loss-class.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/ib/paper-4/12h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/ib/paper-4/19h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-3/26i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-42/6/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-1/27j/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-205/1/solution.md)
+- [Population risk](population-risk.md)
+- [Scoring rule](scoring-rule.md)
+- [Statistical invariance principle](statistical-invariance-principle.md)
+- [Statistical learning](statistical-learning-split.md)
+- [Statistical learning theory](statistical-learning-theory.md)
+- [Supervised learning](supervised-learning.md)
+- [Training error](training-error.md)

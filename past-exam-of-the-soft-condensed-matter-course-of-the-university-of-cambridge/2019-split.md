@@ -1,0 +1,35 @@
+# 2019
+
+↑ **Parent:** [Past exam of the soft condensed matter course of the University of Cambridge](split.md)
+
+[Original paper, released PDF pages 385–389](https://www.whatdotheyknow.com/request/natural_science_tripos_physics_e/response/2127325/attach/3/FOI%202022%20639%20Sullivan%20materials.pdf?cookie_passthrough=1#page=385)
+
+**Table of contents**
+
+- [Section A](2019/section-a.md)
+  - [1](2019/section-a/1.md)
+    - [Solution](2019/section-a/1/solution.md)
+  - [2](2019/section-a/2.md)
+    - [Solution](2019/section-a/2/solution.md)
+  - [3](2019/section-a/3.md)
+    - [Solution](2019/section-a/3/solution.md)
+- [Section B](2019/section-b.md)
+  - [B4](2019/section-b/b4.md)
+    - [Solution](2019/section-b/b4/solution.md)
+  - [B5](2019/section-b/b5.md)
+    - [Solution](2019/section-b/b5/solution.md)
+  - [B6](2019/section-b/b6.md)
+    - [Solution](2019/section-b/b6/solution.md)
+
+## ↑ Ancestors (10)
+
+1. [Past exam of the soft condensed matter course of the University of Cambridge](split.md)
+2. [Soft Condensed Matter course of the University of Cambridge](../soft-condensed-matter-course-of-the-university-of-cambridge.md)
+3. [Physics course of the year 3 of the natural sciences course of the University of Cambridge](../physics-course-of-the-year-3-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+4. [Year 3 of the natural sciences course of the University of Cambridge](../year-3-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+5. [Year of the natural sciences course of the University of Cambridge](../year-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+6. [Natural sciences course of the University of Cambridge](../natural-sciences-course-of-the-university-of-cambridge.md)
+7. [Course of the University of Cambridge](../course-of-the-university-of-cambridge.md)
+8. [University of Cambridge](../university-of-cambridge-split.md)
+9. [List of universities](../list-of-universities.md)
+10. [Codex Wiki](../split.md)

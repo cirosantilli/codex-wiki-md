@@ -1,0 +1,23 @@
+<h1 id="two-cart-force-probe-test-of-newton-s-third-law">Two-cart force-probe test of Newton's third law</h1>
+
+↑ **Parent:** [Newton's third law](newton-s-third-law.md)
+
+Oberlin College's documented demonstration uses a track, two collision carts, two [force probes](force-probe.md) set to the $50\,\mathrm N$ range, added $500\,\mathrm g$ bars, and a laptop with a Vernier interface. Preparation consists of entering the [measurement calibration](measurement-calibration.md), securing the [force probes](force-probe.md) to the carts, and zeroing them. Rubber stoppers serve for [elastic collisions](elastic-collision.md), clay for [inelastic collisions](inelastic-collision.md), and hooks with string for pulling. Comparing the two [force](force-split.md) records tests the mutual interaction; adding [mass](mass.md) to one cart tests whether unequal [masses](mass.md) change the equality. [Oberlin College, Collision Carts and Force Sensors, Apparatus, Description, and Notes: ranges, mounting, zeroing, attachments, and unequal-mass control](collision-carts-and-force-sensors.md)
+
+Vernier's [force probe](force-probe.md) uses a bending beam with [strain gauges](strain-gauge.md); changing [electrical resistance](electrical-resistance.md) produces a [voltage](voltage.md) readout calibrated as [force](force-split.md). Its manual recommends zeroing in the working orientation. If recalibration is needed, use an unloaded reading and a known suspended [gravitational weight](weight-physics.md); for the $50\,\mathrm N$ range its example is $1\,\mathrm{kg}$ giving $9.8\,\mathrm N$. Re-zero after changing orientation. The manual quotes calibrated accuracy $\pm0.2\,\mathrm N$, distinct from the $0.05\,\mathrm N$ resolution of that range, and warns that the interface's data-collection rate can limit collision measurements. [Vernier, Dual-Range Force Sensor User Manual, Using the Product; Calibration; Specifications; How the Sensor Works; Compatibility Notes, note 1](dual-range-force-sensor-user-manual.md)
+
+The following sampling and control choices are proposed additions to that documented experiment. Level the track and check unloaded motion in both directions for slope and [friction](friction.md). Use a soft bumper and one interface for simultaneous records; start before contact and stop after separation. A trial [sampling rate](sampling-rate.md) of $1000\,\mathrm{s^{-1}}$, if supported, would put about 100 samples across a $0.10\,\mathrm s$ interaction. Increase the [sampling rate](sampling-rate.md) and repeat until the peak and integrated [impulse](impulse.md) comparison are stable; a large sample count alone does not establish adequate response. Measure each total moving [mass](mass.md), including the [force probe](force-probe.md) and added bars.
+
+Convert both channels to the same right-positive [force](force-split.md) convention. Oppositely facing [force probes](force-probe.md) can have matching raw signs because their local positive directions differ; check each sign by a gentle push of known direction before the run. Overlay $F_{B\mathrm{\ on\ }A}(t)$ and $-F_{A\mathrm{\ on\ }B}(t)$, and also examine their signed sum. Integrate both over the same contact interval to compare [impulses](impulse.md). Repeat with added [mass](mass.md) on one cart, exchange the probes between carts, and check unloaded zeros before and after. These controls help distinguish a physical [mass](mass.md) change from a channel offset or gain error.
+
+Agreement within [measurement error](measurement-error.md) supports the pair-interaction model over the resolved interval; it does not establish exact equality at arbitrarily short [time](time-in-physics.md) scales. Misalignment, a loose mounting, sensor-beam dynamics, saturation, unequal timing, and zero drift can spoil the comparison. Track [friction](friction.md) and cable pulls are additional [external forces](external-force.md); a probe measuring bumper contact need not measure the entire net [force](force-split.md) on its cart. If a massive connector carries appreciable changing [momentum](momentum-split.md), compare the full cart–connector collection rather than assuming its endpoint [forces](force-split.md) are an instantaneous cart-to-cart pair. The constructed pulse diagram above illustrates what to compare, and supplies no measurements from this apparatus.
+
+## ↑ Ancestors (7)
+
+1. [Newton's third law](newton-s-third-law.md)
+2. [Newton's laws of motion](newton-s-laws-of-motion.md)
+3. [Force](force-split.md)
+4. [Classical mechanics](classical-mechanics-split.md)
+5. [Branches of physics](branches-of-physics.md)
+6. [Physics](physics-split.md)
+7. [Codex Wiki](split.md)

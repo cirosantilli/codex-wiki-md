@@ -1,0 +1,48 @@
+# Particle number
+
+↑ **Parent:** [Particle (physics)](particle-physics.md)
+
+A [particle number](particle-number.md) counts the [particles](particle-physics.md) of a specified kind in a system. For a fixed collection, $N$ is a nonnegative [integer](integer-split.md). In a variable-number [quantum system](quantum-system-split.md), distinguish a measured [particle number](particle-number.md), the [particle number operator](number-operator.md), and its [expected value](expected-value-split.md).
+
+## ↑ Ancestors (3)
+
+1. [Particle (physics)](particle-physics.md)
+2. [Physics](physics-split.md)
+3. [Codex Wiki](split.md)
+
+## ← Incoming links (34)
+
+- [Closed-vessel thermal transpiration](closed-vessel-thermal-transpiration.md)
+- [Condensate fluctuation power counting](condensate-fluctuation-power-counting.md)
+- [Contact interaction between two box modes](contact-interaction-between-two-box-modes.md)
+- [Contact interaction between two ring modes](contact-interaction-between-two-ring-modes.md)
+- [Electron heat capacity](electron-heat-capacity.md)
+- [Fixed-number low-temperature Pauli susceptibility](fixed-number-low-temperature-pauli-susceptibility.md)
+- [Fugacity (statistical mechanics)](fugacity-statistical-mechanics.md)
+- [Grand-potential particle-number variance](grand-potential-particle-number-variance.md)
+- [Number variance of an interacting defect](number-variance-of-an-interacting-defect.md)
+- [Particle number](particle-number.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-3-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-3/47/a/solution.md)
+- [Solution](past-exam-of-the-particle-astrophysics-course-of-the-university-of-cambridge/2015/paper-1/2/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2013/paper-2/section-c/c10/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2013/paper-2/section-c/c11/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2012/paper-1/section-b/b3/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-field-theory-course-of-the-university-of-cambridge/2013/paper-1/1/a/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-field-theory-course-of-the-university-of-cambridge/2013/paper-1/3/b/solution.md)
+- [Solution](past-exam-of-the-superconductivity-and-quantum-coherence-course-of-the-university-of-cambridge/2012/paper-1/1/a/solution.md)
+- [Solution](past-exam-of-the-theoretical-physics-ii-course-of-the-university-of-cambridge/2017/1/a/solution.md)
+- [Solution](past-exam-of-the-theoretical-physics-ii-course-of-the-university-of-cambridge/2017/1/c/solution.md)
+- [Solution](past-exam-of-the-theoretical-physics-ii-course-of-the-university-of-cambridge/2017/1/e/solution.md)
+- [Solution](past-exam-of-the-thermal-and-statistical-physics-course-of-the-university-of-cambridge/2015/paper-1/2/c/solution.md)
+- [Solution](past-exam-of-the-thermal-and-statistical-physics-course-of-the-university-of-cambridge/2015/paper-1/3/solution.md)
+- [Solution](past-exam-of-the-thermal-and-statistical-physics-course-of-the-university-of-cambridge/2017/1/c/solution.md)
+- [Solution](past-exam-of-the-thermal-and-statistical-physics-course-of-the-university-of-cambridge/2017/3/a/solution.md)
+- [Solution](past-exam-of-the-thermal-and-statistical-physics-course-of-the-university-of-cambridge/2018/section-a/a1/a/solution.md)
+- [Solution](past-exam-of-the-thermal-and-statistical-physics-course-of-the-university-of-cambridge/2018/section-b/b2/solution.md)
+- [Solution](past-exam-of-the-thermal-and-statistical-physics-course-of-the-university-of-cambridge/2019/section-a/1/solution.md)
+- [Solution](past-exam-of-the-thermal-and-statistical-physics-course-of-the-university-of-cambridge/2019/section-b/4/solution.md)
+- [Solution](past-exam-of-the-thermal-and-statistical-physics-course-of-the-university-of-cambridge/2019/section-b/5/solution.md)
+- [Solution](past-exam-of-the-thermal-and-statistical-physics-course-of-the-university-of-cambridge/2019/section-b/6/solution.md)
+- [Relative energy fluctuation of a monatomic ideal gas](relative-energy-fluctuation-of-a-monatomic-ideal-gas.md)
+- [Saturation particle number for Bose-Einstein condensation](saturation-particle-number-for-bose-einstein-condensation.md)
+- [Volume fluctuations of a closed gas bubble](volume-fluctuations-of-a-closed-gas-bubble.md)

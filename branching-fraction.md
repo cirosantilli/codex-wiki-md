@@ -1,0 +1,62 @@
+# Branching fraction
+
+↑ **Parent:** [Decay width](decay-width.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Branching_fraction)
+
+A [branching fraction](branching-fraction.md) is the probability that a decay occurs through a particular mutually exclusive channel, equal to its partial [decay width](decay-width.md) divided by the total [decay width](decay-width.md). Inclusive channel fractions sum to one. Rounding displayed fractions can make their numerical sum differ from one.
+
+**Table of contents**
+
+- [Inclusive branching fraction versus reconstruction mode](inclusive-branching-fraction-versus-reconstruction-mode.md)
+
+## ↑ Ancestors (6)
+
+1. [Decay width](decay-width.md)
+2. [Relativistic quantum field](relativistic-quantum-field-split.md)
+3. [Quantum field theory](quantum-field-theory-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (40)
+
+- [Analogue beta-decay branching estimate](analogue-beta-decay-branching-estimate.md)
+- [Branching fraction](branching-fraction.md)
+- [Cabibbo-angle extraction from semileptonic decay rates](cabibbo-angle-extraction-from-semileptonic-decay-rates.md)
+- [Christenson-Cronin-Fitch-Turlay kaon CP violation experiment](christenson-cronin-fitch-turlay-kaon-cp-violation-experiment.md)
+- [D0 hadronic branching fractions and Final State Radiation by HFLAV (2024)](d0-hadronic-branching-fractions-and-final-state-radiation-by-hflav-2024.md)
+- [Ds nonleptonic tree amplitudes](ds-nonleptonic-tree-amplitudes.md)
+- [Hadronic final-state interaction](hadronic-final-state-interaction.md)
+- [Heavy-boson decay baryogenesis](heavy-boson-decay-baryogenesis.md)
+- [HFLAV](hflav.md)
+- [Higgs boson discovery in 2012](higgs-boson-discovery-in-2012.md)
+- [Higgs branching-fraction normalization from mass-weighted channels](higgs-branching-fraction-normalization-from-mass-weighted-channels.md)
+- [Inclusive branching fraction versus reconstruction mode](inclusive-branching-fraction-versus-reconstruction-mode.md)
+- [Measurement of the Xi0 to Lambda gamma Decay Asymmetry and Branching Fraction by NA48 Collaboration](measurement-of-the-xi0-to-lambda-gamma-decay-asymmetry-and-branching-fraction-by-na48-collaboration.md)
+- [Neutral-kaon CP impurity and two-pion decay](neutral-kaon-cp-impurity-and-two-pion-decay.md)
+- [Partial decay width](partial-decay-width.md)
+- [Particle decay cascade](particle-decay-cascade.md)
+- [Solution](past-exam-of-the-gauge-field-theory-course-of-the-university-of-cambridge/2013/paper-1/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-55/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-54/3/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2012/paper-1/3/b/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2012/paper-1/4/a/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2015/paper-1/3/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2017/1/c/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2017/3/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2018/section-b/b4/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2019/section-a/2/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2021/section-b/4/d/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2021/section-b/6/e/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2022/section-b/4/d/i/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2022/section-b/6/a/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2022/section-b/6/b/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2022/section-b/6/c/solution.md)
+- [Solution](past-exam-of-the-particle-astrophysics-course-of-the-university-of-cambridge/2012/paper-1/3/c/solution.md)
+- [Solution](past-exam-of-the-particle-astrophysics-course-of-the-university-of-cambridge/2013/paper-1/2/a/solution.md)
+- [Solution](past-exam-of-the-particle-astrophysics-course-of-the-university-of-cambridge/2013/paper-1/2/b/solution.md)
+- [Solution](past-exam-of-the-particle-astrophysics-course-of-the-university-of-cambridge/2015/paper-1/3/b/solution.md)
+- [Peak resonance cross section and branching fractions](peak-resonance-cross-section-and-branching-fractions.md)
+- [Potassium-argon dating](potassium-argon-dating.md)
+- [Tau-pair electron-muon missing-energy signature](tau-pair-electron-muon-missing-energy-signature.md)
+- [Tree-level W branching fractions](tree-level-w-branching-fractions.md)

@@ -1,0 +1,61 @@
+# Fibonacci number
+
+↑ **Parent:** [Sequence and series](sequence-and-series-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Fibonacci_number)
+
+The Fibonacci numbers satisfy $F_0=0$, $F_1=1$, and $F_{n+1}=F_n+F_{n-1}$.
+
+**Table of contents**
+
+- [Fibonacci matrix](fibonacci-matrix.md)
+- [Pisano period](pisano-period.md)
+- [Fibonacci entry point](fibonacci-entry-point.md)
+- [Zeckendorf representation](zeckendorf-representation.md)
+- [Zeckendorf's theorem](zeckendorf-s-theorem.md)
+- [Cassini's identity](cassini-s-identity.md)
+- [Fibonacci fast doubling](fibonacci-fast-doubling.md)
+- [Fibonacci recurrence matrix modulo an integer](fibonacci-recurrence-matrix-modulo-an-integer.md)
+- [Fibonacci addition formula](fibonacci-addition-formula.md)
+  - [Fibonacci gcd reduction](fibonacci-gcd-reduction.md)
+- [Binet formula](binet-formula.md)
+- [Fibonacci determinant identity](fibonacci-determinant-identity.md)
+- [Fibonacci recurrence](fibonacci-recurrence.md)
+
+## ↑ Ancestors (6)
+
+1. [Sequence and series](sequence-and-series-split.md)
+2. [Real analysis](real-analysis-split.md)
+3. [Analysis](analysis-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (27)
+
+- [Cassini's identity](cassini-s-identity.md)
+- [Fibonacci addition formula](fibonacci-addition-formula.md)
+- [Fibonacci gcd reduction](fibonacci-gcd-reduction.md)
+- [Fibonacci Nim](fibonacci-nim.md)
+- [Fibonacci polynomial](fibonacci-polynomial.md)
+- [Fibonacci recurrence](fibonacci-recurrence.md)
+- [Generating function](generating-function.md)
+- [Lucas number](lucas-number.md)
+- [Memoization arithmetic and stack costs](memoization-arithmetic-and-stack-costs.md)
+- [Memoization cache contract](memoization-cache-contract.md)
+- [Memoized Fibonacci evaluation](memoized-fibonacci-evaluation.md)
+- [Overlapping subproblems](overlapping-subproblems.md)
+- [Solution](past-exam-of-the-mathematical-and-computational-biology-course-of-the-university-of-cambridge/2024/paper-2/a1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/ia/paper-4/7c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ia/paper-4/8e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-47/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ia/paper-4/5e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-204/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ia/paper-4/5e/c/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ia/paper-4/2e/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ia/paper-4/2e/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ia/paper-4/6d/c/solution.md)
+- [Pisano period](pisano-period.md)
+- [Primitive recursive pairing function](primitive-recursive-pairing-function.md)
+- [Two-coefficient reduction of matrix powers](two-coefficient-reduction-of-matrix-powers.md)
+- [Zeckendorf representation](zeckendorf-representation.md)
+- [Zeckendorf's theorem](zeckendorf-s-theorem.md)

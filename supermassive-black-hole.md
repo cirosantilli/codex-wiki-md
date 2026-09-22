@@ -1,0 +1,62 @@
+# Supermassive black hole
+
+↑ **Parent:** [Astrophysical black hole](astrophysical-black-hole-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Supermassive_black_hole)
+
+A supermassive black hole has a mass of roughly $10^6M_\odot$ or more and commonly occupies the nucleus of a massive galaxy.
+
+**Table of contents**
+
+- [Sagittarius A\*](sagittarius-a.md)
+  - [Stellar orbits at the Galactic centre](stellar-orbits-at-the-galactic-centre.md)
+    - [Galactic-centre point-mass orbit model](galactic-centre-point-mass-orbit-model.md)
+      - [Sky projection of the Galactic-centre orbit model](sky-projection-of-the-galactic-centre-orbit-model.md)
+      - [Mass-distance degeneracy of an angular stellar orbit](mass-distance-degeneracy-of-an-angular-stellar-orbit.md)
+      - [A chosen stellar-orbit mass estimate](a-chosen-stellar-orbit-mass-estimate.md)
+      - [Projected mass lower bound for a bound point-mass orbit](projected-mass-lower-bound-for-a-bound-point-mass-orbit.md)
+    - [Galactic-centre stellar-orbit experiments](galactic-centre-stellar-orbit-experiments.md)
+    - [S2 (star)](s2-star.md)
+- [M-sigma relation](m-sigma-relation.md)
+- [Black-hole--bulge mass relation](black-hole-bulge-mass-relation.md)
+- [Active galactic nucleus](active-galactic-nucleus.md)
+  - [Reverberation mapping](reverberation-mapping.md)
+  - [Blazar](blazar.md)
+    - [TXS 0506+056](txs-0506-plus-056.md)
+  - [Quasar](quasar.md)
+    - [Quasar light curve](quasar-light-curve.md)
+  - [Active-galactic-nucleus feedback](active-galactic-nucleus-feedback.md)
+    - [Relativistic radio-cavity enthalpy](relativistic-radio-cavity-enthalpy.md)
+    - [Accretion output relative to galactic binding energy](accretion-output-relative-to-galactic-binding-energy.md)
+    - [Thermal suppression of black-hole accretion](thermal-suppression-of-black-hole-accretion.md)
+    - [Active-galactic-nucleus wind bubble](active-galactic-nucleus-wind-bubble.md)
+      - [Momentum-driven outflow](momentum-driven-outflow.md)
+        - [Isothermal-galaxy momentum-balance shell threshold](isothermal-galaxy-momentum-balance-shell-threshold.md)
+      - [Energy-driven outflow](energy-driven-outflow.md)
+        - [Momentum boost](momentum-boost.md)
+    - [Dusty radiation-pressure-driven shell](dusty-radiation-pressure-driven-shell.md)
+      - [Terminal speed of a constant-mass dusty shell](terminal-speed-of-a-constant-mass-dusty-shell.md)
+      - [Critical luminosity of a dusty shell](critical-luminosity-of-a-dusty-shell.md)
+      - [Thin-shell momentum equation](thin-shell-momentum-equation.md)
+      - [Dust transparency radius](dust-transparency-radius.md)
+- [Soltan argument](soltan-argument.md)
+
+## ↑ Ancestors (5)
+
+1. [Astrophysical black hole](astrophysical-black-hole-split.md)
+2. [Astrophysics](astrophysics-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (10)
+
+- [M-sigma relation](m-sigma-relation.md)
+- [Solution](past-exam-of-the-formation-of-structure-in-the-universe-course-of-the-university-of-cambridge/2014/paper-1/3/c/solution.md)
+- [Solution](past-exam-of-the-formation-of-structure-in-the-universe-course-of-the-university-of-cambridge/2015/paper-1/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-347/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-347/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-347/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-347/3/c/solution.md)
+- [Solution](past-exam-of-the-relativistic-astrophysics-and-cosmology-course-of-the-university-of-cambridge/2012/paper-1/3/c/solution.md)
+- [Solution](past-exam-of-the-relativistic-astrophysics-and-cosmology-course-of-the-university-of-cambridge/2014/paper-1/3/a/solution.md)
+- [Penrose singularity theorem](penrose-singularity-theorem.md)

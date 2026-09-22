@@ -1,0 +1,48 @@
+# Electric displacement field
+
+↑ **Parent:** [Polarization density](polarization-density.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Electric_displacement_field)
+
+The electric displacement is $\mathbf D=\epsilon_0\mathbf E+\mathbf P$ and obeys $\nabla\cdot\mathbf D=\rho_{\rm free}$. In a linear isotropic dielectric, $\mathbf D=\epsilon\mathbf E$.
+
+## ↑ Ancestors (6)
+
+1. [Polarization density](polarization-density.md)
+2. [Bound charge and bound current](bound-charge-and-bound-current.md)
+3. [Electromagnetism](electromagnetism-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (30)
+
+- [Arithmetic-harmonic bounds for dielectric capacitance](arithmetic-harmonic-bounds-for-dielectric-capacitance.md)
+- [Complex permittivity](complex-permittivity.md)
+- [Displacement current](displacement-current.md)
+- [Electric-displacement angle from birefringent walk-off](electric-displacement-angle-from-birefringent-walk-off.md)
+- [Electric susceptibility](electric-susceptibility.md)
+- [Electrostatic boundary conditions at a conductor](electrostatic-boundary-conditions-at-a-conductor.md)
+- [Extraordinary wave](extraordinary-wave.md)
+- [Foil capacitor dielectric experiment](foil-capacitor-dielectric-experiment.md)
+- [Form birefringence](form-birefringence.md)
+- [Free charge](free-charge.md)
+- [Image charge at a dielectric interface](image-charge-at-a-dielectric-interface.md)
+- [Open-circuit piezoelectric response](open-circuit-piezoelectric-response.md)
+- [Partially filled coaxial capacitor](partially-filled-coaxial-capacitor.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-4/36d/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-4/36d/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ii/paper-4/36b/b/solution.md)
+- [Solution](past-exam-of-the-optics-and-electrodynamics-course-of-the-university-of-cambridge/2016/paper-1/2/a/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2010/paper-2a/section-b/b6/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2015/paper-1/section-b/b6/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2016/paper-2/section-b/b6/c/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2016/paper-2/section-b/b7/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2017/paper-1/section-a/a1/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2018/paper-2/section-b/b7/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2021/paper-1/section-c/c8/a/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2022/paper-2/section-b/b7/b/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2015/paper-1/section-b/b6/solution.md)
+- [Permittivity](permittivity-split.md)
+- [Permittivity tensor](permittivity-tensor.md)
+- [Transverse electrostatic field inside a dielectric cylinder](transverse-electrostatic-field-inside-a-dielectric-cylinder.md)
+- [Vacuum permittivity](vacuum-permittivity.md)

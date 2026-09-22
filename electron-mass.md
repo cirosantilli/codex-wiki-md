@@ -1,0 +1,45 @@
+# Electron mass
+
+↑ **Parent:** [Electron](electron.md)
+
+The [rest mass](invariant-mass.md) of an [electron](electron.md).
+
+## ↑ Ancestors (4)
+
+1. [Electron](electron.md)
+2. [Subatomic particle](subatomic-particle.md)
+3. [Physics](physics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (30)
+
+- [Atomic units](atomic-units.md)
+- [Band curvature](band-curvature.md)
+- [Classical electron radius](classical-electron-radius.md)
+- [CODATA recommended values of the fundamental physical constants 2014 by National Institute of Standards and Technology](codata-recommended-values-of-the-fundamental-physical-constants-2014-by-national-institute-of-standards-and-technology.md)
+- [Cold-plasma radio dispersion](cold-plasma-radio-dispersion.md)
+- [Fixed-x electron scattering kinematics](fixed-x-electron-scattering-kinematics.md)
+- [Magnetomechanical angular momentum balance](magnetomechanical-angular-momentum-balance.md)
+- [Optical oscillator strength](optical-oscillator-strength.md)
+- [Pair mass versus collision energy](pair-mass-versus-collision-energy.md)
+- [Solution](past-exam-of-the-atomic-and-optical-physics-course-of-the-university-of-cambridge/2013/paper-1/3/a/solution.md)
+- [Solution](past-exam-of-the-chemistry-a-course-of-the-university-of-cambridge/2021/paper-2/a10/b/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-a-course-of-the-university-of-cambridge/2021/paper-2/a10/b/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-a-course-of-the-university-of-cambridge/2021/paper-2/a10/b/iii/solution.md)
+- [Solution](past-exam-of-the-chemistry-a-course-of-the-university-of-cambridge/2021/paper-2/a9/b/iii/solution.md)
+- [Solution](past-exam-of-the-optics-and-electrodynamics-course-of-the-university-of-cambridge/2018/1/a/solution.md)
+- [Binding scale and recoil](past-exam-of-the-optics-and-electrodynamics-course-of-the-university-of-cambridge/2019/section-b/b5/binding-scale-and-recoil.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2018/section-a/a1/a/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2019/section-a/2/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2019/section-b/4/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2014/paper-1/section-b/b7/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2017/paper-2/section-a/5/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2021/paper-2/section-c/c8/d/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2022/paper-1/section-a/a3/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2015/paper-1/section-d/d12/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2016/paper-1/section-a/a1/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/section-a/5/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2012/1/b/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2022/section-a/1/solution.md)
+- [Pulsar dispersion delay](pulsar-dispersion-delay.md)
+- [Thermionic Richardson constant](thermionic-richardson-constant.md)

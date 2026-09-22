@@ -1,0 +1,47 @@
+# Cube
+
+↑ **Parent:** [Platonic solid](platonic-solid.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Cube)
+
+A [Platonic solid](platonic-solid.md) with six square faces, twelve edges and eight vertices. Its [rotational symmetry group of a cube](rotational-symmetry-group-of-a-cube.md) has order 24; including orientation-reversing isometries gives the order-48 [symmetry group of a cube](symmetry-group-of-a-cube.md).
+
+## ↑ Ancestors (7)
+
+1. [Platonic solid](platonic-solid.md)
+2. [Polyhedron](polyhedron.md)
+3. [Euclidean geometry](euclidean-geometry-split.md)
+4. [Geometry and topology](geometry-and-topology-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (28)
+
+- [Archimedes' principle](archimedes-principle.md)
+- [Buoyancy](buoyancy.md)
+- [Cubic coordination](cubic-coordination.md)
+- [Determinant](determinant.md)
+- [Euler characteristic of a cube boundary and its interior](euler-characteristic-of-a-cube-boundary-and-its-interior.md)
+- [Floating equilibrium](floating-equilibrium.md)
+- [Flux of a vector field with an integrable tangential singularity](flux-of-a-vector-field-with-an-integrable-tangential-singularity.md)
+- [Hydrostatic pressure](hydrostatic-pressure.md)
+- [Inertia tensor of a uniform cube](inertia-tensor-of-a-uniform-cube.md)
+- [Klee-Minty cube](klee-minty-cube.md)
+- [Möbius divisor-sum identity](mobius-divisor-sum-identity.md)
+- [Neutral buoyancy](neutral-buoyancy.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2021/paper-2/b9/e/i/solution.md)
+- [Solution](past-exam-of-the-materials-science-course-of-the-university-of-cambridge/2017/paper-1/1/b/solution.md)
+- [Solution](past-exam-of-the-materials-science-course-of-the-university-of-cambridge/2017/paper-1/7/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-7/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-7/4/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ib/paper-2/12g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-38/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ia/paper-3/5d/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-308/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2018/paper-1/6/a/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2021/paper-2/section-b/19/i/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2012/paper-1/section-a/a5/solution.md)
+- [Polycube](polycube.md)
+- [Radius ratio rule](radius-ratio-rule.md)
+- [Rectangular parallelepiped](rectangular-parallelepiped.md)
+- [T8 silsesquioxane cage](t8-silsesquioxane-cage.md)

@@ -1,0 +1,118 @@
+# Weakly stationary process
+
+↑ **Parent:** [Stationary process](stationary-process.md)
+
+A real [stochastic process](stochastic-process-split.md) $(X_t)_{t\in\mathbb Z}$ is a [weakly stationary process](weakly-stationary-process.md) if it has finite [second moments](second-moment.md), a constant [expected value](expected-value-split.md) $\mu$, and an [autocovariance](autocovariance.md) depending only on the [lag of a time series](lag-of-a-time-series.md):
+
+$$
+\mathbb E[X_t]=\mu,\qquad \mathbb E[X_t^2]<\infty,\qquad
+\operatorname{Cov}(X_{t+h},X_t)=\gamma(h)\quad\text{for all }t,h\in\mathbb Z.
+$$
+
+In particular its [variance](variance-split.md) is the same at every time, $\operatorname{Var}(X_t)=\gamma(0)$. This is often called second-order stationarity. It makes observations from different parts of a record comparable through the same [autocorrelation function](autocorrelation.md). Bartlett uses this second-order meaning of stationarity in [Introduction to Time Series Analysis, lecture 2: mean, covariance, and stationarity](https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/2.pdf).
+
+For a worked contrast, let $\varepsilon_t$ be centered [white noise](white-noise.md) of [variance](variance-split.md) $\sigma^2>0$. The process $X_t=5+\varepsilon_t$ has [mean](expected-value-split.md) $5$, [variance](variance-split.md) $\sigma^2$, and zero [autocovariance](autocovariance.md) at nonzero lags, so it is weakly stationary. The process $Y_t=t+\varepsilon_t$ has exactly the same [covariance](covariance.md) structure, but its [mean](expected-value-split.md) is $t$, so it is not weakly stationary. Constant [variance](variance-split.md) alone is insufficient.
+
+Weak stationarity need not imply [strict stationarity](strictly-stationary-process.md). For example, choose [independent random variables](independent-random-variables.md) at all integer times, using a standard [normal distribution](normal-distribution.md) at even times and a [Rademacher distribution](rademacher-distribution.md) at odd times. Every coordinate has zero [mean](expected-value-split.md) and unit [variance](variance-split.md), and distinct coordinates have zero [covariance](covariance.md). Nevertheless a shift by one changes the marginal [probability distribution](probability-distribution-split.md) from continuous to two-point. This also illustrates why [weak white noise](weak-white-noise.md) need not be identically distributed.
+
+**Table of contents**
+
+- [Linear filter of a stationary time series](linear-filter-of-a-stationary-time-series.md)
+  - [Filter generating function](filter-generating-function.md)
+    - [Filter transfer function](filter-transfer-function.md)
+  - [Composition of absolutely summable time-series filters](composition-of-absolutely-summable-time-series-filters.md)
+  - [Filter gain](filter-gain.md)
+  - [Spectral density transformation under a linear filter](spectral-density-transformation-under-a-linear-filter.md)
+    - [Repeated symmetric filtering can amplify an oscillation](repeated-symmetric-filtering-can-amplify-an-oscillation.md)
+- [Spectral measure of a stationary time series](spectral-measure-of-a-stationary-time-series.md)
+  - [Spectral measure of a random harmonic oscillation](spectral-measure-of-a-random-harmonic-oscillation.md)
+  - [Spectral distribution function of a stationary time series](spectral-distribution-function-of-a-stationary-time-series.md)
+- [Spectral measure of a stationary random field](spectral-measure-of-a-stationary-random-field.md)
+  - [Infinite-aperture spectral normalization](infinite-aperture-spectral-normalization.md)
+- [Long-run variance of a stationary process](long-run-variance-of-a-stationary-process.md)
+  - [Effective sample size of a stationary sample](effective-sample-size-of-a-stationary-sample.md)
+- [Spectral density of a stationary process](spectral-density-of-a-stationary-process.md)
+  - [Triangular spectral density of a stationary time series](triangular-spectral-density-of-a-stationary-time-series.md)
+  - [Cross-spectrum of two stationary time series](cross-spectrum-of-two-stationary-time-series.md)
+  - [One-sided spectral density of a real stationary time series](one-sided-spectral-density-of-a-real-stationary-time-series.md)
+  - [Positive-frequency spectral normalization](positive-frequency-spectral-normalization.md)
+  - [Existence of a time-series spectral density](existence-of-a-time-series-spectral-density.md)
+  - [Cycles-per-time spectral density](cycles-per-time-spectral-density.md)
+  - [Spectral representation theorem for a stationary time series](spectral-representation-theorem-for-a-stationary-time-series.md)
+  - [Periodogram](periodogram.md)
+    - [Exponential limit of a one-sided periodogram](exponential-limit-of-a-one-sided-periodogram.md)
+    - [Finite-record Fourier covariance bound](finite-record-fourier-covariance-bound.md)
+    - [Local periodogram smoothing](local-periodogram-smoothing.md)
+- [Autocovariance](autocovariance.md)
+  - [Sample autocovariance function](sample-autocovariance-function.md)
+  - [Autocorrelation](autocorrelation.md)
+    - [Correlation time](correlation-time.md)
+    - [Partial autocorrelation function](partial-autocorrelation-function.md)
+      - [Sample partial autocorrelation function](sample-partial-autocorrelation-function.md)
+    - [Sample autocorrelation function](sample-autocorrelation-function.md)
+      - [Correlogram](correlogram.md)
+- [White noise](white-noise.md)
+  - [Discrete Gaussian white noise](discrete-gaussian-white-noise.md)
+  - [Continuous-time Gaussian white noise](continuous-time-gaussian-white-noise.md)
+  - [Strong white noise](strong-white-noise.md)
+  - [Weak white noise](weak-white-noise.md)
+
+## ↑ Ancestors (6)
+
+1. [Stationary process](stationary-process.md)
+2. [Time series](time-series-split.md)
+3. [Probability and statistics](probability-and-statistics-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (48)
+
+- [Autocorrelation](autocorrelation.md)
+- [Autocovariance](autocovariance.md)
+- [Autoregressive integrated moving average](autoregressive-integrated-moving-average.md)
+- [Autoregressive process of order one](autoregressive-process-of-order-one.md)
+- [Cross-spectrum of two stationary time series](cross-spectrum-of-two-stationary-time-series.md)
+- [Existence of a time-series spectral density](existence-of-a-time-series-spectral-density.md)
+- [Filter transfer function](filter-transfer-function.md)
+- [Lag of a time series](lag-of-a-time-series.md)
+- [Linear innovation process](linear-innovation-process.md)
+- [Long-memory time series](long-memory-time-series.md)
+- [Moving-average process of order one](moving-average-process-of-order-one.md)
+- [Multivariate moving-average model](multivariate-moving-average-model.md)
+- [Noncausal stationary autoregression](noncausal-stationary-autoregression.md)
+- [Nonstationary process](nonstationary-process.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-40/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-43/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-40/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-40/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-47/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-47/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-47/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-48/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-47/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-38/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-29/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-37/1/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-37/1/a/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-37/1/a/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-37/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-37/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-208/1/1/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-206/5/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-206/5/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-206/5/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-218/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-218/2/a/solution.md)
+- [Periodically correlated process](periodically-correlated-process.md)
+- [Positive-frequency spectral normalization](positive-frequency-spectral-normalization.md)
+- [Sample autocovariance function](sample-autocovariance-function.md)
+- [Short-memory time series](short-memory-time-series.md)
+- [Spectral density of a stationary process](spectral-density-of-a-stationary-process.md)
+- [Spectral measure of a stationary time series](spectral-measure-of-a-stationary-time-series.md)
+- [Spectral representation theorem for a stationary time series](spectral-representation-theorem-for-a-stationary-time-series.md)
+- [Strictly stationary process](strictly-stationary-process.md)
+- [Time series](time-series-split.md)
+- [Two-sided stationary inverse of an autoregressive polynomial](two-sided-stationary-inverse-of-an-autoregressive-polynomial.md)
+- [Weakly stationary process](weakly-stationary-process.md)
+- [Wiener-Khinchin theorem](wiener-khinchin-theorem.md)

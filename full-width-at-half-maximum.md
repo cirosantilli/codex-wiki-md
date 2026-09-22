@@ -1,0 +1,62 @@
+# Full width at half maximum
+
+↑ **Parent:** [Analysis](analysis-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Full_width_at_half_maximum)
+
+For a single-peaked profile, the full width at half maximum is the distance between the two positions where its value reaches half the peak above the specified background. It is often used to report the width of a [point spread function](point-spread-function-split.md) or a spectral feature.
+
+**Table of contents**
+
+- [Half width at half maximum](half-width-at-half-maximum.md)
+
+## ↑ Ancestors (4)
+
+1. [Analysis](analysis-split.md)
+2. [Area of mathematics](area-of-mathematics.md)
+3. [Mathematics](mathematics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (42)
+
+- [Airy disk](airy-disk.md)
+- [Chirped pulse amplification energy budget](chirped-pulse-amplification-energy-budget.md)
+- [Coherent harmonic pulse-train model](coherent-harmonic-pulse-train-model.md)
+- [Collisional phase relaxation and Lorentzian linewidth](collisional-phase-relaxation-and-lorentzian-linewidth.md)
+- [Confocal excitation and detection point spread function](confocal-excitation-and-detection-point-spread-function.md)
+- [Confocal optical sectioning](confocal-optical-sectioning.md)
+- [Doppler-free absorption line model](doppler-free-absorption-line-model.md)
+- [Etalon resolving power and order overlap](etalon-resolving-power-and-order-overlap.md)
+- [Finesse](finesse.md)
+- [Finite-pulse Ramsey transition probability](finite-pulse-ramsey-transition-probability.md)
+- [Gaussian chirped pulse compression](gaussian-chirped-pulse-compression.md)
+- [Gaussian pulse](gaussian-pulse.md)
+- [Gaussian spectral doublet resolution](gaussian-spectral-doublet-resolution.md)
+- [Lamb shift line-centre model](lamb-shift-line-centre-model.md)
+- [Magnesium isotope mass spectrum](magnesium-isotope-mass-spectrum.md)
+- [Mass resolution](mass-resolution.md)
+- [Mössbauer velocity scan](mossbauer-velocity-scan.md)
+- [Narrow resonance and instrumental resolution](narrow-resonance-and-instrumental-resolution.md)
+- [Natural linewidth](natural-linewidth.md)
+- [Nuclear resonance linewidth](nuclear-resonance-linewidth.md)
+- [Solution](past-exam-of-the-advanced-quantum-physics-course-of-the-university-of-cambridge/2021/section-b/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-338/2/a/v/solution.md)
+- [Solution](past-exam-of-the-nonlinear-optics-and-quantum-states-of-light-course-of-the-university-of-cambridge/2014/paper-1/3/b/solution.md)
+- [Solution](past-exam-of-the-optics-and-electrodynamics-course-of-the-university-of-cambridge/2012/paper-1/2/b/solution.md)
+- [Solution](past-exam-of-the-optics-and-electrodynamics-course-of-the-university-of-cambridge/2015/paper-1/2/b/solution.md)
+- [Solution](past-exam-of-the-optics-and-electrodynamics-course-of-the-university-of-cambridge/2017/1/b/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2012/paper-1/4/b/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2017/4/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2019/paper-2/section-b/b6/b/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2019/paper-2/section-b/b6/c/solution.md)
+- [Photoelectron peak overlap and resolution](photoelectron-peak-overlap-and-resolution.md)
+- [Power broadening](power-broadening.md)
+- [Ramsey frequency precision](ramsey-frequency-precision.md)
+- [Rayleigh criterion](rayleigh-criterion.md)
+- [Recoil-free nuclear transition](recoil-free-nuclear-transition.md)
+- [Resonance envelope of a Rabi transition](resonance-envelope-of-a-rabi-transition.md)
+- [Scanning Fabry–Pérot measurement](scanning-fabry-perot-measurement.md)
+- [Single-slit diffraction](single-slit-diffraction.md)
+- [Solar limb-darkening drift-scan experiment](solar-limb-darkening-drift-scan-experiment.md)
+- [Temporal optical coherence](temporal-optical-coherence.md)
+- [Time-bandwidth product](time-bandwidth-product.md)
+- [Two-level saturation population model](two-level-saturation-population-model.md)

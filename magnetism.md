@@ -1,0 +1,73 @@
+# Magnetism
+
+↑ **Parent:** [Electromagnetism](electromagnetism-split.md)
+
+Phenomena involving [magnetic fields](magnetic-field-split.md), including those produced by [electric currents](electric-current.md) and [magnetic moments](magnetic-dipole-moment.md).
+
+A small total [magnetic moment](magnetic-dipole-moment.md) can hide extensive [magnetic order](magnetic-order.md). Compare three questions: are the individual [magnetic moments](magnetic-dipole-moment.md) nonzero, how are their directions correlated, and what is their [vector](vector.md) sum? [Ferromagnetism](ferromagnetism.md), [antiferromagnetism](antiferromagnetism.md), and [ferrimagnetism](ferrimagnetism.md) answer the second question differently. The third question alone cannot identify the order.
+
+**Table of contents**
+
+- [Ultrarelativistic magnetic bending radius](ultrarelativistic-magnetic-bending-radius.md)
+- [Superparamagnetism](superparamagnetism.md)
+  - [Néel relaxation](neel-relaxation.md)
+- [Magnetic blocking temperature](magnetic-blocking-temperature.md)
+- [Saturation magnetic moment](saturation-magnetic-moment.md)
+- [Orange-peel coupling](orange-peel-coupling.md)
+- [Magnet](magnet.md)
+  - [Permanent magnet](permanent-magnet.md)
+- [Magnetic anisotropy](magnetic-anisotropy.md)
+  - [Uniaxial magnetic anisotropy](uniaxial-magnetic-anisotropy.md)
+  - [Unidirectional magnetic anisotropy](unidirectional-magnetic-anisotropy.md)
+  - [Exchange bias](exchange-bias.md)
+  - [g tensor](g-tensor.md)
+- [Magnetic shielding](magnetic-shielding.md)
+- [Magneto-optic Kerr effect](magneto-optic-kerr-effect.md)
+- [Interlayer exchange coupling](interlayer-exchange-coupling.md)
+  - [Oscillatory spacer-mediated exchange](oscillatory-spacer-mediated-exchange.md)
+- [Diamagnetism](diamagnetism.md)
+  - [Diamagnetic levitation in an inverse-height field](diamagnetic-levitation-in-an-inverse-height-field.md)
+  - [Landau diamagnetism](landau-diamagnetism.md)
+- [Magnetometer](magnetometer.md)
+  - [Fluxgate magnetometer](fluxgate-magnetometer.md)
+- [Magnetic order](magnetic-order.md)
+  - [Short-range order](short-range-order.md)
+  - [Magnetic sublattice](magnetic-sublattice.md)
+  - [Magnetic neutron diffraction](magnetic-neutron-diffraction.md)
+    - [Magnetic form factor](magnetic-form-factor.md)
+    - [Manganese monoxide neutron diffraction experiment](manganese-monoxide-neutron-diffraction-experiment.md)
+- [Exchange interaction](exchange-interaction.md)
+  - [Indirect exchange](indirect-exchange.md)
+    - [RKKY interaction](rkky-interaction.md)
+  - [Exponential orbital-tail estimate of exchange](exponential-orbital-tail-estimate-of-exchange.md)
+  - [Conduction-electron-mediated exchange](conduction-electron-mediated-exchange.md)
+  - [Double-exchange mechanism](double-exchange-mechanism.md)
+  - [Coulomb exchange splitting of two orbitals](coulomb-exchange-splitting-of-two-orbitals.md)
+  - [Superexchange](superexchange.md)
+    - [Three-site charge-transfer superexchange](three-site-charge-transfer-superexchange.md)
+  - [Direct exchange](direct-exchange.md)
+    - [Direct Coulomb exchange versus kinetic exchange](direct-coulomb-exchange-versus-kinetic-exchange.md)
+- [Antiferromagnetism](antiferromagnetism.md)
+  - [Synthetic antiferromagnet](synthetic-antiferromagnet.md)
+  - [Canted antiferromagnet](canted-antiferromagnet.md)
+  - [Spin ladder](spin-ladder.md)
+    - [Spin gap](spin-gap.md)
+  - [Néel temperature](neel-temperature.md)
+- [Ferrimagnetism](ferrimagnetism.md)
+  - [Magnetic compensation temperature](magnetic-compensation-temperature.md)
+
+## ↑ Ancestors (4)
+
+1. [Electromagnetism](electromagnetism-split.md)
+2. [Branches of physics](branches-of-physics.md)
+3. [Physics](physics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (6)
+
+- [Gianfranco Durin](gianfranco-durin.md)
+- [Solution](past-exam-of-the-frontiers-of-experimental-condensed-matter-physics-course-of-the-university-of-cambridge/2012/paper-1/1/a/solution.md)
+- [Solution](past-exam-of-the-frontiers-of-experimental-condensed-matter-physics-course-of-the-university-of-cambridge/2012/paper-1/3/a/solution.md)
+- [Pierre Curie](pierre-curie.md)
+- [Transport and magnetic tests of superconducting ceramics](transport-and-magnetic-tests-of-superconducting-ceramics.md)
+- [Wander Johannes de Haas](wander-johannes-de-haas.md)

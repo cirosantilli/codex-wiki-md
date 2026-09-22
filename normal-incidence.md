@@ -1,0 +1,48 @@
+# Normal incidence
+
+↑ **Parent:** [Refraction](refraction.md)
+
+At [normal incidence](normal-incidence.md), the incident [light ray](light-ray.md) follows the surface [normal vector](normal-vector.md). [Snell's law](snell-s-law.md) gives $\theta_t=0$ for positive [refractive indices](refractive-index.md), so the transmitted [light ray](light-ray.md) does not bend. Nevertheless, its [phase velocity](phase-velocity.md) and [wavelength](wavelength.md) change if the [refractive index](refractive-index.md) changes. A single axial [light ray](light-ray.md) therefore cannot measure apparent depth: neighboring [light rays](light-ray.md) and their directions supply that information. A reflected component can still be present; no bending of the transmitted [light ray](light-ray.md) does not imply complete transmission.
+
+## ↑ Ancestors (5)
+
+1. [Refraction](refraction.md)
+2. [Optics](optics-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (32)
+
+- [Apparent depth](apparent-depth.md)
+- [Diffraction-order feasibility](diffraction-order-feasibility.md)
+- [Double-pass quarter-wave plate](double-pass-quarter-wave-plate.md)
+- [Electric-displacement angle from birefringent walk-off](electric-displacement-angle-from-birefringent-walk-off.md)
+- [Etalon resolving power and order overlap](etalon-resolving-power-and-order-overlap.md)
+- [Fabry–Pérot resonance spacing](fabry-perot-resonance-spacing.md)
+- [Fabry–Pérot transmission from multiple reflections](fabry-perot-transmission-from-multiple-reflections.md)
+- [Faraday rotation on a round trip](faraday-rotation-on-a-round-trip.md)
+- [Finite-layer model of Lippmann reflection](finite-layer-model-of-lippmann-reflection.md)
+- [Free spectral range](free-spectral-range.md)
+- [Interface phase matching](interface-phase-matching.md)
+- [Lippmann fringe spacing](lippmann-fringe-spacing.md)
+- [Measuring refraction with a rectangular block](measuring-refraction-with-a-rectangular-block.md)
+- [Normal incidence](normal-incidence.md)
+- [Solution](past-exam-of-the-optics-and-electrodynamics-course-of-the-university-of-cambridge/2018/1/b/solution.md)
+- [Solution](past-exam-of-the-optics-and-electrodynamics-course-of-the-university-of-cambridge/2019/section-a/a2/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2012/paper-2/section-b/b7/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2013/paper-2/section-a/2/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2013/paper-2/section-d/d13/b/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2013/paper-2/section-d/d13/c/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2014/paper-2/section-a/2/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2014/paper-2/section-b/b8/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2014/paper-2/section-d/d12/b/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2016/paper-2/section-a/1/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2019/paper-2/section-b/b6/c/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2021/paper-2/section-a/2/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2011/paper-1/section-a/a4/solution.md)
+- [Precision displacement measurement with a Michelson interferometer](precision-displacement-measurement-with-a-michelson-interferometer.md)
+- [Refraction](refraction.md)
+- [Refractive index](refractive-index.md)
+- [Scanning Fabry–Pérot measurement](scanning-fabry-perot-measurement.md)
+- [Total internal reflection](total-internal-reflection.md)

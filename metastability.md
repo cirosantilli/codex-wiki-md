@@ -1,0 +1,59 @@
+# Metastability
+
+↑ **Parent:** [Landau free energy](landau-free-energy.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Metastability)
+
+A metastable phase is a local but nonglobal minimum of the thermodynamic potential. A finite nucleation barrier can delay conversion to the globally stable phase until fluctuations create a sufficiently large nucleus or the metastable minimum reaches a [spinodal point](spinodal-point.md).
+
+**Table of contents**
+
+- [Supersaturated vapor](supersaturated-vapor.md)
+  - [Atmospheric supersaturation](atmospheric-supersaturation.md)
+- [Nucleation](nucleation.md)
+  - [Burst nucleation](burst-nucleation.md)
+  - [La Mer diagram](la-mer-diagram.md)
+  - [Heterogeneous nucleation](heterogeneous-nucleation.md)
+    - [Deposition nucleation](deposition-nucleation.md)
+    - [Contact freezing](contact-freezing.md)
+    - [Immersion freezing](immersion-freezing.md)
+  - [Homogeneous nucleation](homogeneous-nucleation.md)
+    - [Homogeneous ice nucleation](homogeneous-ice-nucleation.md)
+- [Hysteresis](hysteresis.md)
+  - [Magnetic hysteresis](magnetic-hysteresis.md)
+  - [Magnetic coercivity](magnetic-coercivity.md)
+- [Superheating](superheating.md)
+  - [Superheated liquid](superheated-liquid.md)
+  - [Constitutional superheating](constitutional-superheating.md)
+- [Supercooling](supercooling.md)
+
+## ↑ Ancestors (7)
+
+1. [Landau free energy](landau-free-energy.md)
+2. [Landau theory](landau-theory.md)
+3. [Critical phenomenon](critical-phenomenon-split.md)
+4. [Statistical physics](statistical-physics-split.md)
+5. [Branches of physics](branches-of-physics.md)
+6. [Physics](physics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (19)
+
+- [Bubble chamber](bubble-chamber.md)
+- [Gibbs free energy](gibbs-free-energy.md)
+- [Nucleation](nucleation.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-64/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-46/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-46/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-51/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-49/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-42/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-45/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-4/34d/ii/solution.md)
+- [Solution](past-exam-of-the-thermal-and-statistical-physics-course-of-the-university-of-cambridge/2013/paper-1/4/solution.md)
+- [Phase diagram](phase-diagram.md)
+- [Polymorphism (materials science)](polymorphism-materials-science.md)
+- [Supersaturated solution](supersaturated-solution.md)
+- [Thermodynamic free energy](thermodynamic-free-energy.md)
+- [Van der Waals isotherm](van-der-waals-isotherm.md)
+- [Van der Waals liquid-gas coexistence](van-der-waals-liquid-gas-coexistence.md)
+- [Van der Waals throttling model](van-der-waals-throttling-model.md)

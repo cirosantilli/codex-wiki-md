@@ -1,0 +1,61 @@
+# Ideal of a Lie algebra
+
+↑ **Parent:** [Lie algebra](lie-algebra-split.md)
+
+A vector subspace $I\subseteq\mathfrak g$ is an ideal when $[\mathfrak g,I]\subseteq I$. It is therefore the kernel of a Lie-algebra quotient map.
+
+**Table of contents**
+
+- [Quotient Lie algebra](quotient-lie-algebra.md)
+
+## ↑ Ancestors (7)
+
+1. [Lie algebra](lie-algebra-split.md)
+2. [Lie theory](lie-theory-split.md)
+3. [Diagonal dominance](diagonal-dominance.md)
+4. [Algebra](algebra-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (39)
+
+- [Abelian ideals lie in the radical of the Killing form](abelian-ideals-lie-in-the-radical-of-the-killing-form.md)
+- [Derivation Lie algebra](derivation-lie-algebra.md)
+- [Derived algebra](derived-algebra.md)
+- [Direct sum of Lie algebras](direct-sum-of-lie-algebras.md)
+- [Engel normalizer lemma](engel-normalizer-lemma.md)
+- [Euclidean motion Lie algebra in two dimensions](euclidean-motion-lie-algebra-in-two-dimensions.md)
+- [Inner derivation of a Lie algebra](inner-derivation-of-a-lie-algebra.md)
+- [Lie algebra of a normal Lie subgroup](lie-algebra-of-a-normal-lie-subgroup.md)
+- [Normalizer of a Lie subalgebra](normalizer-of-a-lie-subalgebra.md)
+- [Orthogonal ideal splitting for a nondegenerate Killing form](orthogonal-ideal-splitting-for-a-nondegenerate-killing-form.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-45/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-3/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-2/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-50/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-1/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-48/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-1/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-1/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-2/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-2/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-2/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-102/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-102/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-102/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-302/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-302/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-302/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-102/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-102/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-102/3/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-302/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-102/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-302/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-102/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-102/2/c/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-102/1/b/solution.md)
+- [Radical of a Lie algebra](radical-of-a-lie-algebra.md)
+- [Radical of the Killing form](radical-of-the-killing-form.md)
+- [Semidirect product of a Lie algebra and a module](semidirect-product-of-a-lie-algebra-and-a-module.md)
