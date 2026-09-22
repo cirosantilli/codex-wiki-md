@@ -1,0 +1,46 @@
+# Radius
+
+↑ **Parent:** [Circle](circle.md)
+
+The radius of a [circle](circle.md) or [sphere](sphere.md) is the [Euclidean distance](euclidean-distance.md) from its centre to its boundary. The diameter is twice the radius.
+
+## ↑ Ancestors (7)
+
+1. [Circle](circle.md)
+2. [Topological space](topological-space.md)
+3. [Topology](topology-split.md)
+4. [Geometry and topology](geometry-and-topology-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (28)
+
+- [Kramers radiative-zero envelope around a stellar core](kramers-radiative-zero-envelope-around-a-stellar-core.md)
+- [Observed flux of an unresolved spherical emitter](observed-flux-of-an-unresolved-spherical-emitter.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-63/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-71/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-71/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-71/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-85/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-85/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-66/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-66/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-66/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-64/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-64/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-64/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-64/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-315/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-315/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-315/2/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-315/3/a/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-315/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-315/4/h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-315/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-315/4/j/solution.md)
+- [Planet-star radius estimate in the Rayleigh-Jeans limit](planet-star-radius-estimate-in-the-rayleigh-jeans-limit.md)
+- [Radiative homology with fifth-power hydrogen burning and inverse-cubic opacity](radiative-homology-with-fifth-power-hydrogen-burning-and-inverse-cubic-opacity.md)
+- [Stellar mass conservation equation](stellar-mass-conservation-equation.md)
+- [Super-Earth](super-earth.md)
+- [Transit-radius contribution of a gaseous envelope](transit-radius-contribution-of-a-gaseous-envelope.md)

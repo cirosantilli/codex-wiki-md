@@ -1,0 +1,40 @@
+# Section A
+
+↑ **Parent:** [Paper 53](../paper-53-split.md)
+
+**Table of contents**
+
+- [1](1.md)
+  - [Solution](1/solution.md)
+- [2](2.md)
+  - [Solution](2/solution.md)
+  - [a](2/a.md)
+    - [Solution](2/a/solution.md)
+  - [b](2/b.md)
+    - [Solution](2/b/solution.md)
+  - [c](2/c.md)
+    - [Solution](2/c/solution.md)
+  - [d](2/d.md)
+    - [Solution](2/d/solution.md)
+- [3](3.md)
+  - [Solution](3/solution.md)
+- [4](4.md)
+  - [Solution](4/solution.md)
+- [5](5.md)
+  - [Solution](5/solution.md)
+- [6](6.md)
+  - [Solution](6/solution.md)
+- [7](7.md)
+  - [Solution](7/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Paper 53](../paper-53-split.md)
+2. [Iii](../split.md)
+3. [2003](../../split.md)
+4. [Past exam of the mathematics course of the University of Cambridge](../../../split.md)
+5. [Mathematics course of the University of Cambridge](../../../../mathematics-course-of-the-university-of-cambridge.md)
+6. [Course of the University of Cambridge](../../../../course-of-the-university-of-cambridge.md)
+7. [University of Cambridge](../../../../university-of-cambridge-split.md)
+8. [List of universities](../../../../list-of-universities.md)
+9. [Codex Wiki](../../../../split.md)

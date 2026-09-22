@@ -1,0 +1,47 @@
+# Curvature singularity
+
+↑ **Parent:** [General relativity](general-relativity-split.md)
+
+A curvature singularity is an incomplete spacetime boundary approached by curves along which a scalar curvature invariant or a component of the [Riemann curvature tensor](riemann-curvature-tensor.md) in a parallel-propagated frame becomes unbounded. Such divergence cannot be removed by changing coordinates.
+
+## ↑ Ancestors (4)
+
+1. [General relativity](general-relativity-split.md)
+2. [Branches of physics](branches-of-physics.md)
+3. [Physics](physics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (32)
+
+- [Analytic extension of a spacetime](analytic-extension-of-a-spacetime.md)
+- [Coordinate singularity](coordinate-singularity.md)
+- [Global structure of a charged spherical black hole](global-structure-of-a-charged-spherical-black-hole.md)
+- [Kretschmann scalar](kretschmann-scalar.md)
+- [Kretschmann scalar of a five-dimensional charged black hole](kretschmann-scalar-of-a-five-dimensional-charged-black-hole.md)
+- [Kruskal spacetime](kruskal-spacetime.md)
+- [Maximal analytic extension](maximal-analytic-extension.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-69/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-69/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-73/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-56/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-56/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-57/4/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-60/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-62/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-62/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-56/1/g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-56/2/d/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-52/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-52/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ii/paper-4/36d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-58/section-i/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-311/1/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-311/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-311/4/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-311/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-311/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-311/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-311/3/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-311/2/d/solution.md)
+- [Proper-time horizon crossing in homogeneous dust collapse](proper-time-horizon-crossing-in-homogeneous-dust-collapse.md)
+- [Schwarzschild conformal compactification](schwarzschild-conformal-compactification.md)

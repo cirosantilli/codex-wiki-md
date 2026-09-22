@@ -1,0 +1,50 @@
+# Taylor polynomial
+
+↑ **Parent:** [Calculus](calculus-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Taylor_polynomial)
+
+**Table of contents**
+
+- [Multivariate Taylor polynomial](multivariate-taylor-polynomial.md)
+
+## ↑ Ancestors (6)
+
+1. [Calculus](calculus-split.md)
+2. [Real analysis](real-analysis-split.md)
+3. [Analysis](analysis-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (30)
+
+- [Blow-up compactness proof of an interior Schauder estimate](blow-up-compactness-proof-of-an-interior-schauder-estimate.md)
+- [Hadamard finite-part reciprocal-power distribution](hadamard-finite-part-reciprocal-power-distribution.md)
+- [Hölder-Taylor remainder bound](holder-taylor-remainder-bound.md)
+- [Mean absolute error bound for local polynomial regression](mean-absolute-error-bound-for-local-polynomial-regression.md)
+- [Mellin continuation of a nonprincipal Dirichlet L-function](mellin-continuation-of-a-nonprincipal-dirichlet-l-function.md)
+- [Moment differentiation of the Fourier transform](moment-differentiation-of-the-fourier-transform.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-71/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ia/paper-1/10e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-75/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ia/paper-1/10f/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-39/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-9/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-107/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-137/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-340/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-340/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-340/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ib/paper-3/19d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-107/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-327/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-340/1/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-340/3/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-4/32a/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-107/4/c/ii/solution.md)
+- [Peano zero](peano-zero.md)
+- [Taylor normalization in elliptic blow-up arguments](taylor-normalization-in-elliptic-blow-up-arguments.md)
+- [Taylor remainder](taylor-remainder.md)
+- [Taylor theorem](taylor-theorem.md)
+- [Vanishing moment](vanishing-moment.md)
+- [Wavelet coefficient decay for Hölder functions](wavelet-coefficient-decay-for-holder-functions.md)

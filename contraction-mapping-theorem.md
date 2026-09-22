@@ -1,0 +1,63 @@
+# Contraction mapping theorem
+
+↑ **Parent:** [Fixed-point theorem](fixed-point-theorem.md)
+
+A contraction of a nonempty complete metric space has one fixed point, and every orbit converges to it geometrically.
+
+**Table of contents**
+
+- [A posteriori contraction ball](a-posteriori-contraction-ball.md)
+- [Fixed-point stability in the uniform metric](fixed-point-stability-in-the-uniform-metric.md)
+- [Continuity of the fixed-point assignment](continuity-of-the-fixed-point-assignment.md)
+- [Contraction property of closed subsets characterizes completeness](contraction-property-of-closed-subsets-characterizes-completeness.md)
+- [Contraction mapping](contraction-mapping.md)
+  - [Contraction property under equivalent metrics](contraction-property-under-equivalent-metrics.md)
+- [Continuous dependence of the fixed point of a uniform contraction](continuous-dependence-of-the-fixed-point-of-a-uniform-contraction.md)
+- [Iterated contraction](iterated-contraction.md)
+- [Local contraction proof for Newton iteration](local-contraction-proof-for-newton-iteration.md)
+
+## ↑ Ancestors (5)
+
+1. [Fixed-point theorem](fixed-point-theorem.md)
+2. [Analysis](analysis-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (35)
+
+- [A posteriori contraction ball](a-posteriori-contraction-ball.md)
+- [Contraction property under equivalent metrics](contraction-property-under-equivalent-metrics.md)
+- [Finite similarity iterated function system](finite-similarity-iterated-function-system.md)
+- [Iterated contraction](iterated-contraction.md)
+- [Local weak solution by contraction for a semilinear wave equation](local-weak-solution-by-contraction-for-a-semilinear-wave-equation.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/ib/paper-2/1a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-53/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/ib/paper-2/10e/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/ib/paper-3/11f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/ib/paper-3/16f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ib/paper-4/13b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ib/paper-4/13f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-29/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ib/paper-4/13h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ib/paper-1/11f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ib/paper-2/3e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-72/7/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/ib/paper-4/12f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-22/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ib/paper-4/3f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-4/3g/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-4/3g/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-125/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ib/paper-3/12g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-341/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ib/paper-1/10e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-105/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ib/paper-3/11g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ib/paper-1/10g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-105/2/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-319/1/f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/ib/paper-2/2f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-105/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/ib/paper-4/2g/solution.md)
+- [Stage solvability of an implicit Runge-Kutta method](stage-solvability-of-an-implicit-runge-kutta-method.md)

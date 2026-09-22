@@ -1,0 +1,45 @@
+# Outer expansion
+
+↑ **Parent:** [Matched asymptotic expansion](matched-asymptotic-expansion.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Outer_expansion)
+
+An outer expansion describes the solution away from a thin or distant inner region and is matched to the inner expansion in their common limit.
+
+## ↑ Ancestors (8)
+
+1. [Matched asymptotic expansion](matched-asymptotic-expansion.md)
+2. [Singular perturbation](singular-perturbation.md)
+3. [Ordinary differential equation](ordinary-differential-equation.md)
+4. [Differential equation](differential-equation-split.md)
+5. [Analysis](analysis-split.md)
+6. [Area of mathematics](area-of-mathematics.md)
+7. [Mathematics](mathematics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (25)
+
+- [Asymptotic matching condition](asymptotic-matching-condition.md)
+- [Error-function logarithmic switchback](error-function-logarithmic-switchback.md)
+- [First-order composite expansion for a positive drift](first-order-composite-expansion-for-a-positive-drift.md)
+- [Gaussian interior layer of a conservative drift equation](gaussian-interior-layer-of-a-conservative-drift-equation.md)
+- [Logarithmic overlap creates a switchback term](logarithmic-overlap-creates-a-switchback-term.md)
+- [Logarithmically enhanced nonlinear boundary layer](logarithmically-enhanced-nonlinear-boundary-layer.md)
+- [Lorentzian contribution from shrinking regularization](lorentzian-contribution-from-shrinking-regularization.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-50/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-79/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-76/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-67/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-67/3/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-67/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-74/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-74/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-336/2/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-336/2/a/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-336/2/a/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-336/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-336/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-336/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-336/2/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-336/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-336/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-336/2/2/solution.md)

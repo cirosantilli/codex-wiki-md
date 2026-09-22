@@ -1,0 +1,19 @@
+<h1 id="17f/i/solution">Solution</h1>
+
+↑ **Parent:** [I](../i.md)
+
+**False.** The [complete bipartite graph](../../../../../../complete-bipartite-graph.md) $K_{3,3}$ has [chromatic number](../../../../../../chromatic-number.md) two, but is nonplanar. For example a simple bipartite plane graph has $e\leq2v-4$, because all facial cycles have length at least four; $K_{3,3}$ has $v=6$, $e=9>8$.
+
+## ↑ Ancestors (11)
+
+1. [I](../i.md)
+2. [17F](../../17f.md)
+3. [Paper 1](../../../paper-1-split.md)
+4. [Ii](../../../split.md)
+5. [2008](../../../../split.md)
+6. [Past exam of the mathematics course of the University of Cambridge](../../../../../split.md)
+7. [Mathematics course of the University of Cambridge](../../../../../../mathematics-course-of-the-university-of-cambridge.md)
+8. [Course of the University of Cambridge](../../../../../../course-of-the-university-of-cambridge.md)
+9. [University of Cambridge](../../../../../../university-of-cambridge-split.md)
+10. [List of universities](../../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../../split.md)

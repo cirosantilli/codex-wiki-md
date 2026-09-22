@@ -1,0 +1,61 @@
+# Symplectomorphism
+
+↑ **Parent:** [Symplectic manifold](symplectic-manifold.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Symplectomorphism)
+
+A symplectomorphism $\phi:(M,\omega)\to(M',\omega')$ is a [diffeomorphism](diffeomorphism.md) satisfying $\phi^*\omega'=\omega$.
+
+**Table of contents**
+
+- [Group of Hamiltonian diffeomorphisms](group-of-hamiltonian-diffeomorphisms.md)
+  - [Compactly supported Hamiltonian diffeomorphism group](compactly-supported-hamiltonian-diffeomorphism-group.md)
+    - [Hofer metric](hofer-metric.md)
+      - [Hofer nondegeneracy from rational Lagrangian displacement](hofer-nondegeneracy-from-rational-lagrangian-displacement.md)
+      - [Displacement energy (symplectic geometry)](displacement-energy-symplectic-geometry.md)
+        - [Zero displacement energy for a compact set in a hyperplane](zero-displacement-energy-for-a-compact-set-in-a-hyperplane.md)
+      - [Hofer metric from the spatial supremum norm](hofer-metric-from-the-spatial-supremum-norm.md)
+- [Symplectic isotopy](symplectic-isotopy.md)
+  - [Strong isotopy of symplectic forms](strong-isotopy-of-symplectic-forms.md)
+  - [Flux homomorphism](flux-homomorphism.md)
+
+## ↑ Ancestors (7)
+
+1. [Symplectic manifold](symplectic-manifold.md)
+2. [Symplectic geometry](symplectic-geometry-split.md)
+3. [Differential geometry](differential-geometry-split.md)
+4. [Geometry and topology](geometry-and-topology-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (29)
+
+- [Complementary areas obstruct symplectic equivalence of separating curves](complementary-areas-obstruct-symplectic-equivalence-of-separating-curves.md)
+- [Cotangent fiber translation](cotangent-fiber-translation.md)
+- [Eliashberg–Gromov rigidity theorem](eliashberg-gromov-rigidity-theorem.md)
+- [Hamiltonian flow preserves the symplectic form](hamiltonian-flow-preserves-the-symplectic-form.md)
+- [Hofer metric](hofer-metric.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-16/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-16/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-20/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-20/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-20/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-64/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-15/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-15/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-15/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-15/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-16/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-16/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-16/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-16/5/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-140/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-140/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-146/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-146/3/solution.md)
+- [Symplectic ball chart in complex projective space](symplectic-ball-chart-in-complex-projective-space.md)
+- [Symplectic blowup size changes volume](symplectic-blowup-size-changes-volume.md)
+- [Symplectic capacity](symplectic-capacity.md)
+- [Symplectic cotangent lift with a closed momentum shift](symplectic-cotangent-lift-with-a-closed-momentum-shift.md)
+- [Symplectic isotopy](symplectic-isotopy.md)
+- [Translation equivalence of exact twisted cotangent bundles](translation-equivalence-of-exact-twisted-cotangent-bundles.md)

@@ -1,0 +1,53 @@
+# Plane
+
+↑ **Parent:** [Geometry and topology](geometry-and-topology-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Plane)
+
+**Table of contents**
+
+- [Distance between parallel planes](distance-between-parallel-planes.md)
+- [Line-plane intersection criterion](line-plane-intersection-criterion.md)
+- [Equation of a plane through three points](equation-of-a-plane-through-three-points.md)
+- [Euclidean plane](euclidean-plane.md)
+  - [Planar domain](planar-domain.md)
+
+## ↑ Ancestors (4)
+
+1. [Geometry and topology](geometry-and-topology-split.md)
+2. [Area of mathematics](area-of-mathematics.md)
+3. [Mathematics](mathematics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (31)
+
+- [Cauchy velocity distribution](cauchy-velocity-distribution.md)
+- [Center and radius of a sphere-plane intersection](center-and-radius-of-a-sphere-plane-intersection.md)
+- [Equation of a plane through three points](equation-of-a-plane-through-three-points.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-56/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-59/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ia/paper-1/5b/i/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ia/paper-1/5b/ii/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ia/paper-1/5b/ii/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ia/paper-1/5b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ia/paper-1/6c/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ia/paper-1/6c/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-3/12f/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-3/24h/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-3/37a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/ia/paper-1/5c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/ia/paper-1/8b/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ia/paper-1/5b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ia/paper-1/5b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ia/paper-1/5b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ia/paper-1/5a/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ia/paper-1/5a/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ia/paper-3/11b/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-320/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-320/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ia/paper-1/5c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-339/2/c/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-3/25g/b/solution.md)
+- [Random hyperplane rounding](random-hyperplane-rounding.md)
+- [Razor-thin disk relaxation](razor-thin-disk-relaxation.md)
+- [Right circular conical surface](right-circular-conical-surface.md)
+- [Signed distance from a point to a plane](signed-distance-from-a-point-to-a-plane.md)

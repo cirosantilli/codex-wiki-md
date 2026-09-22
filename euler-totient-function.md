@@ -1,0 +1,60 @@
+# Euler totient function
+
+↑ **Parent:** [Number theory](number-theory-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Euler_totient_function)
+
+Euler’s totient function counts residue classes modulo n that are coprime to n.
+
+**Table of contents**
+
+- [Sum of reduced residues](sum-of-reduced-residues.md)
+- [Integers whose totient divides them](integers-whose-totient-divides-them.md)
+- [Totient divisibility along divisors](totient-divisibility-along-divisors.md)
+- [Rosser–Schoenfeld totient bound](rosser-schoenfeld-totient-bound.md)
+- [Elementary totient-ratio lower bound](elementary-totient-ratio-lower-bound.md)
+- [Euler theorem](euler-theorem.md)
+- [Multiplicativity of the Euler totient function](multiplicativity-of-the-euler-totient-function.md)
+- [Finite fibres of the Euler totient function](finite-fibres-of-the-euler-totient-function.md)
+
+## ↑ Ancestors (4)
+
+1. [Number theory](number-theory-split.md)
+2. [Area of mathematics](area-of-mathematics.md)
+3. [Mathematics](mathematics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (33)
+
+- [Bombieri–Vinogradov theorem](bombieri-vinogradov-theorem.md)
+- [Brun–Titchmarsh theorem](brun-titchmarsh-theorem.md)
+- [Counting cyclic subgroups by their generators](counting-cyclic-subgroups-by-their-generators.md)
+- [Elementary totient-ratio lower bound](elementary-totient-ratio-lower-bound.md)
+- [Integers whose totient divides them](integers-whose-totient-divides-them.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-22/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-36/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/ia/paper-4/8e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ia/paper-4/6e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ia/paper-4/8e/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-32/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ii/paper-3/18h/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-67/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ia/paper-4/6e/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-61/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ia/paper-3/2d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ii/paper-2/1h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-27/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-27/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-324/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ia/paper-4/5d/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-324/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-3/15d/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-3/1g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-3/18f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-150/1/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ia/paper-2/7d/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ii/paper-1/1i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ii/paper-3/15d/a/solution.md)
+- [Reduced residue system](reduced-residue-system.md)
+- [Rosser–Schoenfeld totient bound](rosser-schoenfeld-totient-bound.md)
+- [Semiprime](semiprime.md)
+- [Totient divisibility along divisors](totient-divisibility-along-divisors.md)

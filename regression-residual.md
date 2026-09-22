@@ -1,0 +1,60 @@
+# Regression residual
+
+↑ **Parent:** [Probability and statistics](probability-and-statistics-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Regression_residual)
+
+A regression residual is the observed response minus its fitted value. Residual plots diagnose failures of assumptions such as constant variance, linear mean structure, and independent errors.
+
+**Table of contents**
+
+- [Residual curvature diagnostic](residual-curvature-diagnostic.md)
+- [Partial residual](partial-residual.md)
+- [Standardized regression residual](standardized-regression-residual.md)
+  - [Distribution of an internally studentized Gaussian residual](distribution-of-an-internally-studentized-gaussian-residual.md)
+
+## ↑ Ancestors (4)
+
+1. [Probability and statistics](probability-and-statistics-split.md)
+2. [Area of mathematics](area-of-mathematics.md)
+3. [Mathematics](mathematics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (37)
+
+- [Coefficient of determination](coefficient-of-determination.md)
+- [Fitted-residual orthogonality](fitted-residual-orthogonality.md)
+- [Outlier](outlier.md)
+- [Paired group Lasso optimality conditions](paired-group-lasso-optimality-conditions.md)
+- [Partial residual](partial-residual.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-38/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-41/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-41/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-41/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-41/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-3/5j/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-41/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-4/13j/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-4/5j/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-37/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-37/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-37/1/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-30/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-30/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-30/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-30/1/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-30/1/f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-30/2/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-30/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-33/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ii/paper-3/4j/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-32/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-33/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-33/6/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-206/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-206/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-4/5j/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-218/6/a/solution.md)
+- [Residual curvature diagnostic](residual-curvature-diagnostic.md)
+- [Residual mixture clustering](residual-mixture-clustering.md)
+- [Standardized regression residual](standardized-regression-residual.md)
+- [Two-stage residual mixture fitting](two-stage-residual-mixture-fitting.md)

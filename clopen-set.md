@@ -1,0 +1,48 @@
+# Clopen set
+
+↑ **Parent:** [Open set](open-set.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Clopen_set)
+
+A clopen set is a subset that is both [open](open-set.md) and [closed](closed-set.md).
+
+## ↑ Ancestors (6)
+
+1. [Open set](open-set.md)
+2. [Topology](topology-split.md)
+3. [Geometry and topology](geometry-and-topology-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (30)
+
+- [Clopen determinacy with terminal losses](clopen-determinacy-with-terminal-losses.md)
+- [Clopen up-set](clopen-up-set.md)
+- [Compact Hausdorff topology on ultrafilters](compact-hausdorff-topology-on-ultrafilters.md)
+- [Cone on an infinite coinfinite ground set](cone-on-an-infinite-coinfinite-ground-set.md)
+- [Countable unions of Ellentuck clopen sets need not be closed](countable-unions-of-ellentuck-clopen-sets-need-not-be-closed.md)
+- [Cylinder premeasure from a positive functional](cylinder-premeasure-from-a-positive-functional.md)
+- [Cylinder set](cylinder-set.md)
+- [Ellentuck topology](ellentuck-topology.md)
+- [No nontrivial convergent sequences in the Stone-Čech compactification](no-nontrivial-convergent-sequences-in-the-stone-cech-compactification.md)
+- [Open normal subgroup basis of a profinite group](open-normal-subgroup-basis-of-a-profinite-group.md)
+- [p-adic measure](p-adic-measure.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-10/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-23/5/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-4/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-30/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-14/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-26/10/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-89/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-28/1/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-5/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-4/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-5/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-23/5/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-1/12e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-108/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-130/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-130/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-130/3/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-130/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-130/4/solution.md)

@@ -1,0 +1,60 @@
+# Axial current
+
+↑ **Parent:** [Chiral anomaly](chiral-anomaly.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Axial_current)
+
+For massless Dirac fermions, the classical axial current is $J_A^\mu=\bar\psi\gamma^\mu\gamma^5\psi$. The chiral anomaly makes its divergence proportional to $F_{\mu\nu}{}^\star F^{\mu\nu}$.
+
+**Table of contents**
+
+- [Axial charge](axial-charge.md)
+- [Axial derivative coupling and parity](axial-derivative-coupling-and-parity.md)
+- [Axial-current divergence for scalar and pseudoscalar backgrounds](axial-current-divergence-for-scalar-and-pseudoscalar-backgrounds.md)
+- [Axial-current divergence for a pseudoscalar Yukawa interaction](axial-current-divergence-for-a-pseudoscalar-yukawa-interaction.md)
+- [Axial-current squared interaction](axial-current-squared-interaction.md)
+- [Chiral transformation](chiral-transformation.md)
+
+## ↑ Ancestors (9)
+
+1. [Chiral anomaly](chiral-anomaly.md)
+2. [Anomaly (physics)](anomaly-physics.md)
+3. [Yang-Mills theory](yang-mills-theory.md)
+4. [Gauge field](gauge-field.md)
+5. [Relativistic quantum field](relativistic-quantum-field-split.md)
+6. [Quantum field theory](quantum-field-theory-split.md)
+7. [Branches of physics](branches-of-physics.md)
+8. [Physics](physics-split.md)
+9. [Codex Wiki](split.md)
+
+## ← Incoming links (30)
+
+- [Axial charge](axial-charge.md)
+- [Axial derivative coupling and parity](axial-derivative-coupling-and-parity.md)
+- [Charge conjugation of fermion bilinears](charge-conjugation-of-fermion-bilinears.md)
+- [CP invariance of a neutral chiral vector interaction](cp-invariance-of-a-neutral-chiral-vector-interaction.md)
+- [Fermion bilinear](fermion-bilinear.md)
+- [Flavor-nonsinglet axial Ward identity with equal quark masses](flavor-nonsinglet-axial-ward-identity-with-equal-quark-masses.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-44/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-53/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-48/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-48/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-52/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-57/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-42/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-45/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-46/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-45/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-305/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-305/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-305/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-305/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-305/1/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-305/1/f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-305/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-301/3/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-305/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-301/2/ii/solution.md)
+- [Pseudoscalar meson](pseudoscalar-meson.md)
+- [Pseudoscalar-to-pseudoscalar form factor](pseudoscalar-to-pseudoscalar-form-factor.md)
+- [Quark mass](quark-mass.md)
+- [Vacuum-to-pseudoscalar current selection rule](vacuum-to-pseudoscalar-current-selection-rule.md)

@@ -1,0 +1,61 @@
+# Planar graph
+
+↑ **Parent:** [Graph theory](graph-theory-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Planar_graph)
+
+A planar graph admits a drawing in the plane whose edges meet only at common endpoints.
+
+**Table of contents**
+
+- [Plane graph](plane-graph.md)
+- [Honeycomb lattice](honeycomb-lattice.md)
+  - [Martini lattice](martini-lattice.md)
+- [Four color theorem](four-color-theorem.md)
+- [Five color theorem](five-color-theorem.md)
+- [Planar map](planar-map.md)
+  - [Face of a planar map](face-of-a-planar-map.md)
+  - [Rooted planar map](rooted-planar-map.md)
+  - [Planar quadrangulation](planar-quadrangulation.md)
+    - [Trivial bijection between planar maps and quadrangulations](trivial-bijection-between-planar-maps-and-quadrangulations.md)
+- [Planar dual graph](planar-dual-graph.md)
+  - [Planar cluster-count identity](planar-cluster-count-identity.md)
+  - [Dual bond percolation](dual-bond-percolation.md)
+    - [Three-terminal cell partition duality](three-terminal-cell-partition-duality.md)
+    - [Dual contour bound for a finite planar cluster](dual-contour-bound-for-a-finite-planar-cluster.md)
+  - [Planar duality for rectangle crossings](planar-duality-for-rectangle-crossings.md)
+    - [Exact self-dual rectangle crossing probability](exact-self-dual-rectangle-crossing-probability.md)
+- [Euler formula for a connected planar graph](euler-formula-for-a-connected-planar-graph.md)
+  - [Small faces of a spherical polyhedral graph](small-faces-of-a-spherical-polyhedral-graph.md)
+  - [Planar graph edge bound](planar-graph-edge-bound.md)
+  - [Planar girth edge bound](planar-girth-edge-bound.md)
+  - [Triangle-pentagon planar edge bound](triangle-pentagon-planar-edge-bound.md)
+    - [Icosidodecahedral graph](icosidodecahedral-graph.md)
+
+## ↑ Ancestors (5)
+
+1. [Graph theory](graph-theory-split.md)
+2. [Foundations of mathematics](foundations-of-mathematics-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (18)
+
+- [Five color theorem](five-color-theorem.md)
+- [Four color theorem](four-color-theorem.md)
+- [Four-connected planar obstruction to two-linkage](four-connected-planar-obstruction-to-two-linkage.md)
+- [Honeycomb lattice](honeycomb-lattice.md)
+- [Martini lattice](martini-lattice.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-30/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-30/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-1/17f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-1/17f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-4/17f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-28/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-1/17g/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-2/17g/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-161/1/i/solution.md)
+- [Planar map](planar-map.md)
+- [Plane graph](plane-graph.md)
+- [Self-dual parameter of the random-cluster model](self-dual-parameter-of-the-random-cluster-model.md)
+- [Small faces of a spherical polyhedral graph](small-faces-of-a-spherical-polyhedral-graph.md)

@@ -1,0 +1,63 @@
+# Autoregressive model
+
+↑ **Parent:** [Autoregressive moving-average model](autoregressive-moving-average-model.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Autoregressive_model)
+
+An autoregressive model expresses the current value as a linear combination of finitely many past values plus white noise.
+
+**Table of contents**
+
+- [Fibonacci-coefficient autoregression](fibonacci-coefficient-autoregression.md)
+- [Yule-Walker equations](yule-walker-equations.md)
+- [Explosive affine recursion with symmetric bounded noise](explosive-affine-recursion-with-symmetric-bounded-noise.md)
+- [Conditional likelihood of an initialized Gaussian AR(2) process](conditional-likelihood-of-an-initialized-gaussian-ar-2-process.md)
+- [Autoregressive polynomial](autoregressive-polynomial.md)
+  - [Autoregressive operator](autoregressive-operator.md)
+  - [Unit root](unit-root.md)
+    - [Oscillatory unit-root diagnosis from an undamped sample autocorrelation](oscillatory-unit-root-diagnosis-from-an-undamped-sample-autocorrelation.md)
+- [Causality root criterion for an autoregressive model](causality-root-criterion-for-an-autoregressive-model.md)
+  - [Exponential autocovariance decay of a causal autoregression](exponential-autocovariance-decay-of-a-causal-autoregression.md)
+- [Noncausal stationary autoregression](noncausal-stationary-autoregression.md)
+  - [Two-sided stationary inverse of an autoregressive polynomial](two-sided-stationary-inverse-of-an-autoregressive-polynomial.md)
+- [Unit-root autoregressive process](unit-root-autoregressive-process.md)
+  - [Dickey–Fuller test](dickey-fuller-test.md)
+- [Periodic autoregressive model of order one](periodic-autoregressive-model-of-order-one.md)
+  - [Periodic Yule-Walker equations](periodic-yule-walker-equations.md)
+- [Autoregressive process of order one](autoregressive-process-of-order-one.md)
+  - [Poisson-kernel expansion of an AR(1) spectrum](poisson-kernel-expansion-of-an-ar-1-spectrum.md)
+  - [Autocovariance of an AR(1) process observed with white noise](autocovariance-of-an-ar-1-process-observed-with-white-noise.md)
+    - [Invertible ARMA factorization of an AR(1)-plus-noise process](invertible-arma-factorization-of-an-ar-1-plus-noise-process.md)
+  - [Stationary versus causal solution of a two-sided AR(1) equation](stationary-versus-causal-solution-of-a-two-sided-ar-1-equation.md)
+  - [Gaussian AR1 bridge](gaussian-ar1-bridge.md)
+  - [Stationary Gaussian AR1 likelihood](stationary-gaussian-ar1-likelihood.md)
+    - [Conditional and stationary AR1 likelihood estimators](conditional-and-stationary-ar1-likelihood-estimators.md)
+  - [Yule–Walker estimator for an autoregressive process of order one](yule-walker-estimator-for-an-autoregressive-process-of-order-one.md)
+  - [Gaussian autoregressive conditional precision](gaussian-autoregressive-conditional-precision.md)
+
+## ↑ Ancestors (6)
+
+1. [Autoregressive moving-average model](autoregressive-moving-average-model.md)
+2. [Time series](time-series-split.md)
+3. [Probability and statistics](probability-and-statistics-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (16)
+
+- [Autocovariance tail recurrence of a causal ARMA process](autocovariance-tail-recurrence-of-a-causal-arma-process.md)
+- [Conditional maximum likelihood](conditional-maximum-likelihood.md)
+- [Correlogram](correlogram.md)
+- [Noncausal stationary autoregression](noncausal-stationary-autoregression.md)
+- [Order identification by autocorrelation cutoffs](order-identification-by-autocorrelation-cutoffs.md)
+- [Partial autocorrelation function](partial-autocorrelation-function.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-40/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-40/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-47/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-47/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-33/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-37/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-37/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-208/2/1/solution.md)
+- [Two-sided stationary inverse of an autoregressive polynomial](two-sided-stationary-inverse-of-an-autoregressive-polynomial.md)
+- [Yule-Walker equations](yule-walker-equations.md)

@@ -1,0 +1,60 @@
+# Laplace operator
+
+↑ **Parent:** [Partial differential equation](partial-differential-equation-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Laplace_operator)
+
+The Laplace operator is the divergence of the gradient, $\Delta=\nabla\cdot\nabla$.
+
+**Table of contents**
+
+- [Neumann Laplacian](neumann-laplacian.md)
+- [Dirichlet Laplacian](dirichlet-laplacian.md)
+  - [Dirichlet resonance in an equilateral triangle](dirichlet-resonance-in-an-equilateral-triangle.md)
+  - [Fractional Dirichlet domain scale](fractional-dirichlet-domain-scale.md)
+- [Polar-coordinate Laplacian identity](polar-coordinate-laplacian-identity.md)
+- [Rotational commutator for the Laplacian](rotational-commutator-for-the-laplacian.md)
+- [Laplace equation](laplace-equation.md)
+  - [Harmonic Fourier expansions in planar concentric domains](harmonic-fourier-expansions-in-planar-concentric-domains.md)
+  - [Separated Laplace mode with a Robin edge](separated-laplace-mode-with-a-robin-edge.md)
+  - [Spherical harmonic matching with a derivative jump](spherical-harmonic-matching-with-a-derivative-jump.md)
+  - [Fourier solution of the strip Dirichlet problem](fourier-solution-of-the-strip-dirichlet-problem.md)
+  - [Harmonic matching across a circle with a derivative jump](harmonic-matching-across-a-circle-with-a-derivative-jump.md)
+  - [Zero-boundary harmonic function with pointwise vertical decay](zero-boundary-harmonic-function-with-pointwise-vertical-decay.md)
+  - [Exterior harmonic potential with no flux through a sphere](exterior-harmonic-potential-with-no-flux-through-a-sphere.md)
+  - [Green function of the Laplacian](green-function-of-the-laplacian.md)
+    - [Point-source potential with one compact spatial dimension](point-source-potential-with-one-compact-spatial-dimension.md)
+    - [Fundamental solution of the Laplace equation](fundamental-solution-of-the-laplace-equation.md)
+  - [Laplace equation in polar coordinates](laplace-equation-in-polar-coordinates.md)
+  - [Laplace equation in cylindrical coordinates](laplace-equation-in-cylindrical-coordinates.md)
+    - [Side boundary data do not determine a bounded harmonic function in a half-cylinder](side-boundary-data-do-not-determine-a-bounded-harmonic-function-in-a-half-cylinder.md)
+- [Radial Laplacian](radial-laplacian.md)
+- [Laplacian in spherical coordinates](laplacian-in-spherical-coordinates.md)
+  - [Axisymmetric harmonic function](axisymmetric-harmonic-function.md)
+- [Laplacian eigenfunction](laplacian-eigenfunction.md)
+  - [Laplacian eigenvalue](laplacian-eigenvalue.md)
+  - [Dirichlet Laplacian eigenfunction](dirichlet-laplacian-eigenfunction.md)
+    - [Dirichlet eigenfunction supremum estimate](dirichlet-eigenfunction-supremum-estimate.md)
+    - [Dirichlet Laplacian eigenvalue](dirichlet-laplacian-eigenvalue.md)
+
+## ↑ Ancestors (5)
+
+1. [Partial differential equation](partial-differential-equation-split.md)
+2. [Analysis](analysis-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (12)
+
+- [Continuous viscosity harmonic functions are classical](continuous-viscosity-harmonic-functions-are-classical.md)
+- [Green function of the Laplacian](green-function-of-the-laplacian.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-7/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-29/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-4/23h/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-327/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-309/3/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-107/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-201/3/d/solution.md)
+- [Potential theory](potential-theory.md)
+- [Schrödinger operator](schrodinger-operator.md)
+- [Weak Boltzmann collision identity](weak-boltzmann-collision-identity.md)

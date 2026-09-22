@@ -1,0 +1,35 @@
+<h1 id="1/e/solution">Solution</h1>
+
+↑ **Parent:** [E](../e.md)
+
+Rearranging part b expresses the last term as
+
+$$
+A_t^\epsilon:=\frac12\int_0^t
+\frac{\epsilon^2}{(\epsilon^2+B_s^2)^{3/2}}ds
+=f_\epsilon(B_t)-\epsilon-
+\int_0^t\frac{B_s}{\sqrt{\epsilon^2+B_s^2}}dB_s.
+$$
+
+Parts c and d, together with stability of ucp convergence under [addition](../../../../../../addition.md), show that
+
+$$
+A^\epsilon\xrightarrow{\mathrm{ucp}}
+A,
+\qquad
+A_t=|B_t|-\int_0^t\operatorname{sgn}(B_s)dB_s.
+$$
+
+## ↑ Ancestors (11)
+
+1. [E](../e.md)
+2. [1](../../1.md)
+3. [Paper 202](../../../paper-202-split.md)
+4. [Iii](../../../split.md)
+5. [2023](../../../../split.md)
+6. [Past exam of the mathematics course of the University of Cambridge](../../../../../split.md)
+7. [Mathematics course of the University of Cambridge](../../../../../../mathematics-course-of-the-university-of-cambridge.md)
+8. [Course of the University of Cambridge](../../../../../../course-of-the-university-of-cambridge.md)
+9. [University of Cambridge](../../../../../../university-of-cambridge-split.md)
+10. [List of universities](../../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../../split.md)

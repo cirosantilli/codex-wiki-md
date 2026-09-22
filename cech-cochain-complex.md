@@ -1,0 +1,63 @@
+<h1 id="cech-cochain-complex">Čech cochain complex</h1>
+
+↑ **Parent:** [Čech cohomology](cech-cohomology.md)
+
+The Čech cochain complex places sections on $(p+1)$-fold intersections in degree $p$ and uses the alternating sum of restriction maps as its differential.
+
+**Table of contents**
+
+- [Čech differential](cech-differential.md)
+- [Čech resolution on a semi-separated scheme](cech-resolution-on-a-semi-separated-scheme.md)
+- [Exactness of the unit-ideal localization Čech complex](exactness-of-the-unit-ideal-localization-cech-complex.md)
+- [Čech cochain group](cech-cochain-group.md)
+- [Čech cocycle condition](cech-cocycle-condition.md)
+- [Čech coboundary](cech-coboundary.md)
+
+## ↑ Ancestors (9)
+
+1. [Čech cohomology](cech-cohomology.md)
+2. [Sheaf cohomology](sheaf-cohomology.md)
+3. [Sheaf of modules](sheaf-of-modules.md)
+4. [Ringed space](ringed-space-split.md)
+5. [Algebraic geometry](algebraic-geometry-split.md)
+6. [Geometry and topology](geometry-and-topology-split.md)
+7. [Area of mathematics](area-of-mathematics.md)
+8. [Mathematics](mathematics-split.md)
+9. [Codex Wiki](split.md)
+
+## ← Incoming links (34)
+
+- [Acyclic direct image from an affine chart of the projective line](acyclic-direct-image-from-an-affine-chart-of-the-projective-line.md)
+- [Cartan theorem B](cartan-theorem-b.md)
+- [Čech cohomology of twists on the projective line](cech-cohomology-of-twists-on-the-projective-line.md)
+- [Čech lifting below the first possible local cohomology degree](cech-lifting-below-the-first-possible-local-cohomology-degree.md)
+- [Čech resolution on a semi-separated scheme](cech-resolution-on-a-semi-separated-scheme.md)
+- [Coherent cohomology](coherent-cohomology.md)
+- [Cohomological dimension bound from an affine cover](cohomological-dimension-bound-from-an-affine-cover.md)
+- [Cohomology of twists on projective space](cohomology-of-twists-on-projective-space.md)
+- [Cohomology under a closed immersion](cohomology-under-a-closed-immersion.md)
+- [Exactness of the unit-ideal localization Čech complex](exactness-of-the-unit-ideal-localization-cech-complex.md)
+- [Local cohomology of the affine plane supported at the origin](local-cohomology-of-the-affine-plane-supported-at-the-origin.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-4/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-15/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-80/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-80/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-80/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-80/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-23/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-23/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-16/5/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-16/5/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-13/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-13/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-16/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-118/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-118/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-113/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-113/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-113/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-113/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-113/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-113/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-113/4/a/solution.md)
+- [Two-affine cover of a smooth projective curve](two-affine-cover-of-a-smooth-projective-curve.md)

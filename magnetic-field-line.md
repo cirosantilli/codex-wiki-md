@@ -1,0 +1,61 @@
+# Magnetic field line
+
+↑ **Parent:** [Magnetic field](magnetic-field.md)
+
+A magnetic field line is an integral curve tangent to the [magnetic field](magnetic-field.md). In coordinates $x^i$, it obeys $dx^i/B^i=dx^j/B^j$ wherever the relevant components are nonzero.
+
+**Table of contents**
+
+- [Flux tube](flux-tube.md)
+  - [Flux-tube area](flux-tube-area.md)
+- [Magnetic-field-line equation](magnetic-field-line-equation.md)
+- [Magnetic dipole field](magnetic-dipole-field.md)
+  - [Dipole magnetic-field line](dipole-magnetic-field-line.md)
+    - [Dipolar flux-tube area](dipolar-flux-tube-area.md)
+
+## ↑ Ancestors (5)
+
+1. [Magnetic field](magnetic-field.md)
+2. [Electromagnetism](electromagnetism-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (36)
+
+- [Cartesian magnetic flux function](cartesian-magnetic-flux-function.md)
+- [Cross-helicity conservation law](cross-helicity-conservation-law.md)
+- [Ferraro's law of isorotation](ferraro-s-law-of-isorotation.md)
+- [Flux-surface preservation during magnetic-tube expansion](flux-surface-preservation-during-magnetic-tube-expansion.md)
+- [Flux tube](flux-tube.md)
+- [Interchange stability of an incompressible magnetized atmosphere](interchange-stability-of-an-incompressible-magnetized-atmosphere.md)
+- [Magnetic buoyancy instability](magnetic-buoyancy-instability.md)
+- [Magnetic island](magnetic-island.md)
+- [Magnetic reconnection](magnetic-reconnection.md)
+- [Parker instability](parker-instability.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-36/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-36/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-36/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-42/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-65/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-65/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-65/1/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-71/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-74/3/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-65/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-64/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-64/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-64/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-64/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-57/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-57/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-314/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-314/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-314/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-314/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-314/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-314/4/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-314/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-314/1/d/solution.md)
+- [Slow and entropy fluctuations in reduced magnetohydrodynamics](slow-and-entropy-fluctuations-in-reduced-magnetohydrodynamics.md)
+- [Steady planar ideal-MHD field-line invariants](steady-planar-ideal-mhd-field-line-invariants.md)

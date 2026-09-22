@@ -1,0 +1,62 @@
+# Elementary extension
+
+↑ **Parent:** [Model theory](model-theory.md)
+
+An [elementary extension](elementary-extension.md) is an extension preserving all first-order truth with parameters, hence giving [elementary equivalence](elementary-equivalence.md). An extension $N\supseteq M$ is elementary when every formula with parameters from $M$ has the same truth value in both structures.
+
+**Table of contents**
+
+- [Saturated model](saturated-model.md)
+  - [Omega-saturated model](omega-saturated-model.md)
+  - [Saturated elementary extension theorem](saturated-elementary-extension-theorem.md)
+  - [Countable saturation of a nonprincipal ultraproduct over omega](countable-saturation-of-a-nonprincipal-ultraproduct-over-omega.md)
+  - [Saturation implies homogeneity](saturation-implies-homogeneity.md)
+  - [Homogeneity plus realization of empty-set types implies saturation](homogeneity-plus-realization-of-empty-set-types-implies-saturation.md)
+  - [Universal model](universal-model.md)
+  - [Homogeneous model](homogeneous-model.md)
+  - [Universal homogeneous model is saturated](universal-homogeneous-model-is-saturated.md)
+  - [Small elementary submodel meeting every definable equivalence class](small-elementary-submodel-meeting-every-definable-equivalence-class.md)
+- [Elementary chain theorem](elementary-chain-theorem.md)
+  - [Directed limit of elementary embeddings](directed-limit-of-elementary-embeddings.md)
+- [Complete type](complete-type.md)
+  - [Algebraic type](algebraic-type.md)
+  - [Type space](type-space.md)
+    - [Stone topology on a type space](stone-topology-on-a-type-space.md)
+    - [Isolated type](isolated-type.md)
+      - [Density of isolated types from a prime model](density-of-isolated-types-from-a-prime-model.md)
+    - [Omitted type](omitted-type.md)
+      - [Omitting types theorem](omitting-types-theorem.md)
+        - [Henkin omission extension lemma](henkin-omission-extension-lemma.md)
+    - [Realization of a type in an elementary extension](realization-of-a-type-in-an-elementary-extension.md)
+    - [Total disconnectedness of a type space](total-disconnectedness-of-a-type-space.md)
+    - [One-types over the natural numbers in the rational order](one-types-over-the-natural-numbers-in-the-rational-order.md)
+  - [Aleph-zero-homogeneous model](aleph-zero-homogeneous-model.md)
+
+## ↑ Ancestors (5)
+
+1. [Model theory](model-theory.md)
+2. [Foundations of mathematics](foundations-of-mathematics-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (18)
+
+- [Ehrenfeucht-Mostowski theorem](ehrenfeucht-mostowski-theorem.md)
+- [Elementary extension](elementary-extension.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-21/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-21/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-23/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-23/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-19/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-19/7/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-25/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-25/7/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-25/8/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-26/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-25/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ii/paper-3/16h/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-23/5/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-135/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-144/3/b/solution.md)
+- [Saturated elementary extension theorem](saturated-elementary-extension-theorem.md)

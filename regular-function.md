@@ -1,0 +1,70 @@
+# Regular function
+
+↑ **Parent:** [Structure sheaf of a scheme](structure-sheaf-of-a-scheme.md)
+
+A regular function on an open subset $U$ of a [scheme](scheme.md) $X$ is a section of $\mathcal O_X(U)$. On an affine variety it is locally a quotient of polynomial functions with a denominator that does not vanish.
+
+On a variety, a regular function is a [regular map](morphism-of-algebraic-varieties.md) to the [affine line](affine-line.md); the arbitrary-target regular-map concept is broader.
+
+**Table of contents**
+
+- [Global regular function](global-regular-function.md)
+  - [Global regular functions on an irreducible projective variety](global-regular-functions-on-an-irreducible-projective-variety.md)
+  - [Regular functions on the punctured affine plane](regular-functions-on-the-punctured-affine-plane.md)
+
+## ↑ Ancestors (9)
+
+1. [Structure sheaf of a scheme](structure-sheaf-of-a-scheme.md)
+2. [Scheme](scheme.md)
+3. [Locally ringed space](locally-ringed-space.md)
+4. [Ringed space](ringed-space-split.md)
+5. [Algebraic geometry](algebraic-geometry-split.md)
+6. [Geometry and topology](geometry-and-topology-split.md)
+7. [Area of mathematics](area-of-mathematics.md)
+8. [Mathematics](mathematics-split.md)
+9. [Codex Wiki](split.md)
+
+## ← Incoming links (42)
+
+- [Affineness from a unit-ideal principal affine cover](affineness-from-a-unit-ideal-principal-affine-cover.md)
+- [Codimension-two extension of regular functions on a normal variety](codimension-two-extension-of-regular-functions-on-a-normal-variety.md)
+- [Coprime elements of a unique factorization domain](coprime-elements-of-a-unique-factorization-domain.md)
+- [Generic-point embedding of regular functions](generic-point-embedding-of-regular-functions.md)
+- [Global regular functions on an irreducible projective variety](global-regular-functions-on-an-irreducible-projective-variety.md)
+- [Global regular functions on projective space](global-regular-functions-on-projective-space.md)
+- [Ideal sheaf of two closed points](ideal-sheaf-of-two-closed-points.md)
+- [Localization of global sections on a principal open](localization-of-global-sections-on-a-principal-open.md)
+- [Minor (linear algebra)](minor-linear-algebra.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-14/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-17/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-17/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-17/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-21/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-21/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-21/5/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-23/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-21/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-21/5/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-4/23g/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-4/23g/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-16/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-16/5/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-13/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-13/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-5/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-5/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-13/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-16/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-16/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-1/24i/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-1/24i/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-1/24i/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-4/23i/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-113/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-113/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-113/2/b/solution.md)
+- [Principal hypersurface dimension lemma](principal-hypersurface-dimension-lemma.md)
+- [Rational extension from SL to GL](rational-extension-from-sl-to-gl.md)
+- [Rational representation](rational-representation.md)
+- [Ring of rational functions on a reduced variety](ring-of-rational-functions-on-a-reduced-variety.md)
+- [Structure sheaf of a scheme](structure-sheaf-of-a-scheme.md)

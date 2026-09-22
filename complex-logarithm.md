@@ -1,0 +1,61 @@
+# Complex logarithm
+
+↑ **Parent:** [Analysis](analysis-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Complex_logarithm)
+
+For $z=re^{i\theta}\ne0$, the complex logarithm has the values $\log r+i(\theta+2\pi k)$ for $k\in\mathbb Z$.
+
+**Table of contents**
+
+- [Logarithmic singularity](logarithmic-singularity.md)
+- [Branch of the complex logarithm](branch-of-the-complex-logarithm.md)
+  - [Principal complex logarithm](principal-complex-logarithm.md)
+    - [Bounds for the principal logarithm near one](bounds-for-the-principal-logarithm-near-one.md)
+- [Analytic branch of a square root](analytic-branch-of-a-square-root.md)
+  - [Principal square root of a complex number](principal-square-root-of-a-complex-number.md)
+- [Complex exponentiation](complex-exponentiation.md)
+  - [Principal cube root](principal-cube-root.md)
+  - [De Moivre's theorem](de-moivre-s-theorem.md)
+- [Analytic logarithm on the positive-axis slit plane](analytic-logarithm-on-the-positive-axis-slit-plane.md)
+  - [Positive-axis keyhole beta integral](positive-axis-keyhole-beta-integral.md)
+
+## ↑ Ancestors (4)
+
+1. [Analysis](analysis-split.md)
+2. [Area of mathematics](area-of-mathematics.md)
+3. [Mathematics](mathematics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (31)
+
+- [Continuous logarithm lifting criterion](continuous-logarithm-lifting-criterion.md)
+- [Dilogarithm](dilogarithm.md)
+- [Exponential form of Lévy characteristic functions](exponential-form-of-levy-characteristic-functions.md)
+- [Harmonic angle and logarithmic radius](harmonic-angle-and-logarithmic-radius.md)
+- [Logarithmic martingale for SLE4](logarithmic-martingale-for-sle4.md)
+- [Neutral-mode critical-layer matching](neutral-mode-critical-layer-matching.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-7/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ia/paper-1/5c/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ia/paper-1/5c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-7/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ib/paper-3/5f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-79/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-12/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ia/paper-1/1c/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-31/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ia/paper-1/1c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ia/paper-2/8a/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/ia/paper-1/1c/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-78/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-82/1/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-24/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-29/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ii/paper-2/6b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-72/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ib/paper-1/2a/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-2/13b/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-201/6/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ia/paper-1/1c/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ib/paper-3/13g/solution.md)
+- [Scale-periodic harmonic function from an elliptic function](scale-periodic-harmonic-function-from-an-elliptic-function.md)
+- [Weak law forces a characteristic-function derivative](weak-law-forces-a-characteristic-function-derivative.md)

@@ -1,0 +1,47 @@
+# Relator
+
+↑ **Parent:** [Group presentation](group-presentation.md)
+
+A relator is a word in the generators of a [free group](free-group.md) that is imposed as the identity in a [group presentation](group-presentation.md).
+
+## ↑ Ancestors (6)
+
+1. [Group presentation](group-presentation.md)
+2. [Geometric group theory](geometric-group-theory-split.md)
+3. [Geometry and topology](geometry-and-topology-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (30)
+
+- [Dehn algorithm](dehn-algorithm.md)
+- [Dehn functions under a change of finite presentation](dehn-functions-under-a-change-of-finite-presentation.md)
+- [Dehn presentation](dehn-presentation.md)
+- [Exponential growth of the ternary affine Baumslag-Solitar group](exponential-growth-of-the-ternary-affine-baumslag-solitar-group.md)
+- [Finite presentation from a synchronous combing](finite-presentation-from-a-synchronous-combing.md)
+- [Four-manifold realization of finitely presented groups](four-manifold-realization-of-finitely-presented-groups.md)
+- [Free presentation](free-presentation.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-5/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-5/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-5/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-5/3/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-5/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-5/4/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-5/5/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-2/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-2/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-16/1/1/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-16/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-133/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-133/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-133/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-133/4/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-141/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-141/3/c/solution.md)
+- [Piece in small cancellation theory](piece-in-small-cancellation-theory.md)
+- [Recursive area bounds and the word problem](recursive-area-bounds-and-the-word-problem.md)
+- [Small cancellation theory](small-cancellation-theory.md)
+- [Symmetrized relator set](symmetrized-relator-set.md)
+- [Torsion conjugacy bound for a Dehn presentation](torsion-conjugacy-bound-for-a-dehn-presentation.md)
+- [van Kampen lemma](van-kampen-lemma.md)

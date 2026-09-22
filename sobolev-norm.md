@@ -1,0 +1,45 @@
+# Sobolev norm
+
+↑ **Parent:** [Sobolev space](sobolev-space-split.md)
+
+For $1\leq p<\infty$, an inhomogeneous [Sobolev space](sobolev-space-split.md) [norm](norm.md) is $\|u\|_{W^{k,p}(D)}=(\sum_{|\alpha|\leq k}\|D^\alpha u\|_{L^p(D)}^p)^{1/p}$, using [weak derivatives](weak-derivative.md). In particular, $\|u\|_{H^1(D)}^2=\int_D(|u|^2+|\nabla u|^2)$. The [gradient](gradient.md) seminorm alone defines a different completion, the [Dirichlet energy space](dirichlet-energy-space.md), unless a suitable [Poincaré inequality](poincare-inequality.md) makes the two norms equivalent on the chosen zero-boundary space.
+
+## ↑ Ancestors (6)
+
+1. [Sobolev space](sobolev-space-split.md)
+2. [Functional analysis](functional-analysis-split.md)
+3. [Analysis](analysis-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (28)
+
+- [Clamped interval derivative norm bound](clamped-interval-derivative-norm-bound.md)
+- [Conformal invariance of the planar Dirichlet inner product](conformal-invariance-of-the-planar-dirichlet-inner-product.md)
+- [Forced Airy boundary-value problem](forced-airy-boundary-value-problem.md)
+- [H2 bound for the defocusing cubic wave equation](h2-bound-for-the-defocusing-cubic-wave-equation.md)
+- [Interval Sobolev supremum estimate](interval-sobolev-supremum-estimate.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-10/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-10/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-13/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-13/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-13/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-88/5/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-12/6/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-72/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-69/1/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-7/2/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ii/paper-4/29e/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-10/2/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-10/4/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-10/4/7/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-5/3/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-5/3/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-105/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-203/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-203/2/d/solution.md)
+- [Second-derivative estimate at a flat Dirichlet boundary](second-derivative-estimate-at-a-flat-dirichlet-boundary.md)
+- [Small data global regularity for wave maps](small-data-global-regularity-for-wave-maps.md)
+- [Sobolev interpolation inequality](sobolev-interpolation-inequality.md)
+- [Tame Sobolev product estimate](tame-sobolev-product-estimate.md)

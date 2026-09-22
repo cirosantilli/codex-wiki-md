@@ -1,0 +1,5455 @@
+# Statistical modelling
+
+↑ **Parent:** [Statistical model](statistical-model.md)
+
+Statistical modelling constructs, fits, checks, and interprets a [statistical model](statistical-model.md) for observed data.
+
+**Table of contents**
+
+- [Regression analysis](#regression-analysis)
+- [Mark and recapture](#mark-and-recapture)
+  - [Capture-recapture model](#capture-recapture-model)
+    - [Missing-count EM for capture-recapture](#missing-count-em-for-capture-recapture)
+- [Nonlinear regression](#nonlinear-regression)
+- [Outlier](#outlier)
+- [Regression to the mean](#regression-to-the-mean)
+- [Response variable](#response-variable)
+- [Scientific control](#scientific-control)
+- [Design of experiments](#design-of-experiments)
+  - [Optimal experimental design](#optimal-experimental-design)
+    - [General equivalence theorem for optimal design](#general-equivalence-theorem-for-optimal-design)
+    - [G-optimal design](#g-optimal-design)
+    - [D-optimal design](#d-optimal-design)
+    - [Approximate experimental design](#approximate-experimental-design)
+      - [Information matrix of an experimental design](#information-matrix-of-an-experimental-design)
+        - [Design sensitivity function](#design-sensitivity-function)
+  - [Latin square](#latin-square)
+    - [Analysis of variance for a Latin square](#analysis-of-variance-for-a-latin-square)
+    - [Mutually orthogonal Latin squares](#mutually-orthogonal-latin-squares)
+      - [Graeco-Latin square](#graeco-latin-square)
+  - [Contrast (statistics)](#contrast-statistics)
+  - [Response surface methodology](#response-surface-methodology)
+    - [Center-point curvature contrast](#center-point-curvature-contrast)
+    - [Steepest ascent in response surface methodology](#steepest-ascent-in-response-surface-methodology)
+    - [Coded experimental variable](#coded-experimental-variable)
+    - [Rotatable design](#rotatable-design)
+    - [Central composite design](#central-composite-design)
+  - [Split-plot design](#split-plot-design)
+  - [Factorial design](#factorial-design)
+    - [Main effect](#main-effect)
+    - [Factorial contrast](#factorial-contrast)
+    - [Fractional factorial design](#fractional-factorial-design)
+      - [Resolution of a fractional factorial design](#resolution-of-a-fractional-factorial-design)
+      - [Defining contrast subgroup](#defining-contrast-subgroup)
+        - [Aliasing in a fractional factorial design](#aliasing-in-a-fractional-factorial-design)
+  - [Crossover design](#crossover-design)
+    - [Carryover effect](#carryover-effect)
+  - [Completely randomized design](#completely-randomized-design)
+  - [Blocks in experimental design](#blocks-in-experimental-design)
+    - [Estimability from within-block differences](#estimability-from-within-block-differences)
+    - [Block confounding in a factorial design](#block-confounding-in-a-factorial-design)
+    - [Block design](#block-design)
+      - [Balanced incomplete block design](#balanced-incomplete-block-design)
+        - [Symmetric balanced incomplete block design](#symmetric-balanced-incomplete-block-design)
+          - [Even-order symmetric design square obstruction](#even-order-symmetric-design-square-obstruction)
+        - [Fisher's inequality for block designs](#fisher-s-inequality-for-block-designs)
+      - [Row-column design](#row-column-design)
+      - [Randomized complete block design](#randomized-complete-block-design)
+      - [Orthogonal block design](#orthogonal-block-design)
+  - [Replication in experimental design](#replication-in-experimental-design)
+    - [Replicate](#replicate)
+  - [Experimental unit](#experimental-unit)
+    - [Observational unit](#observational-unit)
+- [Fractional polynomial](#fractional-polynomial)
+- [Restricted cubic spline](#restricted-cubic-spline)
+- [Quantile regression](#quantile-regression)
+  - [Conditional quantile identification](#conditional-quantile-identification)
+  - [Check loss](#check-loss)
+    - [Population quantiles minimize check loss](#population-quantiles-minimize-check-loss)
+- [Observed heterogeneity](#observed-heterogeneity)
+- [Pairwise comparison model](#pairwise-comparison-model)
+  - [Bradley-Terry model](#bradley-terry-model)
+    - [Bradley-Terry score equation](#bradley-terry-score-equation)
+      - [Bradley-Terry maximum-likelihood estimate on a comparison tree](#bradley-terry-maximum-likelihood-estimate-on-a-comparison-tree)
+        - [Bradley-Terry maximum-likelihood estimate on a path](#bradley-terry-maximum-likelihood-estimate-on-a-path)
+        - [Edge log-ratios in a Bradley-Terry comparison tree](#edge-log-ratios-in-a-bradley-terry-comparison-tree)
+      - [Three-player Bradley-Terry comparison cycle](#three-player-bradley-terry-comparison-cycle)
+      - [Bradley-Terry likelihood Hessian](#bradley-terry-likelihood-hessian)
+- [Fixed effect](#fixed-effect)
+- [Geostatistics](#geostatistics)
+  - [Kriging](#kriging)
+    - [Universal kriging](#universal-kriging)
+    - [Ordinary kriging](#ordinary-kriging)
+    - [Simple kriging](#simple-kriging)
+  - [Covariogram](#covariogram)
+  - [Intrinsically stationary random field](#intrinsically-stationary-random-field)
+    - [Semivariogram](#semivariogram)
+      - [Empirical semivariogram](#empirical-semivariogram)
+      - [Range of a semivariogram](#range-of-a-semivariogram)
+        - [Practical range](#practical-range)
+      - [Sill of a semivariogram](#sill-of-a-semivariogram)
+      - [Nugget effect](#nugget-effect)
+      - [A semivariogram does not determine stationarity](#a-semivariogram-does-not-determine-stationarity)
+      - [Gaussian semivariogram](#gaussian-semivariogram)
+- [Saturated statistical model](#saturated-statistical-model)
+  - [Bernoulli saturated log-likelihood](#bernoulli-saturated-log-likelihood)
+- [Hurdle model](#hurdle-model)
+- [Zero inflation](#zero-inflation)
+  - [Count-mixture structural zero](#count-mixture-structural-zero)
+  - [Zero-inflated negative binomial model](#zero-inflated-negative-binomial-model)
+    - [Shared zero-inflated Gamma-Poisson count model](#shared-zero-inflated-gamma-poisson-count-model)
+      - [Mean-ratio preservation under a multiplicative random effect](#mean-ratio-preservation-under-a-multiplicative-random-effect)
+    - [EM for zero-inflated negative binomial regression](#em-for-zero-inflated-negative-binomial-regression)
+- [Estimator](#estimator)
+  - [Method of moments (statistics)](#method-of-moments-statistics)
+  - [U-statistic](#u-statistic)
+    - [Influence function of a U-statistic](#influence-function-of-a-u-statistic)
+    - [Kernel of a U-statistic](#kernel-of-a-u-statistic)
+    - [Variance as a U-statistic](#variance-as-a-u-statistic)
+    - [Symmetrization of a U-statistic kernel](#symmetrization-of-a-u-statistic-kernel)
+    - [U-statistic central limit theorem](#u-statistic-central-limit-theorem)
+      - [Hoeffding projection](#hoeffding-projection)
+- [Categorical variable](#categorical-variable)
+  - [Regression factor](#regression-factor)
+  - [Ordinal categorical variable](#ordinal-categorical-variable)
+  - [Indicator variable](#indicator-variable)
+- [Latent variable](#latent-variable)
+  - [Unobserved heterogeneity](#unobserved-heterogeneity)
+  - [Factor analysis](#factor-analysis)
+    - [Latent factor](#latent-factor)
+    - [Orthogonal factor model](#orthogonal-factor-model)
+      - [Factor rotation](#factor-rotation)
+        - [Varimax rotation](#varimax-rotation)
+      - [Communality](#communality)
+      - [Factor loading](#factor-loading)
+    - [EM update for a single-factor Gaussian model](#em-update-for-a-single-factor-gaussian-model)
+  - [Random effect](#random-effect)
+    - [Poisson-lognormal random-effect model](#poisson-lognormal-random-effect-model)
+    - [Crossed random effects](#crossed-random-effects)
+    - [Random slope](#random-slope)
+      - [Between-person slope quantile](#between-person-slope-quantile)
+      - [Random-slope linear mixed model](#random-slope-linear-mixed-model)
+  - [Expectation-maximization algorithm](#expectation-maximization-algorithm)
+    - [Ordered-rate exponential M-step](#ordered-rate-exponential-m-step)
+    - [EM for merged multinomial cells](#em-for-merged-multinomial-cells)
+    - [EM for an independent missing normal coordinate](#em-for-an-independent-missing-normal-coordinate)
+    - [EM transition-count update on a tree](#em-transition-count-update-on-a-tree)
+    - [EM for a missing observation in a Gaussian AR1 process](#em-for-a-missing-observation-in-a-gaussian-ar1-process)
+    - [EM likelihood monotonicity](#em-likelihood-monotonicity)
+- [Functional data analysis](#functional-data-analysis)
+  - [Functional time warping](#functional-time-warping)
+    - [Square-root velocity function](#square-root-velocity-function)
+  - [Functional principal component analysis](#functional-principal-component-analysis)
+    - [Principal component function](#principal-component-function)
+    - [Functional principal component score](#functional-principal-component-score)
+    - [Karhunen–Loève expansion](#karhunen-loeve-expansion)
+      - [Brownian half-integer sine expansion](#brownian-half-integer-sine-expansion)
+  - [Functional mean test](#functional-mean-test)
+    - [FPCA mean test](#fpca-mean-test)
+      - [Two-sample FPCA mean statistic](#two-sample-fpca-mean-statistic)
+  - [Covariance-operator distance](#covariance-operator-distance)
+    - [Hilbert-Schmidt distance between covariance operators](#hilbert-schmidt-distance-between-covariance-operators)
+    - [Square-root distance between covariance operators](#square-root-distance-between-covariance-operators)
+      - [Square-root barycenter of covariance operators](#square-root-barycenter-of-covariance-operators)
+    - [Procrustes distance between covariance operators](#procrustes-distance-between-covariance-operators)
+  - [Functional linear model](#functional-linear-model)
+    - [Scalar-on-function linear model](#scalar-on-function-linear-model)
+      - [Roughness penalty matrix](#roughness-penalty-matrix)
+    - [Function-on-function linear model](#function-on-function-linear-model)
+      - [Cross-covariance operator](#cross-covariance-operator)
+- [Goodness of fit](#goodness-of-fit)
+  - [Goodness-of-fit test](#goodness-of-fit-test)
+- [Contingency table](#contingency-table)
+  - [Two-by-two contingency table](#two-by-two-contingency-table)
+- [Mixture model](#mixture-model)
+  - [Threshold inference for a mixture proportion](#threshold-inference-for-a-mixture-proportion)
+  - [Gaussian scale mixture](#gaussian-scale-mixture)
+    - [Rayleigh-normal scale mixture](#rayleigh-normal-scale-mixture)
+  - [Finite mixture model](#finite-mixture-model)
+    - [Label switching](#label-switching)
+    - [Gaussian mixture Gibbs updates with independent priors](#gaussian-mixture-gibbs-updates-with-independent-priors)
+    - [Mixture responsibility](#mixture-responsibility)
+    - [Finite Gaussian mixture with a common variance](#finite-gaussian-mixture-with-a-common-variance)
+      - [Mixture regression with shared slopes](#mixture-regression-with-shared-slopes)
+      - [Residual mixture clustering](#residual-mixture-clustering)
+        - [Two-stage residual mixture fitting](#two-stage-residual-mixture-fitting)
+      - [EM for Gaussian mixtures with a common variance](#em-for-gaussian-mixtures-with-a-common-variance)
+    - [Mixture weight](#mixture-weight)
+  - [Dirichlet process mixture model](#dirichlet-process-mixture-model)
+- [Latent-variable model](#latent-variable-model)
+- [Statistical learning](statistical-learning.md)
+  - [Unsupervised learning](statistical-learning.md#unsupervised-learning)
+    - [Multidimensional scaling](statistical-learning.md#multidimensional-scaling)
+      - [Classical multidimensional scaling](statistical-learning.md#classical-multidimensional-scaling)
+        - [Euclidean distance matrix criterion](statistical-learning.md#euclidean-distance-matrix-criterion)
+    - [Sparse coding](statistical-learning.md#sparse-coding)
+    - [Hebbian learning](statistical-learning.md#hebbian-learning)
+      - [Quartic norm stabilization of Hebbian learning](statistical-learning.md#quartic-norm-stabilization-of-hebbian-learning)
+      - [Oja's rule](statistical-learning.md#oja-s-rule)
+        - [Stability and normalization of averaged Oja learning](statistical-learning.md#stability-and-normalization-of-averaged-oja-learning)
+  - [Cluster analysis](statistical-learning.md#cluster-analysis)
+    - [Cluster in cluster analysis](statistical-learning.md#cluster-in-cluster-analysis)
+    - [K-means clustering](statistical-learning.md#k-means-clustering)
+    - [Jaccard index](statistical-learning.md#jaccard-index)
+      - [Jaccard distance](statistical-learning.md#jaccard-distance)
+    - [Dissimilarity matrix](statistical-learning.md#dissimilarity-matrix)
+    - [Simple matching coefficient](statistical-learning.md#simple-matching-coefficient)
+      - [Metric property of simple matching dissimilarity](statistical-learning.md#metric-property-of-simple-matching-dissimilarity)
+    - [Agglomerative hierarchical clustering](statistical-learning.md#agglomerative-hierarchical-clustering)
+      - [Ward minimum-variance clustering](statistical-learning.md#ward-minimum-variance-clustering)
+      - [Average-linkage clustering](statistical-learning.md#average-linkage-clustering)
+      - [Agglomerative clustering of nonmetric dissimilarities](statistical-learning.md#agglomerative-clustering-of-nonmetric-dissimilarities)
+      - [Dendrogram](statistical-learning.md#dendrogram)
+      - [Complete-linkage clustering](statistical-learning.md#complete-linkage-clustering)
+      - [Single-linkage clustering](statistical-learning.md#single-linkage-clustering)
+  - [Validation set](statistical-learning.md#validation-set)
+    - [Test set](statistical-learning.md#test-set)
+  - [Prediction error](statistical-learning.md#prediction-error)
+    - [Test error](statistical-learning.md#test-error)
+    - [Mean squared prediction error](statistical-learning.md#mean-squared-prediction-error)
+  - [Training error](statistical-learning.md#training-error)
+    - [Prediction optimism](statistical-learning.md#prediction-optimism)
+      - [Covariance formula for prediction optimism](statistical-learning.md#covariance-formula-for-prediction-optimism)
+  - [Data leakage](statistical-learning.md#data-leakage)
+  - [Dataset shift](statistical-learning.md#dataset-shift)
+  - [Regression function](statistical-learning.md#regression-function)
+  - [Principal component analysis](statistical-learning.md#principal-component-analysis)
+    - [Principal component regression](statistical-learning.md#principal-component-regression)
+    - [Scree plot](statistical-learning.md#scree-plot)
+    - [Principal component loading](statistical-learning.md#principal-component-loading)
+    - [Principal component](statistical-learning.md#principal-component)
+      - [Principal component score](statistical-learning.md#principal-component-score)
+    - [Explained variance of a principal component](statistical-learning.md#explained-variance-of-a-principal-component)
+    - [Principal component analysis on a correlation matrix](statistical-learning.md#principal-component-analysis-on-a-correlation-matrix)
+    - [Population principal component](statistical-learning.md#population-principal-component)
+    - [Sample principal component](statistical-learning.md#sample-principal-component)
+      - [Normalized sample principal component](statistical-learning.md#normalized-sample-principal-component)
+  - [Classification in statistical learning](statistical-learning.md#classification-in-statistical-learning)
+    - [Misclassification rate](statistical-learning.md#misclassification-rate)
+    - [Classification tree](statistical-learning.md#classification-tree)
+      - [Cost-complexity tree pruning](statistical-learning.md#cost-complexity-tree-pruning)
+      - [Classification-tree deviance](statistical-learning.md#classification-tree-deviance)
+    - [Binary classification](statistical-learning.md#binary-classification)
+      - [False positive rate](statistical-learning.md#false-positive-rate)
+    - [Decision boundary](statistical-learning.md#decision-boundary)
+      - [Bayes decision boundary](statistical-learning.md#bayes-decision-boundary)
+    - [Majority vote](statistical-learning.md#majority-vote)
+    - [Confusion matrix](statistical-learning.md#confusion-matrix)
+    - [Classification and regression tree](statistical-learning.md#classification-and-regression-tree)
+      - [Recursive partitioning](statistical-learning.md#recursive-partitioning)
+        - [Surrogate split](statistical-learning.md#surrogate-split)
+      - [Gini impurity](statistical-learning.md#gini-impurity)
+      - [Random forest](statistical-learning.md#random-forest)
+        - [Out-of-bag error](statistical-learning.md#out-of-bag-error)
+    - [Conditional class probability](statistical-learning.md#conditional-class-probability)
+    - [Risk consistency](statistical-learning.md#risk-consistency)
+    - [K-nearest neighbors algorithm](statistical-learning.md#k-nearest-neighbors-algorithm)
+      - [Bias and variance of a three-neighbour weighted smoother](statistical-learning.md#bias-and-variance-of-a-three-neighbour-weighted-smoother)
+      - [One-nearest-neighbour classifier](statistical-learning.md#one-nearest-neighbour-classifier)
+        - [One-nearest-neighbour asymptotic risk](statistical-learning.md#one-nearest-neighbour-asymptotic-risk)
+          - [Bayes risk bound for one-nearest-neighbour classification](statistical-learning.md#bayes-risk-bound-for-one-nearest-neighbour-classification)
+      - [Feature-measurable nearest-neighbour tie-breaking](statistical-learning.md#feature-measurable-nearest-neighbour-tie-breaking)
+      - [L-nearest-neighbour classifier](statistical-learning.md#l-nearest-neighbour-classifier)
+        - [One-nearest-neighbour classification](statistical-learning.md#one-nearest-neighbour-classification)
+    - [Plug-in classifier excess-risk bound](statistical-learning.md#plug-in-classifier-excess-risk-bound)
+    - [Support vector machine](statistical-learning.md#support-vector-machine)
+      - [Kernel support vector machine](statistical-learning.md#kernel-support-vector-machine)
+      - [Soft-margin support vector machine](statistical-learning.md#soft-margin-support-vector-machine)
+        - [Kernel support-vector coefficient from hinge activity](statistical-learning.md#kernel-support-vector-coefficient-from-hinge-activity)
+        - [Support-vector leave-one-out error bound](statistical-learning.md#support-vector-leave-one-out-error-bound)
+        - [Dual support vectors and margin degeneracy](statistical-learning.md#dual-support-vectors-and-margin-degeneracy)
+      - [Separating hyperplane](statistical-learning.md#separating-hyperplane)
+      - [Slack variables of a support vector machine](statistical-learning.md#slack-variables-of-a-support-vector-machine)
+      - [Support-vector-machine decision boundary](statistical-learning.md#support-vector-machine-decision-boundary)
+      - [Support-vector-machine margin](statistical-learning.md#support-vector-machine-margin)
+        - [Support-vector-machine margin boundaries](statistical-learning.md#support-vector-machine-margin-boundaries)
+      - [Support vector](statistical-learning.md#support-vector)
+    - [Perceptron](statistical-learning.md#perceptron)
+  - [Cross-validation](statistical-learning.md#cross-validation)
+    - [Biased cross-validation for density bandwidth](statistical-learning.md#biased-cross-validation-for-density-bandwidth)
+    - [Least-squares cross-validation for density bandwidth](statistical-learning.md#least-squares-cross-validation-for-density-bandwidth)
+    - [Generalized cross-validation](statistical-learning.md#generalized-cross-validation)
+    - [Leave-one-out cross-validation](statistical-learning.md#leave-one-out-cross-validation)
+      - [Leave-one-out residual identity for a linear smoother](statistical-learning.md#leave-one-out-residual-identity-for-a-linear-smoother)
+    - [K-fold cross-validation](statistical-learning.md#k-fold-cross-validation)
+  - [Neural network](statistical-learning.md#neural-network)
+    - [Binary threshold unit](statistical-learning.md#binary-threshold-unit)
+    - [Activation function](statistical-learning.md#activation-function)
+    - [Hopfield network](statistical-learning.md#hopfield-network)
+      - [Asynchronous Hopfield energy descent](statistical-learning.md#asynchronous-hopfield-energy-descent)
+      - [Hebbian memory weights for a Hopfield network](statistical-learning.md#hebbian-memory-weights-for-a-hopfield-network)
+    - [Feedforward neural network](statistical-learning.md#feedforward-neural-network)
+      - [Four-input parity network](statistical-learning.md#four-input-parity-network)
+      - [Hidden unit](statistical-learning.md#hidden-unit)
+      - [Backpropagation](statistical-learning.md#backpropagation)
+        - [Squared-error backpropagation](statistical-learning.md#squared-error-backpropagation)
+        - [Sigmoid-softmax network gradients](statistical-learning.md#sigmoid-softmax-network-gradients)
+    - [Sigmoid function](statistical-learning.md#sigmoid-function)
+      - [Logistic function](statistical-learning.md#logistic-function)
+    - [Rectified linear unit](statistical-learning.md#rectified-linear-unit)
+    - [Gaussian error linear unit](statistical-learning.md#gaussian-error-linear-unit)
+    - [Softmax function](statistical-learning.md#softmax-function)
+      - [Softmax non-identifiability](statistical-learning.md#softmax-non-identifiability)
+      - [Categorical cross-entropy loss](statistical-learning.md#categorical-cross-entropy-loss)
+  - [Overfitting](statistical-learning.md#overfitting)
+  - [Regularization](statistical-learning.md#regularization)
+    - [Penalized least squares](statistical-learning.md#penalized-least-squares)
+      - [Penalized least-squares estimator](statistical-learning.md#penalized-least-squares-estimator)
+        - [Basic inequality for a penalized least-squares estimator](statistical-learning.md#basic-inequality-for-a-penalized-least-squares-estimator)
+    - [Roughness penalty](statistical-learning.md#roughness-penalty)
+    - [Early stopping](statistical-learning.md#early-stopping)
+- [Sampling distribution](#sampling-distribution)
+- [Unbiased estimator](#unbiased-estimator)
+  - [Unbiased endpoint estimator for a shifted exponential sample](#unbiased-endpoint-estimator-for-a-shifted-exponential-sample)
+  - [Uniformly minimum-variance unbiased estimator](#uniformly-minimum-variance-unbiased-estimator)
+  - [Conditionally unbiased estimator](#conditionally-unbiased-estimator)
+    - [Uniform minimum variance conditionally unbiased estimator](#uniform-minimum-variance-conditionally-unbiased-estimator)
+  - [Linear unbiased estimator](#linear-unbiased-estimator)
+    - [Best linear unbiased estimator](#best-linear-unbiased-estimator)
+    - [Correlated Gaussian common-mean estimator](#correlated-gaussian-common-mean-estimator)
+    - [Inverse-variance weighted mean](#inverse-variance-weighted-mean)
+      - [Inverse-variance weight](#inverse-variance-weight)
+- [Bias of an estimator](#bias-of-an-estimator)
+- [Variance of an estimator](#variance-of-an-estimator)
+  - [Asymptotic variance](#asymptotic-variance)
+  - [Bias-variance tradeoff](#bias-variance-tradeoff)
+- [Homoskedasticity](#homoskedasticity)
+- [Homoscedasticity and heteroscedasticity](#homoscedasticity-and-heteroscedasticity)
+  - [Heteroscedastic](#heteroscedastic)
+- [Logarithmic transformation](#logarithmic-transformation)
+  - [Gaussian log-response model](#gaussian-log-response-model)
+  - [Retransformation bias](#retransformation-bias)
+- [Power transform](#power-transform)
+  - [Box–Cox transformation](#box-cox-transformation)
+    - [Bias correction after an inverse transformation](#bias-correction-after-an-inverse-transformation)
+- [Residual degrees of freedom](#residual-degrees-of-freedom)
+- [Model selection](#model-selection)
+  - [Deviance information criterion](#deviance-information-criterion)
+    - [Effective parameter count in DIC](#effective-parameter-count-in-dic)
+      - [Quadratic posterior deviance moments](#quadratic-posterior-deviance-moments)
+  - [Variable selection](#variable-selection)
+  - [Nonregular mixture model selection](#nonregular-mixture-model-selection)
+  - [Akaike information criterion](#akaike-information-criterion)
+    - [Stepwise selection by the Akaike information criterion](#stepwise-selection-by-the-akaike-information-criterion)
+      - [AIC deletion threshold in a normal linear model](#aic-deletion-threshold-in-a-normal-linear-model)
+    - [Distribution of the Akaike information criterion in a normal linear model](#distribution-of-the-akaike-information-criterion-in-a-normal-linear-model)
+    - [Mallows's Cp](#mallows-s-cp)
+      - [Bias-variance decomposition for linear prediction](#bias-variance-decomposition-for-linear-prediction)
+      - [Unbiased prediction-error identity for ordinary least squares](#unbiased-prediction-error-identity-for-ordinary-least-squares)
+  - [Bayesian information criterion](#bayesian-information-criterion)
+- [Shape parameter](#shape-parameter)
+- [Precision parameter](#precision-parameter)
+- [Exponential family](exponential-family.md)
+  - [Curved exponential family](exponential-family.md#curved-exponential-family)
+    - [Conditional scale density in a curved Gaussian family](exponential-family.md#conditional-scale-density-in-a-curved-gaussian-family)
+  - [Minimal exponential family](exponential-family.md#minimal-exponential-family)
+  - [Natural exponential family](exponential-family.md#natural-exponential-family)
+    - [Convex support of an exponential family](exponential-family.md#convex-support-of-an-exponential-family)
+    - [Regular natural exponential family](exponential-family.md#regular-natural-exponential-family)
+    - [Full natural exponential family](exponential-family.md#full-natural-exponential-family)
+      - [Maximum likelihood existence in a full regular natural exponential family](exponential-family.md#maximum-likelihood-existence-in-a-full-regular-natural-exponential-family)
+  - [Normal natural-mean parameter ratio estimator](exponential-family.md#normal-natural-mean-parameter-ratio-estimator)
+  - [Log-density domination in an exponential family](exponential-family.md#log-density-domination-in-an-exponential-family)
+  - [Conjugate prior](exponential-family.md#conjugate-prior)
+    - [Normal-gamma distribution](exponential-family.md#normal-gamma-distribution)
+    - [Gamma rate gamma conjugacy](exponential-family.md#gamma-rate-gamma-conjugacy)
+    - [Uniform-Pareto conjugacy](exponential-family.md#uniform-pareto-conjugacy)
+      - [Uniform-Pareto model evidence](exponential-family.md#uniform-pareto-model-evidence)
+    - [Gamma scale inverse-gamma conjugacy](exponential-family.md#gamma-scale-inverse-gamma-conjugacy)
+      - [Exact Bühlmann credibility for gamma claims](exponential-family.md#exact-buhlmann-credibility-for-gamma-claims)
+    - [Normal-inverse-gamma prior](exponential-family.md#normal-inverse-gamma-prior)
+    - [Natural conjugate prior](exponential-family.md#natural-conjugate-prior)
+      - [Natural conjugate credibility identity](exponential-family.md#natural-conjugate-credibility-identity)
+        - [Endpoint control for a Laplace-family conjugate posterior](exponential-family.md#endpoint-control-for-a-laplace-family-conjugate-posterior)
+  - [Natural parameter of an exponential family](exponential-family.md#natural-parameter-of-an-exponential-family)
+    - [Natural parameter space](exponential-family.md#natural-parameter-space)
+  - [Cumulant function of an exponential family](exponential-family.md#cumulant-function-of-an-exponential-family)
+    - [Exponential-family derivative identities](exponential-family.md#exponential-family-derivative-identities)
+    - [Mean parameter of an exponential family](exponential-family.md#mean-parameter-of-an-exponential-family)
+      - [Interior moment matching in a finite exponential family](exponential-family.md#interior-moment-matching-in-a-finite-exponential-family)
+  - [Inverse Gaussian distribution](exponential-family.md#inverse-gaussian-distribution)
+    - [Inverse Gaussian shape estimation and nuisance orthogonality](exponential-family.md#inverse-gaussian-shape-estimation-and-nuisance-orthogonality)
+    - [Inverse Gaussian sum closure](exponential-family.md#inverse-gaussian-sum-closure)
+      - [Exact saddlepoint density of an inverse Gaussian sum](exponential-family.md#exact-saddlepoint-density-of-an-inverse-gaussian-sum)
+    - [Chi-squared transform of an inverse Gaussian variable](exponential-family.md#chi-squared-transform-of-an-inverse-gaussian-variable)
+    - [Reciprocal-root inverse Gaussian sampler](exponential-family.md#reciprocal-root-inverse-gaussian-sampler)
+      - [Stable root evaluation for inverse Gaussian sampling](exponential-family.md#stable-root-evaluation-for-inverse-gaussian-sampling)
+  - [Exponential-family deviance](exponential-family.md#exponential-family-deviance)
+    - [Scaled deviance](exponential-family.md#scaled-deviance)
+  - [Negative binomial exponential family](exponential-family.md#negative-binomial-exponential-family)
+  - [Exponential dispersion model](exponential-family.md#exponential-dispersion-model)
+    - [Exponential dispersion family of order one](exponential-family.md#exponential-dispersion-family-of-order-one)
+    - [Dispersion parameter](exponential-family.md#dispersion-parameter)
+      - [Underdispersion](exponential-family.md#underdispersion)
+      - [Overdispersion](exponential-family.md#overdispersion)
+    - [Variance function](exponential-family.md#variance-function)
+- [Generalized linear model](#generalized-linear-model)
+  - [Gamma regression with canonical link](#gamma-regression-with-canonical-link)
+  - [Generalized linear model offset](#generalized-linear-model-offset)
+  - [Deviance goodness-of-fit test](#deviance-goodness-of-fit-test)
+    - [Individual Bernoulli deviance need not have a chi-squared calibration](#individual-bernoulli-deviance-need-not-have-a-chi-squared-calibration)
+  - [Deviance residual](#deviance-residual)
+  - [Generalized additive model](#generalized-additive-model)
+    - [Additive regression model](#additive-regression-model)
+      - [Identifiability of additive regression components](#identifiability-of-additive-regression-components)
+        - [Concurvity](#concurvity)
+    - [Backfitting algorithm](#backfitting-algorithm)
+      - [Linear backfitting equations](#linear-backfitting-equations)
+    - [Generalized additive mixed model](#generalized-additive-mixed-model)
+  - [Quasi-likelihood](#quasi-likelihood)
+    - [Quasibinomial regression](#quasibinomial-regression)
+  - [Linear predictor](#linear-predictor)
+  - [Link function](#link-function)
+    - [Identity link](#identity-link)
+    - [Logit](#logit)
+    - [Logarithmic link function](#logarithmic-link-function)
+  - [Binomial regression](#binomial-regression)
+    - [Binomial deviance](#binomial-deviance)
+  - [Pearson dispersion estimator](#pearson-dispersion-estimator)
+    - [Pearson residual](#pearson-residual)
+    - [Pearson chi-squared statistic](#pearson-chi-squared-statistic)
+  - [Canonical link function](#canonical-link-function)
+    - [Poisson canonical link](#poisson-canonical-link)
+  - [Poisson regression](#poisson-regression)
+    - [Profile likelihood for a common Poisson rate ratio with unequal exposures](#profile-likelihood-for-a-common-poisson-rate-ratio-with-unequal-exposures)
+    - [Concavity of the Poisson regression likelihood](#concavity-of-the-poisson-regression-likelihood)
+    - [Poisson slope information after eliminating an intercept](#poisson-slope-information-after-eliminating-an-intercept)
+    - [Poisson regression margin-matching score equations](#poisson-regression-margin-matching-score-equations)
+    - [Two-group Poisson ratio conditional likelihood](#two-group-poisson-ratio-conditional-likelihood)
+      - [Paired Poisson conditional likelihood](#paired-poisson-conditional-likelihood)
+        - [Conditional cure-weight equations for paired Poisson counts](#conditional-cure-weight-equations-for-paired-poisson-counts)
+    - [Common versus factor-specific slopes in Poisson regression](#common-versus-factor-specific-slopes-in-poisson-regression)
+    - [Poisson working models for averaged counts](#poisson-working-models-for-averaged-counts)
+    - [Poisson log-rate ratio](#poisson-log-rate-ratio)
+    - [Poisson mean saturation at three distinct times](#poisson-mean-saturation-at-three-distinct-times)
+    - [Pooling selected slopes in a Poisson regression](#pooling-selected-slopes-in-a-poisson-regression)
+    - [Treatment interaction contrast in a Poisson regression](#treatment-interaction-contrast-in-a-poisson-regression)
+    - [Poisson deviance](#poisson-deviance)
+      - [Quadratic Pearson approximation to the Poisson deviance](#quadratic-pearson-approximation-to-the-poisson-deviance)
+      - [Poisson deviance simplifies when an intercept is fitted](#poisson-deviance-simplifies-when-an-intercept-is-fitted)
+  - [Gamma regression with logarithmic link](#gamma-regression-with-logarithmic-link)
+  - [Quasi-Poisson regression](#quasi-poisson-regression)
+    - [Poisson score linearization under proportional variance](#poisson-score-linearization-under-proportional-variance)
+    - [Quasi-score equation](#quasi-score-equation)
+  - [Negative binomial regression](#negative-binomial-regression)
+    - [Fixed-size negative binomial generalized linear model](#fixed-size-negative-binomial-generalized-linear-model)
+      - [Negative binomial deviance](#negative-binomial-deviance)
+  - [Poisson exposure model](#poisson-exposure-model)
+    - [Rate ratio](#rate-ratio)
+    - [Finite-exposure Poisson inconsistency](#finite-exposure-poisson-inconsistency)
+    - [Estimators for a Poisson exposure model](#estimators-for-a-poisson-exposure-model)
+      - [Variance comparison for Poisson exposure estimators](#variance-comparison-for-poisson-exposure-estimators)
+    - [Normal-approximation tests for a Poisson exposure model](#normal-approximation-tests-for-a-poisson-exposure-model)
+  - [Logistic regression](#logistic-regression)
+    - [Proportional-odds model](#proportional-odds-model)
+    - [Separation in logistic regression](#separation-in-logistic-regression)
+    - [Finite maximum-likelihood estimate in a one-parameter logistic model](#finite-maximum-likelihood-estimate-in-a-one-parameter-logistic-model)
+    - [Conditional logistic model for longitudinal binary data](#conditional-logistic-model-for-longitudinal-binary-data)
+      - [Cumulative-response logistic model](#cumulative-response-logistic-model)
+      - [True state dependence](#true-state-dependence)
+    - [Multinomial logistic regression](#multinomial-logistic-regression)
+      - [Continuation-ratio logits](#continuation-ratio-logits)
+      - [Conditional multinomial sufficient statistics](#conditional-multinomial-sufficient-statistics)
+    - [Logistic-normal regression with autoregressive random effects](#logistic-normal-regression-with-autoregressive-random-effects)
+    - [Logistic model](#logistic-model)
+      - [Log odds](#log-odds)
+    - [Separation (statistics)](#separation-statistics)
+      - [Quasi-complete separation](#quasi-complete-separation)
+      - [Complete separation](#complete-separation)
+    - [Bernoulli logistic-regression model](#bernoulli-logistic-regression-model)
+      - [Fitted-mean balance for logistic regression with an intercept](#fitted-mean-balance-for-logistic-regression-with-an-intercept)
+    - [Logistic loss](#logistic-loss)
+      - [Positive semidefinite quadratic-form classifier](#positive-semidefinite-quadratic-form-classifier)
+    - [L1-penalized logistic regression](#l1-penalized-logistic-regression)
+    - [Grouped-binomial logistic regression](#grouped-binomial-logistic-regression)
+      - [Baseline logit estimator in a group-factor binomial model](#baseline-logit-estimator-in-a-group-factor-binomial-model)
+      - [Denominators in grouped birth-outcome models](#denominators-in-grouped-birth-outcome-models)
+    - [Reference level in a regression factor](#reference-level-in-a-regression-factor)
+    - [Stochastic block model](#stochastic-block-model)
+      - [Spectral norm bound for a centered Bernoulli adjacency matrix](#spectral-norm-bound-for-a-centered-bernoulli-adjacency-matrix)
+      - [Logistic stochastic block model](#logistic-stochastic-block-model)
+        - [Additive class-effect logistic network model](#additive-class-effect-logistic-network-model)
+          - [Degree-sum sufficient statistic for an additive logistic network model](#degree-sum-sufficient-statistic-for-an-additive-logistic-network-model)
+  - [Probit model](#probit-model)
+    - [Latent-normal Gibbs sampler for probit regression](#latent-normal-gibbs-sampler-for-probit-regression)
+    - [Threshold observation of a lognormal regression](#threshold-observation-of-a-lognormal-regression)
+    - [Probit posterior score](#probit-posterior-score)
+  - [Iteratively reweighted least squares](#iteratively-reweighted-least-squares)
+  - [Generalized linear mixed model](#generalized-linear-mixed-model)
+    - [Logistic random-intercept model for repeated binary outcomes](#logistic-random-intercept-model-for-repeated-binary-outcomes)
+      - [Random-intercept attenuation of marginal logistic slopes](#random-intercept-attenuation-of-marginal-logistic-slopes)
+    - [Gaussian linear mixed model](#gaussian-linear-mixed-model)
+      - [Correlated random-intercept and random-slope model](#correlated-random-intercept-and-random-slope-model)
+      - [Variance component](#variance-component)
+        - [Method-of-moments variance component estimate](#method-of-moments-variance-component-estimate)
+      - [Best linear unbiased prediction](#best-linear-unbiased-prediction)
+      - [Conditional mode of Gaussian random effects](#conditional-mode-of-gaussian-random-effects)
+      - [Continuous-time autoregressive residual correlation](#continuous-time-autoregressive-residual-correlation)
+      - [Independent random-intercept and random-slope model](#independent-random-intercept-and-random-slope-model)
+    - [Poisson generalized linear mixed model](#poisson-generalized-linear-mixed-model)
+      - [Gamma random-intercept Poisson model](#gamma-random-intercept-poisson-model)
+        - [Scale identifiability in a gamma random-intercept Poisson model](#scale-identifiability-in-a-gamma-random-intercept-poisson-model)
+      - [Marginal mean of a Poisson random-slope model](#marginal-mean-of-a-poisson-random-slope-model)
+    - [Random intercept](#random-intercept)
+      - [Marginal and conditional slopes agree for an independent log-link random intercept](#marginal-and-conditional-slopes-agree-for-an-independent-log-link-random-intercept)
+      - [Random-intercept linear mixed model](#random-intercept-linear-mixed-model)
+- [Clustered data](#clustered-data)
+  - [Pseudoreplication](#pseudoreplication)
+- [Independent Poisson conditioning](#independent-poisson-conditioning)
+- [Normal linear model](#normal-linear-model)
+  - [Variance of a fitted regression mean](#variance-of-a-fitted-regression-mean)
+  - [Analysis of covariance](#analysis-of-covariance)
+  - [Normal linear model maximum-likelihood sampling distributions](#normal-linear-model-maximum-likelihood-sampling-distributions)
+  - [Lack of fit](#lack-of-fit)
+    - [Lack-of-fit F-test](#lack-of-fit-f-test)
+  - [Pure error](#pure-error)
+  - [Two-factor normal linear model](#two-factor-normal-linear-model)
+    - [Factor-level pooling test](#factor-level-pooling-test)
+  - [Joint distribution of least-squares and variance estimators](#joint-distribution-of-least-squares-and-variance-estimators)
+  - [Restricted maximum likelihood](#restricted-maximum-likelihood)
+    - [Restricted likelihood from orthogonal error contrasts](#restricted-likelihood-from-orthogonal-error-contrasts)
+  - [Gaussian conjugacy for a normal linear model](#gaussian-conjugacy-for-a-normal-linear-model)
+    - [Gaussian conjugacy for an initialized AR(2) regression](#gaussian-conjugacy-for-an-initialized-ar-2-regression)
+    - [Normal-gamma posterior with a flat prior](#normal-gamma-posterior-with-a-flat-prior)
+    - [Gaussian posterior in the zero-noise limit](#gaussian-posterior-in-the-zero-noise-limit)
+    - [Gaussian likelihood](#gaussian-likelihood)
+  - [Cochran's theorem](#cochran-s-theorem)
+    - [Rank-sum form of Cochran's theorem](#rank-sum-form-of-cochran-s-theorem)
+  - [Linear regression](linear-regression.md)
+    - [Multiple linear regression](linear-regression.md#multiple-linear-regression)
+    - [Normal equations for linear least squares](linear-regression.md#normal-equations-for-linear-least-squares)
+    - [Omitted-variable bias](linear-regression.md#omitted-variable-bias)
+    - [Predictor centering](linear-regression.md#predictor-centering)
+    - [Regression diagnostics](linear-regression.md#regression-diagnostics)
+      - [Influential observation](linear-regression.md#influential-observation)
+      - [Regression outlier](linear-regression.md#regression-outlier)
+    - [Least angle regression](linear-regression.md#least-angle-regression)
+      - [Equiangular direction in least angle regression](linear-regression.md#equiangular-direction-in-least-angle-regression)
+      - [Sign compatibility of LAR and Lasso](linear-regression.md#sign-compatibility-of-lar-and-lasso)
+      - [LAR active correlation invariant](linear-regression.md#lar-active-correlation-invariant)
+      - [Entry knot in least angle regression](linear-regression.md#entry-knot-in-least-angle-regression)
+    - [Reciprocal-predictor regression](linear-regression.md#reciprocal-predictor-regression)
+    - [Regression intercept](linear-regression.md#regression-intercept)
+      - [Student t test for a simple-regression intercept](linear-regression.md#student-t-test-for-a-simple-regression-intercept)
+    - [Polynomial regression](linear-regression.md#polynomial-regression)
+      - [Independent normal and inverse-gamma regression priors](linear-regression.md#independent-normal-and-inverse-gamma-regression-priors)
+      - [Quadratic regression](linear-regression.md#quadratic-regression)
+    - [Coefficient of determination](linear-regression.md#coefficient-of-determination)
+      - [Adjusted coefficient of determination](linear-regression.md#adjusted-coefficient-of-determination)
+    - [Residual-versus-fitted plot](linear-regression.md#residual-versus-fitted-plot)
+      - [Scale-location plot](linear-regression.md#scale-location-plot)
+    - [Analysis of variance](linear-regression.md#analysis-of-variance)
+      - [Multivariate analysis of variance](linear-regression.md#multivariate-analysis-of-variance)
+        - [Within-group and between-group scatter decomposition](linear-regression.md#within-group-and-between-group-scatter-decomposition)
+        - [Wilks lambda statistic](linear-regression.md#wilks-lambda-statistic)
+      - [Two-way analysis of variance](linear-regression.md#two-way-analysis-of-variance)
+        - [Missing cells can destroy factor orthogonality in two-way ANOVA](linear-regression.md#missing-cells-can-destroy-factor-orthogonality-in-two-way-anova)
+        - [Identifiability of an incomplete two-factor additive design](linear-regression.md#identifiability-of-an-incomplete-two-factor-additive-design)
+        - [Saturation of an unreplicated two-factor regression](linear-regression.md#saturation-of-an-unreplicated-two-factor-regression)
+      - [Sequential sum of squares](linear-regression.md#sequential-sum-of-squares)
+      - [Sum of squares in ANOVA](linear-regression.md#sum-of-squares-in-anova)
+        - [Mean square in ANOVA](linear-regression.md#mean-square-in-anova)
+      - [ANOVA stratum](linear-regression.md#anova-stratum)
+        - [Within-block ANOVA stratum](linear-regression.md#within-block-anova-stratum)
+      - [Balanced factorial orthogonality](linear-regression.md#balanced-factorial-orthogonality)
+    - [Frisch–Waugh–Lovell theorem](linear-regression.md#frisch-waugh-lovell-theorem)
+    - [Simple linear regression](linear-regression.md#simple-linear-regression)
+      - [Centred simple linear regression](linear-regression.md#centred-simple-linear-regression)
+    - [Residual sum of squares](linear-regression.md#residual-sum-of-squares)
+    - [Ridge regression](linear-regression.md#ridge-regression)
+      - [Gaussian posterior representation of ridge regression](linear-regression.md#gaussian-posterior-representation-of-ridge-regression)
+      - [Unbounded directional risk of fixed ridge shrinkage](linear-regression.md#unbounded-directional-risk-of-fixed-ridge-shrinkage)
+      - [Uniform directional risk improvement by ridge regression](linear-regression.md#uniform-directional-risk-improvement-by-ridge-regression)
+      - [Unpenalized intercept in ridge regression](linear-regression.md#unpenalized-intercept-in-ridge-regression)
+      - [Covariance and bias of a ridge regression estimator](linear-regression.md#covariance-and-bias-of-a-ridge-regression-estimator)
+      - [Closed-form ridge regression estimator](linear-regression.md#closed-form-ridge-regression-estimator)
+        - [Vanishing-penalty ridge limit](linear-regression.md#vanishing-penalty-ridge-limit)
+        - [Primal-dual identity for ridge regression](linear-regression.md#primal-dual-identity-for-ridge-regression)
+        - [Principal-component shrinkage by ridge regression](linear-regression.md#principal-component-shrinkage-by-ridge-regression)
+    - [Fitted values](linear-regression.md#fitted-values)
+      - [Linear smoother](linear-regression.md#linear-smoother)
+        - [Effective degrees of freedom](linear-regression.md#effective-degrees-of-freedom)
+    - [Design matrix](linear-regression.md#design-matrix)
+      - [Confounding of nested fixed factors](linear-regression.md#confounding-of-nested-fixed-factors)
+    - [Regression coefficient](linear-regression.md#regression-coefficient)
+    - [Attenuation bias from classical measurement error](linear-regression.md#attenuation-bias-from-classical-measurement-error)
+  - [R linear-model formula](#r-linear-model-formula)
+    - [Treatment coding](#treatment-coding)
+    - [Degrees of freedom of a factor predictor](#degrees-of-freedom-of-a-factor-predictor)
+  - [Hat matrix](#hat-matrix)
+    - [Fitted-residual orthogonality](#fitted-residual-orthogonality)
+  - [Normal linear-model confidence ellipsoid](#normal-linear-model-confidence-ellipsoid)
+    - [Cook's distance](#cook-s-distance)
+  - [Multicollinearity](#multicollinearity)
+    - [Variance inflation factor](#variance-inflation-factor)
+    - [Two-predictor variance inflation](#two-predictor-variance-inflation)
+  - [Ordinary least squares](#ordinary-least-squares)
+    - [Residual estimate of Gaussian noise variance](#residual-estimate-of-gaussian-noise-variance)
+      - [Residual standard error](#residual-standard-error)
+    - [Partial regression](#partial-regression)
+    - [Rank-deficient ordinary least squares](#rank-deficient-ordinary-least-squares)
+      - [Nonidentifiability prevents unbiased coefficient estimation](#nonidentifiability-prevents-unbiased-coefficient-estimation)
+    - [Linear regression through the origin](#linear-regression-through-the-origin)
+      - [Student t test for regression through the origin](#student-t-test-for-regression-through-the-origin)
+    - [Ordinary least squares estimators](#ordinary-least-squares-estimators)
+      - [Residual sum of squares in simple linear regression](#residual-sum-of-squares-in-simple-linear-regression)
+  - [Gauss-Markov theorem](#gauss-markov-theorem)
+  - [Weighted least squares](#weighted-least-squares)
+    - [Generalized least squares](#generalized-least-squares)
+      - [Whitening transformation](#whitening-transformation)
+  - [Normal equation](#normal-equation)
+  - [Consistency of least squares](#consistency-of-least-squares)
+  - [One-way normal linear model](#one-way-normal-linear-model)
+    - [Cell-means parametrization](#cell-means-parametrization)
+      - [Equal-cell replication variance formula](#equal-cell-replication-variance-formula)
+      - [Linear contrast of cell means](#linear-contrast-of-cell-means)
+        - [Treatment contrast](#treatment-contrast)
+          - [Orthogonal polynomial contrast](#orthogonal-polynomial-contrast)
+          - [Variance of a treatment contrast](#variance-of-a-treatment-contrast)
+          - [Interaction contrast](#interaction-contrast)
+            - [Logistic interaction as a ratio of odds ratios](#logistic-interaction-as-a-ratio-of-odds-ratios)
+    - [Full-dominance mean constraint](#full-dominance-mean-constraint)
+    - [Additive allele-count model](#additive-allele-count-model)
+- [Regression leverage](#regression-leverage)
+- [Risk ratio](#risk-ratio)
+  - [Relative risk from group compositions](#relative-risk-from-group-compositions)
+    - [Relative risk bounds from rounded group compositions](#relative-risk-bounds-from-rounded-group-compositions)
+  - [Log risk ratio](#log-risk-ratio)
+  - [Drug efficacy as a risk reduction](#drug-efficacy-as-a-risk-reduction)
+- [Odds ratio](#odds-ratio)
+  - [Noncollapsibility of the odds ratio](#noncollapsibility-of-the-odds-ratio)
+  - [Log odds ratio](#log-odds-ratio)
+    - [Log odds ratio variance from a two-by-two table](#log-odds-ratio-variance-from-a-two-by-two-table)
+- [Log-linear model](#log-linear-model)
+  - [Poisson surrogate for a conditional multinomial model](#poisson-surrogate-for-a-conditional-multinomial-model)
+  - [Stratified two-by-two conditional independence model](#stratified-two-by-two-conditional-independence-model)
+  - [Gaussian-prior Poisson log-effect conditional](#gaussian-prior-poisson-log-effect-conditional)
+  - [Independence log-linear model for a two-way contingency table](#independence-log-linear-model-for-a-two-way-contingency-table)
+  - [Saturated log-linear model](#saturated-log-linear-model)
+  - [Equal-efficacy Poisson log-linear model](#equal-efficacy-poisson-log-linear-model)
+- [Maximum likelihood estimation](#maximum-likelihood-estimation)
+  - [Normal likelihood with variance equal to squared mean](#normal-likelihood-with-variance-equal-to-squared-mean)
+  - [Singular covariance and nonexistence of a Gaussian maximum likelihood estimate](#singular-covariance-and-nonexistence-of-a-gaussian-maximum-likelihood-estimate)
+  - [Compact-parameter consistency of maximum likelihood](#compact-parameter-consistency-of-maximum-likelihood)
+  - [Shifted exponential maximum likelihood](#shifted-exponential-maximum-likelihood)
+    - [Exact endpoint limit for a shifted exponential distribution](#exact-endpoint-limit-for-a-shifted-exponential-distribution)
+  - [Maximum-likelihood estimator](#maximum-likelihood-estimator)
+    - [Likelihood supremum at an excluded boundary](#likelihood-supremum-at-an-excluded-boundary)
+    - [Uniform endpoint maximum-likelihood estimator](#uniform-endpoint-maximum-likelihood-estimator)
+    - [Neyman-Scott incidental parameter problem](#neyman-scott-incidental-parameter-problem)
+    - [Endpoint maximum likelihood for a singular location density](#endpoint-maximum-likelihood-for-a-singular-location-density)
+    - [Exponential-rate maximum-likelihood estimator](#exponential-rate-maximum-likelihood-estimator)
+    - [Maximum-likelihood fitted value](#maximum-likelihood-fitted-value)
+      - [Maximum-likelihood fitted probability](#maximum-likelihood-fitted-probability)
+    - [Normal mean and variance maximum-likelihood estimators](#normal-mean-and-variance-maximum-likelihood-estimators)
+    - [Invariance property of maximum likelihood estimation](#invariance-property-of-maximum-likelihood-estimation)
+    - [Likelihood function](#likelihood-function)
+      - [Marginal likelihood from a nuisance-free statistic](#marginal-likelihood-from-a-nuisance-free-statistic)
+      - [Conditional likelihood](#conditional-likelihood)
+        - [Saddlepoint conditional likelihood adjustment](#saddlepoint-conditional-likelihood-adjustment)
+      - [Observed-data likelihood](#observed-data-likelihood)
+      - [Bayesian deviance](#bayesian-deviance)
+      - [Conditional maximum likelihood](#conditional-maximum-likelihood)
+      - [Profile likelihood](#profile-likelihood)
+        - [Modified profile likelihood](#modified-profile-likelihood)
+          - [Modified profile likelihood for inverse Gaussian shape](#modified-profile-likelihood-for-inverse-gaussian-shape)
+          - [Modified profile likelihood for exponential regression](#modified-profile-likelihood-for-exponential-regression)
+        - [Gamma-ratio marginal and profile likelihood identity](#gamma-ratio-marginal-and-profile-likelihood-identity)
+        - [Profile log-likelihood](#profile-log-likelihood)
+    - [Log-likelihood](#log-likelihood)
+    - [Binomial proportion maximum-likelihood estimator](#binomial-proportion-maximum-likelihood-estimator)
+    - [Exponential distribution rate estimator](#exponential-distribution-rate-estimator)
+    - [Asymptotic normality of a maximum likelihood estimator](#asymptotic-normality-of-a-maximum-likelihood-estimator)
+- [Logistic distribution](#logistic-distribution)
+- [Gaussian conditional expectation](#gaussian-conditional-expectation)
+- [Linear discriminant analysis](#linear-discriminant-analysis)
+  - [Canonical discriminant directions](#canonical-discriminant-directions)
+  - [Kernel linear discriminant analysis](#kernel-linear-discriminant-analysis)
+- [Quadratic discriminant analysis](#quadratic-discriminant-analysis)
+- [Bootstrapping (statistics)](#bootstrapping-statistics)
+  - [Bootstrap failure for a uniform endpoint](#bootstrap-failure-for-a-uniform-endpoint)
+  - [Bootstrap standard error](#bootstrap-standard-error)
+  - [Bootstrap confidence interval](#bootstrap-confidence-interval)
+    - [Bootstrap inference for a product of regression coefficients](#bootstrap-inference-for-a-product-of-regression-coefficients)
+    - [Bootstrap-t confidence interval](#bootstrap-t-confidence-interval)
+    - [Percentile bootstrap confidence interval](#percentile-bootstrap-confidence-interval)
+    - [Basic bootstrap confidence interval](#basic-bootstrap-confidence-interval)
+  - [Bootstrap consistency theorem for the sample mean](#bootstrap-consistency-theorem-for-the-sample-mean)
+  - [Bootstrap sample](#bootstrap-sample)
+    - [Wild bootstrap](#wild-bootstrap)
+    - [Paired bootstrap](#paired-bootstrap)
+    - [Conditional bootstrap variance of a sample mean](#conditional-bootstrap-variance-of-a-sample-mean)
+    - [Bootstrap count vectors](#bootstrap-count-vectors)
+  - [Parametric bootstrap](#parametric-bootstrap)
+- [Risk function](#risk-function)
+  - [Mean squared error](#mean-squared-error)
+    - [Asymptotic mean squared error](#asymptotic-mean-squared-error)
+    - [Shrinking a sample mean with variance proportional to mean squared](#shrinking-a-sample-mean-with-variance-proportional-to-mean-squared)
+    - [Integrated mean squared error](#integrated-mean-squared-error)
+      - [Asymptotic mean integrated squared error](#asymptotic-mean-integrated-squared-error)
+    - [Bias-variance decomposition of mean squared error](#bias-variance-decomposition-of-mean-squared-error)
+    - [Affine shrinkage estimator for a binomial proportion](#affine-shrinkage-estimator-for-a-binomial-proportion)
+  - [Admissible decision rule](#admissible-decision-rule)
+    - [Admissible estimator](#admissible-estimator)
+      - [James–Stein estimator](#james-stein-estimator)
+        - [James–Stein shrinkage toward the sample mean](#james-stein-shrinkage-toward-the-sample-mean)
+        - [Identical worst-case risk under strict James-Stein domination](#identical-worst-case-risk-under-strict-james-stein-domination)
+  - [Minimax estimator](#minimax-estimator)
+    - [Constant-risk binomial proportion estimator](#constant-risk-binomial-proportion-estimator)
+    - [Minimax risk](#minimax-risk)
+      - [Pointwise versus uniform risk distinction](#pointwise-versus-uniform-risk-distinction)
+    - [Minimaxity of the usual multivariate normal mean estimator](#minimaxity-of-the-usual-multivariate-normal-mean-estimator)
+- [Cramér-Rao bound](#cramer-rao-bound)
+  - [Efficient estimator](#efficient-estimator)
+  - [Van Trees inequality](#van-trees-inequality)
+- [Informant function](#informant-function)
+  - [Gaussian regression score](#gaussian-regression-score)
+  - [Score equation](#score-equation)
+  - [Mean-zero score identity](#mean-zero-score-identity)
+  - [Fisher information matrix](#fisher-information-matrix)
+    - [Orthogonal statistical parameters](#orthogonal-statistical-parameters)
+      - [Score factorization implies parameter orthogonality](#score-factorization-implies-parameter-orthogonality)
+      - [Orthogonal coefficient blocks in a centered normal linear model](#orthogonal-coefficient-blocks-in-a-centered-normal-linear-model)
+      - [Cox-Reid adjusted profile likelihood](#cox-reid-adjusted-profile-likelihood)
+      - [Local orthogonal nuisance reparametrization](#local-orthogonal-nuisance-reparametrization)
+      - [Negative binomial mean-size parameter orthogonality](#negative-binomial-mean-size-parameter-orthogonality)
+      - [Interest-respecting reparametrization](#interest-respecting-reparametrization)
+        - [Orthogonalization equation for two statistical parameters](#orthogonalization-equation-for-two-statistical-parameters)
+    - [Jeffreys prior](#jeffreys-prior)
+      - [Proper gamma approximation to a Poisson Jeffreys prior](#proper-gamma-approximation-to-a-poisson-jeffreys-prior)
+      - [Jeffreys prior for a scale parameter](#jeffreys-prior-for-a-scale-parameter)
+      - [Jeffreys prior for an additive variance component](#jeffreys-prior-for-an-additive-variance-component)
+    - [Fisher information of a multivariate normal location model](#fisher-information-of-a-multivariate-normal-location-model)
+    - [Empirical score outer-product information](#empirical-score-outer-product-information)
+    - [Observed Fisher information](#observed-fisher-information)
+    - [Tensorization of Fisher information](#tensorization-of-fisher-information)
+    - [Fisher information in a stationary Gaussian autoregressive location model](#fisher-information-in-a-stationary-gaussian-autoregressive-location-model)
+    - [Scoring algorithm](#scoring-algorithm)
+      - [Binomial-proportion Fisher scoring](#binomial-proportion-fisher-scoring)
+    - [Information identity](#information-identity)
+    - [Normal location-scale score](#normal-location-scale-score)
+    - [Local asymptotic normality](#local-asymptotic-normality)
+      - [Contiguity under locally asymptotically normal alternatives](#contiguity-under-locally-asymptotically-normal-alternatives)
+      - [Gaussian shift model](#gaussian-shift-model)
+- [Statistical hypothesis test](#statistical-hypothesis-test)
+  - [Statistical hypothesis](#statistical-hypothesis)
+  - [Sequential probability ratio test](#sequential-probability-ratio-test)
+  - [Statistical significance](#statistical-significance)
+  - [Two-sided hypothesis test](#two-sided-hypothesis-test)
+  - [One-sided hypothesis test](#one-sided-hypothesis-test)
+  - [Alternative hypothesis](#alternative-hypothesis)
+  - [Hotelling's T-squared statistic](#hotelling-s-t-squared-statistic)
+    - [Affine invariance of Hotelling's statistic](#affine-invariance-of-hotelling-s-statistic)
+    - [Hotelling test of linear hypotheses](#hotelling-test-of-linear-hypotheses)
+      - [Second-difference test of a linear mean profile](#second-difference-test-of-a-linear-mean-profile)
+  - [Rejection region](#rejection-region)
+  - [McNemar's test](#mcnemar-s-test)
+    - [Equality criterion for paired and unpaired allele tests](#equality-criterion-for-paired-and-unpaired-allele-tests)
+    - [Paired binary sample size calculation](#paired-binary-sample-size-calculation)
+  - [Significant and nonsignificant results need not differ significantly](#significant-and-nonsignificant-results-need-not-differ-significantly)
+  - [Monte Carlo test](#monte-carlo-test)
+  - [Predictive discrepancy statistic](#predictive-discrepancy-statistic)
+  - [Scan statistic](#scan-statistic)
+    - [Cyclic interval overlap bound](#cyclic-interval-overlap-bound)
+    - [Quadratic scan statistic](#quadratic-scan-statistic)
+  - [Least-favourable null configuration](#least-favourable-null-configuration)
+  - [Pearson chi-squared test of homogeneity](#pearson-chi-squared-test-of-homogeneity)
+    - [Empty groups in a binomial homogeneity test](#empty-groups-in-a-binomial-homogeneity-test)
+    - [Pearson chi-squared statistic for contingency tables](#pearson-chi-squared-statistic-for-contingency-tables)
+      - [Yates's correction for continuity](#yates-s-correction-for-continuity)
+  - [Statistical test](#statistical-test)
+    - [Most powerful test](#most-powerful-test)
+  - [Test statistic](#test-statistic)
+  - [Student's t-test](#student-s-t-test)
+    - [Exact pooled two-sample t statistic](#exact-pooled-two-sample-t-statistic)
+    - [Normal-mean likelihood ratio with unknown variance](#normal-mean-likelihood-ratio-with-unknown-variance)
+    - [Regression coefficient test power ignores nuisance coefficients](#regression-coefficient-test-power-ignores-nuisance-coefficients)
+  - [Fixed alternative](#fixed-alternative)
+  - [Local alternative](#local-alternative)
+  - [Randomization test](#randomization-test)
+    - [Conditional randomization test](#conditional-randomization-test)
+    - [Permutation test](#permutation-test)
+    - [Sign-flip randomization test](#sign-flip-randomization-test)
+  - [Null hypothesis](#null-hypothesis)
+  - [Simple hypothesis](#simple-hypothesis)
+  - [Size of a statistical test](#size-of-a-statistical-test)
+  - [Significance level](#significance-level)
+  - [P-value](#p-value)
+    - [Super-uniform random variable](#super-uniform-random-variable)
+  - [Fisher's exact test](#fisher-s-exact-test)
+    - [Exact power of Fisher's exact test](#exact-power-of-fisher-s-exact-test)
+  - [Maximin test](#maximin-test)
+  - [Multiple hypothesis testing](#multiple-hypothesis-testing)
+    - [Intersection hypothesis](#intersection-hypothesis)
+      - [Closure of a family of statistical hypotheses](#closure-of-a-family-of-statistical-hypotheses)
+    - [Hochberg procedure](#hochberg-procedure)
+    - [Simes inequality](#simes-inequality)
+      - [Simes test](#simes-test)
+    - [Weighted interval testing for a piecewise-constant mean](#weighted-interval-testing-for-a-piecewise-constant-mean)
+    - [Intersection-union test](#intersection-union-test)
+    - [Bonferroni correction](#bonferroni-correction)
+      - [Weighted Bonferroni correction](#weighted-bonferroni-correction)
+        - [Weighted Holm step-down procedure](#weighted-holm-step-down-procedure)
+      - [Holm–Bonferroni method](#holm-bonferroni-method)
+        - [First true null argument for Holm control](#first-true-null-argument-for-holm-control)
+    - [Benjamini-Hochberg procedure](#benjamini-hochberg-procedure)
+      - [Benjamini-Hochberg leave-one-out identity](#benjamini-hochberg-leave-one-out-identity)
+        - [Benjamini-Hochberg leave-two-out identity](#benjamini-hochberg-leave-two-out-identity)
+          - [Second moment of the Benjamini-Hochberg false discovery proportion](#second-moment-of-the-benjamini-hochberg-false-discovery-proportion)
+        - [Exact false discovery rate under independent null p-values](#exact-false-discovery-rate-under-independent-null-p-values)
+    - [False discovery rate](#false-discovery-rate)
+      - [False discovery proportion](#false-discovery-proportion)
+    - [Familywise error rate](#familywise-error-rate)
+      - [Familywise error control for a laminar hypothesis family](#familywise-error-control-for-a-laminar-hypothesis-family)
+    - [Closed testing procedure](#closed-testing-procedure)
+      - [Closed-testing control of the familywise error rate](#closed-testing-control-of-the-familywise-error-rate)
+  - [Joint hypothesis test](#joint-hypothesis-test)
+  - [Power function of a statistical test](#power-function-of-a-statistical-test)
+  - [Uniformly most powerful test](#uniformly-most-powerful-test)
+    - [Crossing-power obstruction to a uniformly most powerful test](#crossing-power-obstruction-to-a-uniformly-most-powerful-test)
+  - [Pearson's chi-squared test](#pearson-s-chi-squared-test)
+    - [Pearson chi-squared goodness-of-fit test](#pearson-chi-squared-goodness-of-fit-test)
+      - [Binomial goodness-of-fit with an estimated parameter](#binomial-goodness-of-fit-with-an-estimated-parameter)
+      - [Pearson chi-squared test of independence](#pearson-chi-squared-test-of-independence)
+  - [Likelihood-ratio test of independence in a contingency table](#likelihood-ratio-test-of-independence-in-a-contingency-table)
+    - [Aggregation can change a contingency-table independence test](#aggregation-can-change-a-contingency-table-independence-test)
+  - [Linear-by-linear association test](#linear-by-linear-association-test)
+  - [Wald test](#wald-test)
+    - [Signed normal Wald statistic](#signed-normal-wald-statistic)
+    - [Wald statistics with a shared control](#wald-statistics-with-a-shared-control)
+    - [Multivariate Wald statistic](#multivariate-wald-statistic)
+      - [Wald statistic for linear restrictions](#wald-statistic-for-linear-restrictions)
+    - [Wald and likelihood-ratio asymptotic equivalence](#wald-and-likelihood-ratio-asymptotic-equivalence)
+    - [Two-sided Gaussian p-value](#two-sided-gaussian-p-value)
+  - [Likelihood-ratio test](#likelihood-ratio-test)
+    - [Gaussian covariance diagonality likelihood-ratio test](#gaussian-covariance-diagonality-likelihood-ratio-test)
+    - [Gaussian diagonal-covariance likelihood-ratio test](#gaussian-diagonal-covariance-likelihood-ratio-test)
+    - [One-sided likelihood-ratio test for two normal variances](#one-sided-likelihood-ratio-test-for-two-normal-variances)
+    - [Boundary likelihood-ratio test for two Gaussian means](#boundary-likelihood-ratio-test-for-two-gaussian-means)
+    - [Single-parameter boundary likelihood-ratio test](#single-parameter-boundary-likelihood-ratio-test)
+    - [Variance-component likelihood-ratio test at a boundary](#variance-component-likelihood-ratio-test-at-a-boundary)
+      - [Location-scale invariant simulation test for a Gaussian variance component](#location-scale-invariant-simulation-test-for-a-gaussian-variance-component)
+    - [Likelihood ratio](#likelihood-ratio)
+      - [Log-likelihood ratio](#log-likelihood-ratio)
+    - [Likelihood-ratio test statistic](#likelihood-ratio-test-statistic)
+      - [Bartlett correction](#bartlett-correction)
+        - [Bartlett-corrected likelihood-ratio statistic](#bartlett-corrected-likelihood-ratio-statistic)
+        - [Bartlett correction coefficient](#bartlett-correction-coefficient)
+          - [Bartlett correction for a normal variance with unknown mean](#bartlett-correction-for-a-normal-variance-with-unknown-mean)
+    - [Generalized likelihood-ratio test](#generalized-likelihood-ratio-test)
+      - [Likelihood-ratio test of area-proportional Poisson means](#likelihood-ratio-test-of-area-proportional-poisson-means)
+      - [Analysis of deviance for nested generalized linear models](#analysis-of-deviance-for-nested-generalized-linear-models)
+        - [Residual deviance](#residual-deviance)
+          - [Null deviance](#null-deviance)
+      - [Likelihood-ratio test for equality of two normal means](#likelihood-ratio-test-for-equality-of-two-normal-means)
+      - [Nested likelihood-ratio rejection regions](#nested-likelihood-ratio-rejection-regions)
+  - [Score test](#score-test)
+    - [Restricted maximum-likelihood estimator](#restricted-maximum-likelihood-estimator)
+    - [Score test under a simple null](#score-test-under-a-simple-null)
+      - [Quadratic form of a standard normal vector](#quadratic-form-of-a-standard-normal-vector)
+    - [Residual sum of squares in a normal sample](#residual-sum-of-squares-in-a-normal-sample)
+      - [Chi-square central limit theorem](#chi-square-central-limit-theorem)
+  - [Neyman-Pearson lemma](#neyman-pearson-lemma)
+    - [Most powerful test for a Laplace location shift](#most-powerful-test-for-a-laplace-location-shift)
+    - [Minimum sum of errors in a simple hypothesis test](#minimum-sum-of-errors-in-a-simple-hypothesis-test)
+    - [Exponential-rate likelihood-ratio test](#exponential-rate-likelihood-ratio-test)
+    - [Uniformly most powerful test for an exponential rate](#uniformly-most-powerful-test-for-an-exponential-rate)
+    - [Monotone likelihood ratio](#monotone-likelihood-ratio)
+      - [Posterior odds are monotone under a monotone likelihood ratio](#posterior-odds-are-monotone-under-a-monotone-likelihood-ratio)
+      - [Monotone test](#monotone-test)
+      - [Karlin-Rubin theorem](#karlin-rubin-theorem)
+        - [Uniformly most powerful upper-tail test for a logistic location](#uniformly-most-powerful-upper-tail-test-for-a-logistic-location)
+- [Grouped exponential observation](#grouped-exponential-observation)
+  - [Asymptotic information loss from grouping](#asymptotic-information-loss-from-grouping)
+
+## Regression analysis
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Regression_analysis)
+
+Regression analysis studies how a [response variable](#response-variable) depends on explanatory variables through a [regression model](statistical-model.md#regression-model). It estimates that dependence and assesses uncertainty in fitted [regression coefficients](linear-regression.md#regression-coefficient), predictions and model comparisons. [Linear regression](linear-regression.md) is one important case.
+
+## Mark and recapture
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Mark_and_recapture)
+
+Mark and recapture estimates [cardinality](set-theory.md#cardinality) or survival from repeated observations after marking and releasing individuals. In the simplest closed-population experiment, overlap between two samples estimates the fraction marked. More elaborate [capture-recapture models](#capture-recapture-model) allow changing survival and detection probabilities.
+
+### Capture-recapture model
+
+↑ **Parent:** [Mark and recapture](#mark-and-recapture)
+
+Repeated capture and release observations estimate population or survival characteristics while allowing incomplete detection. In a first-recapture array, $m_{ij}$ counts individuals released at occasion $i$ and next observed at $j$. A survival probability $\phi_j$ and detection probability $P_{j+1}$ contribute a no-observation continuation factor $\phi_j(1-P_{j+1})$. The resulting likelihood depends on both survival and detection; these probabilities need not be separately identifiable at the last observation interval.
+
+#### Missing-count EM for capture-recapture
+
+↑ **Parent:** [Capture-recapture model](#capture-recapture-model)
+
+Let $N_i=R_i-\sum_{s=i+1}^Jm_{is}$ count individuals never recaptured after release $i$. Partition them into death-interval counts $n_{ij}$ and terminal survivors $n_{iJ}$. Their unnormalized weights are $w_{ij}=(1-\phi_j)\prod_{\ell=i}^{j-1}\phi_\ell(1-P_{\ell+1})$ for $j<J$, and $w_{iJ}=\prod_{\ell=i}^{J-1}\phi_\ell(1-P_{\ell+1})$. Conditional counts are [multinomial](discrete-probability-distribution.md#multinomial-distribution) with normalizer $C_i=\sum_{j=i}^Jw_{ij}$. The [EM algorithm](#expectation-maximization-algorithm) replaces all missing counts by the displayed conditional expectations, then maximizes the resulting complete-data log likelihood. Survival and detection updates are expected successes divided by expected opportunities. A flat observed-likelihood ridge remains nonidentifiable even if each conditional complete-data maximization is explicit.
+
+## Nonlinear regression
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Nonlinear_regression)
+
+Nonlinear regression fits a conditional mean whose dependence on its parameters is nonlinear. In a [normal distribution](probability-theory.md#normal-distribution) observation model, the likelihood is based on residuals $y_i-m(x_i,\theta)$. Nonlinearity can create parameter trade-offs, asymmetric uncertainty and several posterior regions, so [prior predictive checks](statistical-inference.md#prior-predictive-check) and [Markov chain Monte Carlo convergence diagnostics](statistical-inference.md#markov-chain-monte-carlo-convergence-diagnostics) can be especially useful.
+
+## Outlier
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Outlier)
+
+An outlier is an observation unusually far from the behavior expected under a statistical model. A large [regression residual](probability-and-statistics.md#regression-residual) can identify a candidate, but data validation, [regression leverage](#regression-leverage), and the possibility of model misspecification should be examined before excluding it. An outlier need not be an [influential observation](linear-regression.md#influential-observation).
+
+## Regression to the mean
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Regression_to_the_mean)
+
+An unusually extreme noisy observation tends to be followed by a less extreme observation even without intervention. Selecting locations for an intervention because they had high prior event counts can therefore bias a simple before-and-after comparison toward an apparent reduction. The effect follows from conditioning on an extreme value with a transient random component, rather than from a causal treatment effect.
+
+## Response variable
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+A [response variable](#response-variable) is the outcome whose variation is described by a statistical model or whose change is compared across [treatments](causal-inference.md#treatment). Its unit, measurement procedure and observation time must be specified. An outcome consisting of a feature count is one response per sketch, not one independent experimental response per feature.
+
+## Scientific control
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Scientific_control)
+
+A scientific control supplies a comparison or procedure that distinguishes an intended effect from other influences on an experiment or observational measurement. Negative controls should show no target effect; positive controls should show a known effect. A [negative control outcome](causal-inference.md#negative-control-outcome) applies this logic to an outcome that the exposure cannot causally affect.
+
+## Design of experiments
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Design_of_experiments)
+
+[Design of experiments](#design-of-experiments) chooses [experimental units](#experimental-unit), [treatments](causal-inference.md#treatment), [replication](#replication-in-experimental-design), [blocks in experimental design](#blocks-in-experimental-design) and [randomization](causal-inference.md#randomization) so that scientifically useful [treatment contrasts](#treatment-contrast) can be estimated with meaningful [standard errors](statistical-inference.md#standard-error). Allocation determines which measurements supply independent treatment information.
+
+### Optimal experimental design
+
+↑ **Parent:** [Design of experiments](#design-of-experiments)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Optimal_experimental_design)
+
+[Optimal experimental design](#optimal-experimental-design) chooses observation locations and allocations to optimize a specified criterion for a specified [statistical model](statistical-model.md). Criteria can control the [determinant](linear-algebra.md#determinant) of an estimator's [covariance matrix](variance.md#covariance-matrix) or its worst prediction [variance](variance.md). Optimality depends on the model and the permitted design class, including whether allocations are integer or approximate.
+
+#### General equivalence theorem for optimal design
+
+↑ **Parent:** [Optimal experimental design](#optimal-experimental-design)
+
+For continuous regressors spanning a $p$-dimensional space on a compact design region, and approximate designs with nonsingular [information matrix of an experimental design](#information-matrix-of-an-experimental-design), the following are equivalent: [D-optimal design](#d-optimal-design), [G-optimal design](#g-optimal-design), and $\sup_x d(x,\xi)=p$. A D-optimal design has nonpositive directional derivatives $d(x,\xi)-p$. Conversely, if every such derivative is nonpositive, [concavity](real-analysis.md#concave-function) of $\log\det$ bounds every competing information [matrix](vector-space.md#matrix) by the tangent at $M(\xi)$, proving D-optimality. The sensitivity average is $p$, and a D-optimal design exists by compactness of the information-matrix set and the spanning assumption; hence the optimal G-value is $p$. Sensitivity equals $p$ at every support point of an optimal design. The equivalence concerns approximate allocations; integer restrictions can change exact-design optima.
+
+#### G-optimal design
+
+↑ **Parent:** [Optimal experimental design](#optimal-experimental-design)
+
+A G-optimal design minimizes the maximum [design sensitivity function](#design-sensitivity-function) over the full design region. Thus it minimizes the worst [variance of a fitted regression mean](#variance-of-a-fitted-regression-mean), excluding the separate noise [variance](variance.md) of a new observation. The sensitivity average is $p$, so its supremum is at least $p$.
+
+#### D-optimal design
+
+↑ **Parent:** [Optimal experimental design](#optimal-experimental-design)
+
+A D-optimal design maximizes the [determinant](linear-algebra.md#determinant) of the [information matrix of an experimental design](#information-matrix-of-an-experimental-design), equivalently minimizing the [determinant](linear-algebra.md#determinant) of the [covariance matrix](variance.md#covariance-matrix) of a fixed-size [least-squares estimator](#ordinary-least-squares-estimators). It minimizes the volume of a fixed-level confidence ellipsoid for the model coefficients under the usual [Gaussian](probability-theory.md#normal-distribution) model.
+
+#### Approximate experimental design
+
+↑ **Parent:** [Optimal experimental design](#optimal-experimental-design)
+
+An approximate design is a [probability measure](probability-theory.md#probability-measure) on the design region, with weight $w_i$ specifying a proportion of observations at $x_i$. For $N$ independent observations and common error [variance](variance.md) $\sigma^2$, a [linear regression](linear-regression.md) with vector $f(x)$ has normalized [information matrix of an experimental design](#information-matrix-of-an-experimental-design) $M(\xi)=\int f(x)f(x)^T\,d\xi(x)$; its [least-squares estimator](#ordinary-least-squares-estimators) has [covariance](variance.md#covariance) $\sigma^2M(\xi)^{-1}/N$ when the allocations realize these proportions. Exact designs restrict $Nw_i$ to integers.
+
+##### Information matrix of an experimental design
+
+↑ **Parent:** [Approximate experimental design](#approximate-experimental-design)
+
+The normalized information [matrix](vector-space.md#matrix) for a homoscedastic [linear regression](linear-regression.md) model is the average outer product of its regressor vector. It is [positive-definite](linear-algebra.md#positive-definite-bilinear-form) precisely when the supported regressors span the parameter space. The full [Fisher information matrix](#fisher-information-matrix) under [normal](probability-theory.md#normal-distribution) errors is $NM(\xi)/\sigma^2$.
+
+###### Design sensitivity function
+
+↑ **Parent:** [Information matrix of an experimental design](#information-matrix-of-an-experimental-design)
+
+The sensitivity function is the normalized [variance of a fitted regression mean](#variance-of-a-fitted-regression-mean). Its average under the design is the number $p$ of model coefficients, since $\int d\,d\xi=\operatorname{tr}(M^{-1}M)=p$. The directional derivative of $\log\det M$ towards a point mass at $x$ is $d(x,\xi)-p$.
+
+### Latin square
+
+↑ **Parent:** [Design of experiments](#design-of-experiments)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Latin_square)
+
+A Latin square of order $q$ is a $q\times q$ array of $q$ symbols, each occurring once in each row and column. Used as a [row-column design](#row-column-design), its symbols label [treatments](causal-inference.md#treatment). Centered [treatment](causal-inference.md#treatment) indicators are [orthogonal](linear-algebra.md#orthogonal-vectors) to both row and column indicators, because every row-treatment and column-treatment pair occurs once. This balance separates additive effects from two nuisance directions.
+
+#### Analysis of variance for a Latin square
+
+↑ **Parent:** [Latin square](#latin-square)
+
+For one response per cell in an order-$q$ [Latin square](#latin-square), fit an [intercept](linear-regression.md#regression-intercept) and additive row, column and [treatment](causal-inference.md#treatment) effects with sum-to-zero constraints. Each factor contributes $q-1$ [statistical degrees of freedom](statistical-inference.md#statistical-degrees-of-freedom); the residual has $q^2-1-3(q-1)=(q-1)(q-2)$. The centered factor spaces are mutually [orthogonal](linear-algebra.md#orthogonal-vectors), so sequential sums of squares do not depend on fitting order. With an additional [orthogonal](linear-algebra.md#orthogonal-vectors) symbol factor from a [Graeco-Latin square](#graeco-latin-square), residual [statistical degrees of freedom](statistical-inference.md#statistical-degrees-of-freedom) become $(q-1)(q-3)$. Exact [F-tests](probability-and-statistics.md#f-test) require independent equal-variance [normal](probability-theory.md#normal-distribution) errors; unmodeled [interactions](statistical-model.md#interaction-statistics) can invalidate the error term.
+
+#### Mutually orthogonal Latin squares
+
+↑ **Parent:** [Latin square](#latin-square)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Mutually_orthogonal_Latin_squares)
+
+[Latin squares](#latin-square) on the same array are mutually [orthogonal](linear-algebra.md#orthogonal-vectors) when every ordered pair of symbols from any two squares occurs exactly once on superposition. Pairwise balance makes the centered symbol-indicator spaces [orthogonal](linear-algebra.md#orthogonal-vectors) in an additive [linear regression](linear-regression.md) model.
+
+##### Graeco-Latin square
+
+↑ **Parent:** [Mutually orthogonal Latin squares](#mutually-orthogonal-latin-squares)
+
+A Graeco-Latin square is the superposition of two [orthogonal](linear-algebra.md#orthogonal-vectors) [Latin squares](#latin-square) of the same order. Each symbol of either square occurs once per row and column, and every cross-square pair occurs once. It permits four mutually [orthogonal](linear-algebra.md#orthogonal-vectors) additive factor spaces: rows, columns, and the two symbol factors.
+
+### Contrast (statistics)
+
+↑ **Parent:** [Design of experiments](#design-of-experiments)
+
+A contrast is a [linear combination](vector-space.md#linear-combination) $\sum_i c_i\mu_i$ of group means with $\sum_i c_i=0$. It compares responses without depending on a common additive level. [Treatment contrasts](#treatment-contrast) and [factorial contrasts](#factorial-contrast) specify comparisons in a [design of experiments](#design-of-experiments).
+
+### Response surface methodology
+
+↑ **Parent:** [Design of experiments](#design-of-experiments)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Response_surface_methodology)
+
+[Response surface methodology](#response-surface-methodology) fits local [regression](#regression-analysis) approximations to a quantitative response as experimental settings change. A first-order model estimates a local gradient; augmenting the design permits [quadratic regression](linear-regression.md#quadratic-regression), curvature assessment and local optimization. Extrapolating a fitted surface outside the experimentally supported region requires caution.
+
+#### Center-point curvature contrast
+
+↑ **Parent:** [Response surface methodology](#response-surface-methodology)
+
+In a two-factor design with four corner observations and $n_0$ independent center replicates, the difference between the corner mean and center mean has [variance](variance.md) $\sigma^2(1/4+1/n_0)$. Under a full [quadratic regression](linear-regression.md#quadratic-regression) surface it estimates $\beta_{11}+\beta_{22}$; the linear and interaction terms average to zero at the corners. With $n_0\geq2$, the center [pure error](#pure-error) estimate makes its squared standardized contrast an $F_{1,n_0-1}$ test under a first-order mean model. Zero contrast does not exclude curvature, since the two squared-term coefficients may cancel.
+
+#### Steepest ascent in response surface methodology
+
+↑ **Parent:** [Response surface methodology](#response-surface-methodology)
+
+For a fitted local first-order response $\widehat m(x)=\widehat\beta_0+\widehat b^Tx$, the unit direction maximizing its directional derivative in coded Euclidean distance is $d=\widehat b/\|\widehat b\|$, by the [Cauchy-Schwarz inequality](probability-and-statistics.md#cauchy-schwarz-inequality). Run sequential feasible settings $x_0+hd$, increase $h$ while measured response improves, and refit near promising settings. Physical increments are $h_jhd_j$, so coded and unscaled physical gradients need not give the same experimental path. A near-zero gradient calls for further modeling rather than division by zero.
+
+#### Coded experimental variable
+
+↑ **Parent:** [Response surface methodology](#response-surface-methodology)
+
+A coded experimental variable rescales a physical setting $\xi_j$ around its center $c_j$, dividing by a chosen positive half-range $h_j$. The endpoints $c_j\pm h_j$ become $\pm1$, giving dimensionless [factorial design](#factorial-design) coordinates. The choice of scale affects the metric used for [steepest ascent in response surface methodology](#steepest-ascent-in-response-surface-methodology).
+
+#### Rotatable design
+
+↑ **Parent:** [Response surface methodology](#response-surface-methodology)
+
+A design for a specified polynomial model is rotatable when the [variance of a fitted regression mean](#variance-of-a-fitted-regression-mean) depends on a setting only through its distance from the centre. For a full $2^d$ factorial portion plus symmetric axial points in a [central composite design](#central-composite-design), fourth-order rotational symmetry requires $\sum x_i^4=3\sum x_i^2x_j^2$. These sums are $2^d+2\alpha^4$ and $2^d$, giving $\alpha=(2^d)^{1/4}$. Sign symmetry removes odd moments and equal second moments complete the required moment symmetry for a full quadratic model.
+
+#### Central composite design
+
+↑ **Parent:** [Response surface methodology](#response-surface-methodology)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Central_composite_design)
+
+A central composite design augments a factorial portion with axial points $\pm\alpha e_j$ and replicated centre points. It supports a full quadratic response model: intercept, linear terms, cross-products and squared coordinates. Centre-point [replication](#replication-in-experimental-design) estimates [pure error](#pure-error). Choosing the axial distance appropriately gives a [rotatable design](#rotatable-design).
+
+### Split-plot design
+
+↑ **Parent:** [Design of experiments](#design-of-experiments)
+
+A [split-plot design](#split-plot-design) randomizes one factor to whole plots and another to subplots within each whole plot. Whole-plot treatment effects and subplot treatment effects therefore use different error [ANOVA strata](linear-regression.md#anova-stratum). Whole plots provide [replication](#replication-in-experimental-design) for the first factor; their subplots do not supply extra independent whole-plot replication. Within-whole-plot comparisons can remove a shared additive whole-plot [variance component](#variance-component).
+
+### Factorial design
+
+↑ **Parent:** [Design of experiments](#design-of-experiments)
+
+A [factorial design](#factorial-design) includes every combination of specified factor levels. Balanced [replication](#replication-in-experimental-design) permits separate estimation of marginal effects and [interaction terms](statistical-model.md#interaction-term). The factor allocation, not the number of subsamples, determines the appropriate error term for each effect.
+
+#### Main effect
+
+↑ **Parent:** [Factorial design](#factorial-design)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Main_effect)
+
+A main effect compares the mean response at different levels of one factor after averaging over the other factors according to the design. With sign coding, its two-level difference is twice the singleton [factorial contrast](#factorial-contrast) coefficient. In a [fractional factorial design](#fractional-factorial-design), that coefficient can include aliased higher-order effects.
+
+#### Factorial contrast
+
+↑ **Parent:** [Factorial design](#factorial-design)
+
+In a two-level [factorial design](#factorial-design), a factor subset defines a sign column. The coefficient of this column is its response [contrast](#contrast-statistics) divided by the number of runs when the columns are [orthogonal](linear-algebra.md#orthogonal-vectors). A singleton describes a [main effect](#main-effect) and a pair describes a [two-factor interaction](statistical-model.md#two-factor-interaction). On the full cube, distinct columns have zero [inner product](linear-algebra.md#inner-product): summing over any coordinate in their [symmetric difference](set.md#symmetric-difference) cancels the terms.
+
+#### Fractional factorial design
+
+↑ **Parent:** [Factorial design](#factorial-design)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Fractional_factorial_design)
+
+A fractional [factorial design](#factorial-design) uses a selected subset of the full factor-level combinations. In a regular two-level fraction, encode levels by signs and impose $k$ independent equations $\prod_{j\in G_i}x_j=s_i$. Independence of the generator incidence vectors over $\mathbb F_2$ leaves $2^{m-k}$ runs. Reduced run count creates [aliasing in a fractional factorial design](#aliasing-in-a-fractional-factorial-design), which must be evaluated against the effects scientifically required.
+
+##### Resolution of a fractional factorial design
+
+↑ **Parent:** [Fractional factorial design](#fractional-factorial-design)
+
+The resolution of a regular fraction is the shortest nonidentity word in its [defining contrast subgroup](#defining-contrast-subgroup). Two effects alias only when their word product belongs to that subgroup. Thus resolution VI separates all [main effects](#main-effect) and [two-factor interactions](statistical-model.md#two-factor-interaction) from one another and from three-factor interactions, though some three-factor interactions alias in complementary pairs.
+
+##### Defining contrast subgroup
+
+↑ **Parent:** [Fractional factorial design](#fractional-factorial-design)
+
+Factor subsets multiply by [symmetric difference](set.md#symmetric-difference); their sign columns multiply pointwise. The subgroup generated by independent defining words has $2^k$ elements. On a selected [fractional factorial design](#fractional-factorial-design), every word in this subgroup is constant, with sign determined by the chosen generator signs. The cosets classify identical or opposite contrast columns.
+
+###### Aliasing in a fractional factorial design
+
+↑ **Parent:** [Defining contrast subgroup](#defining-contrast-subgroup)
+
+Two [factorial contrasts](#factorial-contrast) are aliased if their columns are proportional on the selected [fractional factorial design](#fractional-factorial-design). A word $G$ that has fixed sign $s_G$ gives $\chi_{AG}=s_G\chi_A$. Conversely, averaging a character over the fraction vanishes unless its word belongs to the [defining contrast subgroup](#defining-contrast-subgroup), so every alias class is exactly a subgroup coset. In a half fraction each class has two distinct words; their separate coefficients cannot be identified without assumptions or additional runs.
+
+### Crossover design
+
+↑ **Parent:** [Design of experiments](#design-of-experiments)
+
+A [crossover design](#crossover-design) assigns each subject a sequence of [treatments](causal-inference.md#treatment) in successive periods. Subject blocking can reduce between-subject variation; balanced sequences can separate treatment from period effects. A [carryover effect](#carryover-effect) or irreversible change can invalidate a simple within-subject comparison.
+
+#### Carryover effect
+
+↑ **Parent:** [Crossover design](#crossover-design)
+
+A [carryover effect](#carryover-effect) is an effect of a previous [treatment](causal-inference.md#treatment) on a later response. Balanced transitions help prevent a treatment from being preceded disproportionately by one particular alternative, but do not ensure that [carryover effects](#carryover-effect) vanish or are separately identifiable in every model.
+
+### Completely randomized design
+
+↑ **Parent:** [Design of experiments](#design-of-experiments)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Completely_randomized_design)
+
+A [completely randomized design](#completely-randomized-design) assigns [treatments](causal-inference.md#treatment) directly to available [experimental units](#experimental-unit) using [complete randomization](causal-inference.md#complete-randomization), without blocking. Fixed group sizes can be enforced. The residual then includes uncontrolled between-unit variation.
+
+### Blocks in experimental design
+
+↑ **Parent:** [Design of experiments](#design-of-experiments)
+
+A block groups [experimental units](#experimental-unit) expected to have similar background responses. Comparing [treatments](causal-inference.md#treatment) within blocks can reduce the [variance of an estimator](#variance-of-an-estimator). Block allocation must be specified before responses are used to evaluate treatment effects.
+
+#### Estimability from within-block differences
+
+↑ **Parent:** [Blocks in experimental design](#blocks-in-experimental-design)
+
+For a [linear regression](linear-regression.md) model $Y_{bj}=\alpha_b+f(x_{bj})^T\beta+\epsilon_{bj}$ with one unrestricted [intercept](linear-regression.md#regression-intercept) per two-run [experimental block](#blocks-in-experimental-design), differencing the responses removes all [experimental block](#blocks-in-experimental-design) effects. The parameter vector $\beta$ is identifiable precisely when the [matrix](vector-space.md#matrix) whose rows are $f(x_{b1})-f(x_{b2})$ has full column [rank](linear-algebra.md#rank-one-quadratic-form). This criterion applies to arbitrary pairings, including nonregular [factorial designs](#factorial-design); requiring regular [orthogonal](linear-algebra.md#orthogonal-vectors) confounding is a stronger constraint.
+
+#### Block confounding in a factorial design
+
+↑ **Parent:** [Blocks in experimental design](#blocks-in-experimental-design)
+
+Partition a regular [factorial design](#factorial-design) by fixed signs of independent [factorial contrasts](#factorial-contrast). Products of those block-generating columns span the block effects. A treatment contrast that is constant on each block is therefore confounded with block differences. Select generators so that only scientifically dispensable treatment effects enter this space; randomize the assignment of blocks and the run order within each block.
+
+#### Block design
+
+↑ **Parent:** [Blocks in experimental design](#blocks-in-experimental-design)
+
+A [block design](#block-design) assigns [treatments](causal-inference.md#treatment) to [experimental units](#experimental-unit) partitioned into blocks. Its incidence counts $n_{ij}$ record how often [treatment](causal-inference.md#treatment) $i$ occurs in block $j$. Balance and connectedness determine which [treatment contrasts](#treatment-contrast) are estimable and how much adjustment for blocks costs.
+
+##### Balanced incomplete block design
+
+↑ **Parent:** [Block design](#block-design)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Balanced_incomplete_block_design)
+
+A binary [block design](#block-design) has $t$ [treatments](causal-inference.md#treatment), $b$ blocks of size $k<t$, every treatment in $r$ blocks, and every distinct pair in $\lambda$ blocks. Counting occurrences and pairs gives $tr=bk$ and $r(k-1)=\lambda(t-1)$. Its [incidence matrix of a set system](extremal-set-theory.md#incidence-matrix-of-a-set-system) $N$ satisfies $NN^T=(r-\lambda)I+\lambda\mathbf1\mathbf1^T$. For statistical comparison of all treatment effects one also needs connectedness; $\lambda>0$ guarantees it, whereas singleton blocks with $\lambda=0$ do not.
+
+###### Symmetric balanced incomplete block design
+
+↑ **Parent:** [Balanced incomplete block design](#balanced-incomplete-block-design)
+
+A [balanced incomplete block design](#balanced-incomplete-block-design) is symmetric when its number of blocks equals its number of treatments. The identity $bk=tr$ then gives $r=k$. Its square [incidence matrix of a set system](extremal-set-theory.md#incidence-matrix-of-a-set-system) $N$ obeys $NN^T=(r-\lambda)I+\lambda J$, with eigenvalues $r-\lambda$ of multiplicity $t-1$ and $r^2$ of multiplicity one.
+
+###### Even-order symmetric design square obstruction
+
+↑ **Parent:** [Symmetric balanced incomplete block design](#symmetric-balanced-incomplete-block-design)
+
+In a nontrivial [symmetric balanced incomplete block design](#symmetric-balanced-incomplete-block-design), $\det(N)^2=r^2(r-\lambda)^{t-1}$. If $t$ is even, $t-1$ is odd. For every prime, the exponent in the left side is even and that in $r^2$ is even, so its exponent in $r-\lambda$ must be even. Thus $r-\lambda$ is a perfect square. This supplies an elementary necessary existence condition without claiming it is sufficient.
+
+<h6 id="fisher-s-inequality-for-block-designs">Fisher's inequality for block designs</h6>
+
+↑ **Parent:** [Balanced incomplete block design](#balanced-incomplete-block-design)
+
+For a [balanced incomplete block design](#balanced-incomplete-block-design) with $r>\lambda$, $NN^T$ has [eigenvalues](linear-operator-theory.md#eigenvalue) $r-\lambda>0$ on the zero-sum subspace and $r+(t-1)\lambda>0$ on the constant vector. Thus its [rank](linear-algebra.md#rank-one-quadratic-form) is $t$. As $N$ is $t\times b$, $t=\operatorname{rank}(NN^T)\leq\operatorname{rank}(N)\leq b$.
+
+##### Row-column design
+
+↑ **Parent:** [Block design](#block-design)
+
+A [row-column design](#row-column-design) has two crossed partitions of [experimental units](#experimental-unit) into rows and columns. Equal treatment proportions in every row and every column make treatment contrasts [orthogonal](linear-algebra.md#orthogonal-vectors) to both centered block spaces. A repeated three-treatment arrangement in a six-by-six array can give a balanced example.
+
+##### Randomized complete block design
+
+↑ **Parent:** [Block design](#block-design)
+
+A [randomized complete block design](#randomized-complete-block-design) places every [treatment](causal-inference.md#treatment) in every block, with a common replication pattern, and uses independent within-block [randomization](causal-inference.md#randomization). The usual basic version has one occurrence of each [treatment](causal-inference.md#treatment) per block; equal repeated occurrences give a replicated complete-block version. Such equal-proportion designs are [orthogonal block designs](#orthogonal-block-design).
+
+##### Orthogonal block design
+
+↑ **Parent:** [Block design](#block-design)
+
+An [orthogonal block design](#orthogonal-block-design) has centered treatment-indicator vectors [orthogonal](linear-algebra.md#orthogonal-vectors) to centered block-indicator vectors on the [experimental units](#experimental-unit). With treatment replication $r_i$, block size $k_j$ and total $n$, this is equivalent to $n_{ij}=r_i k_j/n$. It permits additive block adjustment without changing treatment estimates.
+
+### Replication in experimental design
+
+↑ **Parent:** [Design of experiments](#design-of-experiments)
+
+[Replication in experimental design](#replication-in-experimental-design) assigns a [treatment](causal-inference.md#treatment) to multiple independently allocated [experimental units](#experimental-unit). Repeated measurements on one unit can improve measurement precision without providing independent treatment [replication](#replication-in-experimental-design).
+
+#### Replicate
+
+↑ **Parent:** [Replication in experimental design](#replication-in-experimental-design)
+
+A [replicate](#replicate) is an independently allocated instance of a [treatment](causal-inference.md#treatment) on an [experimental unit](#experimental-unit). Independent [replicates](#replicate) permit estimation of response variation; subsamples within one unit do not supply additional independent treatment [replication](#replication-in-experimental-design).
+
+### Experimental unit
+
+↑ **Parent:** [Design of experiments](#design-of-experiments)
+
+An [experimental unit](#experimental-unit) is a unit to which a [treatment](causal-inference.md#treatment) is assigned under the experimental allocation. A whole orchard can be an [experimental unit](#experimental-unit) even when responses are recorded separately on its trees. Different factors in a [split-plot design](#split-plot-design) can have different [experimental units](#experimental-unit).
+
+#### Observational unit
+
+↑ **Parent:** [Experimental unit](#experimental-unit)
+
+An [observational unit](#observational-unit) is the object or occasion supplying a recorded response. Several [observational units](#observational-unit) can belong to one [experimental unit](#experimental-unit); counting them as independent treatment [replicates](#replicate) creates [pseudoreplication](#pseudoreplication).
+
+## Fractional polynomial
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+A [fractional polynomial](#fractional-polynomial) uses selected real powers of a positive covariate to model a smooth regression effect. Power zero denotes a logarithm, and a repeated power can generate a term $x^p\log x$. Such terms permit a wider family than ordinary integer-power polynomials, but their selection adds modeling uncertainty and requires validation.
+
+## Restricted cubic spline
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+A [restricted cubic spline](#restricted-cubic-spline) represents a smooth covariate effect by joined cubic pieces, with linear tails beyond the boundary knots. It allows nonlinear regression effects while controlling extrapolation. In a [Cox proportional-hazards model](survival-analysis.md#cox-proportional-hazards-model), test the nonlinear basis coefficients jointly and report the fitted log-hazard or hazard-ratio curve with uncertainty.
+
+## Quantile regression
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Quantile_regression)
+
+[Quantile regression](#quantile-regression) models a conditional [quantile](probability-theory.md#quantile-function) of a response, rather than its conditional mean. Fitting by the [check loss](#check-loss) uses an asymmetric absolute-error penalty, so different values of $\tau$ describe different parts of the response distribution. Nonlinear models may use any identifiable continuous regression function, not only a linear predictor.
+
+### Conditional quantile identification
+
+↑ **Parent:** [Quantile regression](#quantile-regression)
+
+If the conditional error [distribution function](probability-theory.md#cumulative-distribution-function) is continuous and strictly increasing with $\tau$-[quantile](probability-theory.md#quantile-function) zero, the conditional expected [check loss](#check-loss) is uniquely minimized at zero fitted displacement. If every incorrect parameter differs from the true regression function on an event of positive probability, averaging these nonnegative conditional risk differences gives strict [identifiability](statistical-model.md#identifiability) of the true parameter. Integrable errors and bounded regression functions supply finite risks.
+
+### Check loss
+
+↑ **Parent:** [Quantile regression](#quantile-regression)
+
+The [check loss](#check-loss) weights positive errors by $\tau$ and negative errors by $1-\tau$. It is convex, continuous and Lipschitz with constant $\max(\tau,1-\tau)$. At $\tau=1/2$ it is half the absolute error. Its expected value elicits a [quantile](probability-theory.md#quantile-function): asymmetry determines which probability level the fitted location targets.
+
+#### Population quantiles minimize check loss
+
+↑ **Parent:** [Check loss](#check-loss)
+
+For an integrable response with continuous strictly increasing [distribution function](probability-theory.md#cumulative-distribution-function) $F$, the [population risk](foundations-of-mathematics.md#population-risk) for the [check loss](#check-loss) has derivative $F(q)-\tau$. Bounded difference quotients justify differentiation by [dominated convergence](measure-theory.md#dominated-convergence-theorem). Integrating the derivative between the unique [quantile](probability-theory.md#quantile-function) and another location proves strict optimality. This proves [identifiability](statistical-model.md#identifiability) without requiring a positive density.
+
+## Observed heterogeneity
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+Outcome propensities can vary between individuals because of their measured [covariates](statistical-model.md#covariate). A [linear regression](linear-regression.md) can describe this variation by allowing its conditional mean to depend on those predictors.
+
+## Pairwise comparison model
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+A pairwise comparison model specifies the [probability](probability-theory.md#probability) that one alternative beats another. Outcomes can be used to infer latent abilities through [maximum likelihood estimation](#maximum-likelihood-estimation) or another statistical method.
+
+### Bradley-Terry model
+
+↑ **Parent:** [Pairwise comparison model](#pairwise-comparison-model)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Bradley–Terry_model)
+
+The Bradley-Terry model assigns positive abilities $\theta_i$ and the displayed pairwise winning probabilities. Multiplying all abilities by the same positive scalar leaves the probabilities unchanged, so [identifiability](statistical-model.md#identifiability) requires a normalization. In log abilities $\beta_i=\log\theta_i$, the model has comparison probabilities obtained from the [logistic function](statistical-learning.md#logistic-function). Either parametrization induces the same ordering of players.
+
+#### Bradley-Terry score equation
+
+↑ **Parent:** [Bradley-Terry model](#bradley-terry-model)
+
+Let $W_i$ count observed wins and $n_{ij}$ count comparisons of players $i,j$. Differentiating the [log-likelihood](#log-likelihood) with respect to $\log\theta_i$ gives observed wins minus model-expected wins. Vanishing derivatives therefore give the displayed equations. One equation is redundant because abilities are identifiable only up to common scaling.
+
+##### Bradley-Terry maximum-likelihood estimate on a comparison tree
+
+↑ **Parent:** [Bradley-Terry score equation](#bradley-terry-score-equation)
+
+For a connected [tree](combinatorics.md#tree-graph-theory) of comparisons with every observed win fraction strictly between zero and one, the [Bradley-Terry model](#bradley-terry-model) can fit every empirical edge probability exactly. Fix one positive strength to remove scaling ambiguity, then propagate strength ratios $p/(1-p)$ along tree edges. Edge log-ratios are independent real coordinates and each binomial [log-likelihood](#log-likelihood) term is strictly concave, proving existence and uniqueness of the normalized estimate. Cycles would impose extra compatibility relations.
+
+###### Bradley-Terry maximum-likelihood estimate on a path
+
+↑ **Parent:** [Bradley-Terry maximum-likelihood estimate on a comparison tree](#bradley-terry-maximum-likelihood-estimate-on-a-comparison-tree)
+
+For observed neighbor win fractions $p_0,\ldots,p_{n-1}\in(0,1)$ on the [path graph](graph-theory.md#path-graph) $0,1,\ldots,n$, the normalized [Bradley-Terry model](#bradley-terry-model) estimate with $\widehat\theta_n=1$ is $\widehat\theta_i=\prod_{k=i}^{n-1}p_k/(1-p_k)$. This is backward propagation of empirical odds along the path. Every edge proportion is fitted exactly, and strict concavity in edge log-ratios proves that this is the unique global maximum.
+
+###### Edge log-ratios in a Bradley-Terry comparison tree
+
+↑ **Parent:** [Bradley-Terry maximum-likelihood estimate on a comparison tree](#bradley-terry-maximum-likelihood-estimate-on-a-comparison-tree)
+
+Orient the edges of a comparison [tree](combinatorics.md#tree-graph-theory) and set $\eta_{ij}=\log\theta_i-\log\theta_j$. After anchoring one vertex strength, these edge quantities are unconstrained coordinates. The [Bradley-Terry model](#bradley-terry-model) probability is the [logistic function](statistical-learning.md#logistic-function) of $\eta_{ij}$, and its binomial [log-likelihood](#log-likelihood) contribution is $m[p\eta_{ij}-\log(1+e^{\eta_{ij}})]$. Differentiating gives the fitted odds $p/(1-p)$.
+
+##### Three-player Bradley-Terry comparison cycle
+
+↑ **Parent:** [Bradley-Terry score equation](#bradley-terry-score-equation)
+
+For one win of player 1 over 2, one win of 3 over 1, and $k\geq1$ wins of 2 over 3, the [Bradley-Terry score equations](#bradley-terry-score-equation) force abilities proportional to $(r,1,r^2)$, where $r>0$ satisfies the displayed equation. Its left side is strictly increasing on $r>0$. For $k=1$, $r=1$ and all three estimates tie. For $k>1$, $r<1$, giving the ranking $2>1>3$.
+
+##### Bradley-Terry likelihood Hessian
+
+↑ **Parent:** [Bradley-Terry score equation](#bradley-terry-score-equation)
+
+In log abilities, the negative [Hessian matrix](calculus.md#hessian-matrix) is a weighted [Graph Laplacian](graph-theory.md#laplacian-matrix) of the comparison graph. If that comparison graph is a [connected graph](graph.md#connected-graph) and the abilities are finite, the quadratic form vanishes only for constant vectors. Thus the [log-likelihood](#log-likelihood) is strictly concave after fixing the common additive constant. If the directed graph of observed wins is a [strongly connected directed graph](graph-theory.md#strong-connectivity), letting contrasts diverge forces at least one observed-win probability to zero, so the log-likelihood tends to negative infinity. A finite maximizer exists and is unique up to common scaling of abilities.
+
+## Fixed effect
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+A fixed effect represents an unknown nonrandom coefficient in the specified mean model. In a [Gaussian linear mixed model](#gaussian-linear-mixed-model), $X\beta$ is the population mean, while [random effects](#random-effect) are latent draws from a distribution whose parameters are estimated. Treating a group coefficient as fixed or random concerns the modelling and inferential target, not whether its estimate changes across samples.
+
+## Geostatistics
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Geostatistics)
+
+[Geostatistics](#geostatistics) models spatial dependence for estimation and prediction. A mean or drift describes systematic variation, while a [covariogram](#covariogram) or [semivariogram](#semivariogram) describes residual dependence. [Kriging](#kriging) combines the two for spatial prediction.
+
+### Kriging
+
+↑ **Parent:** [Geostatistics](#geostatistics)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Kriging)
+
+[Kriging](#kriging) predicts a spatial random field by a linear combination of observations chosen to minimize prediction [variance](variance.md) subject to the appropriate mean constraints. Its different forms depend on whether the mean is known, an unknown constant, or an unknown regression drift.
+
+#### Universal kriging
+
+↑ **Parent:** [Kriging](#kriging)
+
+For unknown drift $X\beta$, a full-column-rank [design matrix](linear-regression.md#design-matrix) $X$, a known [positive-definite matrix](linear-algebra.md#positive-definite-matrix) observation [covariance matrix](variance.md#covariance-matrix) $\Sigma$, and target drift row $x_0^T$, universal kriging minimizes prediction [variance](variance.md) subject to $X^Tw=x_0$. Equivalently, with $\widehat\beta=(X^T\Sigma^{-1}X)^{-1}X^T\Sigma^{-1}z$, predict $x_0^T\widehat\beta+c^T\Sigma^{-1}(z-X\widehat\beta)$. The first term is the estimated trend alone; the second is a correlated residual prediction.
+
+#### Ordinary kriging
+
+↑ **Parent:** [Kriging](#kriging)
+
+For an unknown constant mean, ordinary kriging minimizes error [variance](variance.md) subject to weights summing to one. This unbiasedness constraint distinguishes it from [simple kriging](#simple-kriging).
+
+#### Simple kriging
+
+↑ **Parent:** [Kriging](#kriging)
+
+For known zero mean, invertible observation [covariance](variance.md#covariance) $\Sigma$, target [covariance](variance.md#covariance) vector $c$ and target [variance](variance.md) $v_0$, simple kriging predicts $c^T\Sigma^{-1}z$ with error [variance](variance.md) $v_0-c^T\Sigma^{-1}c$. Completing the [covariance](variance.md#covariance) quadratic form proves optimality. A [multivariate normal distribution](probability-and-statistics.md#multivariate-normal-distribution) makes this the exact conditional mean and [variance](variance.md).
+
+### Covariogram
+
+↑ **Parent:** [Geostatistics](#geostatistics)
+
+The [covariogram](#covariogram) is the displacement-dependent [covariance](variance.md#covariance) $C(h)=\operatorname{Cov}[Z(s+h),Z(s)]$ of a second-order stationary field. It is an even [positive-definite kernel](probability-and-statistics.md#positive-semidefinite-kernel). A [semivariogram](#semivariogram) determines differences $C(0)-C(h)$, but not an arbitrary constant [covariance](variance.md#covariance) component.
+
+### Intrinsically stationary random field
+
+↑ **Parent:** [Geostatistics](#geostatistics)
+
+An intrinsically stationary random field has constant mean and finite increment [variances](variance.md) depending only on displacement. Its [semivariogram](#semivariogram) is $\gamma(h)=\tfrac12\operatorname{Var}[Z(s+h)-Z(s)]$. Second-order stationarity implies this property, but the converse can fail: subtracting the value at a fixed origin from a stationary field preserves increments and makes marginal [variance](variance.md) vary with location.
+
+#### Semivariogram
+
+↑ **Parent:** [Intrinsically stationary random field](#intrinsically-stationary-random-field)
+
+For an [intrinsically stationary random field](#intrinsically-stationary-random-field), the [semivariogram](#semivariogram) is $\gamma(h)=\tfrac12\operatorname{Var}[Z(s+h)-Z(s)]$. It is even and vanishes at zero. With constant mean, a second-order stationary field has $\gamma(h)=C(0)-C(h)$. An isotropic model writes it as a function of nonnegative distance.
+
+##### Empirical semivariogram
+
+↑ **Parent:** [Semivariogram](#semivariogram)
+
+For a distance bin $B$, the [empirical semivariogram](#empirical-semivariogram) is $\widehat\gamma(B)=(2|B|)^{-1}\sum_{(i,j)\in B}(z_i-z_j)^2$. A nonconstant drift adds half its squared pairwise differences to the expected raw [semivariogram](#semivariogram). Residual [semivariograms](#semivariogram) estimate spatial dependence after adjusting for the drift.
+
+##### Range of a semivariogram
+
+↑ **Parent:** [Semivariogram](#semivariogram)
+
+The exact range is a separation beyond which the [semivariogram](#semivariogram) reaches its sill. A [Gaussian semivariogram](#gaussian-semivariogram) with nonzero structured [variance](variance.md) approaches its sill asymptotically and therefore has infinite exact range. Software range parameters may instead specify a scale.
+
+###### Practical range
+
+↑ **Parent:** [Range of a semivariogram](#range-of-a-semivariogram)
+
+A practical range specifies a distance at which a chosen fraction of the structured sill is reached. For the [Gaussian semivariogram](#gaussian-semivariogram) $\sigma^2(1-e^{-(h/a)^2})$, the 95-percent practical range is $a\sqrt{\log20}$, obtained by solving $e^{-(h/a)^2}=0.05$.
+
+##### Sill of a semivariogram
+
+↑ **Parent:** [Semivariogram](#semivariogram)
+
+The sill is the large-distance level of a [semivariogram](#semivariogram) when that limit exists. For [covariance](variance.md#covariance) tending to zero, the sill is the total marginal [variance](variance.md); a nugget plus a structured component has total sill $\tau^2+\sigma^2$. A nonzero constant [covariance](variance.md#covariance) component is invisible to the [semivariogram](#semivariogram).
+
+##### Nugget effect
+
+↑ **Parent:** [Semivariogram](#semivariogram)
+
+The nugget is the discontinuity of a distance [semivariogram](#semivariogram) at zero. Independent location-specific noise of [variance](variance.md) $\tau^2$ contributes [covariance](variance.md#covariance) $\tau^2$ at zero displacement and zero [covariance](variance.md#covariance) at nonzero displacement, so its [semivariogram](#semivariogram) is $\tau^2\mathbf1_{\{h\ne0\}}$.
+
+##### A semivariogram does not determine stationarity
+
+↑ **Parent:** [Semivariogram](#semivariogram)
+
+If $W(s)$ is stationary, then $Z(s)=W(s)-W(0)$ has exactly the same increments and [semivariogram](#semivariogram), but $\operatorname{Var}Z(s)=2\gamma_W(s)$ is generally nonconstant. Thus existence of a stationary [covariance](variance.md#covariance) model for a [semivariogram](#semivariogram) does not imply stationarity of every process with that [semivariogram](#semivariogram). Adding an independent random constant also leaves the [semivariogram](#semivariogram) unchanged while changing the [covariogram](#covariogram).
+
+##### Gaussian semivariogram
+
+↑ **Parent:** [Semivariogram](#semivariogram)
+
+For $\phi>0$ and nonnegative [variances](variance.md), $\gamma(h)=\tau^2\mathbf1_{\{h\ne0\}}+\sigma^2(1-e^{-\phi^2\|h\|^2})$ admits [covariance](variance.md#covariance) $C(h)=\sigma^2e^{-\phi^2\|h\|^2}+\tau^2\mathbf1_{\{h=0\}}$. The [Gaussian kernel](probability-and-statistics.md#gaussian-kernel) is positive definite because it is the [Fourier transform](analysis.md#fourier-transform) of the density of a [Gaussian distribution](probability-theory.md#normal-distribution). Adding independent [white noise](time-series.md#white-noise) supplies the [nugget effect](#nugget-effect). Its scale is $a=1/\phi$. For $\sigma^2>0$, its exact [range of a semivariogram](#range-of-a-semivariogram) is infinite. If $\sigma^2=0$, it is a pure [nugget effect](#nugget-effect) with no nontrivial structured range.
+
+## Saturated statistical model
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+A saturated model has enough independently varying mean parameters to match every observed response or response cell. In individual [Bernoulli distribution](discrete-probability-distribution.md#bernoulli-distribution) data its fitted probabilities are $p_i=y_i$, and its maximum [log-likelihood](#log-likelihood) is zero under $0\log0=0$. It defines the reference in a [binomial deviance](#binomial-deviance).
+
+### Bernoulli saturated log-likelihood
+
+↑ **Parent:** [Saturated statistical model](#saturated-statistical-model)
+
+For individual [Bernoulli](discrete-probability-distribution.md#bernoulli-distribution) observations, the [statistical saturated model](#saturated-statistical-model) assigns one independent probability to each response. Each [likelihood](#likelihood-function) factor is at most one and is exactly one at $\pi_i=y_i$. Hence the maximum [log-likelihood](#log-likelihood) is zero, with $0\log0=0$. This boundary maximum is attained when probabilities zero and one are allowed; restricting them to the open interval gives the same supremum.
+
+## Hurdle model
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Hurdle_model)
+
+A hurdle model separately models whether a count is zero and, conditional on being positive, uses a zero-truncated count distribution. Unlike [zero inflation](#zero-inflation), the positive-count component cannot generate zeros.
+
+## Zero inflation
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+[Zero inflation](#zero-inflation) augments a count distribution with an additional mass at zero. An observed zero can arise either from the structural-zero component or from the ordinary count component; the latent source is not observed.
+
+### Count-mixture structural zero
+
+↑ **Parent:** [Zero inflation](#zero-inflation)
+
+A [structural-zero component](#count-mixture-structural-zero) in a count mixture produces a count identically equal to zero. If its mixture weight is $\pi$ and the ordinary component also assigns mass $p_0$ to zero, the observed zero probability is $\pi+(1-\pi)p_0$. Thus an observed zero does not reveal the latent component membership. A shared component for a repeated count profile makes the whole profile zero and induces dependence between its components.
+
+### Zero-inflated negative binomial model
+
+↑ **Parent:** [Zero inflation](#zero-inflation)
+
+With structural-zero probability $\pi$, size $r>0$ and count mean $\lambda$, the model assigns $\pi+(1-\pi)(r/(r+\lambda))^r$ to zero and $(1-\pi)f_{\rm NB}(y;r,\lambda)$ to positive counts. Its [expectation](probability-theory.md#expected-value) is $(1-\pi)\lambda$ and its [variance](variance.md) is $(1-\pi)(\lambda+\lambda^2/r)+\pi(1-\pi)\lambda^2$, by the [law of total variance](probability-theory.md#law-of-total-variance). A [logarithmic link function](#logarithmic-link-function) can relate the count-component mean to predictors.
+
+#### Shared zero-inflated Gamma-Poisson count model
+
+↑ **Parent:** [Zero-inflated negative binomial model](#zero-inflated-negative-binomial-model)
+
+Let $B=0$ with probability $\pi$, and otherwise let $B$ have a [Gamma distribution](continuous-probability-distribution.md#gamma-distribution) with mean one and [variance](variance.md) $\tau$. Given $B$, counts $Y_j$ are [conditionally independent](random-variable.md#conditional-independence) [Poisson random variables](discrete-probability-distribution.md#poisson-distribution) with means $B\mu_j$. For $q=1-\pi$, the [law of total variance](probability-theory.md#law-of-total-variance) and [law of total covariance](variance.md#law-of-total-covariance) give
+
+$$
+\mathbb EY_j=q\mu_j,\qquad\operatorname{Cov}(Y)=\operatorname{diag}(q\mu)+q(\tau+\pi)\mu\mu^T.
+$$
+
+Each component has a [zero-inflated negative binomial distribution](#zero-inflated-negative-binomial-model), but the components are not independent after marginalizing $B$. The zero component is shared by the whole profile. At $\tau=0$, interpret the positive Gamma component as a [point mass](classical-mechanics.md#point-mass) at one.
+
+##### Mean-ratio preservation under a multiplicative random effect
+
+↑ **Parent:** [Shared zero-inflated Gamma-Poisson count model](#shared-zero-inflated-gamma-poisson-count-model)
+
+If $\mathbb E(Y_j\mid B,x)=B\exp(\beta_0+\beta^Tx+\alpha_j)$ and the distribution of $B$ is the same at each observation time with finite positive mean, integrating out $B$ adds $\log\mathbb EB$ to the marginal log-mean intercept. The conditional positive-$B$ mean ratio and the marginal mean ratio both equal $e^{\alpha_j-\alpha_k}$. This is a property of the multiplicative [logarithmic link function](#logarithmic-link-function); it need not hold for nonlinear links such as the [logit link](#logit).
+
+#### EM for zero-inflated negative binomial regression
+
+↑ **Parent:** [Zero-inflated negative binomial model](#zero-inflated-negative-binomial-model)
+
+For known size $r$ and $\lambda_i=e^{x_i^T\beta}$, the [expectation-maximization algorithm](#expectation-maximization-algorithm) gives structural-zero responsibility $t_i=0$ for positive counts and $t_i=\pi/[\pi+(1-\pi)(r/(r+\lambda_i))^r]$ for zero counts. This is [Bayes' theorem](probability-theory.md#bayes-theorem). Maximizing the expected complete-data [log-likelihood](#log-likelihood) gives $\pi_{\rm new}=n^{-1}\sum_i t_i$ and a weighted [negative binomial regression](#negative-binomial-regression) with weights $1-t_i$. The objective separates into a Bernoulli mixing term and a weighted count term, which proves the update.
+
+## Estimator
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+An estimator is a function of observed data used to estimate a parameter or a specified function of parameters. Its definition cannot involve the unknown parameter. Its [bias](#bias-of-an-estimator), [variance](variance.md), and expected loss describe its performance under repeated sampling.
+
+### Method of moments (statistics)
+
+↑ **Parent:** [Estimator](#estimator)
+
+A method-of-moments [estimator](#estimator) equates selected theoretical [moments](probability-theory.md#moment) $m_j(\theta)$ to corresponding empirical moment estimates and solves for the parameter. For a distribution with mean $\mu$ and variance $\sigma^2$, the first two raw moment equations give $\widehat\mu=\overline X$ and $\widehat{\sigma^2}=n^{-1}\sum_iX_i^2-\overline X^2$. Existence, uniqueness and consistency require appropriate identifiability and moment assumptions; unbiased empirical moments do not make nonlinear parameter estimates unbiased. This statistical estimation procedure differs from the [method of moments in probability](convergence-of-random-variables.md#method-of-moments-probability-theory) for proving convergence in distribution.
+
+### U-statistic
+
+↑ **Parent:** [Estimator](#estimator)
+
+A [U-statistic](#u-statistic) averages a symmetric function of $m$ distinct sample observations over all unordered $m$-tuples. For [independent and identically distributed](random-variable.md#independent-and-identically-distributed-random-variables) observations it is an [unbiased estimator](#unbiased-estimator) of $\mathbb E H(X_1,\ldots,X_m)$. Omitting repeated indices can remove diagonal contributions in quadratic plug-in [estimators](#estimator).
+
+#### Influence function of a U-statistic
+
+↑ **Parent:** [U-statistic](#u-statistic)
+
+For a symmetric degree-$m$ [U-statistic kernel](#kernel-of-a-u-statistic), the population functional is $T(F)=\int h\,dF^m$. Contaminating each of the $m$ identical distribution arguments and differentiating gives the displayed [influence function](statistical-inference.md#influence-function). It equals $m$ times the first [Hoeffding projection](#hoeffding-projection) and gives leading [asymptotic variance](#asymptotic-variance) $m^2\operatorname{Var}(h_1(X))/n$. If that projection vanishes, the usual root-$n$ normal limit degenerates and higher-order projections determine the limiting law.
+
+#### Kernel of a U-statistic
+
+↑ **Parent:** [U-statistic](#u-statistic)
+
+A U-statistic kernel is an integrable function of a fixed number r of observations whose expectation is the parameter functional to be estimated. [Exchangeability](probability-theory.md#exchangeable-random-variables) permits symmetrization without changing that expectation. This is a function of r sample values, rather than the one-displacement [kernel for density estimation](nonparametric-statistics.md#kernel-for-density-estimation).
+
+#### Variance as a U-statistic
+
+↑ **Parent:** [U-statistic](#u-statistic)
+
+The symmetric kernel $h(x,y)=(x-y)^2/2$ has expectation equal to the population variance for independent identically distributed observations with finite second moment. Its [U-statistic](#u-statistic) reduces to the displayed unbiased [sample variance](statistical-inference.md#sample-variance), using $\sum_{i<j}(X_i-X_j)^2=n\sum_i(X_i-\overline X)^2$.
+
+#### Symmetrization of a U-statistic kernel
+
+↑ **Parent:** [U-statistic](#u-statistic)
+
+Exchangeability of an independent identically distributed sample makes every permuted kernel have the same expectation. Averaging over permutations therefore leaves the target functional unchanged and gives a symmetric kernel. The [U-statistic](#u-statistic) then averages this kernel over the unordered r-element sample subsets.
+
+#### U-statistic central limit theorem
+
+↑ **Parent:** [U-statistic](#u-statistic)
+
+For an iid sample and symmetric square-integrable kernel $h$ of fixed order $m$, put $\eta=\mathbb Eh(X_1,\ldots,X_m)$ and $h_1(x)=\mathbb E[h(x,X_2,\ldots,X_m)]-\eta$. If $\zeta_1=\operatorname{Var}(h_1(X_1))>0$, the displayed limit holds. The first [Hoeffding projection](#hoeffding-projection) is $(m/n)\sum_ih_1(X_i)$; its orthogonal remainder is $O_{L^2}(n^{-1})$, giving the limit by the ordinary [central limit theorem](convergence-of-random-variables.md#central-limit-theorem). Degenerate kernels require a different limiting theory.
+
+##### Hoeffding projection
+
+↑ **Parent:** [U-statistic central limit theorem](#u-statistic-central-limit-theorem)
+
+The displayed sum is the first-order projection of a centred [U-statistic](#u-statistic) onto sums of functions of individual observations. Its summands are [independent](random-variable.md#independent-random-variables) and have mean zero. Subtracting it leaves a remainder with conditional [expectation](probability-theory.md#expected-value) zero in each individual observation, a useful decomposition for [variance](variance.md) and normal-limit calculations.
+
+## Categorical variable
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Categorical_variable)
+
+A categorical variable takes values in a finite or countable set of labels. A regression model usually represents an unordered categorical predictor by [indicator variables](#indicator-variable) relative to a [reference level in a regression factor](#reference-level-in-a-regression-factor).
+
+### Regression factor
+
+↑ **Parent:** [Categorical variable](#categorical-variable)
+
+A [regression factor](#regression-factor) is a [categorical variable](#categorical-variable) encoded by indicator columns or [treatment contrasts](#treatment-contrast) in a [statistical model](statistical-model.md). A factor with $k$ observed levels normally contributes $k-1$ [statistical degrees of freedom](statistical-inference.md#statistical-degrees-of-freedom) when an intercept is present. The [reference level in a regression factor](#reference-level-in-a-regression-factor) has coefficient zero under [treatment contrasts](#treatment-contrast). Coding a year as a factor permits arbitrary year effects rather than imposing a linear trend.
+
+### Ordinal categorical variable
+
+↑ **Parent:** [Categorical variable](#categorical-variable)
+
+An ordinal categorical variable has categories with a meaningful order. Replacing its levels by numerical scores imposes a quantitative spacing and can replace several unrelated level effects by one [regression coefficient](linear-regression.md#regression-coefficient) when a linear trend is scientifically reasonable.
+
+### Indicator variable
+
+↑ **Parent:** [Categorical variable](#categorical-variable)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Indicator_variable)
+
+An indicator variable of an event $A$ is one on $A$ and zero outside $A$. Indicator columns encode categorical levels in a [design matrix](linear-regression.md#design-matrix).
+
+## Latent variable
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Latent_variable)
+
+A latent variable is an unobserved random quantity introduced to describe dependence, hidden structure, or an indirect data-generating mechanism in a statistical model.
+
+### Unobserved heterogeneity
+
+↑ **Parent:** [Latent variable](#latent-variable)
+
+Persistent unmeasured differences between individuals can generate outcome dependence after adjusting for observed [covariates](statistical-model.md#covariate). A [random intercept](#random-intercept) is one representation. Conditional independence given that [latent variable](#latent-variable) need not persist after it is integrated out; apparent history dependence can therefore occur without [true state dependence](#true-state-dependence).
+
+### Factor analysis
+
+↑ **Parent:** [Latent variable](#latent-variable)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Factor_analysis)
+
+Factor analysis writes an observation as $Y=\Lambda Z+\xi$, where the low-dimensional [latent variable](#latent-variable) $Z$ describes shared variation. In the isotropic Gaussian model $Z\sim N(0,I)$ and $\xi\sim N(0,\sigma^2I)$ independently, the observation has covariance $\Lambda\Lambda^T+\sigma^2I$.
+
+#### Latent factor
+
+↑ **Parent:** [Factor analysis](#factor-analysis)
+
+A [latent factor](#latent-factor) is an unobserved coordinate introduced to explain shared variation among measurements. In an [orthogonal factor model](#orthogonal-factor-model), [latent factors](#latent-factor) have [variance](variance.md) one and are mutually uncorrelated, with coefficients specified by the [factor loadings](#factor-loading). They differ from a [regression factor](#regression-factor), which is a categorical predictor. A fitted [covariance](variance.md#covariance) alone generally leaves the [latent factor](#latent-factor) orientation undetermined; [factor rotation](#factor-rotation) gives equivalent representations.
+
+#### Orthogonal factor model
+
+↑ **Parent:** [Factor analysis](#factor-analysis)
+
+The latent factor vector has mean zero and covariance $I_q$, the specific errors have mean zero and diagonal covariance $\Psi$, and the two are uncorrelated. Thus the off-diagonal covariance is explained by shared factors. Normality additionally gives a likelihood model, but the covariance identity needs only these second-moment assumptions. Positive diagonal entries of $\Psi$ describe variation not explained by the factors. Unlike [principal component analysis](statistical-learning.md#principal-component-analysis), the model separates shared and specific variation rather than only maximizing total projected variance.
+
+##### Factor rotation
+
+↑ **Parent:** [Orthogonal factor model](#orthogonal-factor-model)
+
+An orthogonal rotation of factors leaves $LL^T$ unchanged and hence preserves the model covariance. It proves rotational nonidentifiability of the unrestrained [factor loadings](#factor-loading). Choose an orientation for interpretability, for example [varimax rotation](#varimax-rotation), or impose identifying restrictions in a confirmatory model. An oblique transformation permits correlated factors: if $L$ becomes $LH$, their covariance becomes $H^{-1}H^{-T}$, preserving the same shared covariance.
+
+###### Varimax rotation
+
+↑ **Parent:** [Factor rotation](#factor-rotation)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Varimax_rotation)
+
+An orthogonal factor rotation maximizing, over factor axes, the variance across variables of their squared loadings. It seeks an interpretable pattern with some large and many small loadings on each factor without changing the covariance fit.
+
+##### Communality
+
+↑ **Parent:** [Orthogonal factor model](#orthogonal-factor-model)
+
+The communality is the variance of the shared-factor contribution to variable $i$. In an [orthogonal factor model](#orthogonal-factor-model), $\operatorname{Var}(X_i)=h_i^2+\psi_i$, where $\psi_i$ is its specific variance. For standardized variables, $h_i^2\leq1$. It measures variance shared through the modeled factors, not variance in a chosen [principal component](statistical-learning.md#principal-component).
+
+##### Factor loading
+
+↑ **Parent:** [Orthogonal factor model](#orthogonal-factor-model)
+
+A factor loading is the coefficient of latent factor $F_j$ in observed variable $X_i$. In the [orthogonal factor model](#orthogonal-factor-model), $\operatorname{Cov}(X_i,F_j)=L_{ij}$. If $X_i$ has variance one, this is also its correlation with the variance-one factor. Its sign and size depend on the factor-coordinate convention; [factor rotation](#factor-rotation) preserves the implied covariance while changing individual loadings.
+
+#### EM update for a single-factor Gaussian model
+
+↑ **Parent:** [Factor analysis](#factor-analysis)
+
+In [factor analysis](#factor-analysis) with one factor and fixed noise variance $v>0$, let $\lambda$ be the current loading vector, $s=v+|\lambda|^2$, and $S=n^{-1}\sum_iY_iY_i^T$. The [expectation-maximization algorithm](#expectation-maximization-algorithm) update is
+
+$$
+\lambda_{\mathrm{new}}=\frac{sS\lambda}{vs+\lambda^TS\lambda}.
+$$
+
+The conditional factor means are $\lambda^TY_i/s$ and their variances are $v/s$; maximizing the expected complete-data log-likelihood gives the formula.
+
+### Random effect
+
+↑ **Parent:** [Latent variable](#latent-variable)
+
+A random effect is a [latent variable](#latent-variable) used to describe variation between observational units or dependence among related observations. Its distribution supplements the fixed effects used in [statistical modelling](statistical-modelling.md). Independent random effects produce extra variability; correlated random effects can produce serial dependence.
+
+#### Poisson-lognormal random-effect model
+
+↑ **Parent:** [Random effect](#random-effect)
+
+Let $Y\mid\Lambda\sim\operatorname{Poisson}(e^{\eta+\Lambda})$, with $\Lambda\sim N(0,\tau^2)$. The [lognormal distribution](probability-theory.md#log-normal-distribution) of the random mean gives marginal mean $m=e^{\eta+\tau^2/2}$. The [law of total variance](probability-theory.md#law-of-total-variance) gives $\operatorname{Var}(Y)=m+m^2(e^{\tau^2}-1)$, strictly larger than $m$ when $\tau>0$. Thus independent observation-level [random effects](#random-effect) produce [overdispersion](exponential-family.md#overdispersion) even though the conditional [Poisson distributions](discrete-probability-distribution.md#poisson-distribution) have variance equal to their means.
+
+#### Crossed random effects
+
+↑ **Parent:** [Random effect](#random-effect)
+
+Random effects are crossed when an observation can belong to levels of two grouping factors without one grouping factor being nested within the other. Independent location intercepts and incubator slopes, for example, contribute separate terms to the observation [covariance matrix](variance.md#covariance-matrix).
+
+#### Random slope
+
+↑ **Parent:** [Random effect](#random-effect)
+
+A [random slope](#random-slope) multiplies a predictor by a group-specific latent coefficient. With $b_j\sim N(0,\tau^2)$, a contribution $b_jt_i$ induces [covariance](variance.md#covariance) $\tau^2t_it_k$ for two observations in group $j$. A [random slope](#random-slope) does not necessarily include a [random intercept](#random-intercept).
+
+##### Between-person slope quantile
+
+↑ **Parent:** [Random slope](#random-slope)
+
+When a person's latent slope has [normal distribution](probability-theory.md#normal-distribution) $N(\beta_1,\tau_1^2)$, its $u$th [quantile](probability-theory.md#quantile-function) is $\beta_1+\tau_1\Phi^{-1}(u)$. Multiply by an elapsed time to obtain the corresponding latent change [quantile](probability-theory.md#quantile-function). This describes population variation between people; it is distinct from a [confidence interval](statistical-inference.md#confidence-interval) for the mean slope and from a [prediction interval](statistical-inference.md#prediction-interval) that includes measurement error.
+
+##### Random-slope linear mixed model
+
+↑ **Parent:** [Random slope](#random-slope)
+
+The Gaussian model $Y=X\beta+Zb+\varepsilon$ with $b\sim N(0,D)$ and independent $\varepsilon\sim N(0,\sigma^2I)$ has marginal law $N(X\beta,ZDZ^T+\sigma^2I)$. Its group coefficients are integrated out of the marginal [likelihood function](#likelihood-function). The special random-slope model uses predictor values in the grouping columns of $Z$.
+
+### Expectation-maximization algorithm
+
+↑ **Parent:** [Latent variable](#latent-variable)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Expectation-maximization_algorithm)
+
+The expectation-maximization algorithm alternates an E-step, which takes the conditional expectation of a complete-data log objective over latent variables, and an M-step, which maximizes that expected objective over the parameters.
+
+#### Ordered-rate exponential M-step
+
+↑ **Parent:** [Expectation-maximization algorithm](#expectation-maximization-algorithm)
+
+For $N$ observations from each of two labeled [exponential distributions](continuous-probability-distribution.md#exponential-distribution), an E-step may produce positive completed time totals $U,V$. Its expected complete-data [log-likelihood](#log-likelihood) is $Q=N\log\lambda_1+N\log\lambda_2-U\lambda_1-V\lambda_2$. This is strictly [concave](real-analysis.md#concave-function). On the closed ordering constraint $\lambda_1\geq\lambda_2>0$, its maximum is $(N/U,N/V)$ when $U<V$; otherwise it lies at $\lambda_1=\lambda_2=2N/(U+V)$. To see the boundary case, first maximize along the equality line. At that maximum, moving into either feasible rate-separating direction has directional [derivative](calculus.md#derivative) $(V-U)/2\leq0$, so [concavity](real-analysis.md#concave-function) proves global optimality. For the open constraint $\lambda_1>\lambda_2$, this boundary value is a supremum rather than an attained M-step.
+
+// Target: probability-and-statistics.bigb
+
+#### EM for merged multinomial cells
+
+↑ **Parent:** [Expectation-maximization algorithm](#expectation-maximization-algorithm)
+
+For a [multinomial distribution](discrete-probability-distribution.md#multinomial-distribution) with two unobserved cells merged into one observed count, the conditional allocation is a [binomial distribution](discrete-probability-distribution.md#binomial-distribution) with probabilities proportional to the two cell probabilities. The [expectation-maximization algorithm](#expectation-maximization-algorithm) replaces the missing counts by their conditional [expectations](probability-theory.md#expected-value) in the parameter-dependent part of the complete-data [log-likelihood](#log-likelihood). The [expectation](probability-theory.md#expected-value) of a log-factorial normalization generally differs from its value at the expected count, but this difference is independent of the candidate parameter and does not affect the maximization step.
+
+#### EM for an independent missing normal coordinate
+
+↑ **Parent:** [Expectation-maximization algorithm](#expectation-maximization-algorithm)
+
+For independent normal coordinates, an unobserved first coordinate has conditional law equal to its current marginal [normal distribution](probability-theory.md#normal-distribution), even when the second coordinate of that observation is known. Thus its E-step first moment is $\mu_1^{(t)}$ and second moment is $(\mu_1^{(t)})^2+v_1^{(t)}$. With three observed first coordinates and one missing value, the mean update is $(\sum_{i=1}^3x_{i1}+\mu_1^{(t)})/4$ and the [variance](variance.md) update is $[\sum_{i=1}^3(x_{i1}-\mu_1^{(t+1)})^2+v_1^{(t)}+(\mu_1^{(t)}-\mu_1^{(t+1)})^2]/4$. The [conditional variance](variance.md#conditional-variance) term is essential: filling in only the conditional mean is not the [expectation-maximization algorithm](#expectation-maximization-algorithm).
+
+#### EM transition-count update on a tree
+
+↑ **Parent:** [Expectation-maximization algorithm](#expectation-maximization-algorithm)
+
+For a common unconstrained [Markov kernel](markov-process.md#markov-kernel) on the edges of a rooted [tree](combinatorics.md#tree-graph-theory), let $N_{ab}$ be the [conditional expectation](measure-theory.md#conditional-expectation) of the number of transitions $a\to b$, given observed leaves and the old [Markov kernel](markov-process.md#markov-kernel). The [expectation-maximization algorithm](#expectation-maximization-algorithm) maximizes $\sum_{a,b}N_{ab}\log K_{ab}$ over row [probability distributions](probability-theory.md#probability-distribution), giving $K_{ab}^{\mathrm{new}}=N_{ab}/\sum_cN_{ac}$. A row with zero total count is unrestricted by this objective. [Belief propagation](statistical-model.md#belief-propagation) computes the counts exactly on a [tree](combinatorics.md#tree-graph-theory).
+
+#### EM for a missing observation in a Gaussian AR1 process
+
+↑ **Parent:** [Expectation-maximization algorithm](#expectation-maximization-algorithm)
+
+In the [expectation-maximization algorithm](#expectation-maximization-algorithm) for a stationary [autoregressive process of order one](time-series.md#autoregressive-process-of-order-one), a single missing interior value has a [normal distribution](probability-theory.md#normal-distribution) conditional on its neighbors. The E-step uses both its conditional mean and its conditional second moment, not just mean imputation. The M-step maximizes the expected stationary complete-data [log-likelihood](#log-likelihood), including the initial-observation density and the conditional-variance contribution to the two adjacent innovation squares.
+
+#### EM likelihood monotonicity
+
+↑ **Parent:** [Expectation-maximization algorithm](#expectation-maximization-algorithm)
+
+For $Q(\theta\mid\theta_0)=\mathbb E_{\theta_0}[\log p_\theta(Y,Z)\mid Y]$, the [Jensen inequality](real-analysis.md#jensen-s-inequality) gives
+
+$$
+\log p_\theta(Y)-\log p_{\theta_0}(Y)\geq Q(\theta\mid\theta_0)-Q(\theta_0\mid\theta_0).
+$$
+
+Thus any [expectation-maximization algorithm](#expectation-maximization-algorithm) M-step that increases $Q$ cannot decrease the observed-data [likelihood function](#likelihood-function). Monotonicity does not by itself assert convergence to a global maximum.
+
+## Functional data analysis
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Functional_data_analysis)
+
+Functional data analysis treats each observation as a function or another infinite-dimensional object. Means, [covariance operators](random-variable.md#covariance-operator), spectral coordinates, and regression operators replace their finite-dimensional vector and matrix counterparts.
+
+### Functional time warping
+
+↑ **Parent:** [Functional data analysis](#functional-data-analysis)
+
+Functional time warping represents phase variation by composing a function with an increasing endpoint-preserving diffeomorphism of its domain. Registration seeks to separate this phase variation from amplitude variation in the observed functions.
+
+#### Square-root velocity function
+
+↑ **Parent:** [Functional time warping](#functional-time-warping)
+
+For an absolutely continuous real function $f$, its square-root velocity function is $Q(f)=f'/\sqrt{|f'|}$ where $f'\ne0$, with value zero where $f'=0$. Under an increasing reparameterization $\gamma$, it transforms as $Q(f\circ\gamma)=(Q(f)\circ\gamma)\sqrt{\gamma'}$.
+
+### Functional principal component analysis
+
+↑ **Parent:** [Functional data analysis](#functional-data-analysis)
+
+Functional principal component analysis diagonalizes a compact [covariance operator](random-variable.md#covariance-operator). Its eigenfunctions are principal component functions, and projecting a centered observation onto them gives uncorrelated functional principal component scores.
+
+#### Principal component function
+
+↑ **Parent:** [Functional principal component analysis](#functional-principal-component-analysis)
+
+A principal component function is a normalized [eigenfunction](linear-operator-theory.md#eigenfunction) $\phi_k$ of a [covariance operator](random-variable.md#covariance-operator), ordered by decreasing eigenvalue $\lambda_k$.
+
+#### Functional principal component score
+
+↑ **Parent:** [Functional principal component analysis](#functional-principal-component-analysis)
+
+The functional principal component score of a centered function $X$ along $\phi_k$ is $\xi_k=\langle X,\phi_k\rangle$. Its variance is the corresponding covariance eigenvalue $\lambda_k$.
+
+<h4 id="karhunen-loeve-expansion">Karhunen–Loève expansion</h4>
+
+↑ **Parent:** [Functional principal component analysis](#functional-principal-component-analysis)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Karhunen–Loève_expansion)
+
+The Karhunen–Loève expansion writes a centered square-integrable random function as $X=\sum_k\xi_k\phi_k$ in mean square, where the $\phi_k$ are [principal component functions](#principal-component-function) and the uncorrelated scores satisfy $\mathbb E\xi_k^2=\lambda_k$.
+
+##### Brownian half-integer sine expansion
+
+↑ **Parent:** [Karhunen–Loève expansion](#karhunen-loeve-expansion)
+
+The functions $h_n(t)=\sqrt2\sin((n-1/2)\pi t)$ give the Brownian covariance eigenbasis on $[0,1]$, with eigenvalues $\lambda_n=((n-1/2)\pi)^{-2}$. Integrating by parts against $g_n=\sqrt2\cos((n-1/2)\pi t)$ gives independent coefficients $\xi_n=\int g_n\,dW$. Pathwise L2 completeness yields $W=\sum_n\sqrt{\lambda_n}\xi_nh_n$ in L2 and the squared-norm series.
+
+### Functional mean test
+
+↑ **Parent:** [Functional data analysis](#functional-data-analysis)
+
+A functional mean test tests whether the mean of a [Hilbert-space-valued random variable](random-variable.md#hilbert-space-valued-random-variable) is zero. The squared-norm statistic $n\lVert\overline X\rVert^2$ has a weighted chi-squared limit under the null, while an FPCA test standardizes and truncates the coordinates.
+
+#### FPCA mean test
+
+↑ **Parent:** [Functional mean test](#functional-mean-test)
+
+For covariance eigenpairs $(\lambda_k,\phi_k)$, the $K$-coordinate FPCA mean statistic is $n\sum_{k=1}^K\langle\overline X,\phi_k\rangle^2/\lambda_k$. Under a zero-mean null and standard estimation conditions, its plug-in version converges to a [chi-squared distribution](probability-theory.md#chi-squared-distribution) with $K$ degrees of freedom.
+
+##### Two-sample FPCA mean statistic
+
+↑ **Parent:** [FPCA mean test](#fpca-mean-test)
+
+For two independent samples of size $n$ with a common covariance eigenbasis, the two-sample FPCA mean statistic is
+
+$$
+\frac n2\sum_{j=1}^K\frac{\langle\overline X-\overline Y,\widehat\phi_j\rangle^2}{\widehat\lambda_j}.
+$$
+
+Under equality of means and consistent pooled eigencomponent estimates, it converges to a chi-squared distribution with $K$ degrees of freedom.
+
+### Covariance-operator distance
+
+↑ **Parent:** [Functional data analysis](#functional-data-analysis)
+
+A covariance-operator distance compares positive trace-class operators while respecting either their linear embedding in operator space or a chosen factorization geometry.
+
+#### Hilbert-Schmidt distance between covariance operators
+
+↑ **Parent:** [Covariance-operator distance](#covariance-operator-distance)
+
+The linear distance between covariance operators is $d_L(C_1,C_2)=\lVert C_1-C_2\rVert_{\mathrm{HS}}$.
+
+#### Square-root distance between covariance operators
+
+↑ **Parent:** [Covariance-operator distance](#covariance-operator-distance)
+
+The square-root distance is $d_R(C_1,C_2)=\lVert C_1^{1/2}-C_2^{1/2}\rVert_{\mathrm{HS}}$.
+
+##### Square-root barycenter of covariance operators
+
+↑ **Parent:** [Square-root distance between covariance operators](#square-root-distance-between-covariance-operators)
+
+For covariance operators $C_1,\ldots,C_n$, their Fréchet mean under the square-root distance is
+
+$$
+\overline C_R=\left(\frac1n\sum_{i=1}^nC_i^{1/2}\right)^2.
+$$
+
+This follows because taking positive square roots embeds the operators into the Hilbert space of self-adjoint Hilbert-Schmidt operators.
+
+#### Procrustes distance between covariance operators
+
+↑ **Parent:** [Covariance-operator distance](#covariance-operator-distance)
+
+For factorizations $C_i=L_iL_i^*$, the Procrustes distance is $d_P(C_1,C_2)=\inf_R\lVert L_1-L_2R\rVert_{\mathrm{HS}}$, where $R$ ranges over unitary operators on the factor space. Equivalently,
+
+$$
+d_P(C_1,C_2)^2=\operatorname{tr}C_1+\operatorname{tr}C_2-2\operatorname{tr}\!\left((C_1^{1/2}C_2C_1^{1/2})^{1/2}\right).
+$$
+
+### Functional linear model
+
+↑ **Parent:** [Functional data analysis](#functional-data-analysis)
+
+A functional linear model relates functional or scalar responses to functional predictors through a linear operator.
+
+#### Scalar-on-function linear model
+
+↑ **Parent:** [Functional linear model](#functional-linear-model)
+
+A scalar-on-function linear model has $Y=\alpha+\langle X,\beta\rangle+\varepsilon$, where the response is scalar and the predictor and slope are functions. Basis truncation turns it into a finite-dimensional linear regression.
+
+##### Roughness penalty matrix
+
+↑ **Parent:** [Scalar-on-function linear model](#scalar-on-function-linear-model)
+
+For basis functions $B_1,\ldots,B_K$, the second-derivative roughness penalty has matrix entries $\Omega_{jk}=\int B_j''(t)B_k''(t)\,dt$. It is positive semidefinite and satisfies $c^{\mathsf T}\Omega c=\lVert(\sum_kc_kB_k)''\rVert_2^2$.
+
+#### Function-on-function linear model
+
+↑ **Parent:** [Functional linear model](#functional-linear-model)
+
+A function-on-function linear model has $Y(t)=\int\beta(t,s)X(s)ds+\varepsilon(t)$. If the centered error is independent of $X$, then $\mathbb E[Y\mid X]$ is the regression operator applied to $X$.
+
+##### Cross-covariance operator
+
+↑ **Parent:** [Function-on-function linear model](#function-on-function-linear-model)
+
+For centered Hilbert-space random variables $X$ and $Y$, the cross-covariance operator is $C_{YX}h=\mathbb E[\langle X,h\rangle Y]$. In the functional linear model $Y=BX+\varepsilon$ with independent centered error, $C_{YX}=BC_X$.
+
+## Goodness of fit
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Goodness_of_fit)
+
+Goodness of fit describes how closely a fitted statistical model agrees with the observed data in aspects relevant to the model assumptions.
+
+### Goodness-of-fit test
+
+↑ **Parent:** [Goodness of fit](#goodness-of-fit)
+
+A goodness-of-fit test compares a discrepancy statistic with its distribution under a fitted null model. A small p-value indicates that the observed discrepancy would be unusual if that model were correct.
+
+## Contingency table
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Contingency_table)
+
+A contingency table records counts classified by combinations of categorical variables.
+
+### Two-by-two contingency table
+
+↑ **Parent:** [Contingency table](#contingency-table)
+
+A two-by-two contingency table cross-classifies observations by two binary variables, producing four cell counts and two pairs of marginal totals.
+
+## Mixture model
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Mixture_model)
+
+A mixture model represents a population distribution as a weighted combination of component distributions.
+
+### Threshold inference for a mixture proportion
+
+↑ **Parent:** [Mixture model](#mixture-model)
+
+For a two-component [mixture model](#mixture-model) with known component tail probabilities $p_0,p_1$ above a threshold, the overall probability is $p(q)=(1-q)p_0+qp_1$. An empirical exceedance fraction $\widehat p$ gives the displayed method-of-moments estimate when $p_1\ne p_0$. Under independent observations, the exceedance count has a [binomial distribution](discrete-probability-distribution.md#binomial-distribution), and its constrained [maximum-likelihood estimate](#maximum-likelihood-estimator) is the same expression clipped to $[0,1]$. Equal component tail probabilities make this summary uninformative about $q$.
+
+### Gaussian scale mixture
+
+↑ **Parent:** [Mixture model](#mixture-model)
+
+A Gaussian scale mixture is a [random variable](random-variable.md) $X=RZ$, where $Z$ has a [standard normal distribution](probability-theory.md#standard-normal-distribution) and is independent of a positive random scale $R$. Its [probability density function](continuous-probability-distribution.md#probability-density-function) is the average of the conditional normal densities. Random scales can produce larger [kurtosis](probability-theory.md#kurtosis) than a single normal law.
+
+#### Rayleigh-normal scale mixture
+
+↑ **Parent:** [Gaussian scale mixture](#gaussian-scale-mixture)
+
+An independent unit-scale [Rayleigh distribution](continuous-probability-distribution.md#rayleigh-distribution) variable $R$ and [standard normal distribution](probability-theory.md#standard-normal-distribution) variable $Z$ give $RZ$ with [Laplace distribution](continuous-probability-distribution.md#laplace-distribution) of density $e^{-|x|}/2$. Indeed its [characteristic function](probability-theory.md#characteristic-function) is $\mathbb E e^{-t^2R^2/2}=1/(1+t^2)$.
+
+### Finite mixture model
+
+↑ **Parent:** [Mixture model](#mixture-model)
+
+A finite mixture model draws each observation from one of finitely many component distributions according to a categorical latent label.
+
+#### Label switching
+
+↑ **Parent:** [Finite mixture model](#finite-mixture-model)
+
+If component priors are exchangeable, permuting component labels leaves the mixture [likelihood](#likelihood-function) and [posterior distribution](statistical-inference.md#bayesian-posterior) unchanged. A sampling chain can visit these equivalent modes, making naive component-by-component averages misleading. Predictive densities and other permutation-invariant summaries avoid the issue; component-specific interpretation requires an explicit identification or relabelling rule. Nonexchangeable weight priors can break exact symmetry but do not remove every multimodality problem.
+
+#### Gaussian mixture Gibbs updates with independent priors
+
+↑ **Parent:** [Finite mixture model](#finite-mixture-model)
+
+In a finite [normal distribution](probability-theory.md#normal-distribution) mixture with allocation labels $z_j$, independently assign $\mu_i\sim N(m_0,\tau^2)$, $v_i\sim\operatorname{InvGamma}(\alpha,\beta)$ and weights a [Dirichlet distribution](continuous-probability-distribution.md#dirichlet-distribution). Let $n_i$ count allocations to component $i$ and $s_i$ sum their observations. The conditional mean precision is $V_i^{-1}=\tau^{-2}+n_i/v_i$, giving $\mu_i\mid\cdots\sim N(V_i(m_0/\tau^2+s_i/v_i),V_i)$. The conditional variance is the displayed [inverse-gamma distribution](continuous-probability-distribution.md#inverse-gamma-distribution); weights have Dirichlet parameters increased by allocation counts. Allocation probabilities are proportional to $\omega_i\varphi(x_j;\mu_i,v_i)$. Independence of the mean prior from $v_i$ is important: its density does not add an extra inverse-gamma shape term.
+
+#### Mixture responsibility
+
+↑ **Parent:** [Finite mixture model](#finite-mixture-model)
+
+A mixture responsibility is the posterior probability of a component label given an observation and current parameters: $\tau_{ij}=\pi_jf_j(y_i)/(\sum_l\pi_lf_l(y_i))$. Each observation's responsibilities sum to one. The [expectation-maximization algorithm](#expectation-maximization-algorithm) uses these soft assignments rather than fixed hard cluster labels.
+
+#### Finite Gaussian mixture with a common variance
+
+↑ **Parent:** [Finite mixture model](#finite-mixture-model)
+
+A finite Gaussian mixture with a common variance has density $f(y)=\sum_{j=1}^k\pi_j\phi(y;\mu_j,\sigma^2)$, with positive common variance and weights summing to one. The means locate its latent components, which need not correspond to distinct modes. It has $2k$ free parameters: $k-1$ weights, $k$ means and one variance. [EM for Gaussian mixtures with a common variance](#em-for-gaussian-mixtures-with-a-common-variance) supplies iterative likelihood updates.
+
+##### Mixture regression with shared slopes
+
+↑ **Parent:** [Finite Gaussian mixture with a common variance](#finite-gaussian-mixture-with-a-common-variance)
+
+A mixture regression with shared slopes models $Y_i\mid Z_i=j,x_i\sim N(\alpha_j+x_i^T\beta,\sigma^2)$ with common slopes and component-specific intercepts. It jointly estimates mean adjustment and latent groups, rather than fitting a mixture to fixed residuals. If both a global intercept and component offsets are included, an identifying constraint is required. Constant weights assume latent membership proportions do not depend on the covariates.
+
+##### Residual mixture clustering
+
+↑ **Parent:** [Finite Gaussian mixture with a common variance](#finite-gaussian-mixture-with-a-common-variance)
+
+Residual mixture clustering first removes a fitted covariate-dependent mean and then explores latent groups in the [regression residuals](probability-and-statistics.md#regression-residual). It seeks differences relative to the adjustment rather than raw-response differences. [Mixture responsibilities](#mixture-responsibility) express uncertain membership. The fitted mixture alone does not establish distinct real-world populations, and [two-stage residual mixture fitting](#two-stage-residual-mixture-fitting) ignores some adjustment uncertainty.
+
+###### Two-stage residual mixture fitting
+
+↑ **Parent:** [Residual mixture clustering](#residual-mixture-clustering)
+
+Fitting a [mixture model](#mixture-model) to [regression residuals](probability-and-statistics.md#regression-residual) treats the fitted mean adjustment as fixed. Even with independent homoscedastic errors, ordinary least-squares residuals have [covariance matrix](variance.md#covariance-matrix) $\sigma^2(I-H)$ and satisfy fitted linear constraints, so they are not exactly independent observations. A joint [mixture regression with shared slopes](#mixture-regression-with-shared-slopes) or a bootstrap of the whole fitting process better accounts for the first-stage estimation uncertainty.
+
+##### EM for Gaussian mixtures with a common variance
+
+↑ **Parent:** [Finite Gaussian mixture with a common variance](#finite-gaussian-mixture-with-a-common-variance)
+
+The E-step computes [mixture responsibilities](#mixture-responsibility) $\tau_{ij}$ from the old parameters. Put $N_j=\sum_i\tau_{ij}$. The M-step updates $\pi_j=N_j/n$, $\mu_j=\sum_i\tau_{ij}y_i/N_j$ and $\sigma^2=\sum_{i,j}\tau_{ij}(y_i-\mu_j^{\mathrm{new}})^2/n$. The variance uses new means and old responsibilities. [EM likelihood monotonicity](#em-likelihood-monotonicity) guarantees nondecrease of the observed likelihood, not a global optimum.
+
+#### Mixture weight
+
+↑ **Parent:** [Finite mixture model](#finite-mixture-model)
+
+A mixture weight is the probability assigned to one component of a mixture model; all mixture weights are nonnegative and sum to one.
+
+### Dirichlet process mixture model
+
+↑ **Parent:** [Mixture model](#mixture-model)
+
+A Dirichlet process mixture model uses a [Dirichlet process](statistical-inference.md#dirichlet-process) as a random mixing distribution, allowing the number of occupied mixture components to be inferred from the data.
+
+## Latent-variable model
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Latent-variable_model)
+
+A latent-variable model represents observed data through unobserved random quantities whose marginalization induces the observed distribution.
+
+## Statistical learning
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+[This section is present in another page, follow this link to view it.](statistical-learning.md)
+
+## Sampling distribution
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Sampling_distribution)
+
+The sampling distribution of a statistic is its probability distribution under repeated samples from a specified data-generating model.
+
+## Unbiased estimator
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+An estimator $T$ of a parameter $\theta$ is unbiased when $\mathbb E_\theta T=\theta$ for every parameter value in the model.
+
+### Unbiased endpoint estimator for a shifted exponential sample
+
+↑ **Parent:** [Unbiased estimator](#unbiased-estimator)
+
+For independent $X_i=\theta+Y_i$ with $Y_i$ exponentially distributed at known rate $\lambda$, the joint [likelihood](#likelihood-function) factors through the sample minimum $X_{(1)}$. Its excess over the endpoint is exponential with rate $n\lambda$, because $\mathbb P(\min Y_i>t)=e^{-n\lambda t}$. Thus the displayed estimator is an [unbiased estimator](#unbiased-estimator), with [variance](variance.md) $(n\lambda)^{-2}$. Even if $\theta\ge0$, the estimator can be negative; truncation at zero introduces bias.
+
+### Uniformly minimum-variance unbiased estimator
+
+↑ **Parent:** [Unbiased estimator](#unbiased-estimator)
+
+An [unbiased estimator](#unbiased-estimator) $T$ is uniformly minimum-variance unbiased if its [variance](variance.md) is no larger than that of every other [unbiased estimator](#unbiased-estimator) of the same parameter, for every parameter value. The [Lehmann–Scheffé theorem](probability-and-statistics.md#lehmann-scheffe-theorem) gives such an estimator whenever an unbiased function of a [complete sufficient statistic](probability-and-statistics.md#complete-sufficient-statistic) exists. Attaining the [Cramér-Rao bound](#cramer-rao-bound) is sufficient for this property under its hypotheses, but is not necessary: for $T\sim\Gamma(n,\lambda)$ with $n>2$, $(n-1)/T$ is unbiased and has [variance](variance.md) $\lambda^2/(n-2)$, while the information bound is $\lambda^2/n$. Completeness follows from uniqueness of the [Laplace transform](analysis.md#laplace-transform) of $h(t)t^{n-1}$, so the estimator is still uniformly optimal among [unbiased estimators](#unbiased-estimator).
+
+### Conditionally unbiased estimator
+
+↑ **Parent:** [Unbiased estimator](#unbiased-estimator)
+
+An estimator is conditionally unbiased for a parameter if its [expectation](probability-theory.md#expected-value), conditional on the specified observation or selection event, equals that parameter. Unconditional unbiasedness does not imply this property after selection. Independent new-stage data and the [Rao-Blackwell theorem](probability-and-statistics.md#rao-blackwell-theorem) can provide useful constructions.
+
+#### Uniform minimum variance conditionally unbiased estimator
+
+↑ **Parent:** [Conditionally unbiased estimator](#conditionally-unbiased-estimator)
+
+A UMVCUE has minimum conditional [variance](variance.md) among all [estimators](#estimator) unbiased in the selected experiment for every parameter. For independent Gaussian stage estimates $A,V$ with information $I_1,J$, continuation $A\geq c$, total information $I_2=I_1+J$ and pooled estimate $T$, [Rao-Blackwellization](probability-and-statistics.md#rao-blackwellization) of the fresh estimate gives $T-(I_1s/J)\phi((T-c)/s)/\Phi((T-c)/s)$, where $s^2=1/I_1-1/I_2$. The conditional family has [complete sufficient statistic](probability-and-statistics.md#complete-sufficient-statistic) $T$, so the [Lehmann–Scheffé theorem](probability-and-statistics.md#lehmann-scheffe-theorem) establishes the optimum. A conditional-[likelihood](#likelihood-function) bias correction does not automatically have this unbiasedness property.
+
+### Linear unbiased estimator
+
+↑ **Parent:** [Unbiased estimator](#unbiased-estimator)
+
+In a linear model $Y=X\beta+\varepsilon$, a linear estimator has the form $AY$. It is unbiased for $C\beta$ exactly when $AX=C$. A best linear unbiased estimator minimizes its covariance, or its variance for a scalar target, among all estimators satisfying this constraint.
+
+#### Best linear unbiased estimator
+
+↑ **Parent:** [Linear unbiased estimator](#linear-unbiased-estimator)
+
+A best linear unbiased estimator minimizes [covariance](variance.md#covariance) among linear estimators unbiased for the same target. In $Y=X\beta+\varepsilon$, assume $\mathbb E\varepsilon=0$, $X$ is a full-column-rank [design matrix](linear-regression.md#design-matrix) and the known [covariance matrix](variance.md#covariance-matrix) $\Sigma$ is a [positive-definite matrix](linear-algebra.md#positive-definite-matrix). The [best linear unbiased estimator](#best-linear-unbiased-estimator) of the coefficient vector is $(X^T\Sigma^{-1}X)^{-1}X^T\Sigma^{-1}Y$. A spatial trend estimate excludes the correlated residual prediction included in [universal kriging](#universal-kriging).
+
+#### Correlated Gaussian common-mean estimator
+
+↑ **Parent:** [Linear unbiased estimator](#linear-unbiased-estimator)
+
+For $X\sim N(\mu\mathbf1,C)$ with a known [positive-definite matrix](linear-algebra.md#positive-definite-matrix) $C$, the [maximum-likelihood estimator](#maximum-likelihood-estimator) of $\mu$ is $\widehat\mu=(\mathbf1^TC^{-1}X)/(\mathbf1^TC^{-1}\mathbf1)$. It is unbiased with variance $(\mathbf1^TC^{-1}\mathbf1)^{-1}$, attaining the [Cramér-Rao bound](#cramer-rao-bound). It is also the best [linear unbiased estimator](#linear-unbiased-estimator). Pairwise admissible [correlation coefficients](variance.md#pearson-correlation-coefficient) alone do not ensure that $C$ is a valid [covariance matrix](variance.md#covariance-matrix); the entire matrix must be symmetric and a [positive semidefinite matrix](linear-algebra.md#positive-semidefinite-matrix). Inverse-based formulas require positive definiteness.
+
+#### Inverse-variance weighted mean
+
+↑ **Parent:** [Linear unbiased estimator](#linear-unbiased-estimator)
+
+For independent [unbiased estimators](#unbiased-estimator) $X_i$ of a common mean with known positive [variances](variance.md) $v_i$, the [linear unbiased estimator](#linear-unbiased-estimator) with smallest variance has weights $w_i=v_i^{-1}/\sum_jv_j^{-1}$ and variance $(\sum_jv_j^{-1})^{-1}$. Unbiasedness requires $\sum_iw_i=1$. Minimizing $\sum_iv_iw_i^2$ by a [Lagrange multiplier](mathematical-optimization.md#lagrange-multiplier) gives the weights, and the strictly positive diagonal [Hessian matrix](calculus.md#hessian-matrix) proves a unique global minimum. This conclusion requires no normality assumption.
+
+##### Inverse-variance weight
+
+↑ **Parent:** [Inverse-variance weighted mean](#inverse-variance-weighted-mean)
+
+A weight $w_i=1/v_i$ gives more weight to a more precise estimate. In [random-effects meta-analysis](statistical-inference.md#random-effects-meta-analysis) the [variance](variance.md) of the corresponding [marginal distribution](probability-theory.md#marginal-distribution) is $v_i+\tau^2$, giving weight $(v_i+\tau^2)^{-1}$. A percentage weight divides the individual weight by the sum of all weights.
+
+## Bias of an estimator
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Bias_of_an_estimator)
+
+The bias of an estimator is
+
+$$
+\operatorname{Bias}_\theta(\widehat\theta)
+=\mathbb E_\theta\widehat\theta-\theta.
+$$
+
+## Variance of an estimator
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+The variance of an estimator is the [variance](variance.md) of its sampling distribution under the parameter value $\theta$.
+
+### Asymptotic variance
+
+↑ **Parent:** [Variance of an estimator](#variance-of-an-estimator)
+
+The asymptotic variance is the variance appearing in the limiting distribution of a suitably rescaled estimator, commonly $\sqrt n(\widehat\theta_n-\theta)$.
+
+### Bias-variance tradeoff
+
+↑ **Parent:** [Variance of an estimator](#variance-of-an-estimator)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Bias-variance_tradeoff)
+
+The bias-variance tradeoff describes how increasing model flexibility commonly decreases systematic approximation bias while increasing sampling variance, or conversely how stronger smoothing decreases variance while increasing bias.
+
+## Homoskedasticity
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+Observations or errors are homoskedastic when they all have the same variance.
+
+## Homoscedasticity and heteroscedasticity
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Homoscedasticity_and_heteroscedasticity)
+
+These describe constancy or variation of conditional error [variance](variance.md) across observations. A homoscedastic [regression model](statistical-model.md#regression-model) has $\operatorname{Var}(\varepsilon_i\mid X)=\sigma^2$; a heteroscedastic model allows this variance to depend on the observation or its covariates.
+
+### Heteroscedastic
+
+↑ **Parent:** [Homoscedasticity and heteroscedasticity](#homoscedasticity-and-heteroscedasticity)
+
+Observations or errors are heteroscedastic when their variances are not all equal.
+
+A model is heteroscedastic if its conditional error [variance](variance.md) is not constant across observations; this is the variable-variance case of [homoscedasticity and heteroscedasticity](#homoscedasticity-and-heteroscedasticity).
+
+## Logarithmic transformation
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+A logarithmic transformation replaces a positive response $Y$ by $\log Y$, often converting multiplicative effects into additive effects and stabilizing relative rather than absolute variation.
+
+### Gaussian log-response model
+
+↑ **Parent:** [Logarithmic transformation](#logarithmic-transformation)
+
+For a positive response, the model $\log Y=\eta+\varepsilon$ with $\varepsilon\sim N(0,\sigma^2)$ gives conditional [median](probability-theory.md#median) $e^\eta$ and conditional mean $e^{\eta+\sigma^2/2}$. The latter follows from the [moment-generating function](probability-theory.md#moment-generating-function) of a [normal distribution](probability-theory.md#normal-distribution). Additive [factor](#regression-factor) effects in $\eta$ become multiplicative effects on these response summaries. Its constant log-scale [variance](variance.md) corresponds to original-scale [variance](variance.md) proportional to the square of the mean; direct exponentiation of fitted log means incurs [retransformation bias](#retransformation-bias).
+
+### Retransformation bias
+
+↑ **Parent:** [Logarithmic transformation](#logarithmic-transformation)
+
+In general, $\mathbb E[Y\mid X]$ is not obtained by exponentiating $\mathbb E[\log Y\mid X]$. For log-normal errors of variance $\sigma^2$, the correction factor is $e^{\sigma^2/2}$.
+
+## Power transform
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Power_transform)
+
+A power transformation replaces positive data by a member of a parameterized family of powers, commonly to improve the fit of a [normal linear model](#normal-linear-model).
+
+<h3 id="box-cox-transformation">Box–Cox transformation</h3>
+
+↑ **Parent:** [Power transform](#power-transform)
+
+For $y>0$, the Box–Cox transformation is
+
+$$
+T_\lambda(y)=
+\begin{cases}
+(y^\lambda-1)/\lambda,&\lambda\ne0,\\
+\log y,&\lambda=0.
+\end{cases}
+$$
+
+The value of $\lambda$ can be selected by maximizing its [profile likelihood](#profile-likelihood); $\lambda=1$ corresponds to an affine transformation of the original response, while $\lambda=0$ gives a [logarithmic transformation](#logarithmic-transformation).
+
+#### Bias correction after an inverse transformation
+
+↑ **Parent:** [Box–Cox transformation](#box-cox-transformation)
+
+A transformed-response regression estimates the conditional mean $m$ on the transformed scale. Inverting that mean does not generally estimate the original-scale mean, because nonlinear transformations do not commute with [expected values](probability-theory.md#expected-value). For a smooth inverse $g$ and centered transformed error of variance $\sigma^2$, a second-order [Taylor expansion](calculus.md#taylor-expansion) gives the displayed local correction. For $g(z)=z^q$ at positive $m$, it is $m^q+\tfrac12q(q-1)m^{q-2}\sigma^2$. The variance is the response's residual variance, not the sampling variance of the estimated mean. This approximation requires errors small enough that the inverse is meaningful over the relevant range; it is not an exact moment formula for arbitrary transformed noise.
+
+## Residual degrees of freedom
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+Residual degrees of freedom count observations minus independently fitted mean parameters in a full-rank linear or generalized linear model.
+
+## Model selection
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Model_selection)
+
+Model selection compares candidate statistical models and chooses one according to a criterion balancing fit, predictive performance and complexity.
+
+### Deviance information criterion
+
+↑ **Parent:** [Model selection](#model-selection)
+
+For [Bayesian deviance](#bayesian-deviance) $D(\theta)=-2\log L(\theta)$ under a common likelihood convention, define $\overline D=\mathbb E[D(\theta)\mid y]$ and $p_D=\overline D-D(\mathbb E[\theta\mid y])$. Then $\operatorname{DIC}=\overline D+p_D$ trades average fit against effective complexity. Lower values suggest better penalized predictive fit in comparable models; differences are not [Bayes factors](statistical-inference.md#bayes-factor) or model [posterior probabilities](statistical-inference.md#posterior-probability). The choice of stochastic parameters and latent-variable representation matters, especially in a [hierarchical Bayesian model](statistical-inference.md#hierarchical-bayesian-model).
+
+#### Effective parameter count in DIC
+
+↑ **Parent:** [Deviance information criterion](#deviance-information-criterion)
+
+The [DIC](#deviance-information-criterion) effective parameter count compares mean [Bayesian deviance](#bayesian-deviance) with deviance at the [posterior mean](statistical-inference.md#posterior-mean). It need not be an integer or equal the number of coefficients. Interpretation depends on the parameterization and the chosen observational likelihood; nuisance intercepts count when they appear in that likelihood.
+
+##### Quadratic posterior deviance moments
+
+↑ **Parent:** [Effective parameter count in DIC](#effective-parameter-count-in-dic)
+
+Suppose the [Bayesian deviance](#bayesian-deviance) is locally $D(\theta)=D(\widehat\theta)+(\theta-\widehat\theta)^TJ(\theta-\widehat\theta)$ with positive-definite $J$, and the posterior is normal with mean $m$ and covariance $\Sigma$. Writing $b=m-\widehat\theta$, expectation and variance of the [quadratic form](linear-algebra.md#quadratic-form) give
+
+$$
+\mathbb E[D(\theta)\mid y]=D(\widehat\theta)+b^TJb+\operatorname{tr}(J\Sigma),
+$$
+
+
+
+$$
+\operatorname{Var}[D(\theta)\mid y]=2\operatorname{tr}\{(J\Sigma)^2\}+4b^TJ\Sigma Jb.
+$$
+
+Consequently the usual [effective parameter count in DIC](#effective-parameter-count-in-dic) is $p_D=\operatorname{tr}(J\Sigma)$, whereas half the deviance variance is $\operatorname{tr}\{(J\Sigma)^2\}+2b^TJ\Sigma Jb$. A locally flat prior gives $m=\widehat\theta$ and $\Sigma=J^{-1}$, so both counts equal the parameter dimension. Informative priors generally destroy their equality. The expectation formula requires only the first two moments; normality is used for the variance formula.
+
+### Variable selection
+
+↑ **Parent:** [Model selection](#model-selection)
+
+Variable selection chooses which predictor variables enter a statistical model. The [Lasso](probability-and-statistics.md#lasso) produces exact zero slopes along its [Lasso regularization path](probability-and-statistics.md#lasso-regularization-path); [ridge regression](linear-regression.md#ridge-regression) generally shrinks without excluding variables. Selection for prediction should use predictive [cross-validation](statistical-learning.md#cross-validation) or another stated criterion, rather than equating a coefficient p-value with practical usefulness.
+
+### Nonregular mixture model selection
+
+↑ **Parent:** [Model selection](#model-selection)
+
+Testing the number of components in a [finite mixture model](#finite-mixture-model) is nonregular: absent components have zero weights on the parameter boundary and their means or other parameters are unidentified. The usual chi-squared limit for a [likelihood-ratio test](#likelihood-ratio-test) therefore need not apply. Information criteria are useful working comparisons, while parametric bootstrap and predictive [cross-validation](statistical-learning.md#cross-validation) can provide more appropriate evidence. Neither a mixture fit nor a selected component count proves genuine latent populations.
+
+### Akaike information criterion
+
+↑ **Parent:** [Model selection](#model-selection)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Akaike_information_criterion)
+
+For a model with $k$ fitted parameters and maximized likelihood $L(\widehat\theta)$, the Akaike information criterion is
+
+$$
+\operatorname{AIC}=-2\log L(\widehat\theta)+2k.
+$$
+
+#### Stepwise selection by the Akaike information criterion
+
+↑ **Parent:** [Akaike information criterion](#akaike-information-criterion)
+
+Starting from a fitted model, compare admissible single-term additions and deletions within specified lower and upper scopes, retaining hierarchical lower-order terms when an interaction requires them. Select a change reducing the [Akaike information criterion](#akaike-information-criterion) and repeat until no admissible change improves it. For a Gaussian [normal linear model](#normal-linear-model) with $N$ observations and $k$ fitted mean coefficients, the criterion used by R's linear-model stepwise search is $N\log(\operatorname{RSS}/N)+2k$, up to constants common to the models. The search is greedy and need not find the best model in the whole scope. Ordinary coefficient tests in the selected model do not account for this [model selection](#model-selection). The software arguments are documented in [the MASS documentation](https://stat.ethz.ch/R-manual/R-devel/library/MASS/html/stepAIC.html).
+
+##### AIC deletion threshold in a normal linear model
+
+↑ **Parent:** [Stepwise selection by the Akaike information criterion](#stepwise-selection-by-the-akaike-information-criterion)
+
+Deleting $q$ fitted mean parameters improves the [Akaike information criterion](#akaike-information-criterion) exactly when the displayed condition holds, since the criterion difference is $n\log(\operatorname{RSS}_{\mathrm{reduced}}/\operatorname{RSS}_{\mathrm{full}})-2q$. For one parameter, the equivalent [partial F-test](probability-and-statistics.md#partial-f-test-for-nested-linear-models) statistic is below $(n-p)(e^{2/n}-1)$, where $p$ is the full mean-model dimension. This is not the usual fixed-level significance-test cutoff. Fits must use the same observations and response transformation.
+
+#### Distribution of the Akaike information criterion in a normal linear model
+
+↑ **Parent:** [Akaike information criterion](#akaike-information-criterion)
+
+For a full-rank $n\times p$ [normal linear model](#normal-linear-model) with error variance $\sigma^2$, the maximum-likelihood residual variance satisfies
+
+$$
+\widehat\sigma^2\overset d=\frac{\sigma^2}{n}\chi^2_{n-p}.
+$$
+
+Consequently
+
+$$
+\operatorname{AIC}\overset d=
+n\log(\chi^2_{n-p})+n\bigl(\log(2\pi\sigma^2/n)+1\bigr)+2(p+1).
+$$
+
+<h4 id="mallows-s-cp">Mallows's Cp</h4>
+
+↑ **Parent:** [Akaike information criterion](#akaike-information-criterion)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Mallows's_Cp)
+
+For a normal linear model with known error variance $\sigma^2$, the scaled Akaike criterion differs by a model-independent constant from
+
+$$
+C_p=\|Y-\widehat\mu\|^2+2p\sigma^2.
+$$
+
+##### Bias-variance decomposition for linear prediction
+
+↑ **Parent:** [Mallows's Cp](#mallows-s-cp)
+
+If $Y,Y^*$ are independent $N(\mu,\sigma^2I_n)$ vectors and $H$ is a rank-$p$ orthogonal projection, then
+
+$$
+\mathbb E\|HY-Y^*\|^2
+=\|(I-H)\mu\|^2+(n+p)\sigma^2.
+$$
+
+The first term is squared approximation bias, while $p\sigma^2$ is fitted-model variance and $n\sigma^2$ is irreducible new-response noise.
+
+##### Unbiased prediction-error identity for ordinary least squares
+
+↑ **Parent:** [Mallows's Cp](#mallows-s-cp)
+
+If $H$ is the rank-$p$ orthogonal projection onto a normal linear model's column space, then
+
+$$
+\mathbb E\|(I-H)Y\|^2
+=\|(I-H)\mu\|^2+(n-p)\sigma^2.
+$$
+
+Adding $2p\sigma^2$ gives $\|(I-H)\mu\|^2+(n+p)\sigma^2$, so Mallows' $C_p$ is unbiased for independent-copy prediction error even when the projection model is misspecified.
+
+### Bayesian information criterion
+
+↑ **Parent:** [Model selection](#model-selection)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Bayesian_information_criterion)
+
+For a model with $k$ fitted parameters, $n$ observations and maximized likelihood $L(\widehat\theta)$, the Bayesian information criterion is
+
+$$
+\operatorname{BIC}=-2\log L(\widehat\theta)+k\log n.
+$$
+
+## Shape parameter
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Shape_parameter)
+
+A shape parameter changes the form of a [probability distribution](probability-theory.md#probability-distribution) without merely translating it or rescaling its [random variable](random-variable.md).
+
+## Precision parameter
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+A precision parameter is the reciprocal of a variance parameter. Larger precision means less conditional dispersion.
+
+## Exponential family
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+[This section is present in another page, follow this link to view it.](exponential-family.md)
+
+## Generalized linear model
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Generalized_linear_model)
+
+A generalized linear model takes independent responses from an exponential dispersion family and relates their means to linear predictors by $g(\mu_i)=x_i^T\beta$. The response distribution, systematic component, link, dispersion, and known observation weights together specify the model.
+
+### Gamma regression with canonical link
+
+↑ **Parent:** [Generalized linear model](#generalized-linear-model)
+
+For a [Gamma distribution](continuous-probability-distribution.md#gamma-distribution) with fixed shape $\alpha$, choose dispersion $\phi=1/\alpha$, canonical parameter $\theta=-1/\mu$, and cumulant $b(\theta)=-\log(-\theta)$. The [canonical link function](#canonical-link-function) is the displayed negative reciprocal; reversing its sign is an equivalent regression convention. For independent observations, the [score function](#informant-function) is $\phi^{-1}X^T(y-\mu)$ and the [Fisher information matrix](#fisher-information-matrix) is $\phi^{-1}X^T\operatorname{diag}(\mu_i^2)X$. The [deviance](exponential-family.md#exponential-family-deviance) is $2\sum_i[y_i/\widehat\mu_i-1-\log(y_i/\widehat\mu_i)]$, with twice the log-likelihood ratio equal to this divided by $\phi$. The fitted mean is the inverse link applied to $X\widehat\beta$, not $X\widehat\beta$ itself.
+
+### Generalized linear model offset
+
+↑ **Parent:** [Generalized linear model](#generalized-linear-model)
+
+An [offset](#generalized-linear-model-offset) is a known term in a [generalized linear model](#generalized-linear-model)'s [linear predictor](#linear-predictor), with coefficient fixed to one. With a [log link](#logarithmic-link-function) and exposure $n_i$, choosing $o_i=\log n_i$ gives a mean count $n_i\exp(x_i^T\beta)$. Its role differs from that of a fitted explanatory-variable coefficient.
+
+### Deviance goodness-of-fit test
+
+↑ **Parent:** [Generalized linear model](#generalized-linear-model)
+
+For a suitably regular [generalized linear model](#generalized-linear-model), a residual deviance $D$ can be compared approximately with a [chi-squared distribution](probability-theory.md#chi-squared-distribution) on $n-p$ degrees of freedom to assess fit relative to the saturated model. Sparse or very small expected cell counts can invalidate this reference distribution. A large [p-value](#p-value) means no detected lack of fit, not proof of correctness; dependence, wrong mean structure or [overdispersion](exponential-family.md#overdispersion) still require diagnostics.
+
+#### Individual Bernoulli deviance need not have a chi-squared calibration
+
+↑ **Parent:** [Deviance goodness-of-fit test](#deviance-goodness-of-fit-test)
+
+A [logistic regression](#logistic-regression) fitted to ungrouped [Bernoulli](discrete-probability-distribution.md#bernoulli-distribution) observations has [residual deviance](#residual-deviance) $D=-2\ell(\widehat\beta)$. Comparing it automatically with $\chi^2_{n-p}$ is generally invalid: the saturated dimension grows with $n$, with one observation per fitted probability. If the true model has only an intercept and success probability $1/2$, then $D/n\to2\log2$, whereas $\chi^2_{n-1}/n\to1$. Fixed-dimensional nested-model [likelihood-ratio tests](#likelihood-ratio-test) can still use [Wilks theorem](statistical-inference.md#wilks-theorem) under regularity. For absolute fit, use meaningful grouping, residual diagnostics, or a fitted-model [parametric bootstrap](#parametric-bootstrap).
+
+### Deviance residual
+
+↑ **Parent:** [Generalized linear model](#generalized-linear-model)
+
+A deviance residual is the signed square root of an observation's contribution $d_i$ to fitted-model deviance. For a [Poisson regression](#poisson-regression), $d_i=2[y_i\log(y_i/\widehat\mu_i)-(y_i-\widehat\mu_i)]$, with $0\log0=0$. Its squared sum is the [Poisson deviance](#poisson-deviance). Leverage and estimated dispersion can further standardize these residuals; a normal [quantile-quantile plot](probability-and-statistics.md#q-q-plot) is a diagnostic approximation, not a requirement that count errors have a [normal distribution](probability-theory.md#normal-distribution).
+
+### Generalized additive model
+
+↑ **Parent:** [Generalized linear model](#generalized-linear-model)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Generalized_additive_model)
+
+A generalized additive model has [linear predictor](#linear-predictor) $g(\mu_i)=\alpha+\sum_j s_j(x_{ij})$. Centering the smooth functions identifies the intercept. The response family and [link function](#link-function) remain part of the model; an unspecified software family must not be inferred from the response name.
+
+#### Additive regression model
+
+↑ **Parent:** [Generalized additive model](#generalized-additive-model)
+
+An additive regression model represents a conditional mean as a sum of univariate functions and an intercept. It permits nonlinear effects without estimating a general high-dimensional response surface. The [backfitting algorithm](#backfitting-algorithm) smooths each component's [partial residual](probability-and-statistics.md#partial-residual). Centering separates constants from the intercept, while [concurvity](#concurvity) can still prevent component identification.
+
+// Target: probability-and-statistics.bigb
+
+##### Identifiability of additive regression components
+
+↑ **Parent:** [Additive regression model](#additive-regression-model)
+
+In an [additive regression model](#additive-regression-model), each component can transfer a constant to the [regression intercept](linear-regression.md#regression-intercept), so impose empirical mean-zero constraints, or population mean-zero constraints when appropriate. Even after centering, nonzero component perturbations $h_j$ with $\sum_jh_j(x_{ij})=0$ at every observed point make the additive decomposition nonidentifiable. Extra smoothing penalties may resolve the fitted decomposition, but centering alone does not remove [concurvity](#concurvity).
+
+// Target: probability-and-statistics.bigb
+
+###### Concurvity
+
+↑ **Parent:** [Identifiability of additive regression components](#identifiability-of-additive-regression-components)
+
+Concurvity is the nonlinear analogue of [multicollinearity](#multicollinearity): a function of one predictor is exactly or approximately expressible as a sum of functions of other predictors. Exact concurvity can make an additive decomposition nonunique; approximate concurvity makes components difficult to estimate stably. A unique fitted sum need not imply unique individual components.
+
+// Target: probability-and-statistics.bigb
+
+#### Backfitting algorithm
+
+↑ **Parent:** [Generalized additive model](#generalized-additive-model)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Backfitting_algorithm)
+
+The backfitting algorithm estimates each additive mean function by smoothing its [partial residual](probability-and-statistics.md#partial-residual), obtained after subtracting the current fits of all other terms, and cycling through terms until convergence. Centering each smooth separates its constant part from the intercept. For fixed quadratic smoothness penalties it is block coordinate minimization of a penalized least-squares objective; identifiability and positive definiteness of the constrained problem ensure a unique converged fit. Non-Gaussian [generalized additive models](#generalized-additive-model) can use weighted backfitting inside [iteratively reweighted least squares](#iteratively-reweighted-least-squares).
+
+##### Linear backfitting equations
+
+↑ **Parent:** [Backfitting algorithm](#backfitting-algorithm)
+
+For [linear smoothers](linear-regression.md#linear-smoother), let $C=I-\mathbf1\mathbf1^T/n$ and $T_j=CS_jC$. The centered fixed-point equations of the [backfitting algorithm](#backfitting-algorithm) have diagonal identity blocks and off-diagonal blocks $T_j$. On the centered component space, a consistent system has a unique answer exactly when its homogeneous system has only the zero solution. For two components the reduced equation is $(I-T_1T_2)f_1=T_1(I-T_2)Cy$. A common centered vector reproduced by both smoothers yields opposite perturbations of the components without changing their sum.
+
+// Target: probability-and-statistics.bigb
+
+#### Generalized additive mixed model
+
+↑ **Parent:** [Generalized additive model](#generalized-additive-model)
+
+A generalized additive mixed model supplements smooth population effects with latent [random effects](#random-effect). Given these effects, responses follow a specified response family; integrating them out induces dependence between related observations.
+
+### Quasi-likelihood
+
+↑ **Parent:** [Generalized linear model](#generalized-linear-model)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Quasi-likelihood)
+
+[Quasi-likelihood](#quasi-likelihood) specifies a mean and a [variance function](exponential-family.md#variance-function) without necessarily specifying a full response distribution. For independent responses, the estimating equation is $\sum_i (\partial\mu_i/\partial\beta)(y_i-\mu_i)/(\phi V(\mu_i))=0$. A common scalar [dispersion parameter](exponential-family.md#dispersion-parameter) rescales coefficient [covariance](variance.md#covariance) while leaving the roots of the [quasi-score equation](#quasi-score-equation) unchanged.
+
+#### Quasibinomial regression
+
+↑ **Parent:** [Quasi-likelihood](#quasi-likelihood)
+
+The logit mean model $p_i=(1+e^{-x_i^T\beta})^{-1}$ with working [variance function](exponential-family.md#variance-function) $\phi p_i(1-p_i)$ has the same coefficient estimates as ordinary binomial [logistic regression](#logistic-regression), but estimates dispersion from residuals. For an actual individual binary random variable, $Y^2=Y$ forces [variance](variance.md) $p(1-p)$, so a nonunit dispersion is a working specification rather than a new independent binary distribution.
+
+### Linear predictor
+
+↑ **Parent:** [Generalized linear model](#generalized-linear-model)
+
+The linear predictor of a generalized linear model is the linear combination $\eta_i=x_i^T\beta$ of the explanatory variables.
+
+### Link function
+
+↑ **Parent:** [Generalized linear model](#generalized-linear-model)
+
+A link function connects the response mean to the linear predictor through $g(\mu_i)=\eta_i$.
+
+#### Identity link
+
+↑ **Parent:** [Link function](#link-function)
+
+The identity [link function](#link-function) equates the response mean with the [linear predictor](#linear-predictor). In a [generalized linear model](#generalized-linear-model) it gives $\mu_i=x_i^T\beta$. It is the [canonical link function](#canonical-link-function) for the [normal distribution](probability-theory.md#normal-distribution). For response families whose means must remain positive or between zero and one, using the identity link requires corresponding restrictions on the [linear predictor](#linear-predictor).
+
+#### Logit
+
+↑ **Parent:** [Link function](#link-function)
+
+The logit link maps a mean probability to its [log odds](#log-odds): $g(p)=\log[p/(1-p)]$, $0<p<1$. Its inverse is $p=(1+e^{-\eta})^{-1}$, used in [logistic regression](#logistic-regression).
+
+#### Logarithmic link function
+
+↑ **Parent:** [Link function](#link-function)
+
+The logarithmic link maps a positive mean to $\log\mu$. It is the [Poisson canonical link](#poisson-canonical-link).
+
+### Binomial regression
+
+↑ **Parent:** [Generalized linear model](#generalized-linear-model)
+
+Binomial regression models independent $Y_i\sim\operatorname{Bin}(m_i,p_i)$ and relates $p_i$ to a linear predictor. Logistic and probit regression use the logit and inverse-normal links respectively.
+
+#### Binomial deviance
+
+↑ **Parent:** [Binomial regression](#binomial-regression)
+
+For independent binomial counts $Y_i\sim\operatorname{Bin}(m_i,p_i)$ with observed proportions $y_i=Y_i/m_i$ and fitted probabilities $\widehat p_i$, the deviance from the saturated model is
+
+$$
+D=2\sum_i m_i\left[y_i\log\frac{y_i}{\widehat p_i}+(1-y_i)\log\frac{1-y_i}{1-\widehat p_i}\right],
+$$
+
+with the usual convention $0\log0=0$.
+
+### Pearson dispersion estimator
+
+↑ **Parent:** [Generalized linear model](#generalized-linear-model)
+
+For a generalized linear model with variance function $V$, the Pearson estimator is
+
+$$
+\widehat\phi=\frac1{n-p}\sum_i\frac{(Y_i-\widehat\mu_i)^2}{V(\widehat\mu_i)}.
+$$
+
+#### Pearson residual
+
+↑ **Parent:** [Pearson dispersion estimator](#pearson-dispersion-estimator)
+
+The Pearson residual is $r_i^P=(Y_i-\widehat\mu_i)/\sqrt{\widehat\phi V(\widehat\mu_i)}$.
+
+#### Pearson chi-squared statistic
+
+↑ **Parent:** [Pearson dispersion estimator](#pearson-dispersion-estimator)
+
+The Pearson chi-squared statistic for a generalized linear model is
+
+$$
+X_P^2=\sum_i\frac{(Y_i-\widehat\mu_i)^2}{V(\widehat\mu_i)}.
+$$
+
+Dividing it by the residual degrees of freedom estimates the dispersion parameter.
+
+### Canonical link function
+
+↑ **Parent:** [Generalized linear model](#generalized-linear-model)
+
+The canonical link identifies the linear predictor with the exponential family's natural parameter: $g(\mu)=\theta$, where $\mu=b'(\theta)$.
+
+#### Poisson canonical link
+
+↑ **Parent:** [Canonical link function](#canonical-link-function)
+
+For a Poisson mean $\mu$, the natural parameter is $\theta=\log\mu$, so the canonical link is the logarithmic link $g(\mu)=\log\mu$.
+
+### Poisson regression
+
+↑ **Parent:** [Generalized linear model](#generalized-linear-model)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Poisson_regression)
+
+A Poisson regression models independent count responses by
+
+$$
+Y_i\sim\operatorname{Pois}(\mu_i),
+\qquad \log\mu_i=x_i^T\beta.
+$$
+
+Its likelihood is $\prod_i e^{-\mu_i}\mu_i^{y_i}/y_i!$.
+
+#### Profile likelihood for a common Poisson rate ratio with unequal exposures
+
+↑ **Parent:** [Poisson regression](#poisson-regression)
+
+For [independent](random-variable.md#independent-random-variables) counts with means $p_{i1}\lambda_i$ and $p_{i2}\lambda_i r$, let $t_i=y_{i1}+y_{i2}$. Maximizing the [Poisson regression](#poisson-regression) [likelihood](#likelihood-function) in each baseline rate gives the displayed estimate. The remaining log-rate-ratio score is
+
+$$
+\sum_i\left[y_{i2}-\frac{t_i r p_{i2}}{p_{i1}+rp_{i2}}\right]=0.
+$$
+
+Equivalently, conditional on $t_i$, the second count has a [binomial distribution](discrete-probability-distribution.md#binomial-distribution) with success [probability](probability-theory.md#probability) $rp_{i2}/(p_{i1}+rp_{i2})$. Each positive-total term increases strictly with $r$; if both treatment totals are positive, the score has a unique positive root. This reduces a many-parameter fit to a scalar equation.
+
+#### Concavity of the Poisson regression likelihood
+
+↑ **Parent:** [Poisson regression](#poisson-regression)
+
+For a full-column-rank design $X$ and positive fitted means $\mu_i=\exp(x_i^T\beta)$, the [log-likelihood](#log-likelihood) has Hessian $-X^T\operatorname{diag}(\mu_i)X$, which is negative definite. Thus any finite stationary point is the unique [maximum-likelihood estimator](#maximum-likelihood-estimator). Full rank does not guarantee existence: with an intercept and all counts zero, the supremum is approached as the intercept tends to $-\infty$. If every observed count is positive, a full-rank design does give a finite maximum: each function $y_i\eta_i-e^{\eta_i}$ tends to $-\infty$ in either tail and is bounded above, and $\|X\beta\|\to\infty$ as $\|\beta\|\to\infty$, so the negative [log-likelihood](#log-likelihood) is coercive.
+
+#### Poisson slope information after eliminating an intercept
+
+↑ **Parent:** [Poisson regression](#poisson-regression)
+
+In [Poisson regression](#poisson-regression) with log means $a+\beta x_i$, the [Fisher information matrix](#fisher-information-matrix) is $\begin{pmatrix}S_0&S_1\\S_1&S_2\end{pmatrix}$, where $S_j=\sum_i x_i^j\mu_i$. Inverting this matrix gives slope [variance](variance.md) $S_0/(S_0S_2-S_1^2)$. Writing $\bar x_\mu=S_1/S_0$ reduces it to the displayed reciprocal weighted sum of squares. Thus a common intercept consumes information about the overall rate, while slope information comes from the spread of the covariates under the mean-count weights. Constant covariates make the two parameters unidentifiable.
+
+#### Poisson regression margin-matching score equations
+
+↑ **Parent:** [Poisson regression](#poisson-regression)
+
+For [independent](random-variable.md#independent-random-variables) [Poisson distributions](discrete-probability-distribution.md#poisson-distribution) with log means $Z\beta+o$, where $o$ is a known [offset](#generalized-linear-model-offset), differentiation of the [log-likelihood](#log-likelihood) gives the [score function](#informant-function) $Z^T(y-\mu)$. An interior [maximum-likelihood estimator](#maximum-likelihood-estimator) therefore satisfies the displayed equations. An intercept and categorical indicator columns make fitted count totals equal observed count totals in each represented factor level. These equations match counts, rather than unweighted averages of rates when exposures differ.
+
+// Target: probability-and-statistics.bigb
+
+#### Two-group Poisson ratio conditional likelihood
+
+↑ **Parent:** [Poisson regression](#poisson-regression)
+
+For independent aggregate [Poisson distributions](discrete-probability-distribution.md#poisson-distribution) with means $n\lambda$ and $n\lambda e^\beta$, conditioning on the total eliminates $\lambda$. [Independent Poisson conditioning](#independent-poisson-conditioning) gives the displayed [binomial distribution](discrete-probability-distribution.md#binomial-distribution). Its [conditional likelihood](#conditional-likelihood) is proportional to $e^{\beta Y_1}(1+e^\beta)^{-m}$, also the [profile likelihood](#profile-likelihood) after maximizing over the unrestricted positive baseline rate. Unequal exposures replace the binomial success probability by $n_1e^\beta/(n_0+n_1e^\beta)$.
+
+##### Paired Poisson conditional likelihood
+
+↑ **Parent:** [Two-group Poisson ratio conditional likelihood](#two-group-poisson-ratio-conditional-likelihood)
+
+For conditionally independent paired counts with means $\lambda_i$ and $\lambda_i e^\beta$, condition on every pair total $N_i=Y_{i0}+Y_{i1}$. The joint [conditional likelihood](#conditional-likelihood) removes all pair-specific rates, leaving the displayed independent [binomial distributions](discrete-probability-distribution.md#binomial-distribution). A zero-total pair contributes no information. With unrestricted fixed baseline rates, this conditional likelihood has the same parameter-dependent part as the ordinary [profile likelihood](#profile-likelihood); a specified [Gamma–Poisson hierarchical model](statistical-inference.md#gamma-poisson-hierarchical-model) can retain additional information by imposing structure on those rates.
+
+###### Conditional cure-weight equations for paired Poisson counts
+
+↑ **Parent:** [Paired Poisson conditional likelihood](#paired-poisson-conditional-likelihood)
+
+Consider an approximate [conditional likelihood](#conditional-likelihood) in which a paired total $t_i$ leads to a structural zero with probability $\theta$, and otherwise a [binomial distribution](discrete-probability-distribution.md#binomial-distribution) with success probability $p$. For an observed zero, the posterior cure weight is $q_i=\theta/[\theta+(1-\theta)(1-p)^{t_i}]$; for a positive count it is zero. Differentiating the [log-likelihood](#log-likelihood) gives the displayed equations at an interior [maximum-likelihood estimator](#maximum-likelihood-estimator), with the weights evaluated at that estimator. Recomputing the weights and then updating the parameters is an [expectation-maximization algorithm](#expectation-maximization-algorithm). Boundary fits must also be considered. These equations describe a conditional mixture: if cure is instead specified before two [Poisson distributions](discrete-probability-distribution.md#poisson-distribution) are conditioned on their total, its conditional probability generally depends on the total and on the baseline nuisance rate. A zero observed in a short interval is not by itself proof of permanent biological cure.
+
+#### Common versus factor-specific slopes in Poisson regression
+
+↑ **Parent:** [Poisson regression](#poisson-regression)
+
+For a continuous predictor $x$ and a categorical [factor](#regression-factor), an additive [Poisson regression](#poisson-regression) with [log link](#logarithmic-link-function) has $\log\mu_j(x)=a_j+b x$. The log-mean curves are parallel and $\mu_j(x)/\mu_k(x)=e^{a_j-a_k}$ is constant in $x$. Adding a predictor-by-factor [interaction](statistical-model.md#interaction-statistics) gives $\log\mu_j(x)=a_j+b_jx$, so this ratio becomes $e^{a_j-a_k+(b_j-b_k)x}$. With $J$ factor levels, the common-slope restriction has $J-1$ independent constraints. A [likelihood-ratio test](#likelihood-ratio-test) compares the two [deviances](exponential-family.md#exponential-family-deviance) with an asymptotic [chi-squared distribution](probability-theory.md#chi-squared-distribution) on $J-1$ [degrees of freedom](classical-mechanics.md#degree-of-freedom). Evidence against common slopes establishes varying effects on the log scale; it does not by itself determine their signs or the ordering of the mean curves.
+
+#### Poisson working models for averaged counts
+
+↑ **Parent:** [Poisson regression](#poisson-regression)
+
+If $C_i\sim\operatorname{Poisson}(T_i\lambda_i)$ counts events over $T_i$ days, then the daily average $C_i/T_i$ has mean $\lambda_i$ and variance $\lambda_i/T_i$. It is not itself a Poisson variable unless $T_i=1$. Known observation periods allow count modelling with a log-exposure [offset](#generalized-linear-model-offset); otherwise [Quasi-Poisson regression](#quasi-poisson-regression) may be used as a working mean-variance model, with uncertainty qualified by the missing exposure information.
+
+#### Poisson log-rate ratio
+
+↑ **Parent:** [Poisson regression](#poisson-regression)
+
+For independent samples of $n$ observations from [Poisson distributions](discrete-probability-distribution.md#poisson-distribution) with positive means $a$ and $b$, the [maximum-likelihood estimator](#maximum-likelihood-estimator) of $\nu=\log(b/a)$ is the displayed difference when both totals are positive. Its asymptotic variance is $(a^{-1}+b^{-1})/n$, obtained by the [delta method](statistical-inference.md#delta-method) or by inverting the two-parameter [Fisher information matrix](#fisher-information-matrix). A zero group total makes its log-mean estimate a boundary value; finite normal intervals require nonzero totals.
+
+#### Poisson mean saturation at three distinct times
+
+↑ **Parent:** [Poisson regression](#poisson-regression)
+
+For three distinct times, the columns $1,t,t^2$ are linearly independent by the [Vandermonde determinant](galois-theory.md#vandermonde-determinant). Thus a quadratic [Poisson regression](#poisson-regression) for the log mean can reproduce any three positive time-group means. A grouped goodness-of-fit test of that mean form has zero residual degrees of freedom. Replicated observations still allow checks of the [Poisson distribution](discrete-probability-distribution.md#poisson-distribution) and [overdispersion](exponential-family.md#overdispersion) within each time group; saturation of the mean does not establish the response distribution.
+
+#### Pooling selected slopes in a Poisson regression
+
+↑ **Parent:** [Poisson regression](#poisson-regression)
+
+A categorical covariate can be grouped in an interaction term while retaining its original main effect. This shares selected slopes but keeps separate intercepts. Nested [Poisson deviance](#poisson-deviance) differences test slope pooling and intercept pooling separately.
+
+#### Treatment interaction contrast in a Poisson regression
+
+↑ **Parent:** [Poisson regression](#poisson-regression)
+
+In a [Poisson regression](#poisson-regression) with $\log\mu=\beta_0+\beta_TT+\beta_Bb+\beta_{TB}Tb$, the treatment [logarithm](calculus.md#logarithm) of the mean ratio at baseline $b$ is $\beta_T+b\beta_{TB}$. The main treatment coefficient tests the contrast at $b=0$. An overall no-treatment test requires both $\beta_T=0$ and $\beta_{TB}=0$, with their joint [covariance matrix](variance.md#covariance-matrix) for a [Wald test](#wald-test).
+
+#### Poisson deviance
+
+↑ **Parent:** [Poisson regression](#poisson-regression)
+
+For independent Poisson observations with fitted means $\widehat\mu_i$, the deviance from the saturated model is
+
+$$
+D=2\sum_i\left\{y_i\log\frac{y_i}{\widehat\mu_i}-(y_i-\widehat\mu_i)\right\},
+$$
+
+with $0\log0=0$.
+
+##### Quadratic Pearson approximation to the Poisson deviance
+
+↑ **Parent:** [Poisson deviance](#poisson-deviance)
+
+Write $y_i=e_i+r_i$. For $|r_i|/e_i$ small, the cell contribution to the [Poisson deviance](#poisson-deviance) expands as
+
+$$
+2[(e_i+r_i)\log(1+r_i/e_i)-r_i]
+=\frac{r_i^2}{e_i}-\frac{r_i^3}{3e_i^2}+O(r_i^4/e_i^3).
+$$
+
+Summing gives the [Pearson chi-squared statistic](#pearson-chi-squared-statistic) as the quadratic approximation. The approximation can be inaccurate for sparse expected counts or cells with relative residuals near minus one.
+
+##### Poisson deviance simplifies when an intercept is fitted
+
+↑ **Parent:** [Poisson deviance](#poisson-deviance)
+
+The full [Poisson deviance](#poisson-deviance) is $2\sum_i[y_i\log(y_i/e_i)-y_i+e_i]$. An unpenalized log-mean intercept has [likelihood](#likelihood-function) score $\sum_i(y_i-e_i)$, which vanishes at an interior fit. The linear terms then cancel, giving the displayed expression. Without that intercept score equation, discarding the linear terms is not justified. Use the limiting convention $0\log(0/e_i)=0$.
+
+### Gamma regression with logarithmic link
+
+↑ **Parent:** [Generalized linear model](#generalized-linear-model)
+
+A Gamma regression with logarithmic link models a positive response with $\operatorname{Var}(Y_i\mid X_i)=\phi\mu_i^2$ and $\log\mu_i=x_i^T\beta$.
+
+### Quasi-Poisson regression
+
+↑ **Parent:** [Generalized linear model](#generalized-linear-model)
+
+Quasi-Poisson regression uses the mean model $\log\mu_i=x_i^T\beta$ and variance relation $\operatorname{Var}(Y_i)=\phi\mu_i$. It estimates $\beta$ through quasi-likelihood and scales its covariance by the estimated dispersion $\phi$.
+
+#### Poisson score linearization under proportional variance
+
+↑ **Parent:** [Quasi-Poisson regression](#quasi-poisson-regression)
+
+With $\mu_i=e^{\beta x_i}$, define $U=\sum_i x_i(Y_i-\mu_i)$ and $I=\sum_i x_i^2\mu_i$. The estimating equation and a [Taylor expansion](calculus.md#taylor-expansion) give $\widehat\beta-\beta_0\approx I(\beta_0)^{-1}U(\beta_0)$. If responses are independent with correct means and $\operatorname{Var}(Y_i)=\phi\mu_i$, then $EU=0$ and $\operatorname{Var}U=\phi I$. Consequently the first-order estimator [variance](variance.md) is $\phi/I$, even if the working [Poisson distribution](discrete-probability-distribution.md#poisson-distribution) is wrong. Regular asymptotics require growing information and control of leverage and the Taylor remainder.
+
+#### Quasi-score equation
+
+↑ **Parent:** [Quasi-Poisson regression](#quasi-poisson-regression)
+
+For mean $\mu_i(\beta)$ and variance proportional to $V(\mu_i)$, the quasi-score is the sum of $(Y_i-\mu_i)V(\mu_i)^{-1}\partial\mu_i/\partial\beta$. Setting it to zero estimates $\beta$ without requiring a full response likelihood.
+
+### Negative binomial regression
+
+↑ **Parent:** [Generalized linear model](#generalized-linear-model)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Negative_binomial_regression)
+
+Negative binomial regression models overdispersed counts with a [negative binomial distribution](discrete-probability-distribution.md#negative-binomial-distribution), commonly using a logarithmic link for the mean.
+
+#### Fixed-size negative binomial generalized linear model
+
+↑ **Parent:** [Negative binomial regression](#negative-binomial-regression)
+
+For known size $\theta>0$, the [negative binomial distribution](discrete-probability-distribution.md#negative-binomial-distribution) is an [exponential family](exponential-family.md) with natural parameter $\eta=\log[\mu/(\theta+\mu)]<0$ and cumulant $b_\theta(\eta)=-\theta\log(1-e^\eta)$. A [generalized linear model](#generalized-linear-model) can use a [logarithmic link function](#logarithmic-link-function) for its mean, even though that link is not canonical. Jointly estimating the size changes the family and [variance function](exponential-family.md#variance-function), requiring additional updates beyond a single fixed-family GLM fit; this is what `MASS::glm.nb` does.
+
+##### Negative binomial deviance
+
+↑ **Parent:** [Fixed-size negative binomial generalized linear model](#fixed-size-negative-binomial-generalized-linear-model)
+
+With known size $\theta>0$, the mean-dependent log mass of a [negative binomial distribution](discrete-probability-distribution.md#negative-binomial-distribution) is $y\log\mu-(y+\theta)\log(\mu+\theta)$. Its derivative is $\theta(y-\mu)/[\mu(\mu+\theta)]$, so the saturated mean is $y$, including its boundary value zero. Subtracting the fitted log mass from that maximum gives the displayed [deviance](exponential-family.md#exponential-family-deviance). This formula needs no fitted-intercept cancellation. As $\theta\to\infty$, its second term tends to $-2(y_i-e_i)$ and it becomes the full [Poisson deviance](#poisson-deviance).
+
+### Poisson exposure model
+
+↑ **Parent:** [Generalized linear model](#generalized-linear-model)
+
+For fixed exposures $x_i\geq0$, a Poisson exposure model takes independent observations
+
+$$
+Y_i\sim\operatorname{Poisson}(\theta x_i).
+$$
+
+It has mean and variance $\theta x_i$ and is therefore heteroscedastic when the exposures differ.
+
+#### Rate ratio
+
+↑ **Parent:** [Poisson exposure model](#poisson-exposure-model)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Rate_ratio)
+
+A rate ratio compares event counts per unit exposure between two conditions. In a [Poisson regression](#poisson-regression) with a [log link](#logarithmic-link-function) and binary indicator coefficient $\beta$, it equals $e^\beta$. Exponentiating an approximate [Wald confidence interval](statistical-inference.md#wald-confidence-interval) for $\beta$ gives an interval for the rate ratio. A rate ratio is distinct from a [relative risk](#risk-ratio) or an [odds ratio](#odds-ratio).
+
+#### Finite-exposure Poisson inconsistency
+
+↑ **Parent:** [Poisson exposure model](#poisson-exposure-model)
+
+Let independent counts satisfy $Y_i\sim\operatorname{Poi}(\theta w_i)$, with positive known exposures $w_i$, $\theta>0$, and $a_n=\sum_{i=1}^nw_i\uparrow a_\infty<\infty$. Their [likelihood](#likelihood-function) is proportional to $\theta^{S_n}e^{-a_n\theta}$, where $S_n=\sum_{i=1}^nY_i$. If $S_n>0$, the positive [maximum-likelihood estimator](#maximum-likelihood-estimator) is $S_n/a_n$; when $S_n=0$, no maximum is attained on the open parameter space, while the closed-space maximizer is zero. This extended estimate converges almost surely to $S_\infty/a_\infty$, where $S_\infty\sim\operatorname{Poi}(\theta a_\infty)$. Finiteness follows from $\mathbb E S_\infty=\theta a_\infty$, and the limiting [Poisson distribution](discrete-probability-distribution.md#poisson-distribution) follows from the finite-sum laws. In particular, the probability of a zero estimate tends to $e^{-\theta a_\infty}>0$, proving failure of [statistical consistency](statistical-inference.md#consistency-statistics). The total [Fisher information](#fisher-information-matrix) tends to $a_\infty/\theta$: infinitely many observations need not provide infinite information.
+
+#### Estimators for a Poisson exposure model
+
+↑ **Parent:** [Poisson exposure model](#poisson-exposure-model)
+
+For $S_r=\sum_i x_i^r$, unweighted least squares through the origin and maximum likelihood give
+
+$$
+\widehat\theta_{LS}=\frac{\sum_i x_iY_i}{S_2},
+\qquad
+\widehat\theta_{MLE}=\frac{\sum_iY_i}{S_1}.
+$$
+
+Both estimators are unbiased.
+
+##### Variance comparison for Poisson exposure estimators
+
+↑ **Parent:** [Estimators for a Poisson exposure model](#estimators-for-a-poisson-exposure-model)
+
+The two variances are
+
+$$
+\operatorname{var}(\widehat\theta_{LS})
+=\frac{\theta S_3}{S_2^2},
+\qquad
+\operatorname{var}(\widehat\theta_{MLE})
+=\frac\theta{S_1}.
+$$
+
+Since $S_2^2\leq S_1S_3$ by Cauchy-Schwarz, maximum likelihood has no larger variance, with equality when all positive exposures are equal.
+
+#### Normal-approximation tests for a Poisson exposure model
+
+↑ **Parent:** [Poisson exposure model](#poisson-exposure-model)
+
+For testing $H_0:\theta=1$ against a larger alternative, approximate size-$0.05$ upper-tail tests reject when
+
+$$
+\widehat\theta_{MLE}>1+\frac{1.645}{\sqrt{S_1}}
+$$
+
+or, respectively,
+
+$$
+\widehat\theta_{LS}>1+1.645\frac{\sqrt{S_3}}{S_2}.
+$$
+
+### Logistic regression
+
+↑ **Parent:** [Generalized linear model](#generalized-linear-model)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Logistic_regression)
+
+Logistic regression models the conditional log odds as an affine function of predictors.
+
+#### Proportional-odds model
+
+↑ **Parent:** [Logistic regression](#logistic-regression)
+
+For ordered response categories, ordered thresholds $\theta_l$ and a common slope vector define this cumulative [logistic regression](#logistic-regression). Increasing $x^T\beta$ shifts probability toward higher categories. A covariate contrast multiplies all corresponding cumulative odds by the same factor. This model is not a canonical baseline-category [multinomial logistic regression](#multinomial-logistic-regression), so the latter's design-weighted count margins are not generally sufficient for it.
+
+#### Separation in logistic regression
+
+↑ **Parent:** [Logistic regression](#logistic-regression)
+
+Complete separation means that a predictor direction $v$ strictly separates the binary outcomes as displayed. In [logistic regression](#logistic-regression), replacing $\beta$ by $\beta+tv$ increases each observed-outcome [probability](probability-theory.md#probability) as $t$ increases, so the [log-likelihood](#log-likelihood) has no finite maximizer. Weak inequalities with some equalities can similarly produce quasi-complete separation. Finite coefficient estimates and ordinary information-matrix inference therefore require an existence check rather than relying only on the formal score equations.
+
+#### Finite maximum-likelihood estimate in a one-parameter logistic model
+
+↑ **Parent:** [Logistic regression](#logistic-regression)
+
+For nonzero design entries the [Bernoulli logistic-regression model](#bernoulli-logistic-regression-model) has strictly concave log likelihood, since $-\ell''=\sum_i x_i^2\mu_i(1-\mu_i)>0$. A unique finite estimate exists exactly when its score is positive at minus infinity and negative at plus infinity. Perfect agreement of binary outcomes with the signs of the design can instead give a supremum approached at an infinite coefficient. If every design entry is zero, the coefficient is unidentifiable. [Newton method](mathematical-optimization.md#newton-s-method-in-optimization) uses the score divided by this observed information, with damping when needed.
+
+#### Conditional logistic model for longitudinal binary data
+
+↑ **Parent:** [Logistic regression](#logistic-regression)
+
+A [logistic regression](#logistic-regression) can specify each binary response conditionally on recorded past outcomes and baseline [covariates](statistical-model.md#covariate). A [chain rule for probabilities](probability-theory.md#chain-rule-for-probabilities) gives the path [likelihood](#likelihood-function) as the product of the conditional [Bernoulli distribution](discrete-probability-distribution.md#bernoulli-distribution) masses. This permits dependence within a person's history without treating their outcomes as unconditionally independent. The model must specify the initial history and which past features enter its conditional mean.
+
+##### Cumulative-response logistic model
+
+↑ **Parent:** [Conditional logistic model for longitudinal binary data](#conditional-logistic-model-for-longitudinal-binary-data)
+
+The accumulated number of previous successes may enter the conditional mean in a [history-dependent logistic regression](#conditional-logistic-model-for-longitudinal-binary-data). Its coefficient exponentiates to the conditional success [odds ratio](#odds-ratio) per previous success. For a specified future path, update this cumulative predictor after each outcome before multiplying the conditional [probabilities](probability-theory.md#probability).
+
+##### True state dependence
+
+↑ **Parent:** [Conditional logistic model for longitudinal binary data](#conditional-logistic-model-for-longitudinal-binary-data)
+
+A previous outcome may affect a subsequent outcome after controlling both measured [covariates](statistical-model.md#covariate) and persistent [unobserved heterogeneity](#unobserved-heterogeneity). This is true state dependence. An observed lagged-outcome association alone does not establish it, because omitted individual propensities can create apparent persistence.
+
+#### Multinomial logistic regression
+
+↑ **Parent:** [Logistic regression](#logistic-regression)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Multinomial_logistic_regression)
+
+A regression for a categorical response with more than two possible outcomes, parametrizing log probability ratios relative to a baseline category by linear predictors. It preserves categories that a binary [logistic regression](#logistic-regression) would merge.
+
+##### Continuation-ratio logits
+
+↑ **Parent:** [Multinomial logistic regression](#multinomial-logistic-regression)
+
+For ordered response categories, model each displayed conditional probability by a [grouped-binomial logistic regression](#grouped-binomial-logistic-regression). The [multinomial likelihood](discrete-probability-distribution.md#multinomial-likelihood) factors exactly into successive conditional [binomial likelihoods](discrete-probability-distribution.md#binomial-likelihood), using the remaining category total as each stage's denominator. This is a different regression parameterization from baseline-category logits or cumulative odds. Separate cumulative binary indicators from the same person are dependent and cannot be treated as independent likelihood contributions.
+
+##### Conditional multinomial sufficient statistics
+
+↑ **Parent:** [Multinomial logistic regression](#multinomial-logistic-regression)
+
+For independent [multinomial distributions](discrete-probability-distribution.md#multinomial-distribution) with fixed stratum totals $N_s$ and baseline logits $\log(p_{sl}/p_{sL})=x_s^T\beta_l$, the [sufficient statistics](probability-and-statistics.md#sufficient-statistic) are the displayed response-specific design-weighted counts, $l<L$. Expanding the [log-likelihood](#log-likelihood) gives $\sum_{l<L}\beta_l^TT_l-\sum_sN_s\log(1+\sum_{l<L}e^{x_s^T\beta_l})$, plus a data-only term. The [Fisher-Neyman factorization theorem](probability-and-statistics.md#fisher-neyman-factorization-theorem) therefore proves sufficiency; with an unrestricted identifiable canonical parameter, a likelihood-ratio argument proves minimal sufficiency. Factor indicators give the corresponding response/covariate margins.
+
+#### Logistic-normal regression with autoregressive random effects
+
+↑ **Parent:** [Logistic regression](#logistic-regression)
+
+A logistic-normal count model takes $Y_i\mid\theta_i\sim\operatorname{Bin}(n_i,\operatorname{logit}^{-1}\theta_i)$ and $\theta_i=x_i^T\beta+\lambda Z_i+\eta_i$, where $Z$ is a stationary unit-variance [autoregressive process of order one](time-series.md#autoregressive-process-of-order-one) with coefficient $a$ and the independent $\eta_i$ have [normal distribution](probability-theory.md#normal-distribution) with variance $v$. The marginal latent variance is $\lambda^2+v$, and its off-diagonal [covariance](variance.md#covariance) is $\lambda^2 a^{|i-j|}$. Random success probabilities produce [overdispersion](exponential-family.md#overdispersion) relative to the [binomial distribution](discrete-probability-distribution.md#binomial-distribution).
+
+#### Logistic model
+
+↑ **Parent:** [Logistic regression](#logistic-regression)
+
+A logistic model maps a real-valued score $\eta$ to the probability $p=(1+e^{-\eta})^{-1}$, equivalently $\log(p/(1-p))=\eta$. [Logistic regression](#logistic-regression) takes $\eta$ to be an affine function of the predictors.
+
+##### Log odds
+
+↑ **Parent:** [Logistic model](#logistic-model)
+
+For an event of probability $p$, the log odds are the [natural logarithm](calculus.md#natural-logarithm) of its [odds](probability-theory.md#odds):
+
+$$
+\operatorname{logit}(p)=\log\frac{p}{1-p}.
+$$
+
+#### Separation (statistics)
+
+↑ **Parent:** [Logistic regression](#logistic-regression)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Separation_(statistics))
+
+Separation in a binary regression model occurs when an affine score assigns all observations from one class to one side of a threshold and all observations from the other class to the other side.
+
+##### Quasi-complete separation
+
+↑ **Parent:** [Separation (statistics)](#separation-statistics)
+
+In a binary [logistic regression](#logistic-regression), write the signed directional margin of observation $i$ as $(2y_i-1)x_i^Td$. Quasi-complete separation occurs when a nonzero direction $d$ makes all these margins nonnegative, with some zero and some strictly positive. Along coefficients $\beta+td$, $t\to\infty$, each observation's [log-likelihood](#log-likelihood) contribution is nondecreasing, and those with positive margins strictly increase toward their limiting value. Hence the unpenalized fit cannot have a finite maximum in that direction. A group containing only outcome zeros is a simple example: sending its indicator coefficient to $-\infty$ improves that group's likelihood while leaving all other observations unchanged. Zero fitted risk is then a boundary limit, and ordinary finite-coefficient [Wald confidence intervals](statistical-inference.md#wald-confidence-interval) are unavailable.
+
+##### Complete separation
+
+↑ **Parent:** [Separation (statistics)](#separation-statistics)
+
+Complete separation means that every signed training margin is strictly positive for some affine score. In unpenalized logistic regression it causes coefficient norms to diverge and prevents a finite maximum-likelihood estimate.
+
+#### Bernoulli logistic-regression model
+
+↑ **Parent:** [Logistic regression](#logistic-regression)
+
+For binary independent responses, logistic regression sets
+
+$$
+Y_i\sim\operatorname{Bernoulli}(p_i),
+\qquad
+\log\frac{p_i}{1-p_i}=\beta_0+x_i^T\beta.
+$$
+
+##### Fitted-mean balance for logistic regression with an intercept
+
+↑ **Parent:** [Bernoulli logistic-regression model](#bernoulli-logistic-regression-model)
+
+At an interior maximum-likelihood fit of a logistic-regression model containing an intercept, the intercept [score function](#informant-function) is
+
+$$
+\frac{\partial\ell}{\partial\beta_0}=\sum_i(y_i-\widehat p_i)=0.
+$$
+
+Consequently the sum of the fitted probabilities equals the number of observed successes exactly.
+
+#### Logistic loss
+
+↑ **Parent:** [Logistic regression](#logistic-regression)
+
+For a signed margin $u=yh(x)$, the logistic loss is
+
+$$
+\phi(u)=\log(1+e^{-u}).
+$$
+
+It is convex and has derivative $\phi'(u)=-e^{-u}/(1+e^{-u})$.
+
+##### Positive semidefinite quadratic-form classifier
+
+↑ **Parent:** [Logistic loss](#logistic-loss)
+
+For a positive semidefinite trace ball $\mathcal S_s$, the quadratic-form hypothesis class is
+
+$$
+\mathcal H_s=\{h_M:x\mapsto x^TMx,\ M\in\mathcal S_s\}.
+$$
+
+Its empirical logistic risk is convex as a function of $M$.
+
+#### L1-penalized logistic regression
+
+↑ **Parent:** [Logistic regression](#logistic-regression)
+
+L1-penalized logistic regression minimizes empirical [logistic loss](#logistic-loss) plus $\lambda\lVert\beta\rVert_1$. Its subgradient optimality conditions set each logistic score coordinate equal to $-\lambda z_j$, where $z_j=\operatorname{sgn}(\beta_j)$ off zero and $z_j\in[-1,1]$ at zero.
+
+#### Grouped-binomial logistic regression
+
+↑ **Parent:** [Logistic regression](#logistic-regression)
+
+For independent grouped counts $Y_i\sim\operatorname{Bin}(n_i,p_i)$, grouped-binomial logistic regression specifies
+
+$$
+\log\frac{p_i}{1-p_i}=x_i^T\beta.
+$$
+
+Fitting the proportions $Y_i/n_i$ with binomial weights $n_i$ gives the same likelihood.
+
+##### Baseline logit estimator in a group-factor binomial model
+
+↑ **Parent:** [Grouped-binomial logistic regression](#grouped-binomial-logistic-regression)
+
+For independent $Y_{ij}\sim\operatorname{Bin}(m,p_i)$ with $k$ replicates per group and $\operatorname{logit}(p_i)=\mu+\alpha_i$, $\alpha_1=0$, let $S_i=\sum_jY_{ij}$ and $N=km$. The likelihood equations give $\widehat p_i=S_i/N$, $\widehat\mu=\log(S_1/(N-S_1))$, and $\widehat\alpha_i=\operatorname{logit}(\widehat p_i)-\widehat\mu$ when $0<S_i<N$. Boundary totals give infinite logits. With $0<p_1<1$ fixed and $N\to\infty$, the [central limit theorem](convergence-of-random-variables.md#central-limit-theorem) and [delta method](statistical-inference.md#delta-method) give
+
+$$
+\sqrt N(\widehat\mu-\mu)\ \xrightarrow{d}\ N\left(0,\frac1{p_1(1-p_1)}\right).
+$$
+
+The other groups do not increase information about the baseline logit when they have free offsets. For two groups, the information matrix for $(\mu,\alpha_2)$ is $\begin{pmatrix}w_1+w_2&w_2\\w_2&w_2\end{pmatrix}$ with $w_i=Np_i(1-p_i)$, whose inverse has first diagonal entry $1/w_1$.
+
+##### Denominators in grouped birth-outcome models
+
+↑ **Parent:** [Grouped-binomial logistic regression](#grouped-binomial-logistic-regression)
+
+For each treatment year let $C$ be cycles, $S$ singleton deliveries, $T$ twin deliveries and $H$ deliveries of three or more babies. A singleton-per-cycle model uses $S\sim\operatorname{Bin}(C,p)$. A multiple-delivery model conditional on a live delivery instead uses $T+H\sim\operatorname{Bin}(S+T+H,q)$. The latter denominator counts deliveries, not babies, and it excludes failed cycles. Confusing these denominators changes the statistical question.
+
+#### Reference level in a regression factor
+
+↑ **Parent:** [Logistic regression](#logistic-regression)
+
+With treatment coding, the intercept describes the reference factor level and each displayed factor coefficient is a contrast against that level. Changing the reference level reparametrizes the same fitted model: fitted probabilities and likelihood do not change, but coefficients representing different pairwise contrasts can have different standard errors and p-values.
+
+#### Stochastic block model
+
+↑ **Parent:** [Logistic regression](#logistic-regression)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Stochastic_block_model)
+
+A stochastic block model assigns each [vertex of a graph](graph.md#vertex-graph-theory) to a class and, conditional on those classes, makes distinct [edges](graph-theory.md#edge-of-a-graph) [independent random variables](random-variable.md#independent-random-variables) whose probabilities depend only on the classes of their endpoints.
+
+##### Spectral norm bound for a centered Bernoulli adjacency matrix
+
+↑ **Parent:** [Stochastic block model](#stochastic-block-model)
+
+For independent [Bernoulli distribution](discrete-probability-distribution.md#bernoulli-distribution) upper-triangular entries of a symmetric zero-diagonal [adjacency matrix of a graph](graph-theory.md#adjacency-matrix), put $W=A-\mathbb EA$. For a unit vector $x$, $x^\top Wx=2\sum_{i<j}x_ix_jW_{ij}$ has sub-Gaussian variance proxy at most $\sum_{i<j}x_i^2x_j^2\leq1/2$, by the [Hoeffding lemma](probability-inequality.md#hoeffding-lemma). Hence $\mathbb P(|x^\top Wx|>u)\leq2e^{-u^2}$. The [volumetric bound for Euclidean metric nets](topological-analysis.md#volumetric-bound-for-euclidean-metric-nets) gives a $1/4$-[metric net](topological-analysis.md#metric-net) of the [unit sphere](topology.md#unit-sphere) with at most $9^n$ points. The [quadratic form net bound](topological-analysis.md#quadratic-form-net-bound) gives $\|W\|_{\mathrm{op}}\leq2\max_x|x^\top Wx|$ on that net. The [union bound](probability-inequality.md#boole-s-inequality) gives $\mathbb P(\|W\|_{\mathrm{op}}>2\sqrt{n\log9+\log2+s})\leq e^{-s}$; integrating this tail proves the displayed expectation bound.
+
+##### Logistic stochastic block model
+
+↑ **Parent:** [Stochastic block model](#stochastic-block-model)
+
+A logistic stochastic block model parameterizes the edge probability between classes $k$ and $\ell$ as $\operatorname{logit}^{-1}(\beta_{k\ell})$.
+
+###### Additive class-effect logistic network model
+
+↑ **Parent:** [Logistic stochastic block model](#logistic-stochastic-block-model)
+
+An additive class-effect logistic network model gives an edge joining classes $k$ and $\ell$ the log odds $\beta_k+\beta_\ell$. A further coefficient multiplying $\mathbf1_{\{k=\ell\}}$ represents a common within-class log-odds effect.
+
+###### Degree-sum sufficient statistic for an additive logistic network model
+
+↑ **Parent:** [Additive class-effect logistic network model](#additive-class-effect-logistic-network-model)
+
+For independent binary edges with log odds $\beta_{z_i}+\beta_{z_j}+\beta_0\mathbf1_{\{z_i=z_j\}}$, the natural statistics are the sum of the [vertex degrees](graph-theory.md#degree-graph-theory) in each class and the total number of within-class edges. They form a [minimal sufficient statistic](probability-and-statistics.md#minimal-sufficient-statistic) whenever the natural parameter space contains an open subset of $\mathbb R^{C+1}$.
+
+### Probit model
+
+↑ **Parent:** [Generalized linear model](#generalized-linear-model)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Probit_model)
+
+Binary probit regression sets $p_i=\Phi(\beta_0+x_i^T\beta)$, where $\Phi$ is the [standard normal distribution](probability-theory.md#standard-normal-distribution) function. Its intercept score is a weighted sum of residuals, so an intercept does not generally force $\sum_i\widehat p_i=\sum_i y_i$.
+
+#### Latent-normal Gibbs sampler for probit regression
+
+↑ **Parent:** [Probit model](#probit-model)
+
+For binary observations with success probability $\Phi(\beta x_i)$, introduce latent $Z_i\sim N(\beta x_i,1)$ and let the sign determine the observation. Given $\beta$ and the observed sign, each latent variable has a [truncated normal distribution](probability-theory.md#truncated-normal-distribution). With a standard normal prior, the [full conditional distribution](probability-theory.md#full-conditional-distribution) of $\beta$ is normal with precision $1+\sum_i x_i^2$ and mean $\sum_i x_iZ_i/(1+\sum_i x_i^2)$. Alternating these blocks is [Gibbs sampling](statistical-inference.md#gibbs-sampler) with the required marginal posterior.
+
+#### Threshold observation of a lognormal regression
+
+↑ **Parent:** [Probit model](#probit-model)
+
+Observing only whether a lognormally modelled output exceeds a known threshold produces a probit link. The latent location and slope are recovered by multiplying the probit coefficients by the known Gaussian scale and adding the log threshold to the intercept.
+
+#### Probit posterior score
+
+↑ **Parent:** [Probit model](#probit-model)
+
+For [probit regression](#probit-model) with $s_i=2Y_i-1$ and prior $N(0,\sigma^2I)$, the [posterior score control variate](probability-and-statistics.md#posterior-score-control-variate) is
+
+$$
+g(\beta)=-\frac\beta{\sigma^2}+\sum_i s_ix_i\frac{\phi(s_ix_i^T\beta)}{\Phi(s_ix_i^T\beta)}.
+$$
+
+For $h(\beta)=\Phi(x_*^T\beta)$, its covariance with the score is $-x_*\mathbb E[\phi(x_*^T\beta)]$. It is nonzero whenever $x_*\ne0$, ensuring strict improvement by the optimal [control variate](probability-and-statistics.md#control-variates).
+
+### Iteratively reweighted least squares
+
+↑ **Parent:** [Generalized linear model](#generalized-linear-model)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Iteratively_reweighted_least_squares)
+
+IRLS fits a generalized linear model by repeatedly solving a weighted least-squares approximation to its score equations.
+
+### Generalized linear mixed model
+
+↑ **Parent:** [Generalized linear model](#generalized-linear-model)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Generalized_linear_mixed_model)
+
+A generalized linear mixed model adds latent random effects to the linear predictor of a [generalized linear model](#generalized-linear-model).
+
+#### Logistic random-intercept model for repeated binary outcomes
+
+↑ **Parent:** [Generalized linear mixed model](#generalized-linear-mixed-model)
+
+A subject has a [random intercept](#random-intercept) $B_i\sim N(0,\tau^2)$, with responses conditionally independent given $B_i$ and their [covariates](statistical-model.md#covariate). Integrating the product of [Bernoulli](discrete-probability-distribution.md#bernoulli-distribution) [likelihoods](#likelihood-function) over $B_i$ defines the joint subject [likelihood](#likelihood-function) and induces within-subject dependence. Its coefficients describe conditional [odds ratios](#odds-ratio) for a fixed latent subject effect. Under [missing at random](probability-and-statistics.md#missing-at-random) with [distinct parameters](probability-and-statistics.md#distinct-parameters), the observed-response likelihood integrates over the same random effect and sums out unobserved responses. Dependence of dropout on $B_i$ is not generally ignorable merely because conditional independence holds given $B_i$.
+
+##### Random-intercept attenuation of marginal logistic slopes
+
+↑ **Parent:** [Logistic random-intercept model for repeated binary outcomes](#logistic-random-intercept-model-for-repeated-binary-outcomes)
+
+Put $p_B=\operatorname{logit}^{-1}(\eta+B)$ and $M(\eta)=\mathbb E(p_B)$. Differentiation gives $M'=\mathbb E[p_B(1-p_B)]=M(1-M)-\operatorname{Var}(p_B)$. Hence the displayed derivative lies between zero and one, strictly below one for a nondegenerate [random intercept](#random-intercept). A marginal [logit](#logit) is therefore generally nonlinear and its slope differs from the conditional slope even without [confounding](causal-inference.md#confounding). This is a precise instance of [noncollapsibility of the odds ratio](#noncollapsibility-of-the-odds-ratio).
+
+#### Gaussian linear mixed model
+
+↑ **Parent:** [Generalized linear mixed model](#generalized-linear-mixed-model)
+
+A Gaussian linear mixed model combines [fixed effects](#fixed-effect), [random effects](#random-effect) with a [normal distribution](probability-theory.md#normal-distribution), and independent [Gaussian noise](probability-theory.md#gaussian-noise). For $b\sim N(0,D)$ and $\varepsilon\sim N(0,R)$ independently, its marginal distribution is $Y\sim N(X\beta,V)$ with $V=ZDZ^T+R$. The [random effects](#random-effect) induce dependence among observations sharing their design columns. A [random-intercept linear mixed model](#random-intercept-linear-mixed-model) and a [random-slope linear mixed model](#random-slope-linear-mixed-model) are special cases.
+
+##### Correlated random-intercept and random-slope model
+
+↑ **Parent:** [Gaussian linear mixed model](#gaussian-linear-mixed-model)
+
+A subject-specific [random intercept](#random-intercept) and [random slope](#random-slope) may have a joint [bivariate normal distribution](probability-and-statistics.md#bivariate-normal-distribution) with arbitrary positive-definite [covariance matrix](variance.md#covariance-matrix) $D$. With independent [normal](probability-theory.md#normal-distribution) measurement errors of [variance](variance.md) $\sigma^2$, the marginal [covariance](variance.md#covariance) between a person's readings at $s,t$ is $D_{00}+(s+t)D_{01}+stD_{11}$, plus $\sigma^2$ on the diagonal. Different subjects remain independent. Allowing $D_{01}$ distinguishes this model from an [independent random-intercept and random-slope model](#independent-random-intercept-and-random-slope-model).
+
+##### Variance component
+
+↑ **Parent:** [Gaussian linear mixed model](#gaussian-linear-mixed-model)
+
+A variance component is a nonnegative parameter multiplying a specified covariance contribution. In a [Gaussian linear mixed model](#gaussian-linear-mixed-model) with independent standardized group effects, $\tau_k^2Z_kZ_k^T$ describes the covariance induced by one set of [random effects](#random-effect). Testing whether a component is zero is a [variance-component likelihood-ratio test at a boundary](#variance-component-likelihood-ratio-test-at-a-boundary); ordinary regular chi-squared likelihood-ratio calibration need not apply.
+
+###### Method-of-moments variance component estimate
+
+↑ **Parent:** [Variance component](#variance-component)
+
+A [method-of-moments variance component estimate](#method-of-moments-variance-component-estimate) equates residual [mean squares in ANOVA](linear-regression.md#mean-square-in-anova) to their model [expectations](probability-theory.md#expected-value) and solves for the [variance components](#variance-component). An unconstrained estimate can be negative even when the model component must be nonnegative; boundary treatment then requires a stated estimation convention. The method gives point estimates, not certainty about future experiments.
+
+##### Best linear unbiased prediction
+
+↑ **Parent:** [Gaussian linear mixed model](#gaussian-linear-mixed-model)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Best_linear_unbiased_prediction)
+
+With known covariance parameters, best linear unbiased prediction minimizes prediction-error [variance](variance.md) over linear predictors that are unbiased over both observation errors and [random effects](#random-effect), for every fixed-effect value. In a [Gaussian linear mixed model](#gaussian-linear-mixed-model), the random-effect predictor is $DZ^TV^{-1}(Y-X\widehat\beta_{\mathrm{GLS}})$, where [generalized least squares](#generalized-least-squares) estimates the fixed effects. Plugging in covariance estimates gives an empirical predictor; its uncertainty must also account for estimating those covariance parameters. It differs from a [best linear unbiased estimator](#best-linear-unbiased-estimator) of an unknown fixed coefficient.
+
+##### Conditional mode of Gaussian random effects
+
+↑ **Parent:** [Gaussian linear mixed model](#gaussian-linear-mixed-model)
+
+In a [Gaussian linear mixed model](#gaussian-linear-mixed-model) with $V=ZDZ^T+R$, the [conditional multivariate normal distribution](probability-and-statistics.md#conditional-multivariate-normal-distribution) of $b$ given $Y$ has mean $DZ^TV^{-1}(Y-X\beta)$ and [covariance matrix](variance.md#covariance-matrix) $D-DZ^TV^{-1}ZD$. When nonsingular, its mean is also its mode. Estimated parameters yield empirical conditional modes and shrink group deviations toward zero. At a zero variance component the associated effect is degenerate at zero; the covariance formula still applies, whereas formulas involving $D^{-1}$ require limits.
+
+##### Continuous-time autoregressive residual correlation
+
+↑ **Parent:** [Gaussian linear mixed model](#gaussian-linear-mixed-model)
+
+For $\kappa>0$, this error correlation decreases exponentially with elapsed time and permits irregular observation times. It is the stationary correlation of an [Ornstein-Uhlenbeck process](stochastic-process.md#ornstein-uhlenbeck-process). Within a [Gaussian linear mixed model](#gaussian-linear-mixed-model), apply it to the errors conditional on [random effects](#random-effect); the marginal correlation also includes those effects. `nlme::corCAR1` parametrizes the same correlation by $\rho=e^{-\kappa}\in(0,1)$ and permits separate grouped time series.
+
+##### Independent random-intercept and random-slope model
+
+↑ **Parent:** [Gaussian linear mixed model](#gaussian-linear-mixed-model)
+
+Independent Gaussian [random intercepts](#random-intercept) $u_j$ and [random slopes](#random-slope) $v_j$ give marginal within-group [covariance](variance.md#covariance) $\tau_0^2+\tau_1^2t_{ij}t_{kj}+\sigma^2\mathbf1_{\{i=k\}}$. In `lme4`, separate terms `(1 | group)` and `(0 + x | group)` impose zero intercept-slope covariance; `(1 + x | group)` estimates it. This independence restriction depends on the predictor origin: replacing $t$ by $t-c$ transforms the intercept effect to $u_j+cv_j$, generally correlated with $v_j$.
+
+#### Poisson generalized linear mixed model
+
+↑ **Parent:** [Generalized linear mixed model](#generalized-linear-mixed-model)
+
+A Poisson generalized linear mixed model gives a count response a conditional [Poisson distribution](discrete-probability-distribution.md#poisson-distribution) whose logarithmic mean contains both fixed effects and latent random effects.
+
+##### Gamma random-intercept Poisson model
+
+↑ **Parent:** [Poisson generalized linear mixed model](#poisson-generalized-linear-mixed-model)
+
+Let the positive multiplier $U_i$ have a [gamma distribution](continuous-probability-distribution.md#gamma-distribution) with mean $\tau$ and [variance](variance.md) $\theta$, and conditionally let the repeated counts be [independent](random-variable.md#independent-random-variables) with means $U_i a_{ij}$. Total [expectation](probability-theory.md#expected-value) and [variance](variance.md) give
+
+$$
+\mathbb EY_{ij}=\tau a_{ij},\qquad
+\operatorname{Var}(Y_{ij})=\tau a_{ij}+\theta a_{ij}^2,\qquad
+\operatorname{Cov}(Y_{ij},Y_{ik})=\theta a_{ij}a_{ik}\quad(j\ne k).
+$$
+
+The [Poisson-gamma mixture](discrete-probability-distribution.md#poisson-gamma-mixture) gives negative-binomial marginal counts of size $\tau^2/\theta$. Despite the shared multiplier, the marginal correlations generally depend on both marginal means and need not be exchangeable.
+
+###### Scale identifiability in a gamma random-intercept Poisson model
+
+↑ **Parent:** [Gamma random-intercept Poisson model](#gamma-random-intercept-poisson-model)
+
+When $a_{ij}=\exp(\beta_0+\beta^{\mathsf T}x_{ij})$, replacing $U_i$ by $cU_i$ and the fixed intercept by $\beta_0-\log c$ leaves every conditional count mean and the integrated data law unchanged. Thus without fixing the random multiplier's mean, the [gamma random-intercept Poisson model](#gamma-random-intercept-poisson-model) identifies the marginal intercept $\beta_0+\log\tau$ and relative heterogeneity $\theta/\tau^2$, rather than these three parameters separately. Normalizing $\tau=1$ removes this scale ambiguity.
+
+##### Marginal mean of a Poisson random-slope model
+
+↑ **Parent:** [Poisson generalized linear mixed model](#poisson-generalized-linear-mixed-model)
+
+Given Gaussian [random intercept](#random-intercept) $b_0$ and [random slope](#random-slope) $b_1$, let the conditional incidence rate be $e^{\beta_0+\beta_1s+b_0+b_1s}$. The normal moment-generating function gives the displayed marginal rate, with $\operatorname{Var}(b_0+b_1s)=\tau_0^2+2s\tau_{01}+s^2\tau_1^2$. Thus the conditional annual [rate ratio](#rate-ratio) for a cluster is $e^{\beta_1+b_1}$, whereas the marginal rate ratio also contains covariance and variance terms. Centering $s$ at a chosen year makes intercept heterogeneity refer directly to that year.
+
+#### Random intercept
+
+↑ **Parent:** [Generalized linear mixed model](#generalized-linear-mixed-model)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Random_intercept)
+
+A random intercept gives every group a latent additive shift, inducing dependence among observations from the same group.
+
+##### Marginal and conditional slopes agree for an independent log-link random intercept
+
+↑ **Parent:** [Random intercept](#random-intercept)
+
+For a conditional count mean $\mathbb E(Y\mid x,b)=\exp(b+\beta_0+\beta^{\mathsf T}x)$, suppose the distribution of $b$ is [independent](random-variable.md#independent-random-variables) of the covariates and has finite $\mathbb E e^b$. Integrating over $b$ gives the displayed [logarithmic link function](#logarithmic-link-function) mean: every slope stays unchanged, and only the intercept shifts. This is an exact property of the log link; it does not hold in this form for the [logit](#logit).
+
+##### Random-intercept linear mixed model
+
+↑ **Parent:** [Random intercept](#random-intercept)
+
+A random-intercept linear mixed model has the form
+
+$$
+Y_{ij}=x_{ij}^T\beta+b_i+\varepsilon_{ij},
+$$
+
+where independent group effects $b_i$ induce positive covariance among observations from the same group.
+
+## Clustered data
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Clustered_data)
+
+Clustered data are grouped observations for which measurements in the same group may be dependent, as with repeated measurements on one subject.
+
+### Pseudoreplication
+
+↑ **Parent:** [Clustered data](#clustered-data)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Pseudoreplication)
+
+Pseudoreplication treats dependent measurements from the same experimental unit as if they were independent replicates. It exaggerates the effective sample size and commonly makes standard errors too small.
+
+## Independent Poisson conditioning
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+Independent Poisson variables conditioned on their sum are multinomial, with cell probabilities proportional to their rates.
+
+## Normal linear model
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+$Y=X\beta+\varepsilon$, $\varepsilon\sim N(0,\sigma^2I)$, and full-rank $X$ gives $\widehat\beta=(X^TX)^{-1}X^TY$.
+
+### Variance of a fitted regression mean
+
+↑ **Parent:** [Normal linear model](#normal-linear-model)
+
+For a full-column-rank [design matrix](linear-regression.md#design-matrix) in a [normal linear model](#normal-linear-model), a fitted mean at covariate vector $v$ is $v^T\widehat\beta$. The [covariance matrix](variance.md#covariance-matrix) of the [least-squares estimator](#ordinary-least-squares-estimators) immediately gives the displayed [variance](variance.md). Replacing $\sigma^2$ by the independent unbiased residual [variance](variance.md) gives its squared [standard error](statistical-inference.md#standard-error) and a [Student t confidence interval](statistical-inference.md#student-t-confidence-interval) on $n-p$ [statistical degrees of freedom](statistical-inference.md#statistical-degrees-of-freedom). A future response instead contributes an additional error [variance](variance.md) $\sigma^2$ when its error is independent of the fitted data.
+
+// Target: probability-and-statistics.bigb
+
+### Analysis of covariance
+
+↑ **Parent:** [Normal linear model](#normal-linear-model)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Analysis_of_covariance)
+
+Analysis of covariance combines a categorical treatment and a quantitative covariate in a [normal linear model](#normal-linear-model). A common-slope model is $Y_i=\alpha+\beta x_i+\sum_{g=2}^G\tau_g\mathbf1_{\{G_i=g\}}+\varepsilon_i$, with independent $N(0,\sigma^2)$ errors. Treatment differences compare fitted means at the same covariate value. Adding treatment-by-covariate interactions permits separate slopes, and a [partial F-test](probability-and-statistics.md#partial-f-test-for-nested-linear-models) compares this extension with the parallel-lines model. The treatment test after adding the covariate differs from an unadjusted comparison, because treatment groups can have different covariate distributions.
+
+### Normal linear model maximum-likelihood sampling distributions
+
+↑ **Parent:** [Normal linear model](#normal-linear-model)
+
+For a full-column-rank design $X$ and $Y=X\beta+\varepsilon$ with $\varepsilon\sim N_n(0,\sigma^2I)$, the maximum-likelihood estimators are $\widehat\beta=(X^TX)^{-1}X^TY$ and $\widehat\sigma^2=\|Y-X\widehat\beta\|^2/n$. Orthogonal Gaussian projections give their displayed distributions and independence. The [variance](variance.md) maximum-likelihood estimator has expectation $(n-p)\sigma^2/n$; the unbiased residual [variance](variance.md) divides by $n-p$ instead.
+
+### Lack of fit
+
+↑ **Parent:** [Normal linear model](#normal-linear-model)
+
+Lack of fit is a mismatch between a regression model's mean function and the true mean relationship. Replicated predictor configurations can separate its sum of squares from [pure error](#pure-error). A [residual-versus-fitted plot](linear-regression.md#residual-versus-fitted-plot) can suggest curvature or changing variance even without a formal replication-based test.
+
+#### Lack-of-fit F-test
+
+↑ **Parent:** [Lack of fit](#lack-of-fit)
+
+For $n$ independent normal responses of common [variance](variance.md) at $g$ distinct predictor settings, a rank-$p$ [normal linear model](#normal-linear-model) has residual degrees $n-p$. The saturated setting-mean model has $g$ parameters and [pure error](#pure-error) degrees $n-g$. Splitting orthogonal residual spaces gives [lack of fit](#lack-of-fit) degrees $g-p$. Under the fitted mean model, the two squared lengths divided by the common variance are independent [chi-squared](probability-theory.md#chi-squared-distribution) variables; their ratio of mean squares has the [F-distribution](continuous-probability-distribution.md#f-distribution) shown. This test is unavailable without repeated settings or positive lack-of-fit degrees.
+
+### Pure error
+
+↑ **Parent:** [Normal linear model](#normal-linear-model)
+
+With repeated responses at an identical predictor configuration, pure error is their within-configuration variability. Its [residual sum of squares](linear-regression.md#residual-sum-of-squares) can estimate measurement variance independently of a candidate regression mean function. Without replication, a fitted residual can combine pure error and [lack of fit](#lack-of-fit).
+
+### Two-factor normal linear model
+
+↑ **Parent:** [Normal linear model](#normal-linear-model)
+
+A two-factor [normal linear model](#normal-linear-model) describes independent responses with factor-specific means and common normal error variance. The additive mean $\mu+\alpha_a+\gamma_j$ assumes no [interaction term](statistical-model.md#interaction-term); the full mean $\mu+\alpha_a+\gamma_j+\delta_{aj}$ permits the first factor effect to vary with the second. Constraints or [treatment coding](#treatment-coding) identify the parameters. In a balanced two-by-five design the full model has ten free cell means.
+
+#### Factor-level pooling test
+
+↑ **Parent:** [Two-factor normal linear model](#two-factor-normal-linear-model)
+
+To pool factor levels in a [normal linear model](#normal-linear-model), impose equality of their fitted means while retaining any needed [interaction terms](statistical-model.md#interaction-term). Compare the resulting nested model with the full model using a [nested-model F-test](probability-and-statistics.md#nested-model-f-test). For two cells each of size $m$, pooling their fitted means adds $(m/2)(\overline Y_1-\overline Y_2)^2$ to the [residual sum of squares](linear-regression.md#residual-sum-of-squares). If pooling two pairs separately within two other-factor levels, there are four restrictions.
+
+### Joint distribution of least-squares and variance estimators
+
+↑ **Parent:** [Normal linear model](#normal-linear-model)
+
+With a full-column-rank $n\times p$ design and isotropic normal errors, [ordinary least squares](#ordinary-least-squares) gives $\widehat\beta\sim N_p(\beta,\sigma^2(X^TX)^{-1})$, independent of the residual squared length. Orthogonal design and residual projections of the [multivariate normal distribution](probability-and-statistics.md#multivariate-normal-distribution) are independent, and $\operatorname{RSS}/\sigma^2\sim\chi^2_{n-p}$. The maximum likelihood variance estimate is $\operatorname{RSS}/n$, not the unbiased estimate $\operatorname{RSS}/(n-p)$.
+
+### Restricted maximum likelihood
+
+↑ **Parent:** [Normal linear model](#normal-linear-model)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Restricted_maximum_likelihood)
+
+Restricted maximum likelihood estimates [covariance matrix](variance.md#covariance-matrix) parameters from linear combinations of the data whose distribution does not involve the fixed mean coefficients. It differs from a [restricted maximum-likelihood estimator](#restricted-maximum-likelihood-estimator) obtained by maximizing an ordinary [likelihood function](#likelihood-function) under a null hypothesis.
+
+#### Restricted likelihood from orthogonal error contrasts
+
+↑ **Parent:** [Restricted maximum likelihood](#restricted-maximum-likelihood)
+
+For $Y\sim N(X\beta,V_\theta)$ and a full-column-rank [design matrix](linear-regression.md#design-matrix) $X\in\mathbb R^{n\times p}$, take $A\in\mathbb R^{n\times(n-p)}$ with $A^TA=I$ and $A^TX=0$. Then $A^TY\sim N(0,A^TV_\theta A)$, so [restricted maximum likelihood](#restricted-maximum-likelihood) maximizes
+
+$$
+\ell_R(\theta)=-\frac{n-p}{2}\log(2\pi)-\frac12\log\det(A^TV_\theta A)-\frac12Y^TA(A^TV_\theta A)^{-1}A^TY.
+$$
+
+Changing the [orthonormal basis](linear-algebra.md#orthonormal-basis) by an orthogonal matrix leaves this expression unchanged.
+
+### Gaussian conjugacy for a normal linear model
+
+↑ **Parent:** [Normal linear model](#normal-linear-model)
+
+If $Y\mid\beta\sim N(X\beta,\Sigma_e)$ and $\beta\sim N(m_0,\Sigma_0)$, then the posterior is normal with [precision matrix](variance.md#precision-matrix) $X^T\Sigma_e^{-1}X+\Sigma_0^{-1}$ and mean equal to the inverse precision times $X^T\Sigma_e^{-1}Y+\Sigma_0^{-1}m_0$.
+
+<h4 id="gaussian-conjugacy-for-an-initialized-ar-2-regression">Gaussian conjugacy for an initialized AR(2) regression</h4>
+
+↑ **Parent:** [Gaussian conjugacy for a normal linear model](#gaussian-conjugacy-for-a-normal-linear-model)
+
+With independent standard-normal priors on the two coefficients, the conditional AR(2) likelihood gives precision $\Lambda=I+\sum_tv_tv_t^T$, where $v_t=(x_{t+1},x_t)^T$, and mean $\Lambda^{-1}\sum_tv_tx_{t+2}$. Positive definiteness holds even for a deficient design. If $\Lambda=\left(\begin{smallmatrix}A&C\\C&D\end{smallmatrix}\right)$ and the linear term is $(r,s)$, the conditional means are $(r-Cb)/A$ and $(s-Ca)/D$, with variances $1/A$ and $1/D$.
+
+#### Normal-gamma posterior with a flat prior
+
+↑ **Parent:** [Gaussian conjugacy for a normal linear model](#gaussian-conjugacy-for-a-normal-linear-model)
+
+Let $m\mid u,\gamma\sim\mathcal N(Au,\gamma^{-1}I_k)$, let the [prior distribution](statistical-inference.md#prior-probability) of the precision be the shape-rate [Gamma distribution](continuous-probability-distribution.md#gamma-distribution) $\operatorname{Gamma}(\alpha,\beta)$, and use a constant [improper prior](statistical-inference.md#improper-prior) for $u\in\mathbb R^d$. Assume $A$ has zero [null space](linear-algebra.md#kernel-of-a-linear-map). Write $B=A^TA$, $u_*=B^{-1}A^Tm$, $a=\alpha+k/2$, $b_0=\beta+\|m-Au_*\|^2/2$, and $s=\alpha+(k-d)/2>0$. The proper joint [posterior density](statistical-inference.md#posterior-density) is proportional to
+
+$$
+\gamma^{a-1}\exp\left[-\gamma\left(b_0+\tfrac12(u-u_*)^TB(u-u_*)\right)\right].
+$$
+
+Its [conditional distributions](probability-theory.md#conditional-distribution) are $u\mid\gamma,m\sim\mathcal N(u_*,\gamma^{-1}B^{-1})$ and $\gamma\mid u,m\sim\operatorname{Gamma}(a,\beta+\|m-Au\|^2/2)$. Its marginal precision law is $\operatorname{Gamma}(s,b_0)$. Integration of the displayed kernel gives $(2\pi)^{d/2}\Gamma(s)/(\sqrt{\det B}\,b_0^s)$, proving propriety despite the [improper prior](statistical-inference.md#improper-prior).
+
+A joint [maximum a posteriori estimate](statistical-inference.md#maximum-a-posteriori-estimate) relative to $du\,d\gamma$ exists exactly when $a>1$, and is $(u_*,(a-1)/b_0)$. If $a=1$, the supremum is approached at $\gamma=0$ but not attained; if $a<1$, the density is unbounded there. Separate marginal maximization gives $u_*$ for the unknown and $(s-1)/b_0$ for the precision when $s>1$. This illustrates that joint and marginal modes need not agree, and that a proper [posterior distribution](statistical-inference.md#bayesian-posterior) need not have a mode in its open parameter space.
+
+#### Gaussian posterior in the zero-noise limit
+
+↑ **Parent:** [Gaussian conjugacy for a normal linear model](#gaussian-conjugacy-for-a-normal-linear-model)
+
+For $m=Au+\eta$, with independent $u\sim\mathcal N(0,I_d)$ and $\eta\sim\mathcal N(0,\delta^2I_k)$, the [multivariate normal distribution](probability-and-statistics.md#multivariate-normal-distribution) of the [Bayesian posterior](statistical-inference.md#bayesian-posterior) has [posterior mean](statistical-inference.md#posterior-mean) $b_\delta=(A^TA+\delta^2I_d)^{-1}A^Tm$ and [covariance matrix](variance.md#covariance-matrix) $C_\delta=\delta^2(A^TA+\delta^2I_d)^{-1}$. The [singular value decomposition](linear-algebra.md#singular-value-decomposition) shows that the variance on a right singular vector of nonzero [singular value](linear-algebra.md#singular-value) $s$ is $\delta^2/(s^2+\delta^2)$, while the variance along the [null space](linear-algebra.md#kernel-of-a-linear-map) is one. Thus, for fixed data, the mean tends to the [minimum-norm least-squares solution](inverse-problem.md#minimum-norm-least-squares-solution) and the covariance tends to the [orthogonal projection](hilbert-space.md#orthogonal-projection) onto the [null space](linear-algebra.md#kernel-of-a-linear-map). Unobserved components retain their [prior distribution](statistical-inference.md#prior-probability) even as the noise vanishes.
+
+#### Gaussian likelihood
+
+↑ **Parent:** [Gaussian conjugacy for a normal linear model](#gaussian-conjugacy-for-a-normal-linear-model)
+
+A Gaussian likelihood is a [likelihood function](#likelihood-function) obtained by modeling the observations conditionally with a [normal distribution](probability-theory.md#normal-distribution).
+
+<h3 id="cochran-s-theorem">Cochran's theorem</h3>
+
+↑ **Parent:** [Normal linear model](#normal-linear-model)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Cochran's_theorem)
+
+Orthogonal projections of an isotropic Gaussian vector are independent. If $P$ is an orthogonal projection of rank $r$ and $Z\sim N(0,I)$, then
+
+$$
+\|PZ\|^2\sim\chi_r^2.
+$$
+
+<h4 id="rank-sum-form-of-cochran-s-theorem">Rank-sum form of Cochran's theorem</h4>
+
+↑ **Parent:** [Cochran's theorem](#cochran-s-theorem)
+
+Let $A_i$ be real [symmetric matrices](linear-algebra.md#symmetric-matrix) with sum $I_n$. Their [matrix ranks](vector-space.md#matrix-rank) sum to at least $n$, because their ranges span $\mathbb R^n$. If the ranks sum to $n$, those ranges form a [direct sum](vector-space.md#direct-sum). For $y$ in the range of $A_i$, the identity $y=\sum_jA_jy$ and uniqueness of its range decomposition imply $A_jy=\delta_{ij}y$. Thus $A_i^2=A_i$ and $A_iA_j=0$ for $i\ne j$: the matrices are mutually orthogonal [orthogonal projections](hilbert-space.md#orthogonal-projection). In a combined [orthonormal basis](linear-algebra.md#orthonormal-basis), the forms $Z^TA_iZ$ for $Z\sim N_n(0,I_n)$ use disjoint sets of independent standard normal coordinates. They are independent [chi-squared distributions](probability-theory.md#chi-squared-distribution) with degrees of freedom equal to the ranks. Conversely, if all these forms have those chi-squared laws, their expectations and their sum give $\sum_i\operatorname{rank}A_i=n$.
+
+### Linear regression
+
+↑ **Parent:** [Normal linear model](#normal-linear-model)
+
+[This section is present in another page, follow this link to view it.](linear-regression.md)
+
+### R linear-model formula
+
+↑ **Parent:** [Normal linear model](#normal-linear-model)
+
+In R, `lm(y ~ 1, data=d)` fits an intercept-only linear model, `lm(y ~ x1 + x2, data=d)` adds quantitative predictors, and a factor predictor is expanded into indicator columns.
+
+#### Treatment coding
+
+↑ **Parent:** [R linear-model formula](#r-linear-model-formula)
+
+Treatment coding sets one [reference level in a regression factor](#reference-level-in-a-regression-factor) to zero and represents each other level by an indicator column. With two interacting factors, a main-effect coefficient compares levels at the other factor's reference level; an interaction coefficient is a difference of these contrasts. A joint [nested-model F-test](probability-and-statistics.md#nested-model-f-test) can be significant even when some individual coefficient tests are not.
+
+#### Degrees of freedom of a factor predictor
+
+↑ **Parent:** [R linear-model formula](#r-linear-model-formula)
+
+With an intercept present, a categorical predictor having $m$ represented levels adds $m-1$ linearly independent indicator columns and therefore $m-1$ model degrees of freedom.
+
+### Hat matrix
+
+↑ **Parent:** [Normal linear model](#normal-linear-model)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Hat_matrix)
+
+The hat matrix
+
+$$
+H=X(X^TX)^{-1}X^T
+$$
+
+is the orthogonal projection onto the column space of a full-rank design matrix, and the fitted response is $\widehat Y=HY$.
+
+#### Fitted-residual orthogonality
+
+↑ **Parent:** [Hat matrix](#hat-matrix)
+
+For a full-rank [ordinary least squares](#ordinary-least-squares) [design matrix](linear-regression.md#design-matrix), the [hat matrix](#hat-matrix) $H$ and residual projection $G=I-H$ satisfy $HG=GH=0$. Hence [fitted values](linear-regression.md#fitted-values) and [regression residuals](probability-and-statistics.md#regression-residual) are perpendicular as observed vectors. Under isotropic errors their cross-[covariance matrix](variance.md#covariance-matrix) is zero, and under a [normal linear model](#normal-linear-model) the two vectors are independent.
+
+### Normal linear-model confidence ellipsoid
+
+↑ **Parent:** [Normal linear model](#normal-linear-model)
+
+With $\widehat\sigma^2=\|Y-X\widehat\beta\|^2/(n-p)$, a simultaneous $(1-\alpha)$ confidence region for $\beta$ is
+
+$$
+(\beta-\widehat\beta)^TX^TX(\beta-\widehat\beta)
+\leq p\widehat\sigma^2F_{p,n-p}(1-\alpha).
+$$
+
+<h4 id="cook-s-distance">Cook's distance</h4>
+
+↑ **Parent:** [Normal linear-model confidence ellipsoid](#normal-linear-model-confidence-ellipsoid)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Cook's_distance)
+
+If $\widehat\beta_{(i)}$ is the least-squares estimate after deleting observation $i$, Cook's distance is
+
+$$
+D_i=\frac{(\widehat\beta_{(i)}-\widehat\beta)^TX^TX
+(\widehat\beta_{(i)}-\widehat\beta)}{p\widehat\sigma^2}
+=\frac{\|\widehat Y_{(i)}-\widehat Y\|^2}{p\widehat\sigma^2}.
+$$
+
+It measures the deleted estimate in the same quadratic metric as the coefficient confidence ellipsoid.
+
+### Multicollinearity
+
+↑ **Parent:** [Normal linear model](#normal-linear-model)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Multicollinearity)
+
+Multicollinearity means that predictor columns are strongly linearly related. It inflates coefficient variances and can make individual effects imprecise even when a joint test strongly rejects that all corresponding coefficients vanish.
+
+#### Variance inflation factor
+
+↑ **Parent:** [Multicollinearity](#multicollinearity)
+
+For a slope in a regression with an intercept, the variance inflation factor is $1/(1-R_j^2)$, where $R_j^2$ comes from regressing its predictor on all the others. With one other predictor it is $1/(1-r^2)$, quantifying the increase in conditional estimation variance.
+
+#### Two-predictor variance inflation
+
+↑ **Parent:** [Multicollinearity](#multicollinearity)
+
+For two centered predictors with squared norms $n$ and [correlation coefficient](variance.md#pearson-correlation-coefficient) $\rho$, the [ordinary least squares](#ordinary-least-squares) estimate of either partial slope has [variance](variance.md) $\sigma^2/[n(1-\rho^2)]$. Compared with the same predictor alone and the same error variance, the inflation factor is $1/(1-\rho^2)$. The [eigenvalues](linear-operator-theory.md#eigenvalue) of the slope [Gram matrix](linear-algebra.md#gram-matrix) are $n(1+\rho)$ and $n(1-\rho)$.
+
+### Ordinary least squares
+
+↑ **Parent:** [Normal linear model](#normal-linear-model)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Ordinary_least_squares)
+
+Ordinary least squares minimizes the unweighted sum of squared residuals between observed and fitted responses.
+
+#### Residual estimate of Gaussian noise variance
+
+↑ **Parent:** [Ordinary least squares](#ordinary-least-squares)
+
+For a correctly specified full-rank fixed-design Gaussian [linear regression](linear-regression.md) with $p<n$, dividing the [residual sum of squares](linear-regression.md#residual-sum-of-squares) by the [residual degrees of freedom](#residual-degrees-of-freedom) $n-p$ gives an [unbiased estimator](#unbiased-estimator) of the noise [variance](variance.md). The projection removes the whole deterministic mean, so the numerator's expectation is $(n-p)\sigma^2$. A misspecified subset model need not have this property.
+
+##### Residual standard error
+
+↑ **Parent:** [Residual estimate of Gaussian noise variance](#residual-estimate-of-gaussian-noise-variance)
+
+In a full-rank [normal linear model](#normal-linear-model) with $n$ observations and $p$ mean coefficients, the residual standard error estimates the common error standard deviation. Its square is the [unbiased estimator](#unbiased-estimator) $\operatorname{RSS}/(n-p)$; the square root itself is not generally unbiased. It measures unexplained response variation, whereas a regression coefficient's [standard error](statistical-inference.md#standard-error) measures uncertainty in that coefficient.
+
+#### Partial regression
+
+↑ **Parent:** [Ordinary least squares](#ordinary-least-squares)
+
+Partial regression first projects a response and a selected predictor orthogonally off the remaining design columns. Regressing the residualized response on the residualized predictor yields its coefficient in the full [ordinary least squares](#ordinary-least-squares) fit.
+
+#### Rank-deficient ordinary least squares
+
+↑ **Parent:** [Ordinary least squares](#ordinary-least-squares)
+
+If a [design matrix](linear-regression.md#design-matrix) $X$ has deficient [rank](linear-algebra.md#rank-one-quadratic-form), every [ordinary least squares](#ordinary-least-squares) minimizer has the form $X^+Y+z$ with $z\in\ker X$, where $X^+$ is the [Moore-Penrose inverse](linear-algebra.md#moore-penrose-inverse). Hence the fitted values are unique but the coefficients are not: the minimizers form an [affine subspace](vector-space.md#affine-subspace) of dimension $p-\operatorname{rank}X$.
+
+##### Nonidentifiability prevents unbiased coefficient estimation
+
+↑ **Parent:** [Rank-deficient ordinary least squares](#rank-deficient-ordinary-least-squares)
+
+If a [design matrix](linear-regression.md#design-matrix) $X$ has a nonzero null vector $z$, the [normal linear model](#normal-linear-model) has identical observation distributions at $\beta$ and $\beta+z$. Any estimator has the same expectation at those two parameters, and therefore cannot be an [unbiased estimator](#unbiased-estimator) of both coefficient vectors. Full column rank is required for unbiased estimation of the entire unconstrained coefficient vector; identifiable linear combinations can still be estimated without it.
+
+#### Linear regression through the origin
+
+↑ **Parent:** [Ordinary least squares](#ordinary-least-squares)
+
+In the model $Y_i=\beta x_i+\varepsilon_i$ without an intercept, with $\sum_i x_i^2>0$, the ordinary least-squares estimator is
+
+$$
+\widehat\beta=\frac{\sum_i x_iY_i}{\sum_i x_i^2}.
+$$
+
+For independent errors of common variance $\sigma^2$, it is unbiased and has variance $\sigma^2/\sum_i x_i^2$.
+
+##### Student t test for regression through the origin
+
+↑ **Parent:** [Linear regression through the origin](#linear-regression-through-the-origin)
+
+For independent $Y_i\sim N(\beta x_i,\sigma^2)$ with $n\geq2$ and $\sum x_i^2>0$, the [least-squares estimator](#ordinary-least-squares-estimators) is $\widehat\beta=\sum x_iY_i/\sum x_i^2$. The projection of the isotropic [Gaussian vector](probability-and-statistics.md#gaussian-random-vector) onto the design direction is independent of its orthogonal residual; hence $\widehat\beta\sqrt{\sum x_i^2}/\sigma$ is standard normal under $\beta=0$ and $\mathrm{SSE}/\sigma^2$ is independent chi-squared with $n-1$ degrees of freedom. The displayed statistic therefore has [Student's t-distribution](continuous-probability-distribution.md#student-s-t-distribution) with $n-1$ degrees of freedom. A two-sided test rejects at the corresponding upper/lower quantiles. The zero design has no information about the slope; with one observation there is no residual variance degree of freedom.
+
+#### Ordinary least squares estimators
+
+↑ **Parent:** [Ordinary least squares](#ordinary-least-squares)
+
+For a [linear regression](linear-regression.md) design matrix $X$ with [full column rank](vector-space.md#full-column-rank), the [ordinary least squares](#ordinary-least-squares) coefficient vector is $\widehat\beta=(X^TX)^{-1}X^TY$. In a [normal linear model](#normal-linear-model) with error [covariance matrix](variance.md#covariance-matrix) $\sigma^2I$, it is an [unbiased estimator](#unbiased-estimator) with [covariance matrix](variance.md#covariance-matrix) $\sigma^2(X^TX)^{-1}$. Replacing $\sigma^2$ by the residual variance estimate gives the reported coefficient [standard errors](statistical-inference.md#standard-error).
+
+In simple [linear regression](linear-regression.md) with a nonconstant predictor,
+
+$$
+\widehat\beta=\frac{\sum_i(x_i-\bar x)(Y_i-\bar Y)}
+{\sum_i(x_i-\bar x)^2},
+\qquad
+\widehat\alpha=\bar Y-\widehat\beta\bar x.
+$$
+
+##### Residual sum of squares in simple linear regression
+
+↑ **Parent:** [Ordinary least squares estimators](#ordinary-least-squares-estimators)
+
+For a nonconstant predictor, put
+
+$$
+S_{xx}=\sum_i(x_i-\bar x)^2,
+\quad
+S_{xy}=\sum_i(x_i-\bar x)(y_i-\bar y),
+\quad
+S_{yy}=\sum_i(y_i-\bar y)^2.
+$$
+
+The minimized residual sum of squares is
+
+$$
+\operatorname{RSS}=S_{yy}-\frac{S_{xy}^2}{S_{xx}}.
+$$
+
+Each centered sum can be recovered in constant time from the five raw sums $\sum x_i$, $\sum y_i$, $\sum x_i^2$, $\sum x_iy_i$, and $\sum y_i^2$.
+
+### Gauss-Markov theorem
+
+↑ **Parent:** [Normal linear model](#normal-linear-model)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Gauss-Markov_theorem)
+
+Among linear unbiased estimators in a homoscedastic linear model, least squares has minimum variance.
+
+### Weighted least squares
+
+↑ **Parent:** [Normal linear model](#normal-linear-model)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Weighted_least_squares)
+
+Weighted least squares minimizes $\sum_iw_i(Y_i-X_i^T\beta)^2$; inverse-variance weights give the efficient estimator under known heteroscedasticity.
+
+#### Generalized least squares
+
+↑ **Parent:** [Weighted least squares](#weighted-least-squares)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Generalized_least_squares)
+
+Generalized least squares minimizes $(Y-X\beta)^T\Omega^{-1}(Y-X\beta)$ for a known covariance shape $\Omega$.
+
+##### Whitening transformation
+
+↑ **Parent:** [Generalized least squares](#generalized-least-squares)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Whitening_transformation)
+
+Whitening multiplies a model by a square root of its precision matrix so that the transformed errors have identity covariance.
+
+### Normal equation
+
+↑ **Parent:** [Normal linear model](#normal-linear-model)
+
+Least-squares differentiation gives $X^TX\widehat\beta=X^TY$, or its precision-weighted analogue.
+
+### Consistency of least squares
+
+↑ **Parent:** [Normal linear model](#normal-linear-model)
+
+Under finite moments and a nonsingular limiting design moment, laws of large numbers make least-squares estimators converge to the true coefficient.
+
+### One-way normal linear model
+
+↑ **Parent:** [Normal linear model](#normal-linear-model)
+
+A one-way normal model assigns each factor level its own mean while assuming independent Gaussian errors with a common variance.
+
+This Gaussian model is the setting for a one-way instance of [analysis of variance](linear-regression.md#analysis-of-variance).
+
+#### Cell-means parametrization
+
+↑ **Parent:** [One-way normal linear model](#one-way-normal-linear-model)
+
+A cell-means model uses one coefficient per factor level and no intercept, so each coefficient directly equals a group mean.
+
+##### Equal-cell replication variance formula
+
+↑ **Parent:** [Cell-means parametrization](#cell-means-parametrization)
+
+Suppose a [normal linear model](#normal-linear-model) gives an unrestricted mean to each cell and has $m$ [independent](random-variable.md#independent-random-variables) observations per cell, with common error [variance](variance.md) $\sigma^2$. Each fitted cell mean is its [sample mean](variance.md#sample-mean), with [variance](variance.md) $\sigma^2/m$; different fitted cell means are [independent](random-variable.md#independent-random-variables). Estimate $\sigma^2$ by the pooled within-cell [residual sum of squares](linear-regression.md#residual-sum-of-squares) divided by $n-q$, where $q$ is the number of cells. Thus a cell mean has [standard error](statistical-inference.md#standard-error) $s/\sqrt m$, a difference of two cell means has [standard error](statistical-inference.md#standard-error) $s\sqrt{2/m}$, and a two-by-two difference-of-differences has [standard error](statistical-inference.md#standard-error) $2s/\sqrt m$.
+
+// Target: probability-and-statistics.bigb
+
+##### Linear contrast of cell means
+
+↑ **Parent:** [Cell-means parametrization](#cell-means-parametrization)
+
+A linear contrast is a coefficient-weighted sum of cell means whose coefficients total zero, used to test interpretable differences among groups.
+
+###### Treatment contrast
+
+↑ **Parent:** [Linear contrast of cell means](#linear-contrast-of-cell-means)
+
+A [treatment contrast](#treatment-contrast) is a [linear contrast of cell means](#linear-contrast-of-cell-means) comparing treatment responses, with coefficients adding to zero. Pairwise differences and marginal factorial differences are examples. Its [variance](variance.md) depends on the true allocation units and their [covariance matrix](variance.md#covariance-matrix).
+
+###### Orthogonal polynomial contrast
+
+↑ **Parent:** [Treatment contrast](#treatment-contrast)
+
+At equally replicated quantitative treatment levels, evaluations of [orthogonal polynomials](numerical-analysis.md#orthogonal-polynomial) generate pairwise [orthogonal](linear-algebra.md#orthogonal-vectors) [treatment contrasts](#treatment-contrast), using the replication-weighted [inner product](linear-algebra.md#inner-product). Five equally spaced levels give four contrast directions representing degrees one through four, besides the constant direction. This decomposes treatment variation without assuming the response has low polynomial degree.
+
+###### Variance of a treatment contrast
+
+↑ **Parent:** [Treatment contrast](#treatment-contrast)
+
+For a vector of estimated treatment means $\widehat\mu$, the [variance of a treatment contrast](#variance-of-a-treatment-contrast) with coefficient vector $c$ is $c^T\operatorname{Cov}(\widehat\mu)c$. Averaging subsamples from a common [experimental unit](#experimental-unit) does not make their shared [variance component](#variance-component) disappear.
+
+###### Interaction contrast
+
+↑ **Parent:** [Treatment contrast](#treatment-contrast)
+
+An [interaction contrast](#interaction-contrast) compares a treatment difference across levels of another factor. A nonzero difference of differences shows that an additive representation of those cell means is inadequate. Its [standard error](statistical-inference.md#standard-error) must use the error stratum in which that [interaction term](statistical-model.md#interaction-term) is randomized.
+
+###### Logistic interaction as a ratio of odds ratios
+
+↑ **Parent:** [Interaction contrast](#interaction-contrast)
+
+For binary predictors $A,B$, a [logistic regression](#logistic-regression) with [linear predictor](#linear-predictor) $a+bA+cB+\delta AB$ has conditional [odds ratios](#odds-ratio) $e^b$ at $B=0$ and $e^{b+\delta}$ at $B=1$. Their ratio is $e^\delta$. The same interaction can be computed from the four cell [logit link](#logit) values as $\delta=\eta_{11}-\eta_{10}-\eta_{01}+\eta_{00}$. Independent positive event and nonevent counts in each cell give an estimated [variance](variance.md) for this contrast equal to the sum of all eight reciprocal counts. An interaction on the [odds ratio](#odds-ratio) scale is not an interaction on the absolute-risk scale.
+
+#### Full-dominance mean constraint
+
+↑ **Parent:** [One-way normal linear model](#one-way-normal-linear-model)
+
+For genotypes $aa,Aa,AA$, full dominance of allele $A$ imposes $\mu_{Aa}=\mu_{AA}$.
+
+#### Additive allele-count model
+
+↑ **Parent:** [One-way normal linear model](#one-way-normal-linear-model)
+
+With allele counts $0,1,2$, no dominance makes the genotype mean affine in count and imposes $2\mu_{Aa}=\mu_{aa}+\mu_{AA}$.
+
+## Regression leverage
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+For $H=X(X^TX)^{-1}X^T$, leverage is $h_{ii}$ and residual variance is $\sigma^2(1-h_{ii})$.
+
+## Risk ratio
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+The risk ratio compares event probabilities in two groups:
+
+$$
+\operatorname{RR}=\frac{P(\text{event}\mid\text{exposed})}
+{P(\text{event}\mid\text{reference})}.
+$$
+
+### Relative risk from group compositions
+
+↑ **Parent:** [Risk ratio](#risk-ratio)
+
+Let $G$ be the [event](probability-theory.md#event) of membership in the first of two groups and $A$ the [event](probability-theory.md#event) of selection. Write $p=P(G)$, $a=P(G\mid A)$ and $q=P(A)>0$, with $0<p,a<1$. [Bayes' theorem](probability-theory.md#bayes-theorem) gives the [conditional probabilities](probability-theory.md#conditional-probability) $r_1=P(A\mid G)=aq/p$ and $r_0=P(A\mid G^c)=(1-a)q/(1-p)$. Their [risk ratio](#risk-ratio) is the displayed expression: the unknown overall selection [probability](probability-theory.md#probability) cancels. Equivalently, it is the ratio of the group-membership [odds](probability-theory.md#odds) after selection to those before selection.
+
+When both selection [probabilities](probability-theory.md#probability) lie strictly between zero and one, the selection [odds ratio](#odds-ratio) is $[r_1/(1-r_1)]/[r_0/(1-r_0)]$ and generally depends on $q$. Thus compositions alone do not identify that [odds ratio](#odds-ratio) or provide sample sizes for a [standard error](statistical-inference.md#standard-error). When $a<p$, the first group's observed selection rate is lower; this comparison alone does not establish a [causal effect](causal-inference.md#causal-effect) of group membership.
+
+#### Relative risk bounds from rounded group compositions
+
+↑ **Parent:** [Relative risk from group compositions](#relative-risk-from-group-compositions)
+
+Suppose $0<p_L\leq p\leq p_U<1$ and $0<a_L\leq a\leq a_U<1$. The formula for [relative risk from group compositions](#relative-risk-from-group-compositions) increases with $a$ and decreases with $p$, since $a/(1-a)$ increases and $(1-p)/p$ decreases. This [monotonicity](calculus.md#monotonic-function) proves the displayed bounds. If percentages are rounded to the nearest whole percentage point, each corresponding proportion lies within $0.005$ of its displayed value. These bounds describe rounding uncertainty; they are not a [confidence interval](statistical-inference.md#confidence-interval) for sampling uncertainty.
+
+### Log risk ratio
+
+↑ **Parent:** [Risk ratio](#risk-ratio)
+
+The logarithm of a [risk ratio](#risk-ratio) is zero at equal risks, negative when the first risk is smaller, and positive when it is larger. For independent binomial event counts $d_1,d_0$ from samples $n_1,n_0$, its usual delta-method [variance](variance.md) estimate is $1/d_1-1/n_1+1/d_0-1/n_0$. This approximation requires nonzero counts; zero-event arms need another procedure. Log estimates are convenient for inverse-[variance](variance.md) [meta-analysis](statistical-inference.md#meta-analysis), and exponentiation returns to the risk-ratio scale.
+
+### Drug efficacy as a risk reduction
+
+↑ **Parent:** [Risk ratio](#risk-ratio)
+
+When worsening is the adverse event, drug efficacy relative to a control group is
+
+$$
+1-\frac{P(\text{worse}\mid\text{treatment})}
+{P(\text{worse}\mid\text{control})}
+=1-\operatorname{RR}.
+$$
+
+## Odds ratio
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Odds_ratio)
+
+The odds ratio is the ratio of two event odds. For rare events it is close to the corresponding [risk ratio](#risk-ratio), because $p/(1-p)\simeq p$ when $p$ is small.
+
+### Noncollapsibility of the odds ratio
+
+↑ **Parent:** [Odds ratio](#odds-ratio)
+
+A conditional [odds ratio](#odds-ratio) can differ from the marginal [odds ratio](#odds-ratio) after averaging over a predictor, even without [confounding](causal-inference.md#confounding). If conditional risks are $p_a(x)$, averaging gives $\bar p_a=\int p_a(x)dF(x)$, and odds of $\bar p_a$ are generally not averages of the conditional odds. Consequently a common conditional odds multiplier need not equal the marginal odds multiplier. However, if both groups use the same distribution $F$ and $p_1(x)>p_0(x)$ everywhere, then $\bar p_1>\bar p_0$ and the marginal odds ratio is still above one. Noncollapsibility alone cannot reverse a uniformly signed effect under an identical background distribution.
+
+### Log odds ratio
+
+↑ **Parent:** [Odds ratio](#odds-ratio)
+
+The log odds ratio is the [natural logarithm](calculus.md#natural-logarithm) of an [odds ratio](#odds-ratio). For two [independent](random-variable.md#independent-random-variables) binomial groups with positive event and non-event counts $(a,b)$ and $(c,d)$, its estimate is $\log(ad/(bc))$, with first-order [variance](variance.md) $1/a+1/b+1/c+1/d$ by the [delta method](statistical-inference.md#delta-method). Zero cells need a method that handles boundary data; the displayed normal approximation is not valid there.
+
+#### Log odds ratio variance from a two-by-two table
+
+↑ **Parent:** [Log odds ratio](#log-odds-ratio)
+
+For two independent [binomial distributions](discrete-probability-distribution.md#binomial-distribution) with event and nonevent counts $a,b$ and $c,d$, the [odds ratio](#odds-ratio) is $ad/(bc)$. The [delta method](statistical-inference.md#delta-method) applied to $\log(p/(1-p))$, whose derivative is $1/[p(1-p)]$, gives a group variance $1/[Np(1-p)]$. Substitution of the fitted proportion gives $1/a+1/b$ in the first group and $1/c+1/d$ in the second. Their independence gives the displayed sum. A [normal approximation](convergence-of-random-variables.md#normal-approximation) then gives a [confidence interval](statistical-inference.md#confidence-interval) on the [log odds ratio](#log-odds-ratio) scale; exponentiation produces an odds-ratio interval. Zero cells require another approximation or model.
+
+## Log-linear model
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+Additive main effects encode mutual independence in contingency-table Poisson models. An interaction permits association of its factors.
+
+### Poisson surrogate for a conditional multinomial model
+
+↑ **Parent:** [Log-linear model](#log-linear-model)
+
+Independent [Poisson distributions](discrete-probability-distribution.md#poisson-distribution) with a separate nuisance intercept in every stratum become [multinomial distributions](discrete-probability-distribution.md#multinomial-distribution) after conditioning on their totals. Profiling the intercept gives $e^{\widehat\gamma_s}=N_s/\sum_l e^{x_s^T\beta_l}$. Substitution produces the same parameter-dependent [log-likelihood](#log-likelihood) as the conditional multinomial model. Both approaches fit $\widehat\mu_{sl}=N_s\widehat p_{sl}$. This exact equivalence differs from approximating a single binomial event count by a rare-event [Poisson distribution](discrete-probability-distribution.md#poisson-distribution).
+
+### Stratified two-by-two conditional independence model
+
+↑ **Parent:** [Log-linear model](#log-linear-model)
+
+For independent Poisson cell counts in stratified two-by-two [contingency tables](#contingency-table), the model $\log\mu_{abj}=\gamma_j+\alpha_{aj}+\beta_{bj}$ allows both margins to vary by stratum but excludes within-stratum association. Its fitted means are the displayed products of margins, because the [Poisson regression](#poisson-regression) score equations match those margins. Every stratum's [odds ratio](#odds-ratio) is one. With positive nondegenerate margins, $J$ strata give $3J$ parameters and $J$ residual degrees of freedom. A common association adds one parameter; stratum-specific associations saturate the tables.
+
+### Gaussian-prior Poisson log-effect conditional
+
+↑ **Parent:** [Log-linear model](#log-linear-model)
+
+For $c>0$ and a centered [normal distribution](probability-theory.md#normal-distribution) prior, this conditional [log-posterior](statistical-inference.md#log-posterior) has second [derivative](calculus.md#derivative) $-ce^\alpha-s^{-2}<0$. It is strictly [concave](real-analysis.md#concave-function) but does not belong to a [normal distribution](probability-theory.md#normal-distribution) or [gamma distribution](continuous-probability-distribution.md#gamma-distribution) family. A [Random-walk Metropolis algorithm](statistical-inference.md#random-walk-metropolis-algorithm), or a locally scaled proposal around its unique mode with the full proposal correction, can update it. Gaussian conjugacy is unavailable because the [Poisson distribution](discrete-probability-distribution.md#poisson-distribution) [likelihood](#likelihood-function) contains an exponential rate.
+
+### Independence log-linear model for a two-way contingency table
+
+↑ **Parent:** [Log-linear model](#log-linear-model)
+
+For cell counts $Y_{ij}$ in a two-way [contingency table](#contingency-table), the independence model is
+
+$$
+Y_{ij}\sim\operatorname{Pois}(\mu_{ij}),
+\qquad
+\log\mu_{ij}=\lambda+\lambda_i^{(1)}+\lambda_j^{(2)}.
+$$
+
+The absence of an interaction makes $\mu_{ij}$ factor as a row effect times a column effect. Its [maximum-likelihood fitted values](#maximum-likelihood-fitted-value) are
+
+$$
+\widehat\mu_{ij}=\frac{y_{i+}y_{+j}}{y_{++}}.
+$$
+
+### Saturated log-linear model
+
+↑ **Parent:** [Log-linear model](#log-linear-model)
+
+A saturated log-linear model has enough parameters to reproduce every observed contingency-table cell count and therefore has zero residual deviance.
+
+### Equal-efficacy Poisson log-linear model
+
+↑ **Parent:** [Log-linear model](#log-linear-model)
+
+For treatment groups Control, LD, and SD and binary outcomes, equal LD and SD efficacy can be imposed while retaining separate group totals by using separate treatment main effects but one shared treated-versus-control interaction with outcome. Comparing this five-parameter model with the saturated six-parameter model gives a one-degree-of-freedom [analysis of deviance for nested generalized linear models](#analysis-of-deviance-for-nested-generalized-linear-models).
+
+## Maximum likelihood estimation
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation)
+
+Maximum likelihood estimation chooses parameter values that maximize the probability mass or density assigned to the observed data.
+
+### Normal likelihood with variance equal to squared mean
+
+↑ **Parent:** [Maximum likelihood estimation](#maximum-likelihood-estimation)
+
+For independent [normal distribution](probability-theory.md#normal-distribution) observations with mean $\mu>0$ and variance $\mu^2$, put $S_1=\sum_iX_i$, $S_2=\sum_iX_i^2$. The [Fisher-Neyman factorization theorem](probability-and-statistics.md#fisher-neyman-factorization-theorem) makes $(S_1,S_2)$ a [sufficient statistic](probability-and-statistics.md#sufficient-statistic), since the [likelihood](#likelihood-function) is proportional to $\mu^{-n}\exp[-S_2/(2\mu^2)+S_1/\mu]$. Its logarithmic [derivative](calculus.md#derivative) has numerator $S_2-S_1\mu-n\mu^2$. When $S_2>0$, this changes sign once on the positive half-line and gives the displayed global [maximum-likelihood estimator](#maximum-likelihood-estimator). The zero sample is a probability-zero exception with unbounded [likelihood](#likelihood-function) as $\mu\downarrow0$.
+
+### Singular covariance and nonexistence of a Gaussian maximum likelihood estimate
+
+↑ **Parent:** [Maximum likelihood estimation](#maximum-likelihood-estimation)
+
+For independent $p$-variate [multivariate normal](probability-and-statistics.md#multivariate-normal-distribution) observations with unknown mean and unrestricted [positive-definite](linear-algebra.md#positive-definite-bilinear-form) [covariance matrix](variance.md#covariance-matrix), the centered scatter has [rank](linear-algebra.md#rank-one-quadratic-form) at most $n-1$. If it is singular, choose the mean to be the [sample mean](variance.md#sample-mean) and shrink the [covariance](variance.md#covariance) on a null direction of the scatter. The quadratic [likelihood](#likelihood-function) term stays fixed while the [determinant](linear-algebra.md#determinant) tends to zero, so the density [likelihood](#likelihood-function) tends to infinity. Thus a nonsingular [covariance](variance.md#covariance) maximum [likelihood](#likelihood-function) estimate exists only when the centered scatter is positive definite; for a nonsingular [Gaussian](probability-theory.md#normal-distribution) population this occurs almost surely exactly when $n>p$.
+
+### Compact-parameter consistency of maximum likelihood
+
+↑ **Parent:** [Maximum likelihood estimation](#maximum-likelihood-estimation)
+
+On a compact parameter space, suppose the expected log-likelihood is continuous, uniquely maximized at the true parameter, and the normalized empirical log-likelihood converges uniformly in probability to its expectation. On the compact complement of every neighbourhood of the truth, the expected criterion has a strictly positive gap below its maximum. Uniform approximation by less than one-third of this gap excludes every empirical maximizer from that complement. [Identifiability](statistical-model.md#identifiability) and nonnegativity of [Kullback-Leibler divergence](probability-and-statistics.md#kullback-leibler-divergence) supply the unique expected maximizer. The proof works for any measurable choice of maximizer.
+
+### Shifted exponential maximum likelihood
+
+↑ **Parent:** [Maximum likelihood estimation](#maximum-likelihood-estimation)
+
+A shifted [exponential distribution](continuous-probability-distribution.md#exponential-distribution) has location estimate equal to the sample minimum and rate estimate given above, for a nondegenerate sample of at least two observations. The minimum exceeds the true location on average by $1/(n\lambda)$. The residual sum above the minimum is gamma with shape $n-1$, so the rate estimate has expectation $n\lambda/(n-2)$ for $n>2$ and infinite expectation at $n=2$. The estimated location plus reciprocal rate is the unbiased sample mean.
+
+#### Exact endpoint limit for a shifted exponential distribution
+
+↑ **Parent:** [Shifted exponential maximum likelihood](#shifted-exponential-maximum-likelihood)
+
+For independent observations $Y_i=\theta+E_i$ with $E_i$ having [exponential distribution](continuous-probability-distribution.md#exponential-distribution) of known rate $\lambda>0$, the [likelihood](#likelihood-function) increases in $\theta$ until the smallest observation, so the [maximum-likelihood estimator](#maximum-likelihood-estimator) is $Y_{(1)}$. Its survival function is $\mathbb P(Y_{(1)}-\theta>t)=e^{-n\lambda t}$ for $t\ge0$. Therefore $n\lambda(Y_{(1)}-\theta)$ has exactly the unit-rate [exponential distribution](continuous-probability-distribution.md#exponential-distribution) for every sample size. This gives [statistical consistency](statistical-inference.md#consistency-statistics) and a one-sided nonnormal limit with rate $n$, illustrating how a support endpoint changes usual regular likelihood asymptotics.
+
+### Maximum-likelihood estimator
+
+↑ **Parent:** [Maximum likelihood estimation](#maximum-likelihood-estimation)
+
+An MLE maximizes sample likelihood. Regularly, $\sqrt n(\widehat\theta-\theta)\Rightarrow N(0,I(\theta)^{-1})$; parameter-dependent support can change both rate and limit.
+
+#### Likelihood supremum at an excluded boundary
+
+↑ **Parent:** [Maximum-likelihood estimator](#maximum-likelihood-estimator)
+
+A likelihood need not attain its supremum when the parameter space excludes a boundary point. For example, with parameter $0<\theta\leq1$ and a zero Poisson count, the likelihood $e^{-\theta}$ is strictly decreasing and has no maximum. Extending the parameter space to include zero gives an extended maximum-likelihood estimate there. A proposed estimator formula involving that boundary value must distinguish the extended estimate from an actual maximizer in the original space.
+
+#### Uniform endpoint maximum-likelihood estimator
+
+↑ **Parent:** [Maximum-likelihood estimator](#maximum-likelihood-estimator)
+
+For independent $U[0,\theta]$ observations, the likelihood decreases as $\theta^{-n}$ on $[\max_iY_i,\infty)$, so its maximizer is the [sample maximum](probability-theory.md#sample-maximum) almost surely. Its exact distribution is $\mathbb P_\theta(\widehat\theta_n\leq y)=(y/\theta)^n$ for $0\leq y\leq\theta$. This proves consistency and an endpoint error of order $1/n$, with the displayed exponential limit. Parameter-dependent support violates the usual regularity condition behind nondegenerate square-root-sample-size normal limits; the ordinary interior score is not centered.
+
+#### Neyman-Scott incidental parameter problem
+
+↑ **Parent:** [Maximum-likelihood estimator](#maximum-likelihood-estimator)
+
+A growing number of nuisance parameters can prevent a [maximum-likelihood estimator](#maximum-likelihood-estimator) of a common parameter from being [consistent](statistical-inference.md#consistency-statistics). With two independent normal observations of mean $\mu_i$ per group, the profiled variance estimate $\sum_i(X_{1i}-X_{2i})^2/(4n)$ tends to half the true variance, because each unknown mean is estimated using only two observations.
+
+#### Endpoint maximum likelihood for a singular location density
+
+↑ **Parent:** [Maximum-likelihood estimator](#maximum-likelihood-estimator)
+
+For density $r(x-\theta)^{r-1}$ on $[\theta,\theta+1]$, $0<r<1$, the interior [likelihood function](#likelihood-function) increases without bound as $\theta$ approaches the sample minimum. The extended-likelihood estimator is that minimum. An arbitrary finite reassignment of the density at the endpoint can eliminate an attained finite maximum, so the endpoint convention must be stated.
+
+#### Exponential-rate maximum-likelihood estimator
+
+↑ **Parent:** [Maximum-likelihood estimator](#maximum-likelihood-estimator)
+
+For independent observations from the [exponential distribution](continuous-probability-distribution.md#exponential-distribution) with rate $\theta$, the log-likelihood is $n\log\theta-\theta\sum_iX_i$, so
+
+$$
+\widehat\theta=\frac n{\sum_iX_i}=\frac1{\overline X}.
+$$
+
+The [central limit theorem](convergence-of-random-variables.md#central-limit-theorem) and [delta method](statistical-inference.md#delta-method) give
+
+$$
+\sqrt n(\widehat\theta-\theta)\xrightarrow dN(0,\theta^2).
+$$
+
+#### Maximum-likelihood fitted value
+
+↑ **Parent:** [Maximum-likelihood estimator](#maximum-likelihood-estimator)
+
+A maximum-likelihood fitted value is a response mean or probability evaluated at a [maximum-likelihood estimate](#maximum-likelihood-estimator). In a parametric mean model $\mu_i(\theta)$ it is $\widehat\mu_i=\mu_i(\widehat\theta)$.
+
+##### Maximum-likelihood fitted probability
+
+↑ **Parent:** [Maximum-likelihood fitted value](#maximum-likelihood-fitted-value)
+
+#### Normal mean and variance maximum-likelihood estimators
+
+↑ **Parent:** [Maximum-likelihood estimator](#maximum-likelihood-estimator)
+
+For [independent and identically distributed random variables](random-variable.md#independent-and-identically-distributed-random-variables) $X_1,\ldots,X_n\sim N(\mu,\sigma^2)$, the [maximum-likelihood estimators](#maximum-likelihood-estimator) are
+
+$$
+\widehat\mu=\overline X,
+\qquad
+\widehat{\sigma}^2=\frac1n\sum_{i=1}^n(X_i-\overline X)^2.
+$$
+
+The first is [unbiased](#unbiased-estimator), while $\mathbb E\widehat{\sigma}^2=(n-1)\sigma^2/n$.
+
+#### Invariance property of maximum likelihood estimation
+
+↑ **Parent:** [Maximum-likelihood estimator](#maximum-likelihood-estimator)
+
+If $\widehat\theta$ maximizes a likelihood and the target parameter is $\eta=g(\theta)$, a maximum-likelihood estimate of $\eta$ is $g(\widehat\theta)$, with the usual interpretation when $g$ is not one-to-one.
+
+#### Likelihood function
+
+↑ **Parent:** [Maximum-likelihood estimator](#maximum-likelihood-estimator)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Likelihood_function)
+
+For observed data $x$, the likelihood function is the joint probability mass or density $p_\theta(x)$ regarded as a function of the model parameter $\theta$.
+
+##### Marginal likelihood from a nuisance-free statistic
+
+↑ **Parent:** [Likelihood function](#likelihood-function)
+
+If a statistic T has marginal density depending on a parameter of interest but not on a nuisance parameter, that density gives a likelihood for the interest parameter. It is obtained by integrating out other observed coordinates. In contrast, [profile likelihood](#profile-likelihood) maximizes the full likelihood over the nuisance parameter. This sampling-statistic construction is different from Bayesian model evidence, which integrates parameters against a prior. No prior is required for a nuisance-free sampling marginal.
+
+##### Conditional likelihood
+
+↑ **Parent:** [Likelihood function](#likelihood-function)
+
+A conditional likelihood evaluates the conditional distribution of the observed data given a specified statistic. If that distribution does not involve a [nuisance parameter](statistical-model.md#nuisance-parameter), it permits inference about the remaining parameter without estimating the nuisance parameter. The conditioning statistic need not be [ancillary](probability-and-statistics.md#ancillary-statistic); possible information loss must be assessed within the model. [Conditional maximum likelihood](#conditional-maximum-likelihood) maximizes this function.
+
+###### Saddlepoint conditional likelihood adjustment
+
+↑ **Parent:** [Conditional likelihood](#conditional-likelihood)
+
+For a regular two-parameter [exponential family](exponential-family.md), condition on the [sample mean](variance.md#sample-mean) of the nuisance canonical statistic. [Exponential tilting](probability-theory.md#exponential-tilting) to its observed value and the [saddlepoint density approximation](probability-theory.md#saddlepoint-density-approximation) give a nuisance-statistic density proportional to $d_{\lambda\lambda}^{-1/2}$ times its large-deviation exponential. Dividing the joint [likelihood](#likelihood-function) by this density gives the [profile log-likelihood](#profile-log-likelihood) plus the displayed adjustment, up to a data-only constant. The sign is positive. This construction assumes an interior saddle with positive curvature and a sufficiently regular nonlattice density; conditioning on a lattice statistic requires the corresponding mass approximation.
+
+##### Observed-data likelihood
+
+↑ **Parent:** [Likelihood function](#likelihood-function)
+
+An observed-data [likelihood](#likelihood-function) integrates the full-data [statistical probability density](continuous-probability-distribution.md#probability-density-function) over unobserved values, rather than inserting arbitrary values or discarding incomplete records. When the observation pattern is random, its mechanism belongs to the joint observation model unless the conditions for an [ignorable missingness mechanism](probability-and-statistics.md#ignorable-missingness-mechanism) permit its factor to be omitted.
+
+##### Bayesian deviance
+
+↑ **Parent:** [Likelihood function](#likelihood-function)
+
+A [Bayesian deviance](#bayesian-deviance) is minus twice the [log-likelihood](#log-likelihood), with any chosen additive data-only constant held consistent across the models being compared. Its [Bayesian posterior](statistical-inference.md#bayesian-posterior) expectation measures average fit. In the [deviance information criterion](#deviance-information-criterion), evaluating it at a parameter's [posterior mean](statistical-inference.md#posterior-mean) also enters the effective complexity penalty. This likelihood-based convention differs by a data-only constant from a saturated-model [exponential-family deviance](exponential-family.md#exponential-family-deviance) when a common saturated model exists.
+
+##### Conditional maximum likelihood
+
+↑ **Parent:** [Likelihood function](#likelihood-function)
+
+A conditional [likelihood function](#likelihood-function) conditions on an initial observation or another specified statistic. In an [autoregressive model](time-series.md#autoregressive-model), conditioning on the first observed state avoids modeling its initial density. For Gaussian transitions, maximizing this likelihood is a regression problem; treating an autoregressive coefficient as known changes the exact distribution of an estimated mean.
+
+##### Profile likelihood
+
+↑ **Parent:** [Likelihood function](#likelihood-function)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Profile_likelihood)
+
+For a parameter of interest $\psi$ and nuisance parameter $\lambda$, the profile likelihood is
+
+$$
+L_p(\psi)=\sup_\lambda L(\psi,\lambda).
+$$
+
+It compares values of $\psi$ after fitting the nuisance parameter as favourably as possible at each value.
+
+###### Modified profile likelihood
+
+↑ **Parent:** [Profile likelihood](#profile-likelihood)
+
+For parameter of interest $\psi$, constrained nuisance fit $\widehat\lambda_\psi$, and suitable ancillary sample coordinates $(\widehat\psi,\widehat\lambda,a)$, this adjustment includes both nuisance [observed information](#observed-fisher-information) and a sample-space [Jacobian determinant](calculus.md#jacobian-determinant). The derivative holds $\widehat\psi,a$ fixed. Implicit differentiation of the constrained nuisance [score function](#informant-function) gives the equivalent expression $\ell_p+\tfrac12\log|j_{\lambda\lambda}|-\log|\ell_{\lambda;\widehat\lambda}|$. The semicolon distinguishes data-coordinate differentiation from parameter differentiation. Omitting the Jacobian requires an additional justified simplification; the information adjustment alone is not universal.
+
+###### Modified profile likelihood for inverse Gaussian shape
+
+↑ **Parent:** [Modified profile likelihood](#modified-profile-likelihood)
+
+For independent [Inverse Gaussian distributions](exponential-family.md#inverse-gaussian-distribution) with shape $\psi$ and mean $\lambda$, the constrained and full nuisance [maximum-likelihood estimates](#maximum-likelihood-estimator) both equal $\bar Y$, giving a unit sample-coordinate [Jacobian determinant](calculus.md#jacobian-determinant). The nuisance [observed information](#observed-fisher-information) there is $n\psi/\bar Y^3$. Hence subtracting half its logarithm from the [profile log-likelihood](#profile-log-likelihood) replaces the coefficient $n/2$ of $\log\psi$ by $(n-1)/2$. For a nonconstant sample the modified fit is $(n-1)/(\sum_iY_i^{-1}-n/\bar Y)$.
+
+###### Modified profile likelihood for exponential regression
+
+↑ **Parent:** [Modified profile likelihood](#modified-profile-likelihood)
+
+For independent [exponential distributions](continuous-probability-distribution.md#exponential-distribution) with means $\lambda e^{\psi x_i}$ and a nonconstant fixed design, put $A(\psi)=\sum_iY_ie^{-\psi x_i}$. The constrained [maximum-likelihood estimate](#maximum-likelihood-estimator) is $\widetilde\lambda_\psi=A(\psi)/n$ and the [profile log-likelihood](#profile-log-likelihood) is $\ell_p(\psi)=-n\log[A(\psi)/n]-\psi\sum_i x_i-n$. Use the [ancillary statistic](probability-and-statistics.md#ancillary-statistic) $a_i=\log Y_i-\log\widehat\lambda-\widehat\psi x_i$ to specify sample coordinates. At fixed $\widehat\psi,a$, the [Jacobian determinant](calculus.md#jacobian-determinant) $\partial\widetilde\lambda_\psi/\partial\widehat\lambda=\widetilde\lambda_\psi/\widehat\lambda$, while $j_{\lambda\lambda}(\psi,\widetilde\lambda_\psi)=n/\widetilde\lambda_\psi^2$. Therefore the [modified profile likelihood](#modified-profile-likelihood) satisfies
+
+$$
+\ell_m(\psi)=\ell_p(\psi)-\tfrac12\log j_{\lambda\lambda}-\log\left|\frac{\partial\widetilde\lambda_\psi}{\partial\widehat\lambda}\right|=\ell_p(\psi)+\log\widehat\lambda-\tfrac12\log n.
+$$
+
+The adjustment is independent of $\psi$. Keeping only the [observed information](#observed-fisher-information) adjustment would miss this cancellation.
+
+###### Gamma-ratio marginal and profile likelihood identity
+
+↑ **Parent:** [Profile likelihood](#profile-likelihood)
+
+For independent $X\sim\operatorname{Gamma}(m,\psi\lambda)$ and $Y\sim\operatorname{Gamma}(n,\lambda)$ in shape-rate notation, $T=X/Y$ has density proportional to $\psi^m t^{m-1}(1+\psi t)^{-(m+n)}$. Its distribution is nuisance-free in lambda. The nuisance maximum is $(m+n)/(\psi X+Y)$, so substituting into the full likelihood gives the same interest-parameter log-likelihood up to a parameter-free term. Equality here is special to the common-scale structure, not a general equality of profiling and marginalization.
+
+###### Profile log-likelihood
+
+↑ **Parent:** [Profile likelihood](#profile-likelihood)
+
+The logarithm of the [profile likelihood](#profile-likelihood) is the full [log-likelihood](#log-likelihood) evaluated at the nuisance fit constrained to the specified parameter of interest. It preserves [likelihood ratios](#likelihood-ratio) and maximizers, but is not generally a normalized sampling log-density. Conditioning and integrating out [nuisance parameters](statistical-model.md#nuisance-parameter) are different operations.
+
+#### Log-likelihood
+
+↑ **Parent:** [Maximum-likelihood estimator](#maximum-likelihood-estimator)
+
+The log-likelihood is the logarithm of the likelihood as a function of the model parameter. Its maximizers are the same because the logarithm is strictly increasing.
+
+#### Binomial proportion maximum-likelihood estimator
+
+↑ **Parent:** [Maximum-likelihood estimator](#maximum-likelihood-estimator)
+
+For $X\sim\operatorname{Bin}(n,\theta)$, maximizing $\theta^X(1-\theta)^{n-X}$ gives
+
+$$
+\widehat\theta=\frac Xn.
+$$
+
+#### Exponential distribution rate estimator
+
+↑ **Parent:** [Maximum-likelihood estimator](#maximum-likelihood-estimator)
+
+For independent exponential observations with rate $\theta$, the MLE is $1/\overline X$ and has asymptotic variance $\theta^2/n$.
+
+#### Asymptotic normality of a maximum likelihood estimator
+
+↑ **Parent:** [Maximum-likelihood estimator](#maximum-likelihood-estimator)
+
+In a regular $p$-parameter model with one-observation Fisher information $I(\theta_0)$,
+
+$$
+\sqrt n(\widehat\theta_n-\theta_0)
+\xrightarrow d N_p(0,I(\theta_0)^{-1}).
+$$
+
+## Logistic distribution
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Logistic_distribution)
+
+The logistic location family has density and distribution function
+
+$$
+f(x\mid\theta)=\frac{e^{x-\theta}}{(1+e^{x-\theta})^2},
+\qquad
+F_\theta(x)=\frac{e^{x-\theta}}{1+e^{x-\theta}}.
+$$
+
+## Gaussian conditional expectation
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+For jointly Gaussian $(S,Y)$ with $\operatorname{cov}(S)=V$,
+
+$$
+\mathbb E[Y\mid S]=\mathbb EY+\operatorname{cov}(Y,S)V^{-1}(S-\mathbb ES).
+$$
+
+## Linear discriminant analysis
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Linear_discriminant_analysis)
+
+LDA assumes class-conditional Gaussian distributions with a shared covariance matrix, producing affine log odds.
+
+### Canonical discriminant directions
+
+↑ **Parent:** [Linear discriminant analysis](#linear-discriminant-analysis)
+
+For positive-definite within-group scatter $W$ and between-group scatter $B$, directions maximizing $a^TBa/(a^TWa)$ solve the displayed [generalized eigenvalue problem](linear-operator-theory.md#generalized-eigenvalue-problem). Put $u=W^{1/2}a$; the quotient becomes the [Rayleigh quotient](linear-operator-theory.md#rayleigh-quotient) of $W^{-1/2}BW^{-1/2}$. Its ordered orthonormal [eigenvectors](linear-operator-theory.md#eigenvector) give directions orthogonal in the $W$ inner product. There are at most $g-1$ nonzero directions, where $g$ is the number of groups. These directions summarize separation for [linear discriminant analysis](#linear-discriminant-analysis).
+
+### Kernel linear discriminant analysis
+
+↑ **Parent:** [Linear discriminant analysis](#linear-discriminant-analysis)
+
+Kernel linear discriminant analysis performs regularized [linear discriminant analysis](#linear-discriminant-analysis) in a [Reproducing kernel Hilbert space](probability-and-statistics.md#reproducing-kernel-hilbert-space), using kernel evaluations to obtain nonlinear decision boundaries in the original input space.
+
+## Quadratic discriminant analysis
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Quadratic_discriminant_analysis)
+
+Quadratic discriminant analysis uses class-conditional [Gaussian distributions](probability-and-statistics.md#multivariate-normal-distribution) with class-dependent covariance matrices. Their log density ratio is a quadratic polynomial in the observation.
+
+## Bootstrapping (statistics)
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Bootstrapping_(statistics))
+
+The bootstrap approximates a sampling distribution by repeatedly sampling with replacement from the empirical distribution.
+
+### Bootstrap failure for a uniform endpoint
+
+↑ **Parent:** [Bootstrapping (statistics)](#bootstrapping-statistics)
+
+For a continuous [uniform distribution](continuous-probability-distribution.md#continuous-uniform-distribution) on $[0,\theta]$, the scaled maximum gap $n(\theta-X_{(n)})/\theta$ tends to a unit-rate [exponential distribution](continuous-probability-distribution.md#exponential-distribution). An ordinary [bootstrap sample](#bootstrap-sample) includes the unique observed maximum with probability $1-(1-1/n)^n\to1-e^{-1}$. The bootstrap maximum gap therefore retains an atom at zero, whereas the target limit is continuous. This proves failure of the ordinary empirical bootstrap for this endpoint functional; consistency of the endpoint estimate alone does not justify resampling its extreme-value limit.
+
+### Bootstrap standard error
+
+↑ **Parent:** [Bootstrapping (statistics)](#bootstrapping-statistics)
+
+Replace the unknown sampling distribution by the [empirical distribution](information-theory.md#type-information-theory), generate independent [bootstrap samples](#bootstrap-sample), and recompute the statistic. The sample standard deviation of those recomputed values estimates the conditional bootstrap standard deviation, which approximates the statistic's sampling [standard error](statistical-inference.md#standard-error) when the bootstrap is consistent. It is different from the Monte Carlo standard error of the estimated bootstrap mean.
+
+### Bootstrap confidence interval
+
+↑ **Parent:** [Bootstrapping (statistics)](#bootstrapping-statistics)
+
+A bootstrap confidence interval uses the conditional resampling distribution of an estimator to choose its endpoints. Basic intervals invert bootstrap error quantiles; percentile intervals use quantiles of the resampled estimates themselves. Their asymptotic coverage requires conditions appropriate to the statistic and interval construction.
+
+#### Bootstrap inference for a product of regression coefficients
+
+↑ **Parent:** [Bootstrap confidence interval](#bootstrap-confidence-interval)
+
+For $\theta=\beta_1\beta_2$, use $\widehat\theta=\widehat\beta_1\widehat\beta_2$. Under regular regression assumptions, the [delta method](statistical-inference.md#delta-method) gives [standard error](statistical-inference.md#standard-error) $\widehat s=(d^\top\widehat Vd)^{1/2}$, where $d=(\widehat\beta_2,\widehat\beta_1)^\top$ and $\widehat V$ estimates the [covariance](variance.md#covariance) of the regression estimate. Resample the observational units, refit, and compute both $\widehat\theta^*$ and $\widehat s^*$. A [percentile bootstrap confidence interval](#percentile-bootstrap-confidence-interval) uses the .025 and .975 [quantiles](probability-theory.md#quantile-function) of $\widehat\theta^*$. A [bootstrap-t confidence interval](#bootstrap-t-confidence-interval) uses [quantiles](probability-theory.md#quantile-function) of $(\widehat\theta^*-\widehat\theta)/\widehat s^*$ and reverses them when solving for $\theta$. If both true coefficients vanish, the first derivative is zero and the standard first-order justification is unavailable; product-specific nonregular inference is then needed.
+
+#### Bootstrap-t confidence interval
+
+↑ **Parent:** [Bootstrap confidence interval](#bootstrap-confidence-interval)
+
+For each [bootstrap sample](#bootstrap-sample), form $T^*=(\widehat\theta^*-\widehat\theta)/\widehat s^*$, using that sample's estimated [standard error](statistical-inference.md#standard-error), possibly from a nested bootstrap. If $q_p$ are conditional quantiles of $T^*$ and $\widehat s$ is the original estimated standard error, invert the studentized inequalities to obtain the displayed interval. The quantile order is reversed by subtraction. Its coverage is approximate and requires a nondegenerate statistic and suitable bootstrap regularity.
+
+#### Percentile bootstrap confidence interval
+
+↑ **Parent:** [Bootstrap confidence interval](#bootstrap-confidence-interval)
+
+A [percentile bootstrap confidence interval](#percentile-bootstrap-confidence-interval) takes the lower and upper chosen [quantiles](probability-theory.md#quantile-function) of the conditional [bootstrap](#bootstrapping-statistics) distribution of the [estimator](#estimator) itself. With $B$ simulated estimates, ranks near $(B+1)\alpha/2$ and $(B+1)(1-\alpha/2)$ provide an approximate central $1-\alpha$ [confidence interval](statistical-inference.md#confidence-interval). Unlike a [basic bootstrap confidence interval](#basic-bootstrap-confidence-interval), the endpoints are not reflected about the observed estimate. Coverage requires suitable regularity and accurate [bootstrap](#bootstrapping-statistics) approximation; the ranks do not establish exact finite-sample coverage.
+
+#### Basic bootstrap confidence interval
+
+↑ **Parent:** [Bootstrap confidence interval](#bootstrap-confidence-interval)
+
+A basic bootstrap interval reflects quantiles of the bootstrap estimation error about the observed estimate. For the sample mean it uses $[\bar X-q_{1-\alpha/2}/\sqrt n,\bar X-q_{\alpha/2}/\sqrt n]$, where $q$ is a conditional quantile of $\sqrt n(\bar X^b-\bar X)$.
+
+### Bootstrap consistency theorem for the sample mean
+
+↑ **Parent:** [Bootstrapping (statistics)](#bootstrapping-statistics)
+
+For iid observations with finite positive variance, the conditional distribution of $\sqrt n(\bar X^b-\bar X)$ tends to the same normal limit as $\sqrt n(\bar X-\mu)$. Continuity of this limit gives uniform convergence of distribution functions and consistency of interior quantiles.
+
+### Bootstrap sample
+
+↑ **Parent:** [Bootstrapping (statistics)](#bootstrapping-statistics)
+
+A bootstrap sample of size $n$ is drawn with replacement from the $n$ observed data points. Some observations occur repeatedly and about a proportion $e^{-1}$ are omitted.
+
+#### Wild bootstrap
+
+↑ **Parent:** [Bootstrap sample](#bootstrap-sample)
+
+For [independent](random-variable.md#independent-random-variables) mean-zero errors in a fixed-design regression, form $y_i^*=x_i^\top\widehat\beta+\widehat e_i W_i$, where the [independent](random-variable.md#independent-random-variables) multipliers have [mean](probability-theory.md#expected-value) zero and [variance](variance.md) one, and refit. Rademacher multipliers taking the values $-1$ and $1$ with equal [probability](probability-theory.md#probability) are a simple choice. Conditional on the data, the [bootstrap](#bootstrapping-statistics) errors have [mean](probability-theory.md#expected-value) zero and preserve observation-specific residual [variances](variance.md), supporting [heteroscedasticity](#heteroscedastic) rather than imposing a common residual distribution. Appropriate leverage corrections and regularity assumptions are required for accurate studentized inference.
+
+#### Paired bootstrap
+
+↑ **Parent:** [Bootstrap sample](#bootstrap-sample)
+
+For independent identically distributed pairs $(X_i,Y_i)$, resample whole pairs using the same index for both coordinates. This preserves the empirical within-pair dependence needed to estimate a [correlation coefficient](variance.md#pearson-correlation-coefficient) or another joint statistic. Independently resampling the two margins destroys that dependence and estimates a different sampling law.
+
+#### Conditional bootstrap variance of a sample mean
+
+↑ **Parent:** [Bootstrap sample](#bootstrap-sample)
+
+Conditionally on the observed values, bootstrap draws are iid from their [empirical distribution](information-theory.md#type-information-theory). Each draw has [variance](variance.md) $n^{-1}\sum_i(a_i-\overline a)^2$, so averaging $n$ independent draws gives the displayed [variance](variance.md). The [variance](variance.md) across $B$ independent replicate means, using denominator $B-1$, is unbiased for this conditional quantity. Its expectation over the original iid data is $(n-1)\operatorname{Var}(a_1)/n^2$, which is slightly smaller than the actual sampling [variance](variance.md) $\operatorname{Var}(a_1)/n$.
+
+#### Bootstrap count vectors
+
+↑ **Parent:** [Bootstrap sample](#bootstrap-sample)
+
+An unordered nonparametric [bootstrap sample](#bootstrap-sample) from $n$ distinct observations is specified by its $n$ nonnegative multiplicities. [Stars and bars](combinatorics.md#stars-and-bars-combinatorics) gives $\binom{2n-1}{n}$ such vectors. They are not equiprobable: a vector has [probability](probability-theory.md#probability) $n!/(n^n\prod_iN_i!)$, because this counts its ordered sequences of sampled indices.
+
+### Parametric bootstrap
+
+↑ **Parent:** [Bootstrapping (statistics)](#bootstrapping-statistics)
+
+A parametric bootstrap simulates repeated datasets from a fitted parametric model and refits the procedure to each dataset. The resulting empirical distribution approximates the sampling distribution under that fitted model.
+
+## Risk function
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Risk_function)
+
+The risk of an estimator is its expected loss as a function of the unknown parameter. Under quadratic loss,
+
+$$
+R(\theta,\delta)=\mathbb E_\theta[(\delta-\theta)^2]
+=\operatorname{Var}_\theta(\delta)
++(\mathbb E_\theta\delta-\theta)^2.
+$$
+
+### Mean squared error
+
+↑ **Parent:** [Risk function](#risk-function)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Mean_squared_error)
+
+The mean squared error of an estimator $\widehat\theta$ is
+
+$$
+\operatorname{MSE}_\theta(\widehat\theta)
+=\mathbb E_\theta[(\widehat\theta-\theta)^2].
+$$
+
+#### Asymptotic mean squared error
+
+↑ **Parent:** [Mean squared error](#mean-squared-error)
+
+The [asymptotic mean squared error](#asymptotic-mean-squared-error) is the leading large-sample approximation to the sum of [variance](variance.md) and squared [bias of an estimator](#bias-of-an-estimator). Minimizing it balances stochastic variation against systematic error; the resulting choice must still satisfy the assumptions used in the approximation.
+
+#### Shrinking a sample mean with variance proportional to mean squared
+
+↑ **Parent:** [Mean squared error](#mean-squared-error)
+
+If independent observations have mean $\theta$ and variance $\theta^2$, the scaled [sample mean](variance.md#sample-mean) has
+
+$$
+\operatorname{MSE}(k\bar X)=\theta^2[(k-1)^2+k^2/n].
+$$
+
+For $\theta\ne0$, it improves on the unbiased sample mean precisely when $(n-1)/(n+1)<k<1$. The optimal scale is $k=n/(n+1)$ and its risk is $\theta^2/(n+1)$. At $\theta=0$ all risks vanish and strict improvement is impossible.
+
+#### Integrated mean squared error
+
+↑ **Parent:** [Mean squared error](#mean-squared-error)
+
+The [integrated mean squared error](#integrated-mean-squared-error) is $\mathbb E\int_D(\widehat m(x)-m(x))^2\,dx$ over a specified domain $D$. The [Tonelli theorem](measure-theory.md#tonelli-theorem) permits integration of the pointwise [bias-variance decomposition of mean squared error](#bias-variance-decomposition-of-mean-squared-error).
+
+##### Asymptotic mean integrated squared error
+
+↑ **Parent:** [Integrated mean squared error](#integrated-mean-squared-error)
+
+For a second-order [kernel density estimator](nonparametric-statistics.md#kernel-density-estimation), write $R(q)=\int q^2$ and $\mu_2(K)=\int u^2K(u)\,du$. Under the usual smoothness and shrinking-bandwidth assumptions, the leading [mean integrated squared error](#integrated-mean-squared-error) is the displayed sum of integrated [variance](variance.md) and squared [bias of an estimator](#bias-of-an-estimator). Its minimizer is $h=[R(K)/(n\mu_2(K)^2R(f''))]^{1/5}$, giving order $n^{-4/5}$. An added $O(n^{-1})$ integrated covariance term is lower order at this bandwidth and does not change its leading constant.
+
+#### Bias-variance decomposition of mean squared error
+
+↑ **Parent:** [Mean squared error](#mean-squared-error)
+
+Every estimator with finite second moment satisfies
+
+$$
+\operatorname{MSE}_\theta(\widehat\theta)
+=\operatorname{Var}_\theta(\widehat\theta)
++\operatorname{Bias}_\theta(\widehat\theta)^2.
+$$
+
+#### Affine shrinkage estimator for a binomial proportion
+
+↑ **Parent:** [Mean squared error](#mean-squared-error)
+
+For $X\sim\operatorname{Bin}(n,\theta)$ and
+
+$$
+\widetilde\theta=wX/n+(1-w)\theta_0,
+$$
+
+the mean squared error is
+
+$$
+\frac{w^2}{n}\theta(1-\theta)
++(1-w)^2(\theta-\theta_0)^2.
+$$
+
+When $\theta_0=1/2$, its maximal risk is at $\theta=1/2$ or at an endpoint of $[0,1]$.
+
+### Admissible decision rule
+
+↑ **Parent:** [Risk function](#risk-function)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Admissible_decision_rule)
+
+A [decision rule](statistical-inference.md#decision-rule) is admissible if no other rule has [risk function](#risk-function) no greater at every parameter and strictly smaller at one parameter. Parameter estimation is one decision problem; its admissible rules are [admissible estimators](#admissible-estimator).
+
+#### Admissible estimator
+
+↑ **Parent:** [Admissible decision rule](#admissible-decision-rule)
+
+An estimator is admissible when no other estimator has risk no larger at every parameter value and strictly smaller at at least one value.
+
+<h5 id="james-stein-estimator">James–Stein estimator</h5>
+
+↑ **Parent:** [Admissible estimator](#admissible-estimator)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/James–Stein_estimator)
+
+For one observation $X\sim N_p(\theta,I_p)$ with $p\geq3$, the James–Stein estimator is
+
+$$
+\delta_{\rm JS}(X)=
+\left(1-\frac{p-2}{\lVert X\rVert^2}\right)X.
+$$
+
+Under [quadratic loss](statistical-inference.md#squared-error-loss), Stein's risk identity gives
+
+$$
+R(\theta,\delta_{\rm JS})
+=p-(p-2)^2\mathbb E_\theta\frac1{\lVert X\rVert^2}<p,
+$$
+
+so it dominates the usual estimator $X$.
+
+<h6 id="james-stein-shrinkage-toward-the-sample-mean">James–Stein shrinkage toward the sample mean</h6>
+
+↑ **Parent:** [James–Stein estimator](#james-stein-estimator)
+
+For $X\sim N_p(\theta,I)$ and $p\geq4$, this estimator preserves the [sample mean](variance.md#sample-mean) and applies James–Stein shrinkage in its orthogonal $(p-1)$-dimensional contrast subspace. Its risk under [quadratic loss](statistical-inference.md#squared-error-loss) is $p-(p-3)^2\mathbb E_\theta\|X-\bar X1_p\|^{-2}$. The noncentrality is $\|\theta-\bar\theta1_p\|^2$, so the [reciprocal moment of a noncentral chi-squared variable](probability-theory.md#reciprocal-moment-of-a-noncentral-chi-squared-variable) makes the risk minimal exactly when all true components coincide; the minimum is $3$. A negative realized shrinkage factor reverses contrast signs, and its magnitude can exceed one for sufficiently small contrast [norm](functional-analysis.md#norm).
+
+###### Identical worst-case risk under strict James-Stein domination
+
+↑ **Parent:** [James–Stein estimator](#james-stein-estimator)
+
+The James-Stein risk is strictly below the dimension at every finite parameter, but its improvement tends to zero as the mean norm tends to infinity. Strict pointwise domination therefore leaves the supremum risk unchanged.
+
+### Minimax estimator
+
+↑ **Parent:** [Risk function](#risk-function)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Minimax_estimator)
+
+A minimax estimator minimizes the supremum of its risk over the parameter space.
+
+#### Constant-risk binomial proportion estimator
+
+↑ **Parent:** [Minimax estimator](#minimax-estimator)
+
+For $X\sim\operatorname{Bin}(n,\theta)$, the [posterior mean](statistical-inference.md#posterior-mean) under $\operatorname{Beta}(\sqrt n/2,\sqrt n/2)$ has constant squared-error risk $1/[4(\sqrt n+1)^2]$. Its unique Bayes property and constant risk make it the unique [minimax estimator](#minimax-estimator).
+
+#### Minimax risk
+
+↑ **Parent:** [Minimax estimator](#minimax-estimator)
+
+The [minimax risk](#minimax-risk) is the infimum over estimators of the supremum of their [risk functions](#risk-function) over a parameter class. An upper bound supplies an estimator; a lower bound applies to every estimator, often using the [Le Cam two-point lemma](statistical-inference.md#le-cam-two-point-lemma).
+
+##### Pointwise versus uniform risk distinction
+
+↑ **Parent:** [Minimax risk](#minimax-risk)
+
+A [risk function](#risk-function) can decay rapidly for each fixed [regression function](statistical-learning.md#regression-function) while its [supremum](real-analysis.md#supremum) over a function class decays more slowly or fails to decay. Bounds depending on each function's local [differentiability](analysis.md#differentiability) remainder need not be uniform. In [fixed-design nonparametric regression](nonparametric-statistics.md#fixed-design-nonparametric-regression), a class with no common smoothness bound permits [smooth bump functions](partial-differential-equation.md#smooth-bump-function) whose supports shrink between design points. Such sequences obstruct uniform estimation without contradicting fixed-function [mean squared error](#mean-squared-error) bounds.
+
+#### Minimaxity of the usual multivariate normal mean estimator
+
+↑ **Parent:** [Minimax estimator](#minimax-estimator)
+
+For $X\sim N_p(\theta,I_p)$ under [quadratic loss](statistical-inference.md#squared-error-loss), the estimator $\delta_0(X)=X$ has constant risk $p$ and is minimax. Gaussian priors $N_p(0,c^2I_p)$ have Bayes risks $pc^2/(1+c^2)$, which tend to $p$ and therefore give the matching minimax lower bound.
+
+<h2 id="cramer-rao-bound">Cramér-Rao bound</h2>
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Cramér–Rao_bound)
+
+For a regular scalar model with [score function](#informant-function) $S_\theta$ and [Fisher information](#fisher-information-matrix) $I(\theta)=\mathbb E_\theta S_\theta^2$, an estimator $T$ with mean $\psi(\theta)$ satisfies
+
+$$
+\operatorname{Var}_\theta(T)
+\ge\frac{\psi'(\theta)^2}{I(\theta)}.
+$$
+
+Indeed, differentiating $\mathbb E_\theta T=\psi(\theta)$ gives $\operatorname{Cov}_\theta(T,S_\theta)=\psi'(\theta)$, and the [Cauchy-Schwarz inequality](probability-and-statistics.md#cauchy-schwarz-inequality) gives the bound.
+
+### Efficient estimator
+
+↑ **Parent:** [Cramér-Rao bound](#cramer-rao-bound)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Efficient_estimator)
+
+An efficient estimator attains the relevant lower bound on estimator variance, such as the [Cramér-Rao bound](#cramer-rao-bound) in a regular parametric model.
+
+### Van Trees inequality
+
+↑ **Parent:** [Cramér-Rao bound](#cramer-rao-bound)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Van_Trees_inequality)
+
+The van Trees inequality is a Bayesian Cramer--Rao bound. For scalar likelihood information $I(\theta)$ and a differentiable prior density $\pi$ vanishing at its boundary,
+
+$$
+\int\mathbb E_\theta(\delta-\theta)^2\pi(\theta)\,d\theta
+\ge
+\frac1{\int I(\theta)\pi(\theta)\,d\theta
++\int(\pi'(\theta))^2/\pi(\theta)\,d\theta}.
+$$
+
+It follows by integration by parts and the Cauchy--Schwarz inequality applied to the joint likelihood-prior score.
+
+## Informant function
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Informant_function)
+
+The score is the gradient of the log-likelihood, $S_n(\theta)=\nabla_\theta\ell_n(\theta)$.
+
+### Gaussian regression score
+
+↑ **Parent:** [Informant function](#informant-function)
+
+For a [regression function](statistical-learning.md#regression-function) $g_\theta$, let $h_\theta=\partial_\theta g_\theta$. With [independent](random-variable.md#independent-random-variables) centered [normal distribution](probability-theory.md#normal-distribution) error of known [variance](variance.md) $\sigma^2$, the parametric [score function](#informant-function) is $h_\theta(X)\varepsilon/\sigma^2$. It has zero [conditional expectation](measure-theory.md#conditional-expectation) given the [covariate](statistical-model.md#covariate), so unknown covariate-density nuisance directions do not remove any of its [Fisher information](#fisher-information-matrix).
+
+### Score equation
+
+↑ **Parent:** [Informant function](#informant-function)
+
+A score equation sets the [score function](#informant-function) equal to zero. Its solutions are stationary points of the [log-likelihood](#log-likelihood), and a negative-definite likelihood Hessian identifies an interior local maximum.
+
+### Mean-zero score identity
+
+↑ **Parent:** [Informant function](#informant-function)
+
+Under regularity permitting differentiation under the integral, $\mathbb E_\theta S_1(\theta)=\nabla_\theta\int f(x,\theta)dx=0$.
+
+### Fisher information matrix
+
+↑ **Parent:** [Informant function](#informant-function)
+
+The Fisher information is $I_n(\theta)=\mathbb E[S_nS_n^T]$ and equals $nI_1(\theta)$ for an independent identically distributed sample.
+
+#### Orthogonal statistical parameters
+
+↑ **Parent:** [Fisher information matrix](#fisher-information-matrix)
+
+Two [statistical parameters](statistical-model.md#statistical-parameter) are orthogonal when their cross term in the expected [Fisher information matrix](#fisher-information-matrix) vanishes. This is pointwise orthogonality at a specified parameter value, or global orthogonality when it holds throughout the parameter domain. It gives a zero cross covariance in the regular first-order asymptotic distribution of efficient estimators, rather than asserting exact finite-sample independence.
+
+##### Score factorization implies parameter orthogonality
+
+↑ **Parent:** [Orthogonal statistical parameters](#orthogonal-statistical-parameters)
+
+In a regular common-support [statistical model](statistical-model.md) with [probability density function](continuous-probability-distribution.md#probability-density-function) $a(\lambda,y)e^{\lambda t(y;\psi)}$, the [score function](#informant-function) in $\psi$ is $\lambda t_\psi$. Its zero [expectation](probability-theory.md#expected-value) gives $\mathbb E t_\psi=0$ for $\lambda\ne0$. The mixed [log-likelihood](#log-likelihood) derivative is $t_\psi$, so the cross [Fisher information matrix](#fisher-information-matrix) block vanishes. At zero the same conclusion follows by continuity when the regular derivatives extend there. This proves [parameter orthogonality](#orthogonal-statistical-parameters); it does not establish exact independence of fitted parameters.
+
+##### Orthogonal coefficient blocks in a centered normal linear model
+
+↑ **Parent:** [Orthogonal statistical parameters](#orthogonal-statistical-parameters)
+
+In a [normal linear model](#normal-linear-model) whose predictor columns are orthogonal to the intercept, two coefficient blocks are [orthogonal statistical parameters](#orthogonal-statistical-parameters) precisely when the cross-block [Fisher information](#fisher-information-matrix) is zero, equivalently the displayed design cross-product vanishes. Then $X^{\mathsf T}X$ is block diagonal, so the corresponding [least-squares estimators](#ordinary-least-squares-estimators) have zero [covariance](variance.md#covariance) and, being jointly Gaussian, are [independent](random-variable.md#independent-random-variables). Their fitted subspaces are orthogonal and their extra sums of squares do not depend on which block is added first.
+
+##### Cox-Reid adjusted profile likelihood
+
+↑ **Parent:** [Orthogonal statistical parameters](#orthogonal-statistical-parameters)
+
+For a regular interest/nuisance parameterization with [parameter orthogonality](#orthogonal-statistical-parameters), this nuisance-information adjustment approximates a conditional likelihood construction and reduces first-order nuisance effects. It is related to [modified profile likelihood](#modified-profile-likelihood) but is not a universal substitute for its sample-coordinate Jacobian. When the constrained and full nuisance fits coincide in the relevant ancillary coordinates, that Jacobian is one and the two expressions agree. For normal variance with unknown mean, it replaces the profile's $n$ by the residual $n-1$ in the logarithmic variance term.
+
+##### Local orthogonal nuisance reparametrization
+
+↑ **Parent:** [Orthogonal statistical parameters](#orthogonal-statistical-parameters)
+
+For scalar interest parameter $\psi$, choose new nuisance coordinates $\eta$ and keep $\psi$ fixed. The transformed interest [score function](#informant-function) is $U_\psi+U_\lambda^\top\partial_\psi\lambda$, so the displayed differential equation makes its [Fisher information](#fisher-information-matrix) cross-block with the nuisance score zero. Under smoothness and nonsingularity it has a local solution from initial coordinates on a fixed interest slice. Orthogonality is local expected-information decoupling; it implies first-order asymptotic independence of fitted blocks, not exact independence or nuisance-free conditional inference.
+
+##### Negative binomial mean-size parameter orthogonality
+
+↑ **Parent:** [Orthogonal statistical parameters](#orthogonal-statistical-parameters)
+
+For the [negative binomial distribution](discrete-probability-distribution.md#negative-binomial-distribution) with [mean](probability-theory.md#expected-value) $\mu>0$ and size $\theta>0$, the one-observation [score function](#informant-function) in the mean is $u_\mu=\theta(y-\mu)/[\mu(\mu+\theta)]$. Its size derivative is $(y-\mu)/(\mu+\theta)^2$, whose [expectation](probability-theory.md#expected-value) is zero. Thus the expected [Fisher information matrix](#fisher-information-matrix) is diagonal in $(\mu,\theta)$. Regular interior [maximum-likelihood estimators](#maximum-likelihood-estimator) have zero asymptotic cross covariance, without necessarily being independent in finite samples.
+
+##### Interest-respecting reparametrization
+
+↑ **Parent:** [Orthogonal statistical parameters](#orthogonal-statistical-parameters)
+
+An interest-respecting reparametrization preserves the parameter of interest, or changes it only by a one-to-one function of itself. The [nuisance parameter](statistical-model.md#nuisance-parameter) may depend on both old parameters, provided the complete transformation is smoothly invertible. Thus the level sets representing the inferential target are unchanged. Orthogonality can be sought by choosing the new nuisance coordinate along solutions of the [orthogonalization equation for two statistical parameters](#orthogonalization-equation-for-two-statistical-parameters).
+
+###### Orthogonalization equation for two statistical parameters
+
+↑ **Parent:** [Interest-respecting reparametrization](#interest-respecting-reparametrization)
+
+Write the old [nuisance parameter](statistical-model.md#nuisance-parameter) as $\lambda=g(\psi,\eta)$ with $g_\eta\ne0$. The transformed [score functions](#informant-function) are $u_\psi^{\rm new}=u_\psi+g_\psi u_\lambda$ and $u_\eta=g_\eta u_\lambda$. Their expected cross product is $g_\eta(I_{\psi\lambda}+g_\psi I_{\lambda\lambda})$. Setting it to zero gives the displayed [ordinary differential equation](differential-equation.md#ordinary-differential-equation) along fixed-$\eta$ curves, assuming positive nuisance [Fisher information](#fisher-information-matrix). Smooth solutions with distinct initial conditions give a local interest-respecting orthogonal coordinate system.
+
+#### Jeffreys prior
+
+↑ **Parent:** [Fisher information matrix](#fisher-information-matrix)
+
+The Jeffreys prior uses the square root of the determinant of the [Fisher information matrix](#fisher-information-matrix) as a parameter-density kernel. It is invariant under smooth one-to-one reparameterization, since the information and density Jacobians transform compatibly. It may be an [improper prior](statistical-inference.md#improper-prior); invariance does not guarantee [posterior propriety](statistical-inference.md#posterior-propriety). With nuisance parameters, a scalar conditional Jeffreys prior and the joint Jeffreys prior need not coincide.
+
+##### Proper gamma approximation to a Poisson Jeffreys prior
+
+↑ **Parent:** [Jeffreys prior](#jeffreys-prior)
+
+A [Poisson distribution](discrete-probability-distribution.md#poisson-distribution) with mean $E\lambda$ and positive known exposure has [Fisher information](#fisher-information-matrix) $E/\lambda$, so its [Jeffreys prior](#jeffreys-prior) kernel is $\lambda^{-1/2}$. The proper shape-rate [gamma distribution](continuous-probability-distribution.md#gamma-distribution) $\operatorname{Gamma}(1/2,\varepsilon)$ has kernel $\lambda^{-1/2}e^{-\varepsilon\lambda}$, approximating the improper kernel where $\varepsilon\lambda$ is small. Its posterior is $\operatorname{Gamma}(y+1/2,E+\varepsilon)$, converging to $\operatorname{Gamma}(y+1/2,E)$. There is no normalized Jeffreys prior to which the proper priors converge weakly; this is kernel approximation and posterior convergence.
+
+##### Jeffreys prior for a scale parameter
+
+↑ **Parent:** [Jeffreys prior](#jeffreys-prior)
+
+For a differentiable [scale family](statistical-model.md#scale-family) with finite positive [Fisher information](#fisher-information-matrix), the score is $-[1+u(\log f)'(u)]/\sigma$. Its squared expectation is a constant times $\sigma^{-2}$, yielding the displayed [Jeffreys prior](#jeffreys-prior). This is an [improper prior](statistical-inference.md#improper-prior) on the entire positive half-line.
+
+##### Jeffreys prior for an additive variance component
+
+↑ **Parent:** [Jeffreys prior](#jeffreys-prior)
+
+For independent normal observations with fixed means and variances $v+r_s$, where $v\ge0$ is unknown and all known $r_s>0$, the scalar [Fisher information](#fisher-information-matrix) for $v$ is $I_{vv}=\frac12\sum_s(v+r_s)^{-2}$. Thus its scalar [Jeffreys prior](#jeffreys-prior) is finite at zero and behaves like $1/v$ at infinity. Unlike a log-flat prior $1/v$, it avoids a divergent integral at the zero-variance boundary. After [flat-prior elimination of a Gaussian common mean](statistical-inference.md#flat-prior-elimination-of-a-gaussian-common-mean), the integrated likelihood is bounded by a constant times $v^{-(N-1)/2}$, so this prior yields a proper posterior for $N>1$ and a proper prior on any remaining mean-shape parameters. In the homoscedastic case it reduces to $1/(v+r)$, which is log-flat for the total variance rather than for the latent variance alone.
+
+#### Fisher information of a multivariate normal location model
+
+↑ **Parent:** [Fisher information matrix](#fisher-information-matrix)
+
+For $X\sim N_p(\theta,\Sigma)$ with known nonsingular covariance matrix, the [score function](#informant-function) is $\Sigma^{-1}(X-\theta)$ and the per-observation [Fisher information matrix](#fisher-information-matrix) is $\Sigma^{-1}$. In particular, covariance $I_p$ gives information $I_p$.
+
+#### Empirical score outer-product information
+
+↑ **Parent:** [Fisher information matrix](#fisher-information-matrix)
+
+The empirical score outer-product matrix is
+
+$$
+i_n(\theta)=\frac1n\sum_{j=1}^n
+\nabla_\theta\log f(X_j,\theta)
+\nabla_\theta\log f(X_j,\theta)^T.
+$$
+
+Under regularity and consistency of $\widehat\theta$, $i_n(\widehat\theta)$ converges in probability to the [Fisher information matrix](#fisher-information-matrix). This convention differs from the negative-Hessian convention for [Observed Fisher information](#observed-fisher-information).
+
+#### Observed Fisher information
+
+↑ **Parent:** [Fisher information matrix](#fisher-information-matrix)
+
+The observed Fisher information is the negative Hessian of the realized [log-likelihood](#log-likelihood). Its expectation, under standard regularity conditions, is the [Fisher information matrix](#fisher-information-matrix).
+
+#### Tensorization of Fisher information
+
+↑ **Parent:** [Fisher information matrix](#fisher-information-matrix)
+
+Fisher information tensorizes when the information in an $n$-observation model is the sum of the information contributions from its observations. For identically distributed observations this means
+
+$$
+I_n(\theta)=nI_1(\theta).
+$$
+
+Independence and the [mean-zero score identity](#mean-zero-score-identity) make the cross terms vanish.
+
+#### Fisher information in a stationary Gaussian autoregressive location model
+
+↑ **Parent:** [Fisher information matrix](#fisher-information-matrix)
+
+For
+
+$$
+X_1=\theta+\varepsilon_1,\qquad
+X_i=\theta(1-\sqrt\gamma)+\sqrt\gamma X_{i-1}
++\sqrt{1-\gamma}\,\varepsilon_i,
+$$
+
+where the $\varepsilon_i$ are independent $N(0,1)$ and $0\leq\gamma<1$,
+
+$$
+I_n(\theta)
+=1+(n-1)\frac{1-\sqrt\gamma}{1+\sqrt\gamma}.
+$$
+
+The information tensorizes exactly when $\gamma=0$.
+
+#### Scoring algorithm
+
+↑ **Parent:** [Fisher information matrix](#fisher-information-matrix)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Scoring_algorithm)
+
+Fisher scoring replaces the observed negative Hessian in Newton iteration by the Fisher information:
+
+$$
+\theta^{(r+1)}=\theta^{(r)}+I(\theta^{(r)})^{-1}S(\theta^{(r)}).
+$$
+
+##### Binomial-proportion Fisher scoring
+
+↑ **Parent:** [Scoring algorithm](#scoring-algorithm)
+
+For $Y=n^{-1}\operatorname{Bin}(n,p)$, the score and information are
+
+$$
+S(p)=\frac{n(Y-p)}{p(1-p)},
+\qquad I(p)=\frac n{p(1-p)}.
+$$
+
+Consequently one Fisher-scoring step sends every interior starting value directly to the MLE $\widehat p=Y$.
+
+#### Information identity
+
+↑ **Parent:** [Fisher information matrix](#fisher-information-matrix)
+
+Under standard regularity conditions, $I_n(\theta)=-\mathbb E_\theta[\nabla_\theta^2\ell_n(\theta)]$.
+
+#### Normal location-scale score
+
+↑ **Parent:** [Fisher information matrix](#fisher-information-matrix)
+
+For $N(\mu,v)$, the one-observation score is $((x-\mu)/v,-1/(2v)+(x-\mu)^2/(2v^2))$ and the information matrix is $\operatorname{diag}(v^{-1},(2v^2)^{-1})$.
+
+#### Local asymptotic normality
+
+↑ **Parent:** [Fisher information matrix](#fisher-information-matrix)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Local_asymptotic_normality)
+
+A regular statistical model is locally asymptotically normal at $\theta_0$ when its log-likelihood ratio under local shifts $\theta_0+h/\sqrt n$ has the expansion
+
+$$
+h^T\Delta_n-\frac12h^TI(\theta_0)h+o_p(1),
+\qquad
+\Delta_n\xrightarrow dN(0,I(\theta_0)).
+$$
+
+##### Contiguity under locally asymptotically normal alternatives
+
+↑ **Parent:** [Local asymptotic normality](#local-asymptotic-normality)
+
+Under [local asymptotic normality](#local-asymptotic-normality), a fixed $h/\sqrt n$ shift has a [likelihood ratio](#likelihood-ratio) limit $\exp(W-v/2)$ with $W\sim N(0,v)$. This is positive with mean one. [Le Cam first lemma](convergence-of-random-variables.md#le-cam-s-first-lemma) gives [mutual contiguity](convergence-of-random-variables.md#mutual-contiguity) of the product laws, so [consistency](statistical-inference.md#consistency-statistics) at the central parameter transfers to these local alternatives.
+
+##### Gaussian shift model
+
+↑ **Parent:** [Local asymptotic normality](#local-asymptotic-normality)
+
+A Gaussian shift model observes $X\sim N(h,\Sigma)$ with the shift $h$ as parameter. It is the limiting experiment of a locally asymptotically normal model when $\Sigma=I(\theta_0)^{-1}$.
+
+## Statistical hypothesis test
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Statistical_hypothesis_test)
+
+Statistical hypothesis testing compares data against a null hypothesis using a controlled rejection probability.
+
+### Statistical hypothesis
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+A [statistical hypothesis](#statistical-hypothesis) is a specified set of possible data-generating [probability distributions](probability-theory.md#probability-distribution), usually expressed as a restriction on model parameters. A simple [statistical hypothesis](#statistical-hypothesis) specifies one distribution; a composite [statistical hypothesis](#statistical-hypothesis) permits several. A [hypothesis test](#statistical-hypothesis-test) compares a [null hypothesis](#null-hypothesis) with an [alternative hypothesis](#alternative-hypothesis) using a statistic calibrated under the null.
+
+### Sequential probability ratio test
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+A [sequential probability ratio test](#sequential-probability-ratio-test) accumulates the [log-likelihood ratio](#log-likelihood-ratio) for two specified simple [statistical hypotheses](#statistical-hypothesis) until it reaches an upper or lower boundary. An upper crossing favors the alternative, a lower crossing favors the null, and observations continue between them. Error-calibrated boundaries are approximately $\log[(1-\beta)/\alpha]$ and $\log[\beta/(1-\alpha)]$; discrete overshoot means these approximations need calibration.
+
+### Statistical significance
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Statistical_significance)
+
+A result is [statistically significant](#statistical-significance) at a specified [significance level](#significance-level) $\alpha$ when its valid [p-value](#p-value) is at most $\alpha$ and the corresponding [null hypothesis](#null-hypothesis) is rejected. Significance does not measure effect size, establish practical importance, or give the probability that the null is true. Software stars encode thresholds for $p$-values; they do not supply an additional statistic.
+
+### Two-sided hypothesis test
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+A [two-sided test](#two-sided-hypothesis-test) detects departures in either direction from the [null hypothesis](#null-hypothesis), for example $\theta\ne\theta_0$. With a continuous symmetric null statistic centred at zero, its [p-value](#p-value) is $P_0(|T|\ge|t_{\mathrm{obs}}|)=2P_0(T\ge|t_{\mathrm{obs}}|)$. This is the usual coefficient test printed by Gaussian regression summaries, unlike a directional one-sided comparison.
+
+### One-sided hypothesis test
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+A [one-sided test](#one-sided-hypothesis-test) targets deviations in one specified direction, such as $\theta>\theta_0$. If larger values of a statistic $T$ indicate this direction, its [p-value](#p-value) is an upper-tail null probability $P_0(T\ge t_{\mathrm{obs}})$. The direction should be chosen from the scientific question before examining the data. An upper normal test uses $1-\Phi(z)$; a lower test uses $\Phi(z)$.
+
+### Alternative hypothesis
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+The [alternative hypothesis](#alternative-hypothesis) specifies the parameter values or distributions against which a [null hypothesis](#null-hypothesis) is tested. If the null is $\theta\in\Theta_0$, the alternative is $\theta\in\Theta_1$ with $\Theta_0\cap\Theta_1=\varnothing$. For example an upper one-sided comparison uses $\theta>\theta_0$, while a two-sided comparison uses $\theta\ne\theta_0$. The alternative determines the relevant rejection tail. A [p-value](#p-value) is computed under the null; it is not the probability that the alternative is false.
+
+<h3 id="hotelling-s-t-squared-statistic">Hotelling's T-squared statistic</h3>
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+For independent [multivariate normal](probability-and-statistics.md#multivariate-normal-distribution) observations with [positive-definite](linear-algebra.md#positive-definite-bilinear-form) covariance, this statistic is the maximum squared studentized mean contrast. With unbiased [sample covariance matrix](variance.md#sample-covariance-matrix) $S$ and $n>p$, its null distribution obeys $(n-p)T^2/(p(n-1))\sim F_{p,n-p}$. This follows from [independence](random-variable.md#independent-random-variables) of the Gaussian [sample mean](variance.md#sample-mean) and the residual [Wishart distribution](probability-theory.md#wishart-distribution).
+
+<h4 id="affine-invariance-of-hotelling-s-statistic">Affine invariance of Hotelling's statistic</h4>
+
+↑ **Parent:** [Hotelling's T-squared statistic](#hotelling-s-t-squared-statistic)
+
+Under a nonsingular affine transformation $Y=AX+b$, transform the null mean by the same map. Then the centered sample mean becomes $A(\bar X-\mu_0)$ and the [sample covariance matrix](variance.md#sample-covariance-matrix) becomes $ASA^T$. Since $(ASA^T)^{-1}=A^{-T}S^{-1}A^{-1}$, the quadratic form in [Hotelling's T-squared statistic](#hotelling-s-t-squared-statistic) is unchanged. Its value and test decision are consequently invariant under changes of units, origin and nonsingular coordinates.
+
+#### Hotelling test of linear hypotheses
+
+↑ **Parent:** [Hotelling's T-squared statistic](#hotelling-s-t-squared-statistic)
+
+For a fixed rank-$m$ constraint matrix $B$, apply [Hotelling's T-squared statistic](#hotelling-s-t-squared-statistic) to the transformed observations $BX_j$. Under $B\mu=0$, $(n-m)T_B^2/(m(n-1))\sim F_{m,n-m}$ for $n>m$. If the displayed contrasts are dependent, use a basis of their row space and replace $m$ by the [rank](linear-algebra.md#rank-one-quadratic-form).
+
+##### Second-difference test of a linear mean profile
+
+↑ **Parent:** [Hotelling test of linear hypotheses](#hotelling-test-of-linear-hypotheses)
+
+At equally spaced distinct times, a mean profile is affine exactly when its consecutive second differences vanish. These form $p-2$ independent contrasts. At unequal times, compare adjacent slopes instead: $(\mu_{i+1}-\mu_i)/(t_{i+1}-t_i)-(\mu_i-\mu_{i-1})/(t_i-t_{i-1})$. A [Hotelling test of linear hypotheses](#hotelling-test-of-linear-hypotheses) tests these restrictions jointly with unknown covariance.
+
+### Rejection region
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+A rejection region is the set of sample outcomes on which a [hypothesis test](#statistical-hypothesis-test) rejects its [null hypothesis](#null-hypothesis). Its probability under the null determines the [Type I error](information-theory.md#type-i-and-type-ii-errors) rate.
+
+<h3 id="mcnemar-s-test">McNemar's test</h3>
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/McNemar's_test)
+
+For paired binary observations $(C_i,M_i)$, let $b$ count pairs $(1,0)$ and $c$ pairs $(0,1)$. Under the [null hypothesis](#null-hypothesis) of equal marginal event probabilities, these discordant outcomes have equal probabilities. Conditional on $b+c$, $b$ has the [binomial distribution](discrete-probability-distribution.md#binomial-distribution) $\operatorname{Bin}(b+c,1/2)$, giving an exact test. For enough discordant pairs, $(b-c)/\sqrt{b+c}$ has an approximate [standard normal distribution](probability-theory.md#standard-normal-distribution), or its square has an approximate one-degree-of-freedom [chi-squared distribution](probability-theory.md#chi-squared-distribution). Concordant pairs provide no information about the direction of the marginal difference. If there are no discordant pairs, there is no directional information and the divided statistic is not computed. The pairing and independence between pairs are essential; the usual independent-two-sample formula is not a paired test.
+
+#### Equality criterion for paired and unpaired allele tests
+
+↑ **Parent:** [McNemar's test](#mcnemar-s-test)
+
+Let a paired binary table have cells $a,b,c,d$ and $n=a+b+c+d$. The uncorrected [McNemar test](#mcnemar-s-test) is $(b-c)^2/(b+c)$, while the ordinary independent-sample [chi-squared test](statistical-inference.md#chi-squared-test) on the two marginal allele columns is $2n(b-c)^2/[(2a+b+c)(2d+b+c)]$. For nonzero difference and positive denominators, they coincide exactly when $(2a+b+c)(2d+b+c)=2n(b+c)$. Such numerical coincidence does not justify discarding pairing; altering concordant counts can change the unpaired statistic while leaving McNemar's statistic unchanged.
+
+// Target: biology.bigb
+
+#### Paired binary sample size calculation
+
+↑ **Parent:** [McNemar's test](#mcnemar-s-test)
+
+For a paired binary difference $D=C-M$, set $\delta=P(C=1)-P(M=1)$ and $q=P(C\ne M)$. Then $\mathbb ED=\delta$ and $\operatorname{Var}(D)=q-\delta^2$. Under equal marginal probabilities the variance is $q$. The [McNemar test](#mcnemar-s-test) has approximate upper rejection boundary $z_{1-\alpha/2}\sqrt{nq}$ for the sum of differences. Requiring that the alternative mean $n\delta$ exceed this boundary by $z_{1-\beta}\sqrt{n(q-\delta^2)}$ gives the displayed planning size for a positive alternative, neglecting its very small lower-tail rejection probability. Use $z_{1-\alpha}$ for a pre-specified one-sided test. The marginal probabilities alone do not determine $q$: co-occurrence of positive outcomes must be specified or bounded. Discreteness and [clustered data](#clustered-data) can change achieved [statistical power](probability-and-statistics.md#statistical-power).
+
+### Significant and nonsignificant results need not differ significantly
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+For independent effect estimates $1.01$ with [standard error](statistical-inference.md#standard-error) $0.50$, and $0.99$ with standard error $0.51$, one two-sided [Wald test](#wald-test) is significant at five percent and the other is not. But their difference is $0.02$ with standard error $\sqrt{0.50^2+0.51^2}\approx0.714$, giving a negligible test statistic. Hence different significance labels do not establish an [interaction](statistical-model.md#interaction-statistics) or [between-study heterogeneity](statistical-inference.md#between-study-heterogeneity); compare the effects directly.
+
+### Monte Carlo test
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+Generate independent replicated datasets under a fully specified [null hypothesis](#null-hypothesis) and calculate the same [predictive discrepancy statistic](#predictive-discrepancy-statistic) for them and the observation. Their null exchangeability gives a finite-simulation rank test. The displayed add-one tail probability is valid with conservative treatment of ties, and avoids reporting zero solely because no replicate exceeds the observation.
+
+### Predictive discrepancy statistic
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+A measurable summary of a possible dataset is chosen to detect disagreement with a specified predictive model. Compare its observed value with its distribution under replicated datasets. Large-discrepancy statistics can be checked with $\mathbb P(T(X^{\mathrm{rep}})\ge T(x))$. A [posterior predictive check](statistical-inference.md#posterior-predictive-check) integrates over posterior parameter uncertainty; a fully specified null instead supplies a fixed reference law.
+
+### Scan statistic
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+A scan statistic searches a family of candidate locations or subsets and reports the largest local [statistic](statistical-inference.md#statistic). Under a [null hypothesis](#null-hypothesis), a [union bound](probability-inequality.md#boole-s-inequality) converts a tail estimate for each candidate into a bound for the maximum; no [independence](random-variable.md#independent-random-variables) between local [statistics](statistical-inference.md#statistic) is required. Structured alternatives often permit a [chi-squared testing lower bound](statistical-inference.md#chi-squared-testing-lower-bound) using the overlap geometry of two candidates.
+
+#### Cyclic interval overlap bound
+
+↑ **Parent:** [Scan statistic](#scan-statistic)
+
+For independent uniformly placed cyclic intervals of length $k<d$, an overlap is possible at at most $2k-1$ starting-point offsets, or at all $d$ offsets if that number exceeds $d$. Thus the overlap [probability](probability-theory.md#probability) is at most $\min\{1,(2k-1)/d\}$. If $R=|S\cap T|$, then $0\leq R\leq k$ and $\mathbb E(e^{aR/k}-1)\leq(2k/d)(e^a-1)$ for $a\geq0$. The overlap law is not the [hypergeometric distribution](discrete-probability-distribution.md#hypergeometric-distribution) for unrestricted random subsets.
+
+#### Quadratic scan statistic
+
+↑ **Parent:** [Scan statistic](#scan-statistic)
+
+A quadratic scan statistic maximizes a directional empirical second moment over candidate unit vectors. For a [Gaussian random vector](probability-and-statistics.md#gaussian-random-vector) sample with a [rank-one covariance spike](variance.md#rank-one-covariance-spike) in one of those directions, the matching statistic has its scale multiplied by the spike's [eigenvalue](linear-operator-theory.md#eigenvalue). A [chi-squared concentration inequality](probability-theory.md#chi-squared-concentration-inequality) controls each direction.
+
+### Least-favourable null configuration
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+A least-favourable configuration maximizes a test procedure’s [Type I error](information-theory.md#type-i-and-type-ii-errors) probability over allowed [null hypothesis](#null-hypothesis) parameters. For one-sided normal comparisons with a fixed [covariance matrix](variance.md#covariance-matrix), coupling by common centered variables shows monotonicity in the means. For the [familywise error rate](#familywise-error-rate), mixed true and false null configurations must also be checked.
+
+### Pearson chi-squared test of homogeneity
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+The Pearson chi-squared test of homogeneity tests whether several independent categorical samples have the same category probabilities. Under the null, expected cell counts equal the product of the corresponding row and column totals divided by the total sample size. The [Pearson chi-squared statistic for contingency tables](#pearson-chi-squared-statistic-for-contingency-tables) $\sum(O-E)^2/E$ has an asymptotic [chi-squared distribution](probability-theory.md#chi-squared-distribution) with $(r-1)(c-1)$ [degrees of freedom](classical-mechanics.md#degree-of-freedom), when expected counts are sufficiently large. The sampling design differs from a [Pearson chi-squared test of independence](#pearson-chi-squared-test-of-independence), though the statistic has the same form.
+
+#### Empty groups in a binomial homogeneity test
+
+↑ **Parent:** [Pearson chi-squared test of homogeneity](#pearson-chi-squared-test-of-homogeneity)
+
+For independent $R_i\sim\operatorname{Bin}(n_i,p_i)$, a group with $n_i=0$ necessarily has $R_i=0$ and contributes [likelihood](#likelihood-function) one. Its [probability](probability-theory.md#probability) parameter is unidentifiable and supplies no restriction to test. If $k$ groups have positive sample sizes, the unrestricted model has $k$ [probability](probability-theory.md#probability) parameters and the common-probability model has one; the asymptotic homogeneity test therefore has $k-1$ degrees of freedom. Zero expected-count rows must be removed rather than divided by in the Pearson statistic.
+
+#### Pearson chi-squared statistic for contingency tables
+
+↑ **Parent:** [Pearson chi-squared test of homogeneity](#pearson-chi-squared-test-of-homogeneity)
+
+For observed counts $O_{ij}$ and positive expected counts $E_{ij}$ in a [contingency table](#contingency-table), the statistic is $X^2=\sum_{ij}(O_{ij}-E_{ij})^2/E_{ij}$. Under common category probabilities or statistical independence, estimate $E_{ij}$ by the product of the row and column totals divided by the grand total. With large expected counts, this gives the test statistic for the [Pearson chi-squared test of homogeneity](#pearson-chi-squared-test-of-homogeneity) or the [Pearson chi-squared test of independence](#pearson-chi-squared-test-of-independence), with asymptotic [chi-squared distribution](probability-theory.md#chi-squared-distribution) on $(r-1)(c-1)$ [degrees of freedom](classical-mechanics.md#degree-of-freedom).
+
+<h5 id="yates-s-correction-for-continuity">Yates's correction for continuity</h5>
+
+↑ **Parent:** [Pearson chi-squared statistic for contingency tables](#pearson-chi-squared-statistic-for-contingency-tables)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Yates's_correction_for_continuity)
+
+For a two-by-two [contingency table](#contingency-table), subtracting one half from each absolute observed-minus-expected count difference, with truncation at zero, gives the displayed corrected [Pearson chi-squared statistic](#pearson-chi-squared-statistic). Expected counts use the independence model $E_{ij}=O_{i+}O_{+j}/N$. The subtraction compensates approximately for using a continuous [chi-squared distribution](probability-theory.md#chi-squared-distribution) for discrete counts. It can make the test conservative. The corrected statistic should be distinguished from the ordinary uncorrected [Pearson chi-squared statistic](#pearson-chi-squared-statistic).
+
+### Statistical test
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+A statistical test is a measurable rule for deciding whether to reject a [null hypothesis](#null-hypothesis). Allowing randomisation, it is represented by a function $\varphi(x)\in[0,1]$ giving the conditional rejection [probability](probability-theory.md#probability) after observing $x$. A deterministic test takes only values zero and one. Under a simple null, $E_0\varphi$ is its [size of a statistical test](#size-of-a-statistical-test); under an alternative, $E_1\varphi$ is its [statistical power](probability-and-statistics.md#statistical-power). Randomisation on a [likelihood ratio](#likelihood-ratio) equality set allows a [Neyman-Pearson lemma](#neyman-pearson-lemma) threshold test to attain a prescribed size even for discrete data.
+
+#### Most powerful test
+
+↑ **Parent:** [Statistical test](#statistical-test)
+
+At level $\alpha$, a most powerful test against a specified simple alternative maximises [statistical power](probability-and-statistics.md#statistical-power) among [statistical tests](#statistical-test) whose [size of a statistical test](#size-of-a-statistical-test) is at most $\alpha$. The [Neyman-Pearson lemma](#neyman-pearson-lemma) constructs it by a [likelihood ratio](#likelihood-ratio) threshold. A [uniformly most powerful test](#uniformly-most-powerful-test) is most powerful simultaneously against every member of the specified alternative family; maximising power at one alternative alone need not give uniform optimality.
+
+### Test statistic
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Test_statistic)
+
+A test statistic is a measurable function of the sample whose observed value is compared with a null distribution or resampling distribution to decide whether to reject a hypothesis.
+
+<h3 id="student-s-t-test">Student's t-test</h3>
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Student's_t-test)
+
+Student's t-test divides a normally distributed estimated effect by its estimated standard error. Under its null hypothesis the statistic has a [Student's t-distribution](continuous-probability-distribution.md#student-s-t-distribution), with degrees of freedom determined by the variance estimate.
+
+#### Exact pooled two-sample t statistic
+
+↑ **Parent:** [Student's t-test](#student-s-t-test)
+
+For independent normal samples of sizes $m,n$ with a common unknown [variance](variance.md) and equal means under the null, $Z=(\overline X-\overline Y)/(\sigma\sqrt{1/m+1/n})$ is standard normal. The independent centered sample sums of squares give $V=(m+n-2)S_p^2/\sigma^2\sim\chi^2_{m+n-2}$, independently of $Z$. Thus $Z/\sqrt{V/(m+n-2)}$ has the exact [Student t-distribution](continuous-probability-distribution.md#student-s-t-distribution), giving the statistic $(\overline X-\overline Y)/(S_p\sqrt{1/m+1/n})$. A lower one-sided test uses its lower-tail [probability](probability-theory.md#probability).
+
+#### Normal-mean likelihood ratio with unknown variance
+
+↑ **Parent:** [Student's t-test](#student-s-t-test)
+
+For an independent sample from a [normal distribution](probability-theory.md#normal-distribution), maximization of the likelihood over the unknown variance gives the likelihood ratio for a fixed mean against an unrestricted mean as displayed, where $t=\sqrt n(\bar X-\mu_0)/S$ and $S^2=\sum_i(X_i-\bar X)^2/(n-1)$. It decreases with $|t|$. Under the null, the normal sample mean is independent of its centered sum of squares, so $t$ has the exact [Student t-distribution](continuous-probability-distribution.md#student-s-t-distribution) with $n-1$ degrees of freedom. The resulting two-sided test requires no asymptotic chi-squared approximation.
+
+#### Regression coefficient test power ignores nuisance coefficients
+
+↑ **Parent:** [Student's t-test](#student-s-t-test)
+
+In a fixed full-rank [normal linear model](#normal-linear-model), the studentized estimator of one coefficient has a [noncentral t-distribution](continuous-probability-distribution.md#noncentral-t-distribution) with noncentrality equal to that coefficient divided by its standard deviation. The fitted and residual [orthogonal projections](hilbert-space.md#orthogonal-projection) of the [Gaussian noise](probability-theory.md#gaussian-noise) are [independent](random-variable.md#independent-random-variables). Therefore the [statistical power](probability-and-statistics.md#statistical-power) of its exact [Student's t-test](#student-s-t-test) does not depend on the other regression coefficients, with design and variance fixed.
+
+### Fixed alternative
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+A fixed alternative keeps a non-null data-generating distribution unchanged as sample size grows. A consistent test rejects with probability tending to one under every fixed alternative in its stated class.
+
+### Local alternative
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+A local alternative approaches the null as sample size grows, commonly at distance $n^{-1/2}$. It reveals the nontrivial limiting power of a test near the null.
+
+### Randomization test
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+A randomization test compares a statistic with values obtained by applying transformations that preserve the joint distribution under the null hypothesis.
+
+#### Conditional randomization test
+
+↑ **Parent:** [Randomization test](#randomization-test)
+
+A conditional randomization test resamples a tested variable from its known or estimated conditional distribution given covariates. Under conditional independence from the outcome, the observed and resampled test statistics are exchangeable conditional on those covariates and outcomes.
+
+#### Permutation test
+
+↑ **Parent:** [Randomization test](#randomization-test)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Permutation_test)
+
+A permutation test uses relabelings of observations as its null-preserving transformations and computes a p-value from the resulting orbit of the test statistic.
+
+#### Sign-flip randomization test
+
+↑ **Parent:** [Randomization test](#randomization-test)
+
+A sign-flip randomization test independently multiplies observations by signs in $\{-1,1\}$. It is finite-sample exact for a zero-centered null when the joint distribution is invariant under those sign changes.
+
+### Null hypothesis
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Null_hypothesis)
+
+The null hypothesis is the set of parameter values or probability distributions against which a statistical test controls its probability of rejection.
+
+### Simple hypothesis
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+A simple hypothesis specifies one probability distribution completely. A composite hypothesis permits more than one distribution or parameter value.
+
+### Size of a statistical test
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+The size of a test is the supremum, over distributions in its [null hypothesis](#null-hypothesis), of its rejection probability. For a simple null it is just the null rejection probability; a level-$\alpha$ test has size at most $\alpha$.
+
+### Significance level
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+The significance level is the chosen upper bound on a test's probability of rejecting the null hypothesis when it is true.
+
+A result is [statistically significant](#statistical-significance) when its calibrated [p-value](#p-value) falls below this chosen threshold.
+
+### P-value
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/P-value)
+
+A p-value is the probability, computed under a null hypothesis, of obtaining a test statistic at least as unfavorable to that hypothesis as the observed value.
+
+#### Super-uniform random variable
+
+↑ **Parent:** [P-value](#p-value)
+
+A random variable $P\in[0,1]$ is super-uniform when $\mathbb P(P\leq\alpha)\leq\alpha$ for every $\alpha\in[0,1]$. A valid p-value is super-uniform under its null hypothesis.
+
+<h3 id="fisher-s-exact-test">Fisher's exact test</h3>
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Fisher's_exact_test)
+
+Fisher's exact test conditions on the margins of a two-by-two contingency table and compares one cell count with its hypergeometric null distribution.
+
+<h4 id="exact-power-of-fisher-s-exact-test">Exact power of Fisher's exact test</h4>
+
+↑ **Parent:** [Fisher's exact test](#fisher-s-exact-test)
+
+For two independent binomial counts, form the [Fisher exact test](#fisher-s-exact-test) rejection region from their conditional null [hypergeometric distribution](discrete-probability-distribution.md#hypergeometric-distribution). Summing alternative joint binomial [probabilities](probability-theory.md#probability) over that region gives its exact power. For equal group sizes, the null allocation is symmetric, so the two-sided [probability](probability-theory.md#probability)-ordering test agrees with doubled lower-tail [probabilities](probability-theory.md#probability). Conservative test discreteness can make a normal-approximation [sample size](probability-and-statistics.md#sample-size) underpowered even when both samples are large but event counts are low.
+
+### Maximin test
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+A maximin test maximizes the smallest power over a composite alternative subject to controlling the largest rejection probability over a composite null.
+
+### Multiple hypothesis testing
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Multiple_hypothesis_testing)
+
+Multiple hypothesis testing applies tests to a family of null hypotheses while controlling an aggregate error criterion.
+
+#### Intersection hypothesis
+
+↑ **Parent:** [Multiple hypothesis testing](#multiple-hypothesis-testing)
+
+For a nonempty finite index set $I$, this hypothesis asserts that every member $H_i$ is true simultaneously. A valid local test must have its stated size under every parameter satisfying the entire intersection. The [Bonferroni correction](#bonferroni-correction) within $I$ always supplies such a test from valid elementary [p-values](#p-value).
+
+##### Closure of a family of statistical hypotheses
+
+↑ **Parent:** [Intersection hypothesis](#intersection-hypothesis)
+
+The closure is the collection of all nonempty [intersection hypotheses](#intersection-hypothesis) from the original elementary family, including singletons. It is not a topological closure. The [closed testing procedure](#closed-testing-procedure) requires local level-$\alpha$ tests for these intersections and rejects an elementary hypothesis only when all intersections containing it reject.
+
+#### Hochberg procedure
+
+↑ **Parent:** [Multiple hypothesis testing](#multiple-hypothesis-testing)
+
+Order $m$ [p-values](#p-value) and reject the first $r$ hypotheses, where $r=\max\{j:p_{(j)}\le\alpha/(m-j+1)\}$, with $r=0$ for an empty set. Under independent valid true-null [p-values](#p-value), this step-up procedure controls the [familywise error rate](#familywise-error-rate). One proof embeds its rejections in the [closed testing procedure](#closed-testing-procedure) with [Simes tests](#simes-test): every intersection containing a rejected hypothesis passes its local [Simes test](#simes-test), so [closed-testing control of the familywise error rate](#closed-testing-control-of-the-familywise-error-rate) applies.
+
+#### Simes inequality
+
+↑ **Parent:** [Multiple hypothesis testing](#multiple-hypothesis-testing)
+
+For $m\ge1$ independent valid null [p-values](#p-value), the displayed inequality follows by applying the [Benjamini-Hochberg procedure](#benjamini-hochberg-procedure) with all nulls true. Its [false discovery rate](#false-discovery-rate) then equals the [probability](probability-theory.md#probability) of at least one rejection. Valid means $\Pr(p_i\le t)\le t$ for $0\le t\le1$; independence is a sufficient hypothesis, and arbitrary dependence is not covered by this proof.
+
+##### Simes test
+
+↑ **Parent:** [Simes inequality](#simes-inequality)
+
+For the intersection of $m$ null hypotheses, reject when $\min_i mp_{(i)}/i\le\alpha$. The [Simes inequality](#simes-inequality) establishes a level-$\alpha$ test under independence of valid true-null [p-values](#p-value). The displayed quantity is its combined [p-value](#p-value).
+
+#### Weighted interval testing for a piecewise-constant mean
+
+↑ **Parent:** [Multiple hypothesis testing](#multiple-hypothesis-testing)
+
+Given valid [p-values](#p-value) $q_J$ for constancy on intervals of length at least two, reject $I$ when $\max_{J\supseteq I}nq_J/|J|\leq\alpha$. Every rejected true interval forces rejection of its maximal constant block. A [union bound](probability-inequality.md#boole-s-inequality) over the non-singleton maximal blocks gives [familywise error rate](#familywise-error-rate) at most $\alpha$, since their lengths sum to at most $n$. Singleton blocks have no tested interval in this formulation.
+
+#### Intersection-union test
+
+↑ **Parent:** [Multiple hypothesis testing](#multiple-hypothesis-testing)
+
+For a null hypothesis that is a union $H_0=\bigcup_{i\in I}H_i$, an intersection-union test rejects $H_0$ only when every component $H_i$ is rejected. If each component test has level $\alpha$, then under any point of $H_0$ at least one component null is true, so the combined test also has level at most $\alpha$.
+
+#### Bonferroni correction
+
+↑ **Parent:** [Multiple hypothesis testing](#multiple-hypothesis-testing)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Bonferroni_correction)
+
+The Bonferroni correction tests each of $m$ hypotheses at level $\alpha/m$. The [union bound](probability-inequality.md#boole-s-inequality) then controls the [familywise error rate](#familywise-error-rate) by $\alpha$ under arbitrary dependence.
+
+##### Weighted Bonferroni correction
+
+↑ **Parent:** [Bonferroni correction](#bonferroni-correction)
+
+For positive deterministic weights $w_i$, the weighted Bonferroni correction rejects $H_i$ when
+
+$$
+p_i\leq\frac{\alpha w_i}{\sum_jw_j}.
+$$
+
+The [union bound](probability-inequality.md#boole-s-inequality) over the true nulls controls the [familywise error rate](#familywise-error-rate) without an independence assumption.
+
+###### Weighted Holm step-down procedure
+
+↑ **Parent:** [Weighted Bonferroni correction](#weighted-bonferroni-correction)
+
+Order $q_i=p_i/w_i$ increasingly. At rank $k$, reject the corresponding hypothesis when
+
+$$
+q_{(k)}\leq\frac{\alpha}{\sum_{j=k}^m w_{(j)}}
+$$
+
+and otherwise stop. The first ordered true null reduces FWER control to a weighted [union bound](probability-inequality.md#boole-s-inequality); the shrinking denominator makes this procedure at least as powerful as the [Weighted Bonferroni correction](#weighted-bonferroni-correction).
+
+<h5 id="holm-bonferroni-method">Holm–Bonferroni method</h5>
+
+↑ **Parent:** [Bonferroni correction](#bonferroni-correction)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Holm–Bonferroni_method)
+
+The Holm–Bonferroni method orders p-values and compares the $j$th smallest with $\alpha/(m-j+1)$, stopping at the first failed comparison. It controls the [familywise error rate](#familywise-error-rate) under arbitrary dependence.
+
+###### First true null argument for Holm control
+
+↑ **Parent:** [Holm–Bonferroni method](#holm-bonferroni-method)
+
+If the [Holm step-down procedure](#holm-bonferroni-method) makes a false rejection, it must reject the first true null in the ordered list. All $m_0$ true nulls remain at that step, so its cutoff is at most $\alpha/m_0$. The [union bound](probability-inequality.md#boole-s-inequality) on their marginally valid [p-values](#p-value) gives [familywise error rate](#familywise-error-rate) at most $\alpha$. This proves strong control under arbitrary dependence, and super-uniformity suffices.
+
+#### Benjamini-Hochberg procedure
+
+↑ **Parent:** [Multiple hypothesis testing](#multiple-hypothesis-testing)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Benjamini-Hochberg_procedure)
+
+Order $m$ p-values as $p_{(1)}\leq\cdots\leq p_{(m)}$ and take the largest $k$ with $p_{(k)}\leq\alpha k/m$. The Benjamini-Hochberg procedure rejects the hypotheses corresponding to $p_{(1)},\ldots,p_{(k)}$ and controls the [false discovery rate](#false-discovery-rate) under independence and several forms of positive dependence.
+
+##### Benjamini-Hochberg leave-one-out identity
+
+↑ **Parent:** [Benjamini-Hochberg procedure](#benjamini-hochberg-procedure)
+
+Let $R$ be the number of rejections by the [Benjamini-Hochberg procedure](#benjamini-hochberg-procedure) at level $\alpha$, and let $R_i$ be the rejection count after replacing $p_i$ by zero. Then $R_i\ge1$ and
+
+$$
+\frac{\mathbf1\{i\text{ rejected}\}}{R\vee1}=\frac{\mathbf1\{p_i\le\alpha R_i/m\}}{R_i}.
+$$
+
+If $i$ was rejected, lowering its [p-value](#p-value) does not change any ordered [p-value](#p-value) beyond rank $R$, so $R_i=R$. Conversely, if $p_i\le\alpha R_i/m$, the other $R_i-1$ rejected values together with $p_i$ satisfy the original threshold; monotonicity gives $R=R_i$. For a valid true-null [p-value](#p-value) independent of the others, conditioning on $R_i$ bounds the expectation of the right side by $\alpha/m$. Summing over true nulls proves [false discovery rate](#false-discovery-rate) at most $m_0\alpha/m$.
+
+###### Benjamini-Hochberg leave-two-out identity
+
+↑ **Parent:** [Benjamini-Hochberg leave-one-out identity](#benjamini-hochberg-leave-one-out-identity)
+
+Replace two [p-values](#p-value) $P_i,P_j$ by zeros in the [Benjamini-Hochberg procedure](#benjamini-hochberg-procedure) at level $\alpha$, keeping the original denominator $m$, and let $R^{(ij)}$ be the resulting rejection count. Equivalently, remove the two values and apply the step-up critical values $\alpha(k+2)/m$ to the remaining ordered [p-values](#p-value); their rejection count is $R_{-ij}=R^{(ij)}-2$. For $r\ge2$,
+
+$$
+\{P_i\le\alpha r/m,\ P_j\le\alpha r/m,\ R=r\}
+=\{P_i\le\alpha r/m,\ P_j\le\alpha r/m,\ R^{(ij)}=r\}.
+$$
+
+If both original values are rejected, lowering them changes no ordered rank greater than $r$, so the rejection count stays $r$. Conversely, if the modified count is $r$ and both original values meet the rank-$r$ threshold, reinserting them leaves at least $r$ qualifying values. Monotonicity under lowering gives at most $r$ original rejections. This identity is deterministic and does not require [independence](random-variable.md#independent-random-variables) or a distributional assumption.
+
+###### Second moment of the Benjamini-Hochberg false discovery proportion
+
+↑ **Parent:** [Benjamini-Hochberg leave-two-out identity](#benjamini-hochberg-leave-two-out-identity)
+
+For independent [p-values](#p-value), with $m_0$ true-null values independent and uniform on $[0,1]$, let $R^{(i)}$ denote the [Benjamini-Hochberg procedure](#benjamini-hochberg-procedure) rejection count after replacing one true-null value by zero. The [Benjamini-Hochberg leave-one-out identity](#benjamini-hochberg-leave-one-out-identity) gives
+
+$$
+\mathbb E\frac{\mathbf1\{i\text{ rejected}\}}{(R\vee1)^2}=\frac\alpha m\mathbb E\frac1{R^{(i)}}.
+$$
+
+For distinct true-null indices, the [Benjamini-Hochberg leave-two-out identity](#benjamini-hochberg-leave-two-out-identity) gives
+
+$$
+\mathbb E\frac{\mathbf1\{i,j\text{ rejected}\}}{(R\vee1)^2}=\frac{\alpha^2}{m^2}.
+$$
+
+Indeed, conditional on the remaining values and $R^{(ij)}=r$, the two independent uniform values both meet their threshold with probability $(\alpha r/m)^2$, cancelling the denominator $r^2$. Expanding the square of the false rejection count into its diagonal terms and ordered distinct pairs, and using symmetry among the true-null values, proves
+
+$$
+\mathbb E(\operatorname{FDP}^2)=\frac{\alpha m_0}{m}\mathbb E\frac1{R^{(i)}}+\frac{\alpha^2m_0(m_0-1)}{m^2}.
+$$
+
+If no null is true, both sides are zero; if exactly one is true, the pair contribution is absent. This formula complements the exact [false discovery rate](#false-discovery-rate) $\alpha m_0/m$ by describing second-moment variability.
+
+###### Exact false discovery rate under independent null p-values
+
+↑ **Parent:** [Benjamini-Hochberg leave-one-out identity](#benjamini-hochberg-leave-one-out-identity)
+
+For the [Benjamini-Hochberg procedure](#benjamini-hochberg-procedure), replace a true-null [p-value](#p-value) $P_i$ by zero and call the new rejection count $R^{(i)}$. The [Benjamini-Hochberg leave-one-out identity](#benjamini-hochberg-leave-one-out-identity) identifies rejection with $R=r$ with the event $P_i\leq\alpha r/m$ and $R^{(i)}=r$. If $P_i$ is uniform and independent of all the other [p-values](#p-value), each possible rejection count contributes $\alpha\mathbb P(R^{(i)}=r)/m$ to its expected false-discovery fraction. Summation gives $\alpha/m$ per true null and the displayed exact [false discovery rate](#false-discovery-rate). Super-uniform independent nulls yield the corresponding upper bound.
+
+#### False discovery rate
+
+↑ **Parent:** [Multiple hypothesis testing](#multiple-hypothesis-testing)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/False_discovery_rate)
+
+The false discovery rate is $\mathbb E[V/(R\vee1)]$, where $V$ is the number of rejected true null hypotheses and $R$ is the total number of rejections.
+
+##### False discovery proportion
+
+↑ **Parent:** [False discovery rate](#false-discovery-rate)
+
+In [multiple hypothesis testing](#multiple-hypothesis-testing), let $R$ count all rejections and $V$ count rejected true [null hypotheses](#null-hypothesis). The false discovery proportion is the random variable $V/(R\vee1)$, defined to be zero when $R=0$. Its expectation is the [false discovery rate](#false-discovery-rate). Distinguishing the realized proportion from its expectation matters: controlling the [false discovery rate](#false-discovery-rate) does not by itself give a high-probability bound on the realized proportion.
+
+#### Familywise error rate
+
+↑ **Parent:** [Multiple hypothesis testing](#multiple-hypothesis-testing)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Familywise_error_rate)
+
+The familywise error rate is the probability of making at least one false rejection in a family of hypothesis tests.
+
+##### Familywise error control for a laminar hypothesis family
+
+↑ **Parent:** [Familywise error rate](#familywise-error-rate)
+
+For nonempty index sets forming a [laminar family of sets](extremal-set-theory.md#laminar-family-of-sets), reject an [intersection hypothesis](#intersection-hypothesis) when the displayed adjusted value is at most $\alpha$. The inclusion-maximal true sets are disjoint and have total size at most $m$. Any false rejection forces some maximal true $J$ to have $p_J\leq\alpha|J|/m$. Validity and the [union bound](probability-inequality.md#boole-s-inequality) control the [familywise error rate](#familywise-error-rate) by $\alpha$, without independence or a complete closure.
+
+#### Closed testing procedure
+
+↑ **Parent:** [Multiple hypothesis testing](#multiple-hypothesis-testing)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Closed_testing_procedure)
+
+Choose a level-$\alpha$ local test for every nonempty intersection $H_I=\bigcap_{i\in I}H_i$. The closed testing procedure rejects an elementary hypothesis $H_i$ exactly when every intersection hypothesis containing it is rejected by its local test.
+
+##### Closed-testing control of the familywise error rate
+
+↑ **Parent:** [Closed testing procedure](#closed-testing-procedure)
+
+If any true elementary hypothesis is rejected by a [closed testing procedure](#closed-testing-procedure), then the intersection of all true null hypotheses must also be rejected. Its local test has level $\alpha$, so the [familywise error rate](#familywise-error-rate) is at most $\alpha$ under arbitrary dependence.
+
+### Joint hypothesis test
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+A joint hypothesis test imposes several parameter restrictions simultaneously and accounts for dependence among their estimators; separate one-parameter confidence intervals do not generally determine its result.
+
+### Power function of a statistical test
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+For a test with rejection region $R$, its power function is
+
+$$
+\pi(\theta)=\mathbb P_\theta(X\in R).
+$$
+
+Its supremum over the null parameter space is the size of the test.
+
+### Uniformly most powerful test
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Uniformly_most_powerful_test)
+
+A level-$\alpha$ test is uniformly most powerful when its power is at least that of every other level-$\alpha$ test at every parameter value in the alternative.
+
+#### Crossing-power obstruction to a uniformly most powerful test
+
+↑ **Parent:** [Uniformly most powerful test](#uniformly-most-powerful-test)
+
+If two tests have the same size and each has strictly greater power than the other at some alternative, neither test is uniformly most powerful.
+
+<h3 id="pearson-s-chi-squared-test">Pearson's chi-squared test</h3>
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Pearson's_chi-squared_test)
+
+The Pearson chi-squared test compares observed categorical counts with null expected counts using the displayed statistic. Its applications include [Pearson chi-squared goodness-of-fit test](#pearson-chi-squared-goodness-of-fit-test) for specified probabilities and [Pearson chi-squared test of independence](#pearson-chi-squared-test-of-independence) for contingency tables; the fitted restrictions determine the limiting degrees of freedom.
+
+#### Pearson chi-squared goodness-of-fit test
+
+↑ **Parent:** [Pearson's chi-squared test](#pearson-s-chi-squared-test)
+
+For observed cell counts $O_j$ and null expected counts $E_j$, the statistic is
+
+$$
+X^2=\sum_j\frac{(O_j-E_j)^2}{E_j}.
+$$
+
+With $k$ specified null cell probabilities and sufficiently large expected counts, its null limit is $\chi^2_{k-1}$.
+
+##### Binomial goodness-of-fit with an estimated parameter
+
+↑ **Parent:** [Pearson chi-squared goodness-of-fit test](#pearson-chi-squared-goodness-of-fit-test)
+
+For $N$ independent groups each containing $m$ independent [Bernoulli trials](discrete-probability-distribution.md#bernoulli-trial) with common probability $\theta$, the group count has a [binomial distribution](discrete-probability-distribution.md#binomial-distribution). If $O_j$ groups have count $j$, the [maximum-likelihood estimate](#maximum-likelihood-estimator) is $\widehat\theta=\sum_jjO_j/(mN)$. Form the [Pearson chi-squared statistic](#pearson-chi-squared-statistic) using $E_j=N\binom mj\widehat\theta^j(1-\widehat\theta)^{m-j}$. With all $m+1$ categories retained, an interior true parameter, and sufficiently large expected counts, its null limit is a [chi-squared distribution](probability-theory.md#chi-squared-distribution) with $m-1$ [statistical degrees of freedom](statistical-inference.md#statistical-degrees-of-freedom): one degree is removed by the fixed total and another by fitting $\theta$. Small expected counts require care with this approximation. If categories are pooled, the fitted parameter and calibration should correspond to the pooled statistical model; simply pooling a statistic after fitting the unpooled model does not automatically give the usual chi-squared limit.
+
+##### Pearson chi-squared test of independence
+
+↑ **Parent:** [Pearson chi-squared goodness-of-fit test](#pearson-chi-squared-goodness-of-fit-test)
+
+For an $r$ by $c$ contingency table, the statistic
+
+$$
+X^2=\sum_{i,j}\frac{(O_{ij}-E_{ij})^2}{E_{ij}}
+$$
+
+has asymptotically a chi-squared distribution with $(r-1)(c-1)$ degrees of freedom under independence.
+
+### Likelihood-ratio test of independence in a contingency table
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+For observed counts $y_{ij}$ and fitted counts $\widehat\mu_{ij}=y_{i+}y_{+j}/y_{++}$ under independence, the likelihood-ratio statistic is
+
+$$
+G^2=2\sum_{i,j:y_{ij}>0}y_{ij}\log\frac{y_{ij}}{\widehat\mu_{ij}}.
+$$
+
+Under independence and standard large-sample regularity conditions, $G^2$ converges in distribution to $\chi^2_{(r-1)(c-1)}$.
+
+#### Aggregation can change a contingency-table independence test
+
+↑ **Parent:** [Likelihood-ratio test of independence in a contingency table](#likelihood-ratio-test-of-independence-in-a-contingency-table)
+
+Combining levels of a [categorical variable](#categorical-variable) changes both the null hypothesis and the degrees of freedom of an independence test. Association that is coherent across the combined levels may become easier to detect because the grouped table has fewer degrees of freedom, while associations that cancel within groups may disappear. Conclusions from the original and aggregated tables therefore need not agree.
+
+### Linear-by-linear association test
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)
+
+For a two-way [contingency table](#contingency-table) whose row and column variables are [ordinal categorical variables](#ordinal-categorical-variable), assign row scores $u_i$ and column scores $v_j$. The linear-by-linear association statistic measures the weighted covariance
+
+$$
+\sum_{i,j}y_{ij}(u_i-\bar u)(v_j-\bar v).
+$$
+
+After normalization, its square is asymptotically $\chi^2_1$ under independence. A signed, one-sided version tests a specified direction of ordinal association and can have greater [statistical power](probability-and-statistics.md#statistical-power) than an omnibus independence test against a monotone alternative.
+
+### Wald test
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Wald_test)
+
+For an approximately normal estimator, the one-parameter Wald statistic
+
+$$
+Z=\frac{\widehat\theta-\theta_0}{\operatorname{se}(\widehat\theta)}
+$$
+
+is approximately standard normal under $H_0:\theta=\theta_0$. A two-sided test reports $2\Phi(-|Z|)$.
+
+#### Signed normal Wald statistic
+
+↑ **Parent:** [Wald test](#wald-test)
+
+For an independent normal sample with known standard deviation $\sigma$, the signed [Wald statistic](#wald-test) for testing mean zero is $W=\sqrt n\bar Y/\sigma$. It has the [standard normal distribution](probability-theory.md#standard-normal-distribution) under the [null hypothesis](#null-hypothesis) and distribution $N(\sqrt n\delta/\sigma,1)$ under mean $\delta$. Its square has a [chi-squared distribution](probability-theory.md#chi-squared-distribution); retaining the sign permits a one-sided test.
+
+#### Wald statistics with a shared control
+
+↑ **Parent:** [Wald test](#wald-test)
+
+Independent normal arm means with variances $v_0,v_1,v_2$ give treatment-contrast [Wald test](#wald-test) statistics whose [correlation coefficient](variance.md#pearson-correlation-coefficient) is $v_0/\sqrt{(v_0+v_1)(v_0+v_2)}$. The common control mean creates positive dependence between comparisons.
+
+#### Multivariate Wald statistic
+
+↑ **Parent:** [Wald test](#wald-test)
+
+For a regular $p$-parameter model, the Wald statistic for a candidate $\theta$ is
+
+$$
+W_n(\theta)
+=n(\widehat\theta_n-\theta)^T
+I(\widehat\theta_n)
+(\widehat\theta_n-\theta).
+$$
+
+Under the true parameter it converges in distribution to $\chi_p^2$.
+
+##### Wald statistic for linear restrictions
+
+↑ **Parent:** [Multivariate Wald statistic](#multivariate-wald-statistic)
+
+For a full-row-rank $k\times p$ matrix $R$ and the null hypothesis $R\theta=r$, put
+
+$$
+W_{n,R}=n(R\widehat\theta_n-r)^T
+\left[R I(\widehat\theta_n)^{-1}R^T\right]^{-1}
+(R\widehat\theta_n-r).
+$$
+
+Under the null, asymptotic normality and [Slutsky theorem](statistical-inference.md#slutsky-theorem) give $W_{n,R}\xrightarrow d\chi_k^2$.
+
+#### Wald and likelihood-ratio asymptotic equivalence
+
+↑ **Parent:** [Wald test](#wald-test)
+
+In a regular scalar model under the null, Taylor expansion about the MLE gives
+
+$$
+2\{\ell_n(\widehat\theta)-\ell_n(\theta_0)\}
+=-\ell_n''(\widetilde\theta)(\widehat\theta-\theta_0)^2.
+$$
+
+A uniform law of large numbers for the observed information makes  
+$-\ell_n''(\widetilde\theta)/n$ and the Fisher information used in the Wald statistic converge to the same positive limit. Their ratio therefore converges in probability to one.
+
+#### Two-sided Gaussian p-value
+
+↑ **Parent:** [Wald test](#wald-test)
+
+For $\overline X\sim N(\mu,1/n)$ under $H_0:\mu=0$, the two-sided level-$\alpha$ test rejects when $|\sqrt n\,\overline X|>\Phi^{-1}(1-\alpha/2)$, and the observed p-value is
+
+$$
+p(\overline x)=2[1-\Phi(\sqrt n|\overline x|)].
+$$
+
+### Likelihood-ratio test
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Likelihood-ratio_test)
+
+A likelihood-ratio test rejects where the alternative likelihood is sufficiently large relative to the null likelihood.
+
+#### Gaussian covariance diagonality likelihood-ratio test
+
+↑ **Parent:** [Likelihood-ratio test](#likelihood-ratio-test)
+
+For independent observations from a nonsingular [multivariate normal distribution](probability-and-statistics.md#multivariate-normal-distribution) with unknown mean, let $S=n^{-1}\sum_i(y_i-\bar y)(y_i-\bar y)^T$. The unrestricted [maximum-likelihood estimator](#maximum-likelihood-estimator) of covariance is $S$, while the diagonal restriction gives $D=\operatorname{diag}(S_{11},\ldots,S_{pp})$. The fitted trace terms both equal $p$, so twice the log-likelihood difference is $W=n\log(\det D/\det S)=-n\log\det R$, where $R$ is the [sample correlation matrix](variance.md#sample-correlation-matrix). Under the diagonal null hypothesis and fixed dimension, the [Wilks theorem](statistical-inference.md#wilks-theorem) gives $W\Rightarrow\chi^2_{p(p-1)/2}$.
+
+#### Gaussian diagonal-covariance likelihood-ratio test
+
+↑ **Parent:** [Likelihood-ratio test](#likelihood-ratio-test)
+
+For independent [multivariate normal](probability-and-statistics.md#multivariate-normal-distribution) observations with unrestricted [mean](probability-theory.md#expected-value) and positive-definite [sample covariance matrix](variance.md#sample-covariance-matrix) $S=n^{-1}\sum_i(x_i-\bar x)(x_i-\bar x)^T$, the unrestricted [maximum-likelihood estimates](#maximum-likelihood-estimator) are $\bar x,S$. Requiring a diagonal population [covariance matrix](variance.md#covariance-matrix) gives the same mean and covariance estimate $D=\operatorname{diag}(S_{11},\ldots,S_{pp})$. Both fitted quadratic terms equal $np$, so their likelihood quotient is $(|S|/|D|)^{n/2}=|R|^{n/2}$, where $R=D^{-1/2}SD^{-1/2}$ is the [sample correlation matrix](variance.md#sample-correlation-matrix). Small determinants give evidence against diagonality. For two variables this is a two-sided test of their [sample correlation](variance.md#sample-correlation-coefficient).
+
+#### One-sided likelihood-ratio test for two normal variances
+
+↑ **Parent:** [Likelihood-ratio test](#likelihood-ratio-test)
+
+For independent samples from [normal distributions](probability-theory.md#normal-distribution) with separate unknown means, test equal variances against $\sigma_X^2>\sigma_Y^2$. Profiling the means gives sample means. Under the null the variance maximum is $(S_X+S_Y)/(n_X+n_Y)$; the separate maxima are $S_X/n_X$ and $S_Y/n_Y$. If the latter obey the proposed order, their likelihood quotient is
+
+$$
+\Lambda=\frac{(S_X/n_X)^{n_X/2}(S_Y/n_Y)^{n_Y/2}}{[(S_X+S_Y)/(n_X+n_Y)]^{(n_X+n_Y)/2}}.
+$$
+
+It decreases strictly as $(S_X/n_X)/(S_Y/n_Y)>1$ increases. Otherwise the ordered alternative maximum lies on the equal-variance boundary and the quotient is one. Under the null, [Cochran's theorem](#cochran-s-theorem) gives independent chi-squared residual sums with degrees $n_X-1,n_Y-1$, so rejection is in the upper tail of the displayed [F-distribution](continuous-probability-distribution.md#f-distribution) statistic, calibrated at the desired significance level.
+
+#### Boundary likelihood-ratio test for two Gaussian means
+
+↑ **Parent:** [Likelihood-ratio test](#likelihood-ratio-test)
+
+For independent unit-variance Gaussian samples with means $\mu_X,\mu_Y$, testing $\mu_X\geq A,\mu_Y=0$ against unrestricted means gives $T=-2\log\Lambda=n[\bar Y^2+(A-\bar X)_+^2]$. The unrestricted [maximum-likelihood estimators](#maximum-likelihood-estimator) are the two [sample means](variance.md#sample-mean), while the null estimators are $\max(A,\bar X)$ and zero. Under the null, write $W=\sqrt n(\bar X-A)=W_0+\delta$, $\delta=\sqrt n(\mu_X-A)\geq0$, and $Z=\sqrt n\bar Y$, with $W_0,Z$ independent standard Gaussian variables. Then $T=Z^2+(-W_0-\delta)_+^2$ decreases pointwise with $\delta$, so the largest rejection probability occurs at the boundary $\mu_X=A$. There its law is the [chi-bar-squared distribution](probability-theory.md#chi-bar-squared-distribution) $\tfrac12\chi_1^2+\tfrac12\chi_2^2$. The exact size-$\alpha$ threshold $c_\alpha$ is therefore determined by $1-\Phi(\sqrt{c_\alpha})+\tfrac12e^{-c_\alpha/2}=\alpha$.
+
+#### Single-parameter boundary likelihood-ratio test
+
+↑ **Parent:** [Likelihood-ratio test](#likelihood-ratio-test)
+
+For a scalar parameter restricted to $\psi\ge0$, test $\psi=0$ against $\psi>0$ with identifiable interior [nuisance parameters](statistical-model.md#nuisance-parameter). A locally quadratic regular likelihood has an efficient null score $Z\sim N(0,1)$, and the constrained fit projects the unconstrained local maximizer onto the nonnegative half-line. Consequently
+
+$$
+2(\ell_{\rm full}-\ell_{\rm null})\Rightarrow(\max(0,Z))^2
+\sim\tfrac12\delta_0+\tfrac12\chi^2_1.
+$$
+
+For a positive statistic, its asymptotic upper-tail [p-value](#p-value) is half the ordinary one-degree chi-squared tail. Its 5% critical value is the 90th chi-squared percentile, approximately 2.7055. Additional boundary [nuisance parameters](statistical-model.md#nuisance-parameter) or nonidentified mixture parameters can change this law.
+
+#### Variance-component likelihood-ratio test at a boundary
+
+↑ **Parent:** [Likelihood-ratio test](#likelihood-ratio-test)
+
+Testing a single nonnegative random-effect variance against zero puts the null on the boundary of the parameter space. In the usual regular increasing-independent-groups limit, the [likelihood-ratio test statistic](#likelihood-ratio-test-statistic) has limit $\tfrac12\delta_0+\tfrac12\chi_1^2$, rather than $\chi_1^2$. A finite-sample simulation calibrated for the actual design avoids relying on this asymptotic approximation.
+
+##### Location-scale invariant simulation test for a Gaussian variance component
+
+↑ **Parent:** [Variance-component likelihood-ratio test at a boundary](#variance-component-likelihood-ratio-test-at-a-boundary)
+
+With fixed $X,Z$, compare $N(X\beta,\sigma^2I)$ and $N(X\beta,\sigma^2I+\tau^2ZZ^T)$ by maximizing the ordinary [likelihood function](#likelihood-function) in both models. Their [likelihood-ratio test statistic](#likelihood-ratio-test-statistic) is unchanged by $Y\mapsto Xb+cY$, $c>0$, because both maximized log-likelihoods change by the same $-n\log c$. Its null law can therefore be simulated using independent $N(0,I)$ responses. Comparing the observed statistic with simulated statistics by $(1+\#\{T_b\geq T_{obs}\})/(B+1)$ gives a conservative finite-sample Monte Carlo p-value, subject to correctly maximizing both likelihoods.
+
+#### Likelihood ratio
+
+↑ **Parent:** [Likelihood-ratio test](#likelihood-ratio-test)
+
+For two parameter values $\theta_1$ and $\theta_0$, the likelihood ratio is $f(x\mid\theta_1)/f(x\mid\theta_0)$.
+
+##### Log-likelihood ratio
+
+↑ **Parent:** [Likelihood ratio](#likelihood-ratio)
+
+A [log-likelihood ratio](#log-likelihood-ratio) compares two [likelihoods](#likelihood-function) on an additive scale. For independent observations its increments add. Under distributions $P_0,P_1$ with suitable integrability and common support, $E_0[\log(dP_1/dP_0)]=-D(P_0\Vert P_1)\le0$ and $E_1[\log(dP_1/dP_0)]=D(P_1\Vert P_0)\ge0$, where $D$ is [Kullback-Leibler divergence](probability-and-statistics.md#kullback-leibler-divergence). This sign change motivates likelihood-based sequential monitoring.
+
+#### Likelihood-ratio test statistic
+
+↑ **Parent:** [Likelihood-ratio test](#likelihood-ratio-test)
+
+For nested null and alternative parameter spaces, the likelihood-ratio test statistic is
+
+$$
+-2\log\Lambda
+=2\left\{\sup_{\theta\in\Theta_1}\ell(\theta)
+-\sup_{\theta\in\Theta_0}\ell(\theta)\right\}.
+$$
+
+Under the regularity conditions of [Wilks theorem](statistical-inference.md#wilks-theorem), its null limit is a [chi-squared distribution](probability-theory.md#chi-squared-distribution) whose degrees of freedom equal the difference in model dimensions.
+
+##### Bartlett correction
+
+↑ **Parent:** [Likelihood-ratio test statistic](#likelihood-ratio-test-statistic)
+
+A Bartlett correction rescales a regular [likelihood-ratio test statistic](#likelihood-ratio-test-statistic) so that its null expected value matches its limiting chi-squared degrees of freedom to a higher asymptotic order. If $\mathbb E_0W=d(1+b/n+O(n^{-2}))$, divide $W$ by $1+b/n$. The operation uses a model-specific [Bartlett correction coefficient](#bartlett-correction-coefficient); matching the mean alone is not a general proof of any claimed distributional error rate.
+
+###### Bartlett-corrected likelihood-ratio statistic
+
+↑ **Parent:** [Bartlett correction](#bartlett-correction)
+
+If $\mathbb E_0W=d(1+b/n+O(n^{-2}))$, the Bartlett-corrected statistic has mean $d+O(n^{-2})$. It is commonly calibrated against a [chi-squared distribution](probability-theory.md#chi-squared-distribution) with $d$ degrees of freedom. Equivalently, to the displayed order, one may multiply $W$ by $1-b/n$.
+
+###### Bartlett correction coefficient
+
+↑ **Parent:** [Bartlett correction](#bartlett-correction)
+
+The coefficient $b$ is the leading relative null-mean discrepancy of a regular [likelihood-ratio test statistic](#likelihood-ratio-test-statistic). It is distinct from the finite-sample divisor $1+b/n$ used in a [Bartlett correction](#bartlett-correction). Different conventions call either of these a correction factor, so the normalization should always be stated explicitly.
+
+###### Bartlett correction for a normal variance with unknown mean
+
+↑ **Parent:** [Bartlett correction coefficient](#bartlett-correction-coefficient)
+
+For a sample of size $n\geq2$ from a [normal distribution](probability-theory.md#normal-distribution) with unknown mean, the null variance [likelihood-ratio test statistic](#likelihood-ratio-test-statistic) is $W=n[-\log(U/n)+U/n-1]$, where $U\sim\chi^2_{n-1}$. With $V=(U-n)/n$, its expected Taylor terms start with $n[\mathbb EV^2/2-\mathbb EV^3/3+\mathbb EV^4/4]$. Here $\mathbb EV^2=(2n-1)/n^2$, $\mathbb EV^3=(2n-3)/n^3$, and $\mathbb EV^4=(12n^2+4n-15)/n^4$. Higher fixed-order terms contribute only $O(n^{-2})$ under valid termwise asymptotic integration. Thus $\mathbb E_0W=1+11/(6n)+O(n^{-2})$ and $W_B=W/[1+11/(6n)]$.
+
+#### Generalized likelihood-ratio test
+
+↑ **Parent:** [Likelihood-ratio test](#likelihood-ratio-test)
+
+A generalized likelihood-ratio test compares the likelihood maximized under the null with the likelihood maximized over the full parameter space.
+
+##### Likelihood-ratio test of area-proportional Poisson means
+
+↑ **Parent:** [Generalized likelihood-ratio test](#generalized-likelihood-ratio-test)
+
+Two equally numerous groups of independent counts with [Poisson distributions](discrete-probability-distribution.md#poisson-distribution) have areas $a$ and $2a$. Under common density their group means are in ratio $1:2$. With group sums $S_1,S_2$ and $T=S_1+S_2$, the maximized alternative-to-null likelihood ratio is
+
+$$
+\Lambda=(3S_1/T)^{S_1}(3S_2/(2T))^{S_2}.
+$$
+
+Use zero-count limits and $\Lambda=1$ when $T=0$. The regular [Wilks theorem](statistical-inference.md#wilks-theorem) calibration has one degree of freedom. Exactly conditioning on $T$ gives $S_1\sim\operatorname{Binomial}(T,1/3)$ under the null; this supports small-count testing without the large-sample approximation.
+
+##### Analysis of deviance for nested generalized linear models
+
+↑ **Parent:** [Generalized likelihood-ratio test](#generalized-likelihood-ratio-test)
+
+The deviance of a fitted generalized linear model is
+
+$$
+D=2\{\ell_{\mathrm{sat}}-\ell_{\mathrm{fit}}\}.
+$$
+
+For regular nested models, the deviance reduction $D_0-D_1=2(\ell_1-\ell_0)$ is asymptotically chi-squared with degrees of freedom equal to the difference in fitted dimensions.
+
+###### Residual deviance
+
+↑ **Parent:** [Analysis of deviance for nested generalized linear models](#analysis-of-deviance-for-nested-generalized-linear-models)
+
+The unscaled residual deviance of an [exponential dispersion family](exponential-family.md#exponential-dispersion-model) compares its fitted mean with the [saturated statistical model](#saturated-statistical-model) at a common [dispersion parameter](exponential-family.md#dispersion-parameter). Its normalization removes the factor $1/\phi$ in the [log-likelihood](#log-likelihood). In [Poisson regression](#poisson-regression) and [binomial regression](#binomial-regression), $\phi=1$, so it is twice the saturated-minus-fitted [log-likelihood](#log-likelihood). Under suitable regularity, $D/\phi$ has approximately a [chi-squared distribution](probability-theory.md#chi-squared-distribution) with the [residual degrees of freedom](#residual-degrees-of-freedom); this is not an automatic accurate approximation for sparse responses. Nested deviance reductions with estimated dispersion lead to approximate [F-tests](probability-and-statistics.md#f-test) after scaling by the dispersion estimate.
+
+###### Null deviance
+
+↑ **Parent:** [Residual deviance](#residual-deviance)
+
+The [null deviance](#null-deviance) is the unscaled [deviance](exponential-family.md#exponential-family-deviance) of the intercept-only mean model relative to the saturated model at a common [dispersion parameter](exponential-family.md#dispersion-parameter) $\phi$, retaining any known [generalized linear model offset](#generalized-linear-model-offset). It supplies a baseline against which predictor terms improve the fit. Its difference from a fitted model's [residual deviance](#residual-deviance), divided by $\phi$, is the statistic for a [likelihood-ratio test](#likelihood-ratio-test) of those added terms, with nuisance parameters handled consistently in both fits. In Poisson and binomial families, $\phi=1$.
+
+##### Likelihood-ratio test for equality of two normal means
+
+↑ **Parent:** [Generalized likelihood-ratio test](#generalized-likelihood-ratio-test)
+
+For independent unit-variance samples, testing equal means uses $Z=\sqrt{mn/(m+n)}(\bar X-\bar Y)$ and rejects for large $|Z|$.
+
+##### Nested likelihood-ratio rejection regions
+
+↑ **Parent:** [Generalized likelihood-ratio test](#generalized-likelihood-ratio-test)
+
+Likelihood-ratio tests of different null subspaces can have crossing rejection regions; comparing their quadratic-form geometry exhibits observations accepted by one and rejected by another.
+
+### Score test
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Score_test)
+
+The score test evaluates the likelihood gradient at the restricted estimator and scales its quadratic form by inverse Fisher information.
+
+#### Restricted maximum-likelihood estimator
+
+↑ **Parent:** [Score test](#score-test)
+
+A restricted maximum-likelihood estimator maximizes likelihood over the null parameter space rather than the full model.
+
+#### Score test under a simple null
+
+↑ **Parent:** [Score test](#score-test)
+
+Under a regular simple $p$-parameter null, the normalized score converges to $N_p(0,I_1)$, so its information-standardized squared norm converges to $\chi_p^2$.
+
+##### Quadratic form of a standard normal vector
+
+↑ **Parent:** [Score test under a simple null](#score-test-under-a-simple-null)
+
+If $Z\sim N_p(0,I_p)$, then $Z^TZ=\sum_{j=1}^pZ_j^2\sim\chi_p^2$.
+
+#### Residual sum of squares in a normal sample
+
+↑ **Parent:** [Score test](#score-test)
+
+For independent $N(\mu,\sigma^2)$ observations, $\sum_i(X_i-\bar X)^2/\sigma^2$ has the $\chi_{n-1}^2$ distribution.
+
+##### Chi-square central limit theorem
+
+↑ **Parent:** [Residual sum of squares in a normal sample](#residual-sum-of-squares-in-a-normal-sample)
+
+If $Q_m\sim\chi_m^2$, then $(Q_m-m)/\sqrt{2m}$ converges in distribution to $N(0,1)$.
+
+### Neyman-Pearson lemma
+
+↑ **Parent:** [Statistical hypothesis test](#statistical-hypothesis-test)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Neyman-Pearson_lemma)
+
+For testing one simple hypothesis against another, a test that rejects for sufficiently large likelihood ratio has greatest power among all tests of no greater size.
+
+#### Most powerful test for a Laplace location shift
+
+↑ **Parent:** [Neyman-Pearson lemma](#neyman-pearson-lemma)
+
+For two unit-scale [Laplace distributions](continuous-probability-distribution.md#laplace-distribution) with locations $\theta_0<\theta_1$, the [likelihood ratio](#likelihood-ratio) is nondecreasing in $X$, with constant tails and an increasing middle interval. Therefore an upper-tail [statistical test](#statistical-test) of exact [size of a statistical test](#size-of-a-statistical-test) $\alpha$ is a [most powerful test](#most-powerful-test). Its cutoff is $c_\alpha=\theta_0-\log(2\alpha)$ for $\alpha\leq1/2$, and $c_\alpha=\theta_0+\log(2(1-\alpha))$ otherwise. Under location $\theta_1$, its [statistical power](probability-and-statistics.md#statistical-power) is $\tfrac12e^{\theta_1-c_\alpha}$ if $c_\alpha\geq\theta_1$, and $1-\tfrac12e^{c_\alpha-\theta_1}$ otherwise. Constant [likelihood ratio](#likelihood-ratio) tails can make the [most powerful test](#most-powerful-test) nonunique.
+
+#### Minimum sum of errors in a simple hypothesis test
+
+↑ **Parent:** [Neyman-Pearson lemma](#neyman-pearson-lemma)
+
+For two [simple hypotheses](#simple-hypothesis) with [probability densities](quantum-mechanics.md#probability-density) $f_0,f_1$, a [critical region](#rejection-region) $C$ has sum of [Type I error](information-theory.md#type-i-and-type-ii-errors) and [Type II error](information-theory.md#type-i-and-type-ii-errors) probabilities $\int_Cf_0+\int_{C^c}f_1$. Pointwise minimization chooses $C=\{f_1>f_0\}$, with either decision allowed on the equality set. Thus the optimal [likelihood ratio](#likelihood-ratio) threshold is $1$, and the minimum is $\int\min(f_0,f_1)=1-\tfrac12\int|f_1-f_0|$. This criterion weights the two error probabilities equally; unequal costs or prior probabilities change the threshold.
+
+#### Exponential-rate likelihood-ratio test
+
+↑ **Parent:** [Neyman-Pearson lemma](#neyman-pearson-lemma)
+
+For independent [exponential distribution](continuous-probability-distribution.md#exponential-distribution) observations with rate $\lambda$, the likelihood ratio for a larger simple rate is decreasing in their sum. The [Neyman-Pearson lemma](#neyman-pearson-lemma) therefore selects a lower-tail sum threshold $c$. The sum has a [gamma distribution](continuous-probability-distribution.md#gamma-distribution), giving the displayed power; its derivative is $c e^{-\lambda c}(\lambda c)^{n-1}/(n-1)!>0$. Calibrating at $\lambda_0$ gives size $\alpha$ for the composite null $\lambda\le\lambda_0$ and a uniformly most powerful test against larger rates.
+
+#### Uniformly most powerful test for an exponential rate
+
+↑ **Parent:** [Neyman-Pearson lemma](#neyman-pearson-lemma)
+
+For independent samples from an [exponential distribution](continuous-probability-distribution.md#exponential-distribution), a test of rate at most $\lambda_0$ against rate greater than $\lambda_0$ rejects for small sample sums. All simple-alternative [likelihood ratios](#likelihood-ratio) against $\lambda_0$ decrease with that sum; its [gamma distribution](continuous-probability-distribution.md#gamma-distribution) calibrates the size at $\lambda_0$. Monotonicity of the rejection probability in the rate proves that this is a [uniformly most powerful test](#uniformly-most-powerful-test) for the composite hypotheses.
+
+#### Monotone likelihood ratio
+
+↑ **Parent:** [Neyman-Pearson lemma](#neyman-pearson-lemma)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Monotone_likelihood_ratio)
+
+A one-parameter family has a monotone likelihood ratio in a statistic $T$ when $f(x\mid\theta_1)/f(x\mid\theta_0)$ is nondecreasing in $T(x)$ whenever $\theta_1>\theta_0$.
+
+##### Posterior odds are monotone under a monotone likelihood ratio
+
+↑ **Parent:** [Monotone likelihood ratio](#monotone-likelihood-ratio)
+
+For a family with a [monotone likelihood ratio](#monotone-likelihood-ratio) in $T$, a prior density $\pi$ and cutoff $a$, the posterior odds of $\theta>a$ against $\theta\le a$ are nondecreasing in $T$. To prove it, write the unnormalized masses as $A(t)$ and $B(t)$. For $t_2>t_1$, the difference $A(t_2)B(t_1)-A(t_1)B(t_2)$ is the double integral over $\theta>a\ge\eta$ of $\pi(\theta)\pi(\eta)[f_\theta(t_2)f_\eta(t_1)-f_\theta(t_1)f_\eta(t_2)]$. Each integrand is nonnegative by the likelihood-ratio ordering. Common factors in the full-data likelihood cancel from the odds, so the same argument works when $T$ is a statistic rather than the complete observation. Interpret zero denominators by extended odds whenever the posterior is defined.
+
+##### Monotone test
+
+↑ **Parent:** [Monotone likelihood ratio](#monotone-likelihood-ratio)
+
+An upper-tail monotone test in a real statistic $T$ has rejection probability $\phi=\mathbf1_{T>c}+\eta\mathbf1_{T=c}$, with $0\le\eta\le1$; the constant tests correspond to infinite cutoffs. For a family with positive densities on a common support and a [monotone likelihood ratio](#monotone-likelihood-ratio) in $T$, its [power function](#power-function-of-a-statistical-test) can cross that of an arbitrary competing test only from below to above as the parameter increases. If $r=f_{\theta_1}/f_{\theta_0}$ and $\theta_1>\theta_0$, choose a positive number $k$ between the ratios on opposite sides of the cutoff. The signs of $\phi-\phi'$ and $r-k$ agree away from $T=c$, and $r=k$ at a boundary with positive mass. Therefore $E_{\theta_1}(\phi-\phi')\ge kE_{\theta_0}(\phi-\phi')$. In particular strict positivity at $\theta_0$ propagates to $\theta_1$. Positivity of the densities matters for this strict conclusion; with changing supports only a weak conclusion may remain.
+
+##### Karlin-Rubin theorem
+
+↑ **Parent:** [Monotone likelihood ratio](#monotone-likelihood-ratio)
+
+For a family with a [monotone likelihood ratio](#monotone-likelihood-ratio) in $T$, a level-$\alpha$ upper-tail test in $T$ is a [uniformly most powerful test](#uniformly-most-powerful-test) for the corresponding one-sided hypothesis.
+
+###### Uniformly most powerful upper-tail test for a logistic location
+
+↑ **Parent:** [Karlin-Rubin theorem](#karlin-rubin-theorem)
+
+For one observation from the [logistic distribution](#logistic-distribution), the size-$\alpha$ test of $H_0:\theta\leq0$ against $H_1:\theta>0$ rejects when
+
+$$
+X>\log\frac{1-\alpha}{\alpha}.
+$$
+
+## Grouped exponential observation
+
+↑ **Parent:** [Statistical modelling](statistical-modelling.md)
+
+Flooring an exponential variable of rate $\theta$ produces a geometric variable on the nonnegative integers with success probability $1-e^{-\theta}$.
+
+### Asymptotic information loss from grouping
+
+↑ **Parent:** [Grouped exponential observation](#grouped-exponential-observation)
+
+Coarsening continuous observations changes the delta-method variance; for floored exponential data the rate estimator has limiting variance $(e^\theta-1)^2/e^\theta$.
+
+## ↑ Ancestors (5)
+
+1. [Statistical model](statistical-model.md)
+2. [Probability and statistics](probability-and-statistics.md)
+3. [Area of mathematics](mathematics.md#area-of-mathematics)
+4. [Mathematics](mathematics.md)
+5. [Codex Wiki](README.md)
+
+## ← Incoming links (1)
+
+- [Random effect](#random-effect)

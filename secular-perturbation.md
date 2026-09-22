@@ -1,0 +1,62 @@
+# Secular perturbation
+
+↑ **Parent:** [Disturbing function](disturbing-function.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Secular_perturbation)
+
+A secular perturbation survives averaging over fast orbital phases and drives slow precession and exchange of eccentricity or inclination.
+
+**Table of contents**
+
+- [Orbit averaging](orbit-averaging.md)
+- [Angular momentum deficit](angular-momentum-deficit.md)
+- [Proper eccentricity](proper-eccentricity.md)
+  - [Proper longitude of periapsis](proper-longitude-of-periapsis.md)
+- [Laplace-Lagrange secular theory](laplace-lagrange-secular-theory.md)
+  - [Secular forcing by a distant outer planet](secular-forcing-by-a-distant-outer-planet.md)
+  - [Secular forcing of a test particle](secular-forcing-of-a-test-particle.md)
+    - [Secular phase integral for proportional mass growth](secular-phase-integral-for-proportional-mass-growth.md)
+  - [Laplace-Lagrange secular matrix](laplace-lagrange-secular-matrix.md)
+  - [Complex eccentricity](complex-eccentricity.md)
+    - [Forced eccentricity circle](forced-eccentricity-circle.md)
+  - [Secular eigenmode](secular-eigenmode.md)
+    - [Secular eigenmode amplitude product](secular-eigenmode-amplitude-product.md)
+  - [Complex inclination](complex-inclination.md)
+    - [Forced inclination](forced-inclination.md)
+    - [Laplace-Lagrange inclination matrix](laplace-lagrange-inclination-matrix.md)
+      - [Rigid inner pair in hierarchical secular inclination dynamics](rigid-inner-pair-in-hierarchical-secular-inclination-dynamics.md)
+- [Forced eccentricity](forced-eccentricity.md)
+  - [Secular resonance](secular-resonance.md)
+    - [Sweeping secular resonance](sweeping-secular-resonance.md)
+- [Eccentricity damping](eccentricity-damping.md)
+  - [Damping of coupled secular eigenmodes](damping-of-coupled-secular-eigenmodes.md)
+- [Secular torque](secular-torque.md)
+- [Quadrupole approximation](quadrupole-approximation.md)
+  - [Quadrupole potential of a circular binary](quadrupole-potential-of-a-circular-binary.md)
+    - [Circumbinary orbital-period correction](circumbinary-orbital-period-correction.md)
+- [Nodal precession](nodal-precession.md)
+  - [Differential nodal precession](differential-nodal-precession.md)
+    - [Planet-induced debris-disk warp](planet-induced-debris-disk-warp.md)
+  - [Laplace plane](laplace-plane.md)
+    - [Laplace radius](laplace-radius.md)
+- [Apsidal precession](apsidal-precession.md)
+- [Kozai–Lidov mechanism](kozai-lidov-mechanism.md)
+
+## ↑ Ancestors (7)
+
+1. [Disturbing function](disturbing-function.md)
+2. [Planetary system dynamics](planetary-system-dynamics.md)
+3. [Planetary science](planetary-science-split.md)
+4. [Astrophysics](astrophysics-split.md)
+5. [Branches of physics](branches-of-physics.md)
+6. [Physics](physics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (7)
+
+- [Asteroid](asteroid.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-64/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-316/4/viii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-316/4/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-316/3/i/solution.md)
+- [Planet-induced debris-disk warp](planet-induced-debris-disk-warp.md)
+- [Proper eccentricity](proper-eccentricity.md)

@@ -1,0 +1,62 @@
+# Manifold chart
+
+↑ **Parent:** [Differential geometry](differential-geometry-split.md)
+
+A chart is a homeomorphism from an open subset of a manifold to an open subset of Euclidean space.
+
+**Table of contents**
+
+- [Smooth atlas](smooth-atlas.md)
+  - [Smooth transition map](smooth-transition-map.md)
+- [No compact manifold has a single Euclidean chart](no-compact-manifold-has-a-single-euclidean-chart.md)
+
+## ↑ Ancestors (5)
+
+1. [Differential geometry](differential-geometry-split.md)
+2. [Geometry and topology](geometry-and-topology-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (40)
+
+- [Coordinate basis](coordinate-basis.md)
+- [Coordinate-projection atlas of an ellipsoid](coordinate-projection-atlas-of-an-ellipsoid.md)
+- [Cotangent space](cotangent-space.md)
+- [Dimension of a manifold](dimension-of-a-manifold.md)
+- [Holomorphic stereographic atlas of the sphere](holomorphic-stereographic-atlas-of-the-sphere.md)
+- [Local potential of a closed differential one-form](local-potential-of-a-closed-differential-one-form.md)
+- [Logarithm charts for the compact symplectic group](logarithm-charts-for-the-compact-symplectic-group.md)
+- [Metric volume form](metric-volume-form.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-15/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-19/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-15/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-15/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-50/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-15/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-15/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-15/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-15/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-17/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-52/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-56/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-56/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-115/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-115/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-114/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-115/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-115/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-115/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-309/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-309/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-140/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-140/2/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-309/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ib/paper-4/11f/solution.md)
+- [Product manifold](product-manifold.md)
+- [Second-countable space](second-countable-space.md)
+- [Smooth atlas](smooth-atlas.md)
+- [Smooth transition map](smooth-transition-map.md)
+- [Standard affine atlas of real projective space](standard-affine-atlas-of-real-projective-space.md)
+- [Tangent space by point derivations](tangent-space-by-point-derivations.md)
+- [Vector bundle trivialization](vector-bundle-trivialization.md)

@@ -1,0 +1,60 @@
+# Conjugation action
+
+↑ **Parent:** [Group action](group-action.md)
+
+A group acts on itself and on its subgroups by conjugation: $g\cdot x=gxg^{-1}$ and $g\cdot H=gHg^{-1}$.
+
+**Table of contents**
+
+- [Conjugates of a proper subgroup do not cover a finite group](conjugates-of-a-proper-subgroup-do-not-cover-a-finite-group.md)
+- [Conjugation](conjugation.md)
+  - [Conjugate subset](conjugate-subset.md)
+  - [Conjugate group elements](conjugate-group-elements.md)
+    - [Conjugate permutation](conjugate-permutation.md)
+- [Conjugacy class](conjugacy-class.md)
+  - [Infinite conjugacy class group](infinite-conjugacy-class-group.md)
+  - [Torsion-freeness from one nonidentity conjugacy class](torsion-freeness-from-one-nonidentity-conjugacy-class.md)
+  - [Shortest conjugacy representative](shortest-conjugacy-representative.md)
+    - [Cyclic reduction of a shortest conjugacy representative](cyclic-reduction-of-a-shortest-conjugacy-representative.md)
+  - [Conjugacy class splitting in a prime-index normal subgroup](conjugacy-class-splitting-in-a-prime-index-normal-subgroup.md)
+    - [Alternating conjugacy class splitting criterion](alternating-conjugacy-class-splitting-criterion.md)
+      - [Inversion of an odd cycle in an alternating group](inversion-of-an-odd-cycle-in-an-alternating-group.md)
+  - [Class equation](class-equation.md)
+    - [Prime-to-p conjugacy class lemma](prime-to-p-conjugacy-class-lemma.md)
+- [Centralizer and normalizer](centralizer-and-normalizer.md)
+  - [Centralizer](centralizer.md)
+    - [Centralizer of a subset](centralizer-of-a-subset.md)
+    - [Centraliser of a fixed-point-free involution](centraliser-of-a-fixed-point-free-involution.md)
+    - [Centraliser of a transposition](centraliser-of-a-transposition.md)
+  - [Normalizer](normalizer.md)
+    - [Normalizer of a diagonal subgroup of GL2](normalizer-of-a-diagonal-subgroup-of-gl2.md)
+
+## ↑ Ancestors (6)
+
+1. [Group action](group-action.md)
+2. [Group theory](group-theory-split.md)
+3. [Algebra](algebra-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (18)
+
+- [Central intersection property of normal subgroups of finite p-groups](central-intersection-property-of-normal-subgroups-of-finite-p-groups.md)
+- [Centralizer](centralizer.md)
+- [Conjugacy class](conjugacy-class.md)
+- [Conjugation module of a group ring](conjugation-module-of-a-group-ring.md)
+- [Normalizer](normalizer.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-4/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ia/paper-3/5d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-1/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ia/paper-3/5d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ia/paper-3/8d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ia/paper-3/7d/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ia/paper-3/7d/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/ib/paper-4/2g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ia/paper-3/8d/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ia/paper-3/7d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ib/paper-4/2g/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ia/paper-3/5e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-151/3/solution.md)

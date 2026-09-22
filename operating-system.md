@@ -1,0 +1,62 @@
+# Operating system
+
+↑ **Parent:** [Computer science](computer-science-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Operating_system)
+
+// Target: computer-science.bigb
+
+**Table of contents**
+
+- [Unix](unix.md)
+- [Windows XP](windows-xp.md)
+- [Polled input-output](polled-input-output.md)
+- [Access matrix](access-matrix.md)
+- [File system](file-system.md)
+  - [Buffer cache](buffer-cache.md)
+  - [File-system journaling](file-system-journaling.md)
+  - [Access control list](access-control-list.md)
+  - [File Allocation Table](file-allocation-table.md)
+    - [FAT32](fat32.md)
+  - [NTFS](ntfs.md)
+  - [Inode](inode.md)
+- [Interrupt](interrupt.md)
+  - [Interrupt-driven input-output](interrupt-driven-input-output.md)
+  - [Interrupt masking](interrupt-masking.md)
+- [Processor privilege level](processor-privilege-level.md)
+- [Multics](multics.md)
+- [Virtual memory](virtual-memory.md)
+  - [Thrashing (computer science)](thrashing-computer-science.md)
+  - [Working set](working-set.md)
+  - [Memory-mapped file](memory-mapped-file.md)
+  - [Memory segmentation](memory-segmentation.md)
+  - [Paging](paging.md)
+    - [Page replacement](page-replacement.md)
+      - [CLOCK page replacement](clock-page-replacement.md)
+      - [LRU replacement](lru-replacement.md)
+      - [FIFO page replacement](fifo-page-replacement.md)
+    - [Page fault](page-fault.md)
+    - [Translation lookaside buffer](translation-lookaside-buffer.md)
+    - [Page table](page-table.md)
+- [Set-user-ID execution](set-user-id-execution.md)
+- [Kernel (operating system)](kernel-operating-system.md)
+  - [Monolithic kernel](monolithic-kernel.md)
+  - [Microkernel](microkernel.md)
+  - [Kernel preemption](kernel-preemption.md)
+- [Process scheduling](process-scheduling.md)
+  - [Context switch](context-switch.md)
+- [Process (computing)](process-computing.md)
+  - [Thread (computing)](thread-computing.md)
+
+## ↑ Ancestors (2)
+
+1. [Computer science](computer-science-split.md)
+2. [Codex Wiki](split.md)
+
+## ← Incoming links (6)
+
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ia/paper-5/7/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ia/paper-5/7/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ia/paper-5/8/a/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ia/paper-5/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ia/paper-5/7/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ia/paper-5/8/c/ii/solution.md)

@@ -1,0 +1,46 @@
+# Paper 2
+
+↑ **Parent:** [Ib](split.md)
+
+[https://www.maths.cam.ac.uk/undergradnst/files/2007/PaperNST_IB_2.pdf](https://www.maths.cam.ac.uk/undergradnst/files/2007/PaperNST_IB_2.pdf)
+
+**Table of contents**
+
+- [1](paper-2/1.md)
+  - [Solution](paper-2/1/solution.md)
+- [2](paper-2/2.md)
+  - [i](paper-2/2/i.md)
+    - [Solution](paper-2/2/i/solution.md)
+  - [ii](paper-2/2/ii.md)
+    - [Solution](paper-2/2/ii/solution.md)
+- [3](paper-2/3.md)
+  - [i](paper-2/3/i.md)
+    - [Solution](paper-2/3/i/solution.md)
+- [4](paper-2/4.md)
+  - [Solution](paper-2/4/solution.md)
+- [5](paper-2/5.md)
+  - [i](paper-2/5/i.md)
+    - [Solution](paper-2/5/i/solution.md)
+  - [ii](paper-2/5/ii.md)
+    - [Solution](paper-2/5/ii/solution.md)
+- [6](paper-2/6.md)
+  - [Solution](paper-2/6/solution.md)
+- [7](paper-2/7.md)
+  - [Solution](paper-2/7/solution.md)
+- [8](paper-2/8.md)
+  - [Solution](paper-2/8/solution.md)
+- [9](paper-2/9.md)
+  - [Solution](paper-2/9/solution.md)
+- [10](paper-2/10.md)
+  - [Solution](paper-2/10/solution.md)
+
+## ↑ Ancestors (8)
+
+1. [Ib](split.md)
+2. [2007](../split.md)
+3. [Past exam of the natural sciences course of the University of Cambridge](../../split.md)
+4. [Natural sciences course of the University of Cambridge](../../../natural-sciences-course-of-the-university-of-cambridge.md)
+5. [Course of the University of Cambridge](../../../course-of-the-university-of-cambridge.md)
+6. [University of Cambridge](../../../university-of-cambridge-split.md)
+7. [List of universities](../../../list-of-universities.md)
+8. [Codex Wiki](../../../split.md)

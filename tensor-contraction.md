@@ -1,0 +1,53 @@
+# Tensor contraction
+
+↑ **Parent:** [Multilinear algebra](multilinear-algebra.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Tensor_contraction)
+
+**Table of contents**
+
+- [Metric trace](metric-trace.md)
+
+## ↑ Ancestors (6)
+
+1. [Multilinear algebra](multilinear-algebra.md)
+2. [Linear algebra](linear-algebra-split.md)
+3. [Algebra](algebra-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (33)
+
+- [Cartesian moments of a three-dimensional ball](cartesian-moments-of-a-three-dimensional-ball.md)
+- [Endomorphism-induced tensor derivation](endomorphism-induced-tensor-derivation.md)
+- [Flow definition of the Lie derivative of a tensor field](flow-definition-of-the-lie-derivative-of-a-tensor-field.md)
+- [Instantaneous quadrupole luminosity of a Kepler binary](instantaneous-quadrupole-luminosity-of-a-kepler-binary.md)
+- [Invariant tensor](invariant-tensor.md)
+- [Kretschmann scalar](kretschmann-scalar.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-14/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-2/1/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ib/paper-1/14a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ia/paper-3/10c/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ia/paper-3/10c/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ia/paper-3/10c/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ia/paper-3/9c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-48/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-56/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-49/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-49/1/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-56/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-115/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-309/1/iii/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-309/4/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-115/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-115/2/b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-115/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-312/1/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-322/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-329/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-305/1/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ia/paper-3/10b/b/solution.md)
+- [Pullback of a mixed tensor by a diffeomorphism](pullback-of-a-mixed-tensor-by-a-diffeomorphism.md)
+- [Tensor derivation](tensor-derivation.md)
+- [Tensor field](tensor-field.md)
+- [Universal property of a tensor product](universal-property-of-a-tensor-product.md)

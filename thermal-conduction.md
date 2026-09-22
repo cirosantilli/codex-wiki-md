@@ -1,0 +1,62 @@
+# Thermal conduction
+
+↑ **Parent:** [Heat](heat.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Thermal_conduction)
+
+Thermal conduction transfers [heat](heat.md) down a [temperature](temperature.md) gradient through microscopic interactions, without bulk transport of matter.
+
+**Table of contents**
+
+- [Temperature dipole around an insulating sphere](temperature-dipole-around-an-insulating-sphere.md)
+- [Isobaric conductive cooling in mass coordinates](isobaric-conductive-cooling-in-mass-coordinates.md)
+  - [Error-function isobaric cooling front](error-function-isobaric-cooling-front.md)
+- [Temperature gradient](temperature-gradient.md)
+- [Fourier's law](fourier-s-law.md)
+  - [Thermal conductivity](thermal-conductivity.md)
+    - [Thermal conductivity tensor](thermal-conductivity-tensor.md)
+    - [Thermal diffusivity](thermal-diffusivity.md)
+      - [Prandtl number](prandtl-number.md)
+      - [Thermal diffusion time](thermal-diffusion-time.md)
+        - [Thermal diffusion rate of a Fourier mode](thermal-diffusion-rate-of-a-fourier-mode.md)
+
+## ↑ Ancestors (6)
+
+1. [Heat](heat.md)
+2. [Thermodynamics](thermodynamics-split.md)
+3. [Statistical physics](statistical-physics-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (30)
+
+- [Constitutional superheating](constitutional-superheating.md)
+- [Convective overstability](convective-overstability.md)
+- [Icicle ripple](icicle-ripple.md)
+- [Instantaneous stationary lava-crust thickness](instantaneous-stationary-lava-crust-thickness.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-37/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-44/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-76/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-71/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-73/2/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-73/2/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-72/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-72/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-315/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-315/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-321/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-321/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-332/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-332/2/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-332/1/d/solution.md)
+- [Planetary ice shell](planetary-ice-shell.md)
+- [Porous thermal plume](porous-thermal-plume.md)
+- [Pressure-limited spherical freezing in a porous medium](pressure-limited-spherical-freezing-in-a-porous-medium.md)
+- [Recovery of summer sea ice](recovery-of-summer-sea-ice.md)
+- [Sea ice](sea-ice.md)
+- [Single-category sea-ice thermodynamic model](single-category-sea-ice-thermodynamic-model.md)
+- [Spherical freezing inside a porous cavity](spherical-freezing-inside-a-porous-cavity.md)
+- [Thermal boundary layer](thermal-boundary-layer.md)
+- [Thermal convection](thermal-convection.md)
+- [Thermal diffusion time](thermal-diffusion-time.md)
+- [Thermal-front viscous-fingering dispersion relation](thermal-front-viscous-fingering-dispersion-relation.md)

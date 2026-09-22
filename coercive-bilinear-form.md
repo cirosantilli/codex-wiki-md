@@ -1,0 +1,46 @@
+# Coercive bilinear form
+
+↑ **Parent:** [Bilinear form](bilinear-form.md)
+
+A bilinear form $B$ on a [normed vector space](normed-vector-space.md) is coercive when some $\alpha>0$ satisfies $B(v,v)\geq\alpha\lVert v\rVert^2$ for every $v$.
+
+## ↑ Ancestors (6)
+
+1. [Bilinear form](bilinear-form.md)
+2. [Linear algebra](linear-algebra-split.md)
+3. [Algebra](algebra-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (29)
+
+- [Clamped biharmonic problem](clamped-biharmonic-problem.md)
+- [Coercive variable-coefficient Dirichlet form](coercive-variable-coefficient-dirichlet-form.md)
+- [Constant-drift massive-Laplacian Dirichlet problem](constant-drift-massive-laplacian-dirichlet-problem.md)
+- [Lax-Milgram theorem](lax-milgram-theorem.md)
+- [Mixed-boundary Airy energy principle](mixed-boundary-airy-energy-principle.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-69/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-68/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-12/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-72/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-63/2/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-69/1/1/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-5/1/g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-66/7/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-341/5/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-105/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-341/5/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-341/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-4/23h/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-4/23h/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-341/7/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-105/2/c/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-105/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-105/2/e/solution.md)
+- [Quadratic variational principle for a symmetric positive operator](quadratic-variational-principle-for-a-symmetric-positive-operator.md)
+- [Ritz-Galerkin equivalence for a symmetric coercive form](ritz-galerkin-equivalence-for-a-symmetric-coercive-form.md)
+- [Stiffness matrix](stiffness-matrix.md)
+- [Strict positivity without coercivity can fail variational solvability](strict-positivity-without-coercivity-can-fail-variational-solvability.md)
+- [Symmetry and coercivity in quadratic energy minimization](symmetry-and-coercivity-in-quadratic-energy-minimization.md)
+- [Variational problem](variational-problem.md)

@@ -1,0 +1,60 @@
+<h1 id="poincare-group">Poincaré group</h1>
+
+↑ **Parent:** [Lorentz group](lorentz-group.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Poincaré_group)
+
+The Poincare group is the [semidirect product](semidirect-product.md) of spacetime translations by the [Lorentz group](lorentz-group.md). It is the isometry group of [Minkowski spacetime](minkowski-spacetime.md).
+
+**Table of contents**
+
+- [Poincare algebra](poincare-algebra.md)
+  - [Pauli-Lubanski pseudovector](pauli-lubanski-pseudovector.md)
+    - [Pauli-Lubanski orthogonality](pauli-lubanski-orthogonality.md)
+    - [Massive Pauli-Lubanski Casimir](massive-pauli-lubanski-casimir.md)
+    - [Massless longitudinal Pauli-Lubanski eigenvalues](massless-longitudinal-pauli-lubanski-eigenvalues.md)
+    - [Massive rest-frame Pauli-Lubanski eigenvalues](massive-rest-frame-pauli-lubanski-eigenvalues.md)
+- [Little group](little-group.md)
+  - [Particle polarization](particle-polarization.md)
+  - [Massless particle little group](massless-particle-little-group.md)
+    - [Massless induced representation of the Poincare double cover](massless-induced-representation-of-the-poincare-double-cover.md)
+    - [Finite-dimensional unitary representations of the massless little group have trivial translations](finite-dimensional-unitary-representations-of-the-massless-little-group-have-trivial-translations.md)
+    - [Massless little-group generators](massless-little-group-generators.md)
+    - [Massless vector particle](massless-vector-particle.md)
+  - [Massive particle little group](massive-particle-little-group.md)
+    - [Massive vector particle](massive-vector-particle.md)
+  - [Little group with mixed string boundary conditions](little-group-with-mixed-string-boundary-conditions.md)
+  - [Vector-particle polarization](vector-particle-polarization.md)
+  - [Helicity](helicity.md)
+    - [Helicity decomposition of a transverse Fourier mode](helicity-decomposition-of-a-transverse-fourier-mode.md)
+  - [Continuous-spin representation](continuous-spin-representation.md)
+  - [Wigner's classification](wigner-s-classification.md)
+    - [Massive induced representation of the Poincare double cover](massive-induced-representation-of-the-poincare-double-cover.md)
+
+## ↑ Ancestors (6)
+
+1. [Lorentz group](lorentz-group.md)
+2. [Lorentz transformation](lorentz-transformation.md)
+3. [Special relativity](special-relativity-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (17)
+
+- [Massive induced representation of the Poincare double cover](massive-induced-representation-of-the-poincare-double-cover.md)
+- [Massive Pauli-Lubanski Casimir](massive-pauli-lubanski-casimir.md)
+- [Oriented orthonormal frame bundle of Minkowski spacetime](oriented-orthonormal-frame-bundle-of-minkowski-spacetime.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-64/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-68/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-68/1/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-74/7/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-53/10/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-50/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-50/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-49/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-45/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-41/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-308/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-302/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-302/2/c/solution.md)
+- [Wigner's classification](wigner-s-classification.md)

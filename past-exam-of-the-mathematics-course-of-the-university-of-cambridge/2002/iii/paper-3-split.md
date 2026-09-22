@@ -1,0 +1,47 @@
+# Paper 3
+
+↑ **Parent:** [Iii](split.md)
+
+[https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2002/Paper3.pdf](https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2002/Paper3.pdf)
+
+**Table of contents**
+
+- [1](paper-3/1.md)
+  - [a](paper-3/1/a.md)
+    - [Solution](paper-3/1/a/solution.md)
+  - [b](paper-3/1/b.md)
+    - [Solution](paper-3/1/b/solution.md)
+  - [c](paper-3/1/c.md)
+    - [Solution](paper-3/1/c/solution.md)
+- [2](paper-3/2.md)
+  - [Solution](paper-3/2/solution.md)
+- [3](paper-3/3.md)
+  - [a](paper-3/3/a.md)
+    - [Solution](paper-3/3/a/solution.md)
+  - [b](paper-3/3/b.md)
+    - [Solution](paper-3/3/b/solution.md)
+- [4](paper-3/4.md)
+  - [a](paper-3/4/a.md)
+    - [Solution](paper-3/4/a/solution.md)
+  - [b](paper-3/4/b.md)
+    - [Solution](paper-3/4/b/solution.md)
+  - [c](paper-3/4/c.md)
+    - [Solution](paper-3/4/c/solution.md)
+- [5](paper-3/5.md)
+  - [a](paper-3/5/a.md)
+    - [Solution](paper-3/5/a/solution.md)
+  - [b](paper-3/5/b.md)
+    - [Solution](paper-3/5/b/solution.md)
+  - [c](paper-3/5/c.md)
+    - [Solution](paper-3/5/c/solution.md)
+
+## ↑ Ancestors (8)
+
+1. [Iii](split.md)
+2. [2002](../split.md)
+3. [Past exam of the mathematics course of the University of Cambridge](../../split.md)
+4. [Mathematics course of the University of Cambridge](../../../mathematics-course-of-the-university-of-cambridge.md)
+5. [Course of the University of Cambridge](../../../course-of-the-university-of-cambridge.md)
+6. [University of Cambridge](../../../university-of-cambridge-split.md)
+7. [List of universities](../../../list-of-universities.md)
+8. [Codex Wiki](../../../split.md)

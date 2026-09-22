@@ -1,0 +1,52 @@
+# Ionization
+
+↑ **Parent:** [Atomic physics](atomic-physics.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Ionization)
+
+**Table of contents**
+
+- [Three-body recombination](three-body-recombination.md)
+- [Dielectronic recombination](dielectronic-recombination.md)
+  - [Resonance-temperature dependence of dielectronic recombination](resonance-temperature-dependence-of-dielectronic-recombination.md)
+  - [Radiative stabilization](radiative-stabilization.md)
+  - [Dielectronic capture](dielectronic-capture.md)
+- [Autoionization](autoionization.md)
+- [Photoionization](photoionization.md)
+  - [Photoionization rate](photoionization-rate.md)
+  - [Photoionization heating](photoionization-heating.md)
+- [Radiative recombination](radiative-recombination.md)
+  - [Recombination line](recombination-line.md)
+  - [Effective recombination coefficient](effective-recombination-coefficient.md)
+- [Collisional ionization](collisional-ionization.md)
+  - [Excitation-autoionization](excitation-autoionization.md)
+  - [Collisional ionization equilibrium](collisional-ionization-equilibrium.md)
+    - [Coronal approximation](coronal-approximation.md)
+
+## ↑ Ancestors (3)
+
+1. [Atomic physics](atomic-physics.md)
+2. [Physics](physics-split.md)
+3. [Codex Wiki](split.md)
+
+## ← Incoming links (20)
+
+- [Astrophysical cooling function](astrophysical-cooling-function.md)
+- [Collisional ionization](collisional-ionization.md)
+- [Collisional ionization equilibrium](collisional-ionization-equilibrium.md)
+- [Hydrogen-ionization disk instability](hydrogen-ionization-disk-instability.md)
+- [Kappa mechanism](kappa-mechanism.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-37/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-70/2/f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-63/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-63/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-63/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-60/4/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-63/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-48/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-55/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-61/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-317/2/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-317/4/solution.md)
+- [Plasma (physics)](plasma-physics.md)
+- [Primordial atomic cooling curve](primordial-atomic-cooling-curve.md)
+- [Reionization optical depth in an open matter universe](reionization-optical-depth-in-an-open-matter-universe.md)

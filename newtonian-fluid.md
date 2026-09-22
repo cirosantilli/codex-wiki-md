@@ -1,0 +1,63 @@
+# Newtonian fluid
+
+↑ **Parent:** [Viscous fluid flow](viscous-fluid-flow-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Newtonian_fluid)
+
+A Newtonian fluid has viscous [stress](stress.md) proportional to the local [rate-of-strain tensor](strain-rate-tensor.md), with coefficients independent of that rate. For an isotropic fluid these coefficients are viscosities. Its [Newtonian fluid stress tensor](newtonian-fluid-stress-tensor.md) specifies the corresponding constitutive relation; the material and its [stress](stress.md) [tensor](tensor.md) are distinct concepts.
+
+**Table of contents**
+
+- [Newtonian fluid stress tensor](newtonian-fluid-stress-tensor.md)
+  - [Shear stress](shear-stress.md)
+    - [Shear velocity](shear-velocity.md)
+  - [Strain-rate tensor](strain-rate-tensor.md)
+    - [Principal strain rates](principal-strain-rates.md)
+      - [Bi-axial strain](bi-axial-strain.md)
+    - [Shear rate](shear-rate.md)
+      - [Simple shear flow](simple-shear-flow.md)
+    - [Spin tensor](spin-tensor.md)
+  - [Polar shear stress in a Newtonian fluid](polar-shear-stress-in-a-newtonian-fluid.md)
+
+## ↑ Ancestors (5)
+
+1. [Viscous fluid flow](viscous-fluid-flow-split.md)
+2. [Fluid mechanics](fluid-mechanics-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (33)
+
+- [Annular viscous extension](annular-viscous-extension.md)
+- [Bioconvection](bioconvection.md)
+- [Extensional equations for a slender Newtonian column](extensional-equations-for-a-slender-newtonian-column.md)
+- [Fluid](fluid.md)
+- [Gravity-driven ice flow on a conical slope](gravity-driven-ice-flow-on-a-conical-slope.md)
+- [Linear basal drag law](linear-basal-drag-law.md)
+- [Mantle convection](mantle-convection.md)
+- [Navier slip boundary condition](navier-slip-boundary-condition.md)
+- [Newtonian fluid stress tensor](newtonian-fluid-stress-tensor.md)
+- [Newtonian till lubrication](newtonian-till-lubrication.md)
+- [Normal stress](normal-stress.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-49/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-53/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-77/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-78/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-4/37e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-77/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-3/36b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-1/36a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-81/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ii/paper-3/37b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-73/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ii/paper-2/35e/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-332/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-334/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-334/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-342/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-332/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-334/1/a/i/solution.md)
+- [Scallop theorem](scallop-theorem.md)
+- [Subglacial till](subglacial-till.md)
+- [Unbuttressed Newtonian grounding-line stress](unbuttressed-newtonian-grounding-line-stress.md)
+- [Velocity profile](velocity-profile.md)

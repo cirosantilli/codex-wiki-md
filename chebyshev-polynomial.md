@@ -1,0 +1,61 @@
+# Chebyshev polynomial
+
+↑ **Parent:** [Numerical analysis](numerical-analysis-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Chebyshev_polynomial)
+
+$T_n(\cos\theta)=\cos(n\theta)$. These polynomials are orthogonal for weight $(1-x^2)^{-1/2}$ and support spectrally accurate approximation.
+
+**Table of contents**
+
+- [Chebyshev projection of a semicircle](chebyshev-projection-of-a-semicircle.md)
+- [Chebyshev nodal derivative comparison](chebyshev-nodal-derivative-comparison.md)
+- [Chebyshev polynomial of the second kind](chebyshev-polynomial-of-the-second-kind.md)
+- [Rational cosine of an integral submultiple of pi](rational-cosine-of-an-integral-submultiple-of-pi.md)
+- [Positivity of Chebyshev derivatives beyond the unit interval](positivity-of-chebyshev-derivatives-beyond-the-unit-interval.md)
+- [Monic Chebyshev extremal polynomial](monic-chebyshev-extremal-polynomial.md)
+- [Chebyshev polynomial domination lemma](chebyshev-polynomial-domination-lemma.md)
+  - [Chebyshev interpolation represents external evaluation](chebyshev-interpolation-represents-external-evaluation.md)
+- [Chebyshev differential equation](chebyshev-differential-equation.md)
+  - [Chebyshev derivative Sturm-Liouville pair](chebyshev-derivative-sturm-liouville-pair.md)
+
+## ↑ Ancestors (5)
+
+1. [Numerical analysis](numerical-analysis-split.md)
+2. [Analysis](analysis-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (31)
+
+- [Bernstein inequality for algebraic polynomials](bernstein-inequality-for-algebraic-polynomials.md)
+- [Chebyshev–Gauss quadrature](chebyshev-gauss-quadrature.md)
+- [Chebyshev nodal derivative comparison](chebyshev-nodal-derivative-comparison.md)
+- [Duffin-Schaeffer polynomial derivative inequality](duffin-schaeffer-polynomial-derivative-inequality.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-61/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/ib/paper-4/6c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ib/paper-2/18f/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-6/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-68/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ia/paper-1/8a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-67/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-9/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ii/paper-1/2f/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ii/paper-1/2f/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ib/paper-4/8d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-75/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-75/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ii/paper-2/2f/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-4/2f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-62/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-62/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-61/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-61/6/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-3/39a/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ia/paper-2/6c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-1/2h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-157/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/ib/paper-2/3b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/ii/paper-1/2g/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-318/2/c/solution.md)
+- [Uniqueness of Chebyshev derivative-norming nodes](uniqueness-of-chebyshev-derivative-norming-nodes.md)

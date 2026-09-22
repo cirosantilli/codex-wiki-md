@@ -1,0 +1,27 @@
+<h1 id="4f/a/solution">Solution</h1>
+
+↑ **Parent:** [A](../a.md)
+
+The [Cauchy-Schwarz inequality](../../../../../../cauchy-schwarz-inequality.md) is $|\mathbb E(XY)|^2\leq\mathbb E(X^2)\mathbb E(Y^2)$. [Markov inequality](../../../../../../markov-inequality.md) says that for $X\geq0$ and $a>0$, $\mathbb P(X\geq a)\leq\mathbb EX/a$.
+
+[Jensen inequality](../../../../../../jensen-s-inequality.md) states that for convex $\phi$,
+
+$$
+\boxed{\phi(\mathbb EX)\leq\mathbb E\phi(X).}
+$$
+
+Let $\mu=\mathbb EX$. A supporting line at $\mu$ gives $\phi(x)\geq\phi(\mu)+c(x-\mu)$. Taking expectations makes the linear term vanish.
+
+## ↑ Ancestors (11)
+
+1. [A](../a.md)
+2. [4F](../../4f.md)
+3. [Paper 2](../../../paper-2-split.md)
+4. [Ia](../../../split.md)
+5. [2018](../../../../split.md)
+6. [Past exam of the mathematics course of the University of Cambridge](../../../../../split.md)
+7. [Mathematics course of the University of Cambridge](../../../../../../mathematics-course-of-the-university-of-cambridge.md)
+8. [Course of the University of Cambridge](../../../../../../course-of-the-university-of-cambridge.md)
+9. [University of Cambridge](../../../../../../university-of-cambridge-split.md)
+10. [List of universities](../../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../../split.md)

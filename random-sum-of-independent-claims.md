@@ -1,0 +1,60 @@
+# Random sum of independent claims
+
+↑ **Parent:** [Aggregate claims model](aggregate-claims-model.md)
+
+For independent claim sizes with common [expected value](expected-value.md) $m$ and [variance](variance-split.md) $v$, independent of the nonnegative integer count $N$, the aggregate satisfies $\mathbb ES=m\mathbb EN$ and $\operatorname{Var}(S)=v\mathbb EN+m^2\operatorname{Var}(N)$. Its [moment-generating function](moment-generating-function.md) is $G_N(M_X(t))$ wherever finite. These identities follow from the [law of total expectation](law-of-total-expectation.md) and [law of total variance](law-of-total-variance.md).
+
+**Table of contents**
+
+- [Compound mixed Poisson distribution](compound-mixed-poisson-distribution.md)
+- [Compound binomial distribution](compound-binomial-distribution.md)
+  - [Binomial accident portfolio with Poisson clusters](binomial-accident-portfolio-with-poisson-clusters.md)
+- [Compound geometric distribution](compound-geometric-distribution.md)
+  - [Zero-based geometric sum of exponential variables](zero-based-geometric-sum-of-exponential-variables.md)
+- [Negative-binomial sum of exponential claims](negative-binomial-sum-of-exponential-claims.md)
+  - [Finite Erlang-mixture tail for a negative-binomial exponential aggregate](finite-erlang-mixture-tail-for-a-negative-binomial-exponential-aggregate.md)
+- [Random-sum transform identity](random-sum-transform-identity.md)
+  - [Cumulant composition for a random sum](cumulant-composition-for-a-random-sum.md)
+- [Geometric-sum moment-generating function](geometric-sum-moment-generating-function.md)
+  - [Geometric sum of shape-two gamma variables](geometric-sum-of-shape-two-gamma-variables.md)
+- [Compound Poisson distribution](compound-poisson-distribution.md)
+  - [Nested Poisson flood count](nested-poisson-flood-count.md)
+  - [Covariance of two components of a compound Poisson sum](covariance-of-two-components-of-a-compound-poisson-sum.md)
+  - [Zero claim sizes in a compound Poisson representation](zero-claim-sizes-in-a-compound-poisson-representation.md)
+  - [Compound Poisson cumulants](compound-poisson-cumulants.md)
+  - [Normal approximation to a compound Poisson aggregate](normal-approximation-to-a-compound-poisson-aggregate.md)
+  - [Three-cumulant shifted gamma approximation](three-cumulant-shifted-gamma-approximation.md)
+  - [Raw moment recursion for a compound Poisson distribution](raw-moment-recursion-for-a-compound-poisson-distribution.md)
+  - [Retained compound Poisson aggregate](retained-compound-poisson-aggregate.md)
+- [Hurdle decomposition of a positive random sum](hurdle-decomposition-of-a-positive-random-sum.md)
+- [Gamma-mixed Poisson aggregate with exponential claims](gamma-mixed-poisson-aggregate-with-exponential-claims.md)
+
+## ↑ Ancestors (6)
+
+1. [Aggregate claims model](aggregate-claims-model.md)
+2. [Actuarial statistics](actuarial-statistics-split.md)
+3. [Probability and statistics](probability-and-statistics-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (18)
+
+- [Claim size](claim-size.md)
+- [Compound mixed Poisson distribution](compound-mixed-poisson-distribution.md)
+- [Cumulant composition for a random sum](cumulant-composition-for-a-random-sum.md)
+- [Hurdle decomposition of a positive random sum](hurdle-decomposition-of-a-positive-random-sum.md)
+- [Negative-binomial sum of exponential claims](negative-binomial-sum-of-exponential-claims.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-35/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-45/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-37/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-38/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-38/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-40/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-31/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-31/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-34/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-34/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-34/1/solution.md)
+- [Poisson size-bias identity](poisson-size-bias-identity.md)
+- [Zero-based geometric sum of exponential variables](zero-based-geometric-sum-of-exponential-variables.md)

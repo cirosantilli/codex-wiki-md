@@ -1,0 +1,61 @@
+# Potential flow
+
+↑ **Parent:** [Fluid mechanics](fluid-mechanics-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Potential_flow)
+
+Potential flow is irrotational flow represented as the gradient of a scalar potential.
+
+**Table of contents**
+
+- [Corner sink in a semi-infinite channel](corner-sink-in-a-semi-infinite-channel.md)
+- [Rankine half-body](rankine-half-body.md)
+- [Radial source flow](radial-source-flow.md)
+- [Potential dipole](potential-dipole.md)
+- [Point source](point-source.md)
+  - [Source dipole](source-dipole.md)
+  - [Three-dimensional point source](three-dimensional-point-source.md)
+  - [Hydrodynamic attraction of a plane wall to a point source](hydrodynamic-attraction-of-a-plane-wall-to-a-point-source.md)
+- [Sink flow in a sector](sink-flow-in-a-sector.md)
+  - [Similarity solution for a sink-flow boundary layer](similarity-solution-for-a-sink-flow-boundary-layer.md)
+- [Potential flow around a translating sphere](potential-flow-around-a-translating-sphere.md)
+- [Spherically symmetric incompressible radial flow](spherically-symmetric-incompressible-radial-flow.md)
+  - [Rayleigh equation for an inviscid spherical bubble](rayleigh-equation-for-an-inviscid-spherical-bubble.md)
+    - [Pressure-work energy balance for a spherical bubble](pressure-work-energy-balance-for-a-spherical-bubble.md)
+    - [First integral of polytropic spherical-bubble motion](first-integral-of-polytropic-spherical-bubble-motion.md)
+  - [Rayleigh-Plesset equation](rayleigh-plesset-equation.md)
+    - [Rayleigh collapse of a spherical cavity](rayleigh-collapse-of-a-spherical-cavity.md)
+- [Squeezing wedge flow](squeezing-wedge-flow.md)
+
+## ↑ Ancestors (4)
+
+1. [Fluid mechanics](fluid-mechanics-split.md)
+2. [Branches of physics](branches-of-physics.md)
+3. [Physics](physics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (24)
+
+- [Airfoil](airfoil.md)
+- [Dissipation estimate for high-Reynolds-number bubble drag](dissipation-estimate-for-high-reynolds-number-bubble-drag.md)
+- [Equipotential curve](equipotential-curve.md)
+- [Orthogonal-field magnetic Rayleigh-Taylor dispersion relation](orthogonal-field-magnetic-rayleigh-taylor-dispersion-relation.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/ib/paper-3/18g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-45/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-73/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-74/4/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-77/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ib/paper-1/17e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-4/37e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ib/paper-1/17a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-74/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ib/paper-4/18b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-72/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-78/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-314/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-3/38b/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-2/39c/c/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/ib/paper-4/16d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/ii/paper-1/40a/a/solution.md)
+- [Potential dipole](potential-dipole.md)
+- [Rayleigh equation for an inviscid spherical bubble](rayleigh-equation-for-an-inviscid-spherical-bubble.md)
+- [Three-dimensional point source](three-dimensional-point-source.md)

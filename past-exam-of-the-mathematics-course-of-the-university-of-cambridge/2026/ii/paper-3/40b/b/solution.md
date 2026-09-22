@@ -1,0 +1,19 @@
+<h1 id="40b/b/solution">Solution</h1>
+
+↑ **Parent:** [B](../b.md)
+
+The error equation has right side $O(h^4)$. With $\|A_h^{-1}\|_2\le C/h^2$, it follows that $\|e\|_2=O(h^2)$.
+
+## ↑ Ancestors (11)
+
+1. [B](../b.md)
+2. [40B](../../40b.md)
+3. [Paper 3](../../../paper-3-split.md)
+4. [Ii](../../../split.md)
+5. [2026](../../../../split.md)
+6. [Past exam of the mathematics course of the University of Cambridge](../../../../../split.md)
+7. [Mathematics course of the University of Cambridge](../../../../../../mathematics-course-of-the-university-of-cambridge.md)
+8. [Course of the University of Cambridge](../../../../../../course-of-the-university-of-cambridge.md)
+9. [University of Cambridge](../../../../../../university-of-cambridge-split.md)
+10. [List of universities](../../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../../split.md)

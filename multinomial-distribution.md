@@ -1,0 +1,62 @@
+# Multinomial distribution
+
+↑ **Parent:** [Discrete probability distribution](discrete-probability-distribution-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Multinomial_distribution)
+
+The multinomial distribution gives the category counts from $n$ independent trials with category probabilities $p_1,\ldots,p_k$.
+
+**Table of contents**
+
+- [Constrained Poisson and multinomial likelihood equivalence](constrained-poisson-and-multinomial-likelihood-equivalence.md)
+- [Negative multinomial distribution](negative-multinomial-distribution.md)
+  - [Finite-sample bias in a negative multinomial probability estimator](finite-sample-bias-in-a-negative-multinomial-probability-estimator.md)
+- [Multinomial central limit theorem](multinomial-central-limit-theorem.md)
+- [Uniform balls-in-bins allocation](uniform-balls-in-bins-allocation.md)
+  - [Poisson limit for occupancy fractions](poisson-limit-for-occupancy-fractions.md)
+- [Multinomial likelihood](multinomial-likelihood.md)
+  - [Multinomial deviance](multinomial-deviance.md)
+- [Categorical distribution](categorical-distribution.md)
+
+## ↑ Ancestors (7)
+
+1. [Discrete probability distribution](discrete-probability-distribution-split.md)
+2. [Probability distribution](probability-distribution.md)
+3. [Probability theory](probability-theory-split.md)
+4. [Probability and statistics](probability-and-statistics-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (31)
+
+- [Categorical thinning of a Poisson claim count](categorical-thinning-of-a-poisson-claim-count.md)
+- [Conditional multinomial sufficient statistics](conditional-multinomial-sufficient-statistics.md)
+- [Constrained Poisson and multinomial likelihood equivalence](constrained-poisson-and-multinomial-likelihood-equivalence.md)
+- [Discrete-time multi-state model](discrete-time-multi-state-model.md)
+- [EM for merged multinomial cells](em-for-merged-multinomial-cells.md)
+- [Gamma-integrated baseline Poisson likelihood](gamma-integrated-baseline-poisson-likelihood.md)
+- [Multinomial collision proof of three-dimensional walk transience](multinomial-collision-proof-of-three-dimensional-walk-transience.md)
+- [Multinomial deviance](multinomial-deviance.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/ib/paper-2/10h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-29/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-40/6/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-41/1/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ib/paper-1/7d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ib/paper-4/9d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ib/paper-3/8c/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-47/6/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-47/6/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-34/2/h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-34/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-34/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ia/paper-2/10f/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ib/paper-1/7h/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ib/paper-4/9h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-4/5j/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-4/5j/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-221/1/i/b/solution.md)
+- [Poisson offspring clusters directed by their parent process](poisson-offspring-clusters-directed-by-their-parent-process.md)
+- [Poisson surrogate for a conditional multinomial model](poisson-surrogate-for-a-conditional-multinomial-model.md)
+- [Poisson trick](poisson-trick.md)
+- [Rao-Blackwellization of a multinomial probability product](rao-blackwellization-of-a-multinomial-probability-product.md)
+- [Uniform balls-in-bins allocation](uniform-balls-in-bins-allocation.md)

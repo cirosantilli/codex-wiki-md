@@ -1,0 +1,61 @@
+# General linear group over a finite field
+
+↑ **Parent:** [Finite group theory](finite-group-theory-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/General_linear_group_over_a_finite_field)
+
+The group $GL_n(\mathbb F_q)$ consists of invertible $n$ by $n$ matrices over the finite field $\mathbb F_q$.
+
+**Table of contents**
+
+- [Conjugacy-class generating function for finite general linear groups](conjugacy-class-generating-function-for-finite-general-linear-groups.md)
+- [Unitary group over a finite field](unitary-group-over-a-finite-field.md)
+- [Projective special unitary group over a finite field](projective-special-unitary-group-over-a-finite-field.md)
+- [Parabolic stabilizer of a subspace](parabolic-stabilizer-of-a-subspace.md)
+- [Symplectic group over a finite field](symplectic-group-over-a-finite-field.md)
+  - [Symplectic quotient of the binary subset module](symplectic-quotient-of-the-binary-subset-module.md)
+  - [Perfectness of finite symplectic groups](perfectness-of-finite-symplectic-groups.md)
+  - [Symplectic transvection](symplectic-transvection.md)
+  - [Projective symplectic group over a finite field](projective-symplectic-group-over-a-finite-field.md)
+- [Inverse-transpose automorphism](inverse-transpose-automorphism.md)
+- [Maximal subgroups of GL3 over F2](maximal-subgroups-of-gl3-over-f2.md)
+  - [Elementary abelian subgroups in GL3 over F2](elementary-abelian-subgroups-in-gl3-over-f2.md)
+- [Singer cycle](singer-cycle.md)
+- [Order-p matrices in GL2 over the prime field](order-p-matrices-in-gl2-over-the-prime-field.md)
+- [Faithful four-point action of GL2 over F2](faithful-four-point-action-of-gl2-over-f2.md)
+- [Order of a general linear group over a finite field](order-of-a-general-linear-group-over-a-finite-field.md)
+- [Upper unitriangular group](upper-unitriangular-group.md)
+  - [Center of an upper unitriangular group](center-of-an-upper-unitriangular-group.md)
+  - [Unitriangular matrix power formula](unitriangular-matrix-power-formula.md)
+  - [Unitriangular group of degree three over F3](unitriangular-group-of-degree-three-over-f3.md)
+- [Projective general linear group action on the projective line](projective-general-linear-group-action-on-the-projective-line.md)
+  - [Sharply three-transitive on a projective line](sharply-three-transitive-on-a-projective-line.md)
+  - [Projective line](projective-line.md)
+  - [Sylow 2-subgroup of PGL2 over F4](sylow-2-subgroup-of-pgl2-over-f4.md)
+- [Special linear group over a finite field](special-linear-group-over-a-finite-field.md)
+  - [Unique involution in SL2 over an odd field](unique-involution-in-sl2-over-an-odd-field.md)
+  - [SL2 over F2 as a permutation group](sl2-over-f2-as-a-permutation-group.md)
+  - [Projective special linear group over a finite field](projective-special-linear-group-over-a-finite-field.md)
+    - [Exterior-square realization of PSL4 over F2](exterior-square-realization-of-psl4-over-f2.md)
+    - [Projective special linear group over the field with five elements](projective-special-linear-group-over-the-field-with-five-elements.md)
+      - [Quaternion construction of an index-five subgroup of PSL2 over F5](quaternion-construction-of-an-index-five-subgroup-of-psl2-over-f5.md)
+  - [Unipotent conjugacy in SL2 over a finite field](unipotent-conjugacy-in-sl2-over-a-finite-field.md)
+  - [SL2 action on a finite projective line](sl2-action-on-a-finite-projective-line.md)
+
+## ↑ Ancestors (6)
+
+1. [Finite group theory](finite-group-theory-split.md)
+2. [Group theory](group-theory-split.md)
+3. [Algebra](algebra-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (7)
+
+- [Equality-pattern orbits of projective triples](equality-pattern-orbits-of-projective-triples.md)
+- [Faithful four-point action of GL2 over F2](faithful-four-point-action-of-gl2-over-f2.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-1/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ib/paper-3/1g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-4/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/ia/paper-3/7e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ib/paper-4/9g/solution.md)

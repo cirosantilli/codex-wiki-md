@@ -1,0 +1,60 @@
+# Parabolic wave equation
+
+↑ **Parent:** [Phase screen](phase-screen.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Parabolic_wave_equation)
+
+The parabolic wave equation is a one-way, slowly varying envelope approximation to the [Helmholtz equation](helmholtz-equation.md). For carrier wavenumber $k$ and transverse coordinate $z$, a common form is $2ikE_x+E_{zz}=0$.
+
+**Table of contents**
+
+- [Stationary intensity under free paraxial propagation](stationary-intensity-under-free-paraxial-propagation.md)
+- [Mutual coherence in a white-noise parabolic medium](mutual-coherence-in-a-white-noise-parabolic-medium.md)
+- [Norm conservation for the scalar parabolic wave equation](norm-conservation-for-the-scalar-parabolic-wave-equation.md)
+- [Colored Gaussian paraxial mean propagator](colored-gaussian-paraxial-mean-propagator.md)
+- [Paraxial approximation](paraxial-approximation.md)
+- [Split-step Fourier method](split-step-fourier-method.md)
+- [Free-space diffraction](free-space-diffraction.md)
+  - [Sommerfeld half-plane diffraction](sommerfeld-half-plane-diffraction.md)
+    - [Wiener-Hopf solution of rigid half-plane diffraction](wiener-hopf-solution-of-rigid-half-plane-diffraction.md)
+  - [Fresnel propagator](fresnel-propagator.md)
+    - [One-dimensional transverse Fresnel propagation](one-dimensional-transverse-fresnel-propagation.md)
+  - [Free-space fourth-moment propagator](free-space-fourth-moment-propagator.md)
+
+## ↑ Ancestors (7)
+
+1. [Phase screen](phase-screen.md)
+2. [Helmholtz equation](helmholtz-equation.md)
+3. [Partial differential equation](partial-differential-equation-split.md)
+4. [Analysis](analysis-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (26)
+
+- [Coherent attenuation in a white-noise random medium](coherent-attenuation-in-a-white-noise-random-medium.md)
+- [Fresnel propagator](fresnel-propagator.md)
+- [Gaussian beam with one transverse coordinate](gaussian-beam-with-one-transverse-coordinate.md)
+- [Gaussian coherent-field propagation in the Markov approximation](gaussian-coherent-field-propagation-in-the-markov-approximation.md)
+- [Mutual coherence in a white-noise parabolic medium](mutual-coherence-in-a-white-noise-parabolic-medium.md)
+- [One-dimensional transverse Fresnel propagation](one-dimensional-transverse-fresnel-propagation.md)
+- [Paraxial approximation](paraxial-approximation.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-80/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-80/3/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-88/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-78/3/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-78/3/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-76/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-76/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-335/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-335/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-335/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-335/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-335/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-335/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-335/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-335/1/ii/solution.md)
+- [Quadratic refractive-index shift in the coherent field](quadratic-refractive-index-shift-in-the-coherent-field.md)
+- [Spectral acoustic flux](spectral-acoustic-flux.md)
+- [Stationary intensity under free paraxial propagation](stationary-intensity-under-free-paraxial-propagation.md)
+- [Weak-fluctuation memory equation for the coherent field](weak-fluctuation-memory-equation-for-the-coherent-field.md)

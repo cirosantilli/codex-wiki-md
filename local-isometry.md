@@ -1,0 +1,62 @@
+# Local isometry
+
+↑ **Parent:** [First fundamental form](first-fundamental-form.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Local_isometry)
+
+A local isometry between [Riemannian manifolds](riemannian-manifold.md) is a [local diffeomorphism](local-diffeomorphism.md) $f$ with $f^*g_N=g_M$. Equivalently, its differentials are isometric [linear isomorphisms](linear-isomorphism.md) between [tangent spaces](tangent-space.md). It preserves the [Levi-Civita connection](levi-civita-connection.md), intrinsic [sectional curvature](sectional-curvature.md), and affinely parametrized [geodesics](geodesic.md). A map whose differentials are merely isometric injections is an [isometric immersion](isometric-immersion.md); the [local diffeomorphism](local-diffeomorphism.md) requirement distinguishes these notions.
+
+**Table of contents**
+
+- [Local isometries are determined by first-order data](local-isometries-are-determined-by-first-order-data.md)
+- [Complete local isometry is a covering](complete-local-isometry-is-a-covering.md)
+- [Geodesic preservation by a local isometry](geodesic-preservation-by-a-local-isometry.md)
+  - [Geodesic-preserving homothety that is not a local isometry](geodesic-preserving-homothety-that-is-not-a-local-isometry.md)
+- [Riemannian isometry](riemannian-isometry.md)
+  - [Orientation-reversing Riemannian isometry](orientation-reversing-riemannian-isometry.md)
+- [Local isometry from a circular cone to the plane](local-isometry-from-a-circular-cone-to-the-plane.md)
+  - [Geodesics on a punctured circular cone](geodesics-on-a-punctured-circular-cone.md)
+
+## ↑ Ancestors (6)
+
+1. [First fundamental form](first-fundamental-form.md)
+2. [Differential geometry](differential-geometry-split.md)
+3. [Geometry and topology](geometry-and-topology-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (33)
+
+- [Catenoid is a minimal surface](catenoid-is-a-minimal-surface.md)
+- [Complete local isometry is a covering](complete-local-isometry-is-a-covering.md)
+- [Flat circular metrics with trivial holonomy](flat-circular-metrics-with-trivial-holonomy.md)
+- [Isometric immersion](isometric-immersion.md)
+- [Local isometries are determined by first-order data](local-isometries-are-determined-by-first-order-data.md)
+- [Nowhere locally homogeneous metric](nowhere-locally-homogeneous-metric.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-16/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-16/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-16/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-19/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-19/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-20/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-15/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-15/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-20/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-20/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-19/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-19/5/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-19/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-14/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-56/1/c/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-15/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-16/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ib/paper-4/15f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-115/4/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-131/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-4/25i/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-4/25h/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ii/paper-1/26f/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ib/paper-2/11f/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ii/paper-3/25i/a/solution.md)
+- [Riemannian covering](riemannian-covering.md)
+- [Sunada local isometry lemma](sunada-local-isometry-lemma.md)

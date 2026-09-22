@@ -1,0 +1,61 @@
+# Grassmannian
+
+↑ **Parent:** [Differential geometry](differential-geometry-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Grassmannian)
+
+The Grassmannian $\operatorname{Gr}(k,V)$ parametrizes the $k$-dimensional linear subspaces of a finite-dimensional vector space $V$. Its Plücker embedding makes it a projective algebraic variety.
+
+**Table of contents**
+
+- [Grassmannian of locally free quotients](grassmannian-of-locally-free-quotients.md)
+  - [Standard affine charts of the quotient Grassmannian](standard-affine-charts-of-the-quotient-grassmannian.md)
+- [Plücker embedding](plucker-embedding.md)
+  - [Plücker coordinates](plucker-coordinates.md)
+    - [Line-plane incidence in Plücker coordinates](line-plane-incidence-in-plucker-coordinates.md)
+  - [Klein quadric](klein-quadric.md)
+- [Flag manifold](flag-manifold.md)
+- [Grassmann graph](grassmann-graph.md)
+- [Grassmannian as projection matrices](grassmannian-as-projection-matrices.md)
+  - [Complex Grassmannian as orthogonal projections](complex-grassmannian-as-orthogonal-projections.md)
+    - [Diagonal trace Morse function on a complex Grassmannian](diagonal-trace-morse-function-on-a-complex-grassmannian.md)
+      - [Integral homology of complex Grassmannians](integral-homology-of-complex-grassmannians.md)
+  - [Rank-one orthogonal projection](rank-one-orthogonal-projection.md)
+  - [Real projective plane](real-projective-plane.md)
+    - [Parity of real projective plane-curve intersections](parity-of-real-projective-plane-curve-intersections.md)
+    - [Integral homology of two real projective planes](integral-homology-of-two-real-projective-planes.md)
+    - [Metric on the antipodal sphere quotient](metric-on-the-antipodal-sphere-quotient.md)
+
+## ↑ Ancestors (5)
+
+1. [Differential geometry](differential-geometry-split.md)
+2. [Geometry and topology](geometry-and-topology-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (24)
+
+- [Complex Grassmannian as orthogonal projections](complex-grassmannian-as-orthogonal-projections.md)
+- [Complex tautological bundle on a Grassmannian](complex-tautological-bundle-on-a-grassmannian.md)
+- [Complexified compactified Minkowski space](complexified-compactified-minkowski-space.md)
+- [Cubic surface line incidence variety](cubic-surface-line-incidence-variety.md)
+- [Fano scheme](fano-scheme.md)
+- [Finite-dimensional embedding of a complex vector bundle](finite-dimensional-embedding-of-a-complex-vector-bundle.md)
+- [Grassmannian of locally free quotients](grassmannian-of-locally-free-quotients.md)
+- [Incidence proof that a cubic surface contains a line](incidence-proof-that-a-cubic-surface-contains-a-line.md)
+- [Kernel bundle of a surjective vector bundle morphism](kernel-bundle-of-a-surjective-vector-bundle-morphism.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-14/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-15/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-16/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-22/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-17/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-21/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-18/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-59/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-59/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-3/5/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-142/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-115/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-167/4/i/solution.md)
+- [Rank orbit of a matrix under left-right multiplication](rank-orbit-of-a-matrix-under-left-right-multiplication.md)
+- [Twistor correspondence](twistor-correspondence.md)

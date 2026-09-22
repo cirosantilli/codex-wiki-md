@@ -1,0 +1,60 @@
+# Symplectic Lie algebra
+
+↑ **Parent:** [Simple Lie algebra](simple-lie-algebra.md)
+
+For a nondegenerate alternating matrix $J$, the symplectic Lie algebra is $\mathfrak{sp}_{2n}=\{A:AJ+JA^T=0\}$.
+
+**Table of contents**
+
+- [Matrix root basis of the symplectic Lie algebra](matrix-root-basis-of-the-symplectic-lie-algebra.md)
+- [Tensor-square decomposition of the defining symplectic representation](tensor-square-decomposition-of-the-defining-symplectic-representation.md)
+- [Compact symplectic Lie algebra](compact-symplectic-lie-algebra.md)
+  - [Matrix-unit basis of the compact symplectic Lie algebra](matrix-unit-basis-of-the-compact-symplectic-lie-algebra.md)
+- [Symplectic root sl2 triple](symplectic-root-sl2-triple.md)
+- [Exceptional isomorphism between sp4 and so5](exceptional-isomorphism-between-sp4-and-so5.md)
+- [Tensor-square decomposition of the defining sp4 representation](tensor-square-decomposition-of-the-defining-sp4-representation.md)
+- [Cn root system](cn-root-system.md)
+  - [Cn Dynkin diagrams](cn-dynkin-diagrams.md)
+  - [Positive-root data for Cn](positive-root-data-for-cn.md)
+  - [Cn Weyl group](cn-weyl-group.md)
+  - [C2 root system](c2-root-system.md)
+  - [C3 root system](c3-root-system.md)
+    - [Rank-two subsystems of a C3 root system](rank-two-subsystems-of-a-c3-root-system.md)
+    - [Weyl chamber geometry of C3](weyl-chamber-geometry-of-c3.md)
+    - [Cartan matrix convention for C3](cartan-matrix-convention-for-c3.md)
+
+## ↑ Ancestors (9)
+
+1. [Simple Lie algebra](simple-lie-algebra.md)
+2. [Semisimple Lie algebra](semisimple-lie-algebra-split.md)
+3. [Lie algebra](lie-algebra-split.md)
+4. [Lie theory](lie-theory-split.md)
+5. [Diagonal dominance](diagonal-dominance.md)
+6. [Algebra](algebra-split.md)
+7. [Area of mathematics](area-of-mathematics.md)
+8. [Mathematics](mathematics-split.md)
+9. [Codex Wiki](split.md)
+
+## ← Incoming links (21)
+
+- [Compact symplectic Lie algebra](compact-symplectic-lie-algebra.md)
+- [Crystal of the defining symplectic representation](crystal-of-the-defining-symplectic-representation.md)
+- [Exceptional isomorphism between sp4 and so5](exceptional-isomorphism-between-sp4-and-so5.md)
+- [Matrix root basis of the symplectic Lie algebra](matrix-root-basis-of-the-symplectic-lie-algebra.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-57/6/a/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-2/2/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-4/5/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-4/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-6/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-1/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-1/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-1/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-102/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-102/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-102/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-102/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-102/3/i/solution.md)
+- [Primitive exterior square](primitive-exterior-square.md)
+- [Symplectic contraction of an exterior square](symplectic-contraction-of-an-exterior-square.md)
+- [Symplectic root sl2 triple](symplectic-root-sl2-triple.md)
+- [Tensor-square decomposition of the defining sp4 representation](tensor-square-decomposition-of-the-defining-sp4-representation.md)

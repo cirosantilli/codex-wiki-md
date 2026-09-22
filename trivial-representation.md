@@ -1,0 +1,60 @@
+# Trivial representation
+
+↑ **Parent:** [Group representation](group-representation.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Trivial_representation)
+
+The trivial representation sends every group element to the identity linear map.
+
+**Table of contents**
+
+- [Gauge singlet](gauge-singlet.md)
+- [Scalar representation](scalar-representation.md)
+
+## ↑ Ancestors (6)
+
+1. [Group representation](group-representation.md)
+2. [Representation theory](representation-theory-split.md)
+3. [Algebra](algebra-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (37)
+
+- [Character expansion of the identity delta](character-expansion-of-the-identity-delta.md)
+- [Colour singlet](colour-singlet.md)
+- [Cyclic vector for a group representation](cyclic-vector-for-a-group-representation.md)
+- [Gauge singlet](gauge-singlet.md)
+- [Higgs conjugate doublet](higgs-conjugate-doublet.md)
+- [Horizontal strip](horizontal-strip.md)
+- [Indecomposable projectives of S3 in characteristic three](indecomposable-projectives-of-s3-in-characteristic-three.md)
+- [Mean-zero function](mean-zero-function.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-21/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-3/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-3/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-19/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-4/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-4/1/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-43/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-45/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-4/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-103/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-103/5/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-111/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-4/18g/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-103/4/c/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-103/5/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-103/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-128/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-103/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-138/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-1/19i/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-3/19i/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-3/19i/b/iii/solution.md)
+- [Pieri rule](pieri-rule.md)
+- [Principal block](principal-block.md)
+- [Quasirandom group](quasirandom-group.md)
+- [Regular label of the modular sign representation](regular-label-of-the-modular-sign-representation.md)
+- [Scalar representation](scalar-representation.md)
+- [Trivial character](trivial-character.md)
+- [Young subgroup](young-subgroup.md)

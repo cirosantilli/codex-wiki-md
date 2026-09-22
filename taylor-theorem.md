@@ -1,0 +1,62 @@
+# Taylor theorem
+
+↑ **Parent:** [Calculus](calculus-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Taylor_theorem)
+
+The Taylor theorem expresses a sufficiently differentiable function as a finite [Taylor polynomial](taylor-polynomial.md) plus a remainder.
+
+**Table of contents**
+
+- [Taylor expansion from a periodic derivative equation](taylor-expansion-from-a-periodic-derivative-equation.md)
+- [Integral first-order Taylor formula for a vector map](integral-first-order-taylor-formula-for-a-vector-map.md)
+- [Integral remainder in Taylor theorem](integral-remainder-in-taylor-theorem.md)
+  - [Logarithmic series from an integral Taylor remainder](logarithmic-series-from-an-integral-taylor-remainder.md)
+- [Taylor expansion](taylor-expansion.md)
+  - [Peano zero](peano-zero.md)
+  - [Parabolic approximation](parabolic-approximation.md)
+- [Taylor formula for a polynomial](taylor-formula-for-a-polynomial.md)
+- [Taylor theorem with Lagrange remainder](taylor-theorem-with-lagrange-remainder.md)
+- [Taylor remainder](taylor-remainder.md)
+- [Taylor formula with integral remainder](taylor-formula-with-integral-remainder.md)
+- [Taylor series](taylor-series.md)
+
+## ↑ Ancestors (6)
+
+1. [Calculus](calculus-split.md)
+2. [Real analysis](real-analysis-split.md)
+3. [Analysis](analysis-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (29)
+
+- [Differentiability of distribution translations](differentiability-of-distribution-translations.md)
+- [Lindeberg replacement method](lindeberg-replacement-method.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/ia/paper-3/9a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/ib/paper-3/13e/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-27/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-34/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-69/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-71/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-4/2f/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-15/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-12/6/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-33/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-60/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-70/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-5/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-9/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-1/18d/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-4/8d/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-340/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-3/40c/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-2/28j/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ib/paper-2/17c/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-318/5/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-355/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-107/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-168/4/ii/solution.md)
+- [Smooth completing-square proof of the Morse lemma](smooth-completing-square-proof-of-the-morse-lemma.md)
+- [Spline quasi-interpolation](spline-quasi-interpolation.md)
+- [Zero-dimensional quartic perturbation series](zero-dimensional-quartic-perturbation-series.md)

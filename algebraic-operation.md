@@ -1,0 +1,51 @@
+# Algebraic operation
+
+↑ **Parent:** [Algebra](algebra-split.md)
+
+An algebraic operation combines one or more elements of a set to produce another element.
+
+**Table of contents**
+
+- [Binary operation](binary-operation.md)
+  - [Distributive property](distributive-property.md)
+  - [Idempotence](idempotence.md)
+  - [Commutativity](commutativity.md)
+  - [Associative operation](associative-operation.md)
+    - [Semigroup](semigroup.md)
+      - [Rectangular band](rectangular-band.md)
+        - [Cartesian closed category of rectangular bands](cartesian-closed-category-of-rectangular-bands.md)
+      - [Idempotent element of a semigroup](idempotent-element-of-a-semigroup.md)
+      - [Semigroup presentation](semigroup-presentation.md)
+        - [Finite semigroup presentation](finite-semigroup-presentation.md)
+          - [Semigroup simulation of a Turing machine](semigroup-simulation-of-a-turing-machine.md)
+      - [Subsemigroup](subsemigroup.md)
+      - [Monoid](monoid.md)
+        - [Monoid action](monoid-action.md)
+          - [Right monoid action](right-monoid-action.md)
+            - [Exponential of right monoid actions](exponential-of-right-monoid-actions.md)
+              - [Exponential of right group actions](exponential-of-right-group-actions.md)
+          - [Equivariant map of monoid sets](equivariant-map-of-monoid-sets.md)
+          - [M-set](m-set.md)
+        - [Monoid homomorphism](monoid-homomorphism.md)
+        - [Monoid automorphism](monoid-automorphism.md)
+        - [Free monoid](free-monoid.md)
+        - [Commutative monoid](commutative-monoid.md)
+          - [Free commutative monoid](free-commutative-monoid.md)
+          - [Cancellative commutative monoid](cancellative-commutative-monoid.md)
+            - [Congruence submonoid of the positive integers](congruence-submonoid-of-the-positive-integers.md)
+              - [Nonunique factorization in a congruence submonoid](nonunique-factorization-in-a-congruence-submonoid.md)
+            - [Irreducible element of a commutative monoid](irreducible-element-of-a-commutative-monoid.md)
+            - [Torsion-free cancellative commutative monoid](torsion-free-cancellative-commutative-monoid.md)
+          - [Category of commutative monoids](category-of-commutative-monoids.md)
+      - [Additive semigroup](additive-semigroup.md)
+        - [Face of an additive monoid](face-of-an-additive-monoid.md)
+      - [Topological semigroup](topological-semigroup.md)
+        - [Left-topological semigroup](left-topological-semigroup.md)
+          - [Ellis–Numakura lemma](ellis-numakura-lemma.md)
+
+## ↑ Ancestors (4)
+
+1. [Algebra](algebra-split.md)
+2. [Area of mathematics](area-of-mathematics.md)
+3. [Mathematics](mathematics-split.md)
+4. [Codex Wiki](split.md)

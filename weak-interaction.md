@@ -1,0 +1,60 @@
+# Weak interaction
+
+↑ **Parent:** [Standard Model](standard-model-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Weak_interaction)
+
+The weak interaction is the short-range chiral interaction mediated by the $W$ and $Z$ bosons. Above the electroweak scale it is part of the unbroken $SU(2)_L\times U(1)_Y$ electroweak gauge theory.
+
+**Table of contents**
+
+- [Charged-lepton flavor violation](charged-lepton-flavor-violation.md)
+  - [Dimension-six Higgs Yukawa misalignment](dimension-six-higgs-yukawa-misalignment.md)
+- [Charged current](charged-current.md)
+  - [Orthogonal completion of mixed neutral lepton kinetic terms](orthogonal-completion-of-mixed-neutral-lepton-kinetic-terms.md)
+  - [Lepton universality](lepton-universality.md)
+  - [Quark mixing](quark-mixing.md)
+  - [Transverse massless leptonic current](transverse-massless-leptonic-current.md)
+  - [Weak flavour selection in neutrino-electron scattering](weak-flavour-selection-in-neutrino-electron-scattering.md)
+  - [Helicity suppression](helicity-suppression.md)
+  - [Weak charged-current quark scattering](weak-charged-current-quark-scattering.md)
+    - [Neutrino scattering on an antiquark](neutrino-scattering-on-an-antiquark.md)
+    - [Chiral weak-current trace contraction](chiral-weak-current-trace-contraction.md)
+    - [Angular asymmetry of a chiral charged-current interaction](angular-asymmetry-of-a-chiral-charged-current-interaction.md)
+- [Neutral current](neutral-current.md)
+  - [Neutral-current vector and axial couplings](neutral-current-vector-and-axial-couplings.md)
+  - [Flavor-changing neutral current](flavor-changing-neutral-current.md)
+    - [GIM mechanism](gim-mechanism.md)
+    - [Glashow-Iliopoulos-Maiani mechanism](glashow-iliopoulos-maiani-mechanism.md)
+
+## ↑ Ancestors (5)
+
+1. [Standard Model](standard-model-split.md)
+2. [Quantum field theory](quantum-field-theory-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (22)
+
+- [Charged weak box contribution to kaon mixing](charged-weak-box-contribution-to-kaon-mixing.md)
+- [CP symmetry](cp-symmetry.md)
+- [Flavor eigenstate](flavor-eigenstate.md)
+- [Neutron half-life effect on primordial helium](neutron-half-life-effect-on-primordial-helium.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-55/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-1/10d/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-61/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-61/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-53/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-53/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-62/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-62/3/v/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-53/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-52/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-52/4/solution.md)
+- [2](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-53/2.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ii/paper-4/8c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-305/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-305/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-305/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-305/1/i/solution.md)
+- [Weak-decoupling temperature estimate](weak-decoupling-temperature-estimate.md)

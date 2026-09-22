@@ -1,0 +1,62 @@
+# Electric potential
+
+↑ **Parent:** [Electric field](electric-field.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Electric_potential)
+
+In electrostatics the electric field is $E=-\nabla\Phi$, where $\Phi$ is the electric potential.
+
+**Table of contents**
+
+- [Constrained electrostatic equilibrium](constrained-electrostatic-equilibrium.md)
+- [Electrostatic reciprocity identity](electrostatic-reciprocity-identity.md)
+- [Image charge](image-charge.md)
+  - [Fall time of a charge toward a grounded plane](fall-time-of-a-charge-toward-a-grounded-plane.md)
+  - [Falling charge above a grounded conducting plane](falling-charge-above-a-grounded-conducting-plane.md)
+  - [Image charge for a grounded conducting sphere](image-charge-for-a-grounded-conducting-sphere.md)
+- [Electric potential difference](electric-potential-difference.md)
+- [Point charge](point-charge.md)
+- [Equipotential](equipotential.md)
+
+## ↑ Ancestors (5)
+
+1. [Electric field](electric-field.md)
+2. [Electromagnetism](electromagnetism-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (33)
+
+- [Coulomb potential energy](coulomb-potential-energy.md)
+- [Current dipole](current-dipole.md)
+- [Dipole line-integral identity](dipole-line-integral-identity.md)
+- [Electric multipole expansion](electric-multipole-expansion.md)
+- [Electric potential difference](electric-potential-difference.md)
+- [Electrochemistry](electrochemistry.md)
+- [Electromagnetic four-potential](electromagnetic-four-potential.md)
+- [Electrostatic energy of a uniformly charged solid sphere](electrostatic-energy-of-a-uniformly-charged-solid-sphere.md)
+- [Electrostatic potential energy of point charges](electrostatic-potential-energy-of-point-charges.md)
+- [Geselowitz formula](geselowitz-formula.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ib/paper-1/16h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ib/paper-1/16g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ib/paper-2/6e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ib/paper-1/16b/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ib/paper-2/6b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ib/paper-4/7b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ib/paper-4/7b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-76/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ib/paper-1/16a/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ib/paper-1/16a/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/ib/paper-4/7d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-48/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-75/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-311/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ia/paper-4/10a/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ib/paper-1/16a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ib/paper-2/6a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ib/paper-1/16d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ib/paper-2/5d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ib/paper-4/5d/a/solution.md)
+- [Radial current dipole](radial-current-dipole.md)
+- [Spherical Neumann dipole images](spherical-neumann-dipole-images.md)
+- [Uniform current in a straight homogeneous wire](uniform-current-in-a-straight-homogeneous-wire.md)

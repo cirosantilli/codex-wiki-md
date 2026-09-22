@@ -1,0 +1,45 @@
+# Torque-free
+
+↑ **Parent:** [Stokes flow](stokes-flow-split.md)
+
+A body or swimmer is torque-free when the resultant external torque, including the moment of hydrodynamic traction, vanishes.
+
+## ↑ Ancestors (6)
+
+1. [Stokes flow](stokes-flow-split.md)
+2. [Viscous fluid flow](viscous-fluid-flow-split.md)
+3. [Fluid mechanics](fluid-mechanics-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (28)
+
+- [Force-free straight-rod orientation equation](force-free-straight-rod-orientation-equation.md)
+- [Hydrodynamic torque](hydrodynamic-torque.md)
+- [Logarithmic lubrication resistance of a sphere near a wall](logarithmic-lubrication-resistance-of-a-sphere-near-a-wall.md)
+- [Microswimmer](microswimmer.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-47/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-47/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-74/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-77/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-77/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-77/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-68/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-73/1/b/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-77/3/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-80/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-329/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-334/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-329/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-342/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-329/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-329/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-329/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-329/1/b/solution.md)
+- [Rod excess dissipation in shear](rod-excess-dissipation-in-shear.md)
+- [Self-mobility correction from a distant force-free sphere](self-mobility-correction-from-a-distant-force-free-sphere.md)
+- [Sphere in a uniform straining Stokes flow](sphere-in-a-uniform-straining-stokes-flow.md)
+- [Stresslet reflection between two force-free and forced spheres](stresslet-reflection-between-two-force-free-and-forced-spheres.md)
+- [Suppressed spin from a force-free distant sphere](suppressed-spin-from-a-force-free-distant-sphere.md)
+- [Vanishing reaction rotor in a helical swimmer](vanishing-reaction-rotor-in-a-helical-swimmer.md)

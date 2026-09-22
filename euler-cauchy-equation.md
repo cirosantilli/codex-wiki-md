@@ -1,0 +1,36 @@
+# Euler-Cauchy equation
+
+↑ **Parent:** [Cauchy-Euler equation](cauchy-euler-equation.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Euler-Cauchy_equation)
+
+## ↑ Ancestors (9)
+
+1. [Cauchy-Euler equation](cauchy-euler-equation.md)
+2. [Second-order linear differential equation](second-order-linear-differential-equation.md)
+3. [Linear ordinary differential equation](linear-ordinary-differential-equation.md)
+4. [Ordinary differential equation](ordinary-differential-equation.md)
+5. [Differential equation](differential-equation-split.md)
+6. [Analysis](analysis-split.md)
+7. [Area of mathematics](area-of-mathematics.md)
+8. [Mathematics](mathematics-split.md)
+9. [Codex Wiki](split.md)
+
+## ← Incoming links (17)
+
+- [Euler-Cauchy classification from two regular singular points](euler-cauchy-classification-from-two-regular-singular-points.md)
+- [Inverse-square weighted Dirichlet spectrum](inverse-square-weighted-dirichlet-spectrum.md)
+- [Linear density modes with polytropic pressure](linear-density-modes-with-polytropic-pressure.md)
+- [Matter-era growing and decaying density modes](matter-era-growing-and-decaying-density-modes.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-67/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-67/4/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-62/5/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-62/5/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-64/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-68/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ia/paper-2/5b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ib/paper-4/5d/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ii/paper-2/8c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-329/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-314/1/c/solution.md)
+- [Repeated-root cosmological density mode](repeated-root-cosmological-density-mode.md)
+- [Superhorizon adiabatic CDM mode in radiation domination](superhorizon-adiabatic-cdm-mode-in-radiation-domination.md)

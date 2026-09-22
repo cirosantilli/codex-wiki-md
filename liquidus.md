@@ -1,0 +1,61 @@
+# Liquidus
+
+↑ **Parent:** [Phase diagram](phase-diagram.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Liquidus)
+
+The liquidus is the locus in a [phase diagram](phase-diagram.md) above which the equilibrium state is entirely liquid. In a dilute binary solution it is often approximated locally by a linear relation such as $T_L=T_0-mC$.
+
+**Table of contents**
+
+- [Freezing-point depression](freezing-point-depression.md)
+
+## ↑ Ancestors (8)
+
+1. [Phase diagram](phase-diagram.md)
+2. [Phase coexistence curve](phase-coexistence-curve.md)
+3. [Gibbs free energy](gibbs-free-energy.md)
+4. [Thermodynamics](thermodynamics-split.md)
+5. [Statistical physics](statistical-physics-split.md)
+6. [Branches of physics](branches-of-physics.md)
+7. [Physics](physics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (37)
+
+- [Constitutional supercooling](constitutional-supercooling.md)
+- [Diffusive glacier-ablation interface law](diffusive-glacier-ablation-interface-law.md)
+- [Diffusive steadily pulled equilibrium mush](diffusive-steadily-pulled-equilibrium-mush.md)
+- [Finite-inventory directional salt rejection](finite-inventory-directional-salt-rejection.md)
+- [Freezing](freezing.md)
+- [Frozen-temperature approximation](frozen-temperature-approximation.md)
+- [Ice dissolution in saline water](ice-dissolution-in-saline-water.md)
+- [Ice layer between freshwater and cold brine](ice-layer-between-freshwater-and-cold-brine.md)
+- [Instantaneous interface kinetics](instantaneous-interface-kinetics.md)
+- [Marginal equilibrium at a mush-liquid boundary](marginal-equilibrium-at-a-mush-liquid-boundary.md)
+- [Melting](melting.md)
+- [Mushy layer](mushy-layer.md)
+- [No-flux constraint in a fixed-temperature mush](no-flux-constraint-in-a-fixed-temperature-mush.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-55/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-77/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-75/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-75/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-72/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-72/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-71/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-332/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-332/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-332/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-332/2/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-332/2/b/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-332/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-332/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-332/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-332/2/d/solution.md)
+- [Saline Stefan problem](saline-stefan-problem.md)
+- [Salinity](salinity.md)
+- [Salt rejection](salt-rejection.md)
+- [Small-diffusivity constitutional-supercooling threshold](small-diffusivity-constitutional-supercooling-threshold.md)
+- [Solidus](solidus.md)
+- [Solute conservation in a steadily pulled mush](solute-conservation-in-a-steadily-pulled-mush.md)
+- [Solute-diffusion characteristics in a fixed-temperature mush](solute-diffusion-characteristics-in-a-fixed-temperature-mush.md)
+- [Stagnant mushy-layer model](stagnant-mushy-layer-model.md)

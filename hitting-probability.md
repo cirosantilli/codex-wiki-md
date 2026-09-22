@@ -1,0 +1,62 @@
+# Hitting probability
+
+↑ **Parent:** [Markov chain](markov-chain.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Hitting_probability)
+
+A hitting probability is the probability of reaching one set before another and solves a discrete harmonic boundary problem.
+
+**Table of contents**
+
+- [Maximum occupation is not a hitting probability](maximum-occupation-is-not-a-hitting-probability.md)
+- [Tournament won by two consecutive victories](tournament-won-by-two-consecutive-victories.md)
+- [Hitting probability is the minimal nonnegative harmonic extension](hitting-probability-is-the-minimal-nonnegative-harmonic-extension.md)
+- [Splitting probability](splitting-probability.md)
+- [First-passage time](first-passage-time.md)
+  - [Brownian first-passage time](brownian-first-passage-time.md)
+    - [Exponential terminal moment below a linear Brownian boundary](exponential-terminal-moment-below-a-linear-brownian-boundary.md)
+    - [Inverse-square Gaussian law of Brownian first passage](inverse-square-gaussian-law-of-brownian-first-passage.md)
+    - [Drifted Brownian first-passage density](drifted-brownian-first-passage-density.md)
+      - [Linear-boundary Brownian first-passage distribution](linear-boundary-brownian-first-passage-distribution.md)
+      - [Truncated discounted Brownian first passage](truncated-discounted-brownian-first-passage.md)
+    - [First-passage Laplace transform for Brownian motion with drift](first-passage-laplace-transform-for-brownian-motion-with-drift.md)
+    - [Fixed-level versus simultaneous Brownian passage-time equality](fixed-level-versus-simultaneous-brownian-passage-time-equality.md)
+    - [Brownian first-passage Laplace transform](brownian-first-passage-laplace-transform.md)
+  - [First-passage-time density](first-passage-time-density.md)
+  - [Mean first-passage time](mean-first-passage-time.md)
+    - [Transition-completion time in a Markov chain](transition-completion-time-in-a-markov-chain.md)
+  - [Survival probability](survival-probability.md)
+- [Harmonic hitting probability for the balanced-difference urn](harmonic-hitting-probability-for-the-balanced-difference-urn.md)
+
+## ↑ Ancestors (7)
+
+1. [Markov chain](markov-chain.md)
+2. [Markov process](markov-process-split.md)
+3. [Probability theory](probability-theory-split.md)
+4. [Probability and statistics](probability-and-statistics-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (21)
+
+- [Harmonic function for a Markov chain](harmonic-function-for-a-markov-chain.md)
+- [Hitting probability is the minimal nonnegative harmonic extension](hitting-probability-is-the-minimal-nonnegative-harmonic-extension.md)
+- [Maximum occupation is not a hitting probability](maximum-occupation-is-not-a-hitting-probability.md)
+- [Nonnegative superharmonic function for a Markov chain](nonnegative-superharmonic-function-for-a-markov-chain.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/ib/paper-2/22h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-39/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-70/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-2/26i/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ib/paper-2/20h/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ib/paper-2/20h/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ib/paper-2/20h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-28/1/c/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ia/paper-2/11f/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ia/paper-2/11f/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ia/paper-2/11f/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ib/paper-2/20h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-201/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ib/paper-4/7h/b/solution.md)
+- [Recurrence characterized by constant nonnegative superharmonic functions](recurrence-characterized-by-constant-nonnegative-superharmonic-functions.md)
+- [Scale increments for a birth-death chain](scale-increments-for-a-birth-death-chain.md)
+- [Two-lane Markov chain with a deterministic restart](two-lane-markov-chain-with-a-deterministic-restart.md)

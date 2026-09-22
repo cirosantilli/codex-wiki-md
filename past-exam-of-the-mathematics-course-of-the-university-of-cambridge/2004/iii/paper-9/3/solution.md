@@ -1,0 +1,37 @@
+<h1 id="3/solution">Solution</h1>
+
+↑ **Parent:** [3](../3.md)
+
+For a plane domain, the following are equivalent descriptions of a [simply connected domain](../../../../../simply-connected-domain.md): every [based loop](../../../../../based-loop.md) contracts in the domain with its basepoint fixed; any two [paths](../../../../../continuous-path.md) with the same endpoints are [homotopic](../../../../../homotopy.md) while those endpoints stay fixed; its complement in the [Riemann sphere](../../../../../riemann-sphere.md) is [connected](../../../../../connected-space.md); every [holomorphic function](../../../../../holomorphic-function.md) has a single-valued primitive; and every nowhere-zero [holomorphic function](../../../../../holomorphic-function.md) has a [holomorphic logarithm](../../../../../holomorphic-logarithm.md). The complement must be taken in the extended plane, including infinity. An equivalent [winding number](../../../../../winding-number.md) formulation is that every closed curve has index zero about every point outside the domain.
+
+Here is a direct equivalence proof for the first two topological formulations. If all [paths](../../../../../continuous-path.md) with given endpoints are [homotopic](../../../../../homotopy.md) relative to those endpoints, apply this to a loop based at $a$ and the constant [path](../../../../../continuous-path.md) at $a$, obtaining a contraction. Conversely, let $\gamma_0,\gamma_1$ join $a$ to $b$. The loop $\gamma_0*\gamma_1^{-1}$ contracts with basepoint fixed. Concatenating this contraction with $\gamma_1$ produces a [homotopy](../../../../../homotopy.md) from $\gamma_0*\gamma_1^{-1}*\gamma_1$ to $\gamma_1$, relative to $a,b$. The middle retracing excursion contracts by shortening its traversal in both directions, giving a [homotopy](../../../../../homotopy.md) from that first [path](../../../../../continuous-path.md) to $\gamma_0$. Hence $\gamma_0$ and $\gamma_1$ are [homotopic](../../../../../homotopy.md) relative to their endpoints. Planar domains are [path-connected](../../../../../path-connected-space.md), so no extra path-component condition is needed.
+
+The analytic descriptions follow from [path independence](../../../../../path-independence.md) of the holomorphic integral. Local primitives exist on discs by integrating [power series](../../../../../power-series.md); a [homotopy](../../../../../homotopy.md) can be subdivided into pieces lying in such discs, and local [path](../../../../../continuous-path.md) integrals cancel along its common edges. Thus integrals over [homotopic](../../../../../homotopy.md) [paths](../../../../../continuous-path.md) agree, giving a global primitive. Applied to $h'/h$ for a nowhere-zero function, a primitive $H$ makes $he^{-H}$ constant and hence supplies a [holomorphic logarithm](../../../../../holomorphic-logarithm.md). These observations are also the tools used in the mapping proof below.
+
+The [Riemann mapping theorem](../../../../../riemann-mapping-theorem.md) states that every nonempty [simply connected](../../../../../simply-connected-space.md) proper domain $D\subsetneq\mathbb C$ admits a [conformal bijection](../../../../../biholomorphism.md) onto the [unit disc](../../../../../unit-disc.md). Given $z_0\in D$, there is exactly one such map with $f(z_0)=0$ and $f'(z_0)>0$. The exclusion of the whole plane is necessary: an [entire](../../../../../entire-function.md) map into the disc would be constant by [Liouville's theorem](../../../../../liouville-theorem.md).
+
+An extremal proof has the following concrete steps. First construct an [injective](../../../../../injective-function.md) bounded holomorphic map. Choose $a\notin D$ and a [holomorphic square root](../../../../../holomorphic-square-root.md) $h$ of $z-a$. It is [injective](../../../../../injective-function.md), since equality of its values implies equality of their squares. Its image is disjoint from its negative: $h(z)=-h(w)$ would imply $z=w$ and then $h(z)=0$, impossible. If $b=h(z_0)$, choose $r>0$ with $B(b,r)\subset h(D)$; the disc $B(-b,r)$ is omitted. Therefore $1/(h+b)$ is [injective](../../../../../injective-function.md) and bounded. Scaling it and applying an [automorphism of the unit disk](../../../../../automorphism-of-the-unit-disk.md) gives a map into the disc taking $z_0$ to zero; a [rotation](../../../../../rotation-mathematics.md) makes its [derivative](../../../../../derivative.md) positive.
+
+Let $\mathcal U$ consist of all [injective](../../../../../injective-function.md) maps $D\to\mathbb D$ with this normalization. It is nonempty. The [derivative](../../../../../derivative.md) at $z_0$ is bounded above by the [Cauchy integral formula](../../../../../cauchy-integral-formula.md) on a small disc compactly contained in $D$. Choose $f_n\in\mathcal U$ with [derivatives](../../../../../derivative.md) tending to their positive supremum $L$. Boundedness, the [Cauchy estimates](../../../../../cauchy-estimate.md) and a diagonal [Arzelà-Ascoli theorem](../../../../../arzela-ascoli-theorem.md) argument give a subsequence converging locally uniformly to $f$; this is the bounded-family form of the [Montel theorem](../../../../../montel-s-theorem.md). Then $f(z_0)=0$, $f'(z_0)=L>0$, and the [maximum modulus principle](../../../../../maximum-modulus-principle.md) puts its image in the open disc. The limit is [injective](../../../../../injective-function.md): if distinct $z,w$ had $f(z)=f(w)$, apply [Hurwitz's theorem](../../../../../hurwitz-s-theorem.md) near $w$ to $f_n(\cdot)-f_n(z)$, which has no zero there; the limit would vanish identically, contradicting $f'(z_0)>0$.
+
+Finally suppose $a\in\mathbb D$ is omitted by $f$. It is nonzero since $f(z_0)=0$. Let $T_a(w)=(w-a)/(1-\overline a w)$ and choose a [holomorphic square root](../../../../../holomorphic-square-root.md) $h$ of $T_a\circ f$. It is [injective](../../../../../injective-function.md) and takes values in the disc. Put $b=h(z_0)$, so $|b|=\sqrt{|a|}$, and normalize $T_b\circ h$ by a [rotation](../../../../../rotation-mathematics.md). The new map's [derivative](../../../../../derivative.md) magnitude at $z_0$ is
+
+$$
+\frac{(1-|a|^2)L}{2\sqrt{|a|}(1-|a|)}
+=\frac{1+|a|}{2\sqrt{|a|}}L>L.
+$$
+
+This [square-root improvement of a normalized conformal map](../../../../../square-root-improvement-of-a-normalized-conformal-map.md) contradicts extremality. Thus $f$ is onto. Two normalized [bijections](../../../../../bijection.md) differ by a [disc automorphism](../../../../../automorphism-of-the-unit-disk.md) fixing zero; [Schwarz lemma](../../../../../schwarz-lemma.md) applied to it and its inverse makes it a [rotation](../../../../../rotation-mathematics.md), and positivity of the normalized [derivatives](../../../../../derivative.md) forces that [rotation](../../../../../rotation-mathematics.md) to be the identity. This completes the requested proof outline.
+
+## ↑ Ancestors (10)
+
+1. [3](../3.md)
+2. [Paper 9](../../paper-9-split.md)
+3. [Iii](../../split.md)
+4. [2004](../../../split.md)
+5. [Past exam of the mathematics course of the University of Cambridge](../../../../split.md)
+6. [Mathematics course of the University of Cambridge](../../../../../mathematics-course-of-the-university-of-cambridge.md)
+7. [Course of the University of Cambridge](../../../../../course-of-the-university-of-cambridge.md)
+8. [University of Cambridge](../../../../../university-of-cambridge-split.md)
+9. [List of universities](../../../../../list-of-universities.md)
+10. [Codex Wiki](../../../../../split.md)

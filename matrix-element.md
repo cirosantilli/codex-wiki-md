@@ -1,0 +1,45 @@
+# Matrix element
+
+↑ **Parent:** [Matrix](matrix.md)
+
+A matrix element $A_{ij}$ is the entry in row $i$ and column $j$ of a [matrix](matrix.md) $A$.
+
+## ↑ Ancestors (8)
+
+1. [Matrix](matrix.md)
+2. [Linear map](linear-map.md)
+3. [Vector space](vector-space-split.md)
+4. [Linear algebra](linear-algebra-split.md)
+5. [Algebra](algebra-split.md)
+6. [Area of mathematics](area-of-mathematics.md)
+7. [Mathematics](mathematics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (26)
+
+- [Avoided crossing](avoided-crossing.md)
+- [Depth-first quantum circuit path summation](depth-first-quantum-circuit-path-summation.md)
+- [Hadronic tensor](hadronic-tensor.md)
+- [Kaon bag parameter](kaon-bag-parameter.md)
+- [Leptonic tensor](leptonic-tensor.md)
+- [Massless leptonic W decay width](massless-leptonic-w-decay-width.md)
+- [Naive factorization of a nonleptonic meson decay](naive-factorization-of-a-nonleptonic-meson-decay.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-53/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-53/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-53/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-54/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-63/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-63/4/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-63/4/a/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-63/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-305/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-305/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-305/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-305/4/c/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-324/4/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ib/paper-1/15a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ib/paper-3/6c/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ii/paper-2/15d/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-323/2/iii/solution.md)
+- [Pseudoscalar-to-pseudoscalar form factor](pseudoscalar-to-pseudoscalar-form-factor.md)
+- [Sparse matrix](sparse-matrix.md)

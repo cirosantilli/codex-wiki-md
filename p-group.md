@@ -1,0 +1,38 @@
+# P-group
+
+↑ **Parent:** [Finite group theory](finite-group-theory-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/P-group)
+
+## ↑ Ancestors (6)
+
+1. [Finite group theory](finite-group-theory-split.md)
+2. [Group theory](group-theory-split.md)
+3. [Algebra](algebra-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (22)
+
+- [Abelian subgroup cannot have prime-power index in a nonabelian simple group](abelian-subgroup-cannot-have-prime-power-index-in-a-nonabelian-simple-group.md)
+- [Center of a group](center-of-a-group.md)
+- [Minimal cyclic factorization criterion for powerful p-groups](minimal-cyclic-factorization-criterion-for-powerful-p-groups.md)
+- [Monomiality of irreducible representations of finite p-groups](monomiality-of-irreducible-representations-of-finite-p-groups.md)
+- [P-elementary group](p-elementary-group.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-1/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-2/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-2/2/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-2/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-4/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-4/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ib/paper-3/11g/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-7/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-4/19g/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-2/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-24/5/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-2/11e/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ib/paper-1/10e/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ib/paper-1/10e/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-3/17g/b/solution.md)
+- [Pro-p subgroup](pro-p-subgroup.md)
+- [Simple group embedding from Sylow conjugation](simple-group-embedding-from-sylow-conjugation.md)

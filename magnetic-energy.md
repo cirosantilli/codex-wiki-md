@@ -1,0 +1,61 @@
+# Magnetic energy
+
+↑ **Parent:** [Electromagnetic energy](electromagnetic-energy.md)
+
+In vacuum-permeability [magnetohydrodynamics](magnetohydrodynamics.md), the [magnetic energy](magnetic-energy.md) in a volume is $E_B=\int B^2/(2\mu_0)\,dV$. Its volume density equals the [magnetic pressure](magnetic-pressure.md).
+
+**Table of contents**
+
+- [Magnetic energy spectrum](magnetic-energy-spectrum.md)
+
+## ↑ Ancestors (8)
+
+1. [Electromagnetic energy](electromagnetic-energy.md)
+2. [Poynting theorem](poynting-theorem.md)
+3. [Poynting vector](poynting-vector.md)
+4. [Electromagnetic wave](electromagnetic-wave.md)
+5. [Electromagnetism](electromagnetism-split.md)
+6. [Branches of physics](branches-of-physics.md)
+7. [Physics](physics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (38)
+
+- [Backus' necessary condition for dynamo action](backus-necessary-condition-for-dynamo-action.md)
+- [Barotropic magnetic energy equation](barotropic-magnetic-energy-equation.md)
+- [Critical mass-to-flux ratio](critical-mass-to-flux-ratio.md)
+- [Elsässer energy invariant](elsasser-energy-invariant.md)
+- [Ideal magnetohydrodynamic energy conservation](ideal-magnetohydrodynamic-energy-conservation.md)
+- [Magnetic concentration by an incompressible stagnation flow](magnetic-concentration-by-an-incompressible-stagnation-flow.md)
+- [Magnetic energy](magnetic-energy.md)
+- [Magnetic-energy injection by differential boundary rotation](magnetic-energy-injection-by-differential-boundary-rotation.md)
+- [Magnetic-energy lower bound from helicity](magnetic-energy-lower-bound-from-helicity.md)
+- [Magnetic energy spectrum](magnetic-energy-spectrum.md)
+- [Magnetic free-decay spectral bound](magnetic-free-decay-spectral-bound.md)
+- [Magnetic relaxation](magnetic-relaxation.md)
+- [Magnetic stretching moment growth](magnetic-stretching-moment-growth.md)
+- [Maximum-strain bound on dynamo growth](maximum-strain-bound-on-dynamo-growth.md)
+- [Mean-field shearing-wave transient amplification](mean-field-shearing-wave-transient-amplification.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-36/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-36/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-36/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-38/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-43/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-64/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-65/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-65/3/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-75/3/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-69/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-70/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-74/1/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-75/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-67/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-74/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-74/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-74/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-54/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-57/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-60/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-314/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-314/1/b/solution.md)
+- [Perpendicular magnetohydrodynamic shock](perpendicular-magnetohydrodynamic-shock.md)

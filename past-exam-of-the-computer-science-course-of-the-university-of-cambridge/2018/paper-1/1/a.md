@@ -1,0 +1,26 @@
+<h1 id="1/a">a</h1>
+
+↑ **Parent:** [1](../1.md)
+
+**Table of contents**
+
+- [i](a/i.md)
+  - [Solution](a/i/solution.md)
+- [ii](a/ii.md)
+  - [Solution](a/ii/solution.md)
+- [iii](a/iii.md)
+  - [Solution](a/iii/solution.md)
+- [iv](a/iv.md)
+  - [Solution](a/iv/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [1](../1.md)
+2. [Paper 1](../../paper-1-split.md)
+3. [2018](../../split.md)
+4. [Past exam of the computer science course of the University of Cambridge](../../../split.md)
+5. [Computer science course of the University of Cambridge](../../../../computer-science-course-of-the-university-of-cambridge.md)
+6. [Course of the University of Cambridge](../../../../course-of-the-university-of-cambridge.md)
+7. [University of Cambridge](../../../../university-of-cambridge-split.md)
+8. [List of universities](../../../../list-of-universities.md)
+9. [Codex Wiki](../../../../split.md)

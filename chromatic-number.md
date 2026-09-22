@@ -1,0 +1,60 @@
+# Chromatic number
+
+↑ **Parent:** [Graph coloring](graph-coloring.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Chromatic_number)
+
+The chromatic number $\chi(G)$ is the least number of colours in a proper vertex colouring of $G$.
+
+**Table of contents**
+
+- [Chromatic number of Euclidean space](chromatic-number-of-euclidean-space.md)
+- [Colour-critical vertex](colour-critical-vertex.md)
+- [Mycielskian](mycielskian.md)
+- [Graphs of arbitrarily high girth and chromatic number](graphs-of-arbitrarily-high-girth-and-chromatic-number.md)
+- [Brooks' theorem](brooks-theorem.md)
+
+## ↑ Ancestors (6)
+
+1. [Graph coloring](graph-coloring.md)
+2. [Graph theory](graph-theory-split.md)
+3. [Foundations of mathematics](foundations-of-mathematics-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (34)
+
+- [Balanced complete multipartite blow-up](balanced-complete-multipartite-blow-up.md)
+- [Chromatic number of the half-density binomial random graph](chromatic-number-of-the-half-density-binomial-random-graph.md)
+- [Chromatic polynomial determines a Turán graph](chromatic-polynomial-determines-a-turan-graph.md)
+- [Colour-critical vertex](colour-critical-vertex.md)
+- [Crown graph](crown-graph.md)
+- [Four color theorem](four-color-theorem.md)
+- [Greedy coloring](greedy-coloring.md)
+- [Lovász number](lovasz-number.md)
+- [Lovász theorem on Kneser graphs](lovasz-theorem-on-kneser-graphs.md)
+- [Minimum degree of an extremal forbidden-subgraph graph](minimum-degree-of-an-extremal-forbidden-subgraph-graph.md)
+- [Modular intersection graph](modular-intersection-graph.md)
+- [Octahedral graph](octahedral-graph.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-11/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-4/17f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-11/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-1/17f/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-3/17f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ii/paper-3/17f/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ii/paper-3/17f/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-4/17f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-12/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-12/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-13/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-110/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-1/16h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-1/17i/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-3/17i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-110/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-3/17g/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ii/paper-1/17f/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ii/paper-3/17f/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-1/17h/a/solution.md)
+- [Turán density](turan-density.md)
+- [Vertex exposure for chromatic number](vertex-exposure-for-chromatic-number.md)

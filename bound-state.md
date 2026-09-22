@@ -1,0 +1,62 @@
+# Bound state
+
+↑ **Parent:** [Quantum state](quantum-state.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Bound_state)
+
+A bound state is a normalizable energy eigenstate spatially confined by a potential.
+
+**Table of contents**
+
+- [Coulomb bound state](coulomb-bound-state.md)
+  - [Polynomial construction of hydrogen S states](polynomial-construction-of-hydrogen-s-states.md)
+
+## ↑ Ancestors (6)
+
+1. [Quantum state](quantum-state.md)
+2. [Quantum system](quantum-system.md)
+3. [Quantum mechanics](quantum-mechanics-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (39)
+
+- [Bound-state thresholds for a square well with one hard wall](bound-state-thresholds-for-a-square-well-with-one-hard-wall.md)
+- [Crossed-channel pole in diagonal factorized scattering](crossed-channel-pole-in-diagonal-factorized-scattering.md)
+- [Electron hole](electron-hole.md)
+- [Exciton](exciton.md)
+- [Exponential variational bound for the Yukawa potential](exponential-variational-bound-for-the-yukawa-potential.md)
+- [Jost function](jost-function.md)
+- [Mode-number regularization of soliton masses](mode-number-regularization-of-soliton-masses.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/ib/paper-1/18d/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/ib/paper-1/9d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-2/33b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ib/paper-2/16b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ib/paper-1/15b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ii/paper-2/34d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-1/34b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ii/paper-1/34e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/ib/paper-2/17b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/ib/paper-2/17b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-47/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-47/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-47/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-50/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-1/15b/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ib/paper-1/15b/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-2/33c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-4/33c/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-4/33c/b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ib/paper-2/14a/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-3/34c/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ii/paper-1/35b/b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ib/paper-3/6d/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/ib/paper-4/4a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/ii/paper-1/35e/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/ib/paper-1/14c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/ii/paper-1/35b/b/solution.md)
+- [Periodic-box phase-shift quantization](periodic-box-phase-shift-quantization.md)
+- [Redundant pole of a scattering matrix](redundant-pole-of-a-scattering-matrix.md)
+- [Relativistic bound-state mass from a rapidity pole](relativistic-bound-state-mass-from-a-rapidity-pole.md)
+- [Scattering s-channel](scattering-s-channel.md)
+- [Three-particle bound state from equal-mass fusion](three-particle-bound-state-from-equal-mass-fusion.md)

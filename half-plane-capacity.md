@@ -1,0 +1,81 @@
+# Half-plane capacity
+
+↑ **Parent:** [Mapping-out function of a compact H-hull](mapping-out-function-of-a-compact-h-hull.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Half-plane_capacity)
+
+The half-plane capacity of a [compact H-hull](compact-h-hull.md) is the nonnegative coefficient $a$ in
+
+$$
+g_A(z)=z+\frac{a}{z}+O(|z|^{-2}).
+$$
+
+**Table of contents**
+
+- [Half-plane capacity versus harmonic hull capacity](half-plane-capacity-versus-harmonic-hull-capacity.md)
+- [Half-plane capacity of a half-disc](half-plane-capacity-of-a-half-disc.md)
+- [Conformal change of half-plane capacity](conformal-change-of-half-plane-capacity.md)
+  - [Conformal conjugacy derivative for the chordal Loewner equation](conformal-conjugacy-derivative-for-the-chordal-loewner-equation.md)
+    - [Boundary derivative diffusion under conformal Loewner conjugacy](boundary-derivative-diffusion-under-conformal-loewner-conjugacy.md)
+    - [Transformed SLE driving function](transformed-sle-driving-function.md)
+- [Half-plane capacity of a vertical slit](half-plane-capacity-of-a-vertical-slit.md)
+- [Scaling and translation of half-plane capacity](scaling-and-translation-of-half-plane-capacity.md)
+- [Monotonicity of half-plane capacity](monotonicity-of-half-plane-capacity.md)
+  - [Half-plane-capacity composition rule](half-plane-capacity-composition-rule.md)
+- [Brownian representation of half-plane capacity](brownian-representation-of-half-plane-capacity.md)
+- [Half-plane capacity is bounded by squared diameter](half-plane-capacity-is-bounded-by-squared-diameter.md)
+- [Half-plane capacity of a low rectangle](half-plane-capacity-of-a-low-rectangle.md)
+- [Half-plane-capacity parameterization](half-plane-capacity-parameterization.md)
+
+## ↑ Ancestors (9)
+
+1. [Mapping-out function of a compact H-hull](mapping-out-function-of-a-compact-h-hull.md)
+2. [Compact H-hull](compact-h-hull.md)
+3. [Schramm–Loewner evolution](schramm-loewner-evolution.md)
+4. [Stochastic process](stochastic-process-split.md)
+5. [Probability theory](probability-theory-split.md)
+6. [Probability and statistics](probability-and-statistics-split.md)
+7. [Area of mathematics](area-of-mathematics.md)
+8. [Mathematics](mathematics-split.md)
+9. [Codex Wiki](split.md)
+
+## ← Incoming links (39)
+
+- [Capacity-parametrized scale invariance of a Loewner chain](capacity-parametrized-scale-invariance-of-a-loewner-chain.md)
+- [Composition rule for chordal Loewner driving functions](composition-rule-for-chordal-loewner-driving-functions.md)
+- [Half-plane capacity of a vertical slit](half-plane-capacity-of-a-vertical-slit.md)
+- [Harmonic capacity from infinity in the upper half-plane](harmonic-capacity-from-infinity-in-the-upper-half-plane.md)
+- [Loewner chain](loewner-chain.md)
+- [Loewner correspondence theorem](loewner-correspondence-theorem.md)
+- [Loewner variation of the Dirichlet Green function](loewner-variation-of-the-dirichlet-green-function.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-39/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-36/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-36/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-27/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-27/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-27/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-27/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-27/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-27/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-35/1/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-27/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-27/3/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-27/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-29/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-203/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-203/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-203/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-203/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-203/2/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-203/2/a/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-203/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-203/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-203/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-203/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-203/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-203/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-220/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-203/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-203/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-203/1/b/i/solution.md)
+- [Schwarz-Pick theorem](schwarz-pick-theorem.md)
+- [SLE reaches every positive height](sle-reaches-every-positive-height.md)

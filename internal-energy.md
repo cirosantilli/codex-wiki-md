@@ -1,0 +1,61 @@
+# Internal energy
+
+↑ **Parent:** [Thermodynamics](thermodynamics-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Internal_energy)
+
+Internal energy is the energy stored in the microscopic degrees of freedom of a system.
+
+**Table of contents**
+
+- [Specific internal energy](specific-internal-energy.md)
+
+## ↑ Ancestors (5)
+
+1. [Thermodynamics](thermodynamics-split.md)
+2. [Statistical physics](statistical-physics-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (40)
+
+- [Background potential energy](background-potential-energy.md)
+- [Classical ideal gas in a homogeneous soft trap](classical-ideal-gas-in-a-homogeneous-soft-trap.md)
+- [Euler relation in thermodynamics](euler-relation-in-thermodynamics.md)
+- [Finite-temperature electron equation of state](finite-temperature-electron-equation-of-state.md)
+- [Fluid total-energy equation](fluid-total-energy-equation.md)
+- [Gravitational energy generation in a homologously contracting ideal-gas star](gravitational-energy-generation-in-a-homologously-contracting-ideal-gas-star.md)
+- [Homologous adiabatic stellar stability](homologous-adiabatic-stellar-stability.md)
+- [Ideal magnetohydrodynamic energy conservation](ideal-magnetohydrodynamic-energy-conservation.md)
+- [Linear low-temperature heat capacity of a two-dimensional Fermi gas](linear-low-temperature-heat-capacity-of-a-two-dimensional-fermi-gas.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-62/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-71/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-78/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ib/paper-1/4b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-65/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-65/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-84/5/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-54/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-55/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-58/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ia/paper-4/9b/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ia/paper-4/9b/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ia/paper-4/9b/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-3/34d/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-3/34d/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-4/34d/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-314/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-314/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-314/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-317/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-317/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-317/1/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-3/35d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ii/paper-3/35a/b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-3/35a/b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-4/39c/a/solution.md)
+- [Radiative cooling](radiative-cooling.md)
+- [Relativistic rocket equation](relativistic-rocket-equation.md)
+- [Specific internal energy](specific-internal-energy.md)
+- [Stratified mixing energy budget](stratified-mixing-energy-budget.md)
+- [Thermodynamic force conjugate to an internal variable](thermodynamic-force-conjugate-to-an-internal-variable.md)

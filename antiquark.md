@@ -1,0 +1,48 @@
+# Antiquark
+
+↑ **Parent:** [Quark](quark.md)
+
+The [antiparticle](antiparticle.md) of a [quark](quark.md).
+
+## ↑ Ancestors (7)
+
+1. [Quark](quark.md)
+2. [Standard Model fermion](standard-model-fermion.md)
+3. [Standard Model](standard-model-split.md)
+4. [Quantum field theory](quantum-field-theory-split.md)
+5. [Branches of physics](branches-of-physics.md)
+6. [Physics](physics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (30)
+
+- [Antibaryon](antibaryon.md)
+- [Color charge](color-charge.md)
+- [Color multiplicity in a decay width](color-multiplicity-in-a-decay-width.md)
+- [Diquark](diquark.md)
+- [Meson](meson.md)
+- [Meson doublets with one isospin-singlet quark](meson-doublets-with-one-isospin-singlet-quark.md)
+- [Meson parity and charge conjugation](meson-parity-and-charge-conjugation.md)
+- [Neutrino scattering on an antiquark](neutrino-scattering-on-an-antiquark.md)
+- [Parton model](parton-model.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-63/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-45/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-45/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-45/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-50/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-52/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-55/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-49/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-54/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-43/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-45/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-41/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-44/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-305/3/b/solution.md)
+- [Pentaquark](pentaquark.md)
+- [Pentaquark antidecuplet](pentaquark-antidecuplet.md)
+- [Quark model](quark-model.md)
+- [Spectator quark](spectator-quark.md)
+- [Strangeness](strangeness.md)
+- [Vector meson](vector-meson.md)
+- [Zero flavour triality of a light-quark hadron](zero-flavour-triality-of-a-light-quark-hadron.md)

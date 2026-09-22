@@ -1,0 +1,63 @@
+# Quantum relative entropy
+
+↑ **Parent:** [Von Neumann entropy](von-neumann-entropy-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Quantum_relative_entropy)
+
+The quantum relative entropy is $D(\rho\|\sigma)=\operatorname{Tr}[\rho(\log\rho-\log\sigma)]$ when the support of $\rho$ lies in that of $\sigma$.
+
+**Table of contents**
+
+- [Relative entropy of classically flagged states](relative-entropy-of-classically-flagged-states.md)
+- [Nonnegativity of quantum relative entropy](nonnegativity-of-quantum-relative-entropy.md)
+  - [Eigenbasis proof of quantum relative entropy nonnegativity](eigenbasis-proof-of-quantum-relative-entropy-nonnegativity.md)
+- [Quantum Pinsker inequality](quantum-pinsker-inequality.md)
+- [Donald's identity](donald-s-identity.md)
+  - [Relative-entropy barycenter of a quantum ensemble](relative-entropy-barycenter-of-a-quantum-ensemble.md)
+- [Data-processing inequality for quantum relative entropy](data-processing-inequality-for-quantum-relative-entropy.md)
+- [Additivity of quantum relative entropy](additivity-of-quantum-relative-entropy.md)
+- [Superadditivity of quantum relative entropy](superadditivity-of-quantum-relative-entropy.md)
+  - [Multipartite superadditivity of quantum relative entropy](multipartite-superadditivity-of-quantum-relative-entropy.md)
+    - [Lower asymptotic semicontinuity of quantum relative entropy](lower-asymptotic-semicontinuity-of-quantum-relative-entropy.md)
+- [Quantum mutual information](quantum-mutual-information.md)
+  - [Quantum conditional mutual information](quantum-conditional-mutual-information.md)
+  - [Data processing for quantum mutual information](data-processing-for-quantum-mutual-information.md)
+    - [Postselection can increase conditional quantum mutual information](postselection-can-increase-conditional-quantum-mutual-information.md)
+    - [Mutual-information loss as conditional mutual information](mutual-information-loss-as-conditional-mutual-information.md)
+  - [Quantum mutual information balance identity](quantum-mutual-information-balance-identity.md)
+- [Variational characterization of quantum conditional entropy](variational-characterization-of-quantum-conditional-entropy.md)
+
+## ↑ Ancestors (6)
+
+1. [Von Neumann entropy](von-neumann-entropy-split.md)
+2. [Density matrix](density-matrix.md)
+3. [Quantum theory](quantum-theory-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (24)
+
+- [Additivity of quantum relative entropy](additivity-of-quantum-relative-entropy.md)
+- [Binary test for quantum decoding success](binary-test-for-quantum-decoding-success.md)
+- [Data-processing inequality for quantum relative entropy](data-processing-inequality-for-quantum-relative-entropy.md)
+- [Eigenbasis proof of quantum relative entropy nonnegativity](eigenbasis-proof-of-quantum-relative-entropy-nonnegativity.md)
+- [Nonnegativity of quantum relative entropy](nonnegativity-of-quantum-relative-entropy.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-25/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-33/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-35/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-32/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-34/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-34/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-34/5/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-50/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-65/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-60/4/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-323/5/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-323/5/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-323/5/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-323/3/a/solution.md)
+- [Relative entropy of a pinched state](relative-entropy-of-a-pinched-state.md)
+- [Relative entropy of classically flagged states](relative-entropy-of-classically-flagged-states.md)
+- [Relative entropy of entanglement](relative-entropy-of-entanglement.md)
+- [Support inclusion under rank-one dephasing](support-inclusion-under-rank-one-dephasing.md)
+- [Support of a positive operator](support-of-a-positive-operator.md)

@@ -1,0 +1,61 @@
+# Transitive model
+
+↑ **Parent:** [Transitive set](transitive-set.md)
+
+A transitive model of set theory is a [transitive set](transitive-set.md) or [transitive class](transitive-class.md) whose membership relation is the ambient membership relation and which satisfies the specified set-theoretic axioms.
+
+**Table of contents**
+
+- [Well-founded model of set theory](well-founded-model-of-set-theory.md)
+- [Ordinal height of a model of set theory](ordinal-height-of-a-model-of-set-theory.md)
+  - [Uncountable transitive set model has uncountable ordinal height](uncountable-transitive-set-model-has-uncountable-ordinal-height.md)
+    - [Countable-ordinal correctness under constructibility](countable-ordinal-correctness-under-constructibility.md)
+
+## ↑ Ancestors (6)
+
+1. [Transitive set](transitive-set.md)
+2. [Set theory](set-theory-split.md)
+3. [Foundations of mathematics](foundations-of-mathematics-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (37)
+
+- [Absoluteness of cardinalhood in limit ranks](absoluteness-of-cardinalhood-in-limit-ranks.md)
+- [Absoluteness of constructible levels](absoluteness-of-constructible-levels.md)
+- [Atomless forcing order](atomless-forcing-order.md)
+- [Axiom of extensionality](axiom-of-extensionality.md)
+- [Cofinality-preserving forcing](cofinality-preserving-forcing.md)
+- [Constructible-level absoluteness over ZF](constructible-level-absoluteness-over-zf.md)
+- [Countable-ordinal correctness under constructibility](countable-ordinal-correctness-under-constructibility.md)
+- [Delta-one absoluteness](delta-one-absoluteness.md)
+- [Model of ZFC without weakly inaccessible cardinals](model-of-zfc-without-weakly-inaccessible-cardinals.md)
+- [Nested transitive models from a worldly cardinal](nested-transitive-models-from-a-worldly-cardinal.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-19/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-19/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-24/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-25/11/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-19/1/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-19/6/i/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-19/1/i/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-19/2/i/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-24/4/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-121/1/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-121/4/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-121/1/v/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-121/1/vi/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-121/1/i/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-121/1/i/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-121/1/i/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-121/1/i/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-121/1/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-121/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-121/2/iv/solution.md)
+- [Pi-one formula in set theory](pi-one-formula-in-set-theory.md)
+- [Pi-one formula modulo ZF](pi-one-formula-modulo-zf.md)
+- [Relative constructible universe can violate the continuum hypothesis](relative-constructible-universe-can-violate-the-continuum-hypothesis.md)
+- [Sigma-one formula in set theory](sigma-one-formula-in-set-theory.md)
+- [Standard membership model of set theory](standard-membership-model-of-set-theory.md)
+- [Standard model (set theory)](standard-model-set-theory.md)
+- [ZF-equivalent bounded formula](zf-equivalent-bounded-formula.md)

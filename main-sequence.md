@@ -1,0 +1,63 @@
+# Main sequence
+
+↑ **Parent:** [Stellar astrophysics](stellar-astrophysics-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Main_sequence)
+
+A main-sequence star is in a long-lived phase of core hydrogen burning.
+
+**Table of contents**
+
+- [Main-sequence turnoff](main-sequence-turnoff.md)
+- [Terminal-age main sequence](terminal-age-main-sequence.md)
+- [Lower main sequence](lower-main-sequence.md)
+  - [Red dwarf](red-dwarf.md)
+- [Zero-age main sequence](zero-age-main-sequence.md)
+
+## ↑ Ancestors (5)
+
+1. [Stellar astrophysics](stellar-astrophysics-split.md)
+2. [Astrophysics](astrophysics-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (38)
+
+- [Algol binary](algol-binary.md)
+- [Algol paradox](algol-paradox.md)
+- [Case A mass transfer](case-a-mass-transfer.md)
+- [Hertzsprung gap](hertzsprung-gap.md)
+- [Main-sequence turnoff](main-sequence-turnoff.md)
+- [Mass-gaining star](mass-gaining-star.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-37/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-37/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-37/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-42/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-42/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-42/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-63/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-63/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-63/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-62/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-71/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-66/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-65/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-65/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-60/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-63/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-63/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-55/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-55/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-65/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-317/4/solution.md)
+- [1](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-322/1.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-322/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-322/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-317/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-322/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-317/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-317/3/solution.md)
+- [Radiative homology with fifth-power hydrogen burning and inverse-cubic opacity](radiative-homology-with-fifth-power-hydrogen-burning-and-inverse-cubic-opacity.md)
+- [Stellar age](stellar-age.md)
+- [Stellar rejuvenation](stellar-rejuvenation.md)
+- [Subgiant](subgiant.md)

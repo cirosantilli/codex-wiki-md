@@ -1,0 +1,62 @@
+# Positive operator
+
+↑ **Parent:** [Hermitian operator](hermitian-operator.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Positive_operator)
+
+A bounded [Hermitian operator](hermitian-operator.md) $T$ on a [Hilbert space](hilbert-space-split.md) is positive when $\langle Tx,x\rangle\geq0$ for every $x$. Its [spectrum](spectrum-functional-analysis.md) is contained in $[0,\infty)$.
+
+**Table of contents**
+
+- [Positive definite symmetric operator](positive-definite-symmetric-operator.md)
+  - [Quadratic variational principle for a symmetric positive operator](quadratic-variational-principle-for-a-symmetric-positive-operator.md)
+    - [Symmetric part determines a real quadratic functional](symmetric-part-determines-a-real-quadratic-functional.md)
+  - [Uniformly positive definite symmetric operator](uniformly-positive-definite-symmetric-operator.md)
+- [Positive contraction](positive-contraction.md)
+- [Support of a positive operator](support-of-a-positive-operator.md)
+- [Positive square root of an operator](positive-square-root-of-an-operator.md)
+
+## ↑ Ancestors (9)
+
+1. [Hermitian operator](hermitian-operator.md)
+2. [Adjoint operator](adjoint-operator.md)
+3. [Riesz representation theorem](riesz-representation-theorem.md)
+4. [Hilbert space](hilbert-space-split.md)
+5. [Functional analysis](functional-analysis-split.md)
+6. [Analysis](analysis-split.md)
+7. [Area of mathematics](area-of-mathematics.md)
+8. [Mathematics](mathematics-split.md)
+9. [Codex Wiki](split.md)
+
+## ← Incoming links (31)
+
+- [Filtering preserves existing frustration freeness](filtering-preserves-existing-frustration-freeness.md)
+- [Frustration freeness](frustration-freeness.md)
+- [Kitaev geometrical lemma](kitaev-geometrical-lemma.md)
+- [Modular operator](modular-operator.md)
+- [Negative part of a Hermitian operator](negative-part-of-a-hermitian-operator.md)
+- [Partial trace positivity from product vectors](partial-trace-positivity-from-product-vectors.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-47/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-58/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-33/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-1/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-1/7/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-1/8/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-66/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-66/3/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-67/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-323/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-323/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-323/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-335/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-326/2/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-335/2/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-225/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-225/1/a/iii/solution.md)
+- [Positive contraction](positive-contraction.md)
+- [Positive part of a Hermitian operator](positive-part-of-a-hermitian-operator.md)
+- [Positive square root of an operator](positive-square-root-of-an-operator.md)
+- [Separable positive operator](separable-positive-operator.md)
+- [Smallest angle between two subspaces](smallest-angle-between-two-subspaces.md)
+- [Support of a positive operator](support-of-a-positive-operator.md)
+- [Time reversal operator](time-reversal-operator.md)
+- [Unitary invariance of trace distance and fidelity](unitary-invariance-of-trace-distance-and-fidelity.md)

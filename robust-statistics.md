@@ -1,0 +1,53 @@
+# Robust statistics
+
+↑ **Parent:** [Statistical inference](statistical-inference-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Robust_statistics)
+
+Robust statistics studies procedures whose behavior remains controlled under outliers and deviations from an assumed model.
+
+**Table of contents**
+
+- [Translation-invariant estimator](translation-invariant-estimator.md)
+- [Minimax asymptotic bias](minimax-asymptotic-bias.md)
+- [Trimmed mean](trimmed-mean.md)
+  - [Influence function of a trimmed mean](influence-function-of-a-trimmed-mean.md)
+- [M-estimator](m-estimator.md)
+  - [Sandwich variance of an M-estimator](sandwich-variance-of-an-m-estimator.md)
+  - [Argmin consistency under uniform convergence in probability](argmin-consistency-under-uniform-convergence-in-probability.md)
+    - [Global argmin may escape a compact convergence set](global-argmin-may-escape-a-compact-convergence-set.md)
+  - [Scale M-estimator](scale-m-estimator.md)
+- [Catoni mean estimator](catoni-mean-estimator.md)
+- [B-robust estimator](b-robust-estimator.md)
+- [Contamination (statistics)](contamination-statistics.md)
+  - [Kolmogorov neighborhood of a distribution](kolmogorov-neighborhood-of-a-distribution.md)
+  - [Epsilon-contamination neighborhood](epsilon-contamination-neighborhood.md)
+    - [Huber contamination](huber-contamination.md)
+- [Influence function](influence-function.md)
+  - [Rejection point of an influence function](rejection-point-of-an-influence-function.md)
+  - [Local-shift sensitivity](local-shift-sensitivity.md)
+  - [Influence function of a quantile](influence-function-of-a-quantile.md)
+  - [Empirical influence function](empirical-influence-function.md)
+  - [Sensitivity curve](sensitivity-curve.md)
+  - [One-step estimator](one-step-estimator.md)
+  - [Asymptotic linear representation](asymptotic-linear-representation.md)
+  - [Gross-error sensitivity](gross-error-sensitivity.md)
+  - [Influence function of the sample median](influence-function-of-the-sample-median.md)
+- [Breakdown point](breakdown-point.md)
+  - [Finite-sample maximum bias](finite-sample-maximum-bias.md)
+  - [Replacement breakdown point](replacement-breakdown-point.md)
+- [Huber location estimator](huber-location-estimator.md)
+  - [Huber score](huber-score.md)
+    - [Optimal bounded influence function for normal location](optimal-bounded-influence-function-for-normal-location.md)
+  - [Huber loss](huber-loss.md)
+    - [Huber gradient regularizer](huber-gradient-regularizer.md)
+- [Median-of-means estimator](median-of-means-estimator.md)
+- [Tukey median](tukey-median.md)
+- [Asymptotic distribution of a sample median](asymptotic-distribution-of-a-sample-median.md)
+
+## ↑ Ancestors (5)
+
+1. [Statistical inference](statistical-inference-split.md)
+2. [Probability and statistics](probability-and-statistics-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)

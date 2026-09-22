@@ -1,0 +1,70 @@
+# Computer aided geometric design
+
+↑ **Parent:** [Numerical analysis](numerical-analysis-split.md)
+
+[Computer aided geometric design](computer-aided-geometric-design.md) studies computational representations, evaluation and manipulation of [curves](curve.md) and [regular surfaces](smooth-surface.md), especially using [splines](spline-mathematics.md) and [subdivision surfaces](subdivision-surface.md).
+
+// Target: geometry-and-topology.bigb
+
+**Table of contents**
+
+- [Affine equivariance of a geometric basis](affine-equivariance-of-a-geometric-basis.md)
+- [Translational penetration depth](translational-penetration-depth.md)
+- [Linear precision of a geometric basis](linear-precision-of-a-geometric-basis.md)
+- [Control point](control-point.md)
+  - [Control net](control-net.md)
+  - [Control polygon](control-polygon.md)
+- [Apparent-gravity camera frame](apparent-gravity-camera-frame.md)
+- [Subdivision curve](subdivision-curve.md)
+  - [Binary linear interpolatory subdivision](binary-linear-interpolatory-subdivision.md)
+  - [Functional precision set of a subdivision scheme](functional-precision-set-of-a-subdivision-scheme.md)
+  - [Chaikin subdivision](chaikin-subdivision.md)
+    - [Chaikin basis function](chaikin-basis-function.md)
+    - [Polynomial degree preservation under Chaikin subdivision](polynomial-degree-preservation-under-chaikin-subdivision.md)
+  - [Support of a stationary subdivision scheme](support-of-a-stationary-subdivision-scheme.md)
+  - [Subdivision curve interrogation](subdivision-curve-interrogation.md)
+    - [Closest-point search on a subdivision curve](closest-point-search-on-a-subdivision-curve.md)
+    - [Shadow tracing for a subdivision curve](shadow-tracing-for-a-subdivision-curve.md)
+    - [Recursive half-space clipping of a subdivision curve](recursive-half-space-clipping-of-a-subdivision-curve.md)
+- [Subdivision surface](subdivision-surface.md)
+  - [Lateral artifacts of a subdivision surface](lateral-artifacts-of-a-subdivision-surface.md)
+    - [Extrusion invariance of a ternary triangular scheme](extrusion-invariance-of-a-ternary-triangular-scheme.md)
+  - [Mid-edge subdivision](mid-edge-subdivision.md)
+    - [Mid-edge facet centroid invariance](mid-edge-facet-centroid-invariance.md)
+  - [Subdivision surface interrogation](subdivision-surface-interrogation.md)
+    - [Intersection of subdivision limit surfaces](intersection-of-subdivision-limit-surfaces.md)
+    - [Plane section of a subdivision surface](plane-section-of-a-subdivision-surface.md)
+    - [Minimum distance between subdivision bodies](minimum-distance-between-subdivision-bodies.md)
+  - [Extraordinary subdivision vertex](extraordinary-subdivision-vertex.md)
+    - [Characteristic map of a subdivision surface](characteristic-map-of-a-subdivision-surface.md)
+  - [Quincunx subdivision](quincunx-subdivision.md)
+  - [Loop subdivision surface](loop-subdivision-surface.md)
+    - [Polynomial generation by regular Loop subdivision](polynomial-generation-by-regular-loop-subdivision.md)
+    - [Extrusion invariance of Loop subdivision](extrusion-invariance-of-loop-subdivision.md)
+  - [Subdivision mask](subdivision-mask.md)
+    - [Subdivision mask width](subdivision-mask-width.md)
+    - [Subdivision arity](subdivision-arity.md)
+    - [Subdivision difference scheme](subdivision-difference-scheme.md)
+      - [Norm and spectral bounds for subdivision regularity](norm-and-spectral-bounds-for-subdivision-regularity.md)
+    - [Subdivision matrix](subdivision-matrix.md)
+- [Bézier curve](bezier-curve.md)
+  - [Bézier derivative control polygon](bezier-derivative-control-polygon.md)
+    - [Parametric first-derivative join of Bézier curves](parametric-first-derivative-join-of-bezier-curves.md)
+  - [De Casteljau's algorithm](de-casteljau-s-algorithm.md)
+- [Bounding volume](bounding-volume.md)
+  - [Bounding volume hierarchy](bounding-volume-hierarchy.md)
+  - [Axis-aligned bounding box](axis-aligned-bounding-box.md)
+- [Triangle-triangle intersection algorithm](triangle-triangle-intersection-algorithm.md)
+
+## ↑ Ancestors (5)
+
+1. [Numerical analysis](numerical-analysis-split.md)
+2. [Analysis](analysis-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (2)
+
+- [Computer aided geometric design](computer-aided-geometric-design.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-70/2/i/solution.md)

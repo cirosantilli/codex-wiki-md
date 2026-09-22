@@ -1,0 +1,61 @@
+# Microswimmer
+
+↑ **Parent:** [Stokes flow](stokes-flow-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Microswimmer)
+
+A microswimmer is a microscopic body that propels itself through a fluid. At small [Reynolds number](reynolds-number.md) its motion is governed by [Stokes flow](stokes-flow-split.md), and self-propulsion must respect the [force-free](force-free.md) and [torque-free](torque-free.md) conditions.
+
+**Table of contents**
+
+- [Opposite-handed counterrotating helical swimmer](opposite-handed-counterrotating-helical-swimmer.md)
+  - [Large reaction helix limit](large-reaction-helix-limit.md)
+  - [Vanishing reaction rotor in a helical swimmer](vanishing-reaction-rotor-in-a-helical-swimmer.md)
+  - [Equal-length opposite-handed helices](equal-length-opposite-handed-helices.md)
+- [Helical microswimmer with a spherical head](helical-microswimmer-with-a-spherical-head.md)
+  - [Entrained-head approximation for a helical microswimmer](entrained-head-approximation-for-a-helical-microswimmer.md)
+  - [Optimal pitch of a helical microswimmer](optimal-pitch-of-a-helical-microswimmer.md)
+- [Squirmer](squirmer.md)
+  - [Torque-free rotation of a spherical squirmer](torque-free-rotation-of-a-spherical-squirmer.md)
+    - [Flow-free rotation of a spherical squirmer](flow-free-rotation-of-a-spherical-squirmer.md)
+  - [Two-mode tensorial squirmer flow](two-mode-tensorial-squirmer-flow.md)
+  - [Surface slip velocity](surface-slip-velocity.md)
+- [Taylor swimming sheet](taylor-swimming-sheet.md)
+  - [Brinkman swimming sheet](brinkman-swimming-sheet.md)
+    - [Power of a Brinkman sheet](power-of-a-brinkman-sheet.md)
+    - [Swimming speed of a Brinkman sheet](swimming-speed-of-a-brinkman-sheet.md)
+    - [Screened first-order transverse sheet flow](screened-first-order-transverse-sheet-flow.md)
+  - [Navier-slip Taylor swimming sheet](navier-slip-taylor-swimming-sheet.md)
+    - [Slip-enhanced swimming speed of a transverse sheet](slip-enhanced-swimming-speed-of-a-transverse-sheet.md)
+    - [First-order slip independence of a transverse sheet](first-order-slip-independence-of-a-transverse-sheet.md)
+  - [Longitudinal mode of a Taylor swimming sheet](longitudinal-mode-of-a-taylor-swimming-sheet.md)
+  - [Transverse mode of a Taylor swimming sheet](transverse-mode-of-a-taylor-swimming-sheet.md)
+  - [Mean boundary velocity determines Taylor-sheet swimming speed](mean-boundary-velocity-determines-taylor-sheet-swimming-speed.md)
+    - [Fourier orthogonality of sheet swimming modes](fourier-orthogonality-of-sheet-swimming-modes.md)
+      - [Different-wavenumber cancellation in sheet swimming](different-wavenumber-cancellation-in-sheet-swimming.md)
+  - [Taylor-sheet swimming next to a rigid wall](taylor-sheet-swimming-next-to-a-rigid-wall.md)
+- [Force-dipole flow](force-dipole-flow.md)
+  - [Axial repulsion of pusher stresslets](axial-repulsion-of-pusher-stresslets.md)
+  - [Orientation averaging of an axisymmetric stresslet](orientation-averaging-of-an-axisymmetric-stresslet.md)
+    - [Far-field orbit average of a tangent stresslet](far-field-orbit-average-of-a-tangent-stresslet.md)
+      - [Even displacement correction in an orbit-averaged stresslet](even-displacement-correction-in-an-orbit-averaged-stresslet.md)
+  - [Axisymmetric stresslet from a Stokeslet pair](axisymmetric-stresslet-from-a-stokeslet-pair.md)
+  - [Pusher microswimmer](pusher-microswimmer.md)
+  - [Puller microswimmer](puller-microswimmer.md)
+  - [Free-surface image of a force dipole](free-surface-image-of-a-force-dipole.md)
+    - [Free-surface interaction of two parallel stresslets](free-surface-interaction-of-two-parallel-stresslets.md)
+    - [Finite-time free-surface approach of a point stresslet](finite-time-free-surface-approach-of-a-point-stresslet.md)
+
+## ↑ Ancestors (6)
+
+1. [Stokes flow](stokes-flow-split.md)
+2. [Viscous fluid flow](viscous-fluid-flow-split.md)
+3. [Fluid mechanics](fluid-mechanics-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (3)
+
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-329/2/i/solution.md)
+- [Squirmer](squirmer.md)
+- [Taylor swimming sheet](taylor-swimming-sheet.md)

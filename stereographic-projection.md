@@ -1,0 +1,62 @@
+# Stereographic projection
+
+↑ **Parent:** [Riemann sphere](riemann-sphere.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Stereographic_projection)
+
+Stereographic projection identifies a sphere minus one pole with the plane and supplies the standard charts of the Riemann sphere.
+
+**Table of contents**
+
+- [Circle-plane relation under stereographic projection](circle-plane-relation-under-stereographic-projection.md)
+  - [Antipodal equatorial intersection criterion for a great circle](antipodal-equatorial-intersection-criterion-for-a-great-circle.md)
+- [Antipodal stereographic coordinate relation](antipodal-stereographic-coordinate-relation.md)
+  - [Antipodal cross-ratio and spherical distance](antipodal-cross-ratio-and-spherical-distance.md)
+- [Holomorphic stereographic atlas of the sphere](holomorphic-stereographic-atlas-of-the-sphere.md)
+- [Sphere rotations as special-unitary Möbius transformations](sphere-rotations-as-special-unitary-mobius-transformations.md)
+
+## ↑ Ancestors (7)
+
+1. [Riemann sphere](riemann-sphere.md)
+2. [Riemann surfaces](riemann-surfaces.md)
+3. [Complex analysis](complex-analysis-split.md)
+4. [Analysis](analysis-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (34)
+
+- [Antipodal cross-ratio and spherical distance](antipodal-cross-ratio-and-spherical-distance.md)
+- [Antipodal fixed-point classification of Möbius transformations](antipodal-fixed-point-classification-of-mobius-transformations.md)
+- [Antipodal fixed points do not characterize sphere rotations](antipodal-fixed-points-do-not-characterize-sphere-rotations.md)
+- [Antipodal stereographic coordinate relation](antipodal-stereographic-coordinate-relation.md)
+- [Bogomolny degree bound for the O3 sigma model](bogomolny-degree-bound-for-the-o3-sigma-model.md)
+- [Circle-plane relation under stereographic projection](circle-plane-relation-under-stereographic-projection.md)
+- [O3 nonlinear sigma model](o3-nonlinear-sigma-model.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/ib/paper-1/13b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-9/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ib/paper-3/12a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ib/paper-3/12h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-9/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ii/paper-1/23f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-56/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ib/paper-2/12g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ii/paper-1/3f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-49/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-59/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-50/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-15/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-10/4/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-56/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-115/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-308/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ib/paper-3/5g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-309/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-308/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-313/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/ii/paper-1/24g/i/solution.md)
+- [Sigma-model lump](sigma-model-lump.md)
+- [Sphere rotations as special-unitary Möbius transformations](sphere-rotations-as-special-unitary-mobius-transformations.md)
+- [Stationary wave map](stationary-wave-map.md)
+- [Stereographic energy of the O3 sigma model](stereographic-energy-of-the-o3-sigma-model.md)
+- [Two-chart smooth atlas of an ellipsoid](two-chart-smooth-atlas-of-an-ellipsoid.md)

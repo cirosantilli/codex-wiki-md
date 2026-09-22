@@ -1,0 +1,62 @@
+# Pion
+
+↑ **Parent:** [Quantum chromodynamics](quantum-chromodynamics.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Pion)
+
+A pion is one of the light pseudoscalar mesons produced by chiral symmetry breaking in quantum chromodynamics. The charge states are $\pi^+$, $\pi^0$ and $\pi^-$.
+
+**Table of contents**
+
+- [Leptonic pion decay](leptonic-pion-decay.md)
+  - [Vacuum-to-pseudoscalar current selection rule](vacuum-to-pseudoscalar-current-selection-rule.md)
+  - [Pion electron-to-muon decay ratio](pion-electron-to-muon-decay-ratio.md)
+  - [Leptonic pseudoscalar decay width](leptonic-pseudoscalar-decay-width.md)
+
+## ↑ Ancestors (6)
+
+1. [Quantum chromodynamics](quantum-chromodynamics.md)
+2. [Standard Model](standard-model-split.md)
+3. [Quantum field theory](quantum-field-theory-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (37)
+
+- [Chiral symmetry](chiral-symmetry.md)
+- [Delta baryon pion branching ratios](delta-baryon-pion-branching-ratios.md)
+- [G-parity selection rule for pion multiplicities](g-parity-selection-rule-for-pion-multiplicities.md)
+- [Highest-weight weak-isospin selection in kaon decay](highest-weight-weak-isospin-selection-in-kaon-decay.md)
+- [Isorotation](isorotation.md)
+- [Meson octet](meson-octet.md)
+- [Naive factorization of a nonleptonic meson decay](naive-factorization-of-a-nonleptonic-meson-decay.md)
+- [Nuclear force](nuclear-force.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-63/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-63/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-66/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-45/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-45/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-45/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-48/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-50/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ib/paper-4/17b/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ib/paper-4/17b/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-52/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-55/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-48/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-42/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-44/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-305/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-308/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-308/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-305/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-305/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-307/2/solution.md)
+- [Pion G-parity](pion-g-parity.md)
+- [Pion-nucleon octet channels](pion-nucleon-octet-channels.md)
+- [Pseudoscalar meson](pseudoscalar-meson.md)
+- [Pseudoscalar meson nonet](pseudoscalar-meson-nonet.md)
+- [Quark chiral condensate](quark-chiral-condensate.md)
+- [Spin-one half-turn matrix](spin-one-half-turn-matrix.md)
+- [Tetrahedral three-Skyrmion](tetrahedral-three-skyrmion.md)
+- [Uniqueness of the two-derivative two-flavour chiral action](uniqueness-of-the-two-derivative-two-flavour-chiral-action.md)

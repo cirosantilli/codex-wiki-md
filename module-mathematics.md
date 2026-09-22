@@ -1,0 +1,48 @@
+# Module (mathematics)
+
+↑ **Parent:** [Module theory](module-theory-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Module_(mathematics))
+
+An $R$-module is an abelian group equipped with scalar multiplication by a ring $R$, satisfying the usual distributive and associative laws.
+
+**Table of contents**
+
+- [Finitely presented module](finitely-presented-module.md)
+  - [Fitting ideal](fitting-ideal.md)
+- [Locally free module](locally-free-module.md)
+- [Finite presentation of a module](finite-presentation-of-a-module.md)
+- [Change of rings](change-of-rings.md)
+  - [Coextension of scalars](coextension-of-scalars.md)
+  - [Extension of scalars](extension-of-scalars.md)
+  - [Restriction of scalars](restriction-of-scalars.md)
+- [Module isomorphism](module-isomorphism.md)
+- [Torsion module](torsion-module.md)
+  - [Torsion submodule](torsion-submodule.md)
+    - [Torsion element of a module](torsion-element-of-a-module.md)
+- [Module homomorphism](module-homomorphism.md)
+  - [Module endomorphism](module-endomorphism.md)
+    - [Module automorphism](module-automorphism.md)
+  - [Module retraction](module-retraction.md)
+  - [Endomorphism ring](endomorphism-ring.md)
+    - [Local endomorphism ring](local-endomorphism-ring.md)
+    - [Semisimple quotient of a module endomorphism algebra](semisimple-quotient-of-a-module-endomorphism-algebra.md)
+    - [Brick module](brick-module.md)
+      - [Ringel lemma on bricks](ringel-lemma-on-bricks.md)
+        - [Proof of Ringel lemma on bricks](proof-of-ringel-lemma-on-bricks.md)
+- [Submodule](submodule.md)
+  - [Essential submodule](essential-submodule.md)
+    - [Essential right ideal](essential-right-ideal.md)
+      - [A regular principal right ideal in a right Noetherian ring is essential](a-regular-principal-right-ideal-in-a-right-noetherian-ring-is-essential.md)
+    - [Essential extension](essential-extension.md)
+  - [Primary decomposition](primary-decomposition.md)
+    - [Lasker–Noether theorem](lasker-noether-theorem.md)
+    - [Primary submodule](primary-submodule.md)
+
+## ↑ Ancestors (6)
+
+1. [Module theory](module-theory-split.md)
+2. [Commutative algebra](commutative-algebra-split.md)
+3. [Algebra](algebra-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)

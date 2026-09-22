@@ -1,0 +1,42 @@
+# Atomic physics
+
+↑ **Parent:** [Physics](physics-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Atomic_physics)
+
+**Table of contents**
+
+- [Fine structure](fine-structure.md)
+- [Metastable atomic level](metastable-atomic-level.md)
+- [Collisional-radiative model](collisional-radiative-model.md)
+  - [Electron-density diagnostic from metastable populations](electron-density-diagnostic-from-metastable-populations.md)
+    - [Emission-weighted effective density from a line ratio](emission-weighted-effective-density-from-a-line-ratio.md)
+- [Atomic oscillator strength](atomic-oscillator-strength.md)
+- [Statistical weight of an atomic level](statistical-weight-of-an-atomic-level.md)
+- [Spontaneous emission](spontaneous-emission.md)
+  - [Radiative cascade](radiative-cascade.md)
+  - [Critical density of an atomic transition](critical-density-of-an-atomic-transition.md)
+  - [Einstein coefficients](einstein-coefficients.md)
+- [Collisional excitation](collisional-excitation.md)
+  - [Collision rate coefficient for an atomic transition](collision-rate-coefficient-for-an-atomic-transition.md)
+- [Ionization](ionization.md)
+  - [Three-body recombination](three-body-recombination.md)
+  - [Dielectronic recombination](dielectronic-recombination.md)
+    - [Resonance-temperature dependence of dielectronic recombination](resonance-temperature-dependence-of-dielectronic-recombination.md)
+    - [Radiative stabilization](radiative-stabilization.md)
+    - [Dielectronic capture](dielectronic-capture.md)
+  - [Autoionization](autoionization.md)
+  - [Photoionization](photoionization.md)
+    - [Photoionization rate](photoionization-rate.md)
+    - [Photoionization heating](photoionization-heating.md)
+  - [Radiative recombination](radiative-recombination.md)
+    - [Recombination line](recombination-line.md)
+    - [Effective recombination coefficient](effective-recombination-coefficient.md)
+  - [Collisional ionization](collisional-ionization.md)
+    - [Excitation-autoionization](excitation-autoionization.md)
+    - [Collisional ionization equilibrium](collisional-ionization-equilibrium.md)
+      - [Coronal approximation](coronal-approximation.md)
+
+## ↑ Ancestors (2)
+
+1. [Physics](physics-split.md)
+2. [Codex Wiki](split.md)

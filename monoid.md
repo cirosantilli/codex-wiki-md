@@ -1,0 +1,62 @@
+# Monoid
+
+↑ **Parent:** [Semigroup](semigroup.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Monoid)
+
+A monoid is a [semigroup](semigroup.md) with a two-sided identity element.
+
+**Table of contents**
+
+- [Monoid action](monoid-action.md)
+  - [Right monoid action](right-monoid-action.md)
+    - [Exponential of right monoid actions](exponential-of-right-monoid-actions.md)
+      - [Exponential of right group actions](exponential-of-right-group-actions.md)
+  - [Equivariant map of monoid sets](equivariant-map-of-monoid-sets.md)
+  - [M-set](m-set.md)
+- [Monoid homomorphism](monoid-homomorphism.md)
+- [Monoid automorphism](monoid-automorphism.md)
+- [Free monoid](free-monoid.md)
+- [Commutative monoid](commutative-monoid.md)
+  - [Free commutative monoid](free-commutative-monoid.md)
+  - [Cancellative commutative monoid](cancellative-commutative-monoid.md)
+    - [Congruence submonoid of the positive integers](congruence-submonoid-of-the-positive-integers.md)
+      - [Nonunique factorization in a congruence submonoid](nonunique-factorization-in-a-congruence-submonoid.md)
+    - [Irreducible element of a commutative monoid](irreducible-element-of-a-commutative-monoid.md)
+    - [Torsion-free cancellative commutative monoid](torsion-free-cancellative-commutative-monoid.md)
+  - [Category of commutative monoids](category-of-commutative-monoids.md)
+
+## ↑ Ancestors (8)
+
+1. [Semigroup](semigroup.md)
+2. [Associative operation](associative-operation.md)
+3. [Binary operation](binary-operation.md)
+4. [Algebraic operation](algebraic-operation.md)
+5. [Algebra](algebra-split.md)
+6. [Area of mathematics](area-of-mathematics.md)
+7. [Mathematics](mathematics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (22)
+
+- [Balanced finite-monoid reduction circuit](balanced-finite-monoid-reduction-circuit.md)
+- [Commutative monoid](commutative-monoid.md)
+- [Exponential of right group actions](exponential-of-right-group-actions.md)
+- [Exponential of right monoid actions](exponential-of-right-monoid-actions.md)
+- [Initial object criterion for a covariant local topos](initial-object-criterion-for-a-covariant-local-topos.md)
+- [List monad](list-monad.md)
+- [List-monad algebras are monoids](list-monad-algebras-are-monoids.md)
+- [Monoid automorphism](monoid-automorphism.md)
+- [Monoid homomorphism](monoid-homomorphism.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-17/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-20/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-87/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-23/5/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-74/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-74/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-74/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-18/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-119/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-119/3/solution.md)
+- [Right monoid action](right-monoid-action.md)
+- [Semiring](semiring.md)
+- [Shift monad on order-preserving maps of natural numbers](shift-monad-on-order-preserving-maps-of-natural-numbers.md)

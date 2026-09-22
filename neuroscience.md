@@ -1,0 +1,52 @@
+# Neuroscience
+
+↑ **Parent:** [Biology](biology-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Neuroscience)
+
+The study of nervous systems, from the properties of individual [neurons](neuron.md) to circuits, development, behavior and information processing.
+
+**Table of contents**
+
+- [Primary visual cortex](primary-visual-cortex.md)
+  - [Correlation-based development of visual cortical maps](correlation-based-development-of-visual-cortical-maps.md)
+  - [Complex cell](complex-cell.md)
+    - [Quadrature energy model of a complex cell](quadrature-energy-model-of-a-complex-cell.md)
+    - [Pooling model of a complex cell](pooling-model-of-a-complex-cell.md)
+  - [Ocular dominance column](ocular-dominance-column.md)
+    - [Activity-dependent ocular dominance segregation](activity-dependent-ocular-dominance-segregation.md)
+  - [Orientation selectivity](orientation-selectivity.md)
+    - [Orientation-map self-organization](orientation-map-self-organization.md)
+  - [Simple cell](simple-cell.md)
+- [Neuron](neuron.md)
+  - [Neural adaptation](neural-adaptation.md)
+  - [Synapse](synapse.md)
+    - [Synaptic plasticity](synaptic-plasticity.md)
+      - [Synaptic competition](synaptic-competition.md)
+        - [Synaptic normalization](synaptic-normalization.md)
+    - [Neurotransmitter](neurotransmitter.md)
+  - [Action potential](action-potential.md)
+    - [Neuronal refractory period](neuronal-refractory-period.md)
+  - [Dendrite](dendrite.md)
+  - [Axon](axon.md)
+- [Computational neuroscience](computational-neuroscience.md)
+  - [Dynamic clamp](dynamic-clamp.md)
+  - [Three-neuron ring stability](three-neuron-ring-stability.md)
+  - [Leaky integrate-and-fire model](leaky-integrate-and-fire-model.md)
+    - [Constant-input firing rate of a leaky integrate-and-fire neuron](constant-input-firing-rate-of-a-leaky-integrate-and-fire-neuron.md)
+  - [Hodgkin-Huxley model](hodgkin-huxley-model.md)
+  - [Mutually excitatory saturating rate network](mutually-excitatory-saturating-rate-network.md)
+  - [Linear-nonlinear-Poisson cascade model](linear-nonlinear-poisson-cascade-model.md)
+    - [Poisson spike-train likelihood fitting](poisson-spike-train-likelihood-fitting.md)
+  - [Spike-triggered average](spike-triggered-average.md)
+    - [Stimulus-correlated spike-triggered averaging](stimulus-correlated-spike-triggered-averaging.md)
+  - [Neural coding](neural-coding.md)
+    - [Receptive field](receptive-field.md)
+    - [Temporal coding](temporal-coding.md)
+    - [Rate coding](rate-coding.md)
+    - [Spike train](spike-train.md)
+      - [Time-rescaled spike-train diagnostics](time-rescaled-spike-train-diagnostics.md)
+
+## ↑ Ancestors (2)
+
+1. [Biology](biology-split.md)
+2. [Codex Wiki](split.md)

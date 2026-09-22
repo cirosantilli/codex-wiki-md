@@ -1,0 +1,60 @@
+# Interval map
+
+↑ **Parent:** [Discrete dynamical system](discrete-dynamical-system.md)
+
+An interval map is a [continuous function](continuous-function.md) $F:I\to I$ from a [real interval](interval-mathematics.md) to itself. Its [iterates](iterated-function.md) form a one-dimensional [discrete dynamical system](discrete-dynamical-system.md).
+
+**Table of contents**
+
+- [Unimodal interval map](unimodal-interval-map.md)
+  - [Period-doubling renormalization operator](period-doubling-renormalization-operator.md)
+    - [Coefficient Banach space for normalized even maps](coefficient-banach-space-for-normalized-even-maps.md)
+    - [Feigenbaum renormalization fixed point](feigenbaum-renormalization-fixed-point.md)
+      - [Lanford contraction proof of the Feigenbaum fixed point](lanford-contraction-proof-of-the-feigenbaum-fixed-point.md)
+      - [Leading polynomial approximation to a renormalization fixed point](leading-polynomial-approximation-to-a-renormalization-fixed-point.md)
+      - [Hyperbolicity mechanism for period-doubling universality](hyperbolicity-mechanism-for-period-doubling-universality.md)
+- [Beta transformation](beta-transformation.md)
+- [Tent map](tent-map.md)
+  - [Core interval of an expanding tent map](core-interval-of-an-expanding-tent-map.md)
+    - [Interval exactness of a tent-map core](interval-exactness-of-a-tent-map-core.md)
+  - [Renormalization of the tent map near its fixed point](renormalization-of-the-tent-map-near-its-fixed-point.md)
+    - [Centered tent-map period-doubling renormalization](centered-tent-map-period-doubling-renormalization.md)
+  - [Itinerary of an interval map](itinerary-of-an-interval-map.md)
+    - [Itinerary cylinder](itinerary-cylinder.md)
+- [Logistic map](logistic-map.md)
+  - [Logistic map two-cycle](logistic-map-two-cycle.md)
+- [Periodic point of an interval map](periodic-point-of-an-interval-map.md)
+- [Interval covering relation](interval-covering-relation.md)
+  - [Period three implies all periods](period-three-implies-all-periods.md)
+    - [Two five-cycles forced by a three-cycle](two-five-cycles-forced-by-a-three-cycle.md)
+  - [Directed covering graph of an interval map](directed-covering-graph-of-an-interval-map.md)
+    - [Periodic orbit from a closed interval-covering walk](periodic-orbit-from-a-closed-interval-covering-walk.md)
+      - [Counting cycles in an interval covering graph](counting-cycles-in-an-interval-covering-graph.md)
+        - [Period-three-free five-cycle interval covering pattern](period-three-free-five-cycle-interval-covering-pattern.md)
+        - [Monotone five-cycle interval covering pattern](monotone-five-cycle-interval-covering-pattern.md)
+- [Connect-the-dots interval map](connect-the-dots-interval-map.md)
+
+## ↑ Ancestors (5)
+
+1. [Discrete dynamical system](discrete-dynamical-system.md)
+2. [Dynamical systems](dynamical-systems-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (14)
+
+- [Beta transformation](beta-transformation.md)
+- [Glendinning chaos](glendinning-chaos.md)
+- [Horseshoe for an interval map](horseshoe-for-an-interval-map.md)
+- [Interval exactness produces a horseshoe](interval-exactness-produces-a-horseshoe.md)
+- [Interval-map positive-entropy horseshoe theorem](interval-map-positive-entropy-horseshoe-theorem.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-4/7a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-4/32e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-4/32e/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-4/32e/b/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ii/paper-2/33b/a/solution.md)
+- [Periodic point of an interval map](periodic-point-of-an-interval-map.md)
+- [Superstable periodic orbit](superstable-periodic-orbit.md)
+- [Three-cycle forces a two-iterate interval horseshoe](three-cycle-forces-a-two-iterate-interval-horseshoe.md)
+- [Unimodal interval map](unimodal-interval-map.md)

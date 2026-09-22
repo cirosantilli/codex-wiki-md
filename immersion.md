@@ -1,0 +1,60 @@
+# Immersion
+
+↑ **Parent:** [Differential geometry](differential-geometry-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Immersion_(mathematics))
+
+An immersion is a smooth map whose differential is injective at every point. A parametrized surface in $\mathbb R^3$ is immersed when its two coordinate tangent vectors are linearly independent.
+
+**Table of contents**
+
+- [Isometric immersion](isometric-immersion.md)
+- [Smooth embedding](smooth-embedding.md)
+  - [Finite-chart Euclidean embedding of a compact smooth manifold](finite-chart-euclidean-embedding-of-a-compact-smooth-manifold.md)
+  - [Stability of compact smooth embeddings](stability-of-compact-smooth-embeddings.md)
+  - [C1 metric on a smooth mapping space](c1-metric-on-a-smooth-mapping-space.md)
+  - [Tubular neighborhood](tubular-neighborhood.md)
+    - [Tubular neighborhood theorem](tubular-neighborhood-theorem.md)
+    - [Pontryagin-Thom collapse](pontryagin-thom-collapse.md)
+- [Immersed submanifold](immersed-submanifold.md)
+  - [Irrational winding of the torus](irrational-winding-of-the-torus.md)
+  - [Compact injective immersion is an embedding](compact-injective-immersion-is-an-embedding.md)
+- [Isothermal coordinates](isothermal-coordinates.md)
+  - [Conformal flattening of a surface of revolution](conformal-flattening-of-a-surface-of-revolution.md)
+
+## ↑ Ancestors (5)
+
+1. [Differential geometry](differential-geometry-split.md)
+2. [Geometry and topology](geometry-and-topology-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (27)
+
+- [Codimension-one Stiefel–Whitney immersion obstruction](codimension-one-stiefel-whitney-immersion-obstruction.md)
+- [Compact injective immersion is an embedding](compact-injective-immersion-is-an-embedding.md)
+- [Dense immersed cylinder in a three-dimensional torus](dense-immersed-cylinder-in-a-three-dimensional-torus.md)
+- [Dimension bound for a commutative Euclidean normed algebra](dimension-bound-for-a-commutative-euclidean-normed-algebra.md)
+- [Enneper surface](enneper-surface.md)
+- [Finite-chart Euclidean embedding of a compact smooth manifold](finite-chart-euclidean-embedding-of-a-compact-smooth-manifold.md)
+- [Irrational winding of the torus](irrational-winding-of-the-torus.md)
+- [Isometric immersion](isometric-immersion.md)
+- [Lagrangian immersion](lagrangian-immersion.md)
+- [Lie subgroup](lie-subgroup.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-16/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ib/paper-1/2a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-4/24h/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-4/24h/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-4/24h/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-18/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-19/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ii/paper-2/22g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-142/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-302/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-3/25h/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-115/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ii/paper-2/26f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-115/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-115/1/a/solution.md)
+- [Pullback of a Riemannian metric](pullback-of-a-riemannian-metric.md)
+- [Stiefel–Whitney obstruction to a diagonal projective immersion](stiefel-whitney-obstruction-to-a-diagonal-projective-immersion.md)

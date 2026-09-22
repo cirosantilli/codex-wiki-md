@@ -1,0 +1,63 @@
+# Mean value property for harmonic functions
+
+↑ **Parent:** [Harmonic function](harmonic-function.md)
+
+For every closed ball contained in the domain of a harmonic function, the value at its centre equals both its average over the ball and its average over the boundary sphere.
+
+**Table of contents**
+
+- [Harnack inequality for harmonic functions](harnack-inequality-for-harmonic-functions.md)
+  - [Harnack inequality on the unit disk](harnack-inequality-on-the-unit-disk.md)
+    - [Sharp gradient bound for positive harmonic functions](sharp-gradient-bound-for-positive-harmonic-functions.md)
+- [Local converse to the mean value property](local-converse-to-the-mean-value-property.md)
+
+## ↑ Ancestors (6)
+
+1. [Harmonic function](harmonic-function.md)
+2. [Partial differential equation](partial-differential-equation-split.md)
+3. [Analysis](analysis-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (39)
+
+- [Circle-average process of the Gaussian free field](circle-average-process-of-the-gaussian-free-field.md)
+- [Compact convergence of locally bounded harmonic functions](compact-convergence-of-locally-bounded-harmonic-functions.md)
+- [Harmonic functions of Brownian motion](harmonic-functions-of-brownian-motion.md)
+- [Harnack inequality for harmonic functions](harnack-inequality-for-harmonic-functions.md)
+- [Harnack inequality on the unit disk](harnack-inequality-on-the-unit-disk.md)
+- [Kakutani solution of the Dirichlet problem](kakutani-solution-of-the-dirichlet-problem.md)
+- [Nevanlinna first main theorem](nevanlinna-first-main-theorem.md)
+- [One-sided bounded harmonic functions on the punctured plane are constant](one-sided-bounded-harmonic-functions-on-the-punctured-plane-are-constant.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-9/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-9/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-7/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ii/paper-4/30a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-2/30c/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-12/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-13/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-12/5/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-9/5/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-5/5/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-5/5/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-5/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ia/paper-3/11a/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ia/paper-3/11a/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-29/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-107/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-107/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-107/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-203/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-107/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-107/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-107/1/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-107/1/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-107/1/a/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-203/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-107/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-107/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-107/1/a/solution.md)
+- [Poisson representation of harmonic h1 by finite measures](poisson-representation-of-harmonic-h1-by-finite-measures.md)
+- [Removable singularity for a bounded harmonic function](removable-singularity-for-a-bounded-harmonic-function.md)
+- [Vanishing absolute logarithmic mean characterization of Blaschke products](vanishing-absolute-logarithmic-mean-characterization-of-blaschke-products.md)

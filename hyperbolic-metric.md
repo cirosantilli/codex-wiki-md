@@ -1,0 +1,60 @@
+# Hyperbolic metric
+
+↑ **Parent:** [Hyperbolic geometry](hyperbolic-geometry.md)
+
+A hyperbolic metric is a complete Riemannian metric of constant sectional curvature $-1$. On a surface it supplies local charts modeled on the [hyperbolic plane](hyperbolic-plane.md).
+
+**Table of contents**
+
+- [Poincare metric on a Riemann surface](poincare-metric-on-a-riemann-surface.md)
+  - [Hyperbolic tube around a radial segment](hyperbolic-tube-around-a-radial-segment.md)
+  - [Hyperbolic derivative density](hyperbolic-derivative-density.md)
+    - [Hyperbolic characteristic of a disc map](hyperbolic-characteristic-of-a-disc-map.md)
+      - [Critical-point Jensen identity for the hyperbolic derivative](critical-point-jensen-identity-for-the-hyperbolic-derivative.md)
+- [Hyperbolic metric on the punctured disk](hyperbolic-metric-on-the-punctured-disk.md)
+  - [Hyperbolic zero sequences on a punctured disk](hyperbolic-zero-sequences-on-a-punctured-disk.md)
+- [Pseudohyperbolic distance](pseudohyperbolic-distance.md)
+
+## ↑ Ancestors (5)
+
+1. [Hyperbolic geometry](hyperbolic-geometry.md)
+2. [Geometry and topology](geometry-and-topology-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (33)
+
+- [Blaschke condition](blaschke-condition.md)
+- [Hyperbolic characteristic of a disc map](hyperbolic-characteristic-of-a-disc-map.md)
+- [Hyperbolic derivative density](hyperbolic-derivative-density.md)
+- [Hyperbolic distance](hyperbolic-distance.md)
+- [Hyperbolic metric on the punctured disk](hyperbolic-metric-on-the-punctured-disk.md)
+- [Hyperbolic systole](hyperbolic-systole.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/ib/paper-3/14b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-9/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-9/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-5/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-5/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/ib/paper-1/14g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-86/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ib/paper-1/2h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-1/12f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-10/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-11/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-11/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-11/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-20/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-20/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-4/3g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-20/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-11/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-11/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-19/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-16/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-117/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ib/paper-4/15g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-156/1/c/solution.md)
+- [Pseudohyperbolic distance](pseudohyperbolic-distance.md)
+- [Smoothness criterion from cone-monodromy cycles](smoothness-criterion-from-cone-monodromy-cycles.md)
+- [Thrice-punctured sphere as a modular quotient](thrice-punctured-sphere-as-a-modular-quotient.md)

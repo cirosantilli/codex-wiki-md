@@ -1,0 +1,62 @@
+# Star formation
+
+↑ **Parent:** [Stellar astrophysics](stellar-astrophysics-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Star_formation)
+
+Star formation is the gravitational collapse and fragmentation of cold interstellar gas into protostars and eventually stars. Cooling, turbulence, magnetic fields, rotation, and feedback determine its efficiency and characteristic masses.
+
+**Table of contents**
+
+- [Protostar](protostar.md)
+- [Gravitational fragmentation](gravitational-fragmentation.md)
+- [Kennicutt–Schmidt law](kennicutt-schmidt-law.md)
+  - [Gas-depletion time](gas-depletion-time.md)
+    - [Star-formation efficiency per free-fall time](star-formation-efficiency-per-free-fall-time.md)
+- [Jeans mass](jeans-mass.md)
+  - [Isothermal fragmentation](isothermal-fragmentation.md)
+  - [Adiabatic suppression of fragmentation](adiabatic-suppression-of-fragmentation.md)
+- [Initial mass function](initial-mass-function.md)
+  - [Power-law initial-mass-function tail coordinate](power-law-initial-mass-function-tail-coordinate.md)
+
+## ↑ Ancestors (5)
+
+1. [Stellar astrophysics](stellar-astrophysics-split.md)
+2. [Astrophysics](astrophysics-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (32)
+
+- [Cosmic ionizing background](cosmic-ionizing-background.md)
+- [Dynamical upper bound on black-hole fuelling](dynamical-upper-bound-on-black-hole-fuelling.md)
+- [Free-fall time of a uniform sphere](free-fall-time-of-a-uniform-sphere.md)
+- [Galactic gas inflow](galactic-gas-inflow.md)
+- [Galaxy red sequence](galaxy-red-sequence.md)
+- [Gas-rich galaxy merger](gas-rich-galaxy-merger.md)
+- [Irregular galaxy](irregular-galaxy.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-40/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-72/1/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-72/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-72/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-73/4/iii/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-65/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-65/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-65/4/vii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-66/3/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-60/3/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-60/4/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-56/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-56/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-56/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-61/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-61/3/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-347/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-349/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-346/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-347/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-349/1/solution.md)
+- [Photoevaporation of a dark-matter minihalo](photoevaporation-of-a-dark-matter-minihalo.md)
+- [Spiral galaxy](spiral-galaxy.md)
+- [Star-forming galaxy](star-forming-galaxy.md)
+- [Starburst galaxy](starburst-galaxy.md)

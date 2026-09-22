@@ -1,0 +1,61 @@
+# Ellipse
+
+↑ **Parent:** [Conic section](conic-section.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Ellipse)
+
+An ellipse is the locus of points whose distances from two fixed foci have constant sum. If the focal distance is $d$ and the sum is $c>d$, its semimajor and semiminor axes are $c/2$ and $\sqrt{c^2-d^2}/2$.
+
+**Table of contents**
+
+- [Semi-major and semi-minor axes](semi-major-and-semi-minor-axes.md)
+- [Ellipse perimeter expansion near a circle](ellipse-perimeter-expansion-near-a-circle.md)
+- [Nondegenerate ellipse](nondegenerate-ellipse.md)
+  - [Parity and upper bound for transverse ellipse intersections](parity-and-upper-bound-for-transverse-ellipse-intersections.md)
+- [Focal line](focal-line.md)
+
+## ↑ Ancestors (6)
+
+1. [Conic section](conic-section.md)
+2. [Euclidean geometry](euclidean-geometry.md)
+3. [Geometry and topology](geometry-and-topology-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (35)
+
+- [Eccentricity of a conic](eccentricity-of-a-conic.md)
+- [Ellipse perimeter expansion near a circle](ellipse-perimeter-expansion-near-a-circle.md)
+- [Elliptical polarization](elliptical-polarization.md)
+- [Focal line](focal-line.md)
+- [Inferring an inverse-square force from Kepler laws](inferring-an-inverse-square-force-from-kepler-laws.md)
+- [Kepler's laws of planetary motion](kepler-s-laws-of-planetary-motion.md)
+- [Parity and upper bound for transverse ellipse intersections](parity-and-upper-bound-for-transverse-ellipse-intersections.md)
+- [Particle ellipses for rotating shallow-water waves](particle-ellipses-for-rotating-shallow-water-waves.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/ia/paper-4/9a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-26/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/ia/paper-4/10a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ia/paper-4/3c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-85/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ia/paper-3/9a/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ia/paper-2/8a/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/ia/paper-4/9b/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/ib/paper-2/18d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-65/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-321/2/d/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-2/25i/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-316/2/vi/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-316/3/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-316/3/vi/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-316/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-316/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-338/1/b/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-345/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ia/paper-4/10c/c/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ia/paper-1/1b/a/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-309/1/b/iv/solution.md)
+- [Polarization (waves)](polarization-waves.md)
+- [Prolate spheroid](prolate-spheroid.md)
+- [Semi-major and semi-minor axes](semi-major-and-semi-minor-axes.md)
+- [Semilatus rectum](semilatus-rectum.md)
+- [Spheroid](spheroid.md)

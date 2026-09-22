@@ -1,0 +1,62 @@
+# Skew-symmetric matrix
+
+↑ **Parent:** [Orthogonal group](orthogonal-group.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Skew-symmetric_matrix)
+
+A matrix is skew-symmetric when $A^T=-A$.
+
+**Table of contents**
+
+- [Unitary skew-diagonalization of an antisymmetric matrix](unitary-skew-diagonalization-of-an-antisymmetric-matrix.md)
+- [Cross-product matrix](cross-product-matrix.md)
+  - [Cross-product matrix spectrum](cross-product-matrix-spectrum.md)
+
+## ↑ Ancestors (6)
+
+1. [Orthogonal group](orthogonal-group.md)
+2. [Linear algebra](linear-algebra-split.md)
+3. [Algebra](algebra-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (38)
+
+- [Antisymmetric second-rank tensor](antisymmetric-second-rank-tensor.md)
+- [Connection matrix in an orthonormal frame is skew-symmetric](connection-matrix-in-an-orthonormal-frame-is-skew-symmetric.md)
+- [Exterior square realization of the orthogonal adjoint representation](exterior-square-realization-of-the-orthogonal-adjoint-representation.md)
+- [Hamiltonian rotations of Bloch vectors](hamiltonian-rotations-of-bloch-vectors.md)
+- [Lotka-Volterra food-chain parity](lotka-volterra-food-chain-parity.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-57/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-57/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ia/paper-1/2b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-19/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-19/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-60/1/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-71/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-20/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-66/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-17/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-44/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-44/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-68/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-331/4/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ia/paper-1/2c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ia/paper-1/7b/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-302/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-341/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-1/26h/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-1/33c/b/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-313/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ib/paper-1/8f/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-302/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-341/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-341/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-341/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-341/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-341/4/b/solution.md)
+- [Positive definite symmetric operator](positive-definite-symmetric-operator.md)
+- [Runge-Kutta conservation of quadratic invariants](runge-kutta-conservation-of-quadratic-invariants.md)
+- [Skew-symmetric exponential as an axial rotation](skew-symmetric-exponential-as-an-axial-rotation.md)
+- [Skew-symmetric Householder tridiagonalization](skew-symmetric-householder-tridiagonalization.md)
+- [Zero-diagonal Jacobi Lax pair for the finite Volterra lattice](zero-diagonal-jacobi-lax-pair-for-the-finite-volterra-lattice.md)

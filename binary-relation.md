@@ -1,0 +1,63 @@
+# Binary relation
+
+↑ **Parent:** [Set theory](set-theory-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Binary_relation)
+
+A binary relation on a set $X$ is a subset of $X\times X$.
+
+**Table of contents**
+
+- [Binary relations with no empty row or column](binary-relations-with-no-empty-row-or-column.md)
+- [Preference relation](preference-relation.md)
+  - [Closed convergence of preference relations](closed-convergence-of-preference-relations.md)
+    - [Uniform utility convergence need not preserve closed preference convergence](uniform-utility-convergence-need-not-preserve-closed-preference-convergence.md)
+  - [Indifference relation](indifference-relation.md)
+  - [Strict preference](strict-preference.md)
+- [Composition of relations](composition-of-relations.md)
+- [Reflexive relation](reflexive-relation.md)
+  - [Reflexive closure](reflexive-closure.md)
+- [Symmetric relation](symmetric-relation.md)
+  - [Symmetric closure](symmetric-closure.md)
+- [Antisymmetric relation](antisymmetric-relation.md)
+- [Transitive relation](transitive-relation.md)
+  - [Transitive closure (relation)](transitive-closure-relation.md)
+- [Equivalence relation](equivalence-relation.md)
+  - [Composition of commuting equivalence relations](composition-of-commuting-equivalence-relations.md)
+  - [Commuting equivalence relations](commuting-equivalence-relations.md)
+  - [Equivalence closure](equivalence-closure.md)
+  - [Union of equivalence relations](union-of-equivalence-relations.md)
+  - [Intersection of equivalence relations](intersection-of-equivalence-relations.md)
+  - [Co-computably enumerable equivalence relation](co-computably-enumerable-equivalence-relation.md)
+    - [Semidecidable least-representative transversal](semidecidable-least-representative-transversal.md)
+  - [Equivalence of partial functions modulo finite changes](equivalence-of-partial-functions-modulo-finite-changes.md)
+  - [Equivalence class](equivalence-class.md)
+  - [Equivalence relation induced by a function](equivalence-relation-induced-by-a-function.md)
+    - [Prime-support equivalence relation](prime-support-equivalence-relation.md)
+  - [Quotient set](quotient-set.md)
+
+## ↑ Ancestors (5)
+
+1. [Set theory](set-theory-split.md)
+2. [Foundations of mathematics](foundations-of-mathematics-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (16)
+
+- [Binary relations with no empty row or column](binary-relations-with-no-empty-row-or-column.md)
+- [Category of relations (sets)](category-of-relations-sets.md)
+- [Equivalence closure](equivalence-closure.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/ia/paper-4/2c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/ia/paper-4/8c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ia/paper-4/5e/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ia/paper-4/5e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ia/paper-5/11/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ia/paper-5/11/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ia/paper-4/1e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ia/paper-4/2e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ia/paper-4/2d/a/solution.md)
+- [Reflexive closure](reflexive-closure.md)
+- [Symmetric closure](symmetric-closure.md)
+- [Transitive closure](transitive-closure.md)
+- [Well-order code](well-order-code.md)

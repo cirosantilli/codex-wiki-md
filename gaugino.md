@@ -1,0 +1,60 @@
+# Gaugino
+
+↑ **Parent:** [Sparticle](sparticle.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Gaugino)
+
+A gaugino is the spin-one-half superpartner of a gauge boson and transforms in the adjoint representation of its gauge group. Gaugino loops modify gauge-coupling beta functions above the supersymmetry-breaking threshold.
+
+**Table of contents**
+
+- [Bino](bino.md)
+- [Wino](wino.md)
+- [Gluino](gluino.md)
+
+## ↑ Ancestors (7)
+
+1. [Sparticle](sparticle.md)
+2. [Soft supersymmetry breaking](soft-supersymmetry-breaking.md)
+3. [Supersymmetry breaking](supersymmetry-breaking.md)
+4. [Supersymmetry](supersymmetry-split.md)
+5. [Branches of physics](branches-of-physics.md)
+6. [Physics](physics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (35)
+
+- [Abelian field-strength chiral projection](abelian-field-strength-chiral-projection.md)
+- [Bino](bino.md)
+- [Chiral spinor superfield](chiral-spinor-superfield.md)
+- [Gauge contributions to the F-term supertrace](gauge-contributions-to-the-f-term-supertrace.md)
+- [Goldstino null vector with F-term and D-term breaking](goldstino-null-vector-with-f-term-and-d-term-breaking.md)
+- [Higgsino](higgsino.md)
+- [Mass spectrum of single charged-field D-term breaking](mass-spectrum-of-single-charged-field-d-term-breaking.md)
+- [MSSM superfield representations](mssm-superfield-representations.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-65/1/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-65/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-65/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-68/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-53/9/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-55/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-55/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-54/1/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-54/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-55/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-55/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-55/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-40/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-56/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-43/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-43/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-43/2/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-307/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-307/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-307/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-307/3/solution.md)
+- [Single charged-field D-term breaking](single-charged-field-d-term-breaking.md)
+- [Supergravity coupling of an Abelian vector multiplet](supergravity-coupling-of-an-abelian-vector-multiplet.md)
+- [Superspace gauge connection](superspace-gauge-connection.md)
+- [Supersymmetric Higgs mechanism](supersymmetric-higgs-mechanism.md)
+- [Supersymmetric vector multiplet](supersymmetric-vector-multiplet.md)
+- [Wino](wino.md)

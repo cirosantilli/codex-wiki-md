@@ -1,0 +1,50 @@
+# Clinical trial
+
+↑ **Parent:** [Probability and statistics](probability-and-statistics-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Clinical_trial)
+
+**Table of contents**
+
+- [Independent trial safety monitoring](independent-trial-safety-monitoring.md)
+- [Clinical equipoise](clinical-equipoise.md)
+- [Time-origin alignment of clinical endpoints](time-origin-alignment-of-clinical-endpoints.md)
+- [Eligibility criteria for a clinical trial](eligibility-criteria-for-a-clinical-trial.md)
+- [Sample size](sample-size.md)
+  - [Sample size for comparing two proportions](sample-size-for-comparing-two-proportions.md)
+    - [Rare-event collaboration size at half power](rare-event-collaboration-size-at-half-power.md)
+    - [Endpoint-specific rare-event sample size](endpoint-specific-rare-event-sample-size.md)
+  - [Normal-mean sample size calculation](normal-mean-sample-size-calculation.md)
+- [Statistical power](statistical-power.md)
+  - [Power of a two-sample rare-event comparison](power-of-a-two-sample-rare-event-comparison.md)
+- [Group sequential design](group-sequential-design.md)
+  - [Futility boundary](futility-boundary.md)
+    - [Conditional selection bias after futility continuation](conditional-selection-bias-after-futility-continuation.md)
+      - [Conditional bias-corrected normal mean estimate](conditional-bias-corrected-normal-mean-estimate.md)
+      - [Rao-Blackwell estimator after interim selection](rao-blackwell-estimator-after-interim-selection.md)
+  - [Conditional error principle](conditional-error-principle.md)
+  - [Alpha-spending function](alpha-spending-function.md)
+  - [Interim analysis](interim-analysis.md)
+  - [Sequential stopping boundary](sequential-stopping-boundary.md)
+  - [Canonical joint distribution for group sequential test statistics](canonical-joint-distribution-for-group-sequential-test-statistics.md)
+- [Two-stage clinical trial design](two-stage-clinical-trial-design.md)
+- [Neyman allocation](neyman-allocation.md)
+- [Response-adaptive randomization](response-adaptive-randomization.md)
+  - [Randomized play-the-winner rule](randomized-play-the-winner-rule.md)
+
+## ↑ Ancestors (4)
+
+1. [Probability and statistics](probability-and-statistics-split.md)
+2. [Area of mathematics](area-of-mathematics.md)
+3. [Mathematics](mathematics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (8)
+
+- [Eligibility criteria for a clinical trial](eligibility-criteria-for-a-clinical-trial.md)
+- [Futility boundary](futility-boundary.md)
+- [Independent trial safety monitoring](independent-trial-safety-monitoring.md)
+- [Informed consent](informed-consent.md)
+- [Migraine](migraine.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-41/1/a/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-207/1/a/solution.md)
+- [Time-origin alignment of clinical endpoints](time-origin-alignment-of-clinical-endpoints.md)

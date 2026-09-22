@@ -1,0 +1,62 @@
+# Lorentz boost
+
+↑ **Parent:** [Lorentz transformation](lorentz-transformation.md)
+
+A Lorentz boost relates [inertial frames](inertial-frame.md) moving at a constant relative velocity without an additional spatial rotation. In units with light speed one, the displayed transformation preserves $t^2-x^2$, with [Lorentz factor](lorentz-factor.md) $\gamma=(1-v^2)^{-1/2}$. Applying it to a static [classical field-theory soliton](classical-field-theory-soliton-split.md) produces a uniformly moving solution in a Lorentz-invariant theory.
+
+**Table of contents**
+
+- [Wigner rotation](wigner-rotation.md)
+  - [Noncollinear boost obstruction from Pauli products](noncollinear-boost-obstruction-from-pauli-products.md)
+- [Rapidity](rapidity.md)
+  - [Iterated collinear boosts with equal rapidity](iterated-collinear-boosts-with-equal-rapidity.md)
+
+## ↑ Ancestors (5)
+
+1. [Lorentz transformation](lorentz-transformation.md)
+2. [Special relativity](special-relativity-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (39)
+
+- [Bogomolny classification of a rescaled phi-six kink](bogomolny-classification-of-a-rescaled-phi-six-kink.md)
+- [Iterated collinear boosts with equal rapidity](iterated-collinear-boosts-with-equal-rapidity.md)
+- [Lorentz boost vector field](lorentz-boost-vector-field.md)
+- [Massive induced representation of the Poincare double cover](massive-induced-representation-of-the-poincare-double-cover.md)
+- [Parity action on canonical massive spin states](parity-action-on-canonical-massive-spin-states.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-70/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/ib/paper-4/9a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/ib/paper-4/17d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/ib/paper-4/7d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-44/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-51/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-56/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-56/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ib/paper-1/4c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-48/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-49/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-49/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-55/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-42/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-45/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ia/paper-4/4b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-47/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-48/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/ia/paper-4/12b/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-43/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-47/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-50/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ib/paper-2/18c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-1/35d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-308/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-308/1/solution.md)
+- [Photon-number half-cone under relativistic aberration](photon-number-half-cone-under-relativistic-aberration.md)
+- [Rapidity](rapidity.md)
+- [Relativistic charge density of counterstreaming beams](relativistic-charge-density-of-counterstreaming-beams.md)
+- [Relativistic energy and momentum of a phi-four kink](relativistic-energy-and-momentum-of-a-phi-four-kink.md)
+- [Sine-Gordon kink](sine-gordon-kink.md)
+- [Translational dynamics of a phi-four kink](translational-dynamics-of-a-phi-four-kink.md)
+- [Two-dimensional N=(1,1) superspace](two-dimensional-n-1-1-superspace.md)
+- [Wigner rotation](wigner-rotation.md)

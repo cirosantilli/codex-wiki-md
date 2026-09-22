@@ -1,0 +1,60 @@
+# Penrose diagram
+
+↑ **Parent:** [Black hole](black-hole.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Penrose_diagram)
+
+A Penrose diagram conformally compactifies a spacetime while preserving causal directions, placing null infinity, timelike infinity, spacelike infinity, horizons, and singularities at finite coordinate locations.
+
+**Table of contents**
+
+- [Schwarzschild conformal compactification](schwarzschild-conformal-compactification.md)
+- [Spacelike infinity](spacelike-infinity.md)
+- [Timelike infinity](timelike-infinity.md)
+  - [Past timelike infinity](past-timelike-infinity.md)
+  - [Future timelike infinity](future-timelike-infinity.md)
+- [Null infinity](null-infinity.md)
+  - [Past null infinity](past-null-infinity.md)
+- [Causal projection along a spacelike circular fiber](causal-projection-along-a-spacelike-circular-fiber.md)
+- [Tortoise coordinate](tortoise-coordinate.md)
+
+## ↑ Ancestors (5)
+
+1. [Black hole](black-hole.md)
+2. [General relativity](general-relativity-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (31)
+
+- [Causal projection along a spacelike circular fiber](causal-projection-along-a-spacelike-circular-fiber.md)
+- [Causal structure of the magnetic dilaton black hole](causal-structure-of-the-magnetic-dilaton-black-hole.md)
+- [Finkelstein diagram](finkelstein-diagram.md)
+- [Kruskal diagram](kruskal-diagram.md)
+- [Minkowski conformal compactification](minkowski-conformal-compactification.md)
+- [Null infinity](null-infinity.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-73/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-75/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-54/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-56/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-58/5/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-57/4/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-59/5/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-60/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-62/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-63/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-61/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-54/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-56/1/g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-59/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-54/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-58/1/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-52/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-311/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-311/3/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-311/1/b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-311/2/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-311/2/a/i/solution.md)
+- [Projective Minkowski compactification](projective-minkowski-compactification.md)
+- [Schwarzschild-Tangherlini metric](schwarzschild-tangherlini-metric.md)
+- [Spacelike infinity](spacelike-infinity.md)

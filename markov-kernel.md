@@ -1,0 +1,46 @@
+# Markov kernel
+
+↑ **Parent:** [Markov chain](markov-chain.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Markov_kernel)
+
+A Markov kernel $K(x,\mathord\cdot)$ assigns a [probability distribution](probability-distribution.md) to each current state $x$ and acts on a distribution $P$ by $(PK)(A)=\int K(x,A)P(dx)$.
+
+## ↑ Ancestors (7)
+
+1. [Markov chain](markov-chain.md)
+2. [Markov process](markov-process-split.md)
+3. [Probability theory](probability-theory-split.md)
+4. [Probability and statistics](probability-and-statistics-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (27)
+
+- [Absolute L2 spectral gap of a reversible Markov chain](absolute-l2-spectral-gap-of-a-reversible-markov-chain.md)
+- [Bounded conditional moments imply a geometric drift](bounded-conditional-moments-imply-a-geometric-drift.md)
+- [Burn-in total variation comparison](burn-in-total-variation-comparison.md)
+- [Data processing inequality for relative entropy](data-processing-inequality-for-relative-entropy.md)
+- [EM transition-count update on a tree](em-transition-count-update-on-a-tree.md)
+- [Feller semigroup](feller-semigroup.md)
+- [Felsenstein pruning algorithm](felsenstein-pruning-algorithm.md)
+- [Invariant probability measure for a semigroup](invariant-probability-measure-for-a-semigroup.md)
+- [Markov chain variational inference](markov-chain-variational-inference.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-7/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-208/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-215/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-215/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-216/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-216/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-216/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-216/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-216/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-216/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-216/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-216/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-3/28j/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-216/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-224/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-224/3/b/solution.md)
+- [Product stationarity under single-coordinate Markov updates](product-stationarity-under-single-coordinate-markov-updates.md)
+- [Regular conditional distribution](regular-conditional-distribution.md)

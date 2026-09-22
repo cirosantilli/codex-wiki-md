@@ -1,0 +1,63 @@
+# Quantum electrodynamics
+
+↑ **Parent:** [Perturbative quantum field theory](perturbative-quantum-field-theory-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Quantum_electrodynamics)
+
+Quantum electrodynamics couples a [Dirac field](dirac-field.md) to an Abelian [gauge field](gauge-field.md) through $-e\bar\psi\gamma^\mu\psi A_\mu$.
+
+**Table of contents**
+
+- [Electron-positron annihilation into two photons](electron-positron-annihilation-into-two-photons.md)
+- [Muon-antimuon annihilation into two photons](muon-antimuon-annihilation-into-two-photons.md)
+- [Fine-structure constant](fine-structure-constant.md)
+- [Minimal electromagnetic coupling of a Dirac field](minimal-electromagnetic-coupling-of-a-dirac-field.md)
+  - [Gauge covariance of the charged Dirac equation](gauge-covariance-of-the-charged-dirac-equation.md)
+- [Electron-positron annihilation into a muon pair](electron-positron-annihilation-into-a-muon-pair.md)
+- [QED Feynman rules](qed-feynman-rules.md)
+  - [Vertex parity of a QED amplitude](vertex-parity-of-a-qed-amplitude.md)
+  - [Electron-positron annihilation into a quark pair](electron-positron-annihilation-into-a-quark-pair.md)
+- [Bhabha scattering](bhabha-scattering.md)
+- [Pauli term](pauli-term.md)
+- [Vacuum polarization](vacuum-polarization.md)
+  - [Photon vacuum polarization](photon-vacuum-polarization.md)
+    - [Hadronic electromagnetic-current spectral density](hadronic-electromagnetic-current-spectral-density.md)
+- [Perturbative interactions in scalar electrodynamics](perturbative-interactions-in-scalar-electrodynamics.md)
+  - [Scalar particle-antiparticle tree scattering](scalar-particle-antiparticle-tree-scattering.md)
+  - [Scalar electrodynamics three-point vertex](scalar-electrodynamics-three-point-vertex.md)
+  - [Seagull vertex](seagull-vertex.md)
+- [Ward identity](ward-identity.md)
+  - [Three-photon fermion Ward identity](three-photon-fermion-ward-identity.md)
+  - [Proper-vertex Ward-Takahashi identity in QED](proper-vertex-ward-takahashi-identity-in-qed.md)
+    - [Ward identity for QED renormalization constants](ward-identity-for-qed-renormalization-constants.md)
+  - [Two-photon fermion Ward identity](two-photon-fermion-ward-identity.md)
+  - [Ward identity contact terms](ward-identity-contact-terms.md)
+  - [Scalar quantum electrodynamics Ward identity](scalar-quantum-electrodynamics-ward-identity.md)
+    - [Two-photon scalar Ward identity](two-photon-scalar-ward-identity.md)
+  - [Soft photon theorem](soft-photon-theorem.md)
+
+## ↑ Ancestors (5)
+
+1. [Perturbative quantum field theory](perturbative-quantum-field-theory-split.md)
+2. [Quantum field theory](quantum-field-theory-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (16)
+
+- [Dirac electromagnetic current](dirac-electromagnetic-current.md)
+- [Feynman-gauge photon propagator](feynman-gauge-photon-propagator.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-62/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-49/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-48/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-52/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-46/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-301/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-301/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-305/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-301/3/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-305/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-301/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-301/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-301/3/d/solution.md)
+- [QED one-loop running-mass to pole-mass conversion](qed-one-loop-running-mass-to-pole-mass-conversion.md)

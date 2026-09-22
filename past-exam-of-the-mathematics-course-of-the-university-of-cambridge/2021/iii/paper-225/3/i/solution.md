@@ -1,0 +1,32 @@
+<h1 id="3/i/solution">Solution</h1>
+
+↑ **Parent:** [I](../i.md)
+
+The [square-root distance between covariance operators](../../../../../../square-root-distance-between-covariance-operators.md) is
+
+$$
+d_R(C_1,C_2)=\lVert C_1^{1/2}-C_2^{1/2}\rVert_{\rm HS}.
+$$
+
+Writing $A_i=C_i^{1/2}$, minimizing $\sum_i\lVert A_i-A\rVert_{\rm HS}^2$ gives $A=n^{-1}\sum_iA_i$. Since this average is positive,
+
+$$
+\boxed{\widehat C_R=
+\left(\frac1n\sum_{i=1}^nC_i^{1/2}\right)^2},
+$$
+
+the [square-root barycenter of covariance operators](../../../../../../square-root-barycenter-of-covariance-operators.md).
+
+## ↑ Ancestors (11)
+
+1. [I](../i.md)
+2. [3](../../3.md)
+3. [Paper 225](../../../paper-225-split.md)
+4. [Iii](../../../split.md)
+5. [2021](../../../../split.md)
+6. [Past exam of the mathematics course of the University of Cambridge](../../../../../split.md)
+7. [Mathematics course of the University of Cambridge](../../../../../../mathematics-course-of-the-university-of-cambridge.md)
+8. [Course of the University of Cambridge](../../../../../../course-of-the-university-of-cambridge.md)
+9. [University of Cambridge](../../../../../../university-of-cambridge-split.md)
+10. [List of universities](../../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../../split.md)

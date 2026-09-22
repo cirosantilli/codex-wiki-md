@@ -1,0 +1,47 @@
+# Nowhere dense set
+
+↑ **Parent:** [Baire category theorem](baire-category-theorem.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Nowhere_dense_set)
+
+A subset $A$ of a topological space is nowhere dense when the interior of its closure is empty. Equivalently, every nonempty open set contains a nonempty open subset disjoint from $A$.
+
+## ↑ Ancestors (8)
+
+1. [Baire category theorem](baire-category-theorem.md)
+2. [Complete metric space](complete-metric-space.md)
+3. [Metric space](metric-space.md)
+4. [Topological analysis](topological-analysis-split.md)
+5. [Analysis](analysis-split.md)
+6. [Area of mathematics](area-of-mathematics.md)
+7. [Mathematics](mathematics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (27)
+
+- [Completely Ramsey-null set](completely-ramsey-null-set.md)
+- [Cone on an infinite coinfinite ground set](cone-on-an-infinite-coinfinite-ground-set.md)
+- [Dense countable family of cofinite infinite subsets](dense-countable-family-of-cofinite-infinite-subsets.md)
+- [Meagre set](meagre-set.md)
+- [Nonpolynomial entire function has a centre with no zero Taylor coefficient](nonpolynomial-entire-function-has-a-centre-with-no-zero-taylor-coefficient.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-10/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-10/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-2/11f/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-6/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-14/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-8/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-3/2f/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-9/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ii/paper-1/2f/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-10/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-121/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-2/20f/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-2/20f/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-3/2f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-130/4/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-3/21h/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-2/22i/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-4/2h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ii/paper-2/2g/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-2/11f/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/ii/paper-4/12i/solution.md)
+- [Summability domain of a regular matrix](summability-domain-of-a-regular-matrix.md)

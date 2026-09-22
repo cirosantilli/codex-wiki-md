@@ -1,0 +1,63 @@
+# Product measure
+
+↑ **Parent:** [Probability theory](probability-theory-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Product_measure)
+
+The product measure $\bigotimes_n\mu_n$ is characterized on measurable rectangles depending on finitely many coordinates by the product of their component measures.
+
+**Table of contents**
+
+- [Product sigma-algebra](product-sigma-algebra.md)
+- [Pi-lambda theorem](pi-lambda-theorem.md)
+- [Canonical model of an independent and identically distributed sequence](canonical-model-of-an-independent-and-identically-distributed-sequence.md)
+
+## ↑ Ancestors (5)
+
+1. [Probability theory](probability-theory-split.md)
+2. [Probability and statistics](probability-and-statistics-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (40)
+
+- [Bernoulli invariant laws of finite symmetric exclusion](bernoulli-invariant-laws-of-finite-symmetric-exclusion.md)
+- [Bernoulli shift](bernoulli-shift.md)
+- [Canonical model of an independent and identically distributed sequence](canonical-model-of-an-independent-and-identically-distributed-sequence.md)
+- [Coordinate-splitting proof of the BK inequality](coordinate-splitting-proof-of-the-bk-inequality.md)
+- [Disjoint occurrence of increasing events](disjoint-occurrence-of-increasing-events.md)
+- [FKG lattice condition](fkg-lattice-condition.md)
+- [Negative correlation of increasing and decreasing events](negative-correlation-of-increasing-and-decreasing-events.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-11/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-11/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-28/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-28/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-13/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-14/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-38/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-30/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-44/4/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-26/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-26/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-28/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-28/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ii/paper-3/22j/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-112/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-204/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-204/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-204/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-210/4/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-303/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-109/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-214/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-108/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-2/26k/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-348/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-348/5/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-348/5/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ii/paper-1/27g/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-224/2/e/solution.md)
+- [Product probability space](product-probability-space.md)
+- [Sharp threshold](sharp-threshold.md)
+- [Square-root bound for increasing events](square-root-bound-for-increasing-events.md)
+- [Talagrand convex distance](talagrand-convex-distance.md)

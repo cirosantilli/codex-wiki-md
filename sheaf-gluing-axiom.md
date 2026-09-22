@@ -1,0 +1,45 @@
+# Sheaf gluing axiom
+
+↑ **Parent:** [Sheaf (mathematics)](sheaf-mathematics.md)
+
+The sheaf gluing axiom says that sections $s_i$ on an [open cover](open-cover.md) $(U_i)$ that agree on every overlap $U_i\cap U_j$ glue to a unique section on $\bigcup_iU_i$.
+
+## ↑ Ancestors (7)
+
+1. [Sheaf (mathematics)](sheaf-mathematics.md)
+2. [Presheaf of sets on a topological space](presheaf-of-sets-on-a-topological-space.md)
+3. [Algebraic geometry](algebraic-geometry-split.md)
+4. [Geometry and topology](geometry-and-topology-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (27)
+
+- [Cokernel sheaf](cokernel-sheaf.md)
+- [Flasque-kernel section-lifting lemma](flasque-kernel-section-lifting-lemma.md)
+- [Generic-point embedding of regular functions](generic-point-embedding-of-regular-functions.md)
+- [Kernel sheaf](kernel-sheaf.md)
+- [Localization of global sections on a principal open](localization-of-global-sections-on-a-principal-open.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-15/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-14/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-17/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-17/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-16/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-16/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-23/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-13/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-13/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-13/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-13/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-13/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-16/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-16/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-113/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-118/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-118/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-113/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-113/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-118/2/b/ii/solution.md)
+- [Sheaf of nonzero rational functions on an irreducible variety](sheaf-of-nonzero-rational-functions-on-an-irreducible-variety.md)
+- [Universal property of sheafification](universal-property-of-sheafification.md)

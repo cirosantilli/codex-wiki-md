@@ -1,0 +1,61 @@
+# Differentiability
+
+↑ **Parent:** [Differentiable function](differentiable-function.md)
+
+Differentiability is the existence of a [derivative](derivative.md) at a point. For maps between finite-dimensional [normed vector spaces](normed-vector-space.md), the existence of a [Fréchet derivative](frechet-derivative.md) requires a single [linear map](linear-map.md) approximating the increment with error $o(\|h\|)$. Merely having [partial derivatives](partial-derivative.md) need not provide this approximation; [continuous](continuous-function.md) [partial derivatives](partial-derivative.md) on a neighbourhood do suffice.
+
+**Table of contents**
+
+- [Discontinuous derivative of a differentiable plane curve](discontinuous-derivative-of-a-differentiable-plane-curve.md)
+- [Differentiability does not imply continuous derivatives](differentiability-does-not-imply-continuous-derivatives.md)
+- [Differentiability from continuous partial derivatives](differentiability-from-continuous-partial-derivatives.md)
+- [Differentiability of the square of a continuous function](differentiability-of-the-square-of-a-continuous-function.md)
+- [Higher-order differentiability at a point](higher-order-differentiability-at-a-point.md)
+
+## ↑ Ancestors (5)
+
+1. [Differentiable function](differentiable-function.md)
+2. [Analysis](analysis-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (37)
+
+- [Differentiability of the square of a continuous function](differentiability-of-the-square-of-a-continuous-function.md)
+- [Dual differentiability with nonvanishing utility curvature](dual-differentiability-with-nonvanishing-utility-curvature.md)
+- [Higher-order differentiability at a point](higher-order-differentiability-at-a-point.md)
+- [Interior first-order bias cancellation for local constant regression](interior-first-order-bias-cancellation-for-local-constant-regression.md)
+- [One-sided derivative](one-sided-derivative.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/ia/paper-1/11c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/ib/paper-3/1e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/ib/paper-2/1f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ib/paper-3/3b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-5/3/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ib/paper-1/11h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-42/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ia/paper-1/11d/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ia/paper-1/11d/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ib/paper-4/20h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ia/paper-1/10f/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ia/paper-1/12f/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ia/paper-1/11e/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ia/paper-1/11e/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ia/paper-1/11e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-44/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/ia/paper-1/11e/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/ia/paper-1/11e/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/ib/paper-4/3f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ib/paper-4/12f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-34/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-2/3g/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-2/3g/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ib/paper-4/12g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ib/paper-4/3g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-4/11f/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-301/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-340/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-340/2/c/solution.md)
+- [Peano zero](peano-zero.md)
+- [Pointwise versus uniform risk distinction](pointwise-versus-uniform-risk-distinction.md)
+- [Smoothness](smoothness.md)

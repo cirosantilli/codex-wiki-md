@@ -1,0 +1,62 @@
+# Geometric morphism
+
+↑ **Parent:** [Elementary topos](elementary-topos.md)
+
+A geometric morphism $f:\mathcal E\to\mathcal F$ is an [adjunction](adjoint-functors.md) $f^*\dashv f_*$ with finite-limit-preserving inverse image $f^*:\mathcal F\to\mathcal E$. Inverse image also preserves colimits as a left adjoint. An extra left adjoint $f_!\dashv f^*$ makes it essential.
+
+**Table of contents**
+
+- [Hyperconnected-localic factorization](hyperconnected-localic-factorization.md)
+- [Hyperconnected geometric morphism](hyperconnected-geometric-morphism.md)
+- [Localic geometric morphism](localic-geometric-morphism.md)
+- [Diaconescu equivalence for geometric morphisms](diaconescu-equivalence-for-geometric-morphisms.md)
+- [Global sections geometric morphism](global-sections-geometric-morphism.md)
+- [Inverse image functor of a geometric morphism](inverse-image-functor-of-a-geometric-morphism.md)
+- [Essential geometric morphism](essential-geometric-morphism.md)
+- [Surjection-embedding factorization of a geometric morphism](surjection-embedding-factorization-of-a-geometric-morphism.md)
+- [Geometric embedding](geometric-embedding.md)
+  - [Subtopos](subtopos.md)
+- [Surjective geometric morphism](surjective-geometric-morphism.md)
+  - [Surjectivity detected by the subobject classifier](surjectivity-detected-by-the-subobject-classifier.md)
+- [Local topos](local-topos.md)
+  - [Open cover criterion for a local sheaf topos](open-cover-criterion-for-a-local-sheaf-topos.md)
+  - [Initial object criterion for a covariant local topos](initial-object-criterion-for-a-covariant-local-topos.md)
+- [Geometric morphism induced by a functor](geometric-morphism-induced-by-a-functor.md)
+  - [Full-faithfulness criterion for presheaf geometric embeddings](full-faithfulness-criterion-for-presheaf-geometric-embeddings.md)
+  - [Retract criterion for surjective presheaf geometric morphisms](retract-criterion-for-surjective-presheaf-geometric-morphisms.md)
+
+## ↑ Ancestors (6)
+
+1. [Elementary topos](elementary-topos.md)
+2. [Category theory](category-theory-split.md)
+3. [Foundations of mathematics](foundations-of-mathematics-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (24)
+
+- [Diaconescu equivalence for geometric morphisms](diaconescu-equivalence-for-geometric-morphisms.md)
+- [Essential geometric morphism](essential-geometric-morphism.md)
+- [Full-faithfulness criterion for presheaf geometric embeddings](full-faithfulness-criterion-for-presheaf-geometric-embeddings.md)
+- [Geometric embedding](geometric-embedding.md)
+- [Geometric morphism induced by a functor](geometric-morphism-induced-by-a-functor.md)
+- [Global sections geometric morphism](global-sections-geometric-morphism.md)
+- [Hyperconnected geometric morphism](hyperconnected-geometric-morphism.md)
+- [Hyperconnected-localic factorization](hyperconnected-localic-factorization.md)
+- [Localic geometric morphism](localic-geometric-morphism.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-22/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-24/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-24/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-75/5/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-75/5/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-23/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-23/5/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-23/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-23/6/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-74/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-20/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-20/4/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-20/4/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-20/6/i/solution.md)
+- [Surjectivity detected by the subobject classifier](surjectivity-detected-by-the-subobject-classifier.md)

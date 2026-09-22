@@ -1,0 +1,63 @@
+# Unit ball
+
+↑ **Parent:** [Euclidean ball](euclidean-ball.md)
+
+The unit ball of a [normed vector space](normed-vector-space.md) is $\{x:\lVert x\rVert\leq1\}$ under the closed-ball convention.
+
+**Table of contents**
+
+- [Closed unit ball](closed-unit-ball.md)
+- [Open unit ball](open-unit-ball.md)
+
+## ↑ Ancestors (8)
+
+1. [Euclidean ball](euclidean-ball.md)
+2. [Euclidean norm](euclidean-norm.md)
+3. [Normed vector space](normed-vector-space.md)
+4. [Functional analysis](functional-analysis-split.md)
+5. [Analysis](analysis-split.md)
+6. [Area of mathematics](area-of-mathematics.md)
+7. [Mathematics](mathematics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (39)
+
+- [Atomic approximation on finite-dimensional spaces of continuous functions](atomic-approximation-on-finite-dimensional-spaces-of-continuous-functions.md)
+- [Ball (mathematics)](ball-mathematics.md)
+- [Compact operators send weak convergence to norm convergence](compact-operators-send-weak-convergence-to-norm-convergence.md)
+- [Euclidean unit ball](euclidean-unit-ball.md)
+- [Finite-dimensional interpolation form of Goldstine's theorem](finite-dimensional-interpolation-form-of-goldstine-s-theorem.md)
+- [John ellipsoid](john-ellipsoid.md)
+- [Kaplansky density theorem](kaplansky-density-theorem.md)
+- [Norm-compact unit ball criterion](norm-compact-unit-ball-criterion.md)
+- [Norming subspace of a dual space](norming-subspace-of-a-dual-space.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-6/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-6/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-6/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-2/22f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-1/22g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-8/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-9/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-1/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-1/5/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-1/5/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-11/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ii/paper-4/22h/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-7/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-7/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-7/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-6/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-6/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-6/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-36/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-5/2/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-5/2/11/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-4/20i/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-106/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-106/2/b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-106/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-115/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-216/1/c/solution.md)
+- [Surjectivity of a continuous bounded-displacement map](surjectivity-of-a-continuous-bounded-displacement-map.md)
+- [Unit sphere net from ball covering](unit-sphere-net-from-ball-covering.md)
+- [Weak-star fixed point theorem for an adjoint operator](weak-star-fixed-point-theorem-for-an-adjoint-operator.md)

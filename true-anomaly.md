@@ -1,0 +1,45 @@
+# True anomaly
+
+↑ **Parent:** [Orbital element](orbital-element.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/True_anomaly)
+
+The true anomaly is the angle at the focus from periapsis to the current position of an orbiting body, measured in the direction of motion.
+
+## ↑ Ancestors (7)
+
+1. [Orbital element](orbital-element.md)
+2. [Kepler orbit](kepler-orbit.md)
+3. [Celestial mechanics](celestial-mechanics.md)
+4. [Classical mechanics](classical-mechanics-split.md)
+5. [Branches of physics](branches-of-physics.md)
+6. [Physics](physics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (26)
+
+- [Barker equation](barker-equation.md)
+- [Conjunction longitude from a transit time lag](conjunction-longitude-from-a-transit-time-lag.md)
+- [Exoplanet transit](exoplanet-transit.md)
+- [Gauss planetary equation for the semi-major axis](gauss-planetary-equation-for-the-semi-major-axis.md)
+- [High-eccentricity angular-speed crossover](high-eccentricity-angular-speed-crossover.md)
+- [Line density on a Kepler orbit](line-density-on-a-kepler-orbit.md)
+- [Orbit averaging](orbit-averaging.md)
+- [Osculating-element evolution under isotropic mass loss](osculating-element-evolution-under-isotropic-mass-loss.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-61/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-64/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-64/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-65/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-316/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-316/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-316/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-316/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-316/3/vi/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-316/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-316/3/vii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-316/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-316/4/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-322/2/solution.md)
+- [Pericentre-to-crossover flight time](pericentre-to-crossover-flight-time.md)
+- [Polar equation of a Kepler orbit](polar-equation-of-a-kepler-orbit.md)
+- [Resonant conjunction geometry](resonant-conjunction-geometry.md)
+- [True longitude](true-longitude.md)

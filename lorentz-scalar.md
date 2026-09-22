@@ -1,0 +1,45 @@
+# Lorentz scalar
+
+↑ **Parent:** [Lorentz transformation](lorentz-transformation.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Lorentz_scalar)
+
+A Lorentz scalar is unchanged under a [Lorentz transformation](lorentz-transformation.md). Contracting every Lorentz index in a tensor expression produces a scalar when the constituent fields transform covariantly.
+
+## ↑ Ancestors (5)
+
+1. [Lorentz transformation](lorentz-transformation.md)
+2. [Special relativity](special-relativity-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (28)
+
+- [Active Lorentz transformation of a vector field](active-lorentz-transformation-of-a-vector-field.md)
+- [Axial-current squared interaction](axial-current-squared-interaction.md)
+- [Central charge in supersymmetry](central-charge-in-supersymmetry.md)
+- [Dirac spinor pseudo-unitarity](dirac-spinor-pseudo-unitarity.md)
+- [Four-divergence](four-divergence.md)
+- [Local Lagrangian argument for CPT invariance](local-lagrangian-argument-for-cpt-invariance.md)
+- [Maxwell Lagrangian](maxwell-lagrangian.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-1/34b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-57/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-48/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-54/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-42/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-42/4/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-44/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-46/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-48/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-45/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-43/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-2/18d/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-1/36d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-301/4/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-305/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-307/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-301/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-301/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-307/3/vi/solution.md)
+- [Scalar field theory](scalar-field-theory-split.md)
+- [Two-dimensional N=(1,1) superspace](two-dimensional-n-1-1-superspace.md)

@@ -1,0 +1,20 @@
+# Stieltjes transform of a measure
+
+↑ **Parent:** [Measure](measure.md)
+
+For a finite positive [measure](measure.md) on the real line, this convention for its Stieltjes transform is analytic off the real line and has positive imaginary part in the upper half-plane if the measure is nonzero. Some sources use $(z-x)^{-1}$ instead, changing the sign. The transform of an [empirical spectral measure](empirical-spectral-measure.md) equals the normalized trace of the [Stieltjes matrix resolvent](stieltjes-matrix-resolvent.md).
+
+## ↑ Ancestors (7)
+
+1. [Measure](measure.md)
+2. [Measure theory](measure-theory-split.md)
+3. [Real analysis](real-analysis-split.md)
+4. [Analysis](analysis-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (2)
+
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-31/3/iii/solution.md)
+- [Stieltjes matrix resolvent](stieltjes-matrix-resolvent.md)

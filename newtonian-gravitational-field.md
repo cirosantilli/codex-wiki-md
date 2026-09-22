@@ -1,0 +1,82 @@
+# Newtonian gravitational field
+
+↑ **Parent:** [Newton's law of universal gravitation](newton-s-law-of-universal-gravitation.md)
+
+Outside a spherical mass $M$, the Newtonian gravitational field is radial and has magnitude
+
+$$
+g(r)=\frac{GM}{r^2}.
+$$
+
+**Table of contents**
+
+- [Uniform gravitational field in an off-center spherical cavity](uniform-gravitational-field-in-an-off-center-spherical-cavity.md)
+  - [Cavity equilibrium destabilized by a second void](cavity-equilibrium-destabilized-by-a-second-void.md)
+- [Newtonian gravitational stress tensor](newtonian-gravitational-stress-tensor.md)
+  - [Gravitational stress contribution to angular-momentum transport](gravitational-stress-contribution-to-angular-momentum-transport.md)
+- [Self-gravity](self-gravity.md)
+- [Standard gravitational parameter](standard-gravitational-parameter.md)
+- [Tidal tensor](tidal-tensor.md)
+  - [Quadrupolar point-mass tidal potential](quadrupolar-point-mass-tidal-potential.md)
+  - [Tidal disruption](tidal-disruption.md)
+  - [Tidal force](tidal-force.md)
+    - [Love number](love-number.md)
+  - [Quadrupolar tidal forcing](quadrupolar-tidal-forcing.md)
+- [Gravitational acceleration](gravitational-acceleration.md)
+  - [Newtonian central configuration](newtonian-central-configuration.md)
+    - [Homothetic gravitational motion](homothetic-gravitational-motion.md)
+- [Gravitational constant](gravitational-constant.md)
+- [Poisson equation for Newtonian gravity](poisson-equation-for-newtonian-gravity.md)
+  - [Dyadic spherical shells with inverse-radius density scaling](dyadic-spherical-shells-with-inverse-radius-density-scaling.md)
+- [Newtonian gravitational potential](newtonian-gravitational-potential.md)
+  - [Planetary quadrupole coefficient](planetary-quadrupole-coefficient.md)
+    - [Oblate-quadrupole epicyclic precession](oblate-quadrupole-epicyclic-precession.md)
+  - [Axisymmetric logarithmic gravitational potential](axisymmetric-logarithmic-gravitational-potential.md)
+    - [Density positivity for an axisymmetric logarithmic potential](density-positivity-for-an-axisymmetric-logarithmic-potential.md)
+  - [Power-law gravitational potential](power-law-gravitational-potential.md)
+  - [Gravitational quadrupole potential of a point-mass binary](gravitational-quadrupole-potential-of-a-point-mass-binary.md)
+  - [Flattened power-law gravitational potential](flattened-power-law-gravitational-potential.md)
+    - [Density positivity for a flattened power-law potential](density-positivity-for-a-flattened-power-law-potential.md)
+  - [Newtonian potential of a point mass](newtonian-potential-of-a-point-mass.md)
+  - [Spherically symmetric potential](spherically-symmetric-potential.md)
+- [Newtonian gravitational potential energy](newtonian-gravitational-potential-energy.md)
+  - [Spherical binding-energy mass integral](spherical-binding-energy-mass-integral.md)
+  - [Minimum-separation binding-energy bounds](minimum-separation-binding-energy-bounds.md)
+    - [Negative-energy minimum-separation upper bound](negative-energy-minimum-separation-upper-bound.md)
+- [Cavendish experiment](cavendish-experiment.md)
+  - [Cavendish torsion balance](cavendish-torsion-balance.md)
+
+## ↑ Ancestors (5)
+
+1. [Newton's law of universal gravitation](newton-s-law-of-universal-gravitation.md)
+2. [Classical mechanics](classical-mechanics-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (24)
+
+- [Cavendish experiment](cavendish-experiment.md)
+- [Cavity equilibrium destabilized by a second void](cavity-equilibrium-destabilized-by-a-second-void.md)
+- [Dyadic spherical shells with inverse-radius density scaling](dyadic-spherical-shells-with-inverse-radius-density-scaling.md)
+- [Free fall](free-fall.md)
+- [Galactic disk flaring](galactic-disk-flaring.md)
+- [Galactic tide](galactic-tide.md)
+- [Gravitational acceleration](gravitational-acceleration.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/ia/paper-4/11a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-41/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/ia/paper-4/10e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-73/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-59/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-59/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-56/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-54/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-316/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ia/paper-4/9a/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ia/paper-4/9a/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-347/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ii/paper-3/37d/b/solution.md)
+- [Spherical mass profile for a flat rotation curve](spherical-mass-profile-for-a-flat-rotation-curve.md)
+- [Stellar flyby](stellar-flyby.md)
+- [Uniform gravitational field in an off-center spherical cavity](uniform-gravitational-field-in-an-off-center-spherical-cavity.md)
+- [Vertical Jeans equation](vertical-jeans-equation.md)

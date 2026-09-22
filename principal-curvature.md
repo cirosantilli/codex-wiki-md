@@ -1,0 +1,62 @@
+# Principal curvature
+
+↑ **Parent:** [Shape operator](shape-operator.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Principal_curvature)
+
+The principal curvatures are the two [eigenvalues](eigenvalue.md) $k_1,k_2$ of the [shape operator](shape-operator.md). Thus $K=k_1k_2$ and $H=(k_1+k_2)/2$.
+
+**Table of contents**
+
+- [Principal direction](principal-direction.md)
+- [Umbilical point](umbilical-point.md)
+
+## ↑ Ancestors (7)
+
+1. [Shape operator](shape-operator.md)
+2. [Second fundamental form](second-fundamental-form-split.md)
+3. [Differential geometry](differential-geometry-split.md)
+4. [Geometry and topology](geometry-and-topology-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (38)
+
+- [Catenoid is a minimal surface](catenoid-is-a-minimal-surface.md)
+- [Circular cylinder](circular-cylinder.md)
+- [Curvature-induced melting-temperature depression](curvature-induced-melting-temperature-depression.md)
+- [Curvatures of a parametrized surface of revolution](curvatures-of-a-parametrized-surface-of-revolution.md)
+- [Elliptic point](elliptic-point.md)
+- [Intrinsic flatness of a circular cylinder](intrinsic-flatness-of-a-circular-cylinder.md)
+- [Minimal surface](minimal-surface.md)
+- [Non-spherical surface of constant Gaussian curvature one](non-spherical-surface-of-constant-gaussian-curvature-one.md)
+- [Parallel surface](parallel-surface.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-15/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-66/5/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ib/paper-3/12a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ii/paper-2/24h/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ii/paper-2/24h/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-3/23h/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-4/24h/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-77/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-3/24h/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-72/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ii/paper-3/24i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-71/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-50/1/c/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-2/23i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-4/25i/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-4/25h/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-4/25h/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-4/25h/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ib/paper-1/11e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-3/25i/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-4/25i/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-4/25i/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ib/paper-3/2e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ii/paper-1/26i/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-3/25g/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-3/25g/b/solution.md)
+- [Principal direction](principal-direction.md)
+- [Supporting-sphere curvature bound](supporting-sphere-curvature-bound.md)
+- [Umbilical point](umbilical-point.md)

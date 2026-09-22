@@ -1,0 +1,60 @@
+# Electrostatics
+
+↑ **Parent:** [Electromagnetism](electromagnetism-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Electrostatics)
+
+Electrostatics studies time-independent electric fields and charge distributions.
+
+**Table of contents**
+
+- [Electrostatic interface boundary conditions](electrostatic-interface-boundary-conditions.md)
+- [Debye–Hückel approximation](debye-huckel-approximation.md)
+  - [Screened sinusoidal surface-charge mode](screened-sinusoidal-surface-charge-mode.md)
+    - [Phase registration of screened charged sheets](phase-registration-of-screened-charged-sheets.md)
+- [Bjerrum length](bjerrum-length.md)
+- [Poisson-Boltzmann equation](poisson-boltzmann-equation.md)
+  - [Neutral cylindrical cell model](neutral-cylindrical-cell-model.md)
+    - [Infinite-dilution limit of cylindrical counterions](infinite-dilution-limit-of-cylindrical-counterions.md)
+  - [Cylindrical counterion-only Poisson-Boltzmann profile](cylindrical-counterion-only-poisson-boltzmann-profile.md)
+  - [Counterion condensation](counterion-condensation.md)
+    - [Manning condensed fraction](manning-condensed-fraction.md)
+    - [Cylindrical screening charge](cylindrical-screening-charge.md)
+    - [Manning parameter](manning-parameter.md)
+- [Coulomb's law](coulomb-s-law.md)
+  - [Coulomb potential energy](coulomb-potential-energy.md)
+- [Conductor in electrostatic equilibrium](conductor-in-electrostatic-equilibrium.md)
+  - [Electrostatic boundary conditions at a conductor](electrostatic-boundary-conditions-at-a-conductor.md)
+    - [Surface charge density](surface-charge-density.md)
+  - [Charge sharing between distant connected spheres](charge-sharing-between-distant-connected-spheres.md)
+  - [Charge on connected concentric spherical shells](charge-on-connected-concentric-spherical-shells.md)
+  - [Induced charge on a conducting sphere in a uniform electric field](induced-charge-on-a-conducting-sphere-in-a-uniform-electric-field.md)
+- [Electrostatic energy](electrostatic-energy.md)
+  - [Electrostatic energy of a three-plate capacitor](electrostatic-energy-of-a-three-plate-capacitor.md)
+  - [Electrostatic energy of a uniformly charged solid sphere](electrostatic-energy-of-a-uniformly-charged-solid-sphere.md)
+  - [Electrostatic energy of alternating-charge concentric shells](electrostatic-energy-of-alternating-charge-concentric-shells.md)
+  - [Electrostatic energy of a uniformly charged spherical shell](electrostatic-energy-of-a-uniformly-charged-spherical-shell.md)
+  - [Electrostatic potential energy of point charges](electrostatic-potential-energy-of-point-charges.md)
+  - [Coaxial cylindrical capacitor](coaxial-cylindrical-capacitor.md)
+    - [Coaxial capacitor with grounded inner and outer cylinders](coaxial-capacitor-with-grounded-inner-and-outer-cylinders.md)
+- [Electric dipole moment](electric-dipole-moment.md)
+  - [Time derivative of the electric dipole moment](time-derivative-of-the-electric-dipole-moment.md)
+  - [Electric dipole](electric-dipole.md)
+    - [Electric dipole-dipole interaction](electric-dipole-dipole-interaction.md)
+- [Electric multipole expansion](electric-multipole-expansion.md)
+  - [Electric quadrupole moment](electric-quadrupole-moment.md)
+  - [Electric quadrupole](electric-quadrupole.md)
+  - [Multipole expansion of three collinear charges](multipole-expansion-of-three-collinear-charges.md)
+    - [Dipole and quadrupole scaling limits of three collinear charges](dipole-and-quadrupole-scaling-limits-of-three-collinear-charges.md)
+    - [Transverse force from a collinear electric quadrupole](transverse-force-from-a-collinear-electric-quadrupole.md)
+
+## ↑ Ancestors (4)
+
+1. [Electromagnetism](electromagnetism-split.md)
+2. [Branches of physics](branches-of-physics.md)
+3. [Physics](physics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (2)
+
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-71/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-1/16d/a/solution.md)

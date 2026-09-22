@@ -1,0 +1,62 @@
+# Majorana spinor
+
+↑ **Parent:** [Weyl spinor](weyl-spinor.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Majorana_spinor)
+
+A Majorana spinor equals its charge conjugate. In the Weyl representation it can be written $\psi_M=(u_L,i\sigma^2u_L^*)^T$ from one left-handed Weyl spinor.
+
+**Table of contents**
+
+- [Four-dimensional Majorana bilinear vanishing criterion](four-dimensional-majorana-bilinear-vanishing-criterion.md)
+- [Four-dimensional Majorana bilinear interchange](four-dimensional-majorana-bilinear-interchange.md)
+- [Majorana-Weyl spinor](majorana-weyl-spinor.md)
+- [Majorana Grassmann bilinear interchange](majorana-grassmann-bilinear-interchange.md)
+- [Majorana mass term](majorana-mass-term.md)
+  - [Grassmann variation of a chiral Majorana mass term](grassmann-variation-of-a-chiral-majorana-mass-term.md)
+
+## ↑ Ancestors (7)
+
+1. [Weyl spinor](weyl-spinor.md)
+2. [Dirac field](dirac-field.md)
+3. [Relativistic quantum field](relativistic-quantum-field-split.md)
+4. [Quantum field theory](quantum-field-theory-split.md)
+5. [Branches of physics](branches-of-physics.md)
+6. [Physics](physics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (34)
+
+- [Four-dimensional Majorana bilinear interchange](four-dimensional-majorana-bilinear-interchange.md)
+- [Four-dimensional Majorana bilinear vanishing criterion](four-dimensional-majorana-bilinear-vanishing-criterion.md)
+- [Gluino](gluino.md)
+- [Majorana-Weyl spinor](majorana-weyl-spinor.md)
+- [Massless Rarita-Schwinger polarization count](massless-rarita-schwinger-polarization-count.md)
+- [Neutralino](neutralino.md)
+- [Null current of a commuting Majorana spinor](null-current-of-a-commuting-majorana-spinor.md)
+- [Off-shell component count of minimal supergravity](off-shell-component-count-of-minimal-supergravity.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-65/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-65/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-53/10/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-53/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-53/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-53/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-53/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-53/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-50/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-54/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-55/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-57/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-57/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-56/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-56/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-60/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-60/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-56/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-51/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-48/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-306/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-306/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-301/4/c/solution.md)
+- [Supermembranes](supermembranes.md)
+- [Supertranslation-invariant superspace coframe](supertranslation-invariant-superspace-coframe.md)
+- [Wino](wino.md)

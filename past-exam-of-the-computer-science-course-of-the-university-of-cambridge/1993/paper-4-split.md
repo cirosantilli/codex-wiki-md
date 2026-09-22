@@ -1,0 +1,46 @@
+# Paper 4
+
+↑ **Parent:** [1993](split.md)
+
+[https://www.cl.cam.ac.uk/teaching/exams/pastpapers/y1993PAPER4.pdf](https://www.cl.cam.ac.uk/teaching/exams/pastpapers/y1993PAPER4.pdf)
+
+**Table of contents**
+
+- [1](paper-4/1.md)
+  - [Solution](paper-4/1/solution.md)
+- [2](paper-4/2.md)
+  - [a](paper-4/2/a.md)
+    - [Solution](paper-4/2/a/solution.md)
+  - [b](paper-4/2/b.md)
+    - [Solution](paper-4/2/b/solution.md)
+  - [c](paper-4/2/c.md)
+    - [Solution](paper-4/2/c/solution.md)
+- [3](paper-4/3.md)
+  - [Solution](paper-4/3/solution.md)
+- [4](paper-4/4.md)
+  - [Solution](paper-4/4/solution.md)
+- [5](paper-4/5.md)
+  - [Solution](paper-4/5/solution.md)
+- [6](paper-4/6.md)
+  - [a](paper-4/6/a.md)
+    - [Solution](paper-4/6/a/solution.md)
+  - [b](paper-4/6/b.md)
+    - [Solution](paper-4/6/b/solution.md)
+- [7](paper-4/7.md)
+  - [Solution](paper-4/7/solution.md)
+- [8](paper-4/8.md)
+  - [Solution](paper-4/8/solution.md)
+- [9](paper-4/9.md)
+  - [Solution](paper-4/9/solution.md)
+- [10](paper-4/10.md)
+  - [Solution](paper-4/10/solution.md)
+
+## ↑ Ancestors (7)
+
+1. [1993](split.md)
+2. [Past exam of the computer science course of the University of Cambridge](../split.md)
+3. [Computer science course of the University of Cambridge](../../computer-science-course-of-the-university-of-cambridge.md)
+4. [Course of the University of Cambridge](../../course-of-the-university-of-cambridge.md)
+5. [University of Cambridge](../../university-of-cambridge-split.md)
+6. [List of universities](../../list-of-universities.md)
+7. [Codex Wiki](../../split.md)

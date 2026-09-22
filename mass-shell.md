@@ -1,0 +1,47 @@
+# Mass shell
+
+↑ **Parent:** [Four-momentum](four-momentum.md)
+
+The [mass shell](mass-shell.md) is the locus of [four-momenta](four-momentum.md) satisfying the relativistic dispersion relation for a fixed [mass](mass.md) $m$. With mostly-minus [Minkowski metric](minkowski-metric.md), $p^2=m^2$; with mostly-plus [Minkowski metric](minkowski-metric.md), $p^2=-m^2$. The positive-energy sheet represents particle [four-momenta](four-momentum.md). For $m=0$ this is the light cone. The condition of being [on shell](on-shell.md) refers more generally to satisfying the field equations.
+
+## ↑ Ancestors (5)
+
+1. [Four-momentum](four-momentum.md)
+2. [Special relativity](special-relativity-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (31)
+
+- [Antiparticle modes and spacelike commutativity](antiparticle-modes-and-spacelike-commutativity.md)
+- [Feynman slash notation](feynman-slash-notation.md)
+- [Left-handed massless plane-wave spinor](left-handed-massless-plane-wave-spinor.md)
+- [Mass shell](mass-shell.md)
+- [Massive induced representation of the Poincare double cover](massive-induced-representation-of-the-poincare-double-cover.md)
+- [Mostly-plus Dirac convention](mostly-plus-dirac-convention.md)
+- [Nonrelativistic particle field](nonrelativistic-particle-field.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-59/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-62/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-50/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-53/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-62/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-62/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-62/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ib/paper-4/17b/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-50/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-50/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-49/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ib/paper-1/4c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-45/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-42/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-40/1/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-40/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-47/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-301/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-301/4/solution.md)
+- [Proper-time gauge for a massive worldline einbein](proper-time-gauge-for-a-massive-worldline-einbein.md)
+- [Relativistic bound-state mass from a rapidity pole](relativistic-bound-state-mass-from-a-rapidity-pole.md)
+- [Relativistic normalization of a one-particle state](relativistic-normalization-of-a-one-particle-state.md)
+- [Rest frame](rest-frame.md)
+- [Scattering t-channel](scattering-t-channel.md)

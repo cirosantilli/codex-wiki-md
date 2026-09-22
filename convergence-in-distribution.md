@@ -1,0 +1,90 @@
+# Convergence in distribution
+
+↑ **Parent:** [Convergence of random variables](convergence-of-random-variables-split.md)
+
+Random variables $X_n$ converge in distribution, or converge weakly, to $X$ when
+
+$$
+\mathbb E[f(X_n)]\longrightarrow\mathbb E[f(X)]
+$$
+
+for every bounded continuous function $f$. For real random variables this is equivalent to convergence of the distribution functions at every continuity point of the limiting distribution function.
+
+**Table of contents**
+
+- [Atoms obstruct a continuous distributional limit](atoms-obstruct-a-continuous-distributional-limit.md)
+- [Marginal weak convergence does not control sums](marginal-weak-convergence-does-not-control-sums.md)
+- [Skorokhod representation theorem](skorokhod-representation-theorem.md)
+- [Method of moments (probability theory)](method-of-moments-probability-theory.md)
+- [Weak convergence of probability measures](weak-convergence-of-probability-measures.md)
+  - [Compact containment](compact-containment.md)
+  - [Scaling limit of a random curve](scaling-limit-of-a-random-curve.md)
+  - [Skorokhod J1 topology](skorokhod-j1-topology.md)
+  - [Weak topology of probability measures](weak-topology-of-probability-measures.md)
+    - [Bounded-Lipschitz metric](bounded-lipschitz-metric.md)
+  - [Prokhorov's theorem](prokhorov-s-theorem.md)
+    - [Closed uniformly tight compactness criterion](closed-uniformly-tight-compactness-criterion.md)
+    - [Compactness of probability measures on a compact metric space](compactness-of-probability-measures-on-a-compact-metric-space.md)
+- [Bounded moment criterion for weak convergence](bounded-moment-criterion-for-weak-convergence.md)
+  - [Moment determinacy on a compact interval](moment-determinacy-on-a-compact-interval.md)
+- [Portmanteau theorem](portmanteau-theorem.md)
+- [Continuous mapping theorem](continuous-mapping-theorem.md)
+
+## ↑ Ancestors (6)
+
+1. [Convergence of random variables](convergence-of-random-variables-split.md)
+2. [Probability theory](probability-theory-split.md)
+3. [Probability and statistics](probability-and-statistics-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (47)
+
+- [Closure of Lévy processes under locally controlled convergence in probability](closure-of-levy-processes-under-locally-controlled-convergence-in-probability.md)
+- [Confidence band](confidence-band.md)
+- [Convergence in distribution to a constant implies convergence in probability](convergence-in-distribution-to-a-constant-implies-convergence-in-probability.md)
+- [Extremal types theorem](extremal-types-theorem.md)
+- [Factorial-moment criterion for Poisson convergence](factorial-moment-criterion-for-poisson-convergence.md)
+- [Gumbel limit for gamma maxima](gumbel-limit-for-gamma-maxima.md)
+- [Lévy continuity theorem](levy-continuity-theorem.md)
+- [Maximum domain of attraction](maximum-domain-of-attraction.md)
+- [Method of moments (probability theory)](method-of-moments-probability-theory.md)
+- [Outer expectation](outer-expectation.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-38/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ia/paper-2/4f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-12/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-14/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-3/24j/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-3/24j/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-42/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-101/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-28/2/b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-31/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-31/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ii/paper-1/26k/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-39/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-34/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-29/6/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-124/5/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-124/5/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-209/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ia/paper-2/9f/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-215/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-201/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-201/6/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-201/6/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-210/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-4/26k/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ia/paper-1/12f/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-4/26k/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-4/26k/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-4/28k/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-205/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-224/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-201/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-201/5/a/solution.md)
+- [Poisson limit for occupancy fractions](poisson-limit-for-occupancy-fractions.md)
+- [Random-walk maximum limit from Donsker invariance](random-walk-maximum-limit-from-donsker-invariance.md)
+- [Skorokhod representation theorem](skorokhod-representation-theorem.md)
+- [Weak law from a characteristic-function expansion](weak-law-from-a-characteristic-function-expansion.md)

@@ -1,0 +1,46 @@
+# 2-torsion
+
+↑ **Parent:** [Torsion point of an elliptic curve](torsion-point-of-an-elliptic-curve.md)
+
+On a Weierstrass equation $y^2=f(x)$ in characteristic other than two, the nonidentity 2-torsion points are exactly $(r,0)$ for the roots $r$ of $f$.
+
+## ↑ Ancestors (10)
+
+1. [Torsion point of an elliptic curve](torsion-point-of-an-elliptic-curve.md)
+2. [Elliptic curve](elliptic-curve.md)
+3. [Genus one curve](genus-one-curve.md)
+4. [Geometric genus](geometric-genus.md)
+5. [Normalization of an algebraic curve](normalization-of-an-algebraic-curve-split.md)
+6. [Algebraic geometry](algebraic-geometry-split.md)
+7. [Geometry and topology](geometry-and-topology-split.md)
+8. [Area of mathematics](area-of-mathematics.md)
+9. [Mathematics](mathematics-split.md)
+10. [Codex Wiki](split.md)
+
+## ← Incoming links (25)
+
+- [Eight-point isogenous elliptic curves over F5](eight-point-isogenous-elliptic-curves-over-f5.md)
+- [Halving cocycle with rational two-torsion](halving-cocycle-with-rational-two-torsion.md)
+- [Noncongruent primes congruent to three modulo eight](noncongruent-primes-congruent-to-three-modulo-eight.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-24/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-21/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-26/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-26/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-27/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-27/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-22/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-22/5/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-125/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-125/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-125/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-125/5/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-125/5/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-125/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-125/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-125/3/c/solution.md)
+- [Rational torsion in the family x times x plus one times x plus m squared](rational-torsion-in-the-family-x-times-x-plus-one-times-x-plus-m-squared.md)
+- [Rational torsion of a congruent number curve](rational-torsion-of-a-congruent-number-curve.md)
+- [Rational torsion on y squared equals x cubed plus positive k x](rational-torsion-on-y-squared-equals-x-cubed-plus-positive-k-x.md)
+- [Two-descent on an elliptic curve](two-descent-on-an-elliptic-curve.md)
+- [Unramified halving fields for a split cubic](unramified-halving-fields-for-a-split-cubic.md)
+- [Vanishing trace criterion for a congruent number curve](vanishing-trace-criterion-for-a-congruent-number-curve.md)

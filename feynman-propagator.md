@@ -1,0 +1,60 @@
+# Feynman propagator
+
+↑ **Parent:** [Propagator](propagator.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Feynman_propagator)
+
+The Feynman propagator is the time-ordered Green function selected by the $i\epsilon$ prescription.
+
+**Table of contents**
+
+- [Scalar Feynman propagator pole prescription](scalar-feynman-propagator-pole-prescription.md)
+  - [Derivative jump of a free scalar time-ordered two-point function](derivative-jump-of-a-free-scalar-time-ordered-two-point-function.md)
+- [Feynman i-epsilon prescription](feynman-i-epsilon-prescription.md)
+
+## ↑ Ancestors (6)
+
+1. [Propagator](propagator.md)
+2. [Quantized field](quantized-field.md)
+3. [Quantum field theory](quantum-field-theory-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (36)
+
+- [Feynman-gauge adjoint propagator](feynman-gauge-adjoint-propagator.md)
+- [Free scalar four-point function](free-scalar-four-point-function.md)
+- [Gaussian evaluation of a free scalar generating functional](gaussian-evaluation-of-a-free-scalar-generating-functional.md)
+- [Inductive proof of the scalar Wick theorem](inductive-proof-of-the-scalar-wick-theorem.md)
+- [Källén–Lehmann spectral representation](kallen-lehmann-spectral-representation.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-62/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-65/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-65/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-44/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-44/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-48/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-48/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-48/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-50/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-44/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-42/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-41/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-44/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-40/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-43/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-43/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-301/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-301/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-301/4/c/solution.md)
+- [A](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-305/3/a.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-305/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-301/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-301/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-301/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-301/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-301/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-304/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-304/2/a/solution.md)
+- [Propagator](propagator.md)
+- [Two-field scalar Wick identity](two-field-scalar-wick-identity.md)
+- [Two-field Wick contraction identity](two-field-wick-contraction-identity.md)

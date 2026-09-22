@@ -1,0 +1,52 @@
+# Feynman gauge
+
+↑ **Parent:** [Covariant gauge](covariant-gauge.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Feynman_gauge)
+
+**Table of contents**
+
+- [Feynman-gauge Maxwell kinetic density after a boundary-term subtraction](feynman-gauge-maxwell-kinetic-density-after-a-boundary-term-subtraction.md)
+  - [Boundary-induced canonical transformation in Feynman gauge](boundary-induced-canonical-transformation-in-feynman-gauge.md)
+- [Gupta-Bleuler formalism](gupta-bleuler-formalism.md)
+  - [Gupta-Bleuler null-state quotient](gupta-bleuler-null-state-quotient.md)
+    - [Transverse one-photon physical quotient](transverse-one-photon-physical-quotient.md)
+  - [Covariant photon Fock space](covariant-photon-fock-space.md)
+    - [Photon oscillator completeness and canonical brackets](photon-oscillator-completeness-and-canonical-brackets.md)
+    - [Negative-norm photon state](negative-norm-photon-state.md)
+
+## ↑ Ancestors (8)
+
+1. [Covariant gauge](covariant-gauge.md)
+2. [Gauge fixing](gauge-fixing.md)
+3. [Gauge field](gauge-field.md)
+4. [Relativistic quantum field](relativistic-quantum-field-split.md)
+5. [Quantum field theory](quantum-field-theory-split.md)
+6. [Branches of physics](branches-of-physics.md)
+7. [Physics](physics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (23)
+
+- [Boundary-induced canonical transformation in Feynman gauge](boundary-induced-canonical-transformation-in-feynman-gauge.md)
+- [Boundary-term shift of canonical field momenta](boundary-term-shift-of-canonical-field-momenta.md)
+- [BRST-exact covariant gauge fixing](brst-exact-covariant-gauge-fixing.md)
+- [Covariant gauge](covariant-gauge.md)
+- [Feynman-gauge Maxwell kinetic density after a boundary-term subtraction](feynman-gauge-maxwell-kinetic-density-after-a-boundary-term-subtraction.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-62/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-44/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-44/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-49/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-48/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-51/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-48/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-42/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-43/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-301/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-301/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-301/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-301/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-301/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-301/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-301/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-304/2/a/ii/solution.md)
+- [Positive-sign covariant gauge-fixing inverse](positive-sign-covariant-gauge-fixing-inverse.md)

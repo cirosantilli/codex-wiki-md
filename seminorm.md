@@ -1,0 +1,60 @@
+# Seminorm
+
+↑ **Parent:** [Locally convex space](locally-convex-space.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Seminorm)
+
+A seminorm on a [vector space](vector-space-split.md) is a nonnegative function $p$ satisfying $p(\lambda x)=|\lambda|p(x)$ and $p(x+y)\leq p(x)+p(y)$. Unlike a [norm](norm.md), it may vanish at nonzero vectors.
+
+**Table of contents**
+
+- [Dual seminorm](dual-seminorm.md)
+
+## ↑ Ancestors (7)
+
+1. [Locally convex space](locally-convex-space.md)
+2. [Topological vector space](topological-vector-space-split.md)
+3. [Functional analysis](functional-analysis-split.md)
+4. [Analysis](analysis-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (37)
+
+- [Bounded set in a topological vector space](bounded-set-in-a-topological-vector-space.md)
+- [Continuous-dual separation theorem for Hausdorff locally convex spaces](continuous-dual-separation-theorem-for-hausdorff-locally-convex-spaces.md)
+- [Dual seminorm](dual-seminorm.md)
+- [Dual Thurston polytope](dual-thurston-polytope.md)
+- [Fourier transform isomorphism of the Schwartz space](fourier-transform-isomorphism-of-the-schwartz-space.md)
+- [Fréchet space](frechet-space.md)
+- [Open mapping theorem for Fréchet spaces](open-mapping-theorem-for-frechet-spaces.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-6/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-6/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-79/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-5/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-68/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-60/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-7/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-14/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-6/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-6/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-71/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-71/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-327/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-327/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-327/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-327/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-340/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-106/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-327/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-327/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-117/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-327/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-327/1/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-327/3/b/solution.md)
+- [Schwartz seminorm](schwartz-seminorm.md)
+- [Separation of a point from a closed linear subspace](separation-of-a-point-from-a-closed-linear-subspace.md)
+- [Sequential continuity criterion in a metrizable vector space](sequential-continuity-criterion-in-a-metrizable-vector-space.md)
+- [Test-function inductive limit topology](test-function-inductive-limit-topology.md)
+- [Test-function seminorm](test-function-seminorm.md)
+- [Thurston norm](thurston-norm.md)

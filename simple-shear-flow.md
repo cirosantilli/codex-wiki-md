@@ -1,0 +1,45 @@
+# Simple shear flow
+
+↑ **Parent:** [Shear rate](shear-rate.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Simple_shear_flow)
+
+A simple shear flow has velocity $\mathbf u=(\dot\gamma y,0,0)$ in Cartesian coordinates. Its velocity gradient has one nonzero off-diagonal entry.
+
+## ↑ Ancestors (9)
+
+1. [Shear rate](shear-rate.md)
+2. [Strain-rate tensor](strain-rate-tensor.md)
+3. [Newtonian fluid stress tensor](newtonian-fluid-stress-tensor.md)
+4. [Newtonian fluid](newtonian-fluid.md)
+5. [Viscous fluid flow](viscous-fluid-flow-split.md)
+6. [Fluid mechanics](fluid-mechanics-split.md)
+7. [Branches of physics](branches-of-physics.md)
+8. [Physics](physics-split.md)
+9. [Codex Wiki](split.md)
+
+## ← Incoming links (24)
+
+- [Flow-alignment angle in planar shear](flow-alignment-angle-in-planar-shear.md)
+- [Force-free straight-rod orientation equation](force-free-straight-rod-orientation-equation.md)
+- [Linear planar flow with strain and rotation](linear-planar-flow-with-strain-and-rotation.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-49/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-49/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-53/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-78/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-78/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-76/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ib/paper-2/7b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-329/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-342/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-344/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-352/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-352/2/b/solution.md)
+- [Rod excess dissipation in shear](rod-excess-dissipation-in-shear.md)
+- [Rotating-frame reduction of circular viscoelastic shear](rotating-frame-reduction-of-circular-viscoelastic-shear.md)
+- [Shear and pipe flow of an affine linear PTT fluid](shear-and-pipe-flow-of-an-affine-linear-ptt-fluid.md)
+- [Simple shear](simple-shear.md)
+- [Steady shear of a corotational Maxwell fluid](steady-shear-of-a-corotational-maxwell-fluid.md)
+- [Steady simple shear of an Oldroyd-A fluid](steady-simple-shear-of-an-oldroyd-a-fluid.md)
+- [Tumbling of a polar order parameter](tumbling-of-a-polar-order-parameter.md)
+- [Viscometric flow](viscometric-flow.md)
+- [Viscometric functions](viscometric-functions.md)

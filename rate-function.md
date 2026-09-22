@@ -1,0 +1,61 @@
+# Rate function
+
+↑ **Parent:** [Large deviation principle](large-deviation-principle.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Rate_function)
+
+A rate function is a lower-semicontinuous map $I$ into $[0,\infty]$. It is good when every sublevel set $\{x:I(x)\leq c\}$ is compact.
+
+**Table of contents**
+
+- [Local convex path action](local-convex-path-action.md)
+- [Good rate function](good-rate-function.md)
+  - [A good rate function is separated from zero away from its minimizer](a-good-rate-function-is-separated-from-zero-away-from-its-minimizer.md)
+
+## ↑ Ancestors (7)
+
+1. [Large deviation principle](large-deviation-principle.md)
+2. [Convergence of random variables](convergence-of-random-variables-split.md)
+3. [Probability theory](probability-theory-split.md)
+4. [Probability and statistics](probability-and-statistics-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (36)
+
+- [Exponential equivalence](exponential-equivalence.md)
+- [Exponential tightness upgrades a weak large deviation principle](exponential-tightness-upgrades-a-weak-large-deviation-principle.md)
+- [Finite-buffer workload rate truncation](finite-buffer-workload-rate-truncation.md)
+- [Good rate function](good-rate-function.md)
+- [Laplace principle for probability measures](laplace-principle-for-probability-measures.md)
+- [Large-deviation decay rates of a Gaussian scalar packet](large-deviation-decay-rates-of-a-gaussian-scalar-packet.md)
+- [Large-deviation rate of a minimum of independent copies](large-deviation-rate-of-a-minimum-of-independent-copies.md)
+- [Large-deviation speed](large-deviation-speed.md)
+- [Logarithmic probabilities of open sets for a continuous rate function](logarithmic-probabilities-of-open-sets-for-a-continuous-rate-function.md)
+- [Many-source queue scaling](many-source-queue-scaling.md)
+- [Moderate deviation principle](moderate-deviation-principle.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-26/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-26/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-26/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-26/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-51/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-77/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-77/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-77/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-79/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-79/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-79/1/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-79/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-79/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-36/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-36/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-36/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-36/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-36/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-36/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-33/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-201/2/b/solution.md)
+- [Self-similar Gaussian workload rate](self-similar-gaussian-workload-rate.md)
+- [Slow exponential plus an exponential sample mean](slow-exponential-plus-an-exponential-sample-mean.md)
+- [Sum of exponential variables with linearly increasing rates](sum-of-exponential-variables-with-linearly-increasing-rates.md)
+- [Varadhan's lemma](varadhan-s-lemma.md)

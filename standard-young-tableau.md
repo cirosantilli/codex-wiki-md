@@ -1,0 +1,61 @@
+# Standard Young tableau
+
+↑ **Parent:** [Young tableau](young-tableau.md)
+
+A standard [Young tableau](young-tableau.md) fills a [Young diagram](young-diagram.md) bijectively with $1,\ldots,n$, increasing along rows and down columns. The cells occupied by the first $r$ entries form a diagram, so a tableau is equivalently a path formed by adjoining one [addable node of a Young diagram](addable-node-of-a-young-diagram.md) at each step. The number of standard tableaux of shape $\lambda$ is the dimension of the complex [Specht module](specht-module.md) $S^\lambda$.
+
+**Table of contents**
+
+- [Column-reading order of standard Young tableaux](column-reading-order-of-standard-young-tableaux.md)
+  - [Triangular vanishing of Young-symmetrizer products](triangular-vanishing-of-young-symmetrizer-products.md)
+- [Admissible adjacent swap of a standard Young tableau](admissible-adjacent-swap-of-a-standard-young-tableau.md)
+- [Content vector of a standard Young tableau](content-vector-of-a-standard-young-tableau.md)
+  - [Axial distance in a Young tableau](axial-distance-in-a-young-tableau.md)
+
+## ↑ Ancestors (8)
+
+1. [Young tableau](young-tableau.md)
+2. [Partition of an integer](partition-of-an-integer.md)
+3. [Representation theory of the symmetric group](representation-theory-of-the-symmetric-group-split.md)
+4. [Representation theory](representation-theory-split.md)
+5. [Algebra](algebra-split.md)
+6. [Area of mathematics](area-of-mathematics.md)
+7. [Mathematics](mathematics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (34)
+
+- [Admissible adjacent swap of a standard Young tableau](admissible-adjacent-swap-of-a-standard-young-tableau.md)
+- [Axial distance in a Young tableau](axial-distance-in-a-young-tableau.md)
+- [Content vector of a standard Young tableau](content-vector-of-a-standard-young-tableau.md)
+- [Determinant formula for Specht module dimension](determinant-formula-for-specht-module-dimension.md)
+- [Gelfand–Tsetlin basis](gelfand-tsetlin-basis.md)
+- [Hook partition](hook-partition.md)
+- [Jucys–Murphy element](jucys-murphy-element.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-3/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-4/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-3/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-103/1/c/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-103/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-103/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-103/3/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-103/3/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-103/3/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-103/4/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-103/5/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-103/5/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-103/5/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-103/6/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-103/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-103/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-103/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-103/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-103/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-103/3/c/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-103/3/c/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-103/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-103/6/b/solution.md)
+- [Robinson–Schensted correspondence](robinson-schensted-correspondence.md)
+- [Standard polytabloid basis](standard-polytabloid-basis.md)
+- [Young's lattice](young-s-lattice.md)
+- [Young seminormal form](young-seminormal-form.md)

@@ -1,0 +1,61 @@
+# Brouwer fixed-point theorem
+
+↑ **Parent:** [Topological analysis](topological-analysis-split.md)
+
+Every continuous self-map of a closed disc has a fixed point.
+
+**Table of contents**
+
+- [Positive matrix eigenvector from simplex normalization](positive-matrix-eigenvector-from-simplex-normalization.md)
+- [Surjectivity of a continuous bounded-displacement map](surjectivity-of-a-continuous-bounded-displacement-map.md)
+- [Brouwer inward-pointing zero lemma](brouwer-inward-pointing-zero-lemma.md)
+- [Polynomial root from a disk self-map](polynomial-root-from-a-disk-self-map.md)
+- [Poincaré-Miranda theorem](poincare-miranda-theorem.md)
+  - [Clamped-map proof of planar path crossing](clamped-map-proof-of-planar-path-crossing.md)
+- [Sperner's lemma](sperner-s-lemma.md)
+
+## ↑ Ancestors (5)
+
+1. [Topological analysis](topological-analysis-split.md)
+2. [Analysis](analysis-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (35)
+
+- [Brouwer gain-map proof of bimatrix equilibrium](brouwer-gain-map-proof-of-bimatrix-equilibrium.md)
+- [Brouwer inward-pointing zero lemma](brouwer-inward-pointing-zero-lemma.md)
+- [Gain-map proof of symmetric equilibrium](gain-map-proof-of-symmetric-equilibrium.md)
+- [No-retraction theorem](no-retraction-theorem.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-1/11f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-40/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-1/2g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ii/paper-4/2f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-35/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-2/2f/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-2/2f/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-38/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ii/paper-2/11f/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ii/paper-2/11f/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-2/11f/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-2/11f/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-2/11f/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-32/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-55/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-38/5/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ii/paper-2/9i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-3/2f/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-3/2f/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-213/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ii/paper-4/2h/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ii/paper-4/2h/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ii/paper-4/12g/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ii/paper-4/12g/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ii/paper-4/12g/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-4/2f/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-4/2f/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/ii/paper-1/2i/solution.md)
+- [Perron–Frobenius theorem](perron-frobenius-theorem.md)
+- [Positive matrix eigenvector from simplex normalization](positive-matrix-eigenvector-from-simplex-normalization.md)
+- [Symmetric Nash gain map](symmetric-nash-gain-map.md)

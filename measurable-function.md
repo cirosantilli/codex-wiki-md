@@ -1,0 +1,61 @@
+# Measurable function
+
+↑ **Parent:** [Measure theory](measure-theory-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Measurable_function)
+
+A function $f:(X,\mathcal A)\to(Y,\mathcal B)$ between measurable spaces is measurable when $f^{-1}(B)\in\mathcal A$ for every $B\in\mathcal B$.
+
+**Table of contents**
+
+- [Essential range](essential-range.md)
+- [Measurability](measurability.md)
+- [Borel measurable function](borel-measurable-function.md)
+- [Composition of measurable functions](composition-of-measurable-functions.md)
+
+## ↑ Ancestors (6)
+
+1. [Measure theory](measure-theory-split.md)
+2. [Real analysis](real-analysis-split.md)
+3. [Analysis](analysis-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (36)
+
+- [Data processing inequality for f-divergences](data-processing-inequality-for-f-divergences.md)
+- [Egorov's theorem](egorov-s-theorem.md)
+- [Essential infimum](essential-infimum.md)
+- [Essential infimum and essential supremum](essential-infimum-and-essential-supremum.md)
+- [Essential range](essential-range.md)
+- [Expected utility representation on a finite measurable space](expected-utility-representation-on-a-finite-measurable-space.md)
+- [Integrability](integrability.md)
+- [Markov operator](markov-operator.md)
+- [Monotone substitution inequality](monotone-substitution-inequality.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-2/25j/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-2/27j/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-4/25j/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-4/25j/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-2/25j/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-11/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-34/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-34/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-5/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ii/paper-2/23j/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-6/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-106/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-112/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-202/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-1/22f/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-201/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-4/27k/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-326/3/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-202/1/a/iii/solution.md)
+- [Preimage](preimage.md)
+- [Prékopa–Leindler inequality](prekopa-leindler-inequality.md)
+- [Random element](random-element.md)
+- [Spectrum of a real multiplication operator](spectrum-of-a-real-multiplication-operator.md)
+- [Square-integrable function](square-integrable-function.md)
+- [Strongly measurable function](strongly-measurable-function.md)
+- [Sum of Lp spaces](sum-of-lp-spaces.md)
+- [Transport map](transport-map.md)

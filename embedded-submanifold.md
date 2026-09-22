@@ -1,0 +1,71 @@
+# Embedded submanifold
+
+↑ **Parent:** [Smooth manifold](smooth-manifold.md)
+
+An embedded submanifold $M\subseteq N$ is a subset whose inclusion is an embedding. Around every point there are coordinates on $N$ in which $M$ is a coordinate plane.
+
+An embedded submanifold is a [submanifold](submanifold.md) for which the inclusion gives the subspace topology, unlike a merely immersed submanifold.
+
+**Table of contents**
+
+- [Normal-bundle obstruction to being a regular level set](normal-bundle-obstruction-to-being-a-regular-level-set.md)
+- [Slice chart for an embedded submanifold](slice-chart-for-an-embedded-submanifold.md)
+- [Smooth extension criterion for an immersed submanifold](smooth-extension-criterion-for-an-immersed-submanifold.md)
+- [Vanishing ideal of an embedded submanifold](vanishing-ideal-of-an-embedded-submanifold.md)
+  - [Tangency under the Lie bracket](tangency-under-the-lie-bracket.md)
+- [Transverse intersection theorem](transverse-intersection-theorem.md)
+- [Clean intersection](clean-intersection.md)
+  - [Transverse intersection](transverse-intersection.md)
+    - [Smooth intersection number](smooth-intersection-number.md)
+
+## ↑ Ancestors (6)
+
+1. [Smooth manifold](smooth-manifold.md)
+2. [Differential geometry](differential-geometry-split.md)
+3. [Geometry and topology](geometry-and-topology-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (40)
+
+- [Clean intersection](clean-intersection.md)
+- [Closed-subgroup theorem](closed-subgroup-theorem.md)
+- [Dense immersed cylinder in a three-dimensional torus](dense-immersed-cylinder-in-a-three-dimensional-torus.md)
+- [Embedding](embedding.md)
+- [Gauss–Codazzi equations](gauss-codazzi-equations.md)
+- [Gauss equation in a curved ambient manifold](gauss-equation-in-a-curved-ambient-manifold.md)
+- [Local product coordinates for a closed subgroup](local-product-coordinates-for-a-closed-subgroup.md)
+- [Normal connection](normal-connection.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-14/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-15/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-15/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-1/5/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-15/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-15/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-15/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-17/1/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-115/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-140/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-140/5/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-140/6/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-115/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ib/paper-1/11e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-1/26i/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-115/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-115/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-115/1/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-115/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-118/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-115/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-115/3/c/solution.md)
+- [Projected ambient connection](projected-ambient-connection.md)
+- [Real projective hyperplane is not a global regular zero set](real-projective-hyperplane-is-not-a-global-regular-zero-set.md)
+- [Restriction of a connection to an embedded submanifold](restriction-of-a-connection-to-an-embedded-submanifold.md)
+- [Second fundamental form](second-fundamental-form-split.md)
+- [Smooth submanifolds with invariant complex tangent spaces are complex](smooth-submanifolds-with-invariant-complex-tangent-spaces-are-complex.md)
+- [Submanifold](submanifold.md)
+- [Submersion theorem](submersion-theorem.md)
+- [Symmetry of the second fundamental form](symmetry-of-the-second-fundamental-form.md)
+- [Transversality of a map to a submanifold](transversality-of-a-map-to-a-submanifold.md)
+- [Transverse preimage theorem](transverse-preimage-theorem.md)
