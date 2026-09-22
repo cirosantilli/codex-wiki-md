@@ -1,0 +1,51 @@
+# Epoxide
+
+↑ **Parent:** [Ether](ether.md)
+
+**Table of contents**
+
+- [Ethylene oxide](ethylene-oxide.md)
+- [Epoxide ring opening](epoxide-ring-opening.md)
+- [Peracid epoxidation](peracid-epoxidation.md)
+- [Cyclohexene oxide](cyclohexene-oxide.md)
+- [2,2-Dimethyloxirane](2-2-dimethyloxirane.md)
+- [Glycal epoxide](glycal-epoxide.md)
+
+## ↑ Ancestors (4)
+
+1. [Ether](ether.md)
+2. [Chemical substance](chemical-substance-split.md)
+3. [Chemistry](chemistry-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (29)
+
+- [2,2-Dimethyloxirane](2-2-dimethyloxirane.md)
+- [Bromohydrin](bromohydrin.md)
+- [Cyclohexene oxide](cyclohexene-oxide.md)
+- [Electrophilic oxygen transfer](electrophilic-oxygen-transfer.md)
+- [Epoxidation](epoxidation.md)
+- [Epoxide ring opening](epoxide-ring-opening.md)
+- [Ethylene oxide](ethylene-oxide.md)
+- [Halohydrin](halohydrin.md)
+- [Meta-chloroperoxybenzoic acid](meta-chloroperoxybenzoic-acid.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2021/paper-1/b3/c/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2021/paper-1/b3/d/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2021/paper-1/b3/d/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2022/paper-1/b3/a/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-1/b3/b/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-1/b3/d/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2024/paper-1/b4/a/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2025/paper-1/b2/c/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2025/paper-1/b3/d/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2021/paper-1/3/c/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-1/3/b/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-1/3/c/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2024/paper-1/3/c/iii/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-3-of-the-natural-sciences-course-of-the-university-of-cambridge/2021/paper-1/7/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-2/section-f/28/c/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-2/section-f/28/d/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-3/section-a/37/a/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-3/section-g/48/a/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-3/section-g/48/b/solution.md)
+- [Phenylmagnesium bromide](phenylmagnesium-bromide.md)

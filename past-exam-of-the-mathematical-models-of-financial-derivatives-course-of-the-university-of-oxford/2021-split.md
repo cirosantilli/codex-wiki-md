@@ -1,0 +1,62 @@
+# 2021
+
+↑ **Parent:** [Past exam of the mathematical models of financial derivatives course of the University of Oxford](split.md)
+
+Source: [original released examination PDF, bundle pages 66–69; paper pages 1–4](https://www.whatdotheyknow.com/request/oxford_physics_past_papers_2/response/2340696/attach/9/Physics%20Papers%202020.pdf?cookie_passthrough=1#page=66). The bundle filename says 2020, but the printed paper is dated 2 June 2021.
+
+Solutions to all three questions. Write $\tau=T-t$, $\Phi$ for the [standard normal distribution function](../standard-normal-distribution-function.md), and $\phi$ for the [standard normal density](../standard-normal-density.md). Formulas with $\tau$ in a denominator are for $t<T$; terminal values are specified separately. Barrier formulas refer to a contract whose barrier has not previously been hit, unless stated otherwise.
+
+**Table of contents**
+
+- [1](2021/1.md)
+  - [a](2021/1/a.md)
+    - [i](2021/1/a/i.md)
+      - [Solution](2021/1/a/i/solution.md)
+    - [ii](2021/1/a/ii.md)
+      - [Solution](2021/1/a/ii/solution.md)
+  - [b](2021/1/b.md)
+    - [Solution](2021/1/b/solution.md)
+  - [c](2021/1/c.md)
+    - [Solution](2021/1/c/solution.md)
+  - [d](2021/1/d.md)
+    - [Solution](2021/1/d/solution.md)
+- [2](2021/2.md)
+  - [a](2021/2/a.md)
+    - [Solution](2021/2/a/solution.md)
+  - [b](2021/2/b.md)
+    - [Solution](2021/2/b/solution.md)
+  - [c](2021/2/c.md)
+    - [Solution](2021/2/c/solution.md)
+  - [d](2021/2/d.md)
+    - [Solution](2021/2/d/solution.md)
+  - [e](2021/2/e.md)
+    - [Solution](2021/2/e/solution.md)
+  - [f](2021/2/f.md)
+    - [Solution](2021/2/f/solution.md)
+- [3](2021/3.md)
+  - [a](2021/3/a.md)
+    - [i](2021/3/a/i.md)
+      - [Solution](2021/3/a/i/solution.md)
+    - [ii](2021/3/a/ii.md)
+      - [Solution](2021/3/a/ii/solution.md)
+    - [iii](2021/3/a/iii.md)
+      - [Solution](2021/3/a/iii/solution.md)
+  - [b](2021/3/b.md)
+    - [i](2021/3/b/i.md)
+      - [Solution](2021/3/b/i/solution.md)
+    - [ii](2021/3/b/ii.md)
+      - [Solution](2021/3/b/ii/solution.md)
+    - [iii](2021/3/b/iii.md)
+      - [Solution](2021/3/b/iii/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Past exam of the mathematical models of financial derivatives course of the University of Oxford](split.md)
+2. [Mathematical models of financial derivatives course of the University of Oxford](../mathematical-models-of-financial-derivatives-course-of-the-university-of-oxford.md)
+3. [Year 3 of the mathematics course of the University of Oxford](../year-3-of-the-mathematics-course-of-the-university-of-oxford.md)
+4. [Mathematics course of the University of Oxford](../mathematics-course-of-the-university-of-oxford.md)
+5. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+6. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+7. [University of Oxford](../university-of-oxford-split.md)
+8. [List of universities](../list-of-universities.md)
+9. [Codex Wiki](../split.md)

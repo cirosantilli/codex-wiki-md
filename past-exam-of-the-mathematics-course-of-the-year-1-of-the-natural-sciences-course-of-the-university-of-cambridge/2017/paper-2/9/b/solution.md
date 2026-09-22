@@ -1,0 +1,28 @@
+<h1 id="9/b/solution">Solution</h1>
+
+↑ **Parent:** [B](../b.md)
+
+The same [chain rule](../../../../../chain-rule.md) gives $u_{xx}=u''(\xi)$ and $u_y=u'(\xi)/\sqrt y$. Substituting these and part (a) into the [partial differential equation](../../../../../partial-differential-equation-split.md) gives
+
+$$
+u_{xx}-\frac12u_y-yu_{yy}
+=u''-\frac{u'}{2\sqrt y}-y\left(\frac{u''}y-\frac{u'}{2y^{3/2}}\right)=\boxed{0}.
+$$
+
+Thus every twice-differentiable profile $u(\xi)$ gives a solution on $y>0$.
+
+## ↑ Ancestors (13)
+
+1. [B](../b.md)
+2. [9](../../9.md)
+3. [Paper 2](../../../paper-2-split.md)
+4. [2017](../../../split.md)
+5. [Past exam of the mathematics course of the year 1 of the natural sciences course of the University of Cambridge](../../../../split.md)
+6. [Mathematics course of the year 1 of the natural sciences course of the University of Cambridge](../../../../../mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+7. [Year 1 of the natural sciences course of the University of Cambridge](../../../../../year-1-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+8. [Year of the natural sciences course of the University of Cambridge](../../../../../year-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+9. [Natural sciences course of the University of Cambridge](../../../../../natural-sciences-course-of-the-university-of-cambridge.md)
+10. [Course of the University of Cambridge](../../../../../course-of-the-university-of-cambridge.md)
+11. [University of Cambridge](../../../../../university-of-cambridge-split.md)
+12. [List of universities](../../../../../list-of-universities.md)
+13. [Codex Wiki](../../../../../split.md)

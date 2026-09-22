@@ -1,0 +1,60 @@
+<h1 id="wick-s-theorem">Wick's theorem</h1>
+
+↑ **Parent:** [Perturbative quantum field theory](perturbative-quantum-field-theory-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Wick's_theorem)
+
+Wick theorem expresses a time-ordered product of free fields as its normal-ordered product plus the sum over every possible contraction. It turns the [Dyson series](dyson-series.md) into [Feynman diagrams](feynman-diagram.md).
+
+**Table of contents**
+
+- [Two-field Wick contraction identity](two-field-wick-contraction-identity.md)
+- [Two-field scalar Wick identity](two-field-scalar-wick-identity.md)
+- [Inductive proof of the scalar Wick theorem](inductive-proof-of-the-scalar-wick-theorem.md)
+- [Free scalar four-point function](free-scalar-four-point-function.md)
+- [Vanishing odd correlators of a free Gaussian field](vanishing-odd-correlators-of-a-free-gaussian-field.md)
+- [Time ordering](time-ordering.md)
+  - [Fermionic time ordering](fermionic-time-ordering.md)
+  - [Time-ordered exponential](time-ordered-exponential.md)
+    - [Magnus expansion](magnus-expansion.md)
+    - [Constant pulse-axis condition for removing time ordering](constant-pulse-axis-condition-for-removing-time-ordering.md)
+  - [Time-ordered product](time-ordered-product.md)
+- [Normal ordering](normal-ordering.md)
+  - [Normal-ordering subtraction scheme in two dimensions](normal-ordering-subtraction-scheme-in-two-dimensions.md)
+  - [Normally ordered density correlation](normally-ordered-density-correlation.md)
+    - [Coincident-point bunching factors](coincident-point-bunching-factors.md)
+    - [Three-point density correlation of an ideal quantum gas](three-point-density-correlation-of-an-ideal-quantum-gas.md)
+    - [Bosonic number-state corrections to Gaussian density correlations](bosonic-number-state-corrections-to-gaussian-density-correlations.md)
+  - [Normal and Weyl symbols of a harmonic oscillator](normal-and-weyl-symbols-of-a-harmonic-oscillator.md)
+  - [Normal-ordered product](normal-ordered-product.md)
+- [Wick contraction](wick-contraction.md)
+  - [Vacuum pairing weights for two even scalar vertices](vacuum-pairing-weights-for-two-even-scalar-vertices.md)
+  - [Cubic two-point Wick-pairing classification](cubic-two-point-wick-pairing-classification.md)
+
+## ↑ Ancestors (5)
+
+1. [Perturbative quantum field theory](perturbative-quantum-field-theory-split.md)
+2. [Quantum field theory](quantum-field-theory-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (18)
+
+- [Charge selection rule for complex scalar correlators](charge-selection-rule-for-complex-scalar-correlators.md)
+- [Four-point correlation function](four-point-correlation-function.md)
+- [Solution](past-exam-of-the-advanced-quantum-field-theory-for-particle-physics-course-of-the-university-of-oxford/2017/2/a/ii/solution.md)
+- [Solution](past-exam-of-the-advanced-quantum-field-theory-for-particle-physics-course-of-the-university-of-oxford/2018/2/a/ii/solution.md)
+- [Solution](past-exam-of-the-advanced-quantum-field-theory-for-particle-physics-course-of-the-university-of-oxford/2021/3/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-50/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-48/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-53/1/b/i/solution.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2016/3/b/solution.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2017/2/b/solution.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2018/2/b/solution.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2018/4/b/solution.md)
+- [Solution](past-exam-of-the-quantum-matter-course-of-the-university-of-oxford/2025/1/c/solution.md)
+- [Solution](past-exam-of-the-random-matrix-theory-course-of-the-university-of-oxford/2025/1/a/iii/solution.md)
+- [Solution](past-exam-of-the-theoretical-physics-ii-course-of-the-university-of-cambridge/2013/paper-1/4/a/solution.md)
+- [Solution](past-exam-of-the-theoretical-physics-ii-course-of-the-university-of-cambridge/2013/paper-1/4/c/solution.md)
+- [Solution](past-exam-of-the-theoretical-physics-major-option-course-of-the-university-of-oxford/2016/3/e/solution.md)
+- [Solution](past-exam-of-the-theoretical-physics-major-option-course-of-the-university-of-oxford/2016/8/a/solution.md)

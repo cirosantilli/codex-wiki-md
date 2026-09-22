@@ -1,0 +1,626 @@
+# Past exam of the computer science course of the University of Cambridge
+
+↑ **Parent:** [Computer science course of the University of Cambridge](university-of-cambridge.md#computer-science-course-of-the-university-of-cambridge)
+
+**Table of contents**
+
+- [2026](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2026.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2026/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2026/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2026/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2026/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2026/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2026/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2026/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2026/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2026/paper-9.md)
+- [2025](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2025.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2025/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2025/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2025/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2025/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2025/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2025/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2025/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2025/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2025/paper-9.md)
+- [2024](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2024.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2024/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2024/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2024/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2024/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2024/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2024/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2024/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2024/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2024/paper-9.md)
+- [2023](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2023.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2023/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2023/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2023/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2023/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2023/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2023/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2023/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2023/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2023/paper-9.md)
+- [2022](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2022.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2022/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2022/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2022/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2022/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2022/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2022/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2022/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2022/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2022/paper-9.md)
+- [2021](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2021.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2021/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2021/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2021/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2021/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2021/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2021/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2021/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2021/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2021/paper-9.md)
+- [2020](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2020.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2020/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2020/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2020/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2020/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2020/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2020/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2020/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2020/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2020/paper-9.md)
+- [2019](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2019.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2019/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2019/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2019/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2019/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2019/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2019/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2019/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2019/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2019/paper-9.md)
+- [2018](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2018.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2018/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2018/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2018/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2018/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2018/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2018/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2018/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2018/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2018/paper-9.md)
+- [2017](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2017.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2017/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2017/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2017/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2017/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2017/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2017/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2017/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2017/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2017/paper-9.md)
+- [2016](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2016.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2016/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2016/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2016/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2016/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2016/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2016/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2016/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2016/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2016/paper-9.md)
+- [2015](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2015.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2015/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2015/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2015/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2015/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2015/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2015/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2015/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2015/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2015/paper-9.md)
+- [2014](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2014.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2014/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2014/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2014/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2014/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2014/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2014/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2014/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2014/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2014/paper-9.md)
+- [2013](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2013.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2013/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2013/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2013/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2013/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2013/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2013/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2013/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2013/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2013/paper-9.md)
+- [2012](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2012.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2012/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2012/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2012/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2012/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2012/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2012/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2012/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2012/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2012/paper-9.md)
+- [2011](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2011.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2011/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2011/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2011/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2011/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2011/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2011/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2011/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2011/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2011/paper-9.md)
+- [2010](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2010.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2010/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2010/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2010/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2010/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2010/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2010/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2010/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2010/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2010/paper-9.md)
+- [2009](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2009.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2009/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2009/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2009/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2009/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2009/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2009/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2009/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2009/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2009/paper-9.md)
+- [2008](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2008.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2008/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2008/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2008/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2008/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2008/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2008/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2008/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2008/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2008/paper-9.md)
+  - [Paper 10](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2008/paper-10.md)
+  - [Paper 11](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2008/paper-11.md)
+  - [Paper 12](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2008/paper-12.md)
+  - [Paper 13](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2008/paper-13.md)
+- [2007](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2007.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2007/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2007/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2007/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2007/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2007/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2007/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2007/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2007/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2007/paper-9.md)
+  - [Paper 10](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2007/paper-10.md)
+  - [Paper 11](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2007/paper-11.md)
+  - [Paper 12](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2007/paper-12.md)
+  - [Paper 13](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2007/paper-13.md)
+- [2006](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2006.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2006/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2006/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2006/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2006/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2006/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2006/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2006/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2006/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2006/paper-9.md)
+  - [Paper 10](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2006/paper-10.md)
+  - [Paper 11](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2006/paper-11.md)
+  - [Paper 12](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2006/paper-12.md)
+  - [Paper 13](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2006/paper-13.md)
+- [2005](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2005.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2005/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2005/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2005/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2005/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2005/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2005/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2005/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2005/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2005/paper-9.md)
+  - [Paper 10](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2005/paper-10.md)
+  - [Paper 11](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2005/paper-11.md)
+  - [Paper 12](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2005/paper-12.md)
+  - [Paper 13](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2005/paper-13.md)
+- [2004](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2004.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2004/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2004/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2004/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2004/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2004/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2004/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2004/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2004/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2004/paper-9.md)
+  - [Paper 10](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2004/paper-10.md)
+  - [Paper 11](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2004/paper-11.md)
+  - [Paper 12](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2004/paper-12.md)
+  - [Paper 13](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2004/paper-13.md)
+- [2003](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2003.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2003/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2003/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2003/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2003/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2003/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2003/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2003/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2003/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2003/paper-9.md)
+  - [Paper 10](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2003/paper-10.md)
+  - [Paper 11](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2003/paper-11.md)
+  - [Paper 12](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2003/paper-12.md)
+  - [Paper 13](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2003/paper-13.md)
+- [2002](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2002.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2002/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2002/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2002/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2002/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2002/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2002/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2002/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2002/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2002/paper-9.md)
+  - [Paper 10](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2002/paper-10.md)
+  - [Paper 11](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2002/paper-11.md)
+  - [Paper 12](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2002/paper-12.md)
+  - [Paper 13](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2002/paper-13.md)
+- [2001](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2001.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2001/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2001/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2001/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2001/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2001/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2001/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2001/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2001/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2001/paper-9.md)
+  - [Paper 10](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2001/paper-10.md)
+  - [Paper 11](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2001/paper-11.md)
+  - [Paper 12](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2001/paper-12.md)
+  - [Paper 13](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2001/paper-13.md)
+- [2000](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2000.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2000/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2000/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2000/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2000/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2000/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2000/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2000/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2000/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2000/paper-9.md)
+  - [Paper 10](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2000/paper-10.md)
+  - [Paper 11](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2000/paper-11.md)
+  - [Paper 12](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2000/paper-12.md)
+  - [Paper 13](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2000/paper-13.md)
+- [1999](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1999.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1999/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1999/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1999/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1999/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1999/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1999/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1999/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1999/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1999/paper-9.md)
+  - [Paper 10](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1999/paper-10.md)
+  - [Paper 11](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1999/paper-11.md)
+  - [Paper 12](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1999/paper-12.md)
+  - [Paper 13](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1999/paper-13.md)
+- [1998](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1998.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1998/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1998/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1998/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1998/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1998/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1998/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1998/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1998/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1998/paper-9.md)
+  - [Paper 10](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1998/paper-10.md)
+  - [Paper 11](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1998/paper-11.md)
+  - [Paper 12](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1998/paper-12.md)
+  - [Paper 13](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1998/paper-13.md)
+- [1997](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1997.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1997/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1997/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1997/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1997/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1997/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1997/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1997/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1997/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1997/paper-9.md)
+  - [Paper 10](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1997/paper-10.md)
+  - [Paper 11](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1997/paper-11.md)
+  - [Paper 12](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1997/paper-12.md)
+  - [Paper 13](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1997/paper-13.md)
+- [1996](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1996.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1996/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1996/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1996/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1996/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1996/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1996/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1996/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1996/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1996/paper-9.md)
+  - [Paper 10](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1996/paper-10.md)
+  - [Paper 11](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1996/paper-11.md)
+  - [Paper 12](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1996/paper-12.md)
+  - [Paper 13](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1996/paper-13.md)
+- [1995](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1995.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1995/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1995/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1995/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1995/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1995/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1995/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1995/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1995/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1995/paper-9.md)
+  - [Paper 10](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1995/paper-10.md)
+  - [Paper 11](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1995/paper-11.md)
+  - [Paper 12](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1995/paper-12.md)
+  - [Paper 13](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1995/paper-13.md)
+- [1994](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1994.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1994/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1994/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1994/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1994/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1994/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1994/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1994/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1994/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1994/paper-9.md)
+  - [Paper 10](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1994/paper-10.md)
+  - [Paper 11](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1994/paper-11.md)
+  - [Paper 12](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1994/paper-12.md)
+  - [Paper 13](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1994/paper-13.md)
+- [1993](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1993.md)
+  - [Paper 1](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1993/paper-1.md)
+  - [Paper 2](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1993/paper-2.md)
+  - [Paper 3](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1993/paper-3.md)
+  - [Paper 4](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1993/paper-4.md)
+  - [Paper 5](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1993/paper-5.md)
+  - [Paper 6](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1993/paper-6.md)
+  - [Paper 7](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1993/paper-7.md)
+  - [Paper 8](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1993/paper-8.md)
+  - [Paper 9](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1993/paper-9.md)
+  - [Paper 10](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1993/paper-10.md)
+  - [Paper 11](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1993/paper-11.md)
+  - [Paper 12](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1993/paper-12.md)
+  - [Paper 13](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1993/paper-13.md)
+
+## 2026
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2026.md)
+
+## 2025
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2025.md)
+
+## 2024
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2024.md)
+
+## 2023
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2023.md)
+
+## 2022
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2022.md)
+
+## 2021
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2021.md)
+
+## 2020
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2020.md)
+
+## 2019
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2019.md)
+
+## 2018
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2018.md)
+
+## 2017
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2017.md)
+
+## 2016
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2016.md)
+
+## 2015
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2015.md)
+
+## 2014
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2014.md)
+
+## 2013
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2013.md)
+
+## 2012
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2012.md)
+
+## 2011
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2011.md)
+
+## 2010
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2010.md)
+
+## 2009
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2009.md)
+
+## 2008
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2008.md)
+
+## 2007
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2007.md)
+
+## 2006
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2006.md)
+
+## 2005
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2005.md)
+
+## 2004
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2004.md)
+
+## 2003
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2003.md)
+
+## 2002
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2002.md)
+
+## 2001
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2001.md)
+
+## 2000
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/2000.md)
+
+## 1999
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1999.md)
+
+## 1998
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1998.md)
+
+## 1997
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1997.md)
+
+## 1996
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1996.md)
+
+## 1995
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1995.md)
+
+## 1994
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1994.md)
+
+## 1993
+
+↑ **Parent:** [Past exam of the computer science course of the University of Cambridge](past-exam-of-the-computer-science-course-of-the-university-of-cambridge.md)
+
+[This section is present in another page, follow this link to view it.](past-exam-of-the-computer-science-course-of-the-university-of-cambridge/1993.md)
+
+## ↑ Ancestors (5)
+
+1. [Computer science course of the University of Cambridge](university-of-cambridge.md#computer-science-course-of-the-university-of-cambridge)
+2. [Course of the University of Cambridge](university-of-cambridge.md#course-of-the-university-of-cambridge)
+3. [University of Cambridge](university-of-cambridge.md)
+4. [List of universities](README.md#list-of-universities)
+5. [Codex Wiki](README.md)
+
+## ← Incoming links (1)
+
+- [Past exam of the University of Cambridge](past-exam-of-the-university-of-cambridge.md)

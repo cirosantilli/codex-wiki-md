@@ -1,0 +1,33 @@
+# Spatial homogeneity
+
+↑ **Parent:** [Cosmology](cosmology-split.md)
+
+Relative physical laws and large-scale statistical properties do not depend on the chosen spatial origin. For a continuous deterministic galaxy velocity field, using the same relative-velocity rule from each origin forces additivity and hence a position-independent linear velocity gradient.
+
+**Table of contents**
+
+- [Cosmological shear](cosmological-shear.md)
+
+## ↑ Ancestors (4)
+
+1. [Cosmology](cosmology-split.md)
+2. [Branches of physics](branches-of-physics.md)
+3. [Physics](physics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (14)
+
+- [Cosmological isotropy](cosmological-isotropy.md)
+- [Cosmological principle](cosmological-principle.md)
+- [Solution](past-exam-of-the-general-relativity-and-cosmology-and-condensed-matter-physics-paper-of-part-b-of-the-physics-course-of-the-university-of-oxford/2011/section-v/4/unlettered-4/solution.md)
+- [Solution](past-exam-of-the-general-relativity-course-of-the-university-of-oxford/2021/4/a/solution.md)
+- [Solution](past-exam-of-the-general-relativity-course-of-the-university-of-oxford/2021/4/e/solution.md)
+- [Solution](past-exam-of-the-general-relativity-ii-course-of-the-university-of-oxford/2015/3/b/solution.md)
+- [Solution](past-exam-of-the-kinetic-theory-course-of-the-university-of-oxford/2024/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-41/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-66/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-72/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ii/paper-1/8c/solution.md)
+- [Solution](past-exam-of-the-relativity-course-of-the-university-of-cambridge/2018/section-a/1/c/solution.md)
+- [Solution](past-exam-of-the-relativity-course-of-the-university-of-cambridge/2022/section-b/4/a/solution.md)
+- [Scale factor (cosmology)](scale-factor-cosmology.md)

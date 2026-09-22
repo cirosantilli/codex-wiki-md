@@ -1,0 +1,51 @@
+# 2025
+
+↑ **Parent:** [Past exam of the algorithmic foundations of learning course of the University of Oxford](split.md)
+
+Solutions to all three questions. Source: [Oxford examination paper, parent PDF pages 17–22; paper pages 1–6](https://www.whatdotheyknow.com/request/past_papers_omms/response/3521346/attach/3/FOI%20202607%20785%20Exam%20Papers%20OMMS.pdf#page=17).
+
+**Table of contents**
+
+- [1](2025/1.md)
+  - [a](2025/1/a.md)
+    - [Solution](2025/1/a/solution.md)
+  - [b](2025/1/b.md)
+    - [Solution](2025/1/b/solution.md)
+  - [c](2025/1/c.md)
+    - [i](2025/1/c/i.md)
+      - [Solution](2025/1/c/i/solution.md)
+    - [ii](2025/1/c/ii.md)
+      - [Solution](2025/1/c/ii/solution.md)
+- [2](2025/2.md)
+  - [a](2025/2/a.md)
+    - [i](2025/2/a/i.md)
+      - [Solution](2025/2/a/i/solution.md)
+    - [ii](2025/2/a/ii.md)
+      - [Solution](2025/2/a/ii/solution.md)
+  - [b](2025/2/b.md)
+    - [Solution](2025/2/b/solution.md)
+  - [c](2025/2/c.md)
+    - [Solution](2025/2/c/solution.md)
+- [3](2025/3.md)
+  - [a](2025/3/a.md)
+    - [i](2025/3/a/i.md)
+      - [Solution](2025/3/a/i/solution.md)
+    - [ii](2025/3/a/ii.md)
+      - [Solution](2025/3/a/ii/solution.md)
+  - [b](2025/3/b.md)
+    - [i](2025/3/b/i.md)
+      - [Solution](2025/3/b/i/solution.md)
+    - [ii](2025/3/b/ii.md)
+      - [Solution](2025/3/b/ii/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Past exam of the algorithmic foundations of learning course of the University of Oxford](split.md)
+2. [Algorithmic foundations of learning course of the University of Oxford](../algorithmic-foundations-of-learning-course-of-the-university-of-oxford.md)
+3. [Year 4 of the mathematics course of the University of Oxford](../year-4-of-the-mathematics-course-of-the-university-of-oxford.md)
+4. [Mathematics course of the University of Oxford](../mathematics-course-of-the-university-of-oxford.md)
+5. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+6. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+7. [University of Oxford](../university-of-oxford-split.md)
+8. [List of universities](../list-of-universities.md)
+9. [Codex Wiki](../split.md)

@@ -1,0 +1,28 @@
+<h1 id="s12/1/1/solution">Solution</h1>
+
+↑ **Parent:** [1](../1.md)
+
+The [protein primary structure](../../../../../protein-primary-structure.md) is the ordered [protein sequence](../../../../../protein-sequence.md) along a [polypeptide](../../../../../polypeptide.md), from its [N-terminus](../../../../../n-terminus.md) to its [C-terminus](../../../../../c-terminus.md). In cells, information in a [DNA](../../../../../deoxyribonucleic-acid.md) coding sequence is copied into [messenger RNA](../../../../../messenger-rna.md) by [transcription](../../../../../transcription-biology.md). During [translation](../../../../../translation-geometry.md), the [ribosome](../../../../../ribosome.md) reads successive three-base [codons](../../../../../codon.md); [transfer RNA](../../../../../transfer-rna.md) molecules match these by their anticodons and supply the corresponding [amino acids](../../../../../amino-acid.md). The [genetic code](../../../../../genetic-code.md) is degenerate: different codons can encode the same amino acid. A start establishes the reading frame and a stop terminates translation. [Peptide bonds](../../../../../peptide-bond.md) link the amino acids into the backbone, leaving chemically different side chains. Thus the sequence specifies the order of side-chain interactions, rather than a literal coordinate list for the folded molecule.
+
+[Protein secondary structure](../../../../../protein-secondary-structure.md) describes local backbone arrangements. An [alpha helix](../../../../../alpha-helix.md) is stabilized by a regular pattern of backbone hydrogen bonds, typically between the carbonyl of residue $i$ and the amide of residue $i+4$. [Beta sheets](../../../../../beta-sheet.md) assemble extended strands through inter-strand hydrogen bonding, with parallel or antiparallel strand orientations. Turns and loops connect these elements; not every region belongs to a helix or sheet. The [peptide bond](../../../../../peptide-bond.md) is approximately planar, while backbone torsion angles provide conformational freedom subject to steric restrictions.
+
+[Protein tertiary structure](../../../../../protein-tertiary-structure.md) is the complete three-dimensional organization of one chain, often arranged into [protein domains](../../../../../protein-domain.md). [Protein quaternary structure](../../../../../protein-quaternary-structure.md) describes the organization of multiple chains in an assembly. Soluble globular proteins often bury nonpolar side chains and expose polar ones; membrane proteins can instead expose hydrophobic surfaces to the surrounding lipid. Other stabilizing interactions include [hydrogen bonds](../../../../../hydrogen-bond.md), electrostatic interactions, [Van der Waals forces](../../../../../van-der-waals-force.md) and sometimes covalent [disulfide bonds](../../../../../disulfide-bond.md). These competing contributions define active sites, binding pockets and mechanically useful structures; folded proteins are dynamic ensembles, not perfectly rigid objects.
+
+The connection from sequence to structure is thermodynamic and kinetic. Folding usually decreases the chain's [conformational entropy](../../../../../conformational-entropy.md), but favorable interactions and changes in solvent [entropy](../../../../../entropy-split.md), including the [hydrophobic effect](../../../../../hydrophobic-effect.md), can lower the total [Gibbs free energy](../../../../../gibbs-free-energy.md). Under suitable conditions the native ensemble is favored over unfolded alternatives. A change in sequence can therefore change the balance of accessible conformations and alter folding or function. Reversible refolding of a denatured protein in an appropriate environment demonstrates that the sequence can contain the information needed for its native structure.[thermodynamic hypothesis and refolding experiments, pp. 223–225](../../../../../principles-that-govern-the-folding-of-protein-chains-by-christian-b-anfinsen.md)
+
+The environment is part of the specification: temperature, pH, ionic conditions, ligands and post-translational modifications matter. [Molecular chaperones](../../../../../chaperone-protein.md) can prevent aggregation and help chains escape kinetic traps without providing a residue-by-residue structural template. Some sequences are [intrinsically disordered proteins](../../../../../intrinsically-disordered-protein.md) or disordered regions, and some require partners for a stable fold. Thus primary structure strongly constrains structure, but does not guarantee one unique rigid shape independent of conditions.
+
+## ↑ Ancestors (12)
+
+1. [1](../1.md)
+2. [1](../../1.md)
+3. [S12](../../../s12.md)
+4. [2015](../../../../2015-split.md)
+5. [Past exam of the short options paper shared by Prelims and Parts A and B of the physics course of the University of Oxford](../../../../split.md)
+6. [Short options paper shared by Prelims and Parts A and B of the physics course of the University of Oxford](../../../../../short-options-paper-shared-by-prelims-and-parts-a-and-b-of-the-physics-course-of-the-university-of-oxford.md)
+7. [Physics course of the University of Oxford](../../../../../physics-course-of-the-university-of-oxford.md)
+8. [Undergraduate course of the University of Oxford](../../../../../undergraduate-course-of-the-university-of-oxford.md)
+9. [Course of the University of Oxford](../../../../../course-of-the-university-of-oxford.md)
+10. [University of Oxford](../../../../../university-of-oxford-split.md)
+11. [List of universities](../../../../../list-of-universities.md)
+12. [Codex Wiki](../../../../../split.md)

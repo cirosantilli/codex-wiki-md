@@ -1,0 +1,25 @@
+<h1 id="greek-translation/solution">Solution</h1>
+
+↑ **Parent:** [Greek translation](../greek-translation.md)
+
+**Translation.** The [stomach](../../../../../stomach.md), the internal [organ](../../../../../organ.md) responsible for [digestion](../../../../../digestion.md), performs [digestion](../../../../../digestion.md) poorly whenever [diarrhoea](../../../../../diarrhoea.md) takes hold of a person; and the [diarrhoea](../../../../../diarrhoea.md) consists of liquid, undigested [food](../../../../../food.md). Unless this happens from a temporary cause for only one or two days, the whole person becomes weak through wasting of the body, and the [coeliac affection of Aretaeus](../../../../../coeliac-affection-of-aretaeus.md) becomes a [chronic disease](../../../../../chronic-disease.md), through weakness of the [digestive heat](../../../../../digestive-heat.md) and chilling of the [stomach](../../../../../stomach.md). Then the [food](../../../../../food.md) is indeed broken down under the action of [heat](../../../../../heat-split.md), but the [heat](../../../../../heat-split.md) does not digest it completely or turn it into an appropriate nutritive fluid: it leaves it half-finished (the printed word is incomplete), through failure of the completing power. The [food](../../../../../food.md), abandoned by the process, changes for the worse in colour, smell and consistency. Its colour is white and lacking [bile](../../../../../bile.md); its smell is foul and dung-like; and it is liquid and without cohesion because the process has failed, retaining only the beginning of [digestion](../../../../../digestion.md) as its one good quality. Hence there is gaseous, continual, foul-smelling [belching](../../../../../belching.md) in the [stomach](../../../../../stomach.md).
+
+**Text and medical meaning.** The scan ends PDF volume p. 101 with _λείπε-_ and begins p. 102 with _ἀδρανείῃ_. The translation marks this defective word rather than silently pretending that the missing ending is visible. The corresponding edited Greek has _λείπει_, “leaves”, which supplies the sense used here. The Oxford extract also separates the conditional clause from the following sentence more abruptly than that edition; the translation carries its evident qualification forward. [II.7, opening paragraph: λείπει ἀδρανείῃ τοῦ τέλεος; the edited text also has ἀλλ᾽ and πρὸς δὲ καὶ linking the conditional construction](../../../../../on-the-causes-and-signs-of-chronic-diseases-by-aretaeus-of-cappadocia.md)
+
+[Aretaeus of Cappadocia](../../../../../aretaeus-of-cappadocia.md) uses _κοιλίη_ for the [stomach](../../../../../stomach.md) or digestive belly and _σκῆνος_, literally a tent or dwelling, for the body. _ἀτροφίη_ indicates wasting or failure of nourishment; it need not denote the modern histological concept of [atrophy](../../../../../atrophy.md). “Appropriate nutritive fluid” renders _χυμὸν οἰκεῖον_: the product that the author thinks suitable for bodily nourishment, rather than a modern chemical identification. The pale, foul, loose output is an observed feature; the explanation by weak [digestive heat](../../../../../digestive-heat.md) is the author's theory. It is not a modern account of [digestion](../../../../../digestion.md). [PDF volume pp. 101–102, Greek extract attributed to Aretaeus, Causes and Signs of Chronic Diseases II.7](../../../../../examination-papers-for-the-degree-of-bachelor-of-medicine-by-the-university-of-oxford-1864-1867.md)
+
+**The historical [coeliac affection of Aretaeus](../../../../../coeliac-affection-of-aretaeus.md) cannot establish a modern diagnosis of [coeliac disease](../../../../../coeliac-disease.md).** Modern [coeliac disease](../../../../../coeliac-disease.md) involves an [immune response](../../../../../immune-response.md) to [gluten](../../../../../gluten.md) that damages the [small intestine](../../../../../small-intestine.md); the ancient symptom description alone cannot identify that mechanism. The diagnosis should therefore not be read back into the passage as certain. [Definition and Facts: chronic digestive and immune disorder triggered by gluten, damaging the small intestine](../../../../../celiac-disease-by-the-national-institute-of-diabetes-and-digestive-and-kidney-diseases.md)
+
+## ↑ Ancestors (11)
+
+1. [Greek translation](../greek-translation.md)
+2. [Classical paper](../../classical-paper-split.md)
+3. [Second examination](../../split.md)
+4. [1867](../../../split.md)
+5. [Past exam of the medicine course of the University of Oxford](../../../../split.md)
+6. [Medicine course of the University of Oxford](../../../../../medicine-course-of-the-university-of-oxford.md)
+7. [Undergraduate course of the University of Oxford](../../../../../undergraduate-course-of-the-university-of-oxford.md)
+8. [Course of the University of Oxford](../../../../../course-of-the-university-of-oxford.md)
+9. [University of Oxford](../../../../../university-of-oxford-split.md)
+10. [List of universities](../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../split.md)

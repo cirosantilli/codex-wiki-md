@@ -1,0 +1,60 @@
+# Polynomial method in combinatorics
+
+↑ **Parent:** [Combinatorics](combinatorics-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Polynomial_method_in_combinatorics)
+
+The polynomial method in combinatorics encodes a discrete configuration by polynomials and obtains combinatorial bounds from their degree, zeros, coefficients, or linear independence.
+
+**Table of contents**
+
+- [Rich line covering bound over a finite field](rich-line-covering-bound-over-a-finite-field.md)
+- [Schwartz-Zippel lemma](schwartz-zippel-lemma.md)
+- [Polynomial vanishing on a finite set of spatial lines](polynomial-vanishing-on-a-finite-set-of-spatial-lines.md)
+- [Intersection polynomial](intersection-polynomial.md)
+- [Zero-sum sequences as differences of permutations of a prime field](zero-sum-sequences-as-differences-of-permutations-of-a-prime-field.md)
+- [Polynomial nonvanishing below the field size](polynomial-nonvanishing-below-the-field-size.md)
+- [Cap set](cap-set.md)
+  - [Meshulam bound for cap sets](meshulam-bound-for-cap-sets.md)
+  - [Cartesian powers of cap sets](cartesian-powers-of-cap-sets.md)
+    - [Removal of an exponential prefactor by Cartesian powers](removal-of-an-exponential-prefactor-by-cartesian-powers.md)
+  - [Ellenberg–Gijswijt cap-set bound](ellenberg-gijswijt-cap-set-bound.md)
+    - [Low-degree monomial count for the cap-set bound](low-degree-monomial-count-for-the-cap-set-bound.md)
+- [Chevalley-Warning theorem](chevalley-warning-theorem.md)
+  - [Kemnitz theorem](kemnitz-theorem.md)
+- [Dyson constant-term identity](dyson-constant-term-identity.md)
+  - [Good recurrence for the Dyson constant term](good-recurrence-for-the-dyson-constant-term.md)
+- [Snevily matching theorem for an elementary abelian group](snevily-matching-theorem-for-an-elementary-abelian-group.md)
+- [Alon-Tarsi lemma](alon-tarsi-lemma.md)
+  - [Combinatorial Nullstellensatz](combinatorial-nullstellensatz.md)
+    - [Restricted sumset bound for unequal subsets of a prime field](restricted-sumset-bound-for-unequal-subsets-of-a-prime-field.md)
+    - [Prime-regular subgraph from Boolean polynomial constraints](prime-regular-subgraph-from-boolean-polynomial-constraints.md)
+    - [Coordinate avoidance from a nonzero permanent](coordinate-avoidance-from-a-nonzero-permanent.md)
+- [Modular intersection bound for a set family](modular-intersection-bound-for-a-set-family.md)
+
+## ↑ Ancestors (4)
+
+1. [Combinatorics](combinatorics-split.md)
+2. [Area of mathematics](area-of-mathematics.md)
+3. [Mathematics](mathematics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (18)
+
+- [Boolean multilinearization](boolean-multilinearization.md)
+- [Ellenberg–Gijswijt cap-set bound](ellenberg-gijswijt-cap-set-bound.md)
+- [Finite-field Kakeya set](finite-field-kakeya-set.md)
+- [Frankl-Wilson theorem](frankl-wilson-theorem.md)
+- [Low-degree monomial count for the cap-set bound](low-degree-monomial-count-for-the-cap-set-bound.md)
+- [Modular-size auxiliary polynomials](modular-size-auxiliary-polynomials.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-7/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-13/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-10/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-12/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-14/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-9/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-10/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-11/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-12/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-109/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-109/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-129/3/solution.md)

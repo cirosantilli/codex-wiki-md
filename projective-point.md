@@ -1,0 +1,60 @@
+# Projective point
+
+↑ **Parent:** [Projective space](projective-space-split.md)
+
+A projective point is an equivalence class $[x_0:\cdots:x_n]$ of nonzero coordinate vectors under multiplication by a nonzero scalar.
+
+**Table of contents**
+
+- [Homogeneous coordinate](homogeneous-coordinate.md)
+- [Coordinate point](coordinate-point.md)
+
+## ↑ Ancestors (7)
+
+1. [Projective space](projective-space-split.md)
+2. [Algebraic variety](algebraic-variety-split.md)
+3. [Algebraic geometry](algebraic-geometry-split.md)
+4. [Geometry and topology](geometry-and-topology-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (37)
+
+- [Complete quadrangle](complete-quadrangle.md)
+- [Cross-ratio normalization of four projective points](cross-ratio-normalization-of-four-projective-points.md)
+- [Cross-ratio permutation orbit](cross-ratio-permutation-orbit.md)
+- [Cross-ratio preserving maps are projective](cross-ratio-preserving-maps-are-projective.md)
+- [Desargues's theorem](desargues-s-theorem.md)
+- [Harmonic conjugate points](harmonic-conjugate-points.md)
+- [Homogeneous coordinate](homogeneous-coordinate.md)
+- [Irrelevant ideal of projective space](irrelevant-ideal-of-projective-space.md)
+- [Solution](past-exam-of-the-algebraic-curves-course-of-the-university-of-oxford/2023/1/a/solution.md)
+- [Solution](past-exam-of-the-algebraic-curves-course-of-the-university-of-oxford/2023/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-36/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-27/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-4/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-4/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-4/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-113/1/c/solution.md)
+- [Solution](past-exam-of-the-short-options-course-of-the-university-of-oxford/2014/3/a/solution.md)
+- [Solution](past-exam-of-the-short-options-course-of-the-university-of-oxford/2014/3/b/solution.md)
+- [Solution](past-exam-of-the-short-options-course-of-the-university-of-oxford/2014/3/c/solution.md)
+- [Solution](past-exam-of-the-short-options-course-of-the-university-of-oxford/2015/3/a/solution.md)
+- [Solution](past-exam-of-the-short-options-course-of-the-university-of-oxford/2015/3/b/solution.md)
+- [Solution](past-exam-of-the-short-options-course-of-the-university-of-oxford/2015/3/c/solution.md)
+- [Solution](past-exam-of-the-short-options-course-of-the-university-of-oxford/2017/3/a/i/solution.md)
+- [Solution](past-exam-of-the-short-options-course-of-the-university-of-oxford/2017/3/a/ii/solution.md)
+- [Solution](past-exam-of-the-short-options-course-of-the-university-of-oxford/2017/3/a/iv/solution.md)
+- [Solution](past-exam-of-the-short-options-course-of-the-university-of-oxford/2017/3/b/i/solution.md)
+- [Solution](past-exam-of-the-short-options-course-of-the-university-of-oxford/2017/3/b/ii/solution.md)
+- [Solution](past-exam-of-the-short-options-course-of-the-university-of-oxford/2021/3/a/ii/solution.md)
+- [Pencil of conics through four points](pencil-of-conics-through-four-points.md)
+- [Perspectivity from a point](perspectivity-from-a-point.md)
+- [Point at infinity of the complex projective line](point-at-infinity-of-the-complex-projective-line.md)
+- [Projective frame](projective-frame.md)
+- [Projective joins and meets by cross products](projective-joins-and-meets-by-cross-products.md)
+- [Projective line at infinity](projective-line-at-infinity.md)
+- [Projective triangle](projective-triangle.md)
+- [Tangent line to a projective plane curve](tangent-line-to-a-projective-plane-curve.md)
+- [Veronese embedding](veronese-embedding.md)

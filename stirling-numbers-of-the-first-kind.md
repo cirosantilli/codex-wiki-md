@@ -1,0 +1,15 @@
+# Stirling numbers of the first kind
+
+↑ **Parent:** [Permutation](permutation.md)
+
+**Table of contents**
+
+- [Unsigned Stirling number of the first kind](unsigned-stirling-number-of-the-first-kind.md)
+
+## ↑ Ancestors (5)
+
+1. [Permutation](permutation.md)
+2. [Combinatorics](combinatorics-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)

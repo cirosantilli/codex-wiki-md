@@ -1,0 +1,43 @@
+# B
+
+↑ **Parent:** [2010](../2010-split.md)
+
+**Table of contents**
+
+- [4](b/4.md)
+  - [a](b/4/a.md)
+    - [Solution](b/4/a/solution.md)
+  - [b](b/4/b.md)
+    - [Solution](b/4/b/solution.md)
+  - [c](b/4/c.md)
+    - [Solution](b/4/c/solution.md)
+- [5](b/5.md)
+  - [a](b/5/a.md)
+    - [Solution](b/5/a/solution.md)
+  - [b](b/5/b.md)
+    - [Solution](b/5/b/solution.md)
+  - [c](b/5/c.md)
+    - [Solution](b/5/c/solution.md)
+- [6](b/6.md)
+  - [a](b/6/a.md)
+    - [Solution](b/6/a/solution.md)
+  - [b](b/6/b.md)
+    - [Solution](b/6/b/solution.md)
+  - [c](b/6/c.md)
+    - [i](b/6/c/i.md)
+      - [Solution](b/6/c/i/solution.md)
+    - [ii](b/6/c/ii.md)
+      - [Solution](b/6/c/ii/solution.md)
+
+## ↑ Ancestors (10)
+
+1. [2010](../2010-split.md)
+2. [Past exam of the methods of applied functional analysis course of the University of Oxford](../split.md)
+3. [Methods of applied functional analysis course of the University of Oxford](../../methods-of-applied-functional-analysis-course-of-the-university-of-oxford.md)
+4. [Year 4 of the mathematics course of the University of Oxford](../../year-4-of-the-mathematics-course-of-the-university-of-oxford.md)
+5. [Mathematics course of the University of Oxford](../../mathematics-course-of-the-university-of-oxford.md)
+6. [Undergraduate course of the University of Oxford](../../undergraduate-course-of-the-university-of-oxford.md)
+7. [Course of the University of Oxford](../../course-of-the-university-of-oxford.md)
+8. [University of Oxford](../../university-of-oxford-split.md)
+9. [List of universities](../../list-of-universities.md)
+10. [Codex Wiki](../../split.md)

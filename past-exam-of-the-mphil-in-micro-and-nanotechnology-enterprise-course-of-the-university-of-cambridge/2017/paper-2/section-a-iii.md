@@ -1,0 +1,35 @@
+<h1 id="section-a-iii">Section A(iii)</h1>
+
+↑ **Parent:** [Paper 2](../paper-2-split.md)
+
+**Table of contents**
+
+- [17](section-a-iii/17.md)
+  - [i](section-a-iii/17/i.md)
+    - [Solution](section-a-iii/17/i/solution.md)
+  - [ii](section-a-iii/17/ii.md)
+    - [Solution](section-a-iii/17/ii/solution.md)
+  - [iii](section-a-iii/17/iii.md)
+    - [Solution](section-a-iii/17/iii/solution.md)
+- [18](section-a-iii/18.md)
+  - [Solution](section-a-iii/18/solution.md)
+- [19](section-a-iii/19.md)
+  - [i](section-a-iii/19/i.md)
+    - [Solution](section-a-iii/19/i/solution.md)
+  - [ii](section-a-iii/19/ii.md)
+    - [Solution](section-a-iii/19/ii/solution.md)
+  - [iii](section-a-iii/19/iii.md)
+    - [Solution](section-a-iii/19/iii/solution.md)
+  - [iv](section-a-iii/19/iv.md)
+    - [Solution](section-a-iii/19/iv/solution.md)
+
+## ↑ Ancestors (8)
+
+1. [Paper 2](../paper-2-split.md)
+2. [2017](../split.md)
+3. [Past exam of the MPhil in micro- and nanotechnology enterprise course of the University of Cambridge](../../split.md)
+4. [MPhil in micro- and nanotechnology enterprise course of the University of Cambridge](../../../mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge.md)
+5. [Course of the University of Cambridge](../../../course-of-the-university-of-cambridge.md)
+6. [University of Cambridge](../../../university-of-cambridge-split.md)
+7. [List of universities](../../../list-of-universities.md)
+8. [Codex Wiki](../../../split.md)

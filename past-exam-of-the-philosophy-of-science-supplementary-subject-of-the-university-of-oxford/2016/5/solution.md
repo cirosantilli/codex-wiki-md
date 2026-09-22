@@ -1,0 +1,33 @@
+<h1 id="5/solution">Solution</h1>
+
+↑ **Parent:** [5](../5.md)
+
+The [no-miracles argument](../../../no-miracles-argument.md), in its familiar form, principally supports claims about the truth or [approximate truth](../../../approximate-truth.md) of successful theories. It is not naturally an argument for the bare existence of theoretical entities independently of the correctness of what is said about them. [Entity realism](../../../entity-realism.md) can share its interest in scientific success while relying on a different and more local evidential argument.
+
+[Hilary Putnam](../../../hilary-putnam.md)'s formulation treats the success of mature [science](../../../science.md) as something requiring explanation. If theories describe relevant features of the world approximately correctly, their predictive and practical achievements become intelligible. If their central claims are far removed from reality, the same success appears surprising. The proposed inference uses [abductive reasoning](../../../abductive-reasoning.md): accept the explanatory account which best makes sense of the achievements. It is not a valid [deduction](../../../deductive-reasoning.md) from successful prediction to truth, since a false theory can yield true consequences.[Chapter 4 of Mathematics, Matter and Method, especially printed p. 73: reference, approximate truth and the explanation of scientific success](../../../what-is-mathematical-truth-by-hilary-putnam.md)
+
+The content of the explanandum matters. If the achievement is a quantitatively accurate prediction from equations about charges, fields and interactions, saying merely that electrons exist leaves most of that accuracy unexplained. Their existence is compatible with innumerable false accounts of their behaviour. A realist explanation of this success must therefore retain some trustworthy description of relevant properties or structure, not only an inventory of entities. This need not mean accepting every idealization or every speculative extension of the full theory.
+
+[Ian Hacking](../../../ian-hacking.md)'s intervention-based case for [entity realism](../../../entity-realism.md) shifts the emphasis. Once investigators reliably use electrons to produce or investigate other phenomena, the entities are functioning as experimental tools rather than merely appearing in an explanatory story. Their causal powers can be supported across different apparatuses and theoretical descriptions. This provides a way of committing to particular entities while remaining selective about high-level theory. The argument rests on how the entities are manipulated, not simply on the statement that an encompassing theory has been successful.[Opening argument and discussion of electrons as experimental tools; original 1982 article, pp. 71–87](../../../experimentation-and-scientific-realism-by-ian-hacking.md)
+
+That position has limits too. Identifying the instrument, controlling its effects and distinguishing those effects from alternatives require some theoretical assumptions. [Entity realism](../../../entity-realism.md) cannot plausibly mean that an investigator believes literally nothing about the properties or causal roles of an entity. Its more defensible form distinguishes localized, repeatedly usable knowledge from commitment to a complete theoretical picture. One can accept robust causal regularities about an electron source without treating every claim of a fundamental theory as equally established.
+
+The principal challenge to the general [no-miracles argument](../../../no-miracles-argument.md) is that history contains successful theories with rejected central posits. The [pessimistic induction](../../../pessimistic-induction.md) presses the example of theories of light which retained a mechanical [luminiferous aether](../../../luminiferous-aether.md), or accounts of [combustion](../../../combustion.md) which included [phlogiston](../../../phlogiston.md). Such cases defeat an unrestricted inference from some success to the truth of every central assertion. A selective realist may ask which parts produced the successful predictions and which relations survived change. That reply must identify those parts with evidence; labelling an entire abandoned theory approximately true without explaining the retained content would merely rename the problem.[Historical counterexamples to success entailing reference or truth](../../../a-confutation-of-convergent-realism-by-larry-laudan.md)[Discussion of retained quantitative structure in theory change](../../../structural-realism-the-best-of-both-worlds-by-john-worrall.md)
+
+A [constructive empiricist](../../../constructive-empiricism.md) can also agree that theories are successful while treating [empirical adequacy](../../../empirical-adequacy.md), rather than full truth about unobservables, as the appropriate aim of acceptance. The dispute then includes whether explanatory superiority licenses belief in the proposed unobservable account. Calling alternatives miraculous does not settle that epistemic issue by definition.[Chapter 2 on realism and constructive empiricism](../../../the-scientific-image-by-bas-van-fraassen.md)
+
+The resulting judgment is selective. The original explanatory form reaches beyond entity existence toward a trustworthy representation of how nature works. It can support entity commitments as part of that representation, but cannot by itself isolate [entity realism](../../../entity-realism.md) from all theory realism. Conversely, experimental manipulation can provide particular reasons for entity belief without establishing the whole no-miracles inference. Both arguments are strongest when they specify the achievement, the alternatives and the exact realist commitment being defended.
+
+## ↑ Ancestors (11)
+
+1. [5](../5.md)
+2. [2016](../../2016-split.md)
+3. [Past exam of the philosophy of science supplementary subject of the University of Oxford](../../split.md)
+4. [Philosophy of science supplementary subject of the University of Oxford](../../../philosophy-of-science-supplementary-subject-of-the-university-of-oxford.md)
+5. [Supplementary subject of the physics course of the University of Oxford](../../../supplementary-subject-of-the-physics-course-of-the-university-of-oxford.md)
+6. [Physics course of the University of Oxford](../../../physics-course-of-the-university-of-oxford.md)
+7. [Undergraduate course of the University of Oxford](../../../undergraduate-course-of-the-university-of-oxford.md)
+8. [Course of the University of Oxford](../../../course-of-the-university-of-oxford.md)
+9. [University of Oxford](../../../university-of-oxford-split.md)
+10. [List of universities](../../../list-of-universities.md)
+11. [Codex Wiki](../../../split.md)

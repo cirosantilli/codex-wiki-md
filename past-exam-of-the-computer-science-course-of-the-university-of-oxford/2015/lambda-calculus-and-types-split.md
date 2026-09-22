@@ -1,0 +1,46 @@
+# Lambda calculus and types
+
+↑ **Parent:** [2015](split.md)
+
+Solutions to all twelve numbered subparts of the [University of Oxford](../../university-of-oxford-split.md) [computer science](../../computer-science-split.md) Finals paper held on 4 June 2015. Question 2(d) has a wording issue: its literal impossibility claim is false, and the solution gives the exact condition for a valid [typing judgment](../../typing-judgment.md).[Cover, p. 1; Questions 1–2, p. 2; Question 3, p. 3](../../lambda-calculus-and-types-examination-paper-of-the-university-of-oxford-2015.md)
+
+**Table of contents**
+
+- [1](lambda-calculus-and-types/1.md)
+  - [a](lambda-calculus-and-types/1/a.md)
+    - [Solution](lambda-calculus-and-types/1/a/solution.md)
+  - [b](lambda-calculus-and-types/1/b.md)
+    - [Solution](lambda-calculus-and-types/1/b/solution.md)
+  - [c](lambda-calculus-and-types/1/c.md)
+    - [Solution](lambda-calculus-and-types/1/c/solution.md)
+  - [d](lambda-calculus-and-types/1/d.md)
+    - [Solution](lambda-calculus-and-types/1/d/solution.md)
+- [2](lambda-calculus-and-types/2.md)
+  - [a](lambda-calculus-and-types/2/a.md)
+    - [Solution](lambda-calculus-and-types/2/a/solution.md)
+  - [b](lambda-calculus-and-types/2/b.md)
+    - [Solution](lambda-calculus-and-types/2/b/solution.md)
+  - [c](lambda-calculus-and-types/2/c.md)
+    - [Solution](lambda-calculus-and-types/2/c/solution.md)
+  - [d](lambda-calculus-and-types/2/d.md)
+    - [Solution](lambda-calculus-and-types/2/d/solution.md)
+- [3](lambda-calculus-and-types/3.md)
+  - [a](lambda-calculus-and-types/3/a.md)
+    - [Solution](lambda-calculus-and-types/3/a/solution.md)
+  - [b](lambda-calculus-and-types/3/b.md)
+    - [Solution](lambda-calculus-and-types/3/b/solution.md)
+  - [c](lambda-calculus-and-types/3/c.md)
+    - [Solution](lambda-calculus-and-types/3/c/solution.md)
+  - [d](lambda-calculus-and-types/3/d.md)
+    - [Solution](lambda-calculus-and-types/3/d/solution.md)
+
+## ↑ Ancestors (8)
+
+1. [2015](split.md)
+2. [Past exam of the computer science course of the University of Oxford](../split.md)
+3. [Computer science course of the University of Oxford](../../computer-science-course-of-the-university-of-oxford.md)
+4. [Undergraduate course of the University of Oxford](../../undergraduate-course-of-the-university-of-oxford.md)
+5. [Course of the University of Oxford](../../course-of-the-university-of-oxford.md)
+6. [University of Oxford](../../university-of-oxford-split.md)
+7. [List of universities](../../list-of-universities.md)
+8. [Codex Wiki](../../split.md)

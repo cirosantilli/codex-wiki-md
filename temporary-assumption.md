@@ -1,0 +1,47 @@
+# Temporary assumption
+
+↑ **Parent:** [Natural deduction](natural-deduction.md)
+
+A [temporary assumption](temporary-assumption.md) is introduced for a hypothetical subproof and retained only within that scope. A suitable [inference rule](inference-rule.md) can discharge it while forming a conclusion valid under the surrounding assumptions. Its scope must be recorded even when the assumption is unused inside the subproof.
+
+## ↑ Ancestors (7)
+
+1. [Natural deduction](natural-deduction.md)
+2. [Propositional logic](propositional-logic.md)
+3. [Mathematical logic](mathematical-logic-split.md)
+4. [Foundations of mathematics](foundations-of-mathematics-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (29)
+
+- [Assumption discharge](assumption-discharge.md)
+- [Biconditional introduction rule](biconditional-introduction-rule.md)
+- [Eigenvariable condition](eigenvariable-condition.md)
+- [Existential quantifier elimination rule](existential-quantifier-elimination-rule.md)
+- [Logical derivation](logical-derivation.md)
+- [Solution](past-exam-of-the-model-theory-and-godel-s-incompleteness-theorems-course-of-the-university-of-oxford/2007/a/4/a/solution.md)
+- [Solution](past-exam-of-the-model-theory-and-godel-s-incompleteness-theorems-course-of-the-university-of-oxford/2008/a/4/a/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2013/digital-systems-linear-algebra-introduction-to-formal-proof/7/b/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2013/digital-systems-linear-algebra-introduction-to-formal-proof/7/d/i/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2013/digital-systems-linear-algebra-introduction-to-formal-proof/7/d/ii/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2013/digital-systems-linear-algebra-introduction-to-formal-proof/8/a/i/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2013/digital-systems-linear-algebra-introduction-to-formal-proof/8/a/ii/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2013/digital-systems-linear-algebra-introduction-to-formal-proof/8/a/iii/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2013/digital-systems-linear-algebra-introduction-to-formal-proof/8/b/iii/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2015/digital-systems-linear-algebra-introduction-to-formal-proof-resit/7/a/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2015/digital-systems-linear-algebra-introduction-to-formal-proof-resit/7/b/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2015/digital-systems-linear-algebra-introduction-to-formal-proof-resit/7/d/i/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2015/digital-systems-linear-algebra-introduction-to-formal-proof-resit/7/d/ii/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2015/digital-systems-linear-algebra-introduction-to-formal-proof-resit/8/c/iii/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2015/digital-systems-linear-algebra-introduction-to-formal-proof/7/a/i/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2015/digital-systems-linear-algebra-introduction-to-formal-proof/7/b/i/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2015/digital-systems-linear-algebra-introduction-to-formal-proof/7/c/ii/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2015/digital-systems-linear-algebra-introduction-to-formal-proof/8/a/ii/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2016/digital-systems-linear-algebra-introduction-to-formal-proof/7/a/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2019/digital-systems-linear-algebra-introduction-to-formal-proof/7/a/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2019/digital-systems-linear-algebra-introduction-to-formal-proof/7/d/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2019/digital-systems-linear-algebra-introduction-to-formal-proof/8/a/solution.md)
+- [Sequent](sequent.md)
+- [Temporary assumption](temporary-assumption.md)

@@ -1,0 +1,62 @@
+# 2022
+
+↑ **Parent:** [Past exam of the experimental design and methods course of the psychology, philosophy and linguistics course of the University of Oxford](split.md)
+
+Source paper: [released examination archive](https://www.whatdotheyknow.com/request/experimental_psychology_past_exa/response/2757831/attach/3/New%20Compressed%20zipped%20Folder.zip?cookie_passthrough=1). The cover and official timetable identify the Psychology, Philosophy and Linguistics old-syllabus sitting.
+
+The required SPSS supplementary sheet is missing. **TODO: obtain the supplied output for Questions 1 and 2 before completing their data-dependent parts.** The parts below that do not depend on the missing output match the corresponding Experimental Psychology examination; their answers are reused rather than duplicated. This does not assume that the missing R and SPSS numerical outputs are equivalent.
+
+**Table of contents**
+
+- [1](2022/1.md)
+  - [a](2022/1/a.md)
+    - [Solution](2022/1/a/solution.md)
+  - [b](2022/1/b.md)
+    - [Solution](2022/1/b/solution.md)
+  - [c](2022/1/c.md)
+    - [Solution](2022/1/c/solution.md)
+  - [d](2022/1/d.md)
+    - [Solution](2022/1/d/solution.md)
+  - [e](2022/1/e.md)
+    - [Solution](2022/1/e/solution.md)
+  - [f](2022/1/f.md)
+    - [Solution](2022/1/f/solution.md)
+  - [g](2022/1/g.md)
+    - [Solution](2022/1/g/solution.md)
+  - [h](2022/1/h.md)
+    - [Solution](2022/1/h/solution.md)
+- [2](2022/2.md)
+  - [a](2022/2/a.md)
+    - [Solution](2022/2/a/solution.md)
+  - [b](2022/2/b.md)
+    - [Solution](2022/2/b/solution.md)
+  - [c](2022/2/c.md)
+    - [Solution](2022/2/c/solution.md)
+  - [d](2022/2/d.md)
+    - [Solution](2022/2/d/solution.md)
+- [3](2022/3.md)
+  - [a](2022/3/a.md)
+    - [Solution](2022/3/a/solution.md)
+  - [b](2022/3/b.md)
+    - [Solution](2022/3/b/solution.md)
+  - [c](2022/3/c.md)
+    - [Solution](2022/3/c/solution.md)
+- [4](2022/4.md)
+  - [a](2022/4/a.md)
+    - [Solution](2022/4/a/solution.md)
+  - [b](2022/4/b.md)
+    - [Solution](2022/4/b/solution.md)
+  - [c](2022/4/c.md)
+    - [Solution](2022/4/c/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Past exam of the experimental design and methods course of the psychology, philosophy and linguistics course of the University of Oxford](split.md)
+2. [Experimental design and methods course of the psychology, philosophy and linguistics course of the University of Oxford](../experimental-design-and-methods-course-of-the-psychology-philosophy-and-linguistics-course-of-the-university-of-oxford.md)
+3. [Years 2 and 3 of the psychology, philosophy and linguistics course of the University of Oxford](../years-2-and-3-of-the-psychology-philosophy-and-linguistics-course-of-the-university-of-oxford.md)
+4. [Psychology, philosophy and linguistics course of the University of Oxford](../psychology-philosophy-and-linguistics-course-of-the-university-of-oxford.md)
+5. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+6. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+7. [University of Oxford](../university-of-oxford-split.md)
+8. [List of universities](../list-of-universities.md)
+9. [Codex Wiki](../split.md)

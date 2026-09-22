@@ -1,0 +1,46 @@
+# Finite subcover
+
+↑ **Parent:** [Subcover](subcover.md)
+
+A [finite subcover](finite-subcover.md) is a [subcover](subcover.md) with finitely many members, including possibly none when $K$ is the [empty set](empty-set.md). Requiring a [finite subcover](finite-subcover.md) for every [open cover](open-cover.md) is the definition of [compactness](compact-space.md).
+
+## ↑ Ancestors (8)
+
+1. [Subcover](subcover.md)
+2. [Open cover](open-cover.md)
+3. [Topological space](topological-space.md)
+4. [Topology](topology-split.md)
+5. [Geometry and topology](geometry-and-topology-split.md)
+6. [Area of mathematics](area-of-mathematics.md)
+7. [Mathematics](mathematics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (27)
+
+- [Closed subset of a compact space](closed-subset-of-a-compact-space.md)
+- [Compact space](compact-space.md)
+- [Compact subset of a Hausdorff space](compact-subset-of-a-hausdorff-space.md)
+- [Continuous image of a compact space](continuous-image-of-a-compact-space.md)
+- [Every subset of a cofinite space is compact](every-subset-of-a-cofinite-space-is-compact.md)
+- [Finite intersection characterization of compactness](finite-intersection-characterization-of-compactness.md)
+- [Finite subcover](finite-subcover.md)
+- [Noncompactness after collapsing a countable real subset](noncompactness-after-collapsing-a-countable-real-subset.md)
+- [Solution](past-exam-of-the-algebra-and-analysis-ii-for-mathematics-and-philosophy-course-of-the-university-of-oxford/2013/5/c/solution.md)
+- [Solution](past-exam-of-the-metric-spaces-and-complex-analysis-course-of-the-university-of-oxford/2015/1/b/solution.md)
+- [Solution](past-exam-of-the-metric-spaces-and-complex-analysis-course-of-the-university-of-oxford/2023/2/a/i/solution.md)
+- [Solution](past-exam-of-the-metric-spaces-and-complex-analysis-course-of-the-university-of-oxford/2023/2/a/ii/solution.md)
+- [Solution](past-exam-of-the-options-i-course-of-the-university-of-oxford/2005/e/1/solution.md)
+- [Solution](past-exam-of-the-options-ii-course-of-the-university-of-oxford/2006/e/3/solution.md)
+- [Solution](past-exam-of-the-topology-course-of-the-university-of-oxford/2015/2/a/i/solution.md)
+- [Solution](past-exam-of-the-topology-course-of-the-university-of-oxford/2015/2/c/v/solution.md)
+- [Solution](past-exam-of-the-topology-course-of-the-university-of-oxford/2017/1/a/i/solution.md)
+- [Solution](past-exam-of-the-topology-course-of-the-university-of-oxford/2017/1/a/ii/solution.md)
+- [Solution](past-exam-of-the-topology-course-of-the-university-of-oxford/2017/1/a/iii/solution.md)
+- [Solution](past-exam-of-the-topology-course-of-the-university-of-oxford/2017/1/b/solution.md)
+- [Solution](past-exam-of-the-topology-course-of-the-university-of-oxford/2017/2/c/i/solution.md)
+- [Solution](past-exam-of-the-topology-course-of-the-university-of-oxford/2021/1/e/i/solution.md)
+- [Solution](past-exam-of-the-topology-course-of-the-university-of-oxford/2023/1/a/i/solution.md)
+- [Solution](past-exam-of-the-topology-course-of-the-university-of-oxford/2023/1/a/ii/solution.md)
+- [Solution](past-exam-of-the-topology-course-of-the-university-of-oxford/2023/1/a/iii/solution.md)
+- [Product of two compact spaces](product-of-two-compact-spaces.md)
+- [Uniformly continuous function](uniformly-continuous-function.md)

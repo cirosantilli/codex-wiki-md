@@ -1,0 +1,55 @@
+# 2023
+
+↑ **Parent:** [Past exam of the information theory course of the University of Oxford](split.md)
+
+Source paper: [https://www.whatdotheyknow.com/request/ba_computer_science_past_papers/response/2577745/attach/2/202402%20183%20CS%20Papers.zip?cookie_passthrough=1](https://www.whatdotheyknow.com/request/ba_computer_science_past_papers/response/2577745/attach/2/202402%20183%20CS%20Papers.zip?cookie_passthrough=1)
+
+Solutions to all three questions.[Printed pp. 2–4, Questions 1–3](../information-theory-examination-paper-a16551w1-2023.md) All [logarithms](../logarithm.md) are base two; [information entropy](../information-entropy-split.md) is measured in [bits](../bit.md) and [code rates](../code-rate.md) in [bits](../bit.md) per [channel](../communication-channel.md) use. Terms $0\log 0$ are zero. Question 3(b) contains an incorrect hint; its requested conclusion is proved directly below for deterministic [channel codes](../channel-code.md). The repeat-until-success protocol in Question 3(c) requires $q<1$ to terminate.
+
+**Table of contents**
+
+- [1](2023/1.md)
+  - [a](2023/1/a.md)
+    - [Solution](2023/1/a/solution.md)
+  - [b](2023/1/b.md)
+    - [Solution](2023/1/b/solution.md)
+  - [c](2023/1/c.md)
+    - [Solution](2023/1/c/solution.md)
+  - [d](2023/1/d.md)
+    - [Solution](2023/1/d/solution.md)
+- [2](2023/2.md)
+  - [a](2023/2/a.md)
+    - [Solution](2023/2/a/solution.md)
+  - [b](2023/2/b.md)
+    - [Solution](2023/2/b/solution.md)
+  - [c](2023/2/c.md)
+    - [i](2023/2/c/i.md)
+      - [Solution](2023/2/c/i/solution.md)
+    - [ii](2023/2/c/ii.md)
+      - [Solution](2023/2/c/ii/solution.md)
+  - [d](2023/2/d.md)
+    - [Solution](2023/2/d/solution.md)
+- [3](2023/3.md)
+  - [a](2023/3/a.md)
+    - [Solution](2023/3/a/solution.md)
+  - [b](2023/3/b.md)
+    - [Solution](2023/3/b/solution.md)
+  - [c](2023/3/c.md)
+    - [i](2023/3/c/i.md)
+      - [Solution](2023/3/c/i/solution.md)
+    - [ii](2023/3/c/ii.md)
+      - [Solution](2023/3/c/ii/solution.md)
+    - [iii](2023/3/c/iii.md)
+      - [Solution](2023/3/c/iii/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Past exam of the information theory course of the University of Oxford](split.md)
+2. [Information theory course of the University of Oxford](../information-theory-course-of-the-university-of-oxford.md)
+3. [Year 3 of the mathematics course of the University of Oxford](../year-3-of-the-mathematics-course-of-the-university-of-oxford.md)
+4. [Mathematics course of the University of Oxford](../mathematics-course-of-the-university-of-oxford.md)
+5. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+6. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+7. [University of Oxford](../university-of-oxford-split.md)
+8. [List of universities](../list-of-universities.md)
+9. [Codex Wiki](../split.md)

@@ -1,0 +1,47 @@
+# Infinity
+
+↑ **Parent:** [Mathematics](mathematics-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Infinity)
+
+Infinity denotes unbounded growth or an ideal quantity larger than every finite value; it is not a real number.
+
+## ↑ Ancestors (2)
+
+1. [Mathematics](mathematics-split.md)
+2. [Codex Wiki](split.md)
+
+## ← Incoming links (33)
+
+- [Asymptotic power series](asymptotic-power-series.md)
+- [Basic Fraenkel permutation model](basic-fraenkel-permutation-model.md)
+- [Cauchy reconstruction from a jump across a finite interval](cauchy-reconstruction-from-a-jump-across-a-finite-interval.md)
+- [Extensional cumulative universe over Quine atoms](extensional-cumulative-universe-over-quine-atoms.md)
+- [Finite Hilbert transform inversion](finite-hilbert-transform-inversion.md)
+- [Non-extensional membership model with one atom](non-extensional-membership-model-with-one-atom.md)
+- [Solution](past-exam-of-the-analytic-topology-and-axiomatic-set-theory-course-of-the-university-of-oxford/2009/b/4/iii/solution.md)
+- [Solution](past-exam-of-the-applied-complex-variables-course-of-the-university-of-oxford/2011/1/a/i/solution.md)
+- [Solution](past-exam-of-the-applied-complex-variables-course-of-the-university-of-oxford/2011/1/a/ii/solution.md)
+- [Solution](past-exam-of-the-applied-complex-variables-course-of-the-university-of-oxford/2011/1/b/ii/solution.md)
+- [Solution](past-exam-of-the-applied-complex-variables-course-of-the-university-of-oxford/2011/2/b/solution.md)
+- [Solution](past-exam-of-the-applied-complex-variables-course-of-the-university-of-oxford/2011/3/a/solution.md)
+- [Solution](past-exam-of-the-applied-complex-variables-course-of-the-university-of-oxford/2011/3/b/i/solution.md)
+- [Solution](past-exam-of-the-applied-complex-variables-course-of-the-university-of-oxford/2011/3/b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-21/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-21/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-21/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-24/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-24/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-27/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-27/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-25/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-25/11/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-25/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-25/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ia/paper-4/2e/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-347/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-oxford/2015/prelims/mathematics-ii/2/a/i/solution.md)
+- [Solution](past-exam-of-the-methods-of-applied-functional-analysis-course-of-the-university-of-oxford/2009/a/2/solution.md)
+- [Solution](past-exam-of-the-methods-of-applied-functional-analysis-course-of-the-university-of-oxford/2009/b/6/a/solution.md)
+- [Solution](past-exam-of-the-methods-of-applied-functional-analysis-course-of-the-university-of-oxford/2009/b/6/b/solution.md)
+- [Rank-indiscernible construction of an NFU model](rank-indiscernible-construction-of-an-nfu-model.md)
+- [Zermelo set theory](zermelo-set-theory.md)

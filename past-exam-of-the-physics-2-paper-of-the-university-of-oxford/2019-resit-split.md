@@ -1,0 +1,50 @@
+# 2019 resit
+
+↑ **Parent:** [Past exam of the physics 2 paper of the University of Oxford](split.md)
+
+Source paper: [Oxford public response bundle, pages 200–204](https://www.whatdotheyknow.com/request/physics_past_papers_21/response/3037379/attach/2/FOI%20202505%20441%20Response.pdf?cookie_passthrough=1). The cover identifies CP2, 3 September 2019, and bears a _Draft Only_ watermark. The recovered source lacks the diagram for [7](2019-resit/7.md); that solution records the remaining limitation.
+
+**Table of contents**
+
+- [1](2019-resit/1.md)
+  - [Solution](2019-resit/1/solution.md)
+- [2](2019-resit/2.md)
+  - [Solution](2019-resit/2/solution.md)
+- [3](2019-resit/3.md)
+  - [Solution](2019-resit/3/solution.md)
+- [4](2019-resit/4.md)
+  - [Solution](2019-resit/4/solution.md)
+- [5](2019-resit/5.md)
+  - [Solution](2019-resit/5/solution.md)
+- [6](2019-resit/6.md)
+  - [Solution](2019-resit/6/solution.md)
+- [7](2019-resit/7.md)
+  - [Solution](2019-resit/7/solution.md)
+- [8](2019-resit/8.md)
+  - [Solution](2019-resit/8/solution.md)
+  - [i](2019-resit/8/i.md)
+    - [Solution](2019-resit/8/i/solution.md)
+  - [ii](2019-resit/8/ii.md)
+    - [Solution](2019-resit/8/ii/solution.md)
+  - [iii](2019-resit/8/iii.md)
+    - [Solution](2019-resit/8/iii/solution.md)
+  - [iv](2019-resit/8/iv.md)
+    - [Solution](2019-resit/8/iv/solution.md)
+- [9](2019-resit/9.md)
+  - [Solution](2019-resit/9/solution.md)
+- [10](2019-resit/10.md)
+  - [Solution](2019-resit/10/solution.md)
+- [11](2019-resit/11.md)
+  - [Solution](2019-resit/11/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Past exam of the physics 2 paper of the University of Oxford](split.md)
+2. [Physics 2 paper of the University of Oxford](../physics-2-paper-of-the-university-of-oxford.md)
+3. [Year 1 of the physics course of the University of Oxford](../year-1-of-the-physics-course-of-the-university-of-oxford.md)
+4. [Physics course of the University of Oxford](../physics-course-of-the-university-of-oxford.md)
+5. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+6. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+7. [University of Oxford](../university-of-oxford-split.md)
+8. [List of universities](../list-of-universities.md)
+9. [Codex Wiki](../split.md)

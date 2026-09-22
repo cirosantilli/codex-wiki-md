@@ -1,0 +1,46 @@
+# Induction hypothesis
+
+↑ **Parent:** [Mathematical induction](mathematical-induction.md)
+
+The assertion assumed for earlier cases during an [induction](mathematical-induction.md) proof. It is a conditional assumption inside the induction step, not an assumption that all cases already hold.
+
+## ↑ Ancestors (6)
+
+1. [Mathematical induction](mathematical-induction.md)
+2. [Mathematical proof](mathematical-proof.md)
+3. [Foundations of mathematics](foundations-of-mathematics-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (29)
+
+- [Inductive step](inductive-step.md)
+- [Solution](past-exam-of-the-computer-science-course-of-the-university-of-oxford/2015/compilers/2/d/solution.md)
+- [Solution](past-exam-of-the-logic-and-set-theory-course-of-the-university-of-oxford/2007/a/2/iv/solution.md)
+- [Solution](past-exam-of-the-logic-and-set-theory-course-of-the-university-of-oxford/2007/b/5/i/solution.md)
+- [Solution](past-exam-of-the-logic-and-set-theory-course-of-the-university-of-oxford/2007/b/5/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-27/1/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2003/functional-programming-data-structures-and-algorithms-procedural-programming-and-digital-hardware/1/b/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2003/functional-programming-data-structures-and-algorithms-procedural-programming-and-digital-hardware/7/b/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2005/functional-programming-data-structures-and-algorithms-procedural-programming-and-digital-hardware/1/b/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2005/functional-programming-data-structures-and-algorithms-procedural-programming-and-digital-hardware/3/a/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2013/functional-programming-design-and-analysis-of-algorithms/2/a/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2014/functional-programming-design-and-analysis-of-algorithms/4/b/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2015/functional-programming-design-and-analysis-of-algorithms/1/b/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2016/discrete-mathematics-continuous-mathematics-and-probability-resit/2/d/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2016/discrete-mathematics-continuous-mathematics-and-probability/3/f/i/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2016/discrete-mathematics-continuous-mathematics-and-probability/3/f/ii/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2016/functional-programming-design-and-analysis-of-algorithms-resit/1/c/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2016/functional-programming-design-and-analysis-of-algorithms-resit/6/b/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2016/functional-programming-design-and-analysis-of-algorithms/1/a/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2016/functional-programming-design-and-analysis-of-algorithms/1/b/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2016/imperative-programming-resit/3/d/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2019/discrete-mathematics-continuous-mathematics-and-probability/2/d/ii/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2022/functional-programming-design-and-analysis-of-algorithms-resit/1/a/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2022/functional-programming-design-and-analysis-of-algorithms-resit/1/b/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2022/functional-programming-design-and-analysis-of-algorithms-resit/1/c/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2023/discrete-mathematics-probability-and-continuous-mathematics/3/b/i/solution.md)
+- [Strong induction](strong-induction.md)
+- [Strong induction for factorization existence](strong-induction-for-factorization-existence.md)
+- [Strong induction with four starting cases](strong-induction-with-four-starting-cases.md)

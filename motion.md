@@ -1,0 +1,48 @@
+# Motion
+
+↑ **Parent:** [Kinematics](kinematics.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Motion)
+
+Change of [position](position.md) with [time](time-in-physics.md) relative to a specified reference system.
+
+## ↑ Ancestors (5)
+
+1. [Kinematics](kinematics.md)
+2. [Classical mechanics](classical-mechanics-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (31)
+
+- [Astronomical model](astronomical-model.md)
+- [Dynamics (mechanics)](dynamics-mechanics.md)
+- [Empirical testing of Newton's laws of motion](empirical-testing-of-newton-s-laws-of-motion.md)
+- [Force law](force-law.md)
+- [Galileo Galilei](galileo-galilei.md)
+- [Mechanics](mechanics.md)
+- [Solution](past-exam-of-the-history-of-science-supplementary-subject-of-the-university-of-oxford/2016/1/solution.md)
+- [Solution](past-exam-of-the-history-of-science-supplementary-subject-of-the-university-of-oxford/2016/2/solution.md)
+- [Solution](past-exam-of-the-history-of-science-supplementary-subject-of-the-university-of-oxford/2016/3/solution.md)
+- [Solution](past-exam-of-the-history-of-science-supplementary-subject-of-the-university-of-oxford/2016/4/solution.md)
+- [Solution](past-exam-of-the-history-of-science-supplementary-subject-of-the-university-of-oxford/2018/2/solution.md)
+- [Solution](past-exam-of-the-history-of-science-supplementary-subject-of-the-university-of-oxford/2018/3/solution.md)
+- [Solution](past-exam-of-the-history-of-science-supplementary-subject-of-the-university-of-oxford/2021/1/solution.md)
+- [Solution](past-exam-of-the-history-of-science-supplementary-subject-of-the-university-of-oxford/2021/4/solution.md)
+- [Solution](past-exam-of-the-history-of-science-supplementary-subject-of-the-university-of-oxford/2022/1/solution.md)
+- [Solution](past-exam-of-the-history-of-science-supplementary-subject-of-the-university-of-oxford/2022/2/solution.md)
+- [Solution](past-exam-of-the-history-of-science-supplementary-subject-of-the-university-of-oxford/2022/3/solution.md)
+- [Solution](past-exam-of-the-history-of-science-supplementary-subject-of-the-university-of-oxford/2022/8/solution.md)
+- [Solution](past-exam-of-the-philosophy-of-science-supplementary-subject-of-the-university-of-oxford/2017/8/solution.md)
+- [Solution](past-exam-of-the-philosophy-of-science-supplementary-subject-of-the-university-of-oxford/2021/1/b/solution.md)
+- [Solution](past-exam-of-the-philosophy-of-science-supplementary-subject-of-the-university-of-oxford/2022/1/solution.md)
+- [Solution](past-exam-of-the-philosophy-of-space-time-and-philosophy-of-quantum-mechanics-paper-of-parts-a-and-b-of-the-physics-course-of-the-university-of-oxford/2019/1/a/solution.md)
+- [Solution](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2021/1/solution.md)
+- [Solution](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2021/2/solution.md)
+- [Solution](past-exam-of-the-physics-1-paper-of-the-university-of-oxford/2021/1/solution.md)
+- [Solution](past-exam-of-the-physics-1-paper-of-the-university-of-oxford/2021/8/solution.md)
+- [Solution](past-exam-of-the-physics-2-paper-of-the-university-of-oxford/2015/4/solution.md)
+- [Solution](past-exam-of-the-short-options-paper-shared-by-parts-a-and-b-of-the-physics-course-of-the-university-of-oxford/2019/s14/1/solution.md)
+- [Solution](past-exam-of-the-short-options-paper-shared-by-parts-a-and-b-of-the-physics-course-of-the-university-of-oxford/2019/s14/2/solution.md)
+- [Planetary motion](planetary-motion.md)
+- [Primary quality](primary-quality.md)

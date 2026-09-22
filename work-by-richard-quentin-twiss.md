@@ -1,0 +1,17 @@
+# Work by Richard Quentin Twiss
+
+↑ **Parent:** [Richard Quentin Twiss](richard-quentin-twiss.md)
+
+## 🏷️ Tagged (2)
+
+- [A Test of a New Type of Stellar Interferometer on Sirius by Robert Hanbury Brown and Richard Quentin Twiss](a-test-of-a-new-type-of-stellar-interferometer-on-sirius-by-robert-hanbury-brown-and-richard-quentin-twiss.md)
+- [Correlation between Photons in two Coherent Beams of Light by Robert Hanbury Brown and Richard Quentin Twiss](correlation-between-photons-in-two-coherent-beams-of-light-by-robert-hanbury-brown-and-richard-quentin-twiss.md)
+
+## ↑ Ancestors (6)
+
+1. [Richard Quentin Twiss](richard-quentin-twiss.md)
+2. [Optical physicist](optical-physicist-split.md)
+3. [Optics](optics-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)

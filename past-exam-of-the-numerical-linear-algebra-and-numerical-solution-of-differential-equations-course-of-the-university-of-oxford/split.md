@@ -1,0 +1,41 @@
+# Past exam of the numerical linear algebra and numerical solution of differential equations course of the University of Oxford
+
+↑ **Parent:** [Numerical linear algebra and numerical solution of differential equations course of the University of Oxford](../numerical-linear-algebra-and-numerical-solution-of-differential-equations-course-of-the-university-of-oxford.md)
+
+**Table of contents**
+
+- [2020](2020.md)
+  - [1](2020.md#1)
+    - [a](2020.md#1/a)
+      - [Solution](2020.md#1/a/solution)
+    - [b](2020.md#1/b)
+      - [Solution](2020.md#1/b/solution)
+    - [c](2020.md#1/c)
+      - [Solution](2020.md#1/c/solution)
+  - [2](2020.md#2)
+    - [a](2020.md#2/a)
+      - [Solution](2020.md#2/a/solution)
+    - [b](2020.md#2/b)
+      - [Solution](2020.md#2/b/solution)
+    - [c](2020.md#2/c)
+      - [Solution](2020.md#2/c/solution)
+    - [d](2020.md#2/d)
+      - [Solution](2020.md#2/d/solution)
+  - [3](2020.md#3)
+    - [a](2020.md#3/a)
+    - [b](2020.md#3/b)
+    - [c](2020.md#3/c)
+  - [4](2020.md#4)
+    - [a](2020.md#4/a)
+    - [b](2020.md#4/b)
+    - [c](2020.md#4/c)
+
+## ↑ Ancestors (7)
+
+1. [Numerical linear algebra and numerical solution of differential equations course of the University of Oxford](../numerical-linear-algebra-and-numerical-solution-of-differential-equations-course-of-the-university-of-oxford.md)
+2. [MSc in mathematical modelling and scientific computing course of the University of Oxford](../msc-in-mathematical-modelling-and-scientific-computing-course-of-the-university-of-oxford.md)
+3. [Master's course of the University of Oxford](../master-s-course-of-the-university-of-oxford.md)
+4. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+5. [University of Oxford](../university-of-oxford-split.md)
+6. [List of universities](../list-of-universities.md)
+7. [Codex Wiki](../split.md)

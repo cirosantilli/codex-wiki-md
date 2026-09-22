@@ -1,0 +1,60 @@
+# Lyapunov stability
+
+↑ **Parent:** [Lyapunov function](lyapunov-function.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Lyapunov_stability)
+
+An equilibrium is Lyapunov stable if every neighbourhood contains a smaller neighbourhood whose forward trajectories remain in the original neighbourhood for all time.
+
+**Table of contents**
+
+- [Orbital stability](orbital-stability.md)
+  - [Orbital asymptotic stability](orbital-asymptotic-stability.md)
+  - [Radial stability of a circular periodic orbit](radial-stability-of-a-circular-periodic-orbit.md)
+
+## ↑ Ancestors (5)
+
+1. [Lyapunov function](lyapunov-function.md)
+2. [Dynamical systems](dynamical-systems-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (37)
+
+- [Attraction in a dynamical system](attraction-in-a-dynamical-system.md)
+- [Bead on a uniformly rotating wire](bead-on-a-uniformly-rotating-wire.md)
+- [Chemotactic instability on a rectangular domain](chemotactic-instability-on-a-rectangular-domain.md)
+- [First Lyapunov coefficient](first-lyapunov-coefficient.md)
+- [First Lyapunov theorem](first-lyapunov-theorem.md)
+- [Hopf-type transition with a nonsmooth radial response](hopf-type-transition-with-a-nonsmooth-radial-response.md)
+- [Linear stability of principal-axis rotation](linear-stability-of-principal-axis-rotation.md)
+- [Mathematical model parameter](mathematical-model-parameter.md)
+- [Mixed-mode chemotactic instability threshold](mixed-mode-chemotactic-instability-threshold.md)
+- [Normal modes of two spring-coupled coaxial rotors](normal-modes-of-two-spring-coupled-coaxial-rotors.md)
+- [Solution](past-exam-of-the-differential-equations-1-course-of-the-university-of-oxford/2021/3/a/ii/solution.md)
+- [Solution](past-exam-of-the-differential-equations-1-course-of-the-university-of-oxford/2023/2/a/i/solution.md)
+- [Solution](past-exam-of-the-differential-equations-1-course-of-the-university-of-oxford/2023/2/a/ii/solution.md)
+- [Solution](past-exam-of-the-mathematical-and-computational-biology-course-of-the-university-of-cambridge/2025/paper-1/5/f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-2/7b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-2/9c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ia/paper-4/4c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-85/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ii/paper-1/7e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-337/1/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-310/1/b/iv/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-331/4/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-3/31e/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ii/paper-1/32a/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ia/paper-2/8b/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-2/33a/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-oxford/2015/prelims/mathematics-iv/3/b/i/solution.md)
+- [Solution](past-exam-of-the-topics-in-applied-mathematics-course-of-the-university-of-oxford/2008/b/5/solution.md)
+- [Solution](past-exam-of-the-topics-in-applied-mathematics-course-of-the-university-of-oxford/2008/b/7/solution.md)
+- [Solution](past-exam-of-the-topics-in-applied-mathematics-course-of-the-university-of-oxford/2008/b/8/solution.md)
+- [Solution](past-exam-of-the-topics-in-applied-mathematics-course-of-the-university-of-oxford/2009/b/4/a/i/solution.md)
+- [Quasi-asymptotic stability](quasi-asymptotic-stability.md)
+- [Radial stability of a circular periodic orbit](radial-stability-of-a-circular-periodic-orbit.md)
+- [Real quadratic iteration map](real-quadratic-iteration-map.md)
+- [Replicator equation](replicator-equation.md)
+- [Spectral Hopf condition for a cubic characteristic polynomial](spectral-hopf-condition-for-a-cubic-characteristic-polynomial.md)
+- [Stable equilibria of a conjugately forced Landau equation](stable-equilibria-of-a-conjugately-forced-landau-equation.md)

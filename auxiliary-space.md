@@ -1,0 +1,47 @@
+# Auxiliary space
+
+↑ **Parent:** [Memory usage](memory-usage.md)
+
+The extra working storage required by an [algorithm](algorithm-split.md), excluding the storage occupied by its input. This includes temporary tables and the stack of active [recursive calls](recursive-call.md).
+
+## ↑ Ancestors (4)
+
+1. [Memory usage](memory-usage.md)
+2. [Algorithm](algorithm-split.md)
+3. [Computer science](computer-science-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (32)
+
+- [Array reversal](array-reversal.md)
+- [Destructive binary search tree flattening](destructive-binary-search-tree-flattening.md)
+- [Distinct-index two-sum by suffix lower bounds](distinct-index-two-sum-by-suffix-lower-bounds.md)
+- [In-place linked-list reversal](in-place-linked-list-reversal.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2013/imperative-programming/1/a/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2013/imperative-programming/1/b/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2013/imperative-programming/2/b/ii/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2013/imperative-programming/3/b/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2013/imperative-programming/4/a/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2013/imperative-programming/6/b/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2013/imperative-programming/8/d/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2014/imperative-programming/1/a/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2014/imperative-programming/4/g/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2015/imperative-programming-resit/2/a/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2018/imperative-programming/3/g/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2018/imperative-programming/5/d/ii/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2018/imperative-programming/5/d/iii/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2019/functional-programming-design-and-analysis-of-algorithms/5/c/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2019/functional-programming-design-and-analysis-of-algorithms/7/a/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2019/functional-programming-design-and-analysis-of-algorithms/7/b/iii/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2021/imperative-programming-resit/1/e/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2021/imperative-programming-resit/2/a/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2021/imperative-programming-resit/5/c/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2021/imperative-programming-resit/5/d/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2022/imperative-programming-resit/1/b/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2022/imperative-programming-resit/2/e/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2023/imperative-programming/1/c/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2023/imperative-programming/1/e/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2023/imperative-programming/4/c/solution.md)
+- [Sorted sparse dot product](sorted-sparse-dot-product.md)
+- [Sparse dot product by merging indices](sparse-dot-product-by-merging-indices.md)
+- [Staircase matrix search](staircase-matrix-search.md)

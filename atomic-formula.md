@@ -1,0 +1,60 @@
+# Atomic formula
+
+↑ **Parent:** [First-order formula](first-order-formula.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Atomic_formula)
+
+An atomic [first-order formula](first-order-formula.md) is a relation applied to terms, or a [logical equality](logical-equality.md) of two terms when [logical equality](logical-equality.md) is included in the logic. It contains no logical connective or quantifier. Its truth is preserved and reflected by an embedding of [first-order structures](first-order-structure.md).
+
+**Table of contents**
+
+- [Ground atom](ground-atom.md)
+
+## ↑ Ancestors (7)
+
+1. [First-order formula](first-order-formula.md)
+2. [First-order logic](first-order-logic.md)
+3. [Mathematical logic](mathematical-logic-split.md)
+4. [Foundations of mathematics](foundations-of-mathematics-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (37)
+
+- [Automorphism invariance of parameter-free definability](automorphism-invariance-of-parameter-free-definability.md)
+- [Congruence relation on a first-order structure](congruence-relation-on-a-first-order-structure.md)
+- [First-order literal](first-order-literal.md)
+- [First-order term](first-order-term.md)
+- [Gödel-Gentzen negative translation](godel-gentzen-negative-translation.md)
+- [Ground atom](ground-atom.md)
+- [Logical formula](logical-formula.md)
+- [Negation normal form](negation-normal-form.md)
+- [Solution](past-exam-of-the-computer-science-course-of-the-university-of-oxford/2015/knowledge-representation-and-reasoning/1/b/solution.md)
+- [Solution](past-exam-of-the-computer-science-course-of-the-university-of-oxford/2015/knowledge-representation-and-reasoning/1/d/i/solution.md)
+- [Solution](past-exam-of-the-computer-science-course-of-the-university-of-oxford/2015/knowledge-representation-and-reasoning/1/d/iii/solution.md)
+- [Solution](past-exam-of-the-logic-and-set-theory-course-of-the-university-of-oxford/2007/a/3/i/solution.md)
+- [Solution](past-exam-of-the-logic-and-set-theory-course-of-the-university-of-oxford/2008/a/3/a/solution.md)
+- [Solution](past-exam-of-the-logic-and-set-theory-course-of-the-university-of-oxford/2008/a/4/b/solution.md)
+- [Solution](past-exam-of-the-logic-and-set-theory-course-of-the-university-of-oxford/2008/a/4/c/solution.md)
+- [Solution](past-exam-of-the-logic-and-set-theory-course-of-the-university-of-oxford/2010/a/1/a/ii/solution.md)
+- [Solution](past-exam-of-the-logic-and-set-theory-course-of-the-university-of-oxford/2010/a/1/d/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-21/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-23/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-23/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-135/5/solution.md)
+- [Solution](past-exam-of-the-model-theory-and-godel-s-incompleteness-theorems-course-of-the-university-of-oxford/2007/b/5/ii/solution.md)
+- [Solution](past-exam-of-the-model-theory-and-godel-s-incompleteness-theorems-course-of-the-university-of-oxford/2007/b/7/iv/solution.md)
+- [Solution](past-exam-of-the-model-theory-and-godel-s-incompleteness-theorems-course-of-the-university-of-oxford/2007/b/8/i/solution.md)
+- [Solution](past-exam-of-the-model-theory-and-godel-s-incompleteness-theorems-course-of-the-university-of-oxford/2010/b/6/b/solution.md)
+- [Solution](past-exam-of-the-model-theory-course-of-the-university-of-oxford/2011/1/b/iii/solution.md)
+- [Solution](past-exam-of-the-model-theory-course-of-the-university-of-oxford/2011/2/b/ii/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2022/digital-systems-linear-algebra-introduction-to-formal-proof/8/g/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2023/digital-systems-linear-algebra-and-introduction-to-formal-proof/8/e/solution.md)
+- [Predicate symbol](predicate-symbol.md)
+- [Primitive positive formula](primitive-positive-formula.md)
+- [Quantifier-free formula](quantifier-free-formula.md)
+- [Recursive presentation of a structure](recursive-presentation-of-a-structure.md)
+- [Structure embedding](structure-embedding.md)
+- [Term valuation](term-valuation.md)
+- [Tuple-generating dependency](tuple-generating-dependency.md)
+- [Zero and one have the same quantifier-free type in the multiplicative integers](zero-and-one-have-the-same-quantifier-free-type-in-the-multiplicative-integers.md)

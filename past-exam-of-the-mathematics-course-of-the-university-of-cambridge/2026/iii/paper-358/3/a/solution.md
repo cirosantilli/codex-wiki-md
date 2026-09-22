@@ -1,0 +1,31 @@
+<h1 id="3/a/solution">Solution</h1>
+
+↑ **Parent:** [A](../a.md)
+
+The [spectral theorem for normal operators on a separable Hilbert space](../../../../../../spectral-theorem-for-normal-operators-on-a-separable-hilbert-space.md) states that a normal operator $A$ has a unique projection-valued measure $E$ on its spectrum such that
+
+$$
+\boxed{A=\int_{\sigma(A)}z\,dE(z)}.
+$$
+
+For bounded $A$ this integral acts on all of $H$. For an unbounded normal operator,
+
+$$
+D(A)=\left\{v:\int|z|^2\,d\langle E(z)v,v\rangle<\infty\right\}.
+$$
+
+Equivalently, $A$ is unitarily equivalent to multiplication by a measurable function on a direct sum of $L^2$ spaces.
+
+## ↑ Ancestors (11)
+
+1. [A](../a.md)
+2. [3](../../3.md)
+3. [Paper 358](../../../paper-358-split.md)
+4. [Iii](../../../split.md)
+5. [2026](../../../../split.md)
+6. [Past exam of the mathematics course of the University of Cambridge](../../../../../split.md)
+7. [Mathematics course of the University of Cambridge](../../../../../../mathematics-course-of-the-university-of-cambridge.md)
+8. [Course of the University of Cambridge](../../../../../../course-of-the-university-of-cambridge.md)
+9. [University of Cambridge](../../../../../../university-of-cambridge-split.md)
+10. [List of universities](../../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../../split.md)

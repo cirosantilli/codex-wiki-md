@@ -1,0 +1,44 @@
+# Branch of the complex logarithm
+
+↑ **Parent:** [Complex logarithm](complex-logarithm.md)
+
+A branch of the complex logarithm chooses the argument continuously on a domain avoiding an appropriate branch cut, making the logarithm single-valued there.
+
+**Table of contents**
+
+- [Principal complex logarithm](principal-complex-logarithm.md)
+  - [Bounds for the principal logarithm near one](bounds-for-the-principal-logarithm-near-one.md)
+
+## ↑ Ancestors (5)
+
+1. [Complex logarithm](complex-logarithm.md)
+2. [Analysis](analysis-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (23)
+
+- [Binomial series](binomial-series.md)
+- [Harmonic angle and logarithmic radius](harmonic-angle-and-logarithmic-radius.md)
+- [Holomorphic logarithm](holomorphic-logarithm.md)
+- [Jump of a fractional power across a branch cut](jump-of-a-fractional-power-across-a-branch-cut.md)
+- [Logarithmic beta integral from a sector contour](logarithmic-beta-integral-from-a-sector-contour.md)
+- [Solution](past-exam-of-the-algebra-analysis-and-differential-equations-1-course-of-the-university-of-oxford/2005/4/iv/solution.md)
+- [Solution](past-exam-of-the-algebra-analysis-and-differential-equations-2-course-of-the-university-of-oxford/2012/6/b/solution.md)
+- [Solution](past-exam-of-the-applied-complex-variables-course-of-the-university-of-oxford/2011/1/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematical-methods-i-course-of-the-university-of-oxford/2016/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-7/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ib/paper-3/5f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ib/paper-1/13c/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ib/paper-1/13c/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ib/paper-3/5c/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ib/paper-4/15c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ia/paper-1/1c/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-76/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ia/paper-1/1c/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ia/paper-1/1c/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2011/paper-2/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2014/paper-2/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2018/paper-1/7/a/solution.md)
+- [Solution](past-exam-of-the-metric-spaces-and-complex-analysis-course-of-the-university-of-oxford/2015/4/b/solution.md)

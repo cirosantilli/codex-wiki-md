@@ -1,0 +1,41 @@
+# Proca field
+
+↑ **Parent:** [Proca equation](proca-equation.md)
+
+A Proca field is a massive spin-one vector field. Its field equation enforces transversality and leaves three physical polarizations.
+
+**Table of contents**
+
+- [Longitudinal-vector annihilation through a scalar contact interaction](longitudinal-vector-annihilation-through-a-scalar-contact-interaction.md)
+- [Complex Proca Hamiltonian](complex-proca-hamiltonian.md)
+- [Proca propagator](proca-propagator.md)
+  - [Ultraviolet and unitary-gauge limits of the Proca propagator](ultraviolet-and-unitary-gauge-limits-of-the-proca-propagator.md)
+  - [High-energy obstruction for a hard vector mass](high-energy-obstruction-for-a-hard-vector-mass.md)
+  - [Proca time-ordering contact term](proca-time-ordering-contact-term.md)
+- [Transverse vector field](transverse-vector-field.md)
+
+## ↑ Ancestors (5)
+
+1. [Proca equation](proca-equation.md)
+2. [Electromagnetism](electromagnetism-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (15)
+
+- [Higgs degree-of-freedom count](higgs-degree-of-freedom-count.md)
+- [Higgs mechanism](higgs-mechanism.md)
+- [High-energy obstruction for a hard vector mass](high-energy-obstruction-for-a-hard-vector-mass.md)
+- [Solution](past-exam-of-the-advanced-quantum-field-theory-course-of-the-university-of-oxford/2022/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-55/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-40/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-301/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-301/2/a/v/solution.md)
+- [Solution](past-exam-of-the-theoretical-physics-i-course-of-the-university-of-cambridge/2017/3/c/solution.md)
+- [Solution](past-exam-of-the-theoretical-physics-major-option-course-of-the-university-of-oxford/2022/4/a/solution.md)
+- [Solution](past-exam-of-the-theoretical-physics-major-option-course-of-the-university-of-oxford/2022/4/b/solution.md)
+- [Solution](past-exam-of-the-theoretical-physics-major-option-course-of-the-university-of-oxford/2022/5/c/solution.md)
+- [Proca time-ordering contact term](proca-time-ordering-contact-term.md)
+- [Second-class constraint](second-class-constraint.md)
+- [Vector boson](vector-boson.md)

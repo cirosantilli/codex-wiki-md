@@ -1,0 +1,18 @@
+# Myosin lever arm
+
+↑ **Parent:** [Myosin](myosin.md)
+
+The neck-associated structural element that amplifies conformational changes in the motor domain into displacement.
+
+## ↑ Ancestors (4)
+
+1. [Myosin](myosin.md)
+2. [Protein](protein-split.md)
+3. [Biology](biology-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (3)
+
+- [Solution](past-exam-of-the-biochemistry-course-of-the-university-of-cambridge/2024/paper-4/section-ii/4/solution.md)
+- [Solution](past-exam-of-the-biological-physics-course-of-the-university-of-oxford/2017/2/a/solution.md)
+- [Solution](past-exam-of-the-biological-physics-course-of-the-university-of-oxford/2017/6/a/solution.md)

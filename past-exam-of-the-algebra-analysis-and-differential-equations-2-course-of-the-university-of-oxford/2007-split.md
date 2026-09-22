@@ -1,0 +1,53 @@
+# 2007
+
+↑ **Parent:** [Past exam of the algebra, analysis and differential equations II course of the University of Oxford](split.md)
+
+Source: [Oxford mathematics examination release](https://www.whatdotheyknow.com/request/maths_past_papers_3), private bundle `Part A 2007 11-1.pdf`, pages 5–9. The printed cover identifies both mathematics and mathematics and statistics. The complete editable transcription is retained in the private examination archive.
+
+**Table of contents**
+
+- [1](2007/1.md)
+  - [Solution](2007/1/solution.md)
+- [2](2007/2.md)
+  - [Solution](2007/2/solution.md)
+- [3](2007/3.md)
+  - [Solution](2007/3/solution.md)
+- [4](2007/4.md)
+  - [Solution](2007/4/solution.md)
+- [5](2007/5.md)
+  - [Solution](2007/5/solution.md)
+- [6](2007/6.md)
+  - [i](2007/6/i.md)
+    - [Solution](2007/6/i/solution.md)
+  - [ii](2007/6/ii.md)
+    - [Solution](2007/6/ii/solution.md)
+- [7](2007/7.md)
+  - [Solution](2007/7/solution.md)
+  - [i](2007/7/i.md)
+    - [Solution](2007/7/i/solution.md)
+  - [ii](2007/7/ii.md)
+    - [Solution](2007/7/ii/solution.md)
+  - [iii](2007/7/iii.md)
+    - [Solution](2007/7/iii/solution.md)
+- [8](2007/8.md)
+  - [Solution](2007/8/solution.md)
+- [9](2007/9.md)
+  - [Solution](2007/9/solution.md)
+  - [i](2007/9/i.md)
+    - [Solution](2007/9/i/solution.md)
+  - [ii](2007/9/ii.md)
+    - [Solution](2007/9/ii/solution.md)
+  - [iii](2007/9/iii.md)
+    - [Solution](2007/9/iii/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Past exam of the algebra, analysis and differential equations II course of the University of Oxford](split.md)
+2. [Algebra, analysis and differential equations II course of the University of Oxford](../algebra-analysis-and-differential-equations-ii-course-of-the-university-of-oxford.md)
+3. [Year 2 of the mathematics course of the University of Oxford](../year-2-of-the-mathematics-course-of-the-university-of-oxford.md)
+4. [Mathematics course of the University of Oxford](../mathematics-course-of-the-university-of-oxford.md)
+5. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+6. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+7. [University of Oxford](../university-of-oxford-split.md)
+8. [List of universities](../list-of-universities.md)
+9. [Codex Wiki](../split.md)

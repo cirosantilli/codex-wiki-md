@@ -1,0 +1,32 @@
+<h1 id="5/a/solution">Solution</h1>
+
+↑ **Parent:** [A](../a.md)
+
+For a real $m\times n$ [matrix](../../../../../matrix.md) $A$, the [row space](../../../../../row-space.md) is the [linear span](../../../../../linear-span.md) of its rows in $\mathbb R^n$, and the [column space](../../../../../column-space.md) is the [linear span](../../../../../linear-span.md) of its columns in $\mathbb R^m$. Its [null space](../../../../../kernel-of-a-linear-map-split.md) consists of the input [vectors](../../../../../vector.md) sent to zero:
+
+$$
+\operatorname{Null}(A)=\{x\in\mathbb R^n:Ax=0\}.
+$$
+
+The [rank of a matrix](../../../../../matrix-rank.md) is
+
+$$
+\boxed{\operatorname{rank}A=\dim\operatorname{Col}(A)=\dim\operatorname{Row}(A).}
+$$
+
+The equality of row and column dimensions is the row-rank/column-rank theorem. Each displayed space is a [linear subspace](../../../../../vector-subspace.md) of the indicated ambient [vector space](../../../../../vector-space-split.md).
+
+## ↑ Ancestors (12)
+
+1. [A](../a.md)
+2. [5](../../5.md)
+3. [Digital systems, linear algebra, introduction to formal proof](../../../digital-systems-linear-algebra-introduction-to-formal-proof-split.md)
+4. [2014](../../../split.md)
+5. [Past exam of the year 1 of the computer science course of the University of Oxford](../../../../split.md)
+6. [Year 1 of the computer science course of the University of Oxford](../../../../../year-1-of-the-computer-science-course-of-the-university-of-oxford.md)
+7. [Computer science course of the University of Oxford](../../../../../computer-science-course-of-the-university-of-oxford.md)
+8. [Undergraduate course of the University of Oxford](../../../../../undergraduate-course-of-the-university-of-oxford.md)
+9. [Course of the University of Oxford](../../../../../course-of-the-university-of-oxford.md)
+10. [University of Oxford](../../../../../university-of-oxford-split.md)
+11. [List of universities](../../../../../list-of-universities.md)
+12. [Codex Wiki](../../../../../split.md)

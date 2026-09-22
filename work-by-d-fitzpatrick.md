@@ -1,0 +1,14 @@
+# Work by D. Fitzpatrick
+
+↑ **Parent:** [D. Fitzpatrick](d-fitzpatrick.md)
+
+## 🏷️ Tagged (1)
+
+- [Neuroscience, 2nd edition edited by D. Purves and others](neuroscience-2nd-edition-edited-by-d-purves-and-others.md)
+
+## ↑ Ancestors (4)
+
+1. [D. Fitzpatrick](d-fitzpatrick.md)
+2. [Biology author](biology-author-split.md)
+3. [Biology](biology-split.md)
+4. [Codex Wiki](split.md)

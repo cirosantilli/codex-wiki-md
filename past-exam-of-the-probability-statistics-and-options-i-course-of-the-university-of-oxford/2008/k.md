@@ -1,0 +1,35 @@
+# K
+
+↑ **Parent:** [2008](../2008-split.md)
+
+**Table of contents**
+
+- [1](k/1.md)
+  - [i](k/1/i.md)
+    - [Solution](k/1/i/solution.md)
+  - [ii](k/1/ii.md)
+    - [Solution](k/1/ii/solution.md)
+  - [iii](k/1/iii.md)
+    - [Solution](k/1/iii/solution.md)
+  - [iv](k/1/iv.md)
+    - [Solution](k/1/iv/solution.md)
+- [2](k/2.md)
+  - [i](k/2/i.md)
+    - [Solution](k/2/i/solution.md)
+  - [ii](k/2/ii.md)
+    - [Solution](k/2/ii/solution.md)
+  - [iii](k/2/iii.md)
+    - [Solution](k/2/iii/solution.md)
+
+## ↑ Ancestors (10)
+
+1. [2008](../2008-split.md)
+2. [Past exam of the probability, statistics and options I course of the University of Oxford](../split.md)
+3. [Probability, statistics and options I course of the University of Oxford](../../probability-statistics-and-options-i-course-of-the-university-of-oxford.md)
+4. [Year 2 of the mathematics and statistics course of the University of Oxford](../../year-2-of-the-mathematics-and-statistics-course-of-the-university-of-oxford.md)
+5. [Mathematics and statistics course of the University of Oxford](../../mathematics-and-statistics-course-of-the-university-of-oxford.md)
+6. [Undergraduate course of the University of Oxford](../../undergraduate-course-of-the-university-of-oxford.md)
+7. [Course of the University of Oxford](../../course-of-the-university-of-oxford.md)
+8. [University of Oxford](../../university-of-oxford-split.md)
+9. [List of universities](../../list-of-universities.md)
+10. [Codex Wiki](../../split.md)

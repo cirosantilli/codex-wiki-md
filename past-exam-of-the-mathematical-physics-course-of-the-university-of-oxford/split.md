@@ -1,0 +1,43 @@
+# Past exam of the mathematical physics course of the University of Oxford
+
+↑ **Parent:** [Mathematical physics course of the University of Oxford](../mathematical-physics-course-of-the-university-of-oxford.md)
+
+**Table of contents**
+
+- [2007](2007.md)
+  - [A](2007.md#a)
+    - [1](2007.md#a/1)
+      - [i](2007.md#a/1/i)
+        - [Solution](2007.md#a/1/i/solution)
+      - [ii](2007.md#a/1/ii)
+        - [Solution](2007.md#a/1/ii/solution)
+      - [Solution](2007.md#a/1/solution)
+    - [2](2007.md#a/2)
+      - [Solution](2007.md#a/2/solution)
+    - [3](2007.md#a/3)
+      - [Solution](2007.md#a/3/solution)
+    - [4](2007.md#a/4)
+      - [Solution](2007.md#a/4/solution)
+  - [B](2007.md#b)
+    - [5](2007.md#b/5)
+      - [Solution](2007.md#b/5/solution)
+    - [6](2007.md#b/6)
+      - [Solution](2007.md#b/6/solution)
+    - [7](2007.md#b/7)
+      - [Solution](2007.md#b/7/solution)
+    - [8](2007.md#b/8)
+      - [i](2007.md#b/8/i)
+        - [Solution](2007.md#b/8/i/solution)
+      - [ii](2007.md#b/8/ii)
+        - [Solution](2007.md#b/8/ii/solution)
+
+## ↑ Ancestors (8)
+
+1. [Mathematical physics course of the University of Oxford](../mathematical-physics-course-of-the-university-of-oxford.md)
+2. [Year 4 of the mathematics course of the University of Oxford](../year-4-of-the-mathematics-course-of-the-university-of-oxford.md)
+3. [Mathematics course of the University of Oxford](../mathematics-course-of-the-university-of-oxford.md)
+4. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+5. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+6. [University of Oxford](../university-of-oxford-split.md)
+7. [List of universities](../list-of-universities.md)
+8. [Codex Wiki](../split.md)

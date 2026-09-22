@@ -1,0 +1,29 @@
+# Morphism of algebras for a monad
+
+↑ **Parent:** [Algebra for a monad](algebra-for-a-monad.md)
+
+A morphism $f:(A,a)\to(B,b)$ of algebras for a monad satisfies $fa=bT(f)$. Such morphisms are the morphisms of the [Eilenberg-Moore category](eilenberg-moore-category.md).
+
+## ↑ Ancestors (7)
+
+1. [Algebra for a monad](algebra-for-a-monad.md)
+2. [Monad](monad.md)
+3. [Category theory](category-theory-split.md)
+4. [Foundations of mathematics](foundations-of-mathematics-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (11)
+
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-17/9/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-17/9/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-26/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-21/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-25/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-18/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-18/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-18/6/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-22/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-119/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-119/4/ii/solution.md)

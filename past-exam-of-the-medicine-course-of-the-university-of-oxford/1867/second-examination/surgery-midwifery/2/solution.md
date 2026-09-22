@@ -1,0 +1,28 @@
+<h1 id="2/solution">Solution</h1>
+
+↑ **Parent:** [2](../2.md)
+
+**A [hydrocele](../../../../../hydrocele.md) contains fluid around the [testis](../../../../../testis.md); a [scrotal hernia](../../../../../scrotal-hernia.md) contains abdominal contents that have descended through the [inguinal canal](../../../../../inguinal-canal.md).** Their distinction rests on a combination of location, continuity with the [inguinal canal](../../../../../inguinal-canal.md), behaviour and light transmission.
+
+The usual acquired [hydrocele](../../../../../hydrocele.md) is a collection between the layers of the [tunica vaginalis](../../../../../tunica-vaginalis.md). A [scrotal hernia](../../../../../scrotal-hernia.md) is generally an indirect [inguinal hernia](../../../../../inguinal-hernia.md): a sac of [peritoneum](../../../../../peritoneum.md), often containing [intestine](../../../../../intestine.md) or [omentum](../../../../../omentum.md), follows the [spermatic cord](../../../../../spermatic-cord.md) into the [scrotum](../../../../../scrotum.md). Persistence of the [processus vaginalis](../../../../../processus-vaginalis.md) can permit either a communicating [hydrocele](../../../../../hydrocele.md) or an indirect [inguinal hernia](../../../../../inguinal-hernia.md), depending on the communication and its contents. Thus the underlying developmental route is related even though the usual clinical appearances differ.[“Exams and Tests”: examination, light transmission, changes in swelling and imaging](../../../../../hydrocele-by-medlineplus.md)
+
+- An uncomplicated [hydrocele](../../../../../hydrocele.md) is typically smooth, fluctuant or tense, and confined to the [scrotum](../../../../../scrotum.md). One can usually feel normal [spermatic cord](../../../../../spermatic-cord.md) above it: one can “get above” the swelling. The [testis](../../../../../testis.md) may be difficult to feel separately and is usually behind the fluid collection. A [scrotal hernia](../../../../../scrotal-hernia.md) extends upwards toward the [inguinal canal](../../../../../inguinal-canal.md); its upper limit cannot usually be encircled within the [scrotum](../../../../../scrotum.md).[Chapter 7, p. 155, distinguishing continuity into the groin from a swelling confined to the scrotum](../../../../../the-ship-captain-s-medical-guide-by-the-maritime-and-coastguard-agency.md)
+- A typical acquired [hydrocele](../../../../../hydrocele.md) has neither an expansile cough impulse nor ready reduction into the abdomen. A reducible [scrotal hernia](../../../../../scrotal-hernia.md) enlarges on standing, coughing or straining, and diminishes on lying down or with gentle clinical reduction; [intestine](../../../../../intestine.md) may give a gurgle. An irreducible [hernia](../../../../../hernia.md) is an important exception, so failure of reduction does not establish [hydrocele](../../../../../hydrocele.md).
+- For [transillumination](../../../../../transillumination.md), a bright light is applied to one side of the swelling in a darkened setting while the examiner views the other side. Clear fluid in a thin-walled [hydrocele](../../../../../hydrocele.md) usually transmits a diffuse glow. Most [scrotal hernias](../../../../../scrotal-hernia.md) do not. Blood, thick walls or an underlying [tumour](../../../../../tumour.md) can prevent a [hydrocele](../../../../../hydrocele.md) from transmitting light; apparent transmission alone cannot exclude a [hernia](../../../../../hernia.md), especially in a child.
+- A longstanding uncomplicated [hydrocele](../../../../../hydrocele.md) commonly produces heaviness rather than acute systemic illness. A painful, tender, irreducible [scrotal hernia](../../../../../scrotal-hernia.md) with vomiting or abdominal distension raises concern for [intestinal obstruction](../../../../../intestinal-obstruction.md) or [strangulated hernia](../../../../../strangulated-hernia.md), in which the blood supply of the trapped contents is compromised. That requires urgent surgical assessment.
+
+If examination leaves doubt, [ultrasonography](../../../../../ultrasonography.md) can establish whether the swelling contains fluid, [intestine](../../../../../intestine.md) or a solid [tumour](../../../../../tumour.md), assess the [testis](../../../../../testis.md) and show continuity with the [inguinal canal](../../../../../inguinal-canal.md). A collection may obscure a diseased [testis](../../../../../testis.md); demonstrating fluid does not finish the diagnostic task. Blind puncture is not an appropriate diagnostic shortcut when a [hernia](../../../../../hernia.md) remains possible. Even an established [hydrocele](../../../../../hydrocele.md) usually reaccumulates after simple aspiration, which also risks [infection](../../../../../infection.md).[September 2024 leaflet, “Key points” and “What are the alternatives?”](../../../../../repair-of-a-scrotal-hydrocele-by-the-british-association-of-urological-surgeons.md)
+
+## ↑ Ancestors (11)
+
+1. [2](../2.md)
+2. [Surgery and midwifery](../../surgery-midwifery-split.md)
+3. [Second examination](../../split.md)
+4. [1867](../../../split.md)
+5. [Past exam of the medicine course of the University of Oxford](../../../../split.md)
+6. [Medicine course of the University of Oxford](../../../../../medicine-course-of-the-university-of-oxford.md)
+7. [Undergraduate course of the University of Oxford](../../../../../undergraduate-course-of-the-university-of-oxford.md)
+8. [Course of the University of Oxford](../../../../../course-of-the-university-of-oxford.md)
+9. [University of Oxford](../../../../../university-of-oxford-split.md)
+10. [List of universities](../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../split.md)

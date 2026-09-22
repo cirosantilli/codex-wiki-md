@@ -1,0 +1,26 @@
+<h1 id="2/b/solution">Solution</h1>
+
+↑ **Parent:** [B](../b.md)
+
+There are $n(n-1)\cdots(n-k+1)=n!/(n-k)!$ ordered selections of $k$ distinct elements. Every size-$k$ [subset](../../../../../subset.md) appears in exactly $k!$ orders, giving the [binomial coefficient](../../../../../binomial-coefficient-split.md)
+
+$$
+\boxed{\binom nk=\frac{n!}{k!(n-k)!},\qquad0\leq k\leq n.}
+$$
+
+For $k=0$, both the empty selection and $0!$ contribute one.
+
+## ↑ Ancestors (12)
+
+1. [B](../b.md)
+2. [2](../../2.md)
+3. [Discrete mathematics, continuous mathematics and probability](../../../discrete-mathematics-continuous-mathematics-and-probability-split.md)
+4. [2014](../../../split.md)
+5. [Past exam of the year 1 of the computer science course of the University of Oxford](../../../../split.md)
+6. [Year 1 of the computer science course of the University of Oxford](../../../../../year-1-of-the-computer-science-course-of-the-university-of-oxford.md)
+7. [Computer science course of the University of Oxford](../../../../../computer-science-course-of-the-university-of-oxford.md)
+8. [Undergraduate course of the University of Oxford](../../../../../undergraduate-course-of-the-university-of-oxford.md)
+9. [Course of the University of Oxford](../../../../../course-of-the-university-of-oxford.md)
+10. [University of Oxford](../../../../../university-of-oxford-split.md)
+11. [List of universities](../../../../../list-of-universities.md)
+12. [Codex Wiki](../../../../../split.md)

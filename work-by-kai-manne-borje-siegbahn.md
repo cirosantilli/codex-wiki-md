@@ -1,0 +1,15 @@
+<h1 id="work-by-kai-manne-borje-siegbahn">Work by Kai Manne Börje Siegbahn</h1>
+
+↑ **Parent:** [Kai Siegbahn](kai-siegbahn.md)
+
+## 🏷️ Tagged (1)
+
+- [Electron Spectroscopy for Atoms, Molecules and Condensed Matter by Kai Manne Börje Siegbahn](electron-spectroscopy-for-atoms-molecules-and-condensed-matter-by-kai-manne-borje-siegbahn.md)
+
+## ↑ Ancestors (5)
+
+1. [Kai Siegbahn](kai-siegbahn.md)
+2. [Atomic physicist](atomic-physicist-split.md)
+3. [Atomic physics](atomic-physics-split.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)

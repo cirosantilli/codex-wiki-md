@@ -1,0 +1,36 @@
+# Central series
+
+↑ **Parent:** [Nilpotent group](nilpotent-group.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Central_series)
+
+A central series is a chain of normal subgroups whose successive quotients lie in the centers of the corresponding quotient groups.
+
+**Table of contents**
+
+- [Central-series comparison theorem](central-series-comparison-theorem.md)
+
+## ↑ Ancestors (7)
+
+1. [Nilpotent group](nilpotent-group.md)
+2. [Solvable group](solvable-group.md)
+3. [Group theory](group-theory-split.md)
+4. [Algebra](algebra-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (13)
+
+- [Central-series comparison theorem](central-series-comparison-theorem.md)
+- [Finite p-groups are nilpotent](finite-p-groups-are-nilpotent.md)
+- [Solution](past-exam-of-the-building-infinite-groups-course-of-the-university-of-oxford/2011/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-3/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-1/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-2/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-1/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-7/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-7/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-7/1/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-7/1/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-4/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-167/2/c/solution.md)

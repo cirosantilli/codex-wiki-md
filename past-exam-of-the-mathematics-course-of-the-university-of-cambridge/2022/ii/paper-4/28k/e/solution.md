@@ -1,0 +1,23 @@
+<h1 id="28k/e/solution">Solution</h1>
+
+↑ **Parent:** [E](../e.md)
+
+The accepted $Y$ has the [half-normal distribution](../../../../../../half-normal-distribution.md), so $Y=|G|$ in distribution for $G\sim N(0,1)$. Multiplying it by an independent random sign that is positive and negative with equal probabilities restores the two symmetric halves of the Gaussian density. Thus
+
+$$
+\boxed{Z\sim N(0,1)}.
+$$
+
+## ↑ Ancestors (11)
+
+1. [E](../e.md)
+2. [28K](../../28k.md)
+3. [Paper 4](../../../paper-4-split.md)
+4. [Ii](../../../split.md)
+5. [2022](../../../../split.md)
+6. [Past exam of the mathematics course of the University of Cambridge](../../../../../split.md)
+7. [Mathematics course of the University of Cambridge](../../../../../../mathematics-course-of-the-university-of-cambridge.md)
+8. [Course of the University of Cambridge](../../../../../../course-of-the-university-of-cambridge.md)
+9. [University of Cambridge](../../../../../../university-of-cambridge-split.md)
+10. [List of universities](../../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../../split.md)

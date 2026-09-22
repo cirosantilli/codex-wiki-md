@@ -1,0 +1,60 @@
+# Lithium
+
+↑ **Parent:** [Chemical element](chemical-element.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Lithium)
+
+Lithium is the [chemical element](chemical-element.md) with atomic number three. Its stable isotopes include lithium-6 and [lithium-7](lithium-7.md). Lithium observed in old stellar atmospheres is an important but processing-sensitive test of [Big Bang nucleosynthesis](big-bang-nucleosynthesis.md).
+
+**Table of contents**
+
+- [Trilithium](trilithium.md)
+- [Dilithium](dilithium.md)
+- [Lithium-7](lithium-7.md)
+
+## ↑ Ancestors (4)
+
+1. [Chemical element](chemical-element.md)
+2. [Chemical substance](chemical-substance-split.md)
+3. [Chemistry](chemistry-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (38)
+
+- [Bethe stellar energy-production theory](bethe-stellar-energy-production-theory.md)
+- [Cockcroft-Walton lithium disintegration experiment](cockcroft-walton-lithium-disintegration-experiment.md)
+- [Effects of HMPA on the Structure and Reactivity of the Lithium Enolate of Cyclopentanone in THF: The Dimer is Responsible for Alkylation and Proton Exchange Reactions by Masaaki Suzuki and others](effects-of-hmpa-on-the-structure-and-reactivity-of-the-lithium-enolate-of-cyclopentanone-in-thf-the-dimer-is-responsible-for-alkylation-and-proton-exchange-reactions-by-masaaki-suzuki-and-others.md)
+- [Hexamethylphosphoramide](hexamethylphosphoramide.md)
+- [Iron disulfide](iron-disulfide.md)
+- [Lithium–carbon monofluoride battery](lithium-carbon-monofluoride-battery.md)
+- [Lithium iron disulfide battery](lithium-iron-disulfide-battery.md)
+- [Observation of Fermi pressure in trapped lithium](observation-of-fermi-pressure-in-trapped-lithium.md)
+- [Organolithium aggregation](organolithium-aggregation.md)
+- [Organolithium reagent](organolithium-reagent.md)
+- [Solution](past-exam-of-the-chemistry-a-course-of-the-university-of-cambridge/2021/paper-1/a5/b/iii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2023/paper-1/b1/b/iii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2024/paper-1/b1/a/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2024/paper-1/b1/a/iii/solution.md)
+- [Solution](past-exam-of-the-chemistry-b-course-of-the-university-of-cambridge/2024/paper-1/b1/a/iv/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2023/paper-1/2/a/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2023/paper-1/2/a/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2023/paper-1/2/a/iii/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2023/paper-1/2/b/i/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2023/paper-1/2/b/iv/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-3-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-2a/section-a/13/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-1/8/a/ii/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-3/section-e/44/a/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-3/section-e/44/b/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-3/section-e/44/c/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-3/section-e/44/d/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-3/section-e/44/e/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2017/paper-1/section-b/12/iii/a/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2017/paper-1/section-b/12/iii/b/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2017/paper-1/section-b/12/iii/c/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2021/paper-1/11/i/a/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2021/paper-1/11/i/b/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2021/paper-1/11/ii/a/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2021/paper-1/11/ii/d/solution.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2022/paper-1/section-a-iii/6/ii/solution.md)
+- [Period (periodic table)](period-periodic-table.md)
+- [Periodic table](periodic-table.md)
+- [Tetrahydrofuran](tetrahydrofuran.md)

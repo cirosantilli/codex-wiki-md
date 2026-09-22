@@ -1,0 +1,45 @@
+# Paper 75
+
+↑ **Parent:** [Iii](split.md)
+
+[https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2003/Paper75.pdf](https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2003/Paper75.pdf)
+
+**Table of contents**
+
+- [1](paper-75/1.md)
+  - [Solution](paper-75/1/solution.md)
+- [2](paper-75/2.md)
+  - [a](paper-75/2/a.md)
+    - [Solution](paper-75/2/a/solution.md)
+  - [b](paper-75/2/b.md)
+    - [Solution](paper-75/2/b/solution.md)
+  - [c](paper-75/2/c.md)
+    - [Solution](paper-75/2/c/solution.md)
+- [3](paper-75/3.md)
+  - [i](paper-75/3/i.md)
+    - [a](paper-75/3/i/a.md)
+      - [Solution](paper-75/3/i/a/solution.md)
+    - [b](paper-75/3/i/b.md)
+      - [Solution](paper-75/3/i/b/solution.md)
+    - [Solution](paper-75/3/i/solution.md)
+  - [ii](paper-75/3/ii.md)
+    - [Solution](paper-75/3/ii/solution.md)
+- [4](paper-75/4.md)
+  - [Solution](paper-75/4/solution.md)
+  - [a](paper-75/4/a.md)
+    - [Solution](paper-75/4/a/solution.md)
+  - [b](paper-75/4/b.md)
+    - [Solution](paper-75/4/b/solution.md)
+  - [c](paper-75/4/c.md)
+    - [Solution](paper-75/4/c/solution.md)
+
+## ↑ Ancestors (8)
+
+1. [Iii](split.md)
+2. [2003](../split.md)
+3. [Past exam of the mathematics course of the University of Cambridge](../../split.md)
+4. [Mathematics course of the University of Cambridge](../../../mathematics-course-of-the-university-of-cambridge.md)
+5. [Course of the University of Cambridge](../../../course-of-the-university-of-cambridge.md)
+6. [University of Cambridge](../../../university-of-cambridge-split.md)
+7. [List of universities](../../../list-of-universities.md)
+8. [Codex Wiki](../../../split.md)

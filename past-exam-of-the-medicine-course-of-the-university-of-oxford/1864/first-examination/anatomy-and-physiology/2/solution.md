@@ -1,0 +1,29 @@
+<h1 id="2/solution">Solution</h1>
+
+↑ **Parent:** [2](../2.md)
+
+**The [glossopharyngeal nerve](../../../../../glossopharyngeal-nerve.md) is a mixed ninth [cranial nerve](../../../../../cranial-nerve.md): it carries pharyngeal and lingual sensation, posterior [tongue](../../../../../tongue.md) taste, carotid sensory input, motor fibres to [stylopharyngeus](../../../../../stylopharyngeus.md), and a secretomotor route to the [parotid gland](../../../../../parotid-gland.md).** Its connections explain why its name alone understates its functions.
+
+Rootlets leave the lateral [medulla oblongata](../../../../../medulla-oblongata.md), behind the olive and above those of the [vagus nerve](../../../../../vagus-nerve.md). They cross the posterior cranial fossa and leave through the [jugular foramen](../../../../../jugular-foramen.md). Superior and inferior sensory [ganglia](../../../../../ganglion.md) lie at or near that passage. The cervical trunk descends in relation to the [internal carotid artery](../../../../../internal-carotid-artery.md) and [internal jugular vein](../../../../../internal-jugular-vein.md), then turns forwards around [stylopharyngeus](../../../../../stylopharyngeus.md). It reaches the pharyngeal wall between the superior and middle constrictors and divides towards the posterior [tongue](../../../../../tongue.md), tonsillar region and [pharynx](../../../../../pharynx.md). Its topographical association with the vagus does not make the two [nerves](../../../../../nerve.md) functionally identical.
+
+The tympanic branch returns through the inferior tympanic canaliculus into the middle ear. Its tympanic plexus supplies the mucosa of the tympanic cavity, auditory tube and related air spaces and communicates with carotid sympathetic fibres. Preganglionic [parasympathetic](../../../../../parasympathetic.md) fibres continue through the [lesser petrosal nerve](../../../../../lesser-petrosal-nerve.md) to the [otic ganglion](../../../../../otic-ganglion.md). Postganglionic fibres then reach the [parotid gland](../../../../../parotid-gland.md) with the [auriculotemporal nerve](../../../../../auriculotemporal-nerve.md), a branch of the mandibular division of the [trigeminal nerve](../../../../../trigeminal-nerve.md). This is a useful example of fibres originating in one cranial outflow and travelling for their last segment with another [nerve](../../../../../nerve.md).[Branches; Supplied Structures: tympanic plexus, lesser petrosal and parotid pathway](../../../../../glossopharyngeal-nerve-by-complete-anatomy.md)
+
+The branch to [stylopharyngeus](../../../../../stylopharyngeus.md) is motor; contraction elevates and expands the [pharynx](../../../../../pharynx.md) during swallowing. Pharyngeal branches contribute to the [pharyngeal plexus](../../../../../pharyngeal-plexus.md), together with the [vagus nerve](../../../../../vagus-nerve.md) and sympathetic connections. The principal motor supply of the pharyngeal constrictors is vagal: membership of a mixed plexus does not justify assigning every fibre or every pharyngeal [muscle](../../../../../muscle.md) to the ninth [nerve](../../../../../nerve.md). Tonsillar branches supply the palatine tonsil and neighbouring mucosa. Lingual branches carry ordinary sensation and taste from the posterior third of the [tongue](../../../../../tongue.md), including the vallate papillae even though these lie just anterior to the terminal groove.
+
+The [carotid sinus nerve](../../../../../carotid-sinus-nerve.md) carries information from pressure-sensitive endings in the [carotid sinus](../../../../../carotid-sinus.md) and from the [carotid body](../../../../../carotid-body.md)'s chemical sensors. The first contributes to regulation of [blood pressure](../../../../../blood-pressure.md); the second responds especially to arterial [oxygen](../../../../../oxygen.md) deficiency, with responses also influenced by [carbon dioxide](../../../../../carbon-dioxide.md) and acidity. These are afferent functions, distinct from the motor and secretory branches.[Structure and Function; Nerves: distribution and sensory branches](../../../../../neuroanatomy-cranial-nerve-9-glossopharyngeal-statpearls.md)
+
+In the modern central account, branchial motor fibres arise from the [nucleus ambiguus](../../../../../nucleus-ambiguus.md), parasympathetic fibres from the inferior salivatory nucleus, visceral and taste afferents project towards the [solitary nucleus](../../../../../solitary-nucleus.md), and relevant general sensory fibres project to the spinal trigeminal system. These nuclear and reflex distinctions refine the gross anatomical description available in 1864. Pharyngeal touch can initiate swallowing and contributes to the afferent limb of the [gag reflex](../../../../../gag-reflex.md), whose principal motor limb is vagal. Ordinary sensation, taste, pharyngeal movement and secretion therefore need separate observations; the absence of one response does not by itself prove loss of every ninth-[nerve](../../../../../nerve.md) function.[Basic Science; examination of pharyngeal sensation, movement and reflexes](../../../../../cranial-nerves-ix-and-x-in-clinical-methods.md)
+
+## ↑ Ancestors (11)
+
+1. [2](../2.md)
+2. [Anatomy and physiology](../../anatomy-and-physiology-split.md)
+3. [First examination](../../split.md)
+4. [1864](../../../split.md)
+5. [Past exam of the medicine course of the University of Oxford](../../../../split.md)
+6. [Medicine course of the University of Oxford](../../../../../medicine-course-of-the-university-of-oxford.md)
+7. [Undergraduate course of the University of Oxford](../../../../../undergraduate-course-of-the-university-of-oxford.md)
+8. [Course of the University of Oxford](../../../../../course-of-the-university-of-oxford.md)
+9. [University of Oxford](../../../../../university-of-oxford-split.md)
+10. [List of universities](../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../split.md)

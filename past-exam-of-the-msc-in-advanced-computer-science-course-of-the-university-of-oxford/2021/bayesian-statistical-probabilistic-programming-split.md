@@ -1,0 +1,52 @@
+# Bayesian statistical probabilistic programming
+
+↑ **Parent:** [2021](split.md)
+
+Solutions to the single paper shared by the two printed routes, dated 8 June 2021. [Oxford examination source release](https://www.whatdotheyknow.com/request/ba_computer_science_past_papers/response/2577745/attach/2/202402%20183%20CS%20Papers.zip?cookie_passthrough=1). The [probabilistic programming](../../probabilistic-programming.md) calculations below use only information supplied in the paper. Question 2 contains two notation or naming issues, identified at the affected parts; Question 3 requires an explicit choice of [prior distribution](../../prior-probability.md).
+
+**Table of contents**
+
+- [1](bayesian-statistical-probabilistic-programming/1.md)
+  - [a](bayesian-statistical-probabilistic-programming/1/a.md)
+    - [Solution](bayesian-statistical-probabilistic-programming/1/a/solution.md)
+  - [b](bayesian-statistical-probabilistic-programming/1/b.md)
+    - [Solution](bayesian-statistical-probabilistic-programming/1/b/solution.md)
+  - [c](bayesian-statistical-probabilistic-programming/1/c.md)
+    - [Solution](bayesian-statistical-probabilistic-programming/1/c/solution.md)
+  - [d](bayesian-statistical-probabilistic-programming/1/d.md)
+    - [Solution](bayesian-statistical-probabilistic-programming/1/d/solution.md)
+  - [e](bayesian-statistical-probabilistic-programming/1/e.md)
+    - [Solution](bayesian-statistical-probabilistic-programming/1/e/solution.md)
+  - [f](bayesian-statistical-probabilistic-programming/1/f.md)
+    - [Solution](bayesian-statistical-probabilistic-programming/1/f/solution.md)
+- [2](bayesian-statistical-probabilistic-programming/2.md)
+  - [a](bayesian-statistical-probabilistic-programming/2/a.md)
+    - [Solution](bayesian-statistical-probabilistic-programming/2/a/solution.md)
+  - [b](bayesian-statistical-probabilistic-programming/2/b.md)
+    - [Solution](bayesian-statistical-probabilistic-programming/2/b/solution.md)
+  - [c](bayesian-statistical-probabilistic-programming/2/c.md)
+    - [Solution](bayesian-statistical-probabilistic-programming/2/c/solution.md)
+  - [d](bayesian-statistical-probabilistic-programming/2/d.md)
+    - [Solution](bayesian-statistical-probabilistic-programming/2/d/solution.md)
+- [3](bayesian-statistical-probabilistic-programming/3.md)
+  - [a](bayesian-statistical-probabilistic-programming/3/a.md)
+    - [Solution](bayesian-statistical-probabilistic-programming/3/a/solution.md)
+  - [b](bayesian-statistical-probabilistic-programming/3/b.md)
+    - [Solution](bayesian-statistical-probabilistic-programming/3/b/solution.md)
+  - [c](bayesian-statistical-probabilistic-programming/3/c.md)
+    - [Solution](bayesian-statistical-probabilistic-programming/3/c/solution.md)
+  - [d](bayesian-statistical-probabilistic-programming/3/d.md)
+    - [Solution](bayesian-statistical-probabilistic-programming/3/d/solution.md)
+  - [e](bayesian-statistical-probabilistic-programming/3/e.md)
+    - [Solution](bayesian-statistical-probabilistic-programming/3/e/solution.md)
+
+## ↑ Ancestors (8)
+
+1. [2021](split.md)
+2. [Past exam of the MSc in advanced computer science course of the University of Oxford](../split.md)
+3. [MSc in advanced computer science course of the University of Oxford](../../msc-in-advanced-computer-science-course-of-the-university-of-oxford.md)
+4. [Master's course of the University of Oxford](../../master-s-course-of-the-university-of-oxford.md)
+5. [Course of the University of Oxford](../../course-of-the-university-of-oxford.md)
+6. [University of Oxford](../../university-of-oxford-split.md)
+7. [List of universities](../../list-of-universities.md)
+8. [Codex Wiki](../../split.md)

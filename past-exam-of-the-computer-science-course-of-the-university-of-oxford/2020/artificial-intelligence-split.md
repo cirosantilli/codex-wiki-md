@@ -1,0 +1,60 @@
+# Artificial intelligence
+
+↑ **Parent:** [2020](split.md)
+
+Source paper: [released examination archive](https://www.whatdotheyknow.com/request/ba_computer_science_past_papers/response/2577745/attach/2/202402%20183%20CS%20Papers.zip?cookie_passthrough=1), member `2019/T/a16607w1.pdf`. The dated cover identifies the undergraduate Second Public Examination, Trinity Term 2020, Friday 29 May, opening at 09:30 BST; the archive directory is misleading. The cover allows three hours for completion and upload.
+
+All printed parts are addressed below. The original Figure 1 is corrupted; the bounded source gap is confined to 1(a).
+
+**Table of contents**
+
+- [1](artificial-intelligence/1.md)
+  - [a](artificial-intelligence/1/a.md)
+    - [Solution](artificial-intelligence/1/a/solution.md)
+  - [b](artificial-intelligence/1/b.md)
+    - [Solution](artificial-intelligence/1/b/solution.md)
+  - [c](artificial-intelligence/1/c.md)
+    - [Solution](artificial-intelligence/1/c/solution.md)
+  - [d](artificial-intelligence/1/d.md)
+    - [Solution](artificial-intelligence/1/d/solution.md)
+  - [e](artificial-intelligence/1/e.md)
+    - [Solution](artificial-intelligence/1/e/solution.md)
+- [2](artificial-intelligence/2.md)
+  - [a](artificial-intelligence/2/a.md)
+    - [Solution](artificial-intelligence/2/a/solution.md)
+  - [b](artificial-intelligence/2/b.md)
+    - [Solution](artificial-intelligence/2/b/solution.md)
+  - [c](artificial-intelligence/2/c.md)
+    - [Solution](artificial-intelligence/2/c/solution.md)
+  - [d](artificial-intelligence/2/d.md)
+    - [Solution](artificial-intelligence/2/d/solution.md)
+  - [e](artificial-intelligence/2/e.md)
+    - [Solution](artificial-intelligence/2/e/solution.md)
+  - [f](artificial-intelligence/2/f.md)
+    - [Solution](artificial-intelligence/2/f/solution.md)
+- [3](artificial-intelligence/3.md)
+  - [a](artificial-intelligence/3/a.md)
+    - [Solution](artificial-intelligence/3/a/solution.md)
+  - [b](artificial-intelligence/3/b.md)
+    - [Solution](artificial-intelligence/3/b/solution.md)
+  - [c](artificial-intelligence/3/c.md)
+    - [Solution](artificial-intelligence/3/c/solution.md)
+  - [d](artificial-intelligence/3/d.md)
+    - [Solution](artificial-intelligence/3/d/solution.md)
+  - [e](artificial-intelligence/3/e.md)
+    - [Solution](artificial-intelligence/3/e/solution.md)
+  - [f](artificial-intelligence/3/f.md)
+    - [Solution](artificial-intelligence/3/f/solution.md)
+  - [g](artificial-intelligence/3/g.md)
+    - [Solution](artificial-intelligence/3/g/solution.md)
+
+## ↑ Ancestors (8)
+
+1. [2020](split.md)
+2. [Past exam of the computer science course of the University of Oxford](../split.md)
+3. [Computer science course of the University of Oxford](../../computer-science-course-of-the-university-of-oxford.md)
+4. [Undergraduate course of the University of Oxford](../../undergraduate-course-of-the-university-of-oxford.md)
+5. [Course of the University of Oxford](../../course-of-the-university-of-oxford.md)
+6. [University of Oxford](../../university-of-oxford-split.md)
+7. [List of universities](../../list-of-universities.md)
+8. [Codex Wiki](../../split.md)

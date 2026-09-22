@@ -1,0 +1,30 @@
+# Computational-basis state
+
+↑ **Parent:** [Quantum measurement in the computational basis](quantum-measurement-in-the-computational-basis.md)
+
+A computational-basis state of $n$ qubits is $|x\rangle$ for a bit string $x\in\{0,1\}^n$.
+
+## ↑ Ancestors (6)
+
+1. [Quantum measurement in the computational basis](quantum-measurement-in-the-computational-basis.md)
+2. [Computational basis](computational-basis.md)
+3. [Quantum theory](quantum-theory-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (13)
+
+- [Ancilla preparation for the Bernstein-Vazirani algorithm](ancilla-preparation-for-the-bernstein-vazirani-algorithm.md)
+- [Bell-basis conversion circuit](bell-basis-conversion-circuit.md)
+- [Dyadic quantum Fourier transform circuit](dyadic-quantum-fourier-transform-circuit.md)
+- [Function oracle](function-oracle.md)
+- [Mixed state](mixed-state.md)
+- [Solution](past-exam-of-the-computer-science-course-of-the-university-of-oxford/2023/quantum-information/1/c/solution.md)
+- [Solution](past-exam-of-the-introduction-to-quantum-information-course-of-the-university-of-oxford/2015/1/b/solution.md)
+- [Solution](past-exam-of-the-laser-science-and-quantum-information-processing-course-of-the-university-of-oxford/2010/6/2/solution.md)
+- [Solution](past-exam-of-the-laser-science-and-quantum-information-processing-course-of-the-university-of-oxford/2010/6/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-47/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-324/3/b/ii/solution.md)
+- [Quantum superposition](quantum-superposition.md)
+- [Two-qubit diffusion circuit](two-qubit-diffusion-circuit.md)

@@ -1,0 +1,12 @@
+# Work by Fu Wang
+
+↑ **Parent:** [Fu Wang](fu-wang.md)
+
+## ↑ Ancestors (6)
+
+1. [Fu Wang](fu-wang.md)
+2. [List of materials scientists](list-of-materials-scientists.md)
+3. [Materials scientist](materials-scientist.md)
+4. [Materials science](materials-science.md)
+5. [Engineering](engineering-split.md)
+6. [Codex Wiki](split.md)

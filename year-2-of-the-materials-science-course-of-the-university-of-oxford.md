@@ -1,0 +1,15 @@
+# Year 2 of the materials science course of the University of Oxford
+
+↑ **Parent:** [Part I of the materials science course of the University of Oxford](part-i-of-the-materials-science-course-of-the-university-of-oxford.md)
+
+Core materials, [mathematics](mathematics-split.md) and practical teaching; no separate final examination.
+
+## ↑ Ancestors (7)
+
+1. [Part I of the materials science course of the University of Oxford](part-i-of-the-materials-science-course-of-the-university-of-oxford.md)
+2. [Materials science course of the University of Oxford](materials-science-course-of-the-university-of-oxford.md)
+3. [Undergraduate course of the University of Oxford](undergraduate-course-of-the-university-of-oxford.md)
+4. [Course of the University of Oxford](course-of-the-university-of-oxford.md)
+5. [University of Oxford](university-of-oxford-split.md)
+6. [List of universities](list-of-universities.md)
+7. [Codex Wiki](split.md)

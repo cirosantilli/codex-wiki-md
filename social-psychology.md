@@ -1,0 +1,53 @@
+# Social psychology
+
+↑ **Parent:** [Psychology](psychology-split.md)
+
+The study of how people understand, evaluate and influence one another within social settings. A social explanation can involve individual processing, relationships, group membership and institutions; the appropriate level depends on the question.
+
+**Table of contents**
+
+- [Criminal behavior](criminal-behavior.md)
+  - [Recidivism](recidivism.md)
+- [Social support](social-support.md)
+- [Intergroup contact](intergroup-contact.md)
+- [Discrimination](discrimination.md)
+- [Prejudice](prejudice.md)
+- [Social identity](social-identity.md)
+  - [Identity threat](identity-threat.md)
+  - [Dual identity](dual-identity.md)
+- [Media effects](media-effects.md)
+- [Aggression](aggression.md)
+  - [Violence](violence.md)
+- [Social cognition](social-cognition.md)
+  - [Spontaneous and elicited social cognition](spontaneous-and-elicited-social-cognition.md)
+  - [Social communication](social-communication.md)
+    - [Double empathy problem](double-empathy-problem.md)
+  - [Action understanding](action-understanding.md)
+    - [Action prediction](action-prediction.md)
+  - [Self-other distinction](self-other-distinction.md)
+  - [Empathy](empathy.md)
+    - [Personal distress](personal-distress.md)
+    - [Compassion](compassion.md)
+    - [Cognitive empathy](cognitive-empathy.md)
+    - [Affective empathy](affective-empathy.md)
+      - [Empathy for pain](empathy-for-pain.md)
+  - [Stereotype](stereotype.md)
+  - [Attribution theory](attribution-theory.md)
+    - [Conditional diagnosticity in attribution](conditional-diagnosticity-in-attribution.md)
+    - [Attributional correction](attributional-correction.md)
+    - [Fundamental attribution error](fundamental-attribution-error.md)
+    - [Correspondence bias](correspondence-bias.md)
+    - [Situational attribution](situational-attribution.md)
+    - [Dispositional attribution](dispositional-attribution.md)
+    - [Social attribution](social-attribution.md)
+  - [Social perception](social-perception.md)
+    - [Emotion recognition](emotion-recognition.md)
+      - [Fear recognition](fear-recognition.md)
+      - [Forced-choice emotion recognition](forced-choice-emotion-recognition.md)
+    - [Social salience](social-salience.md)
+
+## ↑ Ancestors (3)
+
+1. [Psychology](psychology-split.md)
+2. [Science](science.md)
+3. [Codex Wiki](split.md)

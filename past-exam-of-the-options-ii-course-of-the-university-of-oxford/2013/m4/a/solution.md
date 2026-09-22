@@ -1,0 +1,20 @@
+<h1 id="m4/a/solution">Solution</h1>
+
+↑ **Parent:** [A](../a.md)
+
+A [Markov chain](../../../../markov-chain-split.md) is **[irreducible](../../../../irreducible-markov-chain.md)** if every state communicates with every other: for any $i,j$ there is an integer $n\geq0$ with $p_{ij}^{(n)}>0$. Thus any state can be reached from any other in finitely many steps with positive [probability](../../../../probability.md).
+
+## ↑ Ancestors (12)
+
+1. [A](../a.md)
+2. [M4](../../m4.md)
+3. [2013](../../../2013-split.md)
+4. [Past exam of the options II course of the University of Oxford](../../../split.md)
+5. [Options II course of the University of Oxford](../../../../options-ii-course-of-the-university-of-oxford.md)
+6. [Year 2 of the mathematics course of the University of Oxford](../../../../year-2-of-the-mathematics-course-of-the-university-of-oxford.md)
+7. [Mathematics course of the University of Oxford](../../../../mathematics-course-of-the-university-of-oxford.md)
+8. [Undergraduate course of the University of Oxford](../../../../undergraduate-course-of-the-university-of-oxford.md)
+9. [Course of the University of Oxford](../../../../course-of-the-university-of-oxford.md)
+10. [University of Oxford](../../../../university-of-oxford-split.md)
+11. [List of universities](../../../../list-of-universities.md)
+12. [Codex Wiki](../../../../split.md)

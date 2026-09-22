@@ -1,0 +1,36 @@
+# Anyons and topological quantum field theories course of the University of Oxford
+
+↑ **Parent:** [Year 4 of the mathematical and theoretical physics course of the University of Oxford](year-4-of-the-mathematical-and-theoretical-physics-course-of-the-university-of-oxford.md)
+
+**Table of contents**
+
+- [Past exam of the anyons and topological quantum field theories course of the University of Oxford](past-exam-of-the-anyons-and-topological-quantum-field-theories-course-of-the-university-of-oxford.md)
+  - [2025](past-exam-of-the-anyons-and-topological-quantum-field-theories-course-of-the-university-of-oxford/2025.md)
+    - [1](past-exam-of-the-anyons-and-topological-quantum-field-theories-course-of-the-university-of-oxford/2025.md#1)
+      - [a](past-exam-of-the-anyons-and-topological-quantum-field-theories-course-of-the-university-of-oxford/2025.md#1/a)
+        - [Solution](past-exam-of-the-anyons-and-topological-quantum-field-theories-course-of-the-university-of-oxford/2025.md#1/a/solution)
+      - [b](past-exam-of-the-anyons-and-topological-quantum-field-theories-course-of-the-university-of-oxford/2025.md#1/b)
+        - [Solution](past-exam-of-the-anyons-and-topological-quantum-field-theories-course-of-the-university-of-oxford/2025.md#1/b/solution)
+      - [c](past-exam-of-the-anyons-and-topological-quantum-field-theories-course-of-the-university-of-oxford/2025.md#1/c)
+        - [Solution](past-exam-of-the-anyons-and-topological-quantum-field-theories-course-of-the-university-of-oxford/2025.md#1/c/solution)
+      - [d](past-exam-of-the-anyons-and-topological-quantum-field-theories-course-of-the-university-of-oxford/2025.md#1/d)
+        - [Solution](past-exam-of-the-anyons-and-topological-quantum-field-theories-course-of-the-university-of-oxford/2025.md#1/d/solution)
+    - [2](past-exam-of-the-anyons-and-topological-quantum-field-theories-course-of-the-university-of-oxford/2025.md#2)
+      - [a](past-exam-of-the-anyons-and-topological-quantum-field-theories-course-of-the-university-of-oxford/2025.md#2/a)
+        - [Solution](past-exam-of-the-anyons-and-topological-quantum-field-theories-course-of-the-university-of-oxford/2025.md#2/a/solution)
+      - [b](past-exam-of-the-anyons-and-topological-quantum-field-theories-course-of-the-university-of-oxford/2025.md#2/b)
+        - [Solution](past-exam-of-the-anyons-and-topological-quantum-field-theories-course-of-the-university-of-oxford/2025.md#2/b/solution)
+      - [c](past-exam-of-the-anyons-and-topological-quantum-field-theories-course-of-the-university-of-oxford/2025.md#2/c)
+        - [Solution](past-exam-of-the-anyons-and-topological-quantum-field-theories-course-of-the-university-of-oxford/2025.md#2/c/solution)
+      - [d](past-exam-of-the-anyons-and-topological-quantum-field-theories-course-of-the-university-of-oxford/2025.md#2/d)
+        - [Solution](past-exam-of-the-anyons-and-topological-quantum-field-theories-course-of-the-university-of-oxford/2025.md#2/d/solution)
+
+## ↑ Ancestors (7)
+
+1. [Year 4 of the mathematical and theoretical physics course of the University of Oxford](year-4-of-the-mathematical-and-theoretical-physics-course-of-the-university-of-oxford.md)
+2. [Mathematical and theoretical physics course of the University of Oxford](mathematical-and-theoretical-physics-course-of-the-university-of-oxford.md)
+3. [Undergraduate course of the University of Oxford](undergraduate-course-of-the-university-of-oxford.md)
+4. [Course of the University of Oxford](course-of-the-university-of-oxford.md)
+5. [University of Oxford](university-of-oxford-split.md)
+6. [List of universities](list-of-universities.md)
+7. [Codex Wiki](split.md)

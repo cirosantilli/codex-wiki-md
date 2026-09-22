@@ -1,0 +1,66 @@
+# Vector triple product
+
+↑ **Parent:** [Triple product](triple-product.md)
+
+Contracting two Levi-Civita symbols gives
+
+$$
+a\times(b\times c)=b(a\cdot c)-c(a\cdot b).
+$$
+
+## ↑ Ancestors (10)
+
+1. [Triple product](triple-product.md)
+2. [Levi-Civita symbol](levi-civita-symbol.md)
+3. [Vector calculus](vector-calculus.md)
+4. [Multivariable calculus](multivariable-calculus-split.md)
+5. [Calculus](calculus-split.md)
+6. [Real analysis](real-analysis-split.md)
+7. [Analysis](analysis-split.md)
+8. [Area of mathematics](area-of-mathematics.md)
+9. [Mathematics](mathematics-split.md)
+10. [Codex Wiki](split.md)
+
+## ← Incoming links (41)
+
+- [Antisymmetric first moment of a localized solenoidal field](antisymmetric-first-moment-of-a-localized-solenoidal-field.md)
+- [Cross-product matrix spectrum](cross-product-matrix-spectrum.md)
+- [Fields of a time-dependent electric dipole](fields-of-a-time-dependent-electric-dipole.md)
+- [Inverse of a scalar plus a cross-product operator](inverse-of-a-scalar-plus-a-cross-product-operator.md)
+- [Solution](past-exam-of-the-electromagnetism-course-of-the-university-of-oxford/2023/3/d/ii/solution.md)
+- [Solution](past-exam-of-the-mathematical-methods-i-course-of-the-university-of-oxford/2013-resit/9/a/solution.md)
+- [Solution](past-exam-of-the-mathematical-methods-i-course-of-the-university-of-oxford/2017/9/b/solution.md)
+- [Solution](past-exam-of-the-mathematical-methods-i-course-of-the-university-of-oxford/2017/9/c/solution.md)
+- [Solution](past-exam-of-the-mathematical-methods-i-course-of-the-university-of-oxford/2018/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematical-methods-i-course-of-the-university-of-oxford/2018/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematical-methods-i-course-of-the-university-of-oxford/2019-resit/9/solution.md)
+- [Solution](past-exam-of-the-mathematical-methods-i-course-of-the-university-of-oxford/2022/8/a/ii/solution.md)
+- [Solution](past-exam-of-the-mathematical-methods-ii-course-of-the-university-of-oxford/2018/9/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/ia/paper-1/1c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/ia/paper-4/11e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ia/paper-1/1c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ia/paper-1/2b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-69/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ia/paper-3/9c/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ia/paper-4/9b/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ia/paper-4/9b/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ia/paper-1/5b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ia/paper-1/8c/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ia/paper-3/3a/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ia/paper-3/4a/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-4/7d/b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-314/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ia/paper-1/5b/a/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ia/paper-3/12a/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-4/36a/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-337/2/f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/ia/paper-1/5a/a/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/ia/paper-1/5a/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-oxford/2015/prelims/mathematics-iv/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-oxford/2015/prelims/mathematics-iv/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2017/paper-2/11/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2018/paper-2/11/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2018/paper-2/16/a/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2017/paper-2/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-2-of-the-natural-sciences-course-of-the-university-of-cambridge/2017/paper-2/6/c/solution.md)
+- [Plane through a point and a line given by a cross product](plane-through-a-point-and-a-line-given-by-a-cross-product.md)

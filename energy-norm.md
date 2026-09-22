@@ -1,0 +1,48 @@
+# Energy norm
+
+↑ **Parent:** [Rayleigh-Ritz method](rayleigh-ritz-method.md)
+
+A symmetric coercive bilinear form $a$ defines the energy norm $\|v\|_a=\sqrt{a(v,v)}$. In this norm the [Ritz method](rayleigh-ritz-method.md) is an orthogonal projection onto its finite-dimensional trial space.
+
+## ↑ Ancestors (7)
+
+1. [Rayleigh-Ritz method](rayleigh-ritz-method.md)
+2. [Finite element method](finite-element-method-split.md)
+3. [Numerical analysis](numerical-analysis-split.md)
+4. [Analysis](analysis-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (30)
+
+- [Aubin–Nitsche duality argument](aubin-nitsche-duality-argument.md)
+- [Céa's lemma](cea-s-lemma.md)
+- [Coarse-grid correction](coarse-grid-correction.md)
+- [Energy-norm proof of convergence of SOR](energy-norm-proof-of-convergence-of-sor.md)
+- [Finite element mesh](finite-element-mesh.md)
+- [Finite element method](finite-element-method-split.md)
+- [Finite element solution of the one-dimensional Poisson equation](finite-element-solution-of-the-one-dimensional-poisson-equation.md)
+- [Galerkin orthogonality](galerkin-orthogonality.md)
+- [Gauss-Seidel energy decrease identity](gauss-seidel-energy-decrease-identity.md)
+- [Krylov subspace method](krylov-subspace-method.md)
+- [Matrix norm induced by an energy norm](matrix-norm-induced-by-an-energy-norm.md)
+- [Ordinary-derivative Robin data in a weighted energy form](ordinary-derivative-robin-data-in-a-weighted-energy-form.md)
+- [Solution](past-exam-of-the-approximation-theory-and-finite-element-methods-course-of-the-university-of-oxford/2009/b/5/solution.md)
+- [Solution](past-exam-of-the-finite-element-methods-for-partial-differential-equations-course-of-the-university-of-oxford/2023/3/c/solution.md)
+- [Solution](past-exam-of-the-finite-element-methods-for-partial-differential-equations-course-of-the-university-of-oxford/2023/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-72/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-66/7/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-341/5/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-341/5/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-341/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-341/7/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-341/7/solution.md)
+- [Solution](past-exam-of-the-numerical-linear-algebra-and-approximation-course-of-the-university-of-oxford/2008/4/b/solution.md)
+- [Solution](past-exam-of-the-numerical-linear-algebra-and-continuous-optimisation-course-of-the-university-of-oxford/2009/a/2/solution.md)
+- [Solution](past-exam-of-the-numerical-linear-algebra-and-continuous-optimisation-course-of-the-university-of-oxford/2010/a/3/e/solution.md)
+- [Solution](past-exam-of-the-numerical-linear-algebra-course-of-the-university-of-oxford/2011/2/b/solution.md)
+- [Petrov-Galerkin method](petrov-galerkin-method.md)
+- [Preconditioned steepest descent](preconditioned-steepest-descent.md)
+- [Ritz-Galerkin equivalence for a symmetric coercive form](ritz-galerkin-equivalence-for-a-symmetric-coercive-form.md)
+- [Symmetric preconditioning as energy geometry](symmetric-preconditioning-as-energy-geometry.md)

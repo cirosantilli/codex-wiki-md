@@ -1,0 +1,14 @@
+<h1 id="work-by-joao-m-b-lopes-dos-santos">Work by João M. B. Lopes dos Santos</h1>
+
+↑ **Parent:** [João M. B. Lopes dos Santos](joao-m-b-lopes-dos-santos.md)
+
+## 🏷️ Tagged (1)
+
+- [A time of flight method to measure the speed of sound using a stereo sound card by Carlos C. Carvalho and others](a-time-of-flight-method-to-measure-the-speed-of-sound-using-a-stereo-sound-card-by-carlos-c-carvalho-and-others.md)
+
+## ↑ Ancestors (4)
+
+1. [João M. B. Lopes dos Santos](joao-m-b-lopes-dos-santos.md)
+2. [Physics author](physics-author-split.md)
+3. [Physics](physics-split.md)
+4. [Codex Wiki](split.md)

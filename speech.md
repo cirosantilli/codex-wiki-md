@@ -1,0 +1,47 @@
+# Speech
+
+↑ **Parent:** [Language](language.md)
+
+Spoken-[language](language.md) production and perception, involving acoustic, phonological, articulatory and higher-level information. [Speech](speech.md) repetition and comprehension place different demands on these interacting processes.
+
+## ↑ Ancestors (4)
+
+1. [Language](language.md)
+2. [Linguistics](linguistics.md)
+3. [Science](science.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (32)
+
+- [Agrammatism](agrammatism.md)
+- [Apraxia of speech](apraxia-of-speech.md)
+- [Articulatory rehearsal](articulatory-rehearsal.md)
+- [Auditory verbal agnosia](auditory-verbal-agnosia.md)
+- [Childhood apraxia of speech](childhood-apraxia-of-speech.md)
+- [Developmental language disorder](developmental-language-disorder.md)
+- [FOXP2](foxp2.md)
+- [Japanese Sign Language](japanese-sign-language.md)
+- [Kate Watkins](kate-watkins.md)
+- [Nonfluent variant primary progressive aphasia](nonfluent-variant-primary-progressive-aphasia.md)
+- [Oral praxis](oral-praxis.md)
+- [Paraphasia](paraphasia.md)
+- [Solution](past-exam-of-the-cognition-course-of-the-year-2-of-the-psychology-experimental-course-of-the-university-of-oxford/2022/2/solution.md)
+- [Solution](past-exam-of-the-cognition-course-of-the-year-2-of-the-psychology-experimental-course-of-the-university-of-oxford/2022/3/solution.md)
+- [Solution](past-exam-of-the-cognitive-neurology-course-of-the-university-of-oxford/2022/1/solution.md)
+- [Solution](past-exam-of-the-the-neurobiology-of-speech-and-language-course-of-the-university-of-oxford/2022/1/solution.md)
+- [Solution](past-exam-of-the-the-neurobiology-of-speech-and-language-course-of-the-university-of-oxford/2022/2/solution.md)
+- [Solution](past-exam-of-the-the-neurobiology-of-speech-and-language-course-of-the-university-of-oxford/2022/3/solution.md)
+- [Solution](past-exam-of-the-the-neurobiology-of-speech-and-language-course-of-the-university-of-oxford/2022/5/solution.md)
+- [Solution](past-exam-of-the-the-neurobiology-of-speech-and-language-course-of-the-university-of-oxford/2022/6/solution.md)
+- [Paul Broca](paul-broca.md)
+- [Phonological analysis](phonological-analysis.md)
+- [Primary progressive aphasia](primary-progressive-aphasia.md)
+- [Putamen](putamen.md)
+- [Robert J. Zatorre](robert-j-zatorre.md)
+- [Semantic dementia](semantic-dementia.md)
+- [Sign language](sign-language.md)
+- [Soo-Eun Chang](soo-eun-chang.md)
+- [Speech](speech.md)
+- [Stuttering](stuttering.md)
+- [Ventral language pathway](ventral-language-pathway.md)
+- [Wernicke's aphasia](wernicke-s-aphasia.md)

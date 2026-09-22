@@ -1,0 +1,40 @@
+# Leibniz formula for determinants
+
+↑ **Parent:** [Determinant](determinant.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Leibniz_formula_for_determinants)
+
+For an $n$ by $n$ matrix,
+
+$$
+\det A=\sum_{\sigma\in S_n}\operatorname{sgn}(\sigma)
+\prod_{i=1}^na_{i,\sigma(i)}.
+$$
+
+## ↑ Ancestors (7)
+
+1. [Determinant](determinant.md)
+2. [Multilinear algebra](multilinear-algebra-split.md)
+3. [Linear algebra](linear-algebra-split.md)
+4. [Algebra](algebra-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (16)
+
+- [Determinant](determinant.md)
+- [Laplace expansion](laplace-expansion.md)
+- [Solution](past-exam-of-the-mathematical-methods-i-course-of-the-university-of-oxford/2014-resit/12/viii/solution.md)
+- [Solution](past-exam-of-the-mathematical-methods-i-course-of-the-university-of-oxford/2014-resit/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematical-methods-i-course-of-the-university-of-oxford/2015/8/i/solution.md)
+- [Solution](past-exam-of-the-mathematical-methods-i-course-of-the-university-of-oxford/2019-resit/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ib/paper-2/10e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ia/paper-1/2a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ia/paper-1/2a/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ia/paper-1/7b/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ia/paper-1/6a/c/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ib/paper-1/1f/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-112/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2008/paper-1/18/b/i/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2016/digital-systems-linear-algebra-introduction-to-formal-proof/5/d/solution.md)
+- [Permanent (mathematics)](permanent-mathematics.md)

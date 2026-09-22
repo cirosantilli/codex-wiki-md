@@ -1,0 +1,58 @@
+# 2017
+
+↑ **Parent:** [Past exam of the general relativity and cosmology course of the University of Oxford](split.md)
+
+Source paper: [https://www-thphys.physics.ox.ac.uk/people/AndreiStarinets/TUTORIALS_NOTES_GR/gr_cosmology_exam_paper_2017.pdf](https://www-thphys.physics.ox.ac.uk/people/AndreiStarinets/TUTORIALS_NOTES_GR/gr_cosmology_exam_paper_2017.pdf)
+
+The lettered subdivisions index the successive separately marked blocks of each source question.
+
+**Table of contents**
+
+- [1](2017/1.md)
+  - [a](2017/1/a.md)
+    - [Solution](2017/1/a/solution.md)
+  - [b](2017/1/b.md)
+    - [Solution](2017/1/b/solution.md)
+  - [c](2017/1/c.md)
+    - [Solution](2017/1/c/solution.md)
+  - [d](2017/1/d.md)
+    - [Solution](2017/1/d/solution.md)
+  - [e](2017/1/e.md)
+    - [Solution](2017/1/e/solution.md)
+- [2](2017/2.md)
+  - [a](2017/2/a.md)
+    - [Solution](2017/2/a/solution.md)
+  - [b](2017/2/b.md)
+    - [Solution](2017/2/b/solution.md)
+  - [c](2017/2/c.md)
+    - [Solution](2017/2/c/solution.md)
+- [3](2017/3.md)
+  - [a](2017/3/a.md)
+    - [Solution](2017/3/a/solution.md)
+  - [b](2017/3/b.md)
+    - [Solution](2017/3/b/solution.md)
+  - [c](2017/3/c.md)
+    - [Solution](2017/3/c/solution.md)
+  - [d](2017/3/d.md)
+    - [Solution](2017/3/d/solution.md)
+- [4](2017/4.md)
+  - [a](2017/4/a.md)
+    - [Solution](2017/4/a/solution.md)
+  - [b](2017/4/b.md)
+    - [Solution](2017/4/b/solution.md)
+  - [c](2017/4/c.md)
+    - [Solution](2017/4/c/solution.md)
+  - [d](2017/4/d.md)
+    - [Solution](2017/4/d/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Past exam of the general relativity and cosmology course of the University of Oxford](split.md)
+2. [General relativity and cosmology course of the University of Oxford](../general-relativity-and-cosmology-course-of-the-university-of-oxford.md)
+3. [Year 3 of the physics course of the University of Oxford](../year-3-of-the-physics-course-of-the-university-of-oxford.md)
+4. [Physics course of the University of Oxford](../physics-course-of-the-university-of-oxford.md)
+5. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+6. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+7. [University of Oxford](../university-of-oxford-split.md)
+8. [List of universities](../list-of-universities.md)
+9. [Codex Wiki](../split.md)

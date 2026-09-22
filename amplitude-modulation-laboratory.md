@@ -1,0 +1,19 @@
+# Amplitude modulation laboratory
+
+↑ **Parent:** [Amplitude modulation](amplitude-modulation.md)
+
+Rice University's _ELEC 332: In the Lab_ makes the model experimentally testable. Preparation resets the [spectrum analyzer](spectrum-analyzer.md) and observes an unmodulated generator output on it and an [oscilloscope](oscilloscope.md). A Wavetek [function generator](function-generator.md) supplies external modulation. The specified $10\,\mathrm{MHz}$ carrier and $10\,\mathrm{kHz}$ message separate three peaks. Marker readouts give [frequency](frequency.md) and level; narrowing resolution bandwidth shows how the instrument broadens a line.[ELEC 332: In the Lab, Part 1, “Initial Configuration”, “Initializing”, “Observing a signal”, “Changing the bandwidth”, “Using the marker” and “Resolving signals”](elec-332-in-the-lab-rice-university.md)
+
+Part 3 uses an SA602 [analog multiplier](analog-multiplier.md) module. The message generator also triggers the [oscilloscope](oscilloscope.md); multiplier output feeds both displays. A no-offset module supplies a suppressed-carrier control. Replacing it with the offset-adding module restores the carrier; varying levels tests [signal distortion](signal-distortion.md). Finally a radio receives the conventional [AM](amplitude-modulation.md) transmission, and varying message [frequency](frequency.md) checks that the heard tone belongs to this source. These are prescribed observations, not reported measurements.[ELEC 332: In the Lab, Part 3, module descriptions and “Connect the components” through “AM transmitter”: input/output connections, offset control, level sweep and receiver check](elec-332-in-the-lab-rice-university.md)
+
+Calibration matters: verify generator voltage at the connected input, distinguish peak from [peak-to-peak amplitude](peak-to-peak-amplitude.md) and [root mean square](root-mean-square.md), and check analyser units and loading before comparing heights with $Am/2$ or [power](power.md) with $A^2m^2/(8R)$. The unmodulated carrier is a reference control. Limited resolution can merge sidebands; generator harmonics can add peaks. Rice explicitly demonstrates both limitations in Part 1.[ELEC 332: In the Lab, Part 1, “Resolving signals”: message-generator harmonic distortion and unresolved sidebands when the message frequency is reduced](elec-332-in-the-lab-rice-university.md)
+
+A complementary University of Kansas procedure, _A.2 - Amplitude Modulation_, calibrates the added carrier and the suppressed-carrier product separately to $4\,\mathrm V$ peak-to-peak before recombining them. It holds the carrier fixed, varies modulation depth, reads envelope extrema and carrier-to-sideband [power](power.md) differences, then connects the demodulator and adjusts its tunable [low-pass filter](low-pass-filter.md) for recovery, comparing the output with the message. These are setup targets and comparison instructions, not measured results.[A.2 - Amplitude Modulation, §§A.2.5–A.2.8, printed pp. A.2.4–A.2.5 (PDF pp. 4–5), Figures A.2.3–A.2.4 and steps A.2.6(iv–xiv), A.2.8(i–vii): separate level calibration, fixed-carrier sweep and demodulation comparison](a-2-amplitude-modulation-university-of-kansas-eecs-562.md)
+
+The inference combines time and [frequency spectrum](frequency-spectrum.md) readouts: correct sideband spacing tests frequency translation, relative heights test modulation depth, and the recovered message tests the detector. Hardware clipping, receiver filtering and [noise](noise-signal-processing.md) can spoil recovery even at $m<1$. Conversely failure of an [envelope detector](envelope-detector.md) at $m>1$ does not demonstrate failure of a synchronized multiplier receiver. The two diagrams above illustrate the stipulated linear model only.
+
+## ↑ Ancestors (3)
+
+1. [Amplitude modulation](amplitude-modulation.md)
+2. [Electrical engineering](electrical-engineering-split.md)
+3. [Codex Wiki](split.md)

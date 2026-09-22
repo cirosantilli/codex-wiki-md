@@ -1,0 +1,43 @@
+# Obstetrics
+
+↑ **Parent:** [Medicine](medicine.md)
+
+**Table of contents**
+
+- [Uterine rupture](uterine-rupture.md)
+- [Caesarean section](caesarean-section.md)
+- [Speculum examination](speculum-examination.md)
+- [Caesarean birth](caesarean-birth.md)
+- [Controlled cord traction](controlled-cord-traction.md)
+- [Third stage of labour](third-stage-of-labour.md)
+- [Pregnancy](pregnancy.md)
+  - [Fetal movement](fetal-movement.md)
+  - [Quickening](quickening.md)
+  - [Ballottement](ballottement.md)
+  - [Hydatidiform mole](hydatidiform-mole.md)
+  - [Ectopic pregnancy](ectopic-pregnancy.md)
+  - [Miscarriage](miscarriage.md)
+  - [Gestational age](gestational-age.md)
+  - [Decidua](decidua.md)
+  - [Placenta](placenta.md)
+    - [Placental tissue](placental-tissue.md)
+    - [Umbilical cord](umbilical-cord.md)
+      - [Wharton's jelly](wharton-s-jelly.md)
+      - [Umbilical vein](umbilical-vein.md)
+      - [Umbilical artery](umbilical-artery.md)
+    - [Succenturiate placental lobe](succenturiate-placental-lobe.md)
+  - [Fetus](fetus.md)
+    - [Vernix caseosa](vernix-caseosa.md)
+- [Postpartum haemorrhage](postpartum-haemorrhage.md)
+- [Placenta accreta spectrum](placenta-accreta-spectrum.md)
+- [Retained placenta](retained-placenta.md)
+- [Antepartum haemorrhage](antepartum-haemorrhage.md)
+  - [Vasa praevia](vasa-praevia.md)
+  - [Placental abruption](placental-abruption.md)
+  - [Placenta praevia](placenta-praevia.md)
+
+## ↑ Ancestors (3)
+
+1. [Medicine](medicine.md)
+2. [Biology](biology-split.md)
+3. [Codex Wiki](split.md)

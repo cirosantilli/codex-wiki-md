@@ -1,0 +1,31 @@
+<h1 id="5/solution">Solution</h1>
+
+↑ **Parent:** [5](../5.md)
+
+**Quiet [breathing](../../../../../pulmonary-ventilation.md) chiefly uses active inspiration and passive expiration; deeper or more forceful [breathing](../../../../../pulmonary-ventilation.md) recruits additional [muscles](../../../../../muscle.md) and changes their coordination.** The vertical, anteroposterior and transverse dimensions of the [thorax](../../../../../thorax.md) can all change, and different patterns need not represent different mechanisms of gas exchange.
+
+The [respiratory diaphragm](../../../../../respiratory-diaphragm.md) is the principal inspiratory [muscle](../../../../../muscle.md). Its contraction lowers and flattens its domes, increases the thoracic vertical dimension and displaces abdominal contents so the relaxed abdominal wall moves outwards. Its lower-[rib](../../../../../rib.md) attachments also contribute to expansion of the costal margin. The [phrenic nerves](../../../../../phrenic-nerve.md), chiefly C3–C5, provide its motor supply. The [external intercostal muscles](../../../../../external-intercostal-muscle.md) elevate and stabilize the [ribs](../../../../../rib.md), while the interchondral or parasternal portions of the [internal intercostal muscles](../../../../../internal-intercostal-muscle.md) also assist inspiration. It would be wrong to give every internal intercostal fibre an exclusively expiratory function.
+
+Elevation of upper [ribs](../../../../../rib.md) and the [sternum](../../../../../sternum.md) increases the anteroposterior dimension, the pump-handle component. Outward movement of the lateral portions of lower [ribs](../../../../../rib.md) increases transverse diameter, the bucket-handle component. These are components of oblique [rib](../../../../../rib.md) rotation rather than two mechanically isolated systems. Abdominal or diaphragmatic [breathing](../../../../../pulmonary-ventilation.md) makes descent of the [respiratory diaphragm](../../../../../respiratory-diaphragm.md) particularly conspicuous; costal [breathing](../../../../../pulmonary-ventilation.md) makes chest-wall expansion more conspicuous. Both contribute in ordinary respiration, with their proportions changing with posture, mechanical loading and individual anatomy.
+
+As the [thorax](../../../../../thorax.md) expands, [pleural pressure](../../../../../pleural-pressure.md) becomes more negative and [transpulmonary pressure](../../../../../transpulmonary-pressure.md) increases. The [lungs](../../../../../lung.md) expand and [alveolar pressure](../../../../../alveolar-pressure.md) briefly falls below [atmospheric pressure](../../../../../atmospheric-pressure.md), admitting air. Relaxation of inspiratory [muscles](../../../../../muscle.md) lets elastic recoil reverse the flow in quiet expiration. The abdominal wall and [respiratory diaphragm](../../../../../respiratory-diaphragm.md) return towards their resting arrangement without requiring active abdominal compression for each quiet breath.[Mechanisms of Breathing; Pulmonary Ventilation: pressure changes and inspiratory versus expiratory activity](../../../../../anatomy-and-physiology-2e-by-j-gordon-betts-and-others/22-3-the-process-of-breathing.md)
+
+With deeper inspiration, the [scalene muscles](../../../../../scalene-muscle.md) help stabilize or elevate the upper [ribs](../../../../../rib.md), and the [sternocleidomastoid muscle](../../../../../sternocleidomastoid-muscle.md) can elevate the [sternum](../../../../../sternum.md) when the head is fixed. With the upper limbs or shoulder girdle fixed, [muscles](../../../../../muscle.md) such as [pectoralis minor](../../../../../pectoralis-minor.md) and [serratus anterior](../../../../../serratus-anterior.md) can assist expansion in greater effort. Recruitment is graded; an anatomical list of possible accessory [muscles](../../../../../muscle.md) does not mean all are active in every ordinary breath.
+
+Active expiration uses the [abdominal muscles](../../../../../abdominal-muscle.md), including rectus, oblique and transversus components, to compress the abdominal contents and drive the [respiratory diaphragm](../../../../../respiratory-diaphragm.md) upwards. The interosseous portions of the [internal intercostal muscles](../../../../../internal-intercostal-muscle.md) help depress the [ribs](../../../../../rib.md). This is important in vigorous exercise and expulsive actions. At rest, elasticity supplies much of the expiratory work; during high demand, active [muscle contraction](../../../../../muscle-contraction.md) adds to it.
+
+The observable pattern also changes with the physiological task. Exercise increases breath depth and usually frequency. A sigh is an enlarged inspiration followed by expiration; yawning includes a prolonged deep inspiratory movement. Coughing coordinates an inspiration, closure of the [glottis](../../../../../glottis.md), pressure-generating expiratory effort and sudden glottic opening. Speech imposes a controlled prolonged expiration with laryngeal regulation. Swallowing briefly interrupts ordinary airflow. Thus respiratory observation should include phase, depth, frequency and coordination, not merely count which [ribs](../../../../../rib.md) move. Fixed claims that men must breathe abdominally and women must breathe costally overstate a variable tendency. Pregnancy or a change of posture can alter mechanical contributions without replacing the basic pressure mechanism.
+
+## ↑ Ancestors (11)
+
+1. [5](../5.md)
+2. [Anatomy and physiology](../../anatomy-and-physiology-split.md)
+3. [First examination](../../split.md)
+4. [1865](../../../split.md)
+5. [Past exam of the medicine course of the University of Oxford](../../../../split.md)
+6. [Medicine course of the University of Oxford](../../../../../medicine-course-of-the-university-of-oxford.md)
+7. [Undergraduate course of the University of Oxford](../../../../../undergraduate-course-of-the-university-of-oxford.md)
+8. [Course of the University of Oxford](../../../../../course-of-the-university-of-oxford.md)
+9. [University of Oxford](../../../../../university-of-oxford-split.md)
+10. [List of universities](../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../split.md)

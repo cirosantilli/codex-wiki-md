@@ -1,0 +1,32 @@
+# Reynolds pipe-and-dye experiment
+
+↑ **Parent:** [Laminar flow](laminar-flow.md)
+
+In his 1883 paper, Osborne Reynolds investigated how the character of [pipe flow](pipe-flow.md) depends jointly on [velocity](velocity.md), pipe diameter and [viscosity](dynamic-viscosity-split.md). His final dye apparatus drew water from a large glass tank through a horizontal glass tube with a smooth trumpet-shaped entrance. A separate reservoir supplied strongly colored water just upstream of the entrance; a valve below the tank controlled the outflow. The glass tube was immersed in the tank, so its internal dye band could be watched. Reynolds repeated the trials with different tube diameters and water [temperatures](temperature-split.md). [Osborne Reynolds (1883), sections 11 and 21–22, pp. 941–943 and 951–953](https://archive.org/stream/philtrans06508925/06508925_djvu.txt)
+
+<a id="image-reynolds-pipe-and-dye-experiment-observe-the-dye-while-measuring-discharge-and-temperature"></a>
+![](reynolds-pipe-dye-apparatus.png)
+
+**[Figure 2](#image-reynolds-pipe-and-dye-experiment-observe-the-dye-while-measuring-discharge-and-temperature). Reynolds' pipe-and-dye experiment: observe the dye while measuring discharge and temperature**. Original schematic of the historical operating principle, not a scale reconstruction. A falling tank level determines discharged volume; timing it gives flow rate. The lower dye patterns are conceptual sketches of a coherent band and irregular spreading, not measured trajectories or concentration records.
+
+The [volumetric flow rate](volumetric-flow-rate.md) was measured independently of the appearance of the dye. Reynolds timed a one-inch fall of the tank's water level, corresponding to a calibrated discharged [volume](volume.md). In modern notation, if this volume is $V$ and the elapsed time is $\Delta t$, then $Q=V/\Delta t$ and $U=4V/(\pi D^2\Delta t)$. He determined the glass tubes' internal diameters by filling them with water. For a uniform bore, a known filled length $\ell$ and measured water [volume](volume.md) $V_{\rm tube}$ determine $D=\sqrt{4V_{\rm tube}/(\pi\ell)}$; checking bore uniformity matters because the same [volume](volume.md) would only give an average cross-section in a tapered tube. Thermometers at different tank levels checked both the [temperature](temperature-split.md) and its uniformity. Reynolds compared the [viscosity](dynamic-viscosity-split.md) at different [temperatures](temperature-split.md) using Poiseuille's results and checked his own water by separate experiments of that type. Thus the [Reynolds number](reynolds-number.md) estimate did not come from judging the dye band or from assuming that transition occurred at a preset value. [Osborne Reynolds (1883), sections 21–22 and the reductions following Table I, pp. 951–955](https://archive.org/stream/philtrans06508925/06508925_djvu.txt)
+
+A practical repetition can instead collect a known outflow [volume](volume.md) in a measuring vessel and time its collection, or weigh the collected water and divide its [mass](mass.md) by [mass density](density.md). Measure the internal diameter, rather than the external diameter, and obtain [kinematic viscosity](kinematic-viscosity.md) at the measured water [temperature](temperature-split.md) from independently established properties or a separate [viscosity](dynamic-viscosity-split.md) measurement. Record the dye appearance and observation position alongside $Q$, $D$, [temperature](temperature-split.md) and the resulting [Reynolds number](reynolds-number.md). These are alternative measurement procedures following $Q=V/\Delta t$, not additional historical claims about Reynolds' dye apparatus.
+
+Begin with settled water and a small dye supply, then open the outlet valve in small steps. Reynolds saw a thin straight band at sufficiently low speeds. With a tank that had not fully settled, the band could wander while retaining its coherence. At higher discharge it could abruptly spread into the surrounding water downstream of the entrance. Short illumination by an electric spark resolved curls within what otherwise looked like a colored cloud. This connected the visible breakup with internal irregular motion rather than merely the appearance of an opaque pipe. [Osborne Reynolds (1883), sections 11 and 22, pp. 942 and 951–952](https://archive.org/stream/philtrans06508925/06508925_djvu.txt)
+
+The controls are part of the result. Reynolds used a smooth entrance and let the tank rest to reduce inlet disturbances. He found that a heated tank could retain slow circulation as it cooled, so measuring one [temperature](temperature-split.md) was insufficient: thermal uniformity and residual motion also mattered. His wire-coil trial broke up the band below the previous onset speed, but he explicitly cautioned that once the dye was mixed he could not tell from that dye alone whether the motion became orderly again farther along the tube. In a repetition, keep the dye supply small enough to act approximately as a [passive scalar](passive-scalar.md), avoid a strong injection jet, and record the inlet condition and downstream observation distance. If also testing the [Hagen-Poiseuille equation](hagen-poiseuille-equation.md), allow the profile to develop and measure [pressure](pressure-split.md) drop between positions within the developed region; do not treat the entrance and outlet losses as part of its uniform [pressure gradient](pressure-gradient.md). The dye experiment by itself does not establish [fully developed flow](fully-developed-flow.md). [Osborne Reynolds (1883), sections 21–23 and 26, pp. 951–956 and 959](https://archive.org/stream/philtrans06508925/06508925_djvu.txt)
+
+The experiment's usefulness is that it compares a visible change in the motion with independently measured scales. Repeating it with several diameters and [temperatures](temperature-split.md), while controlling disturbances, tests the organizing role of the [Reynolds number](reynolds-number.md). Its limitations are equally instructive: dye is a tracer of transport, [diffusion](diffusion.md) still acts in [laminar flow](laminar-flow.md), and a local dye observation cannot by itself prove that [turbulence](turbulence-split.md) persists throughout an arbitrarily long pipe.
+
+## ↑ Ancestors (5)
+
+1. [Laminar flow](laminar-flow.md)
+2. [Fluid mechanics](fluid-mechanics-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (1)
+
+- [Laminar flow](laminar-flow.md)

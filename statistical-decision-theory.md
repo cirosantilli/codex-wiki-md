@@ -1,0 +1,62 @@
+# Statistical decision theory
+
+↑ **Parent:** [Statistical inference](statistical-inference-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Statistical_decision_theory)
+
+Statistical decision theory compares decision rules through the expected loss they incur under each parameter value.
+
+**Table of contents**
+
+- [Statistical invariance principle](statistical-invariance-principle.md)
+- [Cost-effectiveness analysis](cost-effectiveness-analysis.md)
+  - [Incremental net monetary benefit](incremental-net-monetary-benefit.md)
+    - [Cost-effectiveness acceptability curve](cost-effectiveness-acceptability-curve.md)
+  - [Cost-effectiveness plane](cost-effectiveness-plane.md)
+  - [Incremental cost-effectiveness ratio](incremental-cost-effectiveness-ratio.md)
+- [Bayesian decision problem](bayesian-decision-problem.md)
+- [Decision rule](decision-rule.md)
+- [Absolute-error loss](absolute-error-loss.md)
+  - [Asymmetric absolute-error loss](asymmetric-absolute-error-loss.md)
+    - [Bayes quantile under asymmetric absolute-error loss](bayes-quantile-under-asymmetric-absolute-error-loss.md)
+- [Squared-error loss](squared-error-loss.md)
+  - [Quadratic risk](quadratic-risk.md)
+    - [Mean-vector prediction risk](mean-vector-prediction-risk.md)
+      - [Unbiased Gaussian projection risk estimate](unbiased-gaussian-projection-risk-estimate.md)
+        - [Unknown-variance risk estimation in a saturated Gaussian model](unknown-variance-risk-estimation-in-a-saturated-gaussian-model.md)
+- [Le Cam two-point lemma](le-cam-two-point-lemma.md)
+  - [Metric two-point risk bound](metric-two-point-risk-bound.md)
+  - [Metric squared-loss two-point bound](metric-squared-loss-two-point-bound.md)
+    - [Mean-estimation minimax lower bound for continuous densities](mean-estimation-minimax-lower-bound-for-continuous-densities.md)
+  - [Chi-squared testing lower bound](chi-squared-testing-lower-bound.md)
+  - [Le Cam lower bound under absolute-error loss](le-cam-lower-bound-under-absolute-error-loss.md)
+    - [Gaussian location minimax lower bound under absolute-error loss](gaussian-location-minimax-lower-bound-under-absolute-error-loss.md)
+  - [Two-point lower bound with a triangular bump](two-point-lower-bound-with-a-triangular-bump.md)
+- [Bayes classifier](bayes-classifier.md)
+  - [Cost-sensitive Bayes classifier](cost-sensitive-bayes-classifier.md)
+  - [Minimum-integral decision region](minimum-integral-decision-region.md)
+  - [Gaussian Bayes classifier](gaussian-bayes-classifier.md)
+    - [Prior-dependent Gaussian discriminant boundary](prior-dependent-gaussian-discriminant-boundary.md)
+    - [Equal-covariance Gaussian classification error](equal-covariance-gaussian-classification-error.md)
+  - [Uniqueness of a Bayes classifier](uniqueness-of-a-bayes-classifier.md)
+- [Risk of a decision rule](risk-of-a-decision-rule.md)
+- [Bayes risk](bayes-risk.md)
+  - [Bayes act](bayes-act.md)
+    - [Highest density region](highest-density-region.md)
+  - [Least favorable prior](least-favorable-prior.md)
+- [Minimax decision rule](minimax-decision-rule.md)
+  - [Equalizer rule](equalizer-rule.md)
+    - [Minimax Gaussian Bayes classifier from equal class errors](minimax-gaussian-bayes-classifier-from-equal-class-errors.md)
+  - [Constant-risk limit-of-Bayes-risk criterion](constant-risk-limit-of-bayes-risk-criterion.md)
+  - [Minimax sample mean for a nonnegative normal location](minimax-sample-mean-for-a-nonnegative-normal-location.md)
+
+## ↑ Ancestors (5)
+
+1. [Statistical inference](statistical-inference-split.md)
+2. [Probability and statistics](probability-and-statistics-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (1)
+
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-42/6/v/solution.md)

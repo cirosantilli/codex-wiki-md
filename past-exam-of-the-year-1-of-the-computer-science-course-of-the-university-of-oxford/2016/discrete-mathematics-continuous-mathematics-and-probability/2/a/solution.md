@@ -1,0 +1,24 @@
+<h1 id="2/a/solution">Solution</h1>
+
+↑ **Parent:** [A](../a.md)
+
+Count pairs $(M,K)$ of [subsets](../../../../../subset.md) of an $n$-element candidate [set](../../../../../set-split.md) with $K\subseteq M$, $|M|=m$, and $|K|=k$. Choosing the whole team $M$ first and then the special-role players $K$ gives $\binom nm\binom mk$. Alternatively choose $K$ first, then choose the other $m-k$ players from the $n-k$ candidates outside $K$, giving $\binom nk\binom{n-k}{m-k}$. Each construction specifies the same pair uniquely. Thus [double counting](../../../../../double-counting-proof-technique.md) proves
+
+$$
+\boxed{\binom nm\binom mk=\binom nk\binom{n-k}{m-k}.}
+$$
+
+## ↑ Ancestors (12)
+
+1. [A](../a.md)
+2. [2](../../2.md)
+3. [Discrete mathematics, continuous mathematics and probability](../../../discrete-mathematics-continuous-mathematics-and-probability-split.md)
+4. [2016](../../../split.md)
+5. [Past exam of the year 1 of the computer science course of the University of Oxford](../../../../split.md)
+6. [Year 1 of the computer science course of the University of Oxford](../../../../../year-1-of-the-computer-science-course-of-the-university-of-oxford.md)
+7. [Computer science course of the University of Oxford](../../../../../computer-science-course-of-the-university-of-oxford.md)
+8. [Undergraduate course of the University of Oxford](../../../../../undergraduate-course-of-the-university-of-oxford.md)
+9. [Course of the University of Oxford](../../../../../course-of-the-university-of-oxford.md)
+10. [University of Oxford](../../../../../university-of-oxford-split.md)
+11. [List of universities](../../../../../list-of-universities.md)
+12. [Codex Wiki](../../../../../split.md)

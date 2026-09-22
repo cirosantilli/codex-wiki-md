@@ -1,0 +1,62 @@
+# Orthonormal set
+
+↑ **Parent:** [Inner product](inner-product-split.md)
+
+An [orthonormal set](orthonormal-set.md) consists of [vectors](vector.md) that have [norm](norm.md) one and are pairwise [orthogonal](orthogonal-vectors.md). Its [Gram matrix](gram-matrix.md) is the [identity matrix](identity-matrix.md).
+
+**Table of contents**
+
+- [Matrix with orthonormal columns](matrix-with-orthonormal-columns.md)
+- [Orthonormal basis](orthonormal-basis.md)
+  - [Completeness of an orthonormal system](completeness-of-an-orthonormal-system.md)
+  - [Orthonormal coordinates](orthonormal-coordinates.md)
+  - [Resolution of the identity](resolution-of-the-identity.md)
+  - [Resolution of the identity in an orthonormal basis](resolution-of-the-identity-in-an-orthonormal-basis.md)
+
+## ↑ Ancestors (6)
+
+1. [Inner product](inner-product-split.md)
+2. [Linear algebra](linear-algebra-split.md)
+3. [Algebra](algebra-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (36)
+
+- [Completeness of an orthonormal system](completeness-of-an-orthonormal-system.md)
+- [Cosine-sine decomposition](cosine-sine-decomposition.md)
+- [Countability of elastic eigenfrequencies](countability-of-elastic-eigenfrequencies.md)
+- [Finite-rank projection kernel](finite-rank-projection-kernel.md)
+- [Gram-Schmidt process](gram-schmidt-process.md)
+- [Matrix with orthonormal columns](matrix-with-orthonormal-columns.md)
+- [Mean-square completion of trigonometric polynomials](mean-square-completion-of-trigonometric-polynomials.md)
+- [Normalization of the ordinary Laguerre polynomials](normalization-of-the-ordinary-laguerre-polynomials.md)
+- [Normalized sample principal component](normalized-sample-principal-component.md)
+- [Orthogonal polynomial](orthogonal-polynomial-split.md)
+- [Orthogonal polynomial projection kernel](orthogonal-polynomial-projection-kernel.md)
+- [Orthogonal projection matrix](orthogonal-projection-matrix.md)
+- [Orthonormal basis](orthonormal-basis.md)
+- [Orthonormal set](orthonormal-set.md)
+- [Solution](past-exam-of-the-algebra-and-analysis-ii-for-mathematics-and-philosophy-course-of-the-university-of-oxford/2013/2/a/solution.md)
+- [Solution](past-exam-of-the-chemistry-course-of-the-year-3-of-the-natural-sciences-course-of-the-university-of-cambridge/2022/paper-2b/section-b/33/b/solution.md)
+- [Solution](past-exam-of-the-computer-science-course-of-the-university-of-oxford/2020/quantum-information/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematical-methods-i-course-of-the-university-of-oxford/2018/10/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ib/paper-1/15g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-82/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-31/1/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-5/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-323/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-323/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-1/29j/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-3/15c/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-326/4/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-324/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-oxford/2015/prelims/mathematics-i/4/b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-oxford/2015/prelims/mathematics-i/4/c/i/solution.md)
+- [Solution](past-exam-of-the-numerical-linear-algebra-course-of-the-university-of-oxford/2025/1/a/iii/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2010/paper-2a/section-d/d17/d/solution.md)
+- [Solution](past-exam-of-the-random-matrix-theory-course-of-the-university-of-oxford/2025/2/b/ii/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2019/digital-systems-linear-algebra-introduction-to-formal-proof/5/f/i/solution.md)
+- [Ridge regression](ridge-regression.md)
+- [Sum of mutually orthogonal projectors](sum-of-mutually-orthogonal-projectors.md)

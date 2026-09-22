@@ -1,0 +1,32 @@
+# Calling convention
+
+↑ **Parent:** [Assembly language](assembly-language.md)
+
+The agreement between a caller and a subroutine on argument and result placement, [processor register](processor-register.md) preservation, and [call stack](call-stack.md) organization. [Callee-saved registers](callee-saved-register.md) retain their incoming values across a call; [caller-saved registers](caller-saved-register.md) must be saved by the caller if their values are still needed afterwards.
+
+**Table of contents**
+
+- [Return value](return-value.md)
+- [Return address](return-address.md)
+- [AAPCS32](aapcs32.md)
+- [Caller-saved register](caller-saved-register.md)
+- [Callee-saved register](callee-saved-register.md)
+
+## ↑ Ancestors (4)
+
+1. [Assembly language](assembly-language.md)
+2. [Programming language](programming-language-split.md)
+3. [Computer science](computer-science-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (9)
+
+- [AAPCS32](aapcs32.md)
+- [ARM architecture family](arm-architecture-family.md)
+- [Assembly language](assembly-language.md)
+- [Solution](past-exam-of-the-computer-science-course-of-the-university-of-oxford/2015/compilers/2/b/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2014/digital-systems-linear-algebra-introduction-to-formal-proof/1/c/ii/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2016/digital-systems-linear-algebra-introduction-to-formal-proof/3/a/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2016/digital-systems-linear-algebra-introduction-to-formal-proof/3/c/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2021/digital-systems-linear-algebra-introduction-to-formal-proof/2/b/solution.md)
+- [Return value](return-value.md)

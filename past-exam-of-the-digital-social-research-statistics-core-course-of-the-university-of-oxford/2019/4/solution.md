@@ -1,0 +1,28 @@
+<h1 id="4/solution">Solution</h1>
+
+↑ **Parent:** [4](../4.md)
+
+**There are descriptive ethnic differences in the distribution of technology distrust, but the omnibus evidence is borderline and the unsigned association is small. The printed Pearson test just rejects [independence](../../../independent-random-variables.md) at 5%, while the likelihood-ratio test does not; neither establishes a strong ethnic pattern or a [causal effect](../../../causal-effect.md).**
+
+Read the body [percentages](../../../percentage.md) within each ethnic group. Strong disagreement with the distrust statement occurs among 24.68% of Asian respondents, 10.53% of Black respondents and 13.34% of White respondents. Agreement occurs among 27.27%, 21.05% and 29.37%, respectively. Neutral responses are 20.78%, 26.32% and 19.68%. Thus Asian respondents are especially likely to be in the strongly-disagree category, while Black respondents have the largest neutral share. The [mode](../../../mode-statistics.md) for Black and White respondents is Disagree; Asian respondents have a tie between Disagree and Agree at 21 observations each. The small group totals, 77 and 57, mean that a few observations can materially change the minority-group [percentages](../../../percentage.md).
+
+The [Pearson chi-squared test of independence](../../../pearson-chi-squared-test-of-independence.md) has $X^2\approx12.60265$, $(3-1)(4-1)=6$ [statistical degrees of freedom](../../../statistical-degrees-of-freedom.md) and $p\approx0.049798$. Under its sampling assumptions, this is a nominal rejection at a prespecified 5% [significance level](../../../significance-level.md), but not at 1%. The minimum [expected frequency](../../../expected-frequency.md) is about 7.766, so this particular table has no expected cell below five. The alternative [likelihood-ratio test of independence in a contingency table](../../../likelihood-ratio-test-of-independence-in-a-contingency-table.md) gives $G^2\approx11.52267$ and $p\approx0.0735$, printed as 0.074. These are different test statistics, not contradictory versions of the same calculation. Their different threshold decisions show that the evidence is close enough to the conventional boundary to warrant qualification rather than selection of the more favourable label.
+
+The [generalized phi coefficient](../../../generalized-phi-coefficient.md) is about 0.071, the [contingency coefficient](../../../contingency-coefficient.md) about 0.071 and [Cramér's V](../../../cramer-s-v.md) about 0.051. They indicate a small overall unsigned association. This does not erase the particular descriptive [percentage](../../../percentage.md) differences, and a small [p-value](../../../p-value.md) is not a measure of their substantive size. Conversely, failure of the likelihood-ratio test to reject at 5% is not evidence that every ethnic group has exactly the same population response distribution.
+
+Ethnicity is a [nominal categorical variable](../../../nominal-categorical-variable.md), with no natural rank Asian–Black–White. Therefore the printed [Goodman and Kruskal's gamma](../../../goodman-and-kruskal-s-gamma.md) of 0.079, [Somers' D](../../../somers-d.md) of 0.058, [Kendall's tau-b](../../../kendall-s-tau-b.md) of 0.022 and [Stuart's tau-c](../../../stuart-s-tau-c.md) of 0.009 have no invariant substantive ordinal interpretation here. Permuting the ethnicity labels can change the ordinal pair comparisons without changing the underlying observations or their nominal association. These values are not evidence for an ethnic hierarchy; [Cramér's V](../../../cramer-s-v.md) and the actual within-group [percentages](../../../percentage.md) are appropriate summaries for this question.[GoodmanKruskalGamma and SomersDelta, Details: ordinal-scale requirement](../../../desctools-documentation-for-gamma-somers-d-and-lambda.md)
+
+Both directional values of [Goodman and Kruskal's lambda](../../../goodman-and-kruskal-s-lambda.md) are zero. Knowing ethnicity does not improve the number of correct modal predictions of technology response: Disagree remains a modal category within every ethnic group, including the Asian tie. In the reverse direction, White is the most frequent ethnicity within every technology-response column, so knowing technology does not improve modal ethnicity predictions either. Zero lambda therefore coexists with unequal [conditional distributions](../../../conditional-distribution.md) and a nonzero [Pearson chi-squared statistic](../../../pearson-chi-squared-statistic.md); modal prediction discards changes that do not change the most frequent category. **The supported conclusion is a small, weakly evidenced nominal association, with its descriptive pattern and uncertainty stated explicitly.**
+
+## ↑ Ancestors (10)
+
+1. [4](../4.md)
+2. [2019](../../2019-split.md)
+3. [Past exam of the digital social research: statistics core course of the University of Oxford](../../split.md)
+4. [Digital social research: statistics core course of the University of Oxford](../../../digital-social-research-statistics-core-course-of-the-university-of-oxford.md)
+5. [MSc in social science of the internet course of the University of Oxford](../../../msc-in-social-science-of-the-internet-course-of-the-university-of-oxford.md)
+6. [Master's course of the University of Oxford](../../../master-s-course-of-the-university-of-oxford.md)
+7. [Course of the University of Oxford](../../../course-of-the-university-of-oxford.md)
+8. [University of Oxford](../../../university-of-oxford-split.md)
+9. [List of universities](../../../list-of-universities.md)
+10. [Codex Wiki](../../../split.md)

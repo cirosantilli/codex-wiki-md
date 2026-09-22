@@ -1,0 +1,57 @@
+# 2021
+
+↑ **Parent:** [Past exam of the symmetry and relativity course of the University of Oxford](split.md)
+
+Source: [https://www.whatdotheyknow.com/request/oxford_physics_past_papers_2/response/2340696/attach/9/Physics%20Papers%202020.pdf?cookie_passthrough=1](https://www.whatdotheyknow.com/request/oxford_physics_past_papers_2/response/2340696/attach/9/Physics%20Papers%202020.pdf?cookie_passthrough=1)
+
+Source bundle pages 70–73; the cover identifies Trinity Term 2021 despite the attachment filename. Use coordinates $x^\mu=(ct,x,y,z)$, [metric signature](../metric-signature.md) $(-,+,+,+)$, and $A^\mu=(\phi/c,\mathbf A)$. For the [electromagnetic field tensor](../electromagnetic-field-tensor.md) use $F^{0i}=E_i/c$ and $F^{ij}=\epsilon_{ijk}B_k$. Prescribed external fields are treated classically, neglecting [radiation reaction](../radiation-reaction.md) in the trajectories; [radiation](../radiation.md) losses are computed separately where requested.
+
+**Table of contents**
+
+- [1](2021/1.md)
+  - [a](2021/1/a.md)
+    - [Solution](2021/1/a/solution.md)
+  - [b](2021/1/b.md)
+    - [Solution](2021/1/b/solution.md)
+  - [c](2021/1/c.md)
+    - [Solution](2021/1/c/solution.md)
+  - [d](2021/1/d.md)
+    - [Solution](2021/1/d/solution.md)
+- [2](2021/2.md)
+  - [a](2021/2/a.md)
+    - [Solution](2021/2/a/solution.md)
+  - [b](2021/2/b.md)
+    - [Solution](2021/2/b/solution.md)
+  - [c](2021/2/c.md)
+    - [Solution](2021/2/c/solution.md)
+- [3](2021/3.md)
+  - [a](2021/3/a.md)
+    - [i](2021/3/a/i.md)
+      - [Solution](2021/3/a/i/solution.md)
+    - [ii](2021/3/a/ii.md)
+      - [Solution](2021/3/a/ii/solution.md)
+  - [b](2021/3/b.md)
+    - [Solution](2021/3/b/solution.md)
+  - [c](2021/3/c.md)
+    - [Solution](2021/3/c/solution.md)
+- [4](2021/4.md)
+  - [a](2021/4/a.md)
+    - [Solution](2021/4/a/solution.md)
+  - [b](2021/4/b.md)
+    - [Solution](2021/4/b/solution.md)
+  - [c](2021/4/c.md)
+    - [Solution](2021/4/c/solution.md)
+  - [d](2021/4/d.md)
+    - [Solution](2021/4/d/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Past exam of the symmetry and relativity course of the University of Oxford](split.md)
+2. [Symmetry and relativity course of the University of Oxford](../symmetry-and-relativity-course-of-the-university-of-oxford.md)
+3. [Year 3 of the physics course of the University of Oxford](../year-3-of-the-physics-course-of-the-university-of-oxford.md)
+4. [Physics course of the University of Oxford](../physics-course-of-the-university-of-oxford.md)
+5. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+6. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+7. [University of Oxford](../university-of-oxford-split.md)
+8. [List of universities](../list-of-universities.md)
+9. [Codex Wiki](../split.md)

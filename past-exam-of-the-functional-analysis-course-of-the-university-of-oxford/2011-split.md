@@ -1,0 +1,51 @@
+# 2011
+
+↑ **Parent:** [Past exam of the functional analysis course of the University of Oxford](split.md)
+
+Source release: [Oxford examination archive](https://www.whatdotheyknow.com/request/maths_past_papers_3). The cover dates this examination to 17 June 2011, 9.30–11.00am. The 13 answer parts are solved in source order. The two lettered conditions inside 3(iv) are the two sides of one equivalence.
+
+**Table of contents**
+
+- [1](2011/1.md)
+  - [a](2011/1/a.md)
+    - [i](2011/1/a/i.md)
+      - [Solution](2011/1/a/i/solution.md)
+    - [ii](2011/1/a/ii.md)
+      - [Solution](2011/1/a/ii/solution.md)
+  - [b](2011/1/b.md)
+    - [i](2011/1/b/i.md)
+      - [Solution](2011/1/b/i/solution.md)
+    - [ii](2011/1/b/ii.md)
+      - [Solution](2011/1/b/ii/solution.md)
+- [2](2011/2.md)
+  - [i](2011/2/i.md)
+    - [Solution](2011/2/i/solution.md)
+  - [ii](2011/2/ii.md)
+    - [Solution](2011/2/ii/solution.md)
+  - [iii](2011/2/iii.md)
+    - [Solution](2011/2/iii/solution.md)
+  - [iv](2011/2/iv.md)
+    - [Solution](2011/2/iv/solution.md)
+  - [v](2011/2/v.md)
+    - [Solution](2011/2/v/solution.md)
+- [3](2011/3.md)
+  - [i](2011/3/i.md)
+    - [Solution](2011/3/i/solution.md)
+  - [ii](2011/3/ii.md)
+    - [Solution](2011/3/ii/solution.md)
+  - [iii](2011/3/iii.md)
+    - [Solution](2011/3/iii/solution.md)
+  - [iv](2011/3/iv.md)
+    - [Solution](2011/3/iv/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Past exam of the functional analysis course of the University of Oxford](split.md)
+2. [Functional analysis course of the University of Oxford](../functional-analysis-course-of-the-university-of-oxford.md)
+3. [Year 4 of the mathematics course of the University of Oxford](../year-4-of-the-mathematics-course-of-the-university-of-oxford.md)
+4. [Mathematics course of the University of Oxford](../mathematics-course-of-the-university-of-oxford.md)
+5. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+6. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+7. [University of Oxford](../university-of-oxford-split.md)
+8. [List of universities](../list-of-universities.md)
+9. [Codex Wiki](../split.md)

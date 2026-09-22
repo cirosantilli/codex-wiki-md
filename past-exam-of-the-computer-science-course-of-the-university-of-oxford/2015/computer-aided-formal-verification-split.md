@@ -1,0 +1,52 @@
+# Computer aided formal verification
+
+↑ **Parent:** [2015](split.md)
+
+Solutions to the paper whose cover dates the examination to 6 June 2015, 2:30–4:00 pm. Source: [released examination archive](https://www.whatdotheyknow.com/request/computer_science_past_exam_paper/response/956037/attach/3/Lawrence%20Attachment.zip?cookie_passthrough=1), member `2015-cafv.pdf`. All three questions are covered, although candidates were asked to attempt at most two. In the [binary decision diagrams](../../binary-decision-diagram.md), dashed arrows mean zero and solid arrows mean one. In the [linear temporal logic](../../linear-temporal-logic.md) calculations, $F=\Diamond$, $G=\square$ and $X=\bigcirc$.
+
+**Table of contents**
+
+- [1](computer-aided-formal-verification/1.md)
+  - [a](computer-aided-formal-verification/1/a.md)
+    - [Solution](computer-aided-formal-verification/1/a/solution.md)
+  - [b](computer-aided-formal-verification/1/b.md)
+    - [Solution](computer-aided-formal-verification/1/b/solution.md)
+  - [c](computer-aided-formal-verification/1/c.md)
+    - [Solution](computer-aided-formal-verification/1/c/solution.md)
+  - [d](computer-aided-formal-verification/1/d.md)
+    - [Solution](computer-aided-formal-verification/1/d/solution.md)
+  - [e](computer-aided-formal-verification/1/e.md)
+    - [Solution](computer-aided-formal-verification/1/e/solution.md)
+  - [f](computer-aided-formal-verification/1/f.md)
+    - [Solution](computer-aided-formal-verification/1/f/solution.md)
+- [2](computer-aided-formal-verification/2.md)
+  - [a](computer-aided-formal-verification/2/a.md)
+    - [Solution](computer-aided-formal-verification/2/a/solution.md)
+  - [b](computer-aided-formal-verification/2/b.md)
+    - [Solution](computer-aided-formal-verification/2/b/solution.md)
+  - [c](computer-aided-formal-verification/2/c.md)
+    - [Solution](computer-aided-formal-verification/2/c/solution.md)
+- [3](computer-aided-formal-verification/3.md)
+  - [a](computer-aided-formal-verification/3/a.md)
+    - [Solution](computer-aided-formal-verification/3/a/solution.md)
+  - [b](computer-aided-formal-verification/3/b.md)
+    - [Solution](computer-aided-formal-verification/3/b/solution.md)
+  - [c](computer-aided-formal-verification/3/c.md)
+    - [Solution](computer-aided-formal-verification/3/c/solution.md)
+  - [d](computer-aided-formal-verification/3/d.md)
+    - [Solution](computer-aided-formal-verification/3/d/solution.md)
+  - [e](computer-aided-formal-verification/3/e.md)
+    - [Solution](computer-aided-formal-verification/3/e/solution.md)
+  - [f](computer-aided-formal-verification/3/f.md)
+    - [Solution](computer-aided-formal-verification/3/f/solution.md)
+
+## ↑ Ancestors (8)
+
+1. [2015](split.md)
+2. [Past exam of the computer science course of the University of Oxford](../split.md)
+3. [Computer science course of the University of Oxford](../../computer-science-course-of-the-university-of-oxford.md)
+4. [Undergraduate course of the University of Oxford](../../undergraduate-course-of-the-university-of-oxford.md)
+5. [Course of the University of Oxford](../../course-of-the-university-of-oxford.md)
+6. [University of Oxford](../../university-of-oxford-split.md)
+7. [List of universities](../../list-of-universities.md)
+8. [Codex Wiki](../../split.md)

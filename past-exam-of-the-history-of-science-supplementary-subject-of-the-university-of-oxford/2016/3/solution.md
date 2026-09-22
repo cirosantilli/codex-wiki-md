@@ -1,0 +1,31 @@
+<h1 id="3/solution">Solution</h1>
+
+↑ **Parent:** [3](../3.md)
+
+[Francis Bacon](../../../francis-bacon.md)'s originality lay chiefly in the reconstruction and coordination of inquiry, rather than in the invention of [observation](../../../observation.md) or [experiment](../../../experiment.md). Earlier [natural philosophy](../../../natural-philosophy.md), practical crafts and [natural history](../../../natural-history.md) already contained empirical knowledge. [Aristotle](../../../aristotle.md)'s investigations of nature, for example, cannot be reduced to drawing conclusions from words without reference to living things or physical change. What requires explanation is why [Francis Bacon](../../../francis-bacon.md) thought established practices were failing and what he proposed to alter.
+
+The methodological target was a premature leap from a few familiar cases to very general principles, followed by deductions protected from serious revision. His alternative was a graduated movement from particulars through intermediate generalizations. This was more demanding than collecting favourable examples. Negative and contrasting instances had to constrain the proposed account. The comparison of conditions in which a phenomenon appears, is absent, or varies was intended to exclude unsuitable candidates for its underlying nature.[Book I, aphorisms 19–22; Book II, tables of presence, absence and degrees, followed by exclusion](../../../novum-organum-by-francis-bacon.md)
+
+A useful example is [heat](../../../heat-split.md). Merely finding several hot substances does not establish which property explains their [temperature](../../../temperature-split.md). A candidate property has to survive comparisons with cold cases and with cases where one feature changes while others do not. These requirements point toward a disciplined search for [causal explanation](../../../causal-explanation.md). They should not be equated with a modern randomized trial or with the claim that every successful science follows a single mechanical rule. The construction of the categories and the assessment of a comparison already require judgment. [Francis Bacon](../../../francis-bacon.md)'s preliminary interpretation of [heat](../../../heat-split.md) was an attempt within a particular research programme, not a complete anticipation of present [thermodynamics](../../../thermodynamics-split.md).
+
+He also made intellectual habits part of the problem. His account of the [idols of the mind](../../../idols-of-the-mind.md) directed attention to recurrent distortions associated with human tendencies, individual training, language and accepted systems. This is a programme for correcting inquiry, rather than a story in which the investigator simply empties the mind and thereafter reads facts without interpretation. His comparison of the investigator with a bee, combining collected material with active transformation, is especially awkward for the familiar caricature of Baconian inquiry as indiscriminate fact accumulation.[Book I, aphorisms 38–44 and 95: the idols and the comparison of empirical collection with rational reconstruction](../../../novum-organum-by-francis-bacon.md)
+
+The institutional proposal was equally consequential. [New Atlantis by Francis Bacon](../../../new-atlantis-by-francis-bacon.md) presents organized work distributed among collectors of information, experimenters and interpreters. [Scientific instruments](../../../scientific-instrument.md), gardens, workshops, records and travel supply the material of inquiry. The imagined institution aims at useful operations, not simply the production of elegant arguments. However, it also has an internal hierarchy and controls disclosure. It is not a straightforward prospectus for today's open research university. Its religious language and political organization belong to the vision and must not be removed to turn it into a secular manifesto.[Concluding description of Salomon's House: collections, experimental facilities, offices and decisions about publication](../../../new-atlantis-by-francis-bacon.md)
+
+There are substantial continuities. Craftspeople already altered materials and procedures to obtain desired effects; [natural history](../../../natural-history.md) already collected and compared particulars; learned reformers already criticized authority. There are also distinctions from other contemporary innovators: giving [mathematics](../../../mathematics-split.md) and idealization the central role found in [Galileo Galilei](../../../galileo-galilei.md)'s treatment of [motion](../../../motion.md) was not the same programme as Bacon's organized natural and experimental histories. A history of one uniform seventeenth-century method would lose that difference.
+
+The strongest judgment is that [Francis Bacon](../../../francis-bacon.md) offered a distinctive reform of the scale, discipline, purpose and organization of knowledge. His work combined inherited resources in an ambitious programme which could be used to legitimate later collaborative inquiry. Later invocation of his name, however, does not prove that a particular discovery was produced by following his prescriptions. Originality in proposing a reform, effectiveness of a procedure, and influence of a public ideal are three historical claims requiring different evidence.
+
+## ↑ Ancestors (11)
+
+1. [3](../3.md)
+2. [2016](../../2016-split.md)
+3. [Past exam of the history of science supplementary subject of the University of Oxford](../../split.md)
+4. [History of science supplementary subject of the University of Oxford](../../../history-of-science-supplementary-subject-of-the-university-of-oxford.md)
+5. [Supplementary subject of the physics course of the University of Oxford](../../../supplementary-subject-of-the-physics-course-of-the-university-of-oxford.md)
+6. [Physics course of the University of Oxford](../../../physics-course-of-the-university-of-oxford.md)
+7. [Undergraduate course of the University of Oxford](../../../undergraduate-course-of-the-university-of-oxford.md)
+8. [Course of the University of Oxford](../../../course-of-the-university-of-oxford.md)
+9. [University of Oxford](../../../university-of-oxford-split.md)
+10. [List of universities](../../../list-of-universities.md)
+11. [Codex Wiki](../../../split.md)

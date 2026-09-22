@@ -1,0 +1,28 @@
+# Futures pricing
+
+↑ **Parent:** [Futures contract](futures-contract.md)
+
+With continuous cash settlement and a money-market [risk-neutral measure](risk-neutral-measure.md), discounted futures gains have zero drift; under the necessary true-[martingale](martingale-split.md) [integrability](integrability.md), the futures quote is a [martingale](martingale-split.md) ending at the terminal spot price. The [forward contract](forward-contract.md) discount-weighted [expectation](expected-value-split.md) is a different valuation expression.
+
+**Table of contents**
+
+- [Backwardation](backwardation.md)
+- [Contango](contango.md)
+
+## ↑ Ancestors (8)
+
+1. [Futures contract](futures-contract.md)
+2. [Contingent claim](contingent-claim.md)
+3. [Fundamental theorem of asset pricing](fundamental-theorem-of-asset-pricing-split.md)
+4. [Mathematical finance](mathematical-finance-split.md)
+5. [Mathematical optimization](mathematical-optimization-split.md)
+6. [Area of mathematics](area-of-mathematics.md)
+7. [Mathematics](mathematics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (4)
+
+- [Conditional mean of a log-mean-reverting price](conditional-mean-of-a-log-mean-reverting-price.md)
+- [Futures contract](futures-contract.md)
+- [Solution](past-exam-of-the-mathematical-models-of-financial-derivatives-course-of-the-university-of-oxford/2023/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-43/2/solution.md)

@@ -1,0 +1,62 @@
+# Geological fault
+
+↑ **Parent:** [Plate tectonics](plate-tectonics.md)
+
+A [geological fault](geological-fault.md) is a fracture or fracture zone across which rock has undergone relative displacement. Its local geometry is described by a [fault plane](fault-plane.md), [fault strike](fault-strike.md), [fault dip](fault-dip.md) and [fault rake](fault-rake.md). A locked [fault](geological-fault.md) can store elastic [strain](strain.md) while surrounding rock deforms; some [faults](geological-fault.md) also accommodate displacement by slow creep.
+
+**Table of contents**
+
+- [Fault step-over](fault-step-over.md)
+- [Slickenside](slickenside.md)
+- [Fault zone](fault-zone.md)
+- [Conjugate fault](conjugate-fault.md)
+- [Andersonian faulting regime](andersonian-faulting-regime.md)
+  - [Optimal normal-fault dip relation](optimal-normal-fault-dip-relation.md)
+- [Tension fissure](tension-fissure.md)
+- [Fault rock](fault-rock.md)
+  - [Cataclasite](cataclasite.md)
+  - [Fault breccia](fault-breccia.md)
+- [Faulting](faulting.md)
+- [San Andreas Fault](san-andreas-fault.md)
+- [Fault gouge](fault-gouge.md)
+- [Seattle Fault](seattle-fault.md)
+- [Footwall](footwall.md)
+- [Hanging wall](hanging-wall.md)
+- [Fault scarp](fault-scarp.md)
+  - [Exhumed fault surface](exhumed-fault-surface.md)
+  - [Scarp diffusion model](scarp-diffusion-model.md)
+- [Fault displacement-length scaling](fault-displacement-length-scaling.md)
+- [Strike-slip fault](strike-slip-fault.md)
+- [Dip-slip faulting](dip-slip-faulting.md)
+  - [Reverse faulting](reverse-faulting.md)
+    - [Reverse fault](reverse-fault.md)
+    - [Thrust fault](thrust-fault.md)
+      - [Décollement](decollement.md)
+      - [Megathrust](megathrust.md)
+      - [Backthrust](backthrust.md)
+    - [Blind reverse fault](blind-reverse-fault.md)
+  - [Normal faulting](normal-faulting.md)
+    - [Relay ramp](relay-ramp.md)
+    - [Graben](graben.md)
+    - [Normal fault](normal-fault.md)
+      - [Detachment fault](detachment-fault.md)
+- [Oblique-slip faulting](oblique-slip-faulting.md)
+  - [Transpression](transpression.md)
+- [Strike-slip faulting](strike-slip-faulting.md)
+  - [Right-lateral strike-slip faulting](right-lateral-strike-slip-faulting.md)
+  - [Left-lateral strike-slip faulting](left-lateral-strike-slip-faulting.md)
+
+## ↑ Ancestors (7)
+
+1. [Plate tectonics](plate-tectonics.md)
+2. [Mantle convection](mantle-convection.md)
+3. [Solid Earth](solid-earth.md)
+4. [Geophysics](geophysics-split.md)
+5. [Branches of physics](branches-of-physics.md)
+6. [Physics](physics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (2)
+
+- [Faulting](faulting.md)
+- [Geological fault](geological-fault.md)

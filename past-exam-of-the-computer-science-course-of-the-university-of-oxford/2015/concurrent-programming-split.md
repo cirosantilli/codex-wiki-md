@@ -1,0 +1,51 @@
+# Concurrent programming
+
+↑ **Parent:** [2015](split.md)
+
+Solutions to all three questions of the paper dated 2 June 2015.[Cover and pp. 2–6, A12069W1](../../oxford-concurrent-programming-examination-paper-2015.md) The [Scala](../../scala.md) fragments use [Communicating Scala Objects](../../communicating-scala-objects.md) notation: `proc` constructs a process, `p()` runs it, and `||` runs its components concurrently and waits for all of them. Inputs and outputs below are reliable and ordered; timing and scheduling assumptions are stated where needed.
+
+**Table of contents**
+
+- [1](concurrent-programming/1.md)
+  - [a](concurrent-programming/1/a.md)
+    - [Solution](concurrent-programming/1/a/solution.md)
+  - [b](concurrent-programming/1/b.md)
+    - [Solution](concurrent-programming/1/b/solution.md)
+  - [c](concurrent-programming/1/c.md)
+    - [Solution](concurrent-programming/1/c/solution.md)
+  - [d](concurrent-programming/1/d.md)
+    - [Solution](concurrent-programming/1/d/solution.md)
+  - [e](concurrent-programming/1/e.md)
+    - [Solution](concurrent-programming/1/e/solution.md)
+- [2](concurrent-programming/2.md)
+  - [a](concurrent-programming/2/a.md)
+    - [i](concurrent-programming/2/a/i.md)
+      - [Solution](concurrent-programming/2/a/i/solution.md)
+    - [ii](concurrent-programming/2/a/ii.md)
+      - [Solution](concurrent-programming/2/a/ii/solution.md)
+  - [b](concurrent-programming/2/b.md)
+    - [i](concurrent-programming/2/b/i.md)
+      - [Solution](concurrent-programming/2/b/i/solution.md)
+    - [ii](concurrent-programming/2/b/ii.md)
+      - [Solution](concurrent-programming/2/b/ii/solution.md)
+- [3](concurrent-programming/3.md)
+  - [a](concurrent-programming/3/a.md)
+    - [Solution](concurrent-programming/3/a/solution.md)
+  - [b](concurrent-programming/3/b.md)
+    - [i](concurrent-programming/3/b/i.md)
+      - [Solution](concurrent-programming/3/b/i/solution.md)
+    - [ii](concurrent-programming/3/b/ii.md)
+      - [Solution](concurrent-programming/3/b/ii/solution.md)
+    - [iii](concurrent-programming/3/b/iii.md)
+      - [Solution](concurrent-programming/3/b/iii/solution.md)
+
+## ↑ Ancestors (8)
+
+1. [2015](split.md)
+2. [Past exam of the computer science course of the University of Oxford](../split.md)
+3. [Computer science course of the University of Oxford](../../computer-science-course-of-the-university-of-oxford.md)
+4. [Undergraduate course of the University of Oxford](../../undergraduate-course-of-the-university-of-oxford.md)
+5. [Course of the University of Oxford](../../course-of-the-university-of-oxford.md)
+6. [University of Oxford](../../university-of-oxford-split.md)
+7. [List of universities](../../list-of-universities.md)
+8. [Codex Wiki](../../split.md)

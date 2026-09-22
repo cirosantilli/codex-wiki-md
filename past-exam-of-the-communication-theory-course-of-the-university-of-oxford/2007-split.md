@@ -1,0 +1,52 @@
+# 2007
+
+↑ **Parent:** [Past exam of the communication Theory course of the University of Oxford](split.md)
+
+Communication Theory, Mathematics Part B and the Mathematics and Philosophy and Mathematics and Statistics joint schools; Thursday 14 June 2007, 9.30am–11.15am. The complete four-page source is privately transcribed from original Part B bundle pages 61–64, supplied through [the past-papers disclosure](https://www.whatdotheyknow.com/request/maths_past_papers_3). No exact worked-answer advertisement was found in the bounded availability check. Source coding uses the positive-probability source support. Logarithms and information quantities are in base two unless indicated otherwise.
+
+**Table of contents**
+
+- [1](2007/1.md)
+  - [a](2007/1/a.md)
+    - [Solution](2007/1/a/solution.md)
+  - [b](2007/1/b.md)
+    - [Solution](2007/1/b/solution.md)
+  - [c](2007/1/c.md)
+    - [Solution](2007/1/c/solution.md)
+- [2](2007/2.md)
+  - [a](2007/2/a.md)
+    - [Solution](2007/2/a/solution.md)
+  - [b](2007/2/b.md)
+    - [Solution](2007/2/b/solution.md)
+  - [c](2007/2/c.md)
+    - [Solution](2007/2/c/solution.md)
+- [3](2007/3.md)
+  - [a](2007/3/a.md)
+    - [Solution](2007/3/a/solution.md)
+  - [b](2007/3/b.md)
+    - [Solution](2007/3/b/solution.md)
+  - [c](2007/3/c.md)
+    - [Solution](2007/3/c/solution.md)
+- [4](2007/4.md)
+  - [a](2007/4/a.md)
+    - [i](2007/4/a/i.md)
+      - [Solution](2007/4/a/i/solution.md)
+    - [ii](2007/4/a/ii.md)
+      - [Solution](2007/4/a/ii/solution.md)
+    - [iii](2007/4/a/iii.md)
+      - [Solution](2007/4/a/iii/solution.md)
+    - [Solution](2007/4/a/solution.md)
+  - [b](2007/4/b.md)
+    - [Solution](2007/4/b/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Past exam of the communication Theory course of the University of Oxford](split.md)
+2. [Communication Theory course of the University of Oxford](../communication-theory-course-of-the-university-of-oxford.md)
+3. [Year 3 of the mathematics course of the University of Oxford](../year-3-of-the-mathematics-course-of-the-university-of-oxford.md)
+4. [Mathematics course of the University of Oxford](../mathematics-course-of-the-university-of-oxford.md)
+5. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+6. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+7. [University of Oxford](../university-of-oxford-split.md)
+8. [List of universities](../list-of-universities.md)
+9. [Codex Wiki](../split.md)

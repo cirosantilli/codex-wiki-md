@@ -1,0 +1,61 @@
+# Parton distribution function
+
+↑ **Parent:** [Parton model](parton-model.md)
+
+A density of [partons](parton.md) with a given flavour and momentum fraction at a specified [parton factorization scale](parton-factorization-scale.md). It is a number density, not generally a distribution normalized to one.
+
+**Table of contents**
+
+- [Nuclear parton distribution function](nuclear-parton-distribution-function.md)
+- [Parton momentum fraction](parton-momentum-fraction.md)
+- [Valence and sea decomposition of proton-antiproton W production](valence-and-sea-decomposition-of-proton-antiproton-w-production.md)
+- [Charge symmetry of nucleon parton distributions](charge-symmetry-of-nucleon-parton-distributions.md)
+- [Quark number sum rule](quark-number-sum-rule.md)
+  - [Valence-only proton and neutron structure-function moments](valence-only-proton-and-neutron-structure-function-moments.md)
+- [Parton factorization scale](parton-factorization-scale.md)
+
+## ↑ Ancestors (8)
+
+1. [Parton model](parton-model.md)
+2. [Parton](parton.md)
+3. [Quantum chromodynamics](quantum-chromodynamics.md)
+4. [Standard Model](standard-model-split.md)
+5. [Quantum field theory](quantum-field-theory-split.md)
+6. [Branches of physics](branches-of-physics.md)
+7. [Physics](physics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (32)
+
+- [Charge symmetry of nucleon parton distributions](charge-symmetry-of-nucleon-parton-distributions.md)
+- [Deep inelastic scattering](deep-inelastic-scattering.md)
+- [From deep inelastic scaling to asymptotic freedom](from-deep-inelastic-scaling-to-asymptotic-freedom.md)
+- [Isoscalar target](isoscalar-target.md)
+- [Neutrino scattering on an antiquark](neutrino-scattering-on-an-antiquark.md)
+- [Parton factorization scale](parton-factorization-scale.md)
+- [Parton momentum fraction](parton-momentum-fraction.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-63/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-45/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-305/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-305/4/c/ii/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2017/2/b/solution.md)
+- [Solution](past-exam-of-the-particle-and-nuclear-physics-course-of-the-university-of-cambridge/2017/2/c/solution.md)
+- [Solution](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2015/1/b/solution.md)
+- [Solution](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2016/1/1/solution.md)
+- [Solution](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2016/1/2/solution.md)
+- [Solution](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2016/1/3/solution.md)
+- [Solution](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2017/5/b/solution.md)
+- [Solution](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2017/5/c/solution.md)
+- [Solution](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2018/2/a/solution.md)
+- [Solution](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2018/2/c/solution.md)
+- [Solution](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2018/2/d/solution.md)
+- [Solution](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2019/6/a/solution.md)
+- [Solution](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2019/6/c/solution.md)
+- [Structure functions by Particle Data Group (2024)](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2019/sources/structure-functions-by-particle-data-group-2024.md)
+- [Solution](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2021/2/e/solution.md)
+- [Solution](past-exam-of-the-sub-atomic-physics-course-of-the-university-of-oxford/2016/4/d/solution.md)
+- [QCD scaling violation](qcd-scaling-violation.md)
+- [Quark number sum rule](quark-number-sum-rule.md)
+- [Scaling violation](scaling-violation.md)
+- [Sea quark](sea-quark.md)
+- [Structure-function scaling versus elastic suppression](structure-function-scaling-versus-elastic-suppression.md)

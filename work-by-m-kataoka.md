@@ -1,0 +1,16 @@
+# Work by M. Kataoka
+
+↑ **Parent:** [M. Kataoka](m-kataoka.md)
+
+## 🏷️ Tagged (1)
+
+- [Coulomb blockade of tunnelling through compressible rings formed around an antidot by M. Kataoka and others](coulomb-blockade-of-tunnelling-through-compressible-rings-formed-around-an-antidot-by-m-kataoka-and-others.md)
+
+## ↑ Ancestors (6)
+
+1. [M. Kataoka](m-kataoka.md)
+2. [Condensed matter physicist](condensed-matter-physicist-split.md)
+3. [Condensed matter physics](condensed-matter-physics.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)

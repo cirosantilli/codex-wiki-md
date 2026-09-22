@@ -1,0 +1,39 @@
+<h1 id="k/k2/solution">Solution</h1>
+
+↑ **Parent:** [K2](../k2.md)
+
+For $k>0$, try
+
+$$
+\eta=A\cos(kx-\omega t),\qquad
+\phi=B\cosh(k(y+h))\sin(kx-\omega t).
+$$
+
+The potential satisfies Laplace's equation, and its derivative with respect to $y$ vanishes at $y=-h$. The surface kinematic condition gives
+
+$$
+Bk\sinh(kh)=A\omega.
+$$
+
+The dynamic condition gives $-B\omega\cosh(kh)+gA=0$. Eliminating the nonzero amplitudes yields
+
+$$
+\boxed{\omega^2=gk\tanh(kh).}
+$$
+
+Thus choosing either frequency sign satisfying this relation and $B=A\omega/(k\sinh(kh))$ produces the required harmonic wave.
+
+## ↑ Ancestors (12)
+
+1. [K2](../k2.md)
+2. [K](../../k.md)
+3. [2010](../../../2010-split.md)
+4. [Past exam of the options I course of the University of Oxford](../../../split.md)
+5. [Options I course of the University of Oxford](../../../../options-i-course-of-the-university-of-oxford.md)
+6. [Year 2 of the mathematics course of the University of Oxford](../../../../year-2-of-the-mathematics-course-of-the-university-of-oxford.md)
+7. [Mathematics course of the University of Oxford](../../../../mathematics-course-of-the-university-of-oxford.md)
+8. [Undergraduate course of the University of Oxford](../../../../undergraduate-course-of-the-university-of-oxford.md)
+9. [Course of the University of Oxford](../../../../course-of-the-university-of-oxford.md)
+10. [University of Oxford](../../../../university-of-oxford-split.md)
+11. [List of universities](../../../../list-of-universities.md)
+12. [Codex Wiki](../../../../split.md)

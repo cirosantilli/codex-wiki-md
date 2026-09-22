@@ -1,0 +1,25 @@
+<h1 id="4/solution">Solution</h1>
+
+↑ **Parent:** [4](../4.md)
+
+**Seek and control the infective source, drain accessible collections, support failing organs, and recognise that established [pyaemia](../../../../../pyemia.md) had a very poor outlook before effective [antibiotics](../../../../../antibiotic.md).** The historical term commonly described severe systemic illness, often after a wound or operation, with recurrent rigors and secondary [abscesses](../../../../../abscess.md). Modern explanations include [bacteraemia](../../../../../bacteraemia.md), an infected [thrombus](../../../../../thrombus.md) producing [septic embolism](../../../../../septic-embolism.md), and [metastatic infection](../../../../../metastatic-infection.md). It is misleading to reduce the condition to an inert quantity of [pus](../../../../../pus.md) freely floating through the [blood](../../../../../blood.md).
+
+In the 1864 setting, examine the original wound and any painful swollen region for retained infected material, an undrained [abscess](../../../../../abscess.md), dead tissue or obstructed drainage. An accessible collection calls for surgical drainage; a superficially healed wound should not conceal an undrained deeper focus. Remove obvious sources of continuing contamination, provide careful dressings, cleanliness, ventilation, nursing and tolerable nourishment, and relieve [pain](../../../../../pain.md). Period practice used [quinine](../../../../../quinine.md) and alcoholic stimulants as supportive remedies. A surgical report covering July 1863 to October 1864 records these measures in the Royal Infirmary; its publication in 1865 documents the period rather than supplying an Oxford model answer.[p. 111: wound cleanliness, local applications and quinine and stimulants in pyaemia](../../../../../royal-infirmary-surgical-ward-report-1863-1864.md) Such measures did not reliably sterilise the [blood](../../../../../blood.md) or inaccessible secondary [abscesses](../../../../../abscess.md). Neither repeated purging nor [bloodletting](../../../../../bloodletting.md) has a sound role in an already depleted, seriously infected person. Later organised surgical [antisepsis](../../../../../antisepsis.md) should not be presented as an established system available at this examination.
+
+Current care treats the presentation as possible [sepsis](../../../../../sepsis.md) with disseminated infection. Assess [airway](../../../../../airway.md), breathing, [circulation](../../../../../circulation-physics.md), mental state and organ function urgently. Obtain appropriate [blood cultures](../../../../../blood-culture.md) and source samples without delaying necessary [antibiotic](../../../../../antibiotic.md) treatment; investigate the original wound and likely secondary sites. [Ultrasonography](../../../../../ultrasonography.md) or other imaging can locate a collection for drainage. Persistent [bacteraemia](../../../../../bacteraemia.md), embolic manifestations or a new [heart murmur](../../../../../heart-murmur.md) should prompt assessment for [infective endocarditis](../../../../../infective-endocarditis.md), often including [echocardiography](../../../../../echocardiography.md). Source control may require drainage, removal of infected material or [debridement](../../../../../debridement.md). Initial [antibiotics](../../../../../antibiotic.md) are chosen for the likely source and resistance risks, then narrowed using microbiological evidence.
+
+Provide [oxygen therapy](../../../../../oxygen-therapy.md) when needed and carefully reassessed [intravenous fluids](../../../../../intravenous-fluid.md); persistent circulatory failure requires critical-care treatment rather than indiscriminate fluid loading. Monitor [urine](../../../../../urine.md) output, [renal function](../../../../../renal-function.md), [blood pressure](../../../../../blood-pressure.md) and response to treatment. The modern prognosis depends on source, organ injury and speed and adequacy of treatment, so the historical description alone does not support a numerical prediction.[NG253, recognition, source investigation and antibiotic, intravenous-fluid and oxygen recommendations](../../../../../suspected-sepsis-in-people-aged-16-or-over-by-nice.md)
+
+## ↑ Ancestors (11)
+
+1. [4](../4.md)
+2. [Therapeutics](../../therapeutics-split.md)
+3. [Second examination](../../split.md)
+4. [1864](../../../split.md)
+5. [Past exam of the medicine course of the University of Oxford](../../../../split.md)
+6. [Medicine course of the University of Oxford](../../../../../medicine-course-of-the-university-of-oxford.md)
+7. [Undergraduate course of the University of Oxford](../../../../../undergraduate-course-of-the-university-of-oxford.md)
+8. [Course of the University of Oxford](../../../../../course-of-the-university-of-oxford.md)
+9. [University of Oxford](../../../../../university-of-oxford-split.md)
+10. [List of universities](../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../split.md)

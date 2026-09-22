@@ -1,0 +1,60 @@
+# 2021
+
+↑ **Parent:** [Past exam of the advanced quantum field theory for particle physics course of the University of Oxford](split.md)
+
+Source paper: [https://www.whatdotheyknow.com/request/oxford_physics_past_papers_2/response/2340696/attach/9/Physics%20Papers%202020.pdf?cookie_passthrough=1](https://www.whatdotheyknow.com/request/oxford_physics_past_papers_2/response/2340696/attach/9/Physics%20Papers%202020.pdf?cookie_passthrough=1)
+
+Official standalone paper: [https://mmathphys.physics.ox.ac.uk/sites/default/files/mmathphys/documents/media/aqft_2021.pdf](https://mmathphys.physics.ox.ac.uk/sites/default/files/mmathphys/documents/media/aqft_2021.pdf)
+
+Use [natural units](../natural-units.md), the [Minkowski metric](../minkowski-metric.md) $g=\operatorname{diag}(1,-1,-1,-1)$ and the [Feynman i-epsilon prescription](../feynman-i-epsilon-prescription.md). In question 1 use [dimensional regularization](../dimensional-regularization.md) with $d=4-2\epsilon$ and write $C_\epsilon=1/(16\pi^2\epsilon)$; in the alternative convention $d=4-\epsilon$, replace $C_\epsilon$ by $1/(8\pi^2\epsilon)$. Only [ultraviolet poles](../ultraviolet-pole.md) are retained there. Figure 1 is unreadable in the released source: the corresponding specific gaps are marked below. All other parts have complete derivations.
+
+**Table of contents**
+
+- [1](2021/1.md)
+  - [i](2021/1/i.md)
+    - [Solution](2021/1/i/solution.md)
+  - [ii](2021/1/ii.md)
+    - [Solution](2021/1/ii/solution.md)
+  - [iii](2021/1/iii.md)
+    - [Solution](2021/1/iii/solution.md)
+  - [iv](2021/1/iv.md)
+    - [Solution](2021/1/iv/solution.md)
+  - [v](2021/1/v.md)
+    - [Solution](2021/1/v/solution.md)
+- [2](2021/2.md)
+  - [a](2021/2/a.md)
+    - [i](2021/2/a/i.md)
+      - [Solution](2021/2/a/i/solution.md)
+    - [ii](2021/2/a/ii.md)
+      - [Solution](2021/2/a/ii/solution.md)
+    - [iii](2021/2/a/iii.md)
+      - [Solution](2021/2/a/iii/solution.md)
+    - [iv](2021/2/a/iv.md)
+      - [Solution](2021/2/a/iv/solution.md)
+  - [b](2021/2/b.md)
+    - [Solution](2021/2/b/solution.md)
+- [3](2021/3.md)
+  - [a](2021/3/a.md)
+    - [i](2021/3/a/i.md)
+      - [Solution](2021/3/a/i/solution.md)
+    - [ii](2021/3/a/ii.md)
+      - [Solution](2021/3/a/ii/solution.md)
+    - [iii](2021/3/a/iii.md)
+      - [Solution](2021/3/a/iii/solution.md)
+  - [b](2021/3/b.md)
+    - [i](2021/3/b/i.md)
+      - [Solution](2021/3/b/i/solution.md)
+    - [ii](2021/3/b/ii.md)
+      - [Solution](2021/3/b/ii/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Past exam of the advanced quantum field theory for particle physics course of the University of Oxford](split.md)
+2. [Advanced quantum field theory for particle physics course of the University of Oxford](../advanced-quantum-field-theory-for-particle-physics-course-of-the-university-of-oxford.md)
+3. [Year 4 of the mathematical and theoretical physics course of the University of Oxford](../year-4-of-the-mathematical-and-theoretical-physics-course-of-the-university-of-oxford.md)
+4. [Mathematical and theoretical physics course of the University of Oxford](../mathematical-and-theoretical-physics-course-of-the-university-of-oxford.md)
+5. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+6. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+7. [University of Oxford](../university-of-oxford-split.md)
+8. [List of universities](../list-of-universities.md)
+9. [Codex Wiki](../split.md)

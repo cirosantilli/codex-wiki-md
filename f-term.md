@@ -1,0 +1,45 @@
+# F-term
+
+↑ **Parent:** [Superpotential](superpotential.md)
+
+An F-term is the highest $\theta^2$ component of a chiral superfield, equivalently an integral over chiral half of superspace. Its supersymmetry variation is a spacetime total derivative.
+
+## ↑ Ancestors (9)
+
+1. [Superpotential](superpotential.md)
+2. [Chiral superfield](chiral-superfield.md)
+3. [Superfield](superfield.md)
+4. [Superspace](superspace.md)
+5. [Four-dimensional N=1 supersymmetry](four-dimensional-n-1-supersymmetry.md)
+6. [Supersymmetry](supersymmetry-split.md)
+7. [Branches of physics](branches-of-physics.md)
+8. [Physics](physics-split.md)
+9. [Codex Wiki](split.md)
+
+## ← Incoming links (25)
+
+- [Gauge kinetic function](gauge-kinetic-function.md)
+- [Goldstino](goldstino.md)
+- [Gravitino mass from a superpotential](gravitino-mass-from-a-superpotential.md)
+- [Holomorphic gauge coupling](holomorphic-gauge-coupling.md)
+- [Matter-logarithm no-scale potential](matter-logarithm-no-scale-potential.md)
+- [MSSM tree-level sfermion mass constraint](mssm-tree-level-sfermion-mass-constraint.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-50/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-54/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-55/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-55/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-53/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-40/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-43/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-48/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-48/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-48/2/f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-307/1/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-307/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-307/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-307/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-307/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-307/1/solution.md)
+- [Perturbative gauge-coupling independence of the Wilsonian superpotential](perturbative-gauge-coupling-independence-of-the-wilsonian-superpotential.md)
+- [Superspace integration](superspace-integration.md)
+- [Tree-level supertrace mass sum rule](tree-level-supertrace-mass-sum-rule.md)

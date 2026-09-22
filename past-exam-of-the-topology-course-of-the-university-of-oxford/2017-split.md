@@ -1,0 +1,66 @@
+# 2017
+
+↑ **Parent:** [Past exam of the topology course of the University of Oxford](split.md)
+
+Source paper: [released examination archive](https://www.whatdotheyknow.com/request/ba_computer_science_past_papers/response/2577745/attach/2/202402%20183%20CS%20Papers.zip?cookie_passthrough=1), member `2016/T/a13757w1.pdf`. The printed cover dates the examination to 21 June 2017.
+
+Complete source recovery: [additional Oxford examination release](https://www.whatdotheyknow.com/request/maths_papers_2/response/1850333/attach/3/FOI%2020210708%201%20Data.zip?cookie_passthrough=1), member `FOI-20210708-1 - Data/a13757w1 (2).pdf`, supplies all four printed pages, including questions 1–2 missing from the earlier copy. Questions 1–2 are solved below; the five existing solutions to question 3 are retained unchanged.
+
+Answer availability checked on 28 October 2026: no exact-paper or selected-part solution advertisement was found in a bounded search of official Oxford sources. Oxford states that odd-year examination solutions are not released apart from the 2019 exception.[Mathematical Institute, “Past papers and model solutions”: release policy for odd examination years and the 2019 exception](https://www.maths.ox.ac.uk/members/students/undergraduate-courses/examinations-assessments/overview-examinations)
+
+**Table of contents**
+
+- [1](2017/1.md)
+  - [a](2017/1/a.md)
+    - [i](2017/1/a/i.md)
+      - [Solution](2017/1/a/i/solution.md)
+    - [ii](2017/1/a/ii.md)
+      - [Solution](2017/1/a/ii/solution.md)
+    - [iii](2017/1/a/iii.md)
+      - [Solution](2017/1/a/iii/solution.md)
+  - [b](2017/1/b.md)
+    - [Solution](2017/1/b/solution.md)
+  - [c](2017/1/c.md)
+    - [Solution](2017/1/c/solution.md)
+  - [d](2017/1/d.md)
+    - [Solution](2017/1/d/solution.md)
+- [2](2017/2.md)
+  - [a](2017/2/a.md)
+    - [i](2017/2/a/i.md)
+      - [Solution](2017/2/a/i/solution.md)
+    - [ii](2017/2/a/ii.md)
+      - [Solution](2017/2/a/ii/solution.md)
+  - [b](2017/2/b.md)
+    - [i](2017/2/b/i.md)
+      - [Solution](2017/2/b/i/solution.md)
+    - [ii](2017/2/b/ii.md)
+      - [Solution](2017/2/b/ii/solution.md)
+  - [c](2017/2/c.md)
+    - [i](2017/2/c/i.md)
+      - [Solution](2017/2/c/i/solution.md)
+    - [ii](2017/2/c/ii.md)
+      - [Solution](2017/2/c/ii/solution.md)
+- [3](2017/3.md)
+  - [a](2017/3/a.md)
+    - [i](2017/3/a/i.md)
+      - [Solution](2017/3/a/i/solution.md)
+    - [ii](2017/3/a/ii.md)
+      - [Solution](2017/3/a/ii/solution.md)
+    - [iii](2017/3/a/iii.md)
+      - [Solution](2017/3/a/iii/solution.md)
+    - [iv](2017/3/a/iv.md)
+      - [Solution](2017/3/a/iv/solution.md)
+  - [b](2017/3/b.md)
+    - [Solution](2017/3/b/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Past exam of the topology course of the University of Oxford](split.md)
+2. [Topology course of the University of Oxford](../topology-course-of-the-university-of-oxford.md)
+3. [Year 2 of the mathematics course of the University of Oxford](../year-2-of-the-mathematics-course-of-the-university-of-oxford.md)
+4. [Mathematics course of the University of Oxford](../mathematics-course-of-the-university-of-oxford.md)
+5. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+6. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+7. [University of Oxford](../university-of-oxford-split.md)
+8. [List of universities](../list-of-universities.md)
+9. [Codex Wiki](../split.md)

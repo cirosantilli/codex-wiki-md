@@ -1,0 +1,62 @@
+# Magma
+
+↑ **Parent:** [Solid Earth](solid-earth.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Magma)
+
+Magma is molten or partially molten rock within a planet. Its [dynamic viscosity](dynamic-viscosity-split.md), cooling and interaction with the surrounding [elasticity](elasticity-physics-split.md) influence transport and storage.
+
+**Table of contents**
+
+- [Primary magma](primary-magma.md)
+- [Magma ocean](magma-ocean.md)
+- [Igneous intrusion](igneous-intrusion.md)
+- [Magmatism](magmatism.md)
+- [Geological melt](geological-melt.md)
+- [Magma mixing](magma-mixing.md)
+- [Dike](dike.md)
+  - [Dike swarm](dike-swarm.md)
+  - [Thermal dike-widening similarity](thermal-dike-widening-similarity.md)
+    - [Melt-dilution heat balance in a dike](melt-dilution-heat-balance-in-a-dike.md)
+- [Lava lake](lava-lake.md)
+  - [Radiogenically heated lava-lake crust model](radiogenically-heated-lava-lake-crust-model.md)
+    - [Instantaneous stationary lava-crust thickness](instantaneous-stationary-lava-crust-thickness.md)
+    - [Lava-crust overshoot under warming](lava-crust-overshoot-under-warming.md)
+    - [Constant-temperature lava-crust growth law](constant-temperature-lava-crust-growth-law.md)
+- [Magma intrusion](magma-intrusion.md)
+  - [Pluton](pluton.md)
+  - [Toughness-controlled magma intrusion](toughness-controlled-magma-intrusion.md)
+    - [Reservoir-fed magma intrusion](reservoir-fed-magma-intrusion.md)
+  - [Vapour-tip peeling of a magma intrusion](vapour-tip-peeling-of-a-magma-intrusion.md)
+
+## ↑ Ancestors (5)
+
+1. [Solid Earth](solid-earth.md)
+2. [Geophysics](geophysics-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (22)
+
+- [Basaltic rock](basaltic-rock.md)
+- [Cumulate rock](cumulate-rock.md)
+- [Dike](dike.md)
+- [Felsic](felsic.md)
+- [Geological melt](geological-melt.md)
+- [Igneous intrusion](igneous-intrusion.md)
+- [Igneous rock](igneous-rock.md)
+- [Lava lake](lava-lake.md)
+- [Lithospheric rejuvenation](lithospheric-rejuvenation.md)
+- [Magma intrusion](magma-intrusion.md)
+- [Magma mixing](magma-mixing.md)
+- [Magmatism](magmatism.md)
+- [Mantle potential temperature](mantle-potential-temperature.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-55/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-332/1/solution.md)
+- [Solution](past-exam-of-the-plate-tectonics-course-of-the-university-of-oxford/2023/question-1/a/solution.md)
+- [Solution](past-exam-of-the-plate-tectonics-course-of-the-university-of-oxford/2023/question-1/b/solution.md)
+- [Solution](past-exam-of-the-plate-tectonics-course-of-the-university-of-oxford/2023/question-3/b/solution.md)
+- [Solution](past-exam-of-the-plate-tectonics-course-of-the-university-of-oxford/2023/question-3/d/solution.md)
+- [Solution](past-exam-of-the-plate-tectonics-course-of-the-university-of-oxford/2024/1/c/solution.md)
+- [Pluton](pluton.md)
+- [Thermal dike-widening similarity](thermal-dike-widening-similarity.md)

@@ -1,0 +1,29 @@
+<h1 id="5/solution">Solution</h1>
+
+↑ **Parent:** [5](../5.md)
+
+**Discuss paralysis and convulsions separately: both historical labels describe manifestations with several causes.** Their occurrence in infancy does not establish one diagnosis, and neither permits invention of examination findings absent from the paper.
+
+For **infantile paralysis**, distinguish an acute loss of movement after an illness from impaired movement present from birth, delayed motor development and progressive weakness. Note distribution, [muscle tone](../../../../../muscle-tone.md), [tendon reflexes](../../../../../tendon-reflex.md), sensation, pain, [muscle atrophy](../../../../../muscle-atrophy.md), and bulbar or respiratory involvement. The classic acute flaccid, often asymmetric syndrome later identified with [poliomyelitis](../../../../../poliomyelitis.md) must be distinguished from cerebral injury, [cerebral palsy](../../../../../cerebral-palsy.md), peripheral [nerve](../../../../../nerve.md) injury, spinal disease and painful failure to move a limb. A child who avoids movement because it hurts has [pseudoparalysis](../../../../../pseudoparalysis.md), not necessarily loss of motor innervation.
+
+An 1866 explanation might attribute some cases to teething, chill or constitutional weakness, and use rubbing, warmth, supports or electrical stimulation. Such attributions need qualification: a preceding event does not prove the mechanism, and electrical contraction does not demonstrate restoration of damaged motor neurons. The clinically useful period aims were preservation of comfort, nutrition and limb position and prevention of deformity while following recovery. No historical stimulant can be assumed to regenerate destroyed neural tissue.
+
+**Modern correction: acute weakness requires urgent localization and evaluation of breathing and swallowing.** [Poliomyelitis](../../../../../poliomyelitis.md) results from [poliovirus](../../../../../poliovirus.md) infection and can permanently damage motor function; there is no specific curative treatment for paralytic disease. Supportive care and appropriate rehabilitation address respiratory risk, function and complications; vaccination is preventive rather than a reversal of established paralysis.[Clinical features, diagnosis, treatment and recovery](../../../../../about-polio-by-cdc.md) [Cerebral palsy](../../../../../cerebral-palsy.md) describes a different developmental motor disorder associated with disturbances of the developing [brain](../../../../../brain.md); assessment, investigation when appropriate, physiotherapy, occupational support and treatment of associated problems are individualized. Not every case is attributable to a single event during delivery, and loss of previously attained abilities requires reconsideration of a static diagnosis.[NG62, causes, red flags and multidisciplinary care](../../../../../cerebral-palsy-in-under-25s-assessment-and-management-by-nice.md)
+
+For **infantile convulsions**, consider [fever](../../../../../fever.md), [meningitis](../../../../../meningitis.md), [encephalitis](../../../../../encephalitis.md), [hypoglycaemia](../../../../../hypoglycaemia.md), [hypocalcaemia](../../../../../hypocalcaemia.md) and other metabolic disorders, head injury, structural cerebral disease, toxic exposure and [epilepsy](../../../../../epilepsy.md). Clarify the age, duration, whether movements are focal, recovery between attacks and the child's condition before and afterwards. Neonatal seizures and convulsions in an older febrile infant should not be collapsed into one reassuring category. “Teething” is not a satisfactory explanation for a serious seizure, and a warm bath or gum-lancing must not replace investigation.
+
+During an attack, protect the [airway](../../../../../airway.md) and prevent injury; do not put objects or oral medicines into the mouth. Assess breathing and circulation, time the event, check [blood glucose](../../../../../blood-sugar.md) promptly and identify reversible causes. A convulsive seizure lasting five minutes or more is a medical emergency requiring resuscitation and a current [status epilepticus](../../../../../status-epilepticus.md) pathway, beginning with an appropriate [benzodiazepine](../../../../../benzodiazepine.md) and escalating if needed. [Hypoglycaemia](../../../../../hypoglycaemia.md), [infection](../../../../../infection.md) and [electrolyte](../../../../../electrolyte.md) disturbances need direct treatment as well as suppression of movements.[NG217, section 7.1, immediate treatment and underlying causes](../../../../../epilepsies-in-children-young-people-and-adults-by-nice.md)[Treating convulsive status epilepticus in children; ABC assessment, glucose, causes and escalation](../../../../../paediatric-emergency-algorithms-by-resuscitation-council-uk-2026.md) Following the event, investigate the cause and arrange appropriate follow-up; one provoked convulsion does not by itself establish chronic [epilepsy](../../../../../epilepsy.md).
+
+## ↑ Ancestors (11)
+
+1. [5](../5.md)
+2. [Diseases of women and children; principles of surgery](../../diseases-of-women-and-children-principles-of-surgery-split.md)
+3. [Second examination](../../split.md)
+4. [1866](../../../split.md)
+5. [Past exam of the medicine course of the University of Oxford](../../../../split.md)
+6. [Medicine course of the University of Oxford](../../../../../medicine-course-of-the-university-of-oxford.md)
+7. [Undergraduate course of the University of Oxford](../../../../../undergraduate-course-of-the-university-of-oxford.md)
+8. [Course of the University of Oxford](../../../../../course-of-the-university-of-oxford.md)
+9. [University of Oxford](../../../../../university-of-oxford-split.md)
+10. [List of universities](../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../split.md)

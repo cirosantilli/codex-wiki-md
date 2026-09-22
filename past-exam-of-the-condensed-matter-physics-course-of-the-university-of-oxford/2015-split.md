@@ -1,0 +1,52 @@
+# 2015
+
+↑ **Parent:** [Past exam of the condensed matter physics course of the University of Oxford](split.md)
+
+Source paper: [https://www.whatdotheyknow.com/request/oxford_physics_past_papers_2/response/2340696/attach/3/Physics%20Papers%202014.pdf?cookie_passthrough=1.](https://www.whatdotheyknow.com/request/oxford_physics_past_papers_2/response/2340696/attach/3/Physics%20Papers%202014.pdf?cookie_passthrough=1.) The cover identifies the Part B sitting of 15 June 2015, despite the annual bundle's 2014 filename. All four options are solved; lettered subdivisions organize the unlettered marked blocks.
+
+**Table of contents**
+
+- [1](2015/1.md)
+  - [a](2015/1/a.md)
+    - [Solution](2015/1/a/solution.md)
+  - [b](2015/1/b.md)
+    - [Solution](2015/1/b/solution.md)
+  - [c](2015/1/c.md)
+    - [Solution](2015/1/c/solution.md)
+  - [d](2015/1/d.md)
+    - [Solution](2015/1/d/solution.md)
+- [2](2015/2.md)
+  - [a](2015/2/a.md)
+    - [Solution](2015/2/a/solution.md)
+  - [b](2015/2/b.md)
+    - [Solution](2015/2/b/solution.md)
+  - [c](2015/2/c.md)
+    - [Solution](2015/2/c/solution.md)
+- [3](2015/3.md)
+  - [a](2015/3/a.md)
+    - [Solution](2015/3/a/solution.md)
+  - [b](2015/3/b.md)
+    - [Solution](2015/3/b/solution.md)
+  - [c](2015/3/c.md)
+    - [Solution](2015/3/c/solution.md)
+- [4](2015/4.md)
+  - [a](2015/4/a.md)
+    - [Solution](2015/4/a/solution.md)
+  - [b](2015/4/b.md)
+    - [Solution](2015/4/b/solution.md)
+  - [c](2015/4/c.md)
+    - [Solution](2015/4/c/solution.md)
+  - [d](2015/4/d.md)
+    - [Solution](2015/4/d/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Past exam of the condensed matter physics course of the University of Oxford](split.md)
+2. [Condensed matter physics course of the University of Oxford](../condensed-matter-physics-course-of-the-university-of-oxford.md)
+3. [Year 3 of the physics course of the University of Oxford](../year-3-of-the-physics-course-of-the-university-of-oxford.md)
+4. [Physics course of the University of Oxford](../physics-course-of-the-university-of-oxford.md)
+5. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+6. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+7. [University of Oxford](../university-of-oxford-split.md)
+8. [List of universities](../list-of-universities.md)
+9. [Codex Wiki](../split.md)

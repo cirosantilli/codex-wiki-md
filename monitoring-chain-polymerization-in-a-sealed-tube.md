@@ -1,0 +1,19 @@
+# Monitoring chain polymerization in a sealed tube
+
+↑ **Parent:** [Chain-growth polymerization](chain-growth-polymerization.md)
+
+[A simple route to deuterated polystyrene block copolymers by reverse iodine transfer polymerisation by Trevor Gavin Wright and Harald Pasch](https://pubs.rsc.org/en/content/articlepdf/2015/py/c5py00278h) (2015, Experimental section, pp. 3237–3238) provides a concrete study of consumption and chain products. The authors used a valve-sealed J Young tube, freeze–pump–thaw preparation and [argon](argon.md). [NMR monitoring of chain polymerization](nmr-monitoring-of-chain-polymerization.md) compared a $25\,{}^\circ\mathrm C$ reference with spectra acquired at $70\,{}^\circ\mathrm C$ every fifteen minutes for twenty-four hours. Their formulation contained an azo initiating reagent, molecular iodine and a vinyl [monomer](monomer.md). Companion flask syntheses used stirring and a heated silicone-oil bath.
+
+The authors followed initiating and transfer-agent signals; Figure 3 reports a transfer-agent signal rising during induction and then falling as [polymerization](polymerization.md) proceeds. Their [size-exclusion characterization of chain polymers](size-exclusion-characterization-of-chain-polymers.md) used porous columns, refractive-index detection and polystyrene calibration. These distinct consumption and size readouts concern transfer-mediated chemistry; they do not establish strict [living polymerization](living-polymerization.md). [Wright and Pasch, pp. 3237–3239: Experimental section, Analyses and Figure 3](a-simple-route-to-deuterated-polystyrene-block-copolymers-by-reverse-iodine-transfer-polymerisation-by-trevor-gavin-wright-and-others.md)
+
+Useful _proposed controls_, rather than reported measurements, are a matched mixture omitting the initiating reagent, an unheated mixture, and a repeat of the complete formulation. Keep [monomer](monomer.md) amount, [solvent](solvent.md), tube preparation and acquisition conditions matched where possible. The unheated comparison needs a readout that does not itself initiate [polymerization](polymerization.md); placing it in the hot probe would defeat that control. A mixture omitting iodine asks a different question: it changes [chain transfer in chain polymerization](chain-transfer-in-chain-polymerization.md) and induction chemistry, so it is not necessarily a no-[polymerization](polymerization.md) control. Record the pre-reaction baseline and compare crude material with isolated product; isolation can selectively remove shorter chains. These comparisons help separate initiation-dependent [monomer](monomer.md) consumption from signal drift and unrelated [chemical reactions](chemical-reaction-split.md).
+
+The mechanistic inference is deliberately limited. Consumption plus independently characterized larger chain products supports [polymerization](polymerization.md); evidence of an induction stage helps test a proposed [reaction mechanism](reaction-mechanism.md). Neither readout directly counts stars in $P_j^*$, proves the absence of [chain-growth termination](chain-growth-termination.md), nor recovers every chain length. A chain-extension test would probe retained growth capability, but even a successful extension would not by itself establish that _all_ original chains extended. No measured molecular distribution is reconstructed here. IUPAC cautions that reversible deactivation can produce living-like behaviour even when some termination occurs.[reversible-deactivation radical polymerization, 08916, notes 2 and 4: living terminology and remaining active/dormant population](iupac-compendium-of-chemical-terminology-fifth-edition-gold-book-by-international-union-of-pure-and-applied-chemistry.md)
+
+## ↑ Ancestors (5)
+
+1. [Chain-growth polymerization](chain-growth-polymerization.md)
+2. [Polymerization](polymerization.md)
+3. [Polymer](polymer-split.md)
+4. [Chemistry](chemistry-split.md)
+5. [Codex Wiki](split.md)

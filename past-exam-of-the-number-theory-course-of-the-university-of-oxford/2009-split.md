@@ -1,0 +1,60 @@
+# 2009
+
+↑ **Parent:** [Past exam of the number theory course of the University of Oxford](split.md)
+
+Source: [Mathematics release](https://www.whatdotheyknow.com/request/maths_past_papers_3), supplied bundle `Part B 2007 11.pdf`, pages 173–176. The four-page paper is dated 8 June 2009 and is shared by Mathematics, Mathematics & Computer Science, Mathematics & Philosophy and Mathematics & Statistics Part B.
+
+Bounded exact-paper checks found no matching advertisement of worked answers. Both sections and all printed parts are answered; full statements remain in the private editable transcription.
+
+**Table of contents**
+
+- [A](2009/a.md)
+  - [1](2009/a/1.md)
+    - [a](2009/a/1/a.md)
+      - [Solution](2009/a/1/a/solution.md)
+    - [b](2009/a/1/b.md)
+      - [Solution](2009/a/1/b/solution.md)
+    - [c](2009/a/1/c.md)
+      - [Solution](2009/a/1/c/solution.md)
+    - [d](2009/a/1/d.md)
+      - [Solution](2009/a/1/d/solution.md)
+  - [2](2009/a/2.md)
+    - [a](2009/a/2/a.md)
+      - [Solution](2009/a/2/a/solution.md)
+    - [b](2009/a/2/b.md)
+      - [Solution](2009/a/2/b/solution.md)
+    - [c](2009/a/2/c.md)
+      - [i](2009/a/2/c/i.md)
+        - [Solution](2009/a/2/c/i/solution.md)
+      - [ii](2009/a/2/c/ii.md)
+        - [Solution](2009/a/2/c/ii/solution.md)
+      - [iii](2009/a/2/c/iii.md)
+        - [Solution](2009/a/2/c/iii/solution.md)
+  - [3](2009/a/3.md)
+    - [a](2009/a/3/a.md)
+      - [Solution](2009/a/3/a/solution.md)
+    - [b](2009/a/3/b.md)
+      - [Solution](2009/a/3/b/solution.md)
+    - [c](2009/a/3/c.md)
+      - [Solution](2009/a/3/c/solution.md)
+    - [d](2009/a/3/d.md)
+      - [Solution](2009/a/3/d/solution.md)
+- [B](2009/b.md)
+  - [4](2009/b/4.md)
+    - [Solution](2009/b/4/solution.md)
+  - [5](2009/b/5.md)
+    - [Solution](2009/b/5/solution.md)
+  - [6](2009/b/6.md)
+    - [Solution](2009/b/6/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Past exam of the number theory course of the University of Oxford](split.md)
+2. [Number theory course of the University of Oxford](../number-theory-course-of-the-university-of-oxford.md)
+3. [Year 3 of the mathematics course of the University of Oxford](../year-3-of-the-mathematics-course-of-the-university-of-oxford.md)
+4. [Mathematics course of the University of Oxford](../mathematics-course-of-the-university-of-oxford.md)
+5. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+6. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+7. [University of Oxford](../university-of-oxford-split.md)
+8. [List of universities](../list-of-universities.md)
+9. [Codex Wiki](../split.md)

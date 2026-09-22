@@ -1,0 +1,359 @@
+# Paper 319
+
+↑ **Parent:** [Iii](../iii.md)
+
+[https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2023/Paper_319.pdf](https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2023/Paper_319.pdf)
+
+**Table of contents**
+
+- [1](#1)
+  - [a](#1/a)
+    - [Solution](#1/a/solution)
+  - [b](#1/b)
+    - [Solution](#1/b/solution)
+  - [c](#1/c)
+    - [Solution](#1/c/solution)
+  - [d](#1/d)
+    - [Solution](#1/d/solution)
+  - [e](#1/e)
+    - [Solution](#1/e/solution)
+  - [f](#1/f)
+    - [Solution](#1/f/solution)
+
+## 1
+
+↑ **Parent:** [Paper 319](paper-319.md)
+
+<h3 id="1/a">a</h3>
+
+↑ **Parent:** [1](#1)
+
+<h4 id="1/a/solution">Solution</h4>
+
+↑ **Parent:** [A](#1/a)
+
+A [C0-semigroup](../../../functional-analysis.md#c0-semigroup) on a [Banach space](../../../banach-space.md) $X$ is a family $U(t)\in\mathcal B(X)$ such that
+
+$$
+U(0)=I,
+\qquad
+U(t+s)=U(t)U(s),
+\qquad
+\lim_{t\downarrow0}U(t)x=x
+$$
+
+for every $x\in X$. Its [infinitesimal generator of a semigroup](../../../functional-analysis.md#infinitesimal-generator-of-a-semigroup) is
+
+$$
+Ax=\lim_{t\downarrow0}\frac{U(t)x-x}{t},
+$$
+
+with [generator domain](../../../functional-analysis.md#generator-domain)
+
+$$
+D(A)=\left\{x\in X:
+\lim_{t\downarrow0}\frac{U(t)x-x}{t}
+\text{ exists in }X\right\}.
+$$
+
+For $M\geq1$ and $\omega\in\mathbb R$, write $A\in\mathcal G(M,\omega)$ when $A$ generates a $C_0$-semigroup satisfying $\|U(t)\|\leq Me^{\omega t}$. The [Hille-Yosida theorem](../../../functional-analysis.md#hille-yosida-theorem) states that this holds exactly when $A$ is closed and densely defined,
+
+$$
+(\omega,\infty)\subset\rho(A),
+$$
+
+and, for every real $\lambda>\omega$ and every integer $n\geq1$,
+
+$$
+\boxed{
+\|R(\lambda,A)^n\|
+\leq\frac{M}{(\lambda-\omega)^n}},
+\qquad
+R(\lambda,A)=(\lambda I-A)^{-1}.
+$$
+
+The estimates for every resolvent power, rather than only $n=1$, are essential when $M>1$.
+
+<h3 id="1/b">b</h3>
+
+↑ **Parent:** [1](#1)
+
+<h4 id="1/b/solution">Solution</h4>
+
+↑ **Parent:** [B](#1/b)
+
+For $x\in X$ and $t>0$, form the [Bochner integral](../../../measure-theory.md#bochner-integral)
+
+$$
+x_t=\frac1t\int_0^tU(s)x\,ds.
+$$
+
+The semigroup property gives, for $h>0$,
+
+$$
+\frac{U(h)x_t-x_t}{h}
+=\frac1{th}
+\left(\int_t^{t+h}U(s)x\,ds-
+\int_0^hU(s)x\,ds\right).
+$$
+
+Strong continuity lets $h\downarrow0$, yielding
+
+$$
+x_t\in D(A),
+\qquad
+Ax_t=\frac{U(t)x-x}{t}.
+$$
+
+Also,
+
+$$
+\|x_t-x\|
+\leq\frac1t\int_0^t\|U(s)x-x\|\,ds\longrightarrow0
+$$
+
+by strong continuity. Every $x\in X$ is therefore a norm limit of elements of $D(A)$, so
+
+$$
+\boxed{\overline{D(A)}=X}.
+$$
+
+This approximation is the basic [Yosida averaging of a semigroup](../../../functional-analysis.md#yosida-averaging-of-a-semigroup).
+
+<h3 id="1/c">c</h3>
+
+↑ **Parent:** [1](#1)
+
+<h4 id="1/c/solution">Solution</h4>
+
+↑ **Parent:** [C](#1/c)
+
+Let $\mathbb T=\mathbb R/(2\pi\mathbb Z)$ and define the positive [self-adjoint operator](../../../linear-operator-theory.md#self-adjoint-operator)
+
+$$
+B=(1-\partial_x^2)^{1/2}
+$$
+
+on $L^2(\mathbb T)$. On the Fourier mode $e^{inx}$ it acts by multiplication by $\sqrt{1+n^2}$. Consequently
+
+$$
+D(B)=H^1(\mathbb T),
+\qquad
+D(B^2)=H^2(\mathbb T).
+$$
+
+The energy space is the [periodic Sobolev space](../../../sobolev-space.md#periodic-sobolev-space)
+
+$$
+\boxed{\mathcal H=H^1(\mathbb T)\times L^2(\mathbb T)},
+$$
+
+with inner product
+
+$$
+((u,v),(p,q))_{\mathcal H}
+=(Bu,Bp)_{L^2}+(v,q)_{L^2}.
+$$
+
+If $u=\sum u_ne^{inx}$ and $v=\sum v_ne^{inx}$, then
+
+$$
+\|(u,v)\|_{\mathcal H}^2
+=2\pi\sum_{n\in\mathbb Z}
+[(1+n^2)|u_n|^2+|v_n|^2],
+$$
+
+which is precisely the stated energy norm.
+
+With $v=u_t$, the periodic [Klein-Gordon equation](../../../wave-equation.md#klein-gordon-equation) becomes
+
+$$
+\dot Z=AZ,
+\qquad
+A=\begin{pmatrix}0&I\\-B^2&0\end{pmatrix},
+\qquad
+A(u,v)=(v,-B^2u).
+$$
+
+For $AZ$ to belong to $H^1\times L^2$, one needs $v\in H^1$ and $u\in H^2$. Thus
+
+$$
+\boxed{D(A)=H^2(\mathbb T)\times H^1(\mathbb T)}.
+$$
+
+<h3 id="1/d">d</h3>
+
+↑ **Parent:** [1](#1)
+
+<h4 id="1/d/solution">Solution</h4>
+
+↑ **Parent:** [D](#1/d)
+
+The [Lumer-Phillips theorem](../../../functional-analysis.md#lumer-phillips-theorem) says that a densely defined operator on a Hilbert space generates a contraction $C_0$-semigroup exactly when it is [maximal dissipative](../../../functional-analysis.md#maximal-dissipative-operator):
+
+$$
+\operatorname{Re}(Ax,x)\leq0
+$$
+
+and $\operatorname{Ran}(\lambda I-A)$ is the whole space for some, equivalently every, $\lambda>0$.
+
+For $Z=(u,v)\in D(A)$, self-adjointness of $B$ gives
+
+$$
+(AZ,Z)_{\mathcal H}
+=(Bv,Bu)+(-B^2u,v)=0.
+$$
+
+Thus both $A$ and $-A$ are dissipative. To check maximality, solve
+
+$$
+(\lambda I-A)(u,v)=(f,g).
+$$
+
+The equations give
+
+$$
+v=\lambda u-f,
+\qquad
+(B^2+\lambda^2)u=g+\lambda f.
+$$
+
+On Fourier mode $n$, the last operator has multiplier $1+n^2+\lambda^2>0$, so it gives a unique $u\in H^2$ and then $v\in H^1$ whenever $(f,g)\in\mathcal H$. Hence $\lambda I-A$ is onto; the same calculation applies to $-A$.
+
+The two contraction semigroups generated by $A$ and $-A$ are inverses. They form a [strongly continuous unitary group](../../../functional-analysis.md#strongly-continuous-unitary-group) $U(t)$ on the complexification of $\mathcal H$, or an orthogonal group on the real space, and
+
+$$
+\boxed{\|U(t)Z\|_{\mathcal H}=\|Z\|_{\mathcal H}}
+$$
+
+for every $t\in\mathbb R$.
+
+<h3 id="1/e">e</h3>
+
+↑ **Parent:** [1](#1)
+
+<h4 id="1/e/solution">Solution</h4>
+
+↑ **Parent:** [E](#1/e)
+
+Set
+
+$$
+Z=\binom{u}{u_t},
+\qquad
+Z_0=\binom{u_0}{u_1},
+\qquad
+F(t)=\binom0{f(t,\cdot)}.
+$$
+
+Then the forced equation is the [abstract Cauchy problem](../../../functional-analysis.md#abstract-cauchy-problem)
+
+$$
+\dot Z=AZ+F,
+\qquad
+Z(0)=Z_0.
+$$
+
+For $Z_0\in\mathcal H$ and $F\in C([0,T];\mathcal H)$, a [mild solution of an abstract Cauchy problem](../../../functional-analysis.md#mild-solution-of-an-abstract-cauchy-problem) is a function $Z\in C([0,T];\mathcal H)$ satisfying the [variation-of-constants formula](../../../functional-analysis.md#variation-of-constants-formula)
+
+$$
+\boxed{
+Z(t)=U(t)Z_0+int_0^tU(t-s)F(s)\,ds}.
+$$
+
+Suppose $F(s)\in D(A)$ and both $F$ and $AF$ are continuous. If also $Z_0\in D(A)$, then the closedness of $A$ permits differentiation under the [Bochner integral](../../../measure-theory.md#bochner-integral):
+
+$$
+\frac d{dt}\int_0^tU(t-s)F(s)\,ds
+=F(t)+\int_0^tU(t-s)AF(s)\,ds.
+$$
+
+Thus $Z\in C^1([0,\infty);\mathcal H)$ and $Z'=AZ+F$. The assumption $Z_0\in D(A)$ is necessary here: a unitary group has no smoothing, so the conditions on $F$ alone cannot make $U(t)Z_0$ differentiable for arbitrary $Z_0\in\mathcal H$.
+
+For the resulting strong solution, skew symmetry of $A$ gives the [energy estimate](../../../partial-differential-equation.md#energy-estimate)
+
+$$
+\frac d{dt}\|Z(t)\|_{\mathcal H}^2
+=2\operatorname{Re}(Z(t),F(t))_{\mathcal H}.
+$$
+
+Integration yields
+
+$$
+\boxed{
+\|Z(t)\|_{\mathcal H}^2
+\leq\|Z(0)\|_{\mathcal H}^2
++2\int_0^t|(Z(s),F(s))_{\mathcal H}|\,ds}.
+$$
+
+<h3 id="1/f">f</h3>
+
+↑ **Parent:** [1](#1)
+
+<h4 id="1/f/solution">Solution</h4>
+
+↑ **Parent:** [F](#1/f)
+
+Write the nonlinearity as
+
+$$
+N(u,v)=(0,u^2).
+$$
+
+In one dimension, the [Sobolev embedding theorem](../../../sobolev-space.md#sobolev-embedding-theorem) gives $H^1(\mathbb T)\hookrightarrow L^\infty(\mathbb T)$. Hence
+
+$$
+\|u^2-w^2\|_{L^2}
+\leq\|u+w\|_{L^\infty}\|u-w\|_{L^2}
+\leq C(\|u\|_{H^1}+\|w\|_{H^1})\|u-w\|_{H^1}.
+$$
+
+Thus $N:\mathcal H\to\mathcal H$ is locally Lipschitz.
+
+On $C([0,T];\mathcal H)$ define
+
+$$
+(\Phi Z)(t)=U(t)Z_0+int_0^tU(t-s)N(Z(s))\,ds.
+$$
+
+On a ball of radius $R$, unitarity gives
+
+$$
+\|\Phi Z\|_\infty\leq\|Z_0\|_{\mathcal H}+CTR^2,
+$$
+
+
+
+$$
+\|\Phi Z-\Phi W\|_\infty\leq CTR\|Z-W\|_\infty.
+$$
+
+Choose $R>\|Z_0\|_{\mathcal H}$ and then $T>0$ small enough that the first bound preserves the ball and $CTR<1$. The [contraction mapping theorem](../../../analysis.md#contraction-mapping-theorem) gives a unique fixed point. Precisely, the local mild solution is
+
+$$
+\boxed{
+Z\in C([0,T];\mathcal H),
+\qquad
+Z(t)=U(t)Z_0+int_0^tU(t-s)(0,u(s)^2)\,ds}.
+$$
+
+For general energy data $Z_0\in\mathcal H$, this solution need not be differentiable in $\mathcal H$. If $Z_0\in D(A)=H^2\times H^1$, standard semilinear evolution theory and the smoothness of $N$ give a local classical solution.
+
+The [blow-up alternative for a semilinear evolution equation](../../../functional-analysis.md#blow-up-alternative-for-a-semilinear-evolution-equation) says that the solution continues while its $\mathcal H$ norm stays finite, but global existence does not hold for every datum. Spatially constant solutions obey
+
+$$
+y''+y=y^2.
+$$
+
+For sufficiently large $y(0)>1$ with $y'(0)\geq0$, the solution grows until $y''\geq y^2/2$ and blows up in finite time. These constant functions are periodic and belong to every Sobolev space, so they provide finite-time blow-up examples for the original equation.
+
+## ↑ Ancestors (8)
+
+1. [Iii](../iii.md)
+2. [2023](../../2023.md)
+3. [Past exam of the mathematics course of the University of Cambridge](../../../past-exam-of-the-mathematics-course-of-the-university-of-cambridge.md)
+4. [Mathematics course of the University of Cambridge](../../../university-of-cambridge.md#mathematics-course-of-the-university-of-cambridge)
+5. [Course of the University of Cambridge](../../../university-of-cambridge.md#course-of-the-university-of-cambridge)
+6. [University of Cambridge](../../../university-of-cambridge.md)
+7. [List of universities](../../../README.md#list-of-universities)
+8. [Codex Wiki](../../../README.md)

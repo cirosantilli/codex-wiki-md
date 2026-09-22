@@ -1,0 +1,29 @@
+<h1 id="5/solution">Solution</h1>
+
+↑ **Parent:** [5](../5.md)
+
+**[Urine microscopy](../../../../../urine-microscopy.md) can identify the kind and possible site of urinary disease, directing further investigation and cause-specific treatment; a sediment finding alone is seldom a prescription.** This is a general methods question. No particular specimen, microscopic field or patient result is supplied.
+
+Examine a fresh, properly collected sample, noting collection and storage conditions. After gentle mixing, examine a standardised sediment with a [microscope](../../../../../microscope.md): a low-power objective helps find [urinary casts](../../../../../urinary-cast.md), while higher power characterises [cells](../../../../../biological-cell-split.md), [bacteria](../../../../../bacteria.md) and [crystals](../../../../../crystal.md). A [centrifuge](../../../../../centrifuge.md) concentrates sediment when that method is used, but excessive delay or unsuitable processing can destroy [cells](../../../../../biological-cell-split.md) and casts or generate crystals after collection. Interpret findings with symptoms, urine chemistry and kidney function; a dirty container or vaginal contamination can otherwise mimic urinary disease.[urine particles, specimen stability and microscopy procedures](../../../../../eflm-european-urinalysis-guideline-2023.md)
+
+[Red blood cells](../../../../../red-blood-cell.md) indicate [haematuria](../../../../../haematuria.md), whose source may be anywhere along the tract. [Red blood cell casts](../../../../../red-blood-cell-cast.md) or convincing dysmorphic [red blood cells](../../../../../red-blood-cell.md) support a glomerular origin and justify assessment for [glomerulonephritis](../../../../../glomerulonephritis.md), including renal function, [proteinuria](../../../../../proteinuria.md) and appropriate referral. They do not establish a particular immunological cause. Isomorphic [red blood cells](../../../../../red-blood-cell.md) with pain may suggest a stone; persistent unexplained [haematuria](../../../../../haematuria.md) also requires assessment for other urinary pathology. A historically tempting order to give an [astringent](../../../../../astringent.md) would not address these different mechanisms.[initial evaluation, suspected medical renal disease and risk-based urinary evaluation](../../../../../microhematuria-guideline-by-aua-and-sufu-2025.md)
+
+Many [white blood cells](../../../../../leukocyte.md), with compatible symptoms and [bacteria](../../../../../bacteria.md), support [urinary tract infection](../../../../../urinary-tract-infection.md); obtain a suitable [bacterial culture](../../../../../bacterial-culture.md) when indicated and select an [antibiotic](../../../../../antibiotic.md) according to the clinical syndrome and susceptibility. Contamination or asymptomatic bacteriuria is not equivalent to symptomatic [infection](../../../../../infection.md). [White blood cell casts](../../../../../white-blood-cell-cast.md) favour an intrarenal process such as [pyelonephritis](../../../../../pyelonephritis.md) or [interstitial nephritis](../../../../../interstitial-nephritis.md), so the treatment cannot be inferred from pus alone. Numerous squamous [epithelial cells](../../../../../epithelial-cell.md) instead raise concern about collection quality.[urine testing, pyuria, bacteriuria and casts](../../../../../bacterial-urinary-tract-infections-by-merck-manual.md)
+
+Renal tubular [epithelial cells](../../../../../epithelial-cell.md) and granular casts can support [tubular injury](../../../../../tubular-injury.md); fatty elements together with marked [proteinuria](../../../../../proteinuria.md) suggest a nephrotic process. These findings direct assessment of kidney disease, fluid balance and potentially nephrotoxic exposures. A few hyaline casts may occur without a specific kidney disease. Casts are moulds formed within renal tubules; that origin is why they can localise a finding more effectively than free cells.[table, tubular, granular, fatty and hyaline casts](../../../../../urinary-casts-by-merck-manual.md)
+
+[Urinary crystals](../../../../../urinary-crystal.md) must be interpreted with urine acidity, concentration and the time after collection. [Uric acid](../../../../../uric-acid.md) or [calcium oxalate](../../../../../calcium-oxalate.md) crystals can suggest a stone-forming environment but do not prove an obstructing stone or justify an unrestricted alkali prescription. Hexagonal [cystine](../../../../../cystine.md) crystals raise a different metabolic question. Infection-associated phosphate stones require attention to the associated [infection](../../../../../infection.md) as well as stone management. Modern decisions combine stone analysis, imaging and metabolic assessment; hydration, urinary alkalinisation or other measures depend on the confirmed disorder. Microscopy does not by itself measure [glucose](../../../../../glucose.md), albumin loss or renal filtration, so these require separate tests.[metabolic evaluation and recurrence prevention: uric acid, cystine, calcium oxalate and infection stones](../../../../../eau-guidelines-on-urolithiasis.md)
+
+## ↑ Ancestors (11)
+
+1. [5](../5.md)
+2. [Therapeutics](../../therapeutics-split.md)
+3. [Second examination](../../split.md)
+4. [1865](../../../split.md)
+5. [Past exam of the medicine course of the University of Oxford](../../../../split.md)
+6. [Medicine course of the University of Oxford](../../../../../medicine-course-of-the-university-of-oxford.md)
+7. [Undergraduate course of the University of Oxford](../../../../../undergraduate-course-of-the-university-of-oxford.md)
+8. [Course of the University of Oxford](../../../../../course-of-the-university-of-oxford.md)
+9. [University of Oxford](../../../../../university-of-oxford-split.md)
+10. [List of universities](../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../split.md)

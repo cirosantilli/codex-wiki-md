@@ -1,0 +1,34 @@
+# Spatial curvature of an FLRW universe
+
+↑ **Parent:** [Friedmann-Lemaître-Robertson-Walker metric](friedmann-lemaitre-robertson-walker-metric.md)
+
+The cases $k>0$, $k=0$, and $k<0$ give spherical, Euclidean, and hyperbolic constant-curvature spatial slices.
+
+## ↑ Ancestors (5)
+
+1. [Friedmann-Lemaître-Robertson-Walker metric](friedmann-lemaitre-robertson-walker-metric.md)
+2. [Cosmology](cosmology-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (18)
+
+- [Angular sound-horizon degeneracy](angular-sound-horizon-degeneracy.md)
+- [Curvature radius of a constant-curvature space](curvature-radius-of-a-constant-curvature-space.md)
+- [Dark-energy acceleration criterion](dark-energy-acceleration-criterion.md)
+- [Low-redshift acceleration cosmography](low-redshift-acceleration-cosmography.md)
+- [Open dust linear growth mode](open-dust-linear-growth-mode.md)
+- [Solution](past-exam-of-the-astrophysics-course-of-the-university-of-oxford/2022/6/a/solution.md)
+- [Solution](past-exam-of-the-cosmology-course-of-the-university-of-oxford/2025/1/a/solution.md)
+- [Solution](past-exam-of-the-cosmology-course-of-the-university-of-oxford/2025/1/d/solution.md)
+- [Solution](past-exam-of-the-general-relativity-course-of-the-university-of-oxford/2021/4/a/solution.md)
+- [Solution](past-exam-of-the-general-relativity-ii-course-of-the-university-of-oxford/2015/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-67/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-310/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-310/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-1/9d/solution.md)
+- [Solution](past-exam-of-the-relativity-course-of-the-university-of-cambridge/2018/section-a/1/c/solution.md)
+- [Spherical spatial slices of a closed FLRW universe](spherical-spatial-slices-of-a-closed-flrw-universe.md)
+- [Supernova discovery of accelerating expansion](supernova-discovery-of-accelerating-expansion.md)
+- [Worked supernova distance comparison](worked-supernova-distance-comparison.md)

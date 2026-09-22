@@ -1,0 +1,27 @@
+<h1 id="4/solution">Solution</h1>
+
+↑ **Parent:** [4](../4.md)
+
+**[Opium](../../../../../opium.md) was chiefly used to relieve pain, procure sleep, suppress troublesome [cough](../../../../../cough.md) and restrain [diarrhoea](../../../../../diarrhoea.md); each effect can relieve suffering while also creating a hazard.** It is a mixture of [alkaloids](../../../../../alkaloid.md), not a single standardized modern drug. Preparations such as [laudanum](../../../../../opium-tincture.md) cannot be treated as interchangeable volumes of “a sedative”. [Morphine](../../../../../morphine.md) and [codeine](../../../../../codeine.md) account for important pharmacological effects, but historical extracts varied.
+
+For pain, the useful objective is relief sufficient for rest and function. A person exhausted by severe pain may sleep after analgesia; that is different from using ever-increasing sedation to suppress an unexplained illness. In an 1866 explanation, [opium](../../../../../opium.md) might therefore accompany treatment of painful inflammatory disease or severe colic. It could palliate suffering even when no curative treatment existed. It did not follow that a quieter person had recovered from [pericarditis](../../../../../pericarditis.md), obstruction or [infection](../../../../../infection.md).
+
+For [cough](../../../../../cough.md), reducing an exhausting, unproductive symptom was the historical aim. But suppressing a protective [cough](../../../../../cough.md) where clearance of secretions or maintenance of breathing is already impaired can be harmful. For [diarrhoea](../../../../../diarrhoea.md), slowing intestinal transit reduces the number of stools; it does not restore lost fluid or eliminate an infectious cause. The modern pharmacological description of [opium tincture](../../../../../opium-tincture.md) specifically links its antidiarrhoeal effect to altered [intestinal motility](../../../../../intestinal-motility.md) and greater absorption of [water](../../../../../water.md) from intestinal contents.[Definition and mechanism as an antidiarrhoeal agent](../../../../../opium-tincture-in-the-nci-drug-dictionary.md) Reduced output is therefore not by itself proof that the underlying disease is improving.
+
+Historical uses also extended to spasmodic disorders and states called nervous excitement. These broad categories mixed different causes. A drug producing drowsiness could conceal deterioration, and neither [tetanus](../../../../../tetanus.md) nor [alcohol withdrawal](../../../../../alcohol-withdrawal.md) becomes adequately treated merely because the person is less visibly agitated. The contemporary medical debate openly questioned when [opium](../../../../../opium.md) was useful in such different conditions as [delirium tremens](../../../../../delirium-tremens.md), [dysentery](../../../../../dysentery.md) and [cholera](../../../../../cholera.md).[p. 294, disputed indications for opium in delirium tremens, dysentery and cholera](../../../../../introductory-address-at-the-public-opening-of-the-medical-session-1866-67-by-william-tennant-gairdner.md)
+
+**Modern correction: use a defined drug for a defined indication, with monitoring of benefit and toxicity.** Properly prescribed [opioids](../../../../../opioid.md) remain important for selected severe pain and palliation; crude [opium](../../../../../opium.md) is not a general remedy for sleeplessness, agitation or an undiagnosed abdomen. Major hazards include [respiratory depression](../../../../../respiratory-depression.md), excessive sedation, [nausea](../../../../../nausea.md), [constipation](../../../../../constipation.md), physical dependence and harmful interactions with other depressant drugs. Extra care is needed with renal or hepatic impairment. [Gastrointestinal obstruction](../../../../../gastrointestinal-obstruction.md), particularly [paralytic ileus](../../../../../paralytic-ileus.md), and significant respiratory compromise can preclude routine opioid use; the details depend on the drug and clinical setting.[Important warning; precautions and adverse effects](../../../../../morphine-by-medlineplus.md)[Contraindications; respiratory depression, gastrointestinal effects and special-risk groups](../../../../../morphine-sulfate-prescribing-information-fda.md) In sustained palliative treatment, review analgesia and adverse effects and anticipate [constipation](../../../../../constipation.md), rather than waiting for it to become severe.[CG140, dose review, renal or hepatic impairment and recommendations 1.1.18–1.1.20 on laxatives](../../../../../palliative-care-for-adults-strong-opioids-for-pain-relief-by-nice.md)
+
+## ↑ Ancestors (11)
+
+1. [4](../4.md)
+2. [Therapeutics](../../therapeutics-split.md)
+3. [Second examination](../../split.md)
+4. [1866](../../../split.md)
+5. [Past exam of the medicine course of the University of Oxford](../../../../split.md)
+6. [Medicine course of the University of Oxford](../../../../../medicine-course-of-the-university-of-oxford.md)
+7. [Undergraduate course of the University of Oxford](../../../../../undergraduate-course-of-the-university-of-oxford.md)
+8. [Course of the University of Oxford](../../../../../course-of-the-university-of-oxford.md)
+9. [University of Oxford](../../../../../university-of-oxford-split.md)
+10. [List of universities](../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../split.md)

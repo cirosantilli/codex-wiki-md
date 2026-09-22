@@ -1,0 +1,43 @@
+# Prime element
+
+↑ **Parent:** [Integral domain](integral-domain.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Prime_element)
+
+A nonzero nonunit $p$ in an integral domain is prime when $p\mid ab$ implies $p\mid a$ or $p\mid b$.
+
+## ↑ Ancestors (6)
+
+1. [Integral domain](integral-domain.md)
+2. [Commutative algebra](commutative-algebra-split.md)
+3. [Algebra](algebra-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (25)
+
+- [An irreducible nonprime in the order Z sqrt minus seven](an-irreducible-nonprime-in-the-order-z-sqrt-minus-seven.md)
+- [Irreducible elements of a principal ideal domain are prime](irreducible-elements-of-a-principal-ideal-domain-are-prime.md)
+- [Solution](past-exam-of-the-algebra-2-course-of-the-university-of-oxford/2014/1/d/solution.md)
+- [Solution](past-exam-of-the-algebra-2-course-of-the-university-of-oxford/2015/1/c/solution.md)
+- [Solution](past-exam-of-the-algebra-2-course-of-the-university-of-oxford/2015/1/d/solution.md)
+- [Solution](past-exam-of-the-algebra-analysis-and-differential-equations-2-course-of-the-university-of-oxford/2006/algebra/3/b/solution.md)
+- [Solution](past-exam-of-the-algebra-analysis-and-differential-equations-2-course-of-the-university-of-oxford/2012/3/a/solution.md)
+- [Solution](past-exam-of-the-introduction-to-schemes-course-of-the-university-of-oxford/2021/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ib/paper-4/11c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ib/paper-1/10f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ib/paper-4/11e/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-101/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ib/paper-2/11g/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-148/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ib/paper-3/10g/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-101/4/c/solution.md)
+- [Solution](past-exam-of-the-model-theory-and-godel-s-incompleteness-theorems-course-of-the-university-of-oxford/2008/b/7/i/solution.md)
+- [Solution](past-exam-of-the-rings-and-modules-course-of-the-university-of-oxford/2017/2/c/solution.md)
+- [Solution](past-exam-of-the-rings-and-modules-course-of-the-university-of-oxford/2021/1/a/i/solution.md)
+- [Solution](past-exam-of-the-rings-and-modules-course-of-the-university-of-oxford/2021/1/a/ii/solution.md)
+- [Solution](past-exam-of-the-rings-and-modules-course-of-the-university-of-oxford/2021/1/b/iv/solution.md)
+- [Solution](past-exam-of-the-rings-and-modules-course-of-the-university-of-oxford/2023/1/b/ii/solution.md)
+- [Prime ideals below a principal prime](prime-ideals-below-a-principal-prime.md)
+- [Prime representation by the Eisenstein norm](prime-representation-by-the-eisenstein-norm.md)
+- [Unique factorization in an integral domain](unique-factorization-in-an-integral-domain.md)

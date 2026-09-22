@@ -1,0 +1,33 @@
+# Hyperbolic cotangent
+
+↑ **Parent:** [Hyperbolic function](hyperbolic-function.md)
+
+The hyperbolic cotangent is $\coth x=\cosh x/\sinh x$ where $\sinh x\ne0$.
+
+**Table of contents**
+
+- [Partial-fraction expansion of the hyperbolic cotangent](partial-fraction-expansion-of-the-hyperbolic-cotangent.md)
+
+## ↑ Ancestors (8)
+
+1. [Hyperbolic function](hyperbolic-function.md)
+2. [Exponential function](exponential-function.md)
+3. [Calculus](calculus-split.md)
+4. [Real analysis](real-analysis-split.md)
+5. [Analysis](analysis-split.md)
+6. [Area of mathematics](area-of-mathematics.md)
+7. [Mathematics](mathematics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (10)
+
+- [Characteristic curves for speed one minus y squared](characteristic-curves-for-speed-one-minus-y-squared.md)
+- [Hyperbolic function](hyperbolic-function.md)
+- [Solution](past-exam-of-the-fourier-analysis-course-of-the-university-of-oxford/2023/3/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematical-methods-ii-course-of-the-university-of-oxford/2017-resit/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-55/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-1/15b/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-oxford/2021/prelims/mathematics-v-resit/question-6/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2018/paper-2/19/b/solution.md)
+- [Solution](past-exam-of-the-physics-1-paper-of-the-university-of-oxford/2015-resit/8/b/solution.md)
+- [Positive-equilibrium separatrix for a cubic profile equation](positive-equilibrium-separatrix-for-a-cubic-profile-equation.md)

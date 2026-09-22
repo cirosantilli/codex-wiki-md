@@ -1,0 +1,56 @@
+# 2018
+
+↑ **Parent:** [Past exam of the quantum field theory course of the University of Oxford](split.md)
+
+Source paper: [https://www.whatdotheyknow.com/request/oxford_physics_past_papers_2/response/2340696/attach/6/Physics%20Papers%202017.pdf?cookie_passthrough=1](https://www.whatdotheyknow.com/request/oxford_physics_past_papers_2/response/2340696/attach/6/Physics%20Papers%202017.pdf?cookie_passthrough=1)
+
+The scanned cover establishes Hilary Term 2018, despite the containing bundle's 2017 filename. Use $\hbar=c=1$, the [Minkowski metric](../minkowski-metric.md) signature $(+,-,\ldots,-)$ outside question 2, which uses [Euclidean space](../euclidean-norm.md), and $p\cdot x=E_{\mathbf p}t-\mathbf p\cdot\mathbf x$. The phase and normalization conflicts in question 4 are identified in [a](2018/4/a.md); its [path integral](../path-integral.md) is evaluated with the normalization of its displayed [action](../action.md).
+
+**Table of contents**
+
+- [1](2018/1.md)
+  - [a](2018/1/a.md)
+    - [Solution](2018/1/a/solution.md)
+  - [b](2018/1/b.md)
+    - [Solution](2018/1/b/solution.md)
+  - [c](2018/1/c.md)
+    - [Solution](2018/1/c/solution.md)
+- [2](2018/2.md)
+  - [a](2018/2/a.md)
+    - [Solution](2018/2/a/solution.md)
+  - [b](2018/2/b.md)
+    - [Solution](2018/2/b/solution.md)
+  - [c](2018/2/c.md)
+    - [Solution](2018/2/c/solution.md)
+  - [d](2018/2/d.md)
+    - [Solution](2018/2/d/solution.md)
+  - [e](2018/2/e.md)
+    - [Solution](2018/2/e/solution.md)
+- [3](2018/3.md)
+  - [a](2018/3/a.md)
+    - [Solution](2018/3/a/solution.md)
+  - [b](2018/3/b.md)
+    - [Solution](2018/3/b/solution.md)
+  - [c](2018/3/c.md)
+    - [Solution](2018/3/c/solution.md)
+  - [d](2018/3/d.md)
+    - [Solution](2018/3/d/solution.md)
+- [4](2018/4.md)
+  - [a](2018/4/a.md)
+    - [Solution](2018/4/a/solution.md)
+  - [b](2018/4/b.md)
+    - [Solution](2018/4/b/solution.md)
+  - [c](2018/4/c.md)
+    - [Solution](2018/4/c/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Past exam of the quantum field theory course of the University of Oxford](split.md)
+2. [Quantum field theory course of the University of Oxford](../quantum-field-theory-course-of-the-university-of-oxford.md)
+3. [Year 4 of the mathematical and theoretical physics course of the University of Oxford](../year-4-of-the-mathematical-and-theoretical-physics-course-of-the-university-of-oxford.md)
+4. [Mathematical and theoretical physics course of the University of Oxford](../mathematical-and-theoretical-physics-course-of-the-university-of-oxford.md)
+5. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+6. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+7. [University of Oxford](../university-of-oxford-split.md)
+8. [List of universities](../list-of-universities.md)
+9. [Codex Wiki](../split.md)

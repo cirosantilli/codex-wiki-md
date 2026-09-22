@@ -1,0 +1,14 @@
+# Gas exchange
+
+↑ **Parent:** [Physiology](physiology-split.md)
+
+## ↑ Ancestors (3)
+
+1. [Physiology](physiology-split.md)
+2. [Biology](biology-split.md)
+3. [Codex Wiki](split.md)
+
+## ← Incoming links (2)
+
+- [Fetal circulation](fetal-circulation.md)
+- [Solution](past-exam-of-the-medicine-course-of-the-university-of-oxford/1867/second-examination/pathology/5/solution.md)

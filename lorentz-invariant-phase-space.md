@@ -1,0 +1,60 @@
+# Lorentz-invariant phase space
+
+↑ **Parent:** [Decay width](decay-width.md)
+
+For two outgoing particles the [Lorentz-invariant phase space](lorentz-invariant-phase-space.md) is $d\Phi_2=(2\pi)^4\delta^{(4)}(p-k-k')\,d^3k/((2\pi)^32E_k)\,d^3k'/((2\pi)^32E_{k'})$. With massless daughters in their center-of-mass frame, $d\Phi_2=d\Omega/(32\pi^2)$ and $\int d\Phi_2=1/(8\pi)$. This fixes normalization factors in [decay widths](decay-width.md) and scattering rates.
+
+**Table of contents**
+
+- [Dalitz plot](dalitz-plot.md)
+  - [Dalitz boundary from pair-rest-frame kinematics](dalitz-boundary-from-pair-rest-frame-kinematics.md)
+  - [Uniform three-body Dalitz density](uniform-three-body-dalitz-density.md)
+- [Three-body threshold phase space](three-body-threshold-phase-space.md)
+- [Three-body phase space with one massive daughter](three-body-phase-space-with-one-massive-daughter.md)
+- [Two-body Lorentz-invariant phase space](two-body-lorentz-invariant-phase-space.md)
+  - [Massless two-body scattering flux normalization](massless-two-body-scattering-flux-normalization.md)
+
+## ↑ Ancestors (6)
+
+1. [Decay width](decay-width.md)
+2. [Relativistic quantum field](relativistic-quantum-field-split.md)
+3. [Quantum field theory](quantum-field-theory-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (33)
+
+- [Dalitz boundary from pair-rest-frame kinematics](dalitz-boundary-from-pair-rest-frame-kinematics.md)
+- [Decay threshold](decay-threshold.md)
+- [GIM suppression of top-quark neutral-current decays](gim-suppression-of-top-quark-neutral-current-decays.md)
+- [Lorentz-invariant phase space](lorentz-invariant-phase-space.md)
+- [Muon-antimuon annihilation into two photons](muon-antimuon-annihilation-into-two-photons.md)
+- [Neutral-kaon CP impurity and two-pion decay](neutral-kaon-cp-impurity-and-two-pion-decay.md)
+- [Solution](past-exam-of-the-advanced-quantum-field-theory-for-particle-physics-course-of-the-university-of-oxford/2017/2/b/i/solution.md)
+- [Solution](past-exam-of-the-gauge-field-theory-course-of-the-university-of-cambridge/2013/paper-1/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-63/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-54/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-46/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-45/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-305/3/b/solution.md)
+- [Solution](past-exam-of-the-nuclear-and-particle-physics-course-of-the-university-of-oxford/2022/1/b/solution.md)
+- [Solution](past-exam-of-the-nuclear-and-particle-physics-course-of-the-university-of-oxford/2022/2/b/solution.md)
+- [Solution](past-exam-of-the-nuclear-and-particle-physics-course-of-the-university-of-oxford/2022/2/d/solution.md)
+- [Solution](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2017/2/a/solution.md)
+- [Solution](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2017/2/b/solution.md)
+- [Solution](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2017/2/d/solution.md)
+- [Solution](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2017/6/d/solution.md)
+- [Solution](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2018/1/b/solution.md)
+- [Solution](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2018/1/c/solution.md)
+- [Solution](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2018/3/b/solution.md)
+- [Solution](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2021/1/a/solution.md)
+- [Solution](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2021/1/b/solution.md)
+- [Solution](past-exam-of-the-particle-physics-course-of-the-university-of-oxford/2021/2/c/solution.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2023/2/c/ii/solution.md)
+- [Solution](past-exam-of-the-sub-atomic-physics-course-of-the-university-of-oxford/2016/1/c/solution.md)
+- [Solution](past-exam-of-the-sub-atomic-physics-course-of-the-university-of-oxford/2016/2/b/solution.md)
+- [Spin-averaged electromagnetic parton tensor](spin-averaged-electromagnetic-parton-tensor.md)
+- [Tau-pair missing-mass teaching model](tau-pair-missing-mass-teaching-model.md)
+- [Three-body threshold phase space](three-body-threshold-phase-space.md)
+- [Uniform three-body Dalitz density](uniform-three-body-dalitz-density.md)

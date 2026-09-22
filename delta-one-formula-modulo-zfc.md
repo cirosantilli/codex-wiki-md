@@ -1,0 +1,22 @@
+# Delta-one formula modulo ZFC
+
+↑ **Parent:** [Lévy hierarchy](levy-hierarchy.md)
+
+A [first-order formula](first-order-formula.md) is $\Delta_1$ modulo [ZFC](zermelo-fraenkel-set-theory-with-choice.md) if that theory proves it equivalent, with the same free variables, both to a [Sigma-one formula in set theory](sigma-one-formula-in-set-theory.md) and to a universal unbounded quantifier block with a [bounded formula in set theory](bounded-formula-in-set-theory.md) as matrix. The theory used for provable equivalence matters: modulo [ZF](zermelo-fraenkel-set-theory.md) is a stronger requirement.
+
+## ↑ Ancestors (10)
+
+1. [Lévy hierarchy](levy-hierarchy.md)
+2. [Set-theoretic absoluteness](set-theoretic-absoluteness.md)
+3. [Formula relativization to a class](formula-relativization-to-a-class.md)
+4. [Transitive class](transitive-class.md)
+5. [Class (set theory)](class-set-theory.md)
+6. [Set theory](set-theory-split.md)
+7. [Foundations of mathematics](foundations-of-mathematics-split.md)
+8. [Area of mathematics](area-of-mathematics.md)
+9. [Mathematics](mathematics-split.md)
+10. [Codex Wiki](split.md)
+
+## ← Incoming links (1)
+
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-19/1/i/a/solution.md)

@@ -1,0 +1,21 @@
+<h1 id="a/4/c/solution">Solution</h1>
+
+↑ **Parent:** [C](../c.md)
+
+**Compact.** This operator is $BD$, where $D$ is the compact diagonal operator in (a) and $B$ is the bounded backward shift in (b). The composition property applies. Equivalently its tails have the same vanishing-coefficient finite-rank approximation.
+
+## ↑ Ancestors (13)
+
+1. [C](../c.md)
+2. [4](../../4.md)
+3. [A](../../../a.md)
+4. [2007](../../../../2007-split.md)
+5. [Past exam of the functional Analysis and Banach and C\*-Algebras course of the University of Oxford](../../../../split.md)
+6. [Functional Analysis and Banach and C\*-Algebras course of the University of Oxford](../../../../../functional-analysis-and-banach-and-c-algebras-course-of-the-university-of-oxford.md)
+7. [Year 4 of the mathematics course of the University of Oxford](../../../../../year-4-of-the-mathematics-course-of-the-university-of-oxford.md)
+8. [Mathematics course of the University of Oxford](../../../../../mathematics-course-of-the-university-of-oxford.md)
+9. [Undergraduate course of the University of Oxford](../../../../../undergraduate-course-of-the-university-of-oxford.md)
+10. [Course of the University of Oxford](../../../../../course-of-the-university-of-oxford.md)
+11. [University of Oxford](../../../../../university-of-oxford-split.md)
+12. [List of universities](../../../../../list-of-universities.md)
+13. [Codex Wiki](../../../../../split.md)

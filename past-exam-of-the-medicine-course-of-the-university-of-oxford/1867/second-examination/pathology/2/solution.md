@@ -1,0 +1,29 @@
+<h1 id="2/solution">Solution</h1>
+
+↑ **Parent:** [2](../2.md)
+
+**There is no single constant anatomical lesion of [epilepsy](../../../../../epilepsy.md).** A sound [autopsy](../../../../../autopsy.md) answer separates an underlying [brain lesion](../../../../../brain-lesion.md), changes associated with longstanding [epilepsy](../../../../../epilepsy.md), and the consequences of the final [seizure](../../../../../seizure.md) or death.
+
+The potentially causal group includes healed traumatic scars, old [cerebral infarctions](../../../../../cerebral-infarction.md) or [intracranial haemorrhages](../../../../../intracranial-haemorrhage.md), developmental abnormalities of the [cerebral cortex](../../../../../cerebral-cortex.md), [brain tumours](../../../../../brain-tumour.md), and inflammatory or infectious destruction of [brain](../../../../../brain.md) [tissue](../../../../../tissue-biology.md). Such abnormalities can leave an enduring network capable of generating recurrent [seizures](../../../../../seizure.md). Their importance depends on location and the lifetime history; an incidental abnormality is not automatically the cause. A modern acute symptomatic [seizure](../../../../../seizure.md) during a transient metabolic disturbance should also not automatically be called [epilepsy](../../../../../epilepsy.md).[Etiology of Seizure Disorders, structural, infectious and metabolic causes](../../../../../seizure-disorders-by-merck-manual-professional-edition.md)
+
+In longstanding cases one may find [atrophy](../../../../../atrophy.md) or scarring of particular [brain](../../../../../brain.md) regions. [Hippocampal sclerosis](../../../../../hippocampal-sclerosis.md) is an important modern example: loss of [neurons](../../../../../neuron-split.md) with [gliosis](../../../../../gliosis.md) in the [hippocampus](../../../../../hippocampus.md), associated especially with temporal-lobe [epilepsy](../../../../../epilepsy.md). Association does not settle whether a particular lesion preceded the first [seizure](../../../../../seizure.md), resulted from repeated [seizures](../../../../../seizure.md), or shares another cause with them. Conversely, genetically determined disturbances of [neuronal excitability](../../../../../neuronal-excitability.md) can produce recurrent [seizures](../../../../../seizure.md) without a grossly visible destructive lesion.[Causes of epilepsy; Types of epilepsy, temporal lobe epilepsy and hippocampal scarring](../../../../../epilepsy-and-seizures-by-the-national-institute-of-neurological-disorders-and-stroke.md)
+
+For the historical question, vascular redness or [congestion](../../../../../congestion.md) and alterations around the [medulla oblongata](../../../../../medulla-oblongata.md) deserve mention as contemporary observations rather than established universal causes. A January 1864 report describes microscopic examination of fourteen longstanding cases, including dilated [blood vessels](../../../../../blood-vessel.md) and altered nervous material in that region. Its proposed localization of [epilepsy](../../../../../epilepsy.md) to the [medulla oblongata](../../../../../medulla-oblongata.md) is a historical theory; modern [epilepsy](../../../../../epilepsy.md) is not defined by that site or by those vascular appearances.[Opening discussion of fourteen cases and the medulla oblongata](../../../../../report-on-epilepsy-in-the-buffalo-medical-and-surgical-journal-january-1864.md)
+
+The terminal group includes [cerebral oedema](../../../../../cerebral-oedema.md), [hypoxic-ischaemic brain injury](../../../../../hypoxic-ischaemic-brain-injury.md), and [pulmonary oedema](../../../../../pulmonary-oedema.md) or [aspiration](../../../../../aspiration.md) in some deaths. [Congestion](../../../../../congestion.md) is nonspecific and may be terminal; injuries can result from a fall during a [seizure](../../../../../seizure.md). None of these alone establishes that [epilepsy](../../../../../epilepsy.md) was the original cause. A modern [autopsy](../../../../../autopsy.md) study of sudden deaths in people with [epilepsy](../../../../../epilepsy.md) found both structural abnormalities and nonspecific changes; exclusion of another anatomical or toxicological cause remains central to classifying [sudden unexpected death in epilepsy](../../../../../sudden-unexpected-death-in-epilepsy.md).[Results, neuropathological and pulmonary findings; Discussion, exclusion of other causes](../../../../../sudden-unexpected-death-in-epilepsy-a-retrospective-autopsy-study-of-112-epileptic-patients.md)
+
+The appropriate investigation is therefore inspection followed by systematic [histology](../../../../../histology.md), especially of the [cerebral cortex](../../../../../cerebral-cortex.md) and [hippocampus](../../../../../hippocampus.md) on both sides, interpreted alongside the recorded [seizure](../../../../../seizure.md) history and examination of other organs. **A normal-looking [brain](../../../../../brain.md) does not exclude [epilepsy](../../../../../epilepsy.md), and a congested one does not prove it.**
+
+## ↑ Ancestors (11)
+
+1. [2](../2.md)
+2. [Pathology](../../pathology-split.md)
+3. [Second examination](../../split.md)
+4. [1867](../../../split.md)
+5. [Past exam of the medicine course of the University of Oxford](../../../../split.md)
+6. [Medicine course of the University of Oxford](../../../../../medicine-course-of-the-university-of-oxford.md)
+7. [Undergraduate course of the University of Oxford](../../../../../undergraduate-course-of-the-university-of-oxford.md)
+8. [Course of the University of Oxford](../../../../../course-of-the-university-of-oxford.md)
+9. [University of Oxford](../../../../../university-of-oxford-split.md)
+10. [List of universities](../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../split.md)

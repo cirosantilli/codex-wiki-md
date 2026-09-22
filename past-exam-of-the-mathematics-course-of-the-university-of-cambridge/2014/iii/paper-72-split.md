@@ -1,0 +1,47 @@
+# Paper 72
+
+↑ **Parent:** [Iii](split.md)
+
+[https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2014/paper_72.pdf](https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2014/paper_72.pdf)
+
+**Table of contents**
+
+- [1](paper-72/1.md)
+  - [a](paper-72/1/a.md)
+    - [Solution](paper-72/1/a/solution.md)
+  - [b](paper-72/1/b.md)
+    - [Solution](paper-72/1/b/solution.md)
+  - [c](paper-72/1/c.md)
+    - [i](paper-72/1/c/i.md)
+      - [Solution](paper-72/1/c/i/solution.md)
+    - [ii](paper-72/1/c/ii.md)
+      - [Solution](paper-72/1/c/ii/solution.md)
+- [2](paper-72/2.md)
+  - [a](paper-72/2/a.md)
+    - [Solution](paper-72/2/a/solution.md)
+  - [b](paper-72/2/b.md)
+    - [Solution](paper-72/2/b/solution.md)
+  - [c](paper-72/2/c.md)
+    - [Solution](paper-72/2/c/solution.md)
+  - [d](paper-72/2/d.md)
+    - [Solution](paper-72/2/d/solution.md)
+- [3](paper-72/3.md)
+  - [a](paper-72/3/a.md)
+    - [Solution](paper-72/3/a/solution.md)
+  - [b](paper-72/3/b.md)
+    - [Solution](paper-72/3/b/solution.md)
+  - [c](paper-72/3/c.md)
+    - [Solution](paper-72/3/c/solution.md)
+  - [d](paper-72/3/d.md)
+    - [Solution](paper-72/3/d/solution.md)
+
+## ↑ Ancestors (8)
+
+1. [Iii](split.md)
+2. [2014](../split.md)
+3. [Past exam of the mathematics course of the University of Cambridge](../../split.md)
+4. [Mathematics course of the University of Cambridge](../../../mathematics-course-of-the-university-of-cambridge.md)
+5. [Course of the University of Cambridge](../../../course-of-the-university-of-cambridge.md)
+6. [University of Cambridge](../../../university-of-cambridge-split.md)
+7. [List of universities](../../../list-of-universities.md)
+8. [Codex Wiki](../../../split.md)

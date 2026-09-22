@@ -1,0 +1,36 @@
+# Orbital energy
+
+↑ **Parent:** [Celestial mechanics](celestial-mechanics-split.md)
+
+## ↑ Ancestors (5)
+
+1. [Celestial mechanics](celestial-mechanics-split.md)
+2. [Classical mechanics](classical-mechanics-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (22)
+
+- [Fixed-speed orbital launch-direction error](fixed-speed-orbital-launch-direction-error.md)
+- [Hohmann transfer impulse fractions](hohmann-transfer-impulse-fractions.md)
+- [Natal kick binding criterion](natal-kick-binding-criterion.md)
+- [Solution](past-exam-of-the-astrophysics-course-of-the-university-of-oxford/2018/6/b/solution.md)
+- [Solution](past-exam-of-the-astrophysics-course-of-the-university-of-oxford/2018/6/d/solution.md)
+- [Solution](past-exam-of-the-physics-1-paper-of-the-university-of-oxford/2014/11/b/solution.md)
+- [Solution](past-exam-of-the-physics-1-paper-of-the-university-of-oxford/2014/11/c/solution.md)
+- [Solution](past-exam-of-the-physics-1-paper-of-the-university-of-oxford/2015-resit/9/solution.md)
+- [Solution](past-exam-of-the-physics-1-paper-of-the-university-of-oxford/2015/4/i/solution.md)
+- [2](past-exam-of-the-physics-1-paper-of-the-university-of-oxford/2017-resit/2.md)
+- [Solution](past-exam-of-the-physics-1-paper-of-the-university-of-oxford/2017-resit/2/a/solution.md)
+- [Solution](past-exam-of-the-physics-1-paper-of-the-university-of-oxford/2017-resit/2/b/solution.md)
+- [Solution](past-exam-of-the-physics-1-paper-of-the-university-of-oxford/2017-resit/2/d/solution.md)
+- [Solution](past-exam-of-the-physics-1-paper-of-the-university-of-oxford/2018/8/solution.md)
+- [Solution](past-exam-of-the-physics-1-paper-of-the-university-of-oxford/2021-resit/9/b/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2019/paper-1/section-c/c10/solution.md)
+- [Solution](past-exam-of-the-physics-b-course-of-the-university-of-cambridge/2021/paper-1/section-b/b6/b/solution.md)
+- [Solution](past-exam-of-the-physics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2024/paper-1/section-a/5/solution.md)
+- [Solution](past-exam-of-the-short-options-paper-shared-by-prelims-and-parts-a-and-b-of-the-physics-course-of-the-university-of-oxford/2016/s3/3/2/solution.md)
+- [Projected mass lower bound for a bound point-mass orbit](projected-mass-lower-bound-for-a-bound-point-mass-orbit.md)
+- [Radial impulse](radial-impulse.md)
+- [Radial kick from a circular Kepler orbit](radial-kick-from-a-circular-kepler-orbit.md)

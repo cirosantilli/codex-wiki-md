@@ -1,0 +1,51 @@
+# 2023
+
+↑ **Parent:** [Past exam of the algebraic number theory course of the University of Oxford](split.md)
+
+Original solutions to all three questions of the [University of Oxford](../university-of-oxford-split.md) Part B [algebraic number theory](../algebraic-number-theory-split.md) paper, sat on 30 May 2023. Source: [Oxford's released examination PDF, bundle pages 241–242; paper pages 1–2](https://www.whatdotheyknow.com/request/request_for_mathematics_examinat/response/3129786/attach/3/FOI%20202507%20740%20Data.pdf#page=241). The cover prints the formal code A12171W without a final digit. In 2(b)(iii), the printed assertion about a [principal ideal domain](../principal-ideal-domain.md) is false as written; the solution identifies the error and proves the intended [principal ideal ring](../principal-ideal-ring.md) assertion and its consequence.
+
+**Table of contents**
+
+- [1](2023/1.md)
+  - [a](2023/1/a.md)
+    - [Solution](2023/1/a/solution.md)
+  - [b](2023/1/b.md)
+    - [Solution](2023/1/b/solution.md)
+  - [c](2023/1/c.md)
+    - [i](2023/1/c/i.md)
+      - [Solution](2023/1/c/i/solution.md)
+    - [ii](2023/1/c/ii.md)
+      - [Solution](2023/1/c/ii/solution.md)
+    - [iii](2023/1/c/iii.md)
+      - [Solution](2023/1/c/iii/solution.md)
+- [2](2023/2.md)
+  - [a](2023/2/a.md)
+    - [Solution](2023/2/a/solution.md)
+  - [b](2023/2/b.md)
+    - [i](2023/2/b/i.md)
+      - [Solution](2023/2/b/i/solution.md)
+    - [ii](2023/2/b/ii.md)
+      - [Solution](2023/2/b/ii/solution.md)
+    - [iii](2023/2/b/iii.md)
+      - [Solution](2023/2/b/iii/solution.md)
+- [3](2023/3.md)
+  - [a](2023/3/a.md)
+    - [Solution](2023/3/a/solution.md)
+  - [b](2023/3/b.md)
+    - [Solution](2023/3/b/solution.md)
+  - [c](2023/3/c.md)
+    - [Solution](2023/3/c/solution.md)
+  - [d](2023/3/d.md)
+    - [Solution](2023/3/d/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Past exam of the algebraic number theory course of the University of Oxford](split.md)
+2. [Algebraic number theory course of the University of Oxford](../algebraic-number-theory-course-of-the-university-of-oxford.md)
+3. [Year 3 of the mathematics course of the University of Oxford](../year-3-of-the-mathematics-course-of-the-university-of-oxford.md)
+4. [Mathematics course of the University of Oxford](../mathematics-course-of-the-university-of-oxford.md)
+5. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+6. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+7. [University of Oxford](../university-of-oxford-split.md)
+8. [List of universities](../list-of-universities.md)
+9. [Codex Wiki](../split.md)

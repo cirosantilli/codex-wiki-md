@@ -1,0 +1,50 @@
+# 2009
+
+↑ **Parent:** [Past exam of the methods of applied functional analysis course of the University of Oxford](split.md)
+
+This [University of Oxford](../university-of-oxford-split.md) Part C paper combines Methods of [Functional](../functional.md) Analysis for PDEs in section A with [Fixed point](../fixed-point.md) Methods for Nonlinear PDEs in section B. [Source release](https://www.whatdotheyknow.com/request/maths_past_papers_3) The archive preserves the full editable seven-page paper. [Bounded](../boundedness.md) official-source searches found no advertised answers for this exact paper. Question 3 has a missing spectral term in one printed adjoint weak-form assertion; the solution gives a counterexample and the corrected derivation.
+
+**Table of contents**
+
+- [A](2009/a.md)
+  - [1](2009/a/1.md)
+    - [a](2009/a/1/a.md)
+      - [Solution](2009/a/1/a/solution.md)
+    - [b](2009/a/1/b.md)
+      - [Solution](2009/a/1/b/solution.md)
+  - [2](2009/a/2.md)
+    - [Solution](2009/a/2/solution.md)
+  - [3](2009/a/3.md)
+    - [Solution](2009/a/3/solution.md)
+- [B](2009/b.md)
+  - [4](2009/b/4.md)
+    - [a](2009/b/4/a.md)
+      - [Solution](2009/b/4/a/solution.md)
+    - [b](2009/b/4/b.md)
+      - [Solution](2009/b/4/b/solution.md)
+    - [c](2009/b/4/c.md)
+      - [Solution](2009/b/4/c/solution.md)
+  - [5](2009/b/5.md)
+    - [a](2009/b/5/a.md)
+      - [Solution](2009/b/5/a/solution.md)
+    - [b](2009/b/5/b.md)
+      - [Solution](2009/b/5/b/solution.md)
+  - [6](2009/b/6.md)
+    - [a](2009/b/6/a.md)
+      - [Solution](2009/b/6/a/solution.md)
+    - [b](2009/b/6/b.md)
+      - [Solution](2009/b/6/b/solution.md)
+    - [c](2009/b/6/c.md)
+      - [Solution](2009/b/6/c/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Past exam of the methods of applied functional analysis course of the University of Oxford](split.md)
+2. [Methods of applied functional analysis course of the University of Oxford](../methods-of-applied-functional-analysis-course-of-the-university-of-oxford.md)
+3. [Year 4 of the mathematics course of the University of Oxford](../year-4-of-the-mathematics-course-of-the-university-of-oxford.md)
+4. [Mathematics course of the University of Oxford](../mathematics-course-of-the-university-of-oxford.md)
+5. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+6. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+7. [University of Oxford](../university-of-oxford-split.md)
+8. [List of universities](../list-of-universities.md)
+9. [Codex Wiki](../split.md)

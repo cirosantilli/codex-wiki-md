@@ -1,0 +1,18 @@
+# Back edge in depth-first search
+
+↑ **Parent:** [DFS edge classification](dfs-edge-classification.md)
+
+A [directed edge](directed-edge.md) from a [vertex](vertex-graph-theory.md) to an active ancestor in its [depth-first search](depth-first-search.md). Together with the tree path from that ancestor it witnesses a [directed cycle](directed-cycle.md).
+
+## ↑ Ancestors (5)
+
+1. [DFS edge classification](dfs-edge-classification.md)
+2. [Depth-first search](depth-first-search.md)
+3. [Algorithm](algorithm-split.md)
+4. [Computer science](computer-science-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (2)
+
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2017/functional-programming-design-and-analysis-of-algorithms-resit/7/b/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2017/functional-programming-design-and-analysis-of-algorithms-resit/7/c/iii/solution.md)

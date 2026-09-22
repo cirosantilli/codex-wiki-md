@@ -1,0 +1,52 @@
+# 2006
+
+↑ **Parent:** [Past exam of the algebra, analysis and differential equations 1 course of the University of Oxford](split.md)
+
+Original solutions to all nine questions and all fifteen terminal parts. Source: [released Mathematics examination papers](https://www.whatdotheyknow.com/request/maths_papers_2), archive `FOI 20210708 1 Data.zip`, examination of 22 June 2006.
+
+**Table of contents**
+
+- [1](2006/1.md)
+  - [a](2006/1/a.md)
+    - [Solution](2006/1/a/solution.md)
+  - [b](2006/1/b.md)
+    - [Solution](2006/1/b/solution.md)
+  - [c](2006/1/c.md)
+    - [Solution](2006/1/c/solution.md)
+  - [d](2006/1/d.md)
+    - [Solution](2006/1/d/solution.md)
+- [2](2006/2.md)
+  - [Solution](2006/2/solution.md)
+- [3](2006/3.md)
+  - [i](2006/3/i.md)
+    - [Solution](2006/3/i/solution.md)
+  - [ii](2006/3/ii.md)
+    - [Solution](2006/3/ii/solution.md)
+  - [iii](2006/3/iii.md)
+    - [Solution](2006/3/iii/solution.md)
+  - [iv](2006/3/iv.md)
+    - [Solution](2006/3/iv/solution.md)
+- [4](2006/4.md)
+  - [Solution](2006/4/solution.md)
+- [5](2006/5.md)
+  - [Solution](2006/5/solution.md)
+- [6](2006/6.md)
+  - [Solution](2006/6/solution.md)
+- [7](2006/7.md)
+  - [Solution](2006/7/solution.md)
+- [8](2006/8.md)
+  - [Solution](2006/8/solution.md)
+- [9](2006/9.md)
+  - [Solution](2006/9/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Past exam of the algebra, analysis and differential equations 1 course of the University of Oxford](split.md)
+2. [Algebra, analysis and differential equations 1 course of the University of Oxford](../algebra-analysis-and-differential-equations-1-course-of-the-university-of-oxford.md)
+3. [Year 2 of the mathematics course of the University of Oxford](../year-2-of-the-mathematics-course-of-the-university-of-oxford.md)
+4. [Mathematics course of the University of Oxford](../mathematics-course-of-the-university-of-oxford.md)
+5. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+6. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+7. [University of Oxford](../university-of-oxford-split.md)
+8. [List of universities](../list-of-universities.md)
+9. [Codex Wiki](../split.md)

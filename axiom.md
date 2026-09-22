@@ -1,0 +1,63 @@
+# Axiom
+
+↑ **Parent:** [Mathematical logic](mathematical-logic-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Axiom)
+
+An axiom is a sentence admitted as a starting assumption of a formal theory. An axiom schema specifies a collection of such sentences, usually one for each formula of an allowed form. A [model of a first-order theory](model-of-a-first-order-theory.md) satisfies all its axioms; a [relative consistency](relative-consistency.md) construction can show that the other axioms do not imply a particular omitted one.
+
+**Table of contents**
+
+- [Axiom set](axiom-set.md)
+  - [Independent axiom set](independent-axiom-set.md)
+    - [Independence of the Abelian group axioms](independence-of-the-abelian-group-axioms.md)
+
+## ↑ Ancestors (5)
+
+1. [Mathematical logic](mathematical-logic-split.md)
+2. [Foundations of mathematics](foundations-of-mathematics-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (40)
+
+- [A semantic Gödel fixed point need not be canonical](a-semantic-godel-fixed-point-need-not-be-canonical.md)
+- [Axiom-only complete propositional calculus](axiom-only-complete-propositional-calculus.md)
+- [Axiom set](axiom-set.md)
+- [Finite axiomatizability](finite-axiomatizability.md)
+- [Finite axiomatizability with infinitely many scalar symbols](finite-axiomatizability-with-infinitely-many-scalar-symbols.md)
+- [Foundations of mathematics](foundations-of-mathematics-split.md)
+- [GL fixed point by truth substitution](gl-fixed-point-by-truth-substitution.md)
+- [Henkin semantics](henkin-semantics.md)
+- [Hilbert proof system](hilbert-proof-system.md)
+- [Independence of the Abelian group axioms](independence-of-the-abelian-group-axioms.md)
+- [Independent axiom set](independent-axiom-set.md)
+- [Mathematical logic](mathematical-logic-split.md)
+- [Nonfinite axiomatizability of torsion-free abelian groups](nonfinite-axiomatizability-of-torsion-free-abelian-groups.md)
+- [Solution](past-exam-of-the-history-of-mathematics-course-of-the-university-of-oxford/2023/9/solution.md)
+- [Solution](past-exam-of-the-logic-and-set-theory-course-of-the-university-of-oxford/2007/a/2/i/solution.md)
+- [Solution](past-exam-of-the-logic-and-set-theory-course-of-the-university-of-oxford/2007/a/3/ii/solution.md)
+- [Solution](past-exam-of-the-logic-and-set-theory-course-of-the-university-of-oxford/2007/a/4/i/solution.md)
+- [Solution](past-exam-of-the-logic-and-set-theory-course-of-the-university-of-oxford/2008/a/2/e/solution.md)
+- [Solution](past-exam-of-the-logic-and-set-theory-course-of-the-university-of-oxford/2008/a/3/d/solution.md)
+- [Solution](past-exam-of-the-logic-and-set-theory-course-of-the-university-of-oxford/2008/a/4/b/solution.md)
+- [Solution](past-exam-of-the-logic-and-set-theory-course-of-the-university-of-oxford/2008/a/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-24/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-24/3/solution.md)
+- [Solution](past-exam-of-the-model-theory-and-godel-s-incompleteness-theorems-course-of-the-university-of-oxford/2009/a/1/d/solution.md)
+- [Solution](past-exam-of-the-model-theory-and-godel-s-incompleteness-theorems-course-of-the-university-of-oxford/2009/a/2/b/solution.md)
+- [Solution](past-exam-of-the-model-theory-and-godel-s-incompleteness-theorems-course-of-the-university-of-oxford/2009/a/2/c/solution.md)
+- [Solution](past-exam-of-the-model-theory-and-godel-s-incompleteness-theorems-course-of-the-university-of-oxford/2009/a/2/d/solution.md)
+- [Solution](past-exam-of-the-model-theory-and-godel-s-incompleteness-theorems-course-of-the-university-of-oxford/2009/a/3/c/solution.md)
+- [Solution](past-exam-of-the-model-theory-and-godel-s-incompleteness-theorems-course-of-the-university-of-oxford/2009/a/3/d/solution.md)
+- [Solution](past-exam-of-the-model-theory-and-godel-s-incompleteness-theorems-course-of-the-university-of-oxford/2009/b/4/b/iii/solution.md)
+- [Solution](past-exam-of-the-model-theory-and-godel-s-incompleteness-theorems-course-of-the-university-of-oxford/2009/b/5/c/ii/solution.md)
+- [Solution](past-exam-of-the-model-theory-and-godel-s-incompleteness-theorems-course-of-the-university-of-oxford/2009/b/5/c/iii/solution.md)
+- [Solution](past-exam-of-the-model-theory-and-godel-s-incompleteness-theorems-course-of-the-university-of-oxford/2009/b/5/c/iv/solution.md)
+- [Solution](past-exam-of-the-model-theory-and-godel-s-incompleteness-theorems-course-of-the-university-of-oxford/2009/b/5/d/solution.md)
+- [Solution](past-exam-of-the-philosophy-of-science-supplementary-subject-of-the-university-of-oxford/2015/5/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2019/digital-systems-linear-algebra-introduction-to-formal-proof/8/b/solution.md)
+- [Proof theory](proof-theory.md)
+- [Rosser separation by a bounded stage comparison](rosser-separation-by-a-bounded-stage-comparison.md)
+- [Set theory](set-theory-split.md)
+- [Unrestricted consistency self-strengthening is inconsistent](unrestricted-consistency-self-strengthening-is-inconsistent.md)

@@ -1,0 +1,28 @@
+<h1 id="3/solution">Solution</h1>
+
+↑ **Parent:** [3](../3.md)
+
+Essential [cell cycle](../../../../cell-cycle-split.md) genes cannot generally be discovered by selecting viable complete deletions alone. A [temperature-sensitive mutation](../../../../temperature-sensitive-mutation.md) solves this problem: its product supports growth under permissive conditions but fails under restrictive conditions. Screen conditional mutants for a reproducible division defect, then distinguish a specific cycle block from nonspecific loss of viability. A [cdc mutant](../../../../cdc-mutant.md) is defined by its cycle [phenotype](../../../../phenotype.md), not simply by poor growth at high temperature.
+
+In [Saccharomyces cerevisiae](../../../../saccharomyces-cerevisiae.md), bud size and nuclear morphology provide convenient stage markers. After shifting an asynchronous culture, mutants defective at a particular step tend to accumulate with a characteristic morphology. [Leland H. Hartwell](../../../../leland-h-hartwell.md) and colleagues used time-lapse observations to distinguish the time a function must act from the stage at which its absence becomes visible. Temperature-shift timing, DNA-content measurements and recovery after return to permissive conditions strengthen the interpretation. A delayed terminal [phenotype](../../../../phenotype.md) need not identify the moment of the original molecular defect.[Conditional mutants, execution points and termination phenotypes](../../../../genetic-control-of-the-cell-division-cycle-in-yeast-i-detection-of-mutants-by-leland-h-hartwell-and-others.md)
+
+In [Schizosaccharomyces pombe](../../../../schizosaccharomyces-pombe.md), elongated cells that continue growing without dividing are especially useful candidates; nuclear number, septum formation and [DNA](../../../../deoxyribonucleic-acid.md) content separate blocks in replication, mitosis and division. [Paul Nurse](../../../../paul-nurse.md), [Pierre Thuriaux](../../../../pierre-thuriaux.md) and [Kim Nasmyth](../../../../kim-nasmyth.md) isolated conditional mutants defining multiple essential functions. [Complementation testing](../../../../complementation-testing.md) groups recessive [mutations](../../../../mutation.md) affecting the same function, and segregation analysis distinguishes linked from independent loci. Molecular identification, rescue and biochemical tests then establish what the affected products do.[Conditional mutants affecting DNA synthesis, nuclear division and septation](../../../../genetic-control-of-the-cell-division-cycle-in-the-fission-yeast-schizosaccharomyces-pombe-by-paul-nurse-and-others.md)
+
+Three contrasting examples explain why similar-looking division blocks need not have the same cause. In fission yeast, [Cdc2](../../../../cyclin-dependent-kinase-1.md), the [cyclin-dependent kinase 1](../../../../cyclin-dependent-kinase-1.md) catalytic subunit, is required for key cycle transitions. A restrictive loss-of-function allele can leave cells growing without entering mitosis; some alleles also reveal the earlier requirement at Start. [Cdc25](../../../../cdc25.md) is an activating [protein phosphatase](../../../../protein-phosphatase.md) that removes inhibitory phosphorylation from [Cdc2](../../../../cyclin-dependent-kinase-1.md). Loss of [Cdc25](../../../../cdc25.md) therefore leaves the mitotic kinase inadequately activated and commonly produces an elongated G2-arrested [phenotype](../../../../phenotype.md). In budding yeast, [Cdc6](../../../../cdc6.md) participates in [DNA replication licensing](../../../../replication-licensing.md): failure to establish competent origins prevents successful genome duplication and hence normal division. Species and allele must be stated: identically numbered CDC names in different yeasts are not automatically homologous [proteins](../../../../protein-split.md).
+
+The importance for [cancer](../../../../cancer.md) is that an unbiased genetic screen exposed conserved mechanisms connecting growth, [DNA](../../../../deoxyribonucleic-acid.md) duplication and division. The [yeast cross-species complementation experiment](../../../../yeast-cross-species-complementation-experiment.md) showed that central regulatory functions could be conserved across large evolutionary distances. Human cancers can alter cyclin-CDK regulation, DNA-replication control and checkpoint responses, providing a mechanistic connection to uncontrolled proliferation and [genomic instability](../../../../genomic-instability.md). This does not mean that every yeast cdc gene is a human oncogene, nor that any observed arrest is necessarily a checkpoint response: direct loss of an essential activity can itself stop progression.
+
+## ↑ Ancestors (12)
+
+1. [3](../3.md)
+2. [Paper 1](../../paper-1-split.md)
+3. [2024](../../split.md)
+4. [Past exam of the genetics course of the University of Cambridge](../../../split.md)
+5. [Genetics course of the University of Cambridge](../../../../genetics-course-of-the-university-of-cambridge.md)
+6. [Year 3 of the natural sciences course of the University of Cambridge](../../../../year-3-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+7. [Year of the natural sciences course of the University of Cambridge](../../../../year-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+8. [Natural sciences course of the University of Cambridge](../../../../natural-sciences-course-of-the-university-of-cambridge.md)
+9. [Course of the University of Cambridge](../../../../course-of-the-university-of-cambridge.md)
+10. [University of Cambridge](../../../../university-of-cambridge-split.md)
+11. [List of universities](../../../../list-of-universities.md)
+12. [Codex Wiki](../../../../split.md)

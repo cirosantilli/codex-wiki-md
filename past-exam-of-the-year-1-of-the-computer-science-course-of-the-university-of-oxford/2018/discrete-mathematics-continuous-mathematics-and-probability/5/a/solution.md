@@ -1,0 +1,24 @@
+<h1 id="5/a/solution">Solution</h1>
+
+↑ **Parent:** [A](../a.md)
+
+The coordinate sum is $2\sin t$, while the sum of their cubes is $6\sin t-4\sin^3t$. Along the [parametrized curve](../../../../../parametric-curve.md), the composite [function](../../../../../function-split.md) is therefore $-3\sin t/2-\sin^3t/3$. Differentiate, or apply the multivariable [chain rule](../../../../../chain-rule.md), to obtain
+
+$$
+\boxed{\frac{\mathrm d f(x(t),y(t))}{\mathrm dt}=-\cos t\left(\frac32+\sin^2t\right).}
+$$
+
+## ↑ Ancestors (12)
+
+1. [A](../a.md)
+2. [5](../../5.md)
+3. [Discrete mathematics, continuous mathematics, and probability](../../../discrete-mathematics-continuous-mathematics-and-probability-split.md)
+4. [2018](../../../split.md)
+5. [Past exam of the year 1 of the computer science course of the University of Oxford](../../../../split.md)
+6. [Year 1 of the computer science course of the University of Oxford](../../../../../year-1-of-the-computer-science-course-of-the-university-of-oxford.md)
+7. [Computer science course of the University of Oxford](../../../../../computer-science-course-of-the-university-of-oxford.md)
+8. [Undergraduate course of the University of Oxford](../../../../../undergraduate-course-of-the-university-of-oxford.md)
+9. [Course of the University of Oxford](../../../../../course-of-the-university-of-oxford.md)
+10. [University of Oxford](../../../../../university-of-oxford-split.md)
+11. [List of universities](../../../../../list-of-universities.md)
+12. [Codex Wiki](../../../../../split.md)

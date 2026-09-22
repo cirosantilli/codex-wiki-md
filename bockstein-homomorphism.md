@@ -1,0 +1,60 @@
+# Bockstein homomorphism
+
+↑ **Parent:** [Connecting homomorphism](connecting-homomorphism.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Bockstein_homomorphism)
+
+The Bockstein homomorphism is the connecting homomorphism associated with a short exact sequence of coefficient groups. For $0\to\mathbb Z/n\to\mathbb Z/n^2\to\mathbb Z/n\to0$, it has degree $-1$ on homology and degree $+1$ on cohomology.
+
+**Table of contents**
+
+- [Bockstein on infinite real projective space](bockstein-on-infinite-real-projective-space.md)
+- [Bockstein factorization through integral cohomology](bockstein-factorization-through-integral-cohomology.md)
+  - [Degree-one Bockstein square identity](degree-one-bockstein-square-identity.md)
+  - [Bockstein square-zero identity](bockstein-square-zero-identity.md)
+    - [Bockstein cohomology](bockstein-cohomology.md)
+- [Integral Bockstein homomorphism](integral-bockstein-homomorphism.md)
+- [Bockstein isomorphism for a three-dimensional lens space](bockstein-isomorphism-for-a-three-dimensional-lens-space.md)
+  - [Bockstein linking invariant of a three-dimensional lens space](bockstein-linking-invariant-of-a-three-dimensional-lens-space.md)
+- [Bockstein homology](bockstein-homology.md)
+- [Long exact sequence from a coefficient sequence](long-exact-sequence-from-a-coefficient-sequence.md)
+- [Bockstein derivation rule](bockstein-derivation-rule.md)
+
+## ↑ Ancestors (10)
+
+1. [Connecting homomorphism](connecting-homomorphism.md)
+2. [Long exact sequence in homology](long-exact-sequence-in-homology.md)
+3. [Short exact sequence of chain complexes](short-exact-sequence-of-chain-complexes.md)
+4. [Chain complex](chain-complex.md)
+5. [Homology (mathematics)](homology-split.md)
+6. [Algebraic topology](algebraic-topology-split.md)
+7. [Geometry and topology](geometry-and-topology-split.md)
+8. [Area of mathematics](area-of-mathematics.md)
+9. [Mathematics](mathematics-split.md)
+10. [Codex Wiki](split.md)
+
+## ← Incoming links (24)
+
+- [Bockstein cohomology](bockstein-cohomology.md)
+- [Bockstein derivation rule](bockstein-derivation-rule.md)
+- [Bockstein factorization through integral cohomology](bockstein-factorization-through-integral-cohomology.md)
+- [Bockstein on a cyclic Moore space](bockstein-on-a-cyclic-moore-space.md)
+- [Bockstein on infinite real projective space](bockstein-on-infinite-real-projective-space.md)
+- [Cohomology ring of a finite cyclic group over its prime field](cohomology-ring-of-a-finite-cyclic-group-over-its-prime-field.md)
+- [Long exact sequence](long-exact-sequence.md)
+- [Long exact sequence from a coefficient sequence](long-exact-sequence-from-a-coefficient-sequence.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-16/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-12/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-19/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-114/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-114/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-127/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-114/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-114/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-142/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-114/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-127/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-127/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-165/4/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-114/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-114/1/solution.md)
+- [Steenrod algebra](steenrod-algebra.md)

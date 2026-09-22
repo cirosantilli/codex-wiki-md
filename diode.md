@@ -1,0 +1,66 @@
+# Diode
+
+↑ **Parent:** [Electrical circuit](electrical-circuit-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Diode)
+
+A [diode](diode.md) is a two-terminal component with an asymmetric [current-voltage characteristic](current-voltage-characteristic.md): reversing its terminal [electric potential difference](electric-potential-difference.md) need not reverse its [electric current](electric-current.md) with the same magnitude. Name the terminals [diode anode](diode-anode.md) $A$ and [diode cathode](diode-cathode.md) $K$. Define $V_D=\phi_A-\phi_K$ using their [electric potentials](electric-potential.md), and take positive [electric current](electric-current.md) $I_D$ from $A$ to $K$. The bar in the [diode](diode.md) symbol marks $K$. Positive $V_D$ is the forward direction; negative $V_D$ is the reverse direction.[Functions of Rectifier Diodes, opening paragraph and Fig. 2-1(a): terminal names, polarity and symbol](functions-of-rectifier-diodes-by-toshiba-electronic-devices-and-storage-corporation.md)
+
+The asymmetry makes a [rectifier](rectifier.md) possible: a [sinusoid](sinusoid.md) can drive [electric current](electric-current.md) through a [resistor](resistor.md) on one half of each cycle. An ordinary [resistor](resistor.md) obeying [Ohm's law](ohm-s-law.md) instead reverses its [electric current](electric-current.md) when the applied [electric potential difference](electric-potential-difference.md) reverses. The useful idea is directional selection; the [ideal diode model](ideal-diode-model.md) captures it, while the [Shockley diode equation](shockley-diode-equation.md) describes a smooth [exponential function](exponential-function.md) rather than an abrupt switch.
+
+**Table of contents**
+
+- [Diode anode](diode-anode.md)
+- [Diode cathode](diode-cathode.md)
+- [Ideal diode model](ideal-diode-model.md)
+- [Shockley diode equation](shockley-diode-equation.md)
+  - [Diode minority-carrier diffusion current](diode-minority-carrier-diffusion-current.md)
+  - [Thermal voltage](thermal-voltage.md)
+  - [Diode saturation current](diode-saturation-current.md)
+    - [Extracting a semiconductor band gap from diode saturation current](extracting-a-semiconductor-band-gap-from-diode-saturation-current.md)
+  - [Diode ideality factor](diode-ideality-factor.md)
+- [Diode reverse breakdown](diode-reverse-breakdown.md)
+- [Diode characteristic measurement](diode-characteristic-measurement.md)
+- [Rectifier](rectifier.md)
+  - [Voltage multiplier](voltage-multiplier.md)
+  - [Half-wave rectifier](half-wave-rectifier.md)
+- [Light-emitting diode](light-emitting-diode.md)
+  - [Blue light-emitting diode](blue-light-emitting-diode.md)
+    - [GaN blue LED development](gan-blue-led-development.md)
+  - [Light-emitting diode efficiency](light-emitting-diode-efficiency.md)
+    - [Internal quantum efficiency](internal-quantum-efficiency.md)
+    - [External quantum efficiency](external-quantum-efficiency.md)
+    - [Light extraction efficiency](light-extraction-efficiency.md)
+    - [Wall-plug efficiency](wall-plug-efficiency.md)
+  - [White light-emitting diode](white-light-emitting-diode.md)
+    - [Phosphor-converted white light-emitting diode](phosphor-converted-white-light-emitting-diode.md)
+
+## ↑ Ancestors (5)
+
+1. [Electrical circuit](electrical-circuit-split.md)
+2. [Electromagnetism](electromagnetism-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (20)
+
+- [Bloch nuclear induction experiment](bloch-nuclear-induction-experiment.md)
+- [Current-voltage characteristic](current-voltage-characteristic.md)
+- [Diode](diode.md)
+- [Diode anode](diode-anode.md)
+- [Diode cathode](diode-cathode.md)
+- [Diode characteristic measurement](diode-characteristic-measurement.md)
+- [Electrical impedance](electrical-impedance.md)
+- [Envelope detector](envelope-detector.md)
+- [Half-wave rectifier](half-wave-rectifier.md)
+- [Ideal diode model](ideal-diode-model.md)
+- [Light-emitting diode](light-emitting-diode.md)
+- [Measuring a solar cell's current-voltage characteristic](measuring-a-solar-cell-s-current-voltage-characteristic.md)
+- [Solution](past-exam-of-the-mphil-in-micro-and-nanotechnology-enterprise-course-of-the-university-of-cambridge/2021/paper-1/12/ii/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2014/paper-2/section-d/d13/solution.md)
+- [Solution](past-exam-of-the-physics-a-course-of-the-university-of-cambridge/2016/paper-2/section-d/d13/c/solution.md)
+- [Photodiode](photodiode.md)
+- [Rectifier](rectifier.md)
+- [Shockley diode equation](shockley-diode-equation.md)
+- [Shockley junction transistor proposal](shockley-junction-transistor-proposal.md)
+- [Voltage multiplier](voltage-multiplier.md)

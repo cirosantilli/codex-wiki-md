@@ -1,0 +1,31 @@
+<h1 id="8/solution">Solution</h1>
+
+↑ **Parent:** [8](../8.md)
+
+**The [amnion](../../../../../amnion.md), [allantois](../../../../../allantois.md) and [yolk sac](../../../../../yolk-sac.md) are distinct extraembryonic structures whose relations change as the embryo folds and the [umbilical cord](../../../../../umbilical-cord.md) forms.** The historical umbilical vesicle is the [yolk sac](../../../../../yolk-sac.md); its duct must not be identified with the allantoic channel.
+
+Early in development the embryonic disc lies between the amniotic cavity dorsally and the [yolk sac](../../../../../yolk-sac.md) ventrally. The [amnion](../../../../../amnion.md) has an epithelial lining facing its fluid and an outer supporting mesodermal component. The [yolk sac](../../../../../yolk-sac.md) has an endodermal lining and an external splanchnic mesodermal covering. Outside them is the [chorionic cavity](../../../../../chorionic-cavity.md), interrupted by the [connecting stalk](../../../../../connecting-stalk.md) linking the embryonic region to the [chorion](../../../../../chorion.md). The [chorion](../../../../../chorion.md) consists of trophoblastic tissues and extraembryonic somatic [mesoderm](../../../../../mesoderm.md); it is not simply another name for the [amnion](../../../../../amnion.md) or an outgrowth of yolk-sac [endoderm](../../../../../endoderm.md).
+
+The human [allantois](../../../../../allantois.md) appears as a small endodermal diverticulum from the caudal yolk-sac region and extends into the [connecting stalk](../../../../../connecting-stalk.md). With incorporation of the caudal region into the embryo it becomes related to the [cloaca](../../../../../cloaca.md) and developing [urinary bladder](../../../../../urinary-bladder.md). Its intraembryonic remnant is associated with the [urachus](../../../../../urachus.md), later represented by the [median umbilical ligament](../../../../../median-umbilical-ligament.md). Unlike the large allantoic sac of a bird, the human [allantois](../../../../../allantois.md) is not an expanding external urine reservoir or an independent aerial respiratory organ.[Extra-embryonic Coelom; Allantois: cloacal diverticulum, connecting stalk and subsequent bladder relation](../../../../../coelomic-cavity-development-by-the-university-of-new-south-wales.md)
+
+Embryonic folding converts part of the original endodermal roof of the [yolk sac](../../../../../yolk-sac.md) into the gut tube. The remaining sac lies outside the embryo and communicates with the midgut through the narrowing [vitelline duct](../../../../../vitelline-duct.md). Vitelline vessels accompany its early vascular apparatus. The sac supports early nutritional and [blood](../../../../../blood.md)-forming functions even though it contains no large yolk store in humans. Its connection normally regresses; persistence of a [vitelline duct](../../../../../vitelline-duct.md) is a different anomaly from persistence of the [urachus](../../../../../urachus.md). The presence of a duct alone does not make the two structures interchangeable.[Introduction; Development; Mechanism: umbilical vesicle, midgut connection, vitelline circulation and regression](../../../../../embryology-yolk-sac-statpearls.md)
+
+As the [amnion](../../../../../amnion.md) expands, it surrounds the embryo more completely and encloses the roots of the [connecting stalk](../../../../../connecting-stalk.md) and yolk-sac connection at the umbilical region. Those structures are brought together within an amniotic covering to form the early [umbilical cord](../../../../../umbilical-cord.md). The cord initially includes the stalk with allantoic remnants and developing umbilical vessels, together with the vitelline connection and associated structures. The mature cord chiefly contains two [umbilical arteries](../../../../../umbilical-artery.md) and one [umbilical vein](../../../../../umbilical-vein.md) embedded in [Wharton's jelly](../../../../../wharton-s-jelly.md), beneath an amniotic surface. The vessels arise within vascular mesodermal tissues; it would be inaccurate to say that the endodermal allantoic tube simply turns into all three [blood vessels](../../../../../blood-vessel.md).
+
+The [amnion](../../../../../amnion.md) subsequently comes into apposition and fuses with the [chorion](../../../../../chorion.md), greatly reducing the intervening [chorionic cavity](../../../../../chorionic-cavity.md). Its surface continues along the cord towards the fetal placental surface. The [yolk sac](../../../../../yolk-sac.md) remains outside the amniotic cavity rather than becoming a normal free object floating in amniotic fluid. The mature [amnion](../../../../../amnion.md) is avascular, whereas the placental [chorion](../../../../../chorion.md) and the cord have crucial fetal vascular connections.[Introduction and Development: connecting stalk, vitelline connection, amniotic enclosure and mature vessels](../../../../../embryology-umbilical-cord-statpearls.md)
+
+These relations can be understood by comparing developmental stages in section: first a disc between two cavities, then a folded embryo with narrowed ventral connections, and finally an expanded amniotic covering around the cord. A section through a later cord cannot by itself reveal every early channel that has regressed. The same membrane names are used across vertebrates, but their relative sizes and functions are not identical in a human fetus and a yolk-rich bird egg.
+
+## ↑ Ancestors (11)
+
+1. [8](../8.md)
+2. [Anatomy and physiology](../../anatomy-and-physiology-split.md)
+3. [First examination](../../split.md)
+4. [1865](../../../split.md)
+5. [Past exam of the medicine course of the University of Oxford](../../../../split.md)
+6. [Medicine course of the University of Oxford](../../../../../medicine-course-of-the-university-of-oxford.md)
+7. [Undergraduate course of the University of Oxford](../../../../../undergraduate-course-of-the-university-of-oxford.md)
+8. [Course of the University of Oxford](../../../../../course-of-the-university-of-oxford.md)
+9. [University of Oxford](../../../../../university-of-oxford-split.md)
+10. [List of universities](../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../split.md)

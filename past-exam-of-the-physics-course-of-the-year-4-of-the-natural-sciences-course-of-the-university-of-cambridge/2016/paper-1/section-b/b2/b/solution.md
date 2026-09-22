@@ -1,0 +1,22 @@
+<h1 id="section-b/b2/b/solution">Solution</h1>
+
+↑ **Parent:** [B](../b.md)
+
+**The total [internal energy](../../../../../../internal-energy-split.md) and particle number are conserved.** The outer container is rigid and isolated, so there is no external work or heat transfer. Its total volume stays $V_0$, while the volume accessible to the gas increases from $V_0/3$ to $V_0$. Neither the gas [temperature](../../../../../../temperature-split.md) nor its [entropy](../../../../../../entropy-split.md) is generally conserved: this is an irreversible [free expansion](../../../../../../free-expansion.md), with increasing [entropy](../../../../../../entropy-split.md).
+
+## ↑ Ancestors (14)
+
+1. [B](../b.md)
+2. [B2](../../b2.md)
+3. [Section B](../../../section-b.md)
+4. [Paper 1](../../../../paper-1-split.md)
+5. [2016](../../../../split.md)
+6. [Past exam of the physics course of the year 4 of the natural sciences course of the University of Cambridge](../../../../../split.md)
+7. [Physics course of the year 4 of the natural sciences course of the University of Cambridge](../../../../../../physics-course-of-the-year-4-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+8. [Year 4 of the natural sciences course of the University of Cambridge](../../../../../../year-4-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+9. [Year of the natural sciences course of the University of Cambridge](../../../../../../year-of-the-natural-sciences-course-of-the-university-of-cambridge.md)
+10. [Natural sciences course of the University of Cambridge](../../../../../../natural-sciences-course-of-the-university-of-cambridge.md)
+11. [Course of the University of Cambridge](../../../../../../course-of-the-university-of-cambridge.md)
+12. [University of Cambridge](../../../../../../university-of-cambridge-split.md)
+13. [List of universities](../../../../../../list-of-universities.md)
+14. [Codex Wiki](../../../../../../split.md)

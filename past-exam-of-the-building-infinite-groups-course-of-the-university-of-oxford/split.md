@@ -1,0 +1,39 @@
+# Past exam of the building infinite groups course of the University of Oxford
+
+↑ **Parent:** [Building infinite groups course of the University of Oxford](../building-infinite-groups-course-of-the-university-of-oxford.md)
+
+**Table of contents**
+
+- [2011](2011.md)
+  - [1](2011.md#1)
+    - [a](2011.md#1/a)
+      - [Solution](2011.md#1/a/solution)
+    - [b](2011.md#1/b)
+      - [Solution](2011.md#1/b/solution)
+    - [c](2011.md#1/c)
+      - [Solution](2011.md#1/c/solution)
+  - [2](2011.md#2)
+    - [a](2011.md#2/a)
+      - [Solution](2011.md#2/a/solution)
+    - [b](2011.md#2/b)
+      - [Solution](2011.md#2/b/solution)
+    - [c](2011.md#2/c)
+      - [Solution](2011.md#2/c/solution)
+  - [3](2011.md#3)
+    - [a](2011.md#3/a)
+      - [Solution](2011.md#3/a/solution)
+    - [b](2011.md#3/b)
+      - [Solution](2011.md#3/b/solution)
+    - [c](2011.md#3/c)
+      - [Solution](2011.md#3/c/solution)
+
+## ↑ Ancestors (8)
+
+1. [Building infinite groups course of the University of Oxford](../building-infinite-groups-course-of-the-university-of-oxford.md)
+2. [Year 4 of the mathematics course of the University of Oxford](../year-4-of-the-mathematics-course-of-the-university-of-oxford.md)
+3. [Mathematics course of the University of Oxford](../mathematics-course-of-the-university-of-oxford.md)
+4. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+5. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+6. [University of Oxford](../university-of-oxford-split.md)
+7. [List of universities](../list-of-universities.md)
+8. [Codex Wiki](../split.md)

@@ -1,0 +1,32 @@
+# Thermal Sunyaev-Zeldovich effect
+
+↑ **Parent:** [Sunyaev-Zeldovich effect](sunyaev-zeldovich-effect.md)
+
+For a [Planck photon distribution](planck-photon-distribution.md), the hot-electron [Kompaneets equation](kompaneets-equation.md) gives $\Delta n=yx e^x(e^x-1)^{-2}[x\coth(x/2)-4]$, where $x=h\nu/(k_BT_\gamma)$. The equivalent thermodynamic [temperature](temperature-split.md) perturbation has the displayed form, while the [Rayleigh-Jeans law](rayleigh-jeans-law.md) gives $\Delta T/T=-2y$. The distortion changes sign at $x\simeq3.830$. This first-order expression assumes a small [Compton y parameter](compton-y-parameter.md) and nonrelativistic thermal [electrons](electron.md).
+
+## ↑ Ancestors (6)
+
+1. [Sunyaev-Zeldovich effect](sunyaev-zeldovich-effect.md)
+2. [Cosmic microwave background](cosmic-microwave-background-split.md)
+3. [Cosmology](cosmology-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (15)
+
+- [Central and averaged Compton y parameters of a uniform sphere](central-and-averaged-compton-y-parameters-of-a-uniform-sphere.md)
+- [Cluster distance from Sunyaev-Zeldovich and X-ray signals](cluster-distance-from-sunyaev-zeldovich-and-x-ray-signals.md)
+- [Cosmological surface-brightness dimming](cosmological-surface-brightness-dimming.md)
+- [Gas clumping factor](gas-clumping-factor.md)
+- [Kinetic Sunyaev-Zeldovich effect](kinetic-sunyaev-zeldovich-effect.md)
+- [Solution](past-exam-of-the-astrophysics-course-of-the-university-of-oxford/2016/1/solution.md)
+- [Solution](past-exam-of-the-astrophysics-course-of-the-university-of-oxford/2022/1/f/solution.md)
+- [Solution](past-exam-of-the-frontiers-of-observational-astrophysics-course-of-the-university-of-cambridge/2012/paper-1/1/c/solution.md)
+- [Solution](past-exam-of-the-frontiers-of-observational-astrophysics-course-of-the-university-of-cambridge/2013/paper-1/3/b/solution.md)
+- [Solution](past-exam-of-the-frontiers-of-observational-astrophysics-course-of-the-university-of-cambridge/2014/paper-1/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-75/1/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-67/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-67/3/c/solution.md)
+- [Solution](past-exam-of-the-radiative-processes-and-high-energy-astrophysics-course-of-the-university-of-oxford/2024/3/e/solution.md)
+- [Rees-Sciama effect](rees-sciama-effect.md)

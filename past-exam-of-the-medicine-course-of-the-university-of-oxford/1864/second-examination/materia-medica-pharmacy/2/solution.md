@@ -1,0 +1,34 @@
+<h1 id="2/solution">Solution</h1>
+
+↑ **Parent:** [2](../2.md)
+
+**The principal period groups were [digitalis preparations](../../../../../digitalis-preparation.md), [squill](../../../../../squill.md), [broom](../../../../../broom.md), [juniper oil](../../../../../juniper-oil.md), [buchu](../../../../../buchu.md), [nitrous ether spirit](../../../../../spiritus-aetheris-nitrosi.md), and several soluble [potassium salts](../../../../../potassium-salt.md).** They were grouped by observed promotion of [urine](../../../../../urine.md) flow, rather than by one common mechanism. The following are historical adult quantities per administration, expressed in the contemporary units; they are not present-day prescriptions.
+
+- [Digitalis preparations](../../../../../digitalis-preparation.md): powdered leaves, ½–2 [grains](../../../../../grain-unit.md); [Infusum Digitalis](../../../../../infusum-digitalis.md), 2–4 [fluid drachms](../../../../../fluid-drachm.md); [Tinctura Digitalis](../../../../../tinctura-digitalis.md), 5–40 [minims](../../../../../minim-unit.md); [digitalin](../../../../../digitalin.md), 1/40–1/10 [grain](../../../../../grain-unit.md) in the period table. Historical [digitalin](../../../../../digitalin.md) was not simply a modern pure [digoxin](../../../../../digoxin.md) product.
+- [Squill](../../../../../squill.md): powder, 1–2 [grains](../../../../../grain-unit.md); [Pilula Scillae Composita](../../../../../pilula-scillae-composita.md), 5–10 [grains](../../../../../grain-unit.md); [Tinctura Scillae](../../../../../tinctura-scillae.md), 10–20 [minims](../../../../../minim-unit.md); [Syrupus Scillae](../../../../../syrupus-scillae.md), ½–1½ [fluid drachms](../../../../../fluid-drachm.md).
+- [Broom](../../../../../broom.md): [Decoctum Scoparii](../../../../../decoctum-scoparii.md), 1–3 [fluid ounces](../../../../../fluid-ounce.md); [Succus Scoparii](../../../../../succus-scoparii.md), 1–4 [fluid drachms](../../../../../fluid-drachm.md).
+- [Buchu](../../../../../buchu.md): powdered leaves, 20–40 [grains](../../../../../grain-unit.md); [Infusum Bucco](../../../../../infusum-bucco.md), 1–2 [fluid ounces](../../../../../fluid-ounce.md); [Tinctura Bucco](../../../../../tinctura-bucco.md), 1–2 [fluid drachms](../../../../../fluid-drachm.md).
+- [Juniper oil](../../../../../juniper-oil.md): [Spiritus Juniperi](../../../../../spiritus-juniperi.md), 10–30 [minims](../../../../../minim-unit.md) in the 1864 commentary. This unusually concentrated spirit contains one volume of [juniper oil](../../../../../juniper-oil.md) in ten; its dose must not be borrowed from a later, weaker formula.
+- [Nitrous ether spirit](../../../../../spiritus-aetheris-nitrosi.md), _Spiritus Aetheris Nitrosi_: 30 [minims](../../../../../minim-unit.md) to 2 [fluid drachms](../../../../../fluid-drachm.md).
+- [Potassium acetate](../../../../../potassium-acetate.md): 10–20 [grains](../../../../../grain-unit.md); [potassium citrate](../../../../../potassium-citrate.md): 20–60 [grains](../../../../../grain-unit.md); [potassium nitrate](../../../../../potassium-nitrate.md): 5–20 [grains](../../../../../grain-unit.md); [potassium tartrate](../../../../../potassium-tartrate.md): 10–60 [grains](../../../../../grain-unit.md); [potassium hydrogen tartrate](../../../../../potassium-hydrogen-tartrate.md): 20–60 [grains](../../../../../grain-unit.md).
+- [Ammonium acetate solution](../../../../../ammonium-acetate-solution.md), _Liquor Ammoniae Acetatis_: 10–40 [minims](../../../../../minim-unit.md) of the concentrated British preparation, diluted for administration.
+
+[Posological table: Digitalis, Infusum Digitalis, Scoparius preparations, Bucco preparations, Spiritus Aetheris Nitrosi, potassium salts and Liquor Ammoniae Acetatis; Liliaceae: squill preparations](../../../../../the-essentials-of-materia-medica-and-therapeutics-by-alfred-baring-garrod-1865.md) [p. 61, Spiritus Juniperi, 1 in 10 and 10–30 minims](../../../../../the-prescriber-s-analysis-of-the-british-pharmacopoeia-by-john-birkbeck-nevins-1864.md)
+
+Other recognised period agents included [dandelion](../../../../../dandelion.md) and [copaiba](../../../../../copaiba.md). The [dandelion](../../../../../dandelion.md) [decoction](../../../../../decoction.md) was given in quantities of 1–2 [fluid ounces](../../../../../fluid-ounce.md), its soft extract in quantities of 10–30 [grains](../../../../../grain-unit.md), and its preserved [juice](../../../../../juice.md) in quantities of ½–2 [fluid drachms](../../../../../fluid-drachm.md). [Copaiba](../../../../../copaiba.md) was given in quantities of 15–30 [minims](../../../../../minim-unit.md), and [copaiba oil](../../../../../copaiba-oil.md) in quantities of 5–20 [minims](../../../../../minim-unit.md). Their historical inclusion does not establish that they are suitable substitutes for current [diuretic therapy](../../../../../diuretic-therapy.md). [Posological table, Taraxacum preparations, Copaiba and Copaibae Oleum](../../../../../the-essentials-of-materia-medica-and-therapeutics-by-alfred-baring-garrod-1865.md)
+
+The distinction between preparations matters more than a single “dose of the plant”: an [infusion](../../../../../infusion.md), [tincture](../../../../../tincture.md), [juice](../../../../../juice.md) and powder have different [concentrations](../../../../../concentration.md). Likewise, a salt's small historical [diuretic](../../../../../diuretic.md) dose is not its larger [purgative](../../../../../purgative.md) dose. A modern explanation also separates a direct effect on [renal tubules](../../../../../renal-tubule.md) from improved [cardiac output](../../../../../cardiac-output.md) in appropriate [heart failure](../../../../../heart-failure.md): [digitalis preparations](../../../../../digitalis-preparation.md) cannot be understood simply as agents that make every [kidney](../../../../../kidney.md) excrete more [water](../../../../../water.md). Modern [digoxin](../../../../../digoxin.md) is used for selected cardiac indications, rather than as a general treatment for low [urine](../../../../../urine.md) output. [Why is this medication prescribed?](../../../../../digoxin-by-medlineplus.md)
+
+## ↑ Ancestors (11)
+
+1. [2](../2.md)
+2. [Materia medica, pharmacy](../../materia-medica-pharmacy-split.md)
+3. [Second examination](../../split.md)
+4. [1864](../../../split.md)
+5. [Past exam of the medicine course of the University of Oxford](../../../../split.md)
+6. [Medicine course of the University of Oxford](../../../../../medicine-course-of-the-university-of-oxford.md)
+7. [Undergraduate course of the University of Oxford](../../../../../undergraduate-course-of-the-university-of-oxford.md)
+8. [Course of the University of Oxford](../../../../../course-of-the-university-of-oxford.md)
+9. [University of Oxford](../../../../../university-of-oxford-split.md)
+10. [List of universities](../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../split.md)

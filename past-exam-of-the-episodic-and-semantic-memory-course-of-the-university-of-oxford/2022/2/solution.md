@@ -1,0 +1,35 @@
+<h1 id="2/solution">Solution</h1>
+
+↑ **Parent:** [2](../2.md)
+
+**Content, space and time show partly different neural emphases, but their conjunction is distributed across interacting populations rather than stored in three independent boxes.** The same experimental result can concern sensory selectivity, encoding, retention or retrieval. Distinguishing these stages prevents an area that responds to a stimulus from being identified automatically as the permanent store of its memory.
+
+For item information, the [perirhinal cortex](../../../perirhinal-cortex.md) is a useful starting point. Its connections and representational properties make it important for distinguishing complex objects and their [familiarity](../../../familiarity.md). [Lila Davachi](../../../lila-davachi.md) and colleagues in 2003 used event-related [functional magnetic resonance imaging](../../../functional-magnetic-resonance-imaging.md) while participants encoded adjectives through scene imagery or a reading transformation. Later tests separated item recognition from remembering the encoding source. Perirhinal encoding activity predicted later item recognition; [hippocampal](../../../hippocampus.md) and posterior parahippocampal encoding activity predicted source [recollection](../../../recollection.md). This supports distinguishable contributions, not a proof that the [hippocampus](../../../hippocampus.md) never represents an item or that perirhinal activity cannot depend on context.[2003, encoding tasks and subsequent item/source memory effects](../../../multiple-routes-to-memory-by-lila-davachi-and-others.md)
+
+Spatial information is likewise heterogeneous. A [place cell](../../../place-cell.md) is selective for the animal's location under specified conditions, whereas a [spatial view cell](../../../spatial-view-cell.md) concerns a viewed location. The distinction matters in primates, where gaze and bodily position can vary independently. Recordings associated with [Edmund T. Rolls](../../../edmund-rolls.md) tracked viewing and movement to distinguish spatial-view responses from self-location. Such cells establish an available code for a spatial variable; they do not demonstrate that the code alone contains an entire episode.[1997, active locomotion, eye-position controls and allocentric viewed location](../../../spatial-view-cells-in-the-primate-hippocampus-by-edmund-t-rolls-and-others.md)
+
+The [parahippocampal cortex](../../../parahippocampal-cortex.md), [entorhinal cortex](../../../entorhinal-cortex.md) and [hippocampus](../../../hippocampus.md) participate in contextual and spatial processing, with reciprocal cortical interactions. A scene or context can help specify where an item belongs, while an item's identity can change the significance of a location. Thus “what” and “where” are distinguishable questions without requiring completely independent neuronal populations. A location-selective cell may also depend on the task, preceding event or remembered destination.
+
+Temporal information requires a further distinction between elapsed duration, relative order and a date-like temporal context. [Norbert J. Fortin](../../../norbert-j-fortin.md)'s odor-order result shows that [hippocampal](../../../hippocampus.md) dependence is not confined to spatial arrangements: remembering a nonspatial sequence can be impaired even when recent-item recognition remains possible. However, an earlier-versus-later judgment need not use an explicit clock. A change in trace strength can sometimes serve as a recency cue, so order and recognition controls are essential.[2002, nonspatial sequence task and recognition control](../../../critical-role-of-the-hippocampus-in-memory-for-sequences-of-events-by-norbert-j-fortin-and-others.md)
+
+[Christopher J. MacDonald](../../../christopher-j-macdonald.md) and colleagues' 2011 recordings provide a cellular example. Rats performed object–delay–odor sequences, requiring the earlier object to guide the later odor response. Successive [hippocampal](../../../hippocampus.md) cells were active at different parts of the intervening interval; changing its duration caused many cells to alter their temporal organization. These [time cells](../../../time-cell.md) could also carry location, behavior or sequence information. The result is more consistent with temporally organized population states than with every [neuron](../../../neuron-split.md) being assigned exclusively to one content dimension.[2011, object–delay–odor task, interval responses and retiming](../../../hippocampal-time-cells-bridge-the-gap-in-memory-for-discontiguous-events-by-christopher-j-macdonald-and-others.md)
+
+The coding similarities are therefore as informative as the differences. Spatial and temporal selectivity can both form sequences of changing activity; either can be combined with an object's identity. [Mixed selectivity](../../../mixed-selectivity.md) permits a representation to distinguish the same item in different contexts. An analysis should vary content, place and timing independently wherever possible, because locomotion, [expectation](../../../expected-value-split.md), reward and elapsed time are often correlated. Decoding a variable from correlated neural data shows available information, not necessarily a dedicated code for that variable.
+
+Finally, retrieving a particular conjunction differs from retaining isolated features. The counterexample of identical marginal lists with different bindings demonstrates this logically. Neural evidence should therefore test whether a pattern distinguishes the correct relations, generalizes to a new query, and predicts errors that specifically confuse bindings. Single-cell recordings provide timing and selectivity; imaging samples wider regions; lesions test necessity under particular task conditions. Each method addresses a different part of the claim.
+
+**The best account is differentiated inputs and computations combined into event representations, with content, place and time often expressed jointly. Neither regional specialization nor mixed coding eliminates the need to explain how the correct features are bound and later accessed.**
+
+## ↑ Ancestors (11)
+
+1. [2](../2.md)
+2. [2022](../../2022-split.md)
+3. [Past exam of the episodic and semantic memory course of the University of Oxford](../../split.md)
+4. [Episodic and semantic memory course of the University of Oxford](../../../episodic-and-semantic-memory-course-of-the-university-of-oxford.md)
+5. [Year 3 of the psychology (experimental) course of the University of Oxford](../../../year-3-of-the-psychology-experimental-course-of-the-university-of-oxford.md)
+6. [Psychology (experimental) course of the University of Oxford](../../../psychology-experimental-course-of-the-university-of-oxford.md)
+7. [Undergraduate course of the University of Oxford](../../../undergraduate-course-of-the-university-of-oxford.md)
+8. [Course of the University of Oxford](../../../course-of-the-university-of-oxford.md)
+9. [University of Oxford](../../../university-of-oxford-split.md)
+10. [List of universities](../../../list-of-universities.md)
+11. [Codex Wiki](../../../split.md)

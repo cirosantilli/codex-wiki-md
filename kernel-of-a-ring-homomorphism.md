@@ -1,0 +1,47 @@
+# Kernel of a ring homomorphism
+
+↑ **Parent:** [Ring homomorphism](ring-homomorphism.md)
+
+The kernel of a [ring homomorphism](ring-homomorphism.md) $\varphi:R\to S$ is the [ideal](ideal.md) $\{r\in R:\varphi(r)=0\}$. The [ring homomorphism](ring-homomorphism.md) is [injective](injective-function.md) exactly when this [ideal](ideal.md) is zero.
+
+## ↑ Ancestors (7)
+
+1. [Ring homomorphism](ring-homomorphism.md)
+2. [Ring](ring.md)
+3. [Commutative algebra](commutative-algebra-split.md)
+4. [Algebra](algebra-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (29)
+
+- [Domain with a nonzero idempotent maximal ideal](domain-with-a-nonzero-idempotent-maximal-ideal.md)
+- [Finite generation clears localization kernels](finite-generation-clears-localization-kernels.md)
+- [Kernel (algebra)](kernel-algebra.md)
+- [Noninjective surjective shift on a product of fields](noninjective-surjective-shift-on-a-product-of-fields.md)
+- [Solution](past-exam-of-the-algebra-2-course-of-the-university-of-oxford/2014/1/d/solution.md)
+- [Solution](past-exam-of-the-algebra-2-course-of-the-university-of-oxford/2015/3/d/solution.md)
+- [Solution](past-exam-of-the-algebra-analysis-and-differential-equations-1-course-of-the-university-of-oxford/2005/3/solution.md)
+- [Solution](past-exam-of-the-algebra-analysis-and-differential-equations-1-course-of-the-university-of-oxford/2006/3/i/solution.md)
+- [Solution](past-exam-of-the-algebra-analysis-and-differential-equations-1-course-of-the-university-of-oxford/2006/3/iv/solution.md)
+- [Solution](past-exam-of-the-algebra-analysis-and-differential-equations-1-course-of-the-university-of-oxford/2011/3/a/solution.md)
+- [Solution](past-exam-of-the-algebra-analysis-and-differential-equations-1-course-of-the-university-of-oxford/2012/3/c/solution.md)
+- [Solution](past-exam-of-the-algebra-analysis-and-differential-equations-2-course-of-the-university-of-oxford/2007/3/solution.md)
+- [3](past-exam-of-the-algebra-analysis-and-differential-equations-2-course-of-the-university-of-oxford/2009/algebra/3.md)
+- [Solution](past-exam-of-the-algebra-analysis-and-differential-equations-2-course-of-the-university-of-oxford/2010/algebra/3/d/solution.md)
+- [Solution](past-exam-of-the-commutative-algebra-course-of-the-university-of-oxford/2017/2/d/solution.md)
+- [Solution](past-exam-of-the-commutative-algebra-course-of-the-university-of-oxford/2023/2/b/ii/solution.md)
+- [Solution](past-exam-of-the-commutative-algebra-course-of-the-university-of-oxford/2023/2/c/solution.md)
+- [Solution](past-exam-of-the-commutative-algebra-course-of-the-university-of-oxford/2023/2/d/solution.md)
+- [Solution](past-exam-of-the-introduction-to-schemes-course-of-the-university-of-oxford/2017/1/b/solution.md)
+- [Solution](past-exam-of-the-introduction-to-schemes-course-of-the-university-of-oxford/2021/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-21/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-2/20g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-6/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-16/4/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-101/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-101/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-101/4/c/solution.md)
+- [Solution](past-exam-of-the-rings-and-modules-course-of-the-university-of-oxford/2023/1/c/ii/solution.md)
+- [Quotient of a finite product of fields](quotient-of-a-finite-product-of-fields.md)

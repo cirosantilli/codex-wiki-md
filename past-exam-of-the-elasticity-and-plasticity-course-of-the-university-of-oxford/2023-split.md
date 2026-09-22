@@ -1,0 +1,50 @@
+# 2023
+
+↑ **Parent:** [Past exam of the elasticity and plasticity course of the University of Oxford](split.md)
+
+Original solutions to every part of the [elasticity and plasticity course of the University of Oxford](../elasticity-and-plasticity-course-of-the-university-of-oxford.md) Part C examination, held on 30 May 2023. Source: [released examination PDF, bundle pages 317–320; paper pages 1–4](https://www.whatdotheyknow.com/request/request_for_mathematics_examinat/response/3129786/attach/3/FOI%20202507%20740%20Data.pdf#page=317). Numbering follows the original paper. In Question 1(c), the printed count needs a strict-cutoff qualification: at $ak=(n-1/2)\pi$ the newly counted state has no exterior [exponential decay](../exponential-decay.md) and must be excluded. The solution includes that correction and the exceptional small-parameter balances. In Question 3(d), purely [elastic unloading](../elastic-unloading.md) is valid only until [reverse yielding](../reverse-yielding.md) begins.
+
+**Table of contents**
+
+- [1](2023/1.md)
+  - [a](2023/1/a.md)
+    - [Solution](2023/1/a/solution.md)
+  - [b](2023/1/b.md)
+    - [Solution](2023/1/b/solution.md)
+  - [c](2023/1/c.md)
+    - [Solution](2023/1/c/solution.md)
+- [2](2023/2.md)
+  - [a](2023/2/a.md)
+    - [Solution](2023/2/a/solution.md)
+  - [b](2023/2/b.md)
+    - [Solution](2023/2/b/solution.md)
+  - [c](2023/2/c.md)
+    - [i](2023/2/c/i.md)
+      - [Solution](2023/2/c/i/solution.md)
+    - [ii](2023/2/c/ii.md)
+      - [Solution](2023/2/c/ii/solution.md)
+    - [iii](2023/2/c/iii.md)
+      - [Solution](2023/2/c/iii/solution.md)
+    - [iv](2023/2/c/iv.md)
+      - [Solution](2023/2/c/iv/solution.md)
+- [3](2023/3.md)
+  - [a](2023/3/a.md)
+    - [Solution](2023/3/a/solution.md)
+  - [b](2023/3/b.md)
+    - [Solution](2023/3/b/solution.md)
+  - [c](2023/3/c.md)
+    - [Solution](2023/3/c/solution.md)
+  - [d](2023/3/d.md)
+    - [Solution](2023/3/d/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Past exam of the elasticity and plasticity course of the University of Oxford](split.md)
+2. [Elasticity and plasticity course of the University of Oxford](../elasticity-and-plasticity-course-of-the-university-of-oxford.md)
+3. [Year 4 of the mathematics course of the University of Oxford](../year-4-of-the-mathematics-course-of-the-university-of-oxford.md)
+4. [Mathematics course of the University of Oxford](../mathematics-course-of-the-university-of-oxford.md)
+5. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+6. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+7. [University of Oxford](../university-of-oxford-split.md)
+8. [List of universities](../list-of-universities.md)
+9. [Codex Wiki](../split.md)

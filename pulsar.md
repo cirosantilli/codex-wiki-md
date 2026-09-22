@@ -1,0 +1,70 @@
+# Pulsar
+
+↑ **Parent:** [Neutron star](neutron-star.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Pulsar)
+
+A pulsar is a rotating magnetized neutron star whose directed emission is observed as periodic pulses. Rotation supplies the energy of an ordinary radio pulsar.
+
+A [pulsar](pulsar.md) turns [stellar rotation](stellar-rotation.md) into an observable clock: the [neutron star](neutron-star.md)'s emission can continue while its beam sweeps past the observer only briefly. The pulse spacing measures a repetition [period](period-of-a-function.md); identifying that [period](period-of-a-function.md) with [stellar rotation](stellar-rotation.md) requires a physical model. The [discovery of the first pulsar](discovery-of-the-first-pulsar.md) established a remarkably regular astronomical signal before its engine was understood. Today, [pulsar dispersion delay](pulsar-dispersion-delay.md) also makes these clocks probes of the intervening [interstellar medium](interstellar-medium.md).
+
+**Table of contents**
+
+- [Pulsar spin-down](pulsar-spin-down.md)
+  - [Light-cylinder dipole power estimate](light-cylinder-dipole-power-estimate.md)
+  - [Braking index](braking-index.md)
+    - [Evolving-coefficient braking index](evolving-coefficient-braking-index.md)
+  - [Pulsar characteristic age](pulsar-characteristic-age.md)
+- [Pulsar timing](pulsar-timing.md)
+  - [Pulsar timing residual](pulsar-timing-residual.md)
+  - [Binary-pulsar Einstein delay](binary-pulsar-einstein-delay.md)
+- [Binary pulsar](binary-pulsar.md)
+  - [PSR B1913+16](psr-b1913-plus-16.md)
+    - [Hulse-Taylor timing experiment](hulse-taylor-timing-experiment.md)
+  - [Projected pulsar semimajor axis](projected-pulsar-semimajor-axis.md)
+    - [Binary-pulsar Roemer delay](binary-pulsar-roemer-delay.md)
+  - [Binary-pulsar periastron advance](binary-pulsar-periastron-advance.md)
+  - [Binary-pulsar orbital decay](binary-pulsar-orbital-decay.md)
+    - [Cumulative periastron-time shift from orbital decay](cumulative-periastron-time-shift-from-orbital-decay.md)
+- [Discovery of the first pulsar](discovery-of-the-first-pulsar.md)
+- [Pulsar dispersion delay](pulsar-dispersion-delay.md)
+  - [Dispersion measure](dispersion-measure.md)
+  - [Pulsar dedispersion](pulsar-dedispersion.md)
+- [Pulsar period folding and alias checks](pulsar-period-folding-and-alias-checks.md)
+- [Light-crossing size bound for a variable source](light-crossing-size-bound-for-a-variable-source.md)
+- [Pulsar magnetosphere](pulsar-magnetosphere.md)
+  - [Pulsar death line](pulsar-death-line.md)
+  - [Corotating pulsar magnetosphere](corotating-pulsar-magnetosphere.md)
+    - [Goldreich-Julian density](goldreich-julian-density.md)
+  - [Light cylinder](light-cylinder.md)
+    - [Light cylinder radius](light-cylinder-radius.md)
+  - [Pulsar polar cap](pulsar-polar-cap.md)
+    - [Polar-cap opening angle](polar-cap-opening-angle.md)
+
+## ↑ Ancestors (7)
+
+1. [Neutron star](neutron-star.md)
+2. [Stellar evolution](stellar-evolution.md)
+3. [Stellar astrophysics](stellar-astrophysics-split.md)
+4. [Astrophysics](astrophysics-split.md)
+5. [Branches of physics](branches-of-physics.md)
+6. [Physics](physics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (16)
+
+- [Accreting X-ray pulsar](accreting-x-ray-pulsar.md)
+- [Aperture synthesis](aperture-synthesis.md)
+- [Binary pulsar](binary-pulsar.md)
+- [Binary-pulsar Roemer delay](binary-pulsar-roemer-delay.md)
+- [Discovery of the first pulsar](discovery-of-the-first-pulsar.md)
+- [Exoplanet](exoplanet-split.md)
+- [Hulse-Taylor timing experiment](hulse-taylor-timing-experiment.md)
+- [Interplanetary scintillation](interplanetary-scintillation.md)
+- [Joseph Hooton Taylor Jr.](joseph-hooton-taylor-jr.md)
+- [Light-crossing size bound for a variable source](light-crossing-size-bound-for-a-variable-source.md)
+- [Nobel Prize in Physics in 1974](nobel-prize-in-physics-in-1974.md)
+- [Nobel Prize in Physics in 1993](nobel-prize-in-physics-in-1993.md)
+- [Projected pulsar semimajor axis](projected-pulsar-semimajor-axis.md)
+- [Pulsar](pulsar.md)
+- [Pulsar dedispersion](pulsar-dedispersion.md)
+- [Pulsar period folding and alias checks](pulsar-period-folding-and-alias-checks.md)

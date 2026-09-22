@@ -1,0 +1,20 @@
+# Transient response
+
+↑ **Parent:** [Dynamical systems](dynamical-systems-split.md)
+
+The part of a response that dies away after an [initial condition](initial-condition.md) or an input change. In a stable [linear ordinary differential equation](linear-ordinary-differential-equation-split.md), the decaying [homogeneous solution](homogeneous-solution.md) gives a transient response relative to a chosen [particular solution](particular-solution.md). A [homogeneous solution](homogeneous-solution.md) that grows or persists is not a decaying transient.
+
+## ↑ Ancestors (4)
+
+1. [Dynamical systems](dynamical-systems-split.md)
+2. [Branches of physics](branches-of-physics.md)
+3. [Physics](physics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (5)
+
+- [Integrating factor](integrating-factor.md)
+- [Morphogen response threshold](morphogen-response-threshold.md)
+- [Solution](past-exam-of-the-differential-equations-and-applications-course-of-the-university-of-oxford/2007/a/1/solution.md)
+- [Solution](past-exam-of-the-mathematical-methods-i-course-of-the-university-of-oxford/2016/7/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-year-1-of-the-natural-sciences-course-of-the-university-of-cambridge/2007/paper-2/section-b/4/b/solution.md)

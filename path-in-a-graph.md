@@ -1,0 +1,71 @@
+# Path in a graph
+
+↑ **Parent:** [Graph theory](graph-theory-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Path_(graph_theory))
+
+A path of length $t$ is a sequence of $t+1$ distinct vertices in which consecutive vertices are adjacent.
+
+Any [walk](walk-in-a-graph.md) between distinct endpoints contains a [simple path](path-in-a-graph.md) between those endpoints, obtained by removing segments between repeated [vertices](vertex-graph-theory.md).
+
+**Table of contents**
+
+- [Repetitively colored path](repetitively-colored-path.md)
+  - [Avoiding short repetitions in an edge coloring](avoiding-short-repetitions-in-an-edge-coloring.md)
+- [Widest path problem](widest-path-problem.md)
+- [Longest path](longest-path.md)
+  - [Longest path in a directed acyclic graph](longest-path-in-a-directed-acyclic-graph.md)
+- [Weighted path length](weighted-path-length.md)
+- [Hamiltonian path](hamiltonian-path.md)
+- [Edge-disjoint paths](edge-disjoint-paths.md)
+- [Ray in a graph](ray-in-a-graph.md)
+- [Path graph](path-graph.md)
+- [Cycle in a graph](cycle-in-a-graph.md)
+  - [Unicyclic graph](unicyclic-graph.md)
+  - [Induced cycle](induced-cycle.md)
+  - [Girth](girth.md)
+  - [Odd cycle](odd-cycle.md)
+  - [Cycle graph](cycle-graph.md)
+    - [Random cuts of a cycle](random-cuts-of-a-cycle.md)
+    - [Wheel graph](wheel-graph.md)
+    - [Hamilton cycle](hamilton-cycle.md)
+      - [Hamiltonian graph](hamiltonian-graph.md)
+        - [Ore's theorem](ore-s-theorem.md)
+      - [Necessary conditions for a Hamilton cycle](necessary-conditions-for-a-hamilton-cycle.md)
+      - [Weighted Hamilton cycle](weighted-hamilton-cycle.md)
+      - [Icosian game](icosian-game.md)
+    - [Pancyclic graph](pancyclic-graph.md)
+- [Long path from minimum degree](long-path-from-minimum-degree.md)
+- [Erdős-Gallai path edge bound](erdos-gallai-path-edge-bound.md)
+
+## ↑ Ancestors (5)
+
+1. [Graph theory](graph-theory-split.md)
+2. [Foundations of mathematics](foundations-of-mathematics-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (22)
+
+- [Clique (graph theory)](clique-graph-theory.md)
+- [Computational Complexity examination paper of the University of Oxford (2015)](computational-complexity-examination-paper-of-the-university-of-oxford-2015.md)
+- [Edge cutset](edge-cutset.md)
+- [Even-length directed reachability](even-length-directed-reachability.md)
+- [Hamiltonian path](hamiltonian-path.md)
+- [Solution](past-exam-of-the-computer-science-course-of-the-university-of-oxford/2015/computational-complexity/3/d/solution.md)
+- [Solution](past-exam-of-the-computer-science-course-of-the-university-of-oxford/2015/computational-complexity/3/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-4/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-13/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-214/1/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-214/1/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-214/1/b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-214/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-214/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-3/17h/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-3/17h/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-4/17h/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-226/3/b/solution.md)
+- [Solution](past-exam-of-the-topology-and-groups-course-of-the-university-of-oxford/2023/3/b/i/solution.md)
+- [Solution](past-exam-of-the-topology-and-groups-course-of-the-university-of-oxford/2023/3/b/ii/solution.md)
+- [Path in a transition system](path-in-a-transition-system.md)
+- [Short augmenting paths in a dense bipartite graph](short-augmenting-paths-in-a-dense-bipartite-graph.md)

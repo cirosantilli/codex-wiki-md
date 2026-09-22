@@ -1,0 +1,47 @@
+# File data block
+
+↑ **Parent:** [Computer file](computer-file.md)
+
+A storage unit holding part of a [file](computer-file.md)'s contents. The toy [inode](inode.md) references two four-[byte](byte.md) [file data blocks](file-data-block.md) for six [bytes](byte.md) of contents: allocated capacity is $2\cdot4=8$ [bytes](byte.md), while logical size is $4+2=6$ [bytes](byte.md). This counts only the two [file data blocks](file-data-block.md), excluding storage for the [inode](inode.md) and [directory entries](directory-entry.md).
+
+## ↑ Ancestors (5)
+
+1. [Computer file](computer-file.md)
+2. [File system](file-system-split.md)
+3. [Operating system](operating-system-split.md)
+4. [Computer science](computer-science-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (31)
+
+- [Atomic storage write](atomic-storage-write.md)
+- [Block allocation bitmap](block-allocation-bitmap.md)
+- [Buffer cache](buffer-cache.md)
+- [Buffered device block](buffered-device-block.md)
+- [Disk block number](disk-block-number.md)
+- [File data block](file-data-block.md)
+- [File system](file-system-split.md)
+- [File-system journaling](file-system-journaling.md)
+- [File-system journaling mode](file-system-journaling-mode.md)
+- [File-system transaction](file-system-transaction.md)
+- [Indirect block pointer](indirect-block-pointer.md)
+- [Inode](inode.md)
+- [Inode number](inode-number.md)
+- [Internal fragmentation](internal-fragmentation.md)
+- [Linked file allocation](linked-file-allocation.md)
+- [Multilevel inode indexing](multilevel-inode-indexing.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2013/digital-systems-linear-algebra-introduction-to-formal-proof/3/b/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2013/digital-systems-linear-algebra-introduction-to-formal-proof/3/d/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2013/digital-systems-linear-algebra-introduction-to-formal-proof/3/e/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2013/digital-systems-linear-algebra-introduction-to-formal-proof/3/f/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2014/digital-systems-linear-algebra-introduction-to-formal-proof/2/a/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2014/digital-systems-linear-algebra-introduction-to-formal-proof/2/c/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2014/digital-systems-linear-algebra-introduction-to-formal-proof/2/e/i/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2014/digital-systems-linear-algebra-introduction-to-formal-proof/2/e/ii/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2014/digital-systems-linear-algebra-introduction-to-formal-proof/2/f/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2015/digital-systems-linear-algebra-introduction-to-formal-proof-resit/1/a/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2015/digital-systems-linear-algebra-introduction-to-formal-proof-resit/1/c/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2015/digital-systems-linear-algebra-introduction-to-formal-proof-resit/1/d/solution.md)
+- [Sparse file](sparse-file.md)
+- [Unlinking an open file](unlinking-an-open-file.md)
+- [Write-ahead logging](write-ahead-logging.md)

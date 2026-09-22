@@ -1,0 +1,27 @@
+<h1 id="3/solution">Solution</h1>
+
+↑ **Parent:** [3](../3.md)
+
+**In 1866, [ovariotomy](../../../../../ovariotomy.md) was justified for selected serious ovarian tumours when removal offered a better prospect than continued enlargement, repeated temporary drainage or progressive disability.** The diagnosis, probable resectability, operative danger and the woman's informed preference all mattered.
+
+Before recommending it, establish as far as contemporary examination allowed that the mass was ovarian rather than [pregnancy](../../../../../pregnancy.md), [ascites](../../../../../ascites.md), a uterine tumour or another abdominal lesion. Progressive enlargement, pain, pressure on the [urinary bladder](../../../../../urinary-bladder.md) or [intestine](../../../../../intestine.md), difficulty breathing and loss of function strengthened the case for intervention. Repeated refilling after tapping showed why evacuation of a cyst's contents was often temporary palliation. A small tolerable mass, severe intercurrent disease, extreme exhaustion, extensive fixation or suspected widely disseminated disease altered the balance. It would be equally mistaken to operate on every abdominal swelling or to wait until avoidable debility made an otherwise feasible operation desperate.
+
+The period operation can be described by its purposes and stages. Following preparation and [anaesthesia](../../../../../anaesthesia.md), the surgeon opened the abdomen through a midline incision and identified the tumour. In a large cystic mass, a [trocar and cannula](../../../../../trocar-and-cannula.md) could evacuate fluid under control so the mass could be delivered through a smaller opening. Adhesions had to be assessed and separated only as safely practicable, with particular care around the [intestine](../../../../../intestine.md), [urinary bladder](../../../../../urinary-bladder.md) and vascular attachments. The tumour's pedicle was secured against [haemorrhage](../../../../../haemorrhage.md), then the mass was detached. The operator inspected for bleeding, protected the abdominal contents and closed the wound; postoperative observation looked for [haemorrhage](../../../../../haemorrhage.md), [peritonitis](../../../../../peritonitis.md), collapse and other complications. This is a historical operative description, not a present surgical instruction.[Volume 1, operative case records, including p. 116, tumour delivery, adhesions and clamped pedicle](../../../../../diseases-of-the-ovaries-their-diagnosis-and-treatment-by-thomas-spencer-wells-1865.md)
+
+**Management of the pedicle was a central technical problem.** Clamps, ligatures and cautery embodied different approaches to securing blood vessels and dealing with the stump. One period method retained a clamped pedicle externally at the wound; other methods differed. The apparatus mattered because inadequate control risked fatal [haemorrhage](../../../../../haemorrhage.md), while devitalized tissue, contamination and its relation to the wound created other dangers. A 1866 discussion specifically compared modes of dealing with the pedicle; there was no single timeless “ovariotomy technique”.[British Medical Journal, 6 October 1866, pp. 377–379](../../../../../clinical-remarks-on-different-modes-of-dealing-with-the-pedicle-in-ovariotomy-by-thomas-spencer-wells.md)
+
+**Modern correction: management of an ovarian mass begins with risk assessment, not automatic removal of an ovary.** History, examination and [ultrasonography](../../../../../ultrasonography.md), with selected laboratory investigations, guide observation, benign gynaecological treatment or referral to gynaecological oncology. Many simple cysts can be observed; symptomatic or suspicious masses may need surgery. [Ovarian cystectomy](../../../../../ovarian-cystectomy.md) may preserve ovarian tissue where appropriate, while suspected [ovarian cancer](../../../../../ovarian-cancer.md) requires specialist planning and attention to staging and avoiding unnecessary rupture or spillage. A modern oncological operation is not equivalent to the historical practice of decompressing a large cyst through a trocar.[Green-top 62, evaluation, conservative management, referral and surgical approach; scope limitations](../../../../../management-of-suspected-ovarian-masses-in-premenopausal-women-by-rcog.md) Assessment of operative fitness, fertility wishes, the other ovary, alternatives and consent remains essential. Modern [asepsis](../../../../../asepsis.md), [haemostasis](../../../../../haemostasis.md), anaesthetic care and postoperative support also prevent the historical risk estimates from being transferred directly to current practice.
+
+## ↑ Ancestors (11)
+
+1. [3](../3.md)
+2. [Diseases of women and children; principles of surgery](../../diseases-of-women-and-children-principles-of-surgery-split.md)
+3. [Second examination](../../split.md)
+4. [1866](../../../split.md)
+5. [Past exam of the medicine course of the University of Oxford](../../../../split.md)
+6. [Medicine course of the University of Oxford](../../../../../medicine-course-of-the-university-of-oxford.md)
+7. [Undergraduate course of the University of Oxford](../../../../../undergraduate-course-of-the-university-of-oxford.md)
+8. [Course of the University of Oxford](../../../../../course-of-the-university-of-oxford.md)
+9. [University of Oxford](../../../../../university-of-oxford-split.md)
+10. [List of universities](../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../split.md)

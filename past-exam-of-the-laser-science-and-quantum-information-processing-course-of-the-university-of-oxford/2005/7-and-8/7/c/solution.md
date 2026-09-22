@@ -1,0 +1,25 @@
+<h1 id="7/c/solution">Solution</h1>
+
+↑ **Parent:** [C](../c.md)
+
+For [quantum key distribution](../../../../../quantum-key-distribution.md) with [Bell pairs](../../../../../bell-pair.md), a source distributes one [photon](../../../../../photon.md) to Alice and its partner to Bob. One implementation is the [Ekert protocol](../../../../../ekert-protocol.md), using the [spin singlet state](../../../../../spin-singlet-state.md) $|\psi^-\rangle=(|01\rangle-|10\rangle)/\sqrt2$. Each party independently chooses a [polarization](../../../../../polarization-waves.md) measurement setting after distribution. Equal settings give opposite outcomes; Bob reverses his outcome-to-[bit](../../../../../bit.md) assignment so these rounds give matching random [bits](../../../../../bit.md). Other setting pairs test a [Bell inequality](../../../../../bell-inequality.md), with ideal [spin singlet state](../../../../../spin-singlet-state.md) correlation $E(\mathbf a,\mathbf b)=-\mathbf a\cdot\mathbf b$ for the corresponding [Bloch sphere](../../../../../bloch-sphere.md) axes. The optical [polarizer](../../../../../polarizer.md) angles correspond to twice those angles on the appropriate [Bloch sphere](../../../../../bloch-sphere.md) great circle.
+
+Over an [authenticated public classical channel](../../../../../authenticated-public-classical-channel.md), Alice and Bob announce settings and detection times, select coincident detection rounds, and perform [key sifting](../../../../../key-sifting.md). They reveal a test sample to estimate the [quantum bit error rate](../../../../../quantum-bit-error-rate.md) and the chosen [Bell inequality](../../../../../bell-inequality.md) signal, discarding all revealed [bits](../../../../../bit.md). Excess disturbance causes an abort. Otherwise [information reconciliation](../../../../../information-reconciliation.md) makes the retained strings agree and [privacy amplification](../../../../../privacy-amplification.md) shortens them to remove an adversary's residual information, including information disclosed during reconciliation. The tested [quantum entanglement](../../../../../entangled-state.md) supplies correlations unavailable to an independently prepared classical mixture; a security claim also requires stated detector and sampling assumptions.[1991, entanglement-based key distribution and Bell-correlation test](../../../../../quantum-cryptography-based-on-bell-s-theorem-by-artur-k-ekert.md)
+
+Each [photon polarization](../../../../../photon-polarization.md) analyzer uses a setting-dependent [waveplate](../../../../../waveplate.md) followed by a [polarizing beam splitter](../../../../../polarizing-beam-splitter.md). A [single-photon detector](../../../../../single-photon-detector.md) on each output converts the routed [photon](../../../../../photon.md) into an electrical click, recording the outcome and its time. For example, a [single-photon avalanche diode](../../../../../single-photon-avalanche-diode.md) is a reverse-biased [photodiode](../../../../../photodiode.md) operated above breakdown: absorption creates a charge carrier, [impact ionization](../../../../../impact-ionization.md) triggers an avalanche, and the resulting pulse is registered. A quenching circuit lowers the bias to stop the avalanche and then resets the device. The [detector dead time](../../../../../detector-dead-time.md) during recovery limits the count rate; [dark counts](../../../../../dark-count.md) produce false clicks, and imperfect detection loses rounds. The [polarization](../../../../../polarization-waves.md) information comes from the preceding analyzer, while the detector registers which output fired. Coincidence timing associates Alice's and Bob's records with the same emitted pair. [Thorlabs, Light Analysis catalogue, Single Photon Counter Modules: Geiger-mode operation, active quenching, blind time and dark counts](https://www.thorlabs.co.jp/images/Catalog/V21/V21_7_LightAnalysis.pdf)
+
+## ↑ Ancestors (13)
+
+1. [C](../c.md)
+2. [7](../../7.md)
+3. [7 and 8](../../../7-and-8-split.md)
+4. [2005](../../../split.md)
+5. [Past exam of the laser science and quantum information processing course of the University of Oxford](../../../../split.md)
+6. [Laser science and quantum information processing course of the University of Oxford](../../../../../laser-science-and-quantum-information-processing-course-of-the-university-of-oxford.md)
+7. [Year 4 of the physics course of the University of Oxford](../../../../../year-4-of-the-physics-course-of-the-university-of-oxford.md)
+8. [Physics course of the University of Oxford](../../../../../physics-course-of-the-university-of-oxford.md)
+9. [Undergraduate course of the University of Oxford](../../../../../undergraduate-course-of-the-university-of-oxford.md)
+10. [Course of the University of Oxford](../../../../../course-of-the-university-of-oxford.md)
+11. [University of Oxford](../../../../../university-of-oxford-split.md)
+12. [List of universities](../../../../../list-of-universities.md)
+13. [Codex Wiki](../../../../../split.md)

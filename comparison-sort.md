@@ -1,0 +1,31 @@
+# Comparison sort
+
+↑ **Parent:** [Sorting algorithm](sorting-algorithm.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Comparison_sort)
+
+A [comparison sort](comparison-sort.md) learns the ordering of [sort keys](sort-key.md) only by comparing pairs. The keys are otherwise opaque: their numeric values, digits or encodings cannot choose an [array](array-data-structure.md) index or a branch. It may move complete [sorting records](sorting-record.md) and retain previous answers. [Merge sort](merge-sort.md) and the adjacent-swap [insertion sort](insertion-sort.md) are [comparison sorts](comparison-sort.md); [counting sort](counting-sort.md) and [radix sort](radix-sort.md) exploit additional information.
+
+**Table of contents**
+
+- [Comparison sorting lower bound](comparison-sorting-lower-bound.md)
+
+## ↑ Ancestors (4)
+
+1. [Sorting algorithm](sorting-algorithm.md)
+2. [Algorithm](algorithm-split.md)
+3. [Computer science](computer-science-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (11)
+
+- [Comparison sort](comparison-sort.md)
+- [Comparison sorting lower bound](comparison-sorting-lower-bound.md)
+- [Equality-only grouping lower bound](equality-only-grouping-lower-bound.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2013/functional-programming-design-and-analysis-of-algorithms/6/b/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2013/functional-programming-design-and-analysis-of-algorithms/6/c/i/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2015/imperative-programming-resit/4/a/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2017/functional-programming-design-and-analysis-of-algorithms-resit/8/b/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2022/functional-programming-design-and-analysis-of-algorithms-resit/3/g/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2023/functional-programming-design-and-analysis-of-algorithms/6/b/solution.md)
+- [Radix sort](radix-sort.md)
+- [Stable record placement in counting sort](stable-record-placement-in-counting-sort.md)

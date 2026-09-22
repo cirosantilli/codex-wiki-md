@@ -1,0 +1,52 @@
+# 2009
+
+↑ **Parent:** [Past exam of the communication Theory course of the University of Oxford](split.md)
+
+Communication Theory, Trinity Term; Thursday 18 June 2009, 9.30am–11.00am. This shared Part B paper was set for Mathematics, Mathematics and Computer Science, Mathematics and Philosophy, and Mathematics and Statistics. The full three-page source and editable transcription are retained privately. The source was supplied through [the past-papers disclosure](https://www.whatdotheyknow.com/request/maths_past_papers_3), in original Part B bundle pages 184–186. No exact worked-answer advertisement was found in the bounded check.
+
+**Table of contents**
+
+- [1](2009/1.md)
+  - [a](2009/1/a.md)
+    - [i](2009/1/a/i.md)
+      - [Solution](2009/1/a/i/solution.md)
+    - [ii](2009/1/a/ii.md)
+      - [Solution](2009/1/a/ii/solution.md)
+  - [b](2009/1/b.md)
+    - [i](2009/1/b/i.md)
+      - [Solution](2009/1/b/i/solution.md)
+    - [ii](2009/1/b/ii.md)
+      - [Solution](2009/1/b/ii/solution.md)
+    - [iii](2009/1/b/iii.md)
+      - [Solution](2009/1/b/iii/solution.md)
+- [2](2009/2.md)
+  - [a](2009/2/a.md)
+    - [i](2009/2/a/i.md)
+      - [Solution](2009/2/a/i/solution.md)
+    - [ii](2009/2/a/ii.md)
+      - [Solution](2009/2/a/ii/solution.md)
+    - [iii](2009/2/a/iii.md)
+      - [Solution](2009/2/a/iii/solution.md)
+  - [b](2009/2/b.md)
+    - [Solution](2009/2/b/solution.md)
+  - [c](2009/2/c.md)
+    - [Solution](2009/2/c/solution.md)
+- [3](2009/3.md)
+  - [a](2009/3/a.md)
+    - [Solution](2009/3/a/solution.md)
+  - [b](2009/3/b.md)
+    - [Solution](2009/3/b/solution.md)
+  - [c](2009/3/c.md)
+    - [Solution](2009/3/c/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Past exam of the communication Theory course of the University of Oxford](split.md)
+2. [Communication Theory course of the University of Oxford](../communication-theory-course-of-the-university-of-oxford.md)
+3. [Year 3 of the mathematics course of the University of Oxford](../year-3-of-the-mathematics-course-of-the-university-of-oxford.md)
+4. [Mathematics course of the University of Oxford](../mathematics-course-of-the-university-of-oxford.md)
+5. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+6. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+7. [University of Oxford](../university-of-oxford-split.md)
+8. [List of universities](../list-of-universities.md)
+9. [Codex Wiki](../split.md)

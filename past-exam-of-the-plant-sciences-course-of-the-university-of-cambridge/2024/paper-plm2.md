@@ -1,0 +1,81 @@
+# Paper PLM2
+
+↑ **Parent:** [2024](../2024.md)
+
+[Original paper, released PDF pages 45–46](https://www.whatdotheyknow.com/request/natural_science_tripos_part_ii_p_2/response/3113356/attach/4/FOI%202025%20634%20Vongtanakiat%20materials.pdf?cookie_passthrough=1#page=45)
+
+**Table of contents**
+
+- [1](#1)
+  - [Solution](#1/solution)
+- [2](#2)
+  - [Solution](#2/solution)
+- [3](#3)
+  - [Solution](#3/solution)
+- [4](#4)
+  - [Solution](#4/solution)
+- [5](#5)
+  - [Solution](#5/solution)
+- [6](#6)
+  - [Solution](#6/solution)
+
+## 1
+
+↑ **Parent:** [Paper PLM2](paper-plm2.md)
+
+<h3 id="1/solution">Solution</h3>
+
+↑ **Parent:** [1](#1)
+
+## 2
+
+↑ **Parent:** [Paper PLM2](paper-plm2.md)
+
+<h3 id="2/solution">Solution</h3>
+
+↑ **Parent:** [2](#2)
+
+## 3
+
+↑ **Parent:** [Paper PLM2](paper-plm2.md)
+
+<h3 id="3/solution">Solution</h3>
+
+↑ **Parent:** [3](#3)
+
+## 4
+
+↑ **Parent:** [Paper PLM2](paper-plm2.md)
+
+<h3 id="4/solution">Solution</h3>
+
+↑ **Parent:** [4](#4)
+
+## 5
+
+↑ **Parent:** [Paper PLM2](paper-plm2.md)
+
+<h3 id="5/solution">Solution</h3>
+
+↑ **Parent:** [5](#5)
+
+## 6
+
+↑ **Parent:** [Paper PLM2](paper-plm2.md)
+
+<h3 id="6/solution">Solution</h3>
+
+↑ **Parent:** [6](#6)
+
+## ↑ Ancestors (10)
+
+1. [2024](../2024.md)
+2. [Past exam of the plant Sciences course of the University of Cambridge](../../past-exam-of-the-plant-sciences-course-of-the-university-of-cambridge.md)
+3. [Plant Sciences course of the University of Cambridge](../../university-of-cambridge.md#plant-sciences-course-of-the-university-of-cambridge)
+4. [Year 3 of the natural sciences course of the University of Cambridge](../../university-of-cambridge.md#year-3-of-the-natural-sciences-course-of-the-university-of-cambridge)
+5. [Year of the natural sciences course of the University of Cambridge](../../university-of-cambridge.md#year-of-the-natural-sciences-course-of-the-university-of-cambridge)
+6. [Natural sciences course of the University of Cambridge](../../university-of-cambridge.md#natural-sciences-course-of-the-university-of-cambridge)
+7. [Course of the University of Cambridge](../../university-of-cambridge.md#course-of-the-university-of-cambridge)
+8. [University of Cambridge](../../university-of-cambridge.md)
+9. [List of universities](../../README.md#list-of-universities)
+10. [Codex Wiki](../../README.md)

@@ -1,0 +1,46 @@
+# Ventricular system
+
+↑ **Parent:** [Brain](brain.md)
+
+**Table of contents**
+
+- [Central canal of the spinal cord](central-canal-of-the-spinal-cord.md)
+- [Cerebral aqueduct](cerebral-aqueduct.md)
+- [Choroid plexus](choroid-plexus.md)
+  - [Choroid plexus of the fourth ventricle](choroid-plexus-of-the-fourth-ventricle.md)
+- [Ependyma](ependyma.md)
+- [Cerebrospinal fluid](cerebrospinal-fluid.md)
+- [Fourth ventricle](fourth-ventricle.md)
+  - [Lateral aperture of the fourth ventricle](lateral-aperture-of-the-fourth-ventricle.md)
+    - [Lateral apertures of the fourth ventricle](lateral-apertures-of-the-fourth-ventricle.md)
+  - [Median aperture of the fourth ventricle](median-aperture-of-the-fourth-ventricle.md)
+  - [Tela choroidea](tela-choroidea.md)
+  - [Inferior medullary velum](inferior-medullary-velum.md)
+  - [Superior medullary velum](superior-medullary-velum.md)
+  - [Lateral recess of the fourth ventricle](lateral-recess-of-the-fourth-ventricle.md)
+    - [Lateral recesses of the fourth ventricle](lateral-recesses-of-the-fourth-ventricle.md)
+  - [Fastigium](fastigium.md)
+  - [Rhomboid fossa](rhomboid-fossa.md)
+    - [Funiculus separans](funiculus-separans.md)
+    - [Area postrema](area-postrema.md)
+    - [Vagal trigone](vagal-trigone.md)
+    - [Hypoglossal trigone](hypoglossal-trigone.md)
+    - [Vestibular area](vestibular-area.md)
+    - [Superior fovea](superior-fovea.md)
+    - [Facial colliculus](facial-colliculus.md)
+    - [Striae medullares of the fourth ventricle](striae-medullares-of-the-fourth-ventricle.md)
+    - [Sulcus limitans](sulcus-limitans.md)
+    - [Medial eminence](medial-eminence.md)
+    - [Obex](obex.md)
+
+## ↑ Ancestors (4)
+
+1. [Brain](brain.md)
+2. [Neuroscience](neuroscience-split.md)
+3. [Biology](biology-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (2)
+
+- [Ependyma](ependyma.md)
+- [Solution](past-exam-of-the-medicine-course-of-the-university-of-oxford/1865/second-examination/pathology/3/solution.md)

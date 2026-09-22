@@ -1,0 +1,40 @@
+# Philosophy of space-time course of the University of Oxford
+
+↑ **Parent:** [Physics course of the University of Oxford](physics-course-of-the-university-of-oxford.md)
+
+**Table of contents**
+
+- [Past exam of the philosophy of space-time course of the University of Oxford](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford.md)
+  - [2022](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2022.md)
+    - [1](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2022.md#1)
+      - [Solution](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2022.md#1/solution)
+    - [2](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2022.md#2)
+      - [Solution](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2022.md#2/solution)
+    - [3](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2022.md#3)
+      - [Solution](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2022.md#3/solution)
+    - [4](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2022.md#4)
+      - [Solution](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2022.md#4/solution)
+    - [5](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2022.md#5)
+      - [Solution](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2022.md#5/solution)
+    - [6](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2022.md#6)
+      - [Solution](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2022.md#6/solution)
+  - [2021](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2021.md)
+    - [1](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2021.md#1)
+      - [Solution](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2021.md#1/solution)
+    - [2](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2021.md#2)
+      - [Solution](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2021.md#2/solution)
+    - [3](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2021.md#3)
+      - [Solution](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2021.md#3/solution)
+    - [4](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2021.md#4)
+      - [Solution](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2021.md#4/solution)
+    - [5](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2021.md#5)
+      - [Solution](past-exam-of-the-philosophy-of-space-time-course-of-the-university-of-oxford/2021.md#5/solution)
+
+## ↑ Ancestors (6)
+
+1. [Physics course of the University of Oxford](physics-course-of-the-university-of-oxford.md)
+2. [Undergraduate course of the University of Oxford](undergraduate-course-of-the-university-of-oxford.md)
+3. [Course of the University of Oxford](course-of-the-university-of-oxford.md)
+4. [University of Oxford](university-of-oxford-split.md)
+5. [List of universities](list-of-universities.md)
+6. [Codex Wiki](split.md)

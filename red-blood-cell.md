@@ -1,0 +1,46 @@
+# Red blood cell
+
+↑ **Parent:** [Biological cell](biological-cell-split.md)
+
+A red blood cell is a specialized [biological cell](biological-cell-split.md) that transports [oxygen](oxygen.md) in blood. Its deformability lets it pass through vessels narrower than its unstressed size. A compliant-body [lubrication](lubrication-theory.md) model isolates the coupling between its deformation, the surrounding viscous film and a driving [pressure](pressure-split.md) difference; it is an idealization rather than a complete membrane or cytoplasm model.
+
+## ↑ Ancestors (3)
+
+1. [Biological cell](biological-cell-split.md)
+2. [Biology](biology-split.md)
+3. [Codex Wiki](split.md)
+
+## ← Incoming links (32)
+
+- [Biological cell](biological-cell-split.md)
+- [Cell nucleus](cell-nucleus.md)
+- [Cellular differentiation](cellular-differentiation.md)
+- [Erythropoiesis](erythropoiesis.md)
+- [Eukaryote](eukaryote.md)
+- [Haemochromatosis](haemochromatosis.md)
+- [Haemochromatosis treatment by the NHS](haemochromatosis-treatment-by-the-nhs.md)
+- [Insulin](insulin.md)
+- [Intestinal nucleus transfer experiment](intestinal-nucleus-transfer-experiment.md)
+- [Mitochondria](mitochondria.md)
+- [Multicellular organism](multicellular-organism.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-75/4/solution.md)
+- [Solution](past-exam-of-the-medicine-course-of-the-university-of-oxford/1864/second-examination/clinical-examination/2/solution.md)
+- [Solution](past-exam-of-the-medicine-course-of-the-university-of-oxford/1864/second-examination/pathology-medical-surgical/2/solution.md)
+- [Solution](past-exam-of-the-medicine-course-of-the-university-of-oxford/1864/second-examination/pathology-medical-surgical/5/solution.md)
+- [Solution](past-exam-of-the-medicine-course-of-the-university-of-oxford/1864/second-examination/pathology-medical-surgical/6/solution.md)
+- [Solution](past-exam-of-the-medicine-course-of-the-university-of-oxford/1865/second-examination/medical-translations/greek-translation/solution.md)
+- [Solution](past-exam-of-the-medicine-course-of-the-university-of-oxford/1865/second-examination/pathology/1/solution.md)
+- [Solution](past-exam-of-the-medicine-course-of-the-university-of-oxford/1865/second-examination/therapeutics/5/solution.md)
+- [Solution](past-exam-of-the-medicine-course-of-the-university-of-oxford/1866/second-examination/pathology/2/solution.md)
+- [Solution](past-exam-of-the-medicine-course-of-the-university-of-oxford/1867/first-examination/anatomy-and-physiology/4/solution.md)
+- [Solution](past-exam-of-the-medicine-course-of-the-university-of-oxford/1867/first-examination/anatomy-and-physiology/7/solution.md)
+- [Solution](past-exam-of-the-medicine-course-of-the-university-of-oxford/1867/second-examination/classical-paper/history-of-bloodletting/solution.md)
+- [Solution](past-exam-of-the-medicine-course-of-the-university-of-oxford/1867/second-examination/forensic-medicine-and-hygiene/1/solution.md)
+- [Solution](past-exam-of-the-medicine-course-of-the-university-of-oxford/1867/second-examination/forensic-medicine-and-hygiene/3/solution.md)
+- [Solution](past-exam-of-the-medicine-course-of-the-university-of-oxford/1867/second-examination/pathology/1/solution.md)
+- [Solution](past-exam-of-the-medicine-course-of-the-university-of-oxford/1867/second-examination/pathology/9/solution.md)
+- [Solution](past-exam-of-the-medicine-course-of-the-university-of-oxford/1867/second-examination/therapeutics/1/solution.md)
+- [Solution](past-exam-of-the-quantum-condensed-matter-course-of-the-university-of-cambridge/2007/section-a/a2/b/solution.md)
+- [Phospholipid](phospholipid.md)
+- [Polycythaemia vera](polycythaemia-vera.md)
+- [Terminal differentiation](terminal-differentiation.md)

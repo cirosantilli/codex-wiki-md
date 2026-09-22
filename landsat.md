@@ -1,0 +1,19 @@
+# Landsat
+
+↑ **Parent:** [Remote sensing](remote-sensing.md)
+
+A series of [Earth](earth.md)-observation missions using repeated optical and [multispectral imaging](multispectral-imaging.md) from near-polar [Sun-synchronous orbits](sun-synchronous-orbit.md).
+
+## ↑ Ancestors (6)
+
+1. [Remote sensing](remote-sensing.md)
+2. [Radiometry](radiometry-split.md)
+3. [Optics](optics-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (2)
+
+- [Solution](past-exam-of-the-year-2-of-the-earth-sciences-geology-course-of-the-university-of-oxford/2023/paper-1/3/a/solution.md)
+- [Solution](past-exam-of-the-year-2-of-the-earth-sciences-geology-course-of-the-university-of-oxford/2025/paper-3/5/a/i/solution.md)

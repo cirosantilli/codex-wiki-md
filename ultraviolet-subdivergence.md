@@ -1,0 +1,31 @@
+# Ultraviolet subdivergence
+
+↑ **Parent:** [Ultraviolet divergence](ultraviolet-divergence.md)
+
+An ultraviolet [subdivergence](ultraviolet-subdivergence.md) arises when [loop momenta](loop-momentum.md) internal to a proper subgraph tend to infinity while the momenta entering that subgraph are held fixed. It can occur even if simultaneous scaling of all momenta of the full [Feynman diagram](feynman-diagram.md) is convergent. Recursive local [counterterms](counterterm.md) subtract these subgraph divergences before the remaining overall divergence is analyzed. A [tadpole diagram](tadpole-diagram.md) inserted into an otherwise convergent six-point [phi-fourth theory](quartic-interaction.md) [Feynman diagram](feynman-diagram.md) is a simple massive example.
+
+## ↑ Ancestors (8)
+
+1. [Ultraviolet divergence](ultraviolet-divergence.md)
+2. [Regularization in quantum field theory](regularization-in-quantum-field-theory.md)
+3. [Renormalization](renormalization.md)
+4. [Perturbative quantum field theory](perturbative-quantum-field-theory-split.md)
+5. [Quantum field theory](quantum-field-theory-split.md)
+6. [Branches of physics](branches-of-physics.md)
+7. [Physics](physics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (12)
+
+- [Local subtraction with a sharp momentum cutoff](local-subtraction-with-a-sharp-momentum-cutoff.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2018/2/c/solution.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2020/1/d/solution.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2021/3/b/solution.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2021/3/d/solution.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2022/1/c/solution.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2023/1/d/solution.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2024/3/b/solution.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2024/3/c/solution.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2024/3/d/solution.md)
+- [Renormalization of spontaneously broken gauge theories](renormalization-of-spontaneously-broken-gauge-theories.md)
+- [Three-dimensional quartic Yukawa power-counting identity](three-dimensional-quartic-yukawa-power-counting-identity.md)

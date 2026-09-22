@@ -1,0 +1,42 @@
+# M
+
+↑ **Parent:** [2011](../2011-split.md)
+
+**Table of contents**
+
+- [1](m/1.md)
+  - [a](m/1/a.md)
+    - [Solution](m/1/a/solution.md)
+  - [b](m/1/b.md)
+    - [Solution](m/1/b/solution.md)
+  - [c](m/1/c.md)
+    - [Solution](m/1/c/solution.md)
+  - [d](m/1/d.md)
+    - [i](m/1/d/i.md)
+      - [Solution](m/1/d/i/solution.md)
+    - [ii](m/1/d/ii.md)
+      - [Solution](m/1/d/ii/solution.md)
+    - [iii](m/1/d/iii.md)
+      - [Solution](m/1/d/iii/solution.md)
+- [2](m/2.md)
+  - [a](m/2/a.md)
+    - [Solution](m/2/a/solution.md)
+  - [b](m/2/b.md)
+    - [Solution](m/2/b/solution.md)
+  - [c](m/2/c.md)
+    - [Solution](m/2/c/solution.md)
+  - [d](m/2/d.md)
+    - [Solution](m/2/d/solution.md)
+
+## ↑ Ancestors (10)
+
+1. [2011](../2011-split.md)
+2. [Past exam of the options I course of the University of Oxford](../split.md)
+3. [Options I course of the University of Oxford](../../options-i-course-of-the-university-of-oxford.md)
+4. [Year 2 of the mathematics course of the University of Oxford](../../year-2-of-the-mathematics-course-of-the-university-of-oxford.md)
+5. [Mathematics course of the University of Oxford](../../mathematics-course-of-the-university-of-oxford.md)
+6. [Undergraduate course of the University of Oxford](../../undergraduate-course-of-the-university-of-oxford.md)
+7. [Course of the University of Oxford](../../course-of-the-university-of-oxford.md)
+8. [University of Oxford](../../university-of-oxford-split.md)
+9. [List of universities](../../list-of-universities.md)
+10. [Codex Wiki](../../split.md)

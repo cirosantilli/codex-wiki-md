@@ -1,0 +1,15 @@
+# Long-wavelength-sensitive cone
+
+↑ **Parent:** [Cone cell](cone-cell.md)
+
+A cone class with [spectral sensitivity](spectral-sensitivity.md) relatively shifted toward longer [wavelengths](wavelength.md) compared with M and S classes. Its broad response is not a detector for a unique red sensation.
+
+## ↑ Ancestors (7)
+
+1. [Cone cell](cone-cell.md)
+2. [Photoreceptor](photoreceptor.md)
+3. [Vision](vision.md)
+4. [Sensory system](sensory-system.md)
+5. [Neuroscience](neuroscience-split.md)
+6. [Biology](biology-split.md)
+7. [Codex Wiki](split.md)

@@ -1,0 +1,37 @@
+# Evolutionary game theory
+
+↑ **Parent:** [Game theory](game-theory-split.md)
+
+[Evolutionary game theory](evolutionary-game-theory.md) studies how a population's composition changes when the success of a [pure strategy](pure-strategy.md) depends on which other [pure strategies](pure-strategy.md) it encounters. The central feedback is a [frequency-dependent payoff](frequency-dependent-payoff.md): becoming common changes the opponents a strategy meets, which can change whether it does well. In a [coordination game](coordination-game.md), common behaviour can reinforce itself; in the coexistence example below, being rare is an advantage. This makes [evolutionary game theory](evolutionary-game-theory.md) useful for asking which behaviours can persist and which initial compositions lead to different outcomes, without assuming that each participant solves an [optimization](mathematical-optimization-split.md) problem.
+
+In the basic model, a large, well-mixed population has finitely many inherited [pure strategies](pure-strategy.md); interactions sample opponents according to their population frequencies. Assume that a strategy's [expected payoff](expected-payoff.md) determines its per capita net reproductive growth rate, with a common baseline allowed. These are modelling assumptions: reproduction must transmit the strategy, encounters must match the proposed sampling rule, and the conversion from [payoff](payoff.md) to growth must be justified for an application. The [replicator equation](replicator-equation.md) below describes the resulting continuous-time frequencies. Taylor and Jonker's [Evolutionarily Stable Strategies and Game Dynamics (1978), section 3, pp. 148–149](https://static1.squarespace.com/static/5dc9917c4cdb1467e1e54c4c/t/6526a5647942e33b89ab7af1/1697031525653/1978%2Bevolutionarily%2Bstable%2Bstrategies%2Band%2Bgame%2Bdynamics.pdf) explicitly derive this growth model.
+
+For learned behaviour, reproduction can instead be replaced by an assumed copying rule: an individual samples another individual uniformly and copies a better-performing [pure strategy](pure-strategy.md) at a rate proportional to the positive [payoff](payoff.md) difference. At frequencies $x_i,x_j$, the net flow from $j$ to $i$ is $x_ix_j(f_i-f_j)$, because the two directional positive parts subtract to $f_i-f_j$. Summing over $j$ gives $x_i(f_i-\bar f)$, the [replicator equation](replicator-equation.md). This derivation states a particular mechanism; an arbitrary rule for learning or imitation need not give the same [dynamical system](dynamical-system.md).
+
+Three questions must be distinguished. A [symmetric Nash equilibrium](symmetric-nash-equilibrium.md) tests whether an individual can improve its [expected payoff](expected-payoff.md) against the resident composition. An [evolutionarily stable strategy](evolutionarily-stable-strategy.md) tests whether each distinct rare mutant is outperformed after it is introduced. [Dynamical stability](stability-theory.md) tests the response of an actual [dynamical system](dynamical-system.md) to small changes of composition, and [asymptotic stability](asymptotic-stability.md) additionally requires nearby trajectories to converge. For a finite [symmetric bimatrix game](symmetric-bimatrix-game.md) under the continuous-time [replicator equation](replicator-equation.md), every [evolutionarily stable strategy](evolutionarily-stable-strategy.md) is a [symmetric Nash equilibrium](symmetric-nash-equilibrium.md) and a [locally asymptotically stable](asymptotic-stability.md) rest point; the converse from [asymptotic stability](asymptotic-stability.md) to an [evolutionarily stable strategy](evolutionarily-stable-strategy.md) fails in general. See [Ross Cressman and Yi Tao, The replicator equation and other game dynamics (2014), Theorems 1–2 and Example 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC4113915/). These statements refer to stability on the full [probability simplex](probability-simplex.md), including perturbations introducing currently absent [pure strategies](pure-strategy.md).
+
+A concrete experiment makes the frequency feedback visible. In 2009, Gore, Youk and van Oudenaarden competed two [yeast](yeast.md) strains: a producer of the [enzyme](enzyme-split.md) invertase, which enables [sucrose](sucrose.md) [hydrolysis](hydrolysis.md), and a mutant lacking the corresponding SUC2 [gene](gene.md). Released sugars can feed neighbours, so avoiding production can be advantageous. They used shaken 5 mL cultures with 5% [sucrose](sucrose.md) at $30\,{}^\circ\mathrm C$, diluted daily after 23 hours of growth. Different labelled [proteins](protein-split.md) allowed the two strains to be counted separately by flow cytometry; selective plating periodically checked the counts. The cooperator required externally supplied histidine, so restricting that [amino acid](amino-acid.md) imposed an adjustable growth disadvantage. See [Snowdrift game dynamics and facultative cheating in yeast, pp. 253 and 255–256, Methods Summary](https://www.youklab.org/papers/Nature2009_GoreAndYouk.pdf).
+
+Starting with rare producers and, separately, rare nonproducers tested both invasion directions. Under the reported coexistence conditions each rare strain increased; changing histidine or added [glucose](glucose.md) shifted the eventual composition. Their explanation used nonlinear growth benefits, rather than a fixed pairwise [payoff matrix](payoff-matrix.md). This motivates testing both rarity regimes before inferring an [evolutionarily stable strategy](evolutionarily-stable-strategy.md) or fitting a [replicator equation](replicator-equation.md); it does not identify the illustrative tables below with measured [payoffs](payoff.md). See [Gore, Youk and van Oudenaarden, Figures 1–3](https://www.youklab.org/papers/Nature2009_GoreAndYouk.pdf).
+
+An early motivation was understanding why animal contests can involve restraint even when escalation might win an individual encounter. Maynard Smith and Price's [The Logic of Animal Conflict (1973), Nature 246, 15–18](https://public.ek-cer.hu/~szabo/EGT20/library/maynard_n73.pdf) introduced the [evolutionarily stable strategy](evolutionarily-stable-strategy.md) in this setting. Taylor and Jonker's [1978 paper](https://static1.squarespace.com/static/5dc9917c4cdb1467e1e54c4c/t/6526a5647942e33b89ab7af1/1697031525653/1978%2Bevolutionarily%2Bstable%2Bstrategies%2Band%2Bgame%2Bdynamics.pdf) then studied explicit continuous and discrete dynamics. Static resistance to invasion and the paths populations follow are related questions, but they require separate definitions.
+
+**Table of contents**
+
+- [Signalling equilibrium](signalling-equilibrium.md)
+- [Conditional strategy](conditional-strategy.md)
+- [Replicator equation](replicator-equation.md)
+- [Frequency-dependent payoff](frequency-dependent-payoff.md)
+
+## ↑ Ancestors (5)
+
+1. [Game theory](game-theory-split.md)
+2. [Mathematical optimization](mathematical-optimization-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (2)
+
+- [Evolutionary game theory](evolutionary-game-theory.md)
+- [Game theory](game-theory-split.md)

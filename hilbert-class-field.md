@@ -1,0 +1,61 @@
+# Hilbert class field
+
+↑ **Parent:** [Class field theory](class-field-theory.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Hilbert_class_field)
+
+The Hilbert class field is the maximal unramified abelian extension of a number field. Its Galois group is canonically the ideal class group.
+
+**Table of contents**
+
+- [Class number divisibility for a CM extension](class-number-divisibility-for-a-cm-extension.md)
+- [Hilbert class field of Q of square root minus twenty-three](hilbert-class-field-of-q-of-square-root-minus-twenty-three.md)
+- [Hilbert class field of Q of square root 229](hilbert-class-field-of-q-of-square-root-229.md)
+- [Hilbert class field of Q of square root minus thirty](hilbert-class-field-of-q-of-square-root-minus-thirty.md)
+- [Hilbert class field characterization](hilbert-class-field-characterization.md)
+- [Class number divisibility with split real places](class-number-divisibility-with-split-real-places.md)
+- [Hilbert class field of Q of square root minus thirty-one](hilbert-class-field-of-q-of-square-root-minus-thirty-one.md)
+- [Unramified cyclic cubic extension from a prime-discriminant cubic](unramified-cyclic-cubic-extension-from-a-prime-discriminant-cubic.md)
+- [Class number divisibility under total ramification](class-number-divisibility-under-total-ramification.md)
+- [Unramified cubic extension of Q of square root minus fifty-nine](unramified-cubic-extension-of-q-of-square-root-minus-fifty-nine.md)
+- [Hilbert class field of Q of square root minus six](hilbert-class-field-of-q-of-square-root-minus-six.md)
+
+## ↑ Ancestors (6)
+
+1. [Class field theory](class-field-theory.md)
+2. [Algebraic number theory](algebraic-number-theory-split.md)
+3. [Algebra](algebra-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (29)
+
+- [Class number divisibility for a CM extension](class-number-divisibility-for-a-cm-extension.md)
+- [Class number divisibility under total ramification](class-number-divisibility-under-total-ramification.md)
+- [Class number divisibility with split real places](class-number-divisibility-with-split-real-places.md)
+- [Hilbert class field of Q of square root 229](hilbert-class-field-of-q-of-square-root-229.md)
+- [Hilbert class field of Q of square root minus six](hilbert-class-field-of-q-of-square-root-minus-six.md)
+- [Hilbert class field of Q of square root minus thirty](hilbert-class-field-of-q-of-square-root-minus-thirty.md)
+- [Hilbert class field of Q of square root minus thirty-one](hilbert-class-field-of-q-of-square-root-minus-thirty-one.md)
+- [Hilbert class field of Q of square root minus twenty-three](hilbert-class-field-of-q-of-square-root-minus-twenty-three.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-74/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-74/8/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-23/5/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-25/5/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-31/5/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-26/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-26/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-123/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-123/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-123/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-123/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-123/1/1/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-123/1/1/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-123/1/1/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-123/3/3/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-123/5/d/solution.md)
+- [Prime representation via an ideal class](prime-representation-via-an-ideal-class.md)
+- [Ramification in a Zp-extension](ramification-in-a-zp-extension.md)
+- [Totally real number field](totally-real-number-field.md)
+- [Unramified biquadratic extension of a real quadratic field](unramified-biquadratic-extension-of-a-real-quadratic-field.md)
+- [Unramified cubic extension of Q of square root minus fifty-nine](unramified-cubic-extension-of-q-of-square-root-minus-fifty-nine.md)

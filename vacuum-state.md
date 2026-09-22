@@ -1,0 +1,48 @@
+# Vacuum state
+
+↑ **Parent:** [Quantum field theory](quantum-field-theory-split.md)
+
+For a stable relativistic [quantum field theory](quantum-field-theory-split.md) in Minkowski space, a vacuum is a lowest-energy state for the chosen time evolution; a physical vacuum is normally also invariant under spacetime translations. It need not have zero fluctuations or vanish under every field operator. A free field's [Fock vacuum](fock-vacuum.md) is annihilated by its [annihilation operators](annihilation-operator.md), while an interacting vacuum need not equal the free-theory Fock state. Multiple degenerate vacua permit [spontaneous symmetry breaking](spontaneous-symmetry-breaking.md). In curved spacetime the choice of time evolution and positive-frequency modes introduces additional [vacuum ambiguity in a nonstationary spacetime](vacuum-ambiguity-in-a-nonstationary-spacetime.md).
+
+## ↑ Ancestors (4)
+
+1. [Quantum field theory](quantum-field-theory-split.md)
+2. [Branches of physics](branches-of-physics.md)
+3. [Physics](physics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (33)
+
+- [Bosonic squeezed-vacuum contractions](bosonic-squeezed-vacuum-contractions.md)
+- [Four-momentum operator](four-momentum-operator.md)
+- [Solution](past-exam-of-the-advanced-quantum-field-theory-course-of-the-university-of-oxford/2022/3/a/i/solution.md)
+- [Solution](past-exam-of-the-advanced-quantum-field-theory-course-of-the-university-of-oxford/2022/3/a/iii/solution.md)
+- [Solution](past-exam-of-the-advanced-quantum-field-theory-for-particle-physics-course-of-the-university-of-oxford/2017/3/b/i/solution.md)
+- [Solution](past-exam-of-the-advanced-quantum-field-theory-for-particle-physics-course-of-the-university-of-oxford/2017/3/b/ii/solution.md)
+- [Solution](past-exam-of-the-advanced-quantum-field-theory-for-particle-physics-course-of-the-university-of-oxford/2020/3/a/i/solution.md)
+- [Solution](past-exam-of-the-advanced-quantum-theory-path-integrals-and-many-particle-physics-course-of-the-university-of-oxford/2025/2/a/solution.md)
+- [Solution](past-exam-of-the-advanced-quantum-theory-path-integrals-and-many-particle-physics-course-of-the-university-of-oxford/2025/2/c/solution.md)
+- [Solution](past-exam-of-the-advanced-quantum-theory-path-integrals-and-many-particle-physics-course-of-the-university-of-oxford/2025/2/d/solution.md)
+- [Solution](past-exam-of-the-field-theories-and-collective-phenomena-in-condensed-matter-course-of-the-university-of-oxford/2025/3/a/solution.md)
+- [Solution](past-exam-of-the-field-theories-and-collective-phenomena-in-condensed-matter-course-of-the-university-of-oxford/2025/3/c/solution.md)
+- [Solution](past-exam-of-the-field-theories-and-collective-phenomena-in-condensed-matter-course-of-the-university-of-oxford/2025/3/d/solution.md)
+- [Solution](past-exam-of-the-gauge-field-theory-course-of-the-university-of-cambridge/2014/paper-1/1/solution.md)
+- [Solution](past-exam-of-the-laser-science-and-quantum-information-processing-course-of-the-university-of-oxford/2010/8/1/solution.md)
+- [Solution](past-exam-of-the-laser-science-and-quantum-information-processing-course-of-the-university-of-oxford/2019/3/d/solution.md)
+- [Solution](past-exam-of-the-laser-science-and-quantum-information-processing-course-of-the-university-of-oxford/2022/3/a/solution.md)
+- [Solution](past-exam-of-the-laser-science-and-quantum-information-processing-course-of-the-university-of-oxford/2022/3/c/solution.md)
+- [Solution](past-exam-of-the-laser-science-and-quantum-information-processing-course-of-the-university-of-oxford/2022/3/e/solution.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2019/1/c/solution.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2020/2/a/solution.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2020/2/c/solution.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2020/3/a/solution.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2020/3/b/solution.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2022/1/c/solution.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2024/1/d/solution.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2024/1/e/solution.md)
+- [Solution](past-exam-of-the-quantum-field-theory-course-of-the-university-of-oxford/2025/1/d/solution.md)
+- [Solution](past-exam-of-the-quantum-matter-course-of-the-university-of-oxford/2023/1/d/solution.md)
+- [Two-mode fermionic paired vacuum](two-mode-fermionic-paired-vacuum.md)
+- [Vacuum fluctuation](vacuum-fluctuation.md)
+- [Vacuum functional](vacuum-functional.md)
+- [Vacuum-to-one-particle scalar matrix element](vacuum-to-one-particle-scalar-matrix-element.md)

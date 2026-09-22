@@ -1,0 +1,53 @@
+# Psychology researcher
+
+↑ **Parent:** [Psychology](psychology-split.md)
+
+**Table of contents**
+
+- [Mental health researcher](mental-health-researcher.md)
+  - [List of mental health researchers](list-of-mental-health-researchers.md)
+    - [Sarah Clement](sarah-clement.md)
+      - [Work by Sarah Clement](work-by-sarah-clement.md)
+    - [Matthew S. Lebowitz](matthew-s-lebowitz.md)
+      - [Work by Matthew S. Lebowitz](work-by-matthew-s-lebowitz.md)
+    - [Kirstin Daalman](kirstin-daalman.md)
+      - [Work by Kirstin Daalman](work-by-kirstin-daalman.md)
+    - [Hilary Warwick](hilary-warwick.md)
+      - [Work by Hilary Warwick](work-by-hilary-warwick.md)
+- [Clinical psychology researcher](clinical-psychology-researcher.md)
+  - [List of clinical psychology researchers](list-of-clinical-psychology-researchers.md)
+    - [Bundy Mackintosh](bundy-mackintosh.md)
+      - [Work by Bundy Mackintosh](work-by-bundy-mackintosh.md)
+    - [Andrew Mathews](andrew-mathews.md)
+      - [Work by Andrew Mathews](work-by-andrew-mathews.md)
+    - [Thomas H. Ollendick](thomas-h-ollendick.md)
+      - [Work by Thomas H. Ollendick](work-by-thomas-h-ollendick.md)
+    - [Tessa Reardon](tessa-reardon.md)
+      - [Work by Tessa Reardon](work-by-tessa-reardon.md)
+    - [Stephen P. H. Whiteside](stephen-p-h-whiteside.md)
+      - [Work by Stephen P. H. Whiteside](work-by-stephen-p-h-whiteside.md)
+    - [Martina Nordh](martina-nordh.md)
+      - [Work by Martina Nordh](work-by-martina-nordh.md)
+    - [Maral Jolstedt](maral-jolstedt.md)
+      - [Work by Maral Jolstedt](work-by-maral-jolstedt.md)
+    - [Kerstin Thirlwall](kerstin-thirlwall.md)
+      - [Work by Kerstin Thirlwall](work-by-kerstin-thirlwall.md)
+    - [Jo Magne Ingul](jo-magne-ingul.md)
+      - [Work by Jo Magne Ingul](work-by-jo-magne-ingul.md)
+    - [Jeremy S. Peterman](jeremy-s-peterman.md)
+      - [Work by Jeremy S. Peterman](work-by-jeremy-s-peterman.md)
+- [List of psychology researchers](list-of-psychology-researchers.md)
+  - [Kelly Macdonald](kelly-macdonald.md)
+    - [Work by Kelly Macdonald](work-by-kelly-macdonald.md)
+  - [Courtney Melinda Hale](courtney-melinda-hale.md)
+    - [Work by Courtney Melinda Hale](work-by-courtney-melinda-hale.md)
+
+## ↑ Ancestors (3)
+
+1. [Psychology](psychology-split.md)
+2. [Science](science.md)
+3. [Codex Wiki](split.md)
+
+## ← Incoming links (1)
+
+- [Courtney Melinda Hale](courtney-melinda-hale.md)

@@ -1,0 +1,52 @@
+# 2021
+
+↑ **Parent:** [Past exam of the linear algebra course of the University of Oxford](split.md)
+
+Solutions to all three questions of the [University of Oxford](../university-of-oxford-split.md) Part A [linear algebra](../linear-algebra-split.md) paper, sat on 15 June 2021. Source: [released examination PDF, parent PDF pages 253–254; paper pages 1–2](https://www.whatdotheyknow.com/request/bsc_mathematics_part_a_examinati/response/2820674/attach/3/FOI%20202410%20944%20Data.pdf#page=253). All questions and parts are covered, including both alternatives in questions asking whether an assertion is true.
+
+**Table of contents**
+
+- [1](2021/1.md)
+  - [a](2021/1/a.md)
+    - [i](2021/1/a/i.md)
+      - [Solution](2021/1/a/i/solution.md)
+    - [ii](2021/1/a/ii.md)
+      - [Solution](2021/1/a/ii/solution.md)
+    - [iii](2021/1/a/iii.md)
+      - [Solution](2021/1/a/iii/solution.md)
+  - [b](2021/1/b.md)
+    - [Solution](2021/1/b/solution.md)
+  - [c](2021/1/c.md)
+    - [Solution](2021/1/c/solution.md)
+- [2](2021/2.md)
+  - [a](2021/2/a.md)
+    - [Solution](2021/2/a/solution.md)
+  - [b](2021/2/b.md)
+    - [Solution](2021/2/b/solution.md)
+  - [c](2021/2/c.md)
+    - [i](2021/2/c/i.md)
+      - [Solution](2021/2/c/i/solution.md)
+    - [ii](2021/2/c/ii.md)
+      - [Solution](2021/2/c/ii/solution.md)
+- [3](2021/3.md)
+  - [a](2021/3/a.md)
+    - [Solution](2021/3/a/solution.md)
+  - [b](2021/3/b.md)
+    - [i](2021/3/b/i.md)
+      - [Solution](2021/3/b/i/solution.md)
+    - [ii](2021/3/b/ii.md)
+      - [Solution](2021/3/b/ii/solution.md)
+  - [c](2021/3/c.md)
+    - [Solution](2021/3/c/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Past exam of the linear algebra course of the University of Oxford](split.md)
+2. [Linear algebra course of the University of Oxford](../linear-algebra-course-of-the-university-of-oxford.md)
+3. [Year 2 of the mathematics course of the University of Oxford](../year-2-of-the-mathematics-course-of-the-university-of-oxford.md)
+4. [Mathematics course of the University of Oxford](../mathematics-course-of-the-university-of-oxford.md)
+5. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+6. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+7. [University of Oxford](../university-of-oxford-split.md)
+8. [List of universities](../list-of-universities.md)
+9. [Codex Wiki](../split.md)

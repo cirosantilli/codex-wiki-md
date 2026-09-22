@@ -1,0 +1,27 @@
+# Solar constant
+
+↑ **Parent:** [Planetary surface energy balance](planetary-surface-energy-balance.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Solar_constant)
+
+The solar constant is solar irradiance on a plane normal to incoming sunlight at a specified reference distance from the Sun, conventionally the mean Earth-Sun distance. Local horizontal irradiance includes solar geometry and atmospheric transmission.
+
+**Table of contents**
+
+- [Daily mean solar irradiance](daily-mean-solar-irradiance.md)
+
+## ↑ Ancestors (6)
+
+1. [Planetary surface energy balance](planetary-surface-energy-balance.md)
+2. [Planetary ice shell](planetary-ice-shell.md)
+3. [Geophysics](geophysics-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (5)
+
+- [Albedo-to-forcing conversion](albedo-to-forcing-conversion.md)
+- [Solution](past-exam-of-the-mathematics-and-the-environment-and-mathematical-physiology-course-of-the-university-of-oxford/2010/a/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-and-the-environment-course-of-the-university-of-oxford/2011/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-69/1/solution.md)
+- [Zero-dimensional planetary energy balance](zero-dimensional-planetary-energy-balance.md)

@@ -1,0 +1,52 @@
+# Numerical solutions of partial differential equations course of the University of Oxford
+
+↑ **Parent:** [Year 3 of the mathematics course of the University of Oxford](year-3-of-the-mathematics-course-of-the-university-of-oxford.md)
+
+**Table of contents**
+
+- [Past exam of the numerical solutions of partial differential equations course of the University of Oxford](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford.md)
+  - [2023](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md)
+    - [1](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#1)
+      - [a](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#1/a)
+        - [Solution](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#1/a/solution)
+      - [b](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#1/b)
+        - [Solution](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#1/b/solution)
+      - [c](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#1/c)
+        - [Solution](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#1/c/solution)
+      - [d](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#1/d)
+        - [Solution](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#1/d/solution)
+    - [2](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#2)
+      - [a](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#2/a)
+        - [Solution](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#2/a/solution)
+      - [b](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#2/b)
+        - [Solution](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#2/b/solution)
+      - [c](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#2/c)
+        - [Solution](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#2/c/solution)
+      - [d](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#2/d)
+        - [Solution](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#2/d/solution)
+    - [3](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#3)
+      - [a](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#3/a)
+        - [Solution](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#3/a/solution)
+      - [b](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#3/b)
+        - [Solution](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#3/b/solution)
+      - [c](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#3/c)
+        - [Solution](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#3/c/solution)
+      - [d](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#3/d)
+        - [Solution](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#3/d/solution)
+      - [e](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#3/e)
+        - [Solution](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023.md#3/e/solution)
+
+## ↑ Ancestors (7)
+
+1. [Year 3 of the mathematics course of the University of Oxford](year-3-of-the-mathematics-course-of-the-university-of-oxford.md)
+2. [Mathematics course of the University of Oxford](mathematics-course-of-the-university-of-oxford.md)
+3. [Undergraduate course of the University of Oxford](undergraduate-course-of-the-university-of-oxford.md)
+4. [Course of the University of Oxford](course-of-the-university-of-oxford.md)
+5. [University of Oxford](university-of-oxford-split.md)
+6. [List of universities](list-of-universities.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (2)
+
+- [Past exam of the numerical solutions of partial differential equations course of the University of Oxford](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/split.md)
+- [2023](past-exam-of-the-numerical-solutions-of-partial-differential-equations-course-of-the-university-of-oxford/2023-split.md)

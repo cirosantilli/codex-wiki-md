@@ -1,0 +1,20 @@
+# Identification of the tumour transition states occurring during EMT by Ievgenia Pastushenko and others
+
+↑ **Parent:** [Oncology bibliography](oncology-bibliography-split.md)
+
+[Ievgenia Pastushenko](ievgenia-pastushenko.md) and coauthors. 2018. Nature 556, 463–468.
+
+[https://doi.org/10.1038/s41586-018-0040-3](https://doi.org/10.1038/s41586-018-0040-3)
+
+[https://www.nature.com/articles/s41586-018-0040-3](https://www.nature.com/articles/s41586-018-0040-3)
+
+## ↑ Ancestors (4)
+
+1. [Oncology bibliography](oncology-bibliography-split.md)
+2. [Biology bibliography](biology-bibliography-split.md)
+3. [Biology](biology-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (1)
+
+- [Solution](past-exam-of-the-biochemistry-course-of-the-university-of-cambridge/2025/paper-3/section-ii/6/solution.md)

@@ -1,0 +1,42 @@
+# 2023
+
+↑ **Parent:** [Past exam of the MSc in advanced computer science course of the University of Oxford](../split.md)
+
+**Table of contents**
+
+- [Combinatorial optimisation](combinatorial-optimisation.md)
+- [Computational game theory](computational-game-theory.md)
+  - [1](computational-game-theory.md#1)
+    - [a](computational-game-theory.md#1/a)
+      - [Solution](computational-game-theory.md#1/a/solution)
+    - [b](computational-game-theory.md#1/b)
+      - [Solution](computational-game-theory.md#1/b/solution)
+    - [c](computational-game-theory.md#1/c)
+      - [Solution](computational-game-theory.md#1/c/solution)
+  - [2](computational-game-theory.md#2)
+    - [a](computational-game-theory.md#2/a)
+      - [Solution](computational-game-theory.md#2/a/solution)
+    - [b](computational-game-theory.md#2/b)
+      - [Solution](computational-game-theory.md#2/b/solution)
+  - [3](computational-game-theory.md#3)
+    - [a](computational-game-theory.md#3/a)
+      - [Solution](computational-game-theory.md#3/a/solution)
+    - [b](computational-game-theory.md#3/b)
+      - [Solution](computational-game-theory.md#3/b/solution)
+  - [4](computational-game-theory.md#4)
+    - [a](computational-game-theory.md#4/a)
+      - [Solution](computational-game-theory.md#4/a/solution)
+    - [b](computational-game-theory.md#4/b)
+      - [Solution](computational-game-theory.md#4/b/solution)
+    - [c](computational-game-theory.md#4/c)
+      - [Solution](computational-game-theory.md#4/c/solution)
+
+## ↑ Ancestors (7)
+
+1. [Past exam of the MSc in advanced computer science course of the University of Oxford](../split.md)
+2. [MSc in advanced computer science course of the University of Oxford](../../msc-in-advanced-computer-science-course-of-the-university-of-oxford.md)
+3. [Master's course of the University of Oxford](../../master-s-course-of-the-university-of-oxford.md)
+4. [Course of the University of Oxford](../../course-of-the-university-of-oxford.md)
+5. [University of Oxford](../../university-of-oxford-split.md)
+6. [List of universities](../../list-of-universities.md)
+7. [Codex Wiki](../../split.md)

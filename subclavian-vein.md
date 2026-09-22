@@ -1,0 +1,15 @@
+# Subclavian vein
+
+↑ **Parent:** [Vein](vein.md)
+
+**Table of contents**
+
+- [Left subclavian vein](left-subclavian-vein.md)
+
+## ↑ Ancestors (5)
+
+1. [Vein](vein.md)
+2. [Circulatory system](circulatory-system.md)
+3. [Physiology](physiology-split.md)
+4. [Biology](biology-split.md)
+5. [Codex Wiki](split.md)

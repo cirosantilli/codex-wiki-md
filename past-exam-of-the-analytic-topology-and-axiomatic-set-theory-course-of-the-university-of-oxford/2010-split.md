@@ -1,0 +1,63 @@
+# 2010
+
+↑ **Parent:** [Past exam of the analytic topology and axiomatic set theory course of the University of Oxford](split.md)
+
+Source release: [Oxford examination archive release thread](https://www.whatdotheyknow.com/request/maths_past_papers_3), Part C bundle pages 305–308. This combined PDF covers both [topology](../topology-split.md) and [set theory](../set-theory-split.md). The cover cross-lists Mathematics, Mathematics and Computer Science, and Mathematics and Philosophy, all Part C, Monday 7 June 2010, 2.30pm–5.30pm.
+
+Answer availability checked on 28 October 2026: bounded official Oxford searches by exact year, paper label and both course names found no advertised exact-paper answers. The [official syllabus for the 2010 examination](https://www.maths.ox.ac.uk/system/files/attachments/PartC%202009-10.pdf) identifies the combined unit. No later answer-release policy was assumed applicable.
+
+**Table of contents**
+
+- [A](2010/a.md)
+  - [1](2010/a/1.md)
+    - [Solution](2010/a/1/solution.md)
+  - [2](2010/a/2.md)
+    - [Solution](2010/a/2/solution.md)
+  - [3](2010/a/3.md)
+    - [Solution](2010/a/3/solution.md)
+- [B](2010/b.md)
+  - [4](2010/b/4.md)
+    - [a](2010/b/4/a.md)
+      - [Solution](2010/b/4/a/solution.md)
+    - [b](2010/b/4/b.md)
+      - [Solution](2010/b/4/b/solution.md)
+    - [c](2010/b/4/c.md)
+      - [Solution](2010/b/4/c/solution.md)
+  - [5](2010/b/5.md)
+    - [a](2010/b/5/a.md)
+      - [Solution](2010/b/5/a/solution.md)
+    - [b](2010/b/5/b.md)
+      - [Solution](2010/b/5/b/solution.md)
+    - [c](2010/b/5/c.md)
+      - [Solution](2010/b/5/c/solution.md)
+    - [d](2010/b/5/d.md)
+      - [i](2010/b/5/d/i.md)
+        - [Solution](2010/b/5/d/i/solution.md)
+      - [ii](2010/b/5/d/ii.md)
+        - [Solution](2010/b/5/d/ii/solution.md)
+      - [iii](2010/b/5/d/iii.md)
+        - [Solution](2010/b/5/d/iii/solution.md)
+  - [6](2010/b/6.md)
+    - [a](2010/b/6/a.md)
+      - [Solution](2010/b/6/a/solution.md)
+    - [b](2010/b/6/b.md)
+      - [Solution](2010/b/6/b/solution.md)
+    - [c](2010/b/6/c.md)
+      - [Solution](2010/b/6/c/solution.md)
+    - [d](2010/b/6/d.md)
+      - [i](2010/b/6/d/i.md)
+        - [Solution](2010/b/6/d/i/solution.md)
+      - [ii](2010/b/6/d/ii.md)
+        - [Solution](2010/b/6/d/ii/solution.md)
+
+## ↑ Ancestors (9)
+
+1. [Past exam of the analytic topology and axiomatic set theory course of the University of Oxford](split.md)
+2. [Analytic topology and axiomatic set theory course of the University of Oxford](../analytic-topology-and-axiomatic-set-theory-course-of-the-university-of-oxford.md)
+3. [Year 4 of the mathematics course of the University of Oxford](../year-4-of-the-mathematics-course-of-the-university-of-oxford.md)
+4. [Mathematics course of the University of Oxford](../mathematics-course-of-the-university-of-oxford.md)
+5. [Undergraduate course of the University of Oxford](../undergraduate-course-of-the-university-of-oxford.md)
+6. [Course of the University of Oxford](../course-of-the-university-of-oxford.md)
+7. [University of Oxford](../university-of-oxford-split.md)
+8. [List of universities](../list-of-universities.md)
+9. [Codex Wiki](../split.md)

@@ -1,0 +1,40 @@
+<h1 id="1/b">b</h1>
+
+↑ **Parent:** [1](../1.md)
+
+**Table of contents**
+
+- [i](b/i.md)
+  - [α](b/i/alpha.md)
+    - [Solution](b/i/alpha/solution.md)
+  - [β](b/i/beta.md)
+    - [Solution](b/i/beta/solution.md)
+  - [γ](b/i/gamma.md)
+    - [Solution](b/i/gamma/solution.md)
+  - [δ](b/i/delta.md)
+    - [Solution](b/i/delta/solution.md)
+- [ii](b/ii.md)
+  - [α](b/ii/alpha.md)
+    - [Solution](b/ii/alpha/solution.md)
+  - [β](b/ii/beta.md)
+    - [Solution](b/ii/beta/solution.md)
+  - [γ](b/ii/gamma.md)
+    - [Solution](b/ii/gamma/solution.md)
+  - [δ](b/ii/delta.md)
+    - [Solution](b/ii/delta/solution.md)
+- [iii](b/iii.md)
+  - [Solution](b/iii/solution.md)
+
+## ↑ Ancestors (11)
+
+1. [1](../1.md)
+2. [2011](../../2011-split.md)
+3. [Past exam of the model theory course of the University of Oxford](../../split.md)
+4. [Model theory course of the University of Oxford](../../../model-theory-course-of-the-university-of-oxford.md)
+5. [Year 4 of the mathematics course of the University of Oxford](../../../year-4-of-the-mathematics-course-of-the-university-of-oxford.md)
+6. [Mathematics course of the University of Oxford](../../../mathematics-course-of-the-university-of-oxford.md)
+7. [Undergraduate course of the University of Oxford](../../../undergraduate-course-of-the-university-of-oxford.md)
+8. [Course of the University of Oxford](../../../course-of-the-university-of-oxford.md)
+9. [University of Oxford](../../../university-of-oxford-split.md)
+10. [List of universities](../../../list-of-universities.md)
+11. [Codex Wiki](../../../split.md)

@@ -1,0 +1,29 @@
+<h1 id="3/solution">Solution</h1>
+
+↑ **Parent:** [3](../3.md)
+
+**“Softening” describes disintegration of nervous tissue; it does not identify one cause.** The 1865 colour categories were chiefly red, yellow and white softening. They must be distinguished from the causal classification into vascular injury, [inflammation](../../../../../inflammation.md), pressure-related injury, trauma and post-mortem change. Historical observers sometimes interpreted pale ventricular softening as a consequence of [oedema](../../../../../oedema.md); modern [pathology](../../pathology-split.md) requires evidence of tissue death before calling such a region [encephalomalacia](../../../../../encephalomalacia.md).[Volume 22, p. 177: white, yellow and red brain softenings](../../../../../pathological-anatomy-of-insanity-in-the-american-journal-of-insanity-1865.md)
+
+Red softening contains conspicuous extravasated [blood](../../../../../blood.md), sometimes with vascular engorgement. It may occur in a haemorrhagic [cerebral infarction](../../../../../cerebral-infarction.md), a contusion or destructive [inflammation](../../../../../inflammation.md). Yellow softening is a later discoloured, friable focus containing products of tissue and blood breakdown, often with lipid-laden [macrophages](../../../../../macrophage.md). White or pale softening has little visible [haemorrhage](../../../../../haemorrhage.md); an ischaemic focus in the [white matter](../../../../../white-matter.md) can be pale, as can waterlogged tissue around a [cerebral ventricle](../../../../../ventricular-system.md). These appearances overlap through time. Neither red colour proves primary [encephalitis](../../../../../encephalitis.md) nor white colour proves absence of vascular disease.
+
+In the [cerebral hemispheres](../../../../../cerebral-hemisphere.md), a major cause of genuine destructive softening is interruption of arterial [blood flow](../../../../../blood-flow.md): [thrombosis](../../../../../thrombosis.md) on diseased arteries, an [embolus](../../../../../embolus.md) from the [heart](../../../../../heart.md) or another artery, or inadequate perfusion during severe systemic circulatory failure. The territory supplied by the obstructed vessel helps explain a focal lesion; prolonged global failure particularly injures vulnerable neurons and boundary zones between arterial territories. Cortical lesions and deep lesions involving the [basal ganglia](../../../../../basal-ganglia.md) or internal pathways can therefore have different distributions. [Cerebral infarction](../../../../../cerebral-infarction.md) evolves through neuronal injury, removal of dead tissue by [microglia](../../../../../microglia.md) and [macrophages](../../../../../macrophage.md), and [liquefactive necrosis](../../../../../liquefactive-necrosis.md); a chronic lesion may leave a fluid-filled cavity with surrounding [gliosis](../../../../../gliosis.md).[Cerebral infarction: gross and microscopic progression from acute injury to liquefaction](../../../../../central-nervous-system-pathology-by-the-national-university-of-singapore.md)
+
+In the [cerebellum](../../../../../cerebellum.md) and [brainstem](../../../../../brainstem.md), interruption of the vertebrobasilar circulation is likewise an important vascular cause; local [haemorrhage](../../../../../haemorrhage.md), trauma and infection are alternatives. Suppuration can cause destructive softening in any region, and a nearby [tumour](../../../../../tumour.md) can injure tissue by compression, interference with its blood supply or associated [oedema](../../../../../oedema.md). These mechanisms must be investigated rather than inferred from consistency alone.
+
+In the [spinal cord](../../../../../spinal-cord.md), destructive [myelomalacia](../../../../../myelomalacia.md) can follow vascular interruption, severe compression, direct trauma or inflammatory [myelitis](../../../../../myelitis.md). Vertebral disease or an epidural mass may compress both the [spinal cord](../../../../../spinal-cord.md) and its vessels. Infarction often involves the territory of the [anterior spinal artery](../../../../../anterior-spinal-artery.md); reduced perfusion can preferentially damage the vulnerable central [gray matter](../../../../../gray-matter.md). [Myelitis](../../../../../myelitis.md) can also disrupt tissue without a primary arterial obstruction. It would be misleading to transfer the relative frequency of cerebral embolism unchanged to every spinal lesion.[Causes and anterior spinal artery territory](../../../../../spinal-cord-infarction-by-merck-manual-professional-edition.md)
+
+At examination, record the location, vascular territory, firmness, colour and adjacent membranes; inspect the arteries and search for an embolic source or compression. [Microscopy](../../../../../microscopy.md) asks whether there is [necrosis](../../../../../necrosis.md), [inflammatory exudation](../../../../../inflammatory-exudate.md), [haemorrhage](../../../../../haemorrhage.md), myelin debris, cellular clearance or repair. Finally exclude simple post-mortem [autolysis](../../../../../autolysis.md).
+
+## ↑ Ancestors (11)
+
+1. [3](../3.md)
+2. [Pathology](../../pathology-split.md)
+3. [Second examination](../../split.md)
+4. [1865](../../../split.md)
+5. [Past exam of the medicine course of the University of Oxford](../../../../split.md)
+6. [Medicine course of the University of Oxford](../../../../../medicine-course-of-the-university-of-oxford.md)
+7. [Undergraduate course of the University of Oxford](../../../../../undergraduate-course-of-the-university-of-oxford.md)
+8. [Course of the University of Oxford](../../../../../course-of-the-university-of-oxford.md)
+9. [University of Oxford](../../../../../university-of-oxford-split.md)
+10. [List of universities](../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../split.md)

@@ -1,0 +1,40 @@
+<h1 id="goodman-and-kruskal-s-gamma">Goodman and Kruskal's gamma</h1>
+
+↑ **Parent:** [Ordinal categorical variable](ordinal-categorical-variable.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Goodman_and_Kruskal's_gamma)
+
+For $C$ [concordant pairs](concordant-pair.md) and $D$ [discordant pairs](discordant-pair.md), [Goodman and Kruskal's gamma](goodman-and-kruskal-s-gamma.md) compares their difference with their total. It ranges from $-1$ to $1$ when $C+D>0$ and discards all pairs tied in either variable. Reversing exactly one category ordering reverses its sign; reversing both leaves it unchanged. Zero gamma does not imply [independence](independent-random-variables.md), and ignoring numerous ties can make its magnitude larger than a tie-adjusted measure.[DescTools documentation, Details: concordances, discordances and discarded ties](https://andrisignorell.github.io/DescTools/reference/GoodmanKruskalGamma.html)
+
+## ↑ Ancestors (8)
+
+1. [Ordinal categorical variable](ordinal-categorical-variable.md)
+2. [Categorical variable](categorical-variable.md)
+3. [Statistical modelling](statistical-modelling-split.md)
+4. [Statistical model](statistical-model-split.md)
+5. [Probability and statistics](probability-and-statistics-split.md)
+6. [Area of mathematics](area-of-mathematics.md)
+7. [Mathematics](mathematics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (20)
+
+- [DescTools documentation for gamma, Somers' D and lambda](desctools-documentation-for-gamma-somers-d-and-lambda.md)
+- [Goodman and Kruskal's gamma](goodman-and-kruskal-s-gamma.md)
+- [Kendall's tau-b](kendall-s-tau-b.md)
+- [Solution](past-exam-of-the-digital-social-research-statistics-core-course-of-the-university-of-oxford/2018/3/solution.md)
+- [Solution](past-exam-of-the-digital-social-research-statistics-core-course-of-the-university-of-oxford/2018/4/solution.md)
+- [Solution](past-exam-of-the-digital-social-research-statistics-core-course-of-the-university-of-oxford/2018/5/solution.md)
+- [Solution](past-exam-of-the-digital-social-research-statistics-core-course-of-the-university-of-oxford/2019/3/solution.md)
+- [Solution](past-exam-of-the-digital-social-research-statistics-core-course-of-the-university-of-oxford/2019/4/solution.md)
+- [Solution](past-exam-of-the-digital-social-research-statistics-core-course-of-the-university-of-oxford/2019/5/solution.md)
+- [Solution](past-exam-of-the-digital-social-research-statistics-core-course-of-the-university-of-oxford/2020/3/solution.md)
+- [Solution](past-exam-of-the-digital-social-research-statistics-core-course-of-the-university-of-oxford/2020/4/solution.md)
+- [Solution](past-exam-of-the-digital-social-research-statistics-core-course-of-the-university-of-oxford/2020/5/solution.md)
+- [Solution](past-exam-of-the-digital-social-research-statistics-core-course-of-the-university-of-oxford/2021/3/solution.md)
+- [Solution](past-exam-of-the-digital-social-research-statistics-core-course-of-the-university-of-oxford/2022/2/solution.md)
+- [Solution](past-exam-of-the-digital-social-research-statistics-core-course-of-the-university-of-oxford/2022/3/solution.md)
+- [Solution](past-exam-of-the-digital-social-research-statistics-core-course-of-the-university-of-oxford/2023/2/solution.md)
+- [Solution](past-exam-of-the-digital-social-research-statistics-core-course-of-the-university-of-oxford/2023/3/solution.md)
+- [Sign reversal under reversal of one ordinal ordering](sign-reversal-under-reversal-of-one-ordinal-ordering.md)
+- [Stuart's tau-c](stuart-s-tau-c.md)
+- [Tied pair (ordinal data)](tied-pair-ordinal-data.md)

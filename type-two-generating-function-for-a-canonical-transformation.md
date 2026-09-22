@@ -1,0 +1,35 @@
+# Type-two generating function for a canonical transformation
+
+↑ **Parent:** [Canonical transformation](canonical-transformation.md)
+
+A function $S(q,P)$ generates a canonical transformation through
+
+$$
+p=\frac{\partial S}{\partial q},
+\qquad
+Q=\frac{\partial S}{\partial P}.
+$$
+
+**Table of contents**
+
+- [Trigonometric type-two canonical transformation](trigonometric-type-two-canonical-transformation.md)
+
+## ↑ Ancestors (6)
+
+1. [Canonical transformation](canonical-transformation.md)
+2. [Hamiltonian mechanics](hamiltonian-mechanics-split.md)
+3. [Classical mechanics](classical-mechanics-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (8)
+
+- [Solution](past-exam-of-the-classical-mechanics-course-of-the-university-of-oxford/2023/3/c/i/solution.md)
+- [Solution](past-exam-of-the-classical-mechanics-course-of-the-university-of-oxford/2023/3/c/ii/solution.md)
+- [Solution](past-exam-of-the-classical-mechanics-course-of-the-university-of-oxford/2023/3/c/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-2/14e/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-4/15b/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-4/15d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/ii/paper-4/8b/b/i/solution.md)
+- [Trigonometric type-two canonical transformation](trigonometric-type-two-canonical-transformation.md)

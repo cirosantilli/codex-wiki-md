@@ -1,0 +1,33 @@
+<h1 id="6/solution">Solution</h1>
+
+↑ **Parent:** [6](../6.md)
+
+**For an 1866 answer, the important agents include heat, chlorine preparations, carbolic acid and related tar antiseptics, sulphurous fumigation, and certain metallic salts. Their effects on infection, decomposition and odour must be distinguished.** No single chemical is best for air, excreta, clothes and every surface under all conditions.
+
+A useful classification follows the action and use of each group. [Heat disinfection](../../../../../heat-disinfection.md), by boiling or a properly conducted hot-air process, acts on the contaminated object itself; it is especially valuable for washable fabrics. Washing and removal of dirt reduce contamination but should not be confused with a validated disinfecting exposure. In present terms, efficacy depends on the organism, temperature, exposure time and whether the heat reaches the whole object.
+
+[Chlorine](../../../../../chlorine.md) water and chlorinated lime, historically called chloride of lime, provide chemically reactive chlorine species. Their [oxidation](../../../../../oxidation.md) and related reactions damage biological constituents; they can also destroy some odorous substances. Activity is diminished when the reagent is consumed by abundant organic dirt. [Phenol](../../../../../phenol.md), historically carbolic acid, and related tar products were valued as antiseptics. Present descriptions of phenolic action include damage to [cell membranes](../../../../../cell-membrane-split.md) and [proteins](../../../../../protein-split.md). Neither a phenolic odour nor a chlorinated smell demonstrates a sufficient disinfecting exposure.[“Chlorine and chlorine compounds” and “Phenolics”: modes of action and practical limitations](../../../../../chemical-disinfectants-by-the-centers-for-disease-control-and-prevention.md)
+
+Burning [sulfur](../../../../../sulfur.md) produces [sulfur dioxide](../../../../../sulfur-dioxide.md), the period “sulphurous acid gas”, used for fumigation. This is chemically distinct from chlorine oxidation, and its action depends on conditions including moisture and access to the contaminated material. [Zinc chloride](../../../../../zinc-chloride.md) and [iron(II) sulfate](../../../../../iron-ii-sulfate.md) were also used to control decomposition and offensive discharges. Their historical role as acidifying or preservative agents does not establish that every treated material was rendered noninfectious. Dilution and [building ventilation](../../../../../building-ventilation.md) remove or disperse contamination but are not a substitute for treating soiled articles.
+
+These choices are documented rather than inferred from later surgical practice. The 1866 Cattle Plague Commission reported favourably on tar acids and sulphurous acid, while cautioning against premature confidence. That animal-disease investigation shows what was valued at the time; it does not establish efficacy against every human infection.[Discussion of disinfectants: tar acids, sulphurous acid and caution about experimental conclusions](../../../../../third-report-of-the-cattle-plague-commissioners-1866.md)
+
+For the clothes of a person with [cholera](../../../../../cholera.md), regard fecal and vomit contamination as the principal hazard. Remove the articles without shaking or spreading contamination, contain them for transfer, and protect the handler's hands and clothing. Wash hands afterwards. Collect and dispose of visible excreta safely; do not contaminate a drinking supply or a communal washing place. For washable linen use thorough cleaning and a suitable heat process; bulky or delicate articles require a process that can penetrate the entire material, not just warm its exterior.
+
+An October 1866 instruction specifically recognized transmission through soiled linen, attendants' hands and drinking [water](../../../../../water.md). It recommended [zinc chloride](../../../../../zinc-chloride.md) for articles that iron would discolour, followed in its general scheme by carbolic treatment, and described special cleansing, fumigation and exposure to hot air under sanitary supervision. Its theory that preventing alkaline decomposition guaranteed safety was a historical hypothesis, not a valid modern criterion. An acid reaction to [litmus](../../../../../litmus.md) or disappearance of smell cannot prove that [Vibrio cholerae](../../../../../vibrio-cholerae.md) has been killed.[Glasgow Medical Journal 1(6), pp.244–246, instructions 2–9: transmission, clothing, chemicals, hot air and the stated alkaline-decomposition theory](../../../../../instructions-on-disinfection-in-choleraic-diseases-1866.md)
+
+Modern advice gives a clearer practical comparison: clean clothing and bedding with detergent, use an appropriate hot wash and complete drying, or an effective boiling or chemical process when indicated. The current [World Health Organization](../../../../../world-health-organization.md) guidance includes five minutes in boiling [water](../../../../../water.md) as one option; the fabric and the whole load must actually receive that exposure. This is a present recommendation, not an invented historical recipe. Organic soiling can shield organisms or consume disinfectant, so adequate cleaning, correct concentration and contact time matter more than a nominal amount of scented fluid.[“Someone in my household has cholera”: laundering away from drinking-water sources, cleaning, boiling or chlorine disinfection, drying and handwashing](../../../../../cholera-outbreaks-by-the-world-health-organization.md)[“Organic and inorganic matter” and “Duration of exposure”: interference by soil and adequate contact](../../../../../factors-affecting-the-efficacy-of-disinfection-and-sterilization-by-the-centers-for-disease-control-and-prevention.md)
+
+## ↑ Ancestors (11)
+
+1. [6](../6.md)
+2. [Forensic medicine and hygiene](../../forensic-medicine-and-hygiene-split.md)
+3. [Second examination](../../split.md)
+4. [1866](../../../split.md)
+5. [Past exam of the medicine course of the University of Oxford](../../../../split.md)
+6. [Medicine course of the University of Oxford](../../../../../medicine-course-of-the-university-of-oxford.md)
+7. [Undergraduate course of the University of Oxford](../../../../../undergraduate-course-of-the-university-of-oxford.md)
+8. [Course of the University of Oxford](../../../../../course-of-the-university-of-oxford.md)
+9. [University of Oxford](../../../../../university-of-oxford-split.md)
+10. [List of universities](../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../split.md)

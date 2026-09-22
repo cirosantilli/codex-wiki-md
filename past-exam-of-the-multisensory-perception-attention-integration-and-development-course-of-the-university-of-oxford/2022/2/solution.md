@@ -1,0 +1,41 @@
+<h1 id="2/solution">Solution</h1>
+
+↑ **Parent:** [2](../2.md)
+
+**[Single-unit recording](../../../single-unit-recording.md) has been exceptionally fruitful in identifying where and under what conditions multisensory signals interact. Its contribution to human [perception](../../../perception.md) is mechanistic and constraining; one cell's discharge is not a complete account of a conscious multisensory event.** The strongest conclusions combine cellular recording with behavior, perturbation and models at a comparable computational level.
+
+The essential advance is resolution. An extracellular electrode can isolate [action potentials](../../../action-potential.md) from a [neuron](../../../neuron-split.md), allowing experimenters to map its [receptive fields](../../../receptive-field.md) in several [sensory modalities](../../../sensory-modality.md), vary stimulus timing and [intensity](../../../intensity-physics.md), and compare repeated trials. A cell responsive to light and sound demonstrates convergence at the output of that cell, rather than merely neighboring visual and auditory activity within one imaging voxel. Yet lack of an overt auditory response does not establish lack of auditory input: an input can modulate responsiveness without crossing the cell's firing threshold by itself.
+
+Classic experiments by [M. Alex Meredith](../../../m-alex-meredith.md) and [Barry E. Stein](../../../barry-e-stein.md) compared visual, auditory and somatosensory stimuli individually and in combination in the cat [superior colliculus](../../../superior-colliculus.md). Deep-layer [neurons](../../../neuron-split.md) showed enhancement or depression when modalities were combined; many sampled cells had access to descending pathways relevant to orienting.[J Neurophysiol 56, 640–662; comparisons of unimodal and combined responses and descending projections](../../../visual-auditory-and-somatosensory-convergence-on-cells-in-superior-colliculus-results-in-multisensory-integration-by-m-alex-meredith-and-barry-e-stein.md) This supplied an experimentally tractable mechanism for using several weak cues to guide an action. It did not require a distinct central place where every sensation becomes conscious.
+
+Response enhancement must be defined against an explicit benchmark. Let $R_A$ and $R_V$ be mean stimulus-evoked spike counts after subtracting the matched spontaneous count, and $R_{AV}$ the similarly corrected paired response. Enhancement above the strongest input means $R_{AV}>\max(R_A,R_V)$. [Superadditive multisensory response](../../../superadditive-multisensory-response.md) means the stronger condition $R_{AV}>R_A+R_V$. A response can satisfy the former without the latter. Subtracting baseline consistently matters because summing two raw counts also sums spontaneous activity twice. Trial variability and the analysis window determine whether an apparent inequality is statistically credible.
+
+The spatial and temporal rules added testable organization. Mapping stimulus positions relative to each modality's [receptive field](../../../receptive-field.md) showed that spatial alignment could favor enhancement, while other arrangements could yield suppression.[Brain Res 365, 350–354; spatial arrangement relative to receptive fields](../../../spatial-factors-determine-the-activity-of-multisensory-neurons-in-cat-superior-colliculus-by-m-alex-meredith-and-barry-e-stein.md) Subsequent timing experiments found maximal enhancement when modality-specific peak discharge periods overlapped, with weaker or even depressive interactions at other offsets.[J Neurosci 7, 3215–3229; response-train overlap and temporal-disparity manipulations](../../../determinants-of-multisensory-integration-in-superior-colliculus-neurons-i-temporal-factors-by-m-alex-meredith-and-others.md) The relevant coincidence is neural, so equal physical onset times need not maximize a cell's interaction.
+
+[Inverse effectiveness](../../../inverse-effectiveness.md) further challenged an account based only on strong signals: the percentage enhancement was often largest when the isolated stimuli evoked weak responses. But the percentage measure itself needs care. If $R_A=R_V=2$ and $R_{AV}=8$, enhancement above the strongest response is 300%; if the corresponding values are 20, 20 and 26, it is 30%, although the absolute increment is six in both examples. These invented numbers illustrate a denominator effect, not a measured [neuron](../../../neuron-split.md). Percentage enhancement, absolute gain, information and behavioral benefit are distinct. Weak inputs can give biologically important interactions, but a large ratio alone is not enough to establish special multiplication or perceptual optimality.
+
+Cellular and behavioral definitions of integration also differ. Faster responses to audiovisual than to either unisensory stimuli might arise from a [redundant-signals race model](../../../redundant-signals-race-model.md): two channels race to trigger a response. If context-invariant channel completion times are $T_A,T_V$, then
+
+$$
+F_{AV}(t)=P(T_A\leq t\ \text{or}\ T_V\leq t)\leq\min\{1,F_A(t)+F_V(t)\}.
+$$
+
+This [race model inequality](../../../race-model-inequality.md) follows from the [union bound](../../../boole-s-inequality.md) and does not require independent channels. Violation rejects that race account under its assumptions, but does not identify which collicular or cortical cells produced the effect. Conversely, a nonlinear cell response need not produce a detectable behavioral advantage if other stages limit performance.
+
+Translation to humans requires care about species, sampled structure, task and state. The [superior colliculus](../../../superior-colliculus.md) is well suited to studying orienting, but flavor identity, speech comprehension and deliberate causal judgments need additional circuits. Animal preparation and restraint can change the operating state; a sampled cell population may not represent every multisensory computation. Spiking also reflects recurrent and descending influences, not just a feed-forward meeting of modalities. Human [functional magnetic resonance imaging](../../../functional-magnetic-resonance-imaging.md) has broader coverage but coactivation cannot establish convergence in one [neuron](../../../neuron-split.md). Timing measures, eye movements, psychophysical cue conflicts and causal perturbations provide complementary constraints.
+
+A useful bridge is to ask whether cellular mechanisms predict a specific human outcome: which weak cue improves localization, which offset permits binding, or when a distractor suppresses orienting. [Multisensory cue integration](../../../multisensory-cue-integration.md) models predict changes in estimates and uncertainty, which are not the same quantity as firing-rate enhancement. Development and [learning](../../../learning.md) must also be tested rather than inferred from mature animal responses. **Single-cell work supplied fundamental interaction rules and plausible circuit operations; explaining human multisensory experience requires linking those operations to population codes, task-specific decisions and causal behavioral evidence.**
+
+## ↑ Ancestors (11)
+
+1. [2](../2.md)
+2. [2022](../../2022-split.md)
+3. [Past exam of the multisensory perception: attention, integration, and development course of the University of Oxford](../../split.md)
+4. [Multisensory perception: attention, integration, and development course of the University of Oxford](../../../multisensory-perception-attention-integration-and-development-course-of-the-university-of-oxford.md)
+5. [Year 3 of the psychology (experimental) course of the University of Oxford](../../../year-3-of-the-psychology-experimental-course-of-the-university-of-oxford.md)
+6. [Psychology (experimental) course of the University of Oxford](../../../psychology-experimental-course-of-the-university-of-oxford.md)
+7. [Undergraduate course of the University of Oxford](../../../undergraduate-course-of-the-university-of-oxford.md)
+8. [Course of the University of Oxford](../../../course-of-the-university-of-oxford.md)
+9. [University of Oxford](../../../university-of-oxford-split.md)
+10. [List of universities](../../../list-of-universities.md)
+11. [Codex Wiki](../../../split.md)

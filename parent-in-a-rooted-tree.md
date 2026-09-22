@@ -1,0 +1,40 @@
+# Parent in a rooted tree
+
+↑ **Parent:** [Rooted tree](rooted-tree.md)
+
+For a nonroot [vertex](vertex-graph-theory.md), its adjacent predecessor on the unique [graph path](path-in-a-graph.md) from the [root of a tree](root-of-a-tree.md). The [root of a tree](root-of-a-tree.md) has no parent.
+
+## ↑ Ancestors (6)
+
+1. [Rooted tree](rooted-tree.md)
+2. [Tree (graph theory)](tree-graph-theory-split.md)
+3. [Combinatorics](combinatorics-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (23)
+
+- [Binary heap](binary-heap.md)
+- [Binary search tree](binary-search-tree.md)
+- [Bipartite graph](bipartite-graph-split.md)
+- [Breadth-first search](breadth-first-search.md)
+- [Child in a rooted tree](child-in-a-rooted-tree.md)
+- [Chromatic polynomial of a unicyclic graph](chromatic-polynomial-of-a-unicyclic-graph.md)
+- [Depth-first search](depth-first-search.md)
+- [DFS lowpoint](dfs-lowpoint.md)
+- [Disjoint-set forest](disjoint-set-forest.md)
+- [Heap order](heap-order.md)
+- [Huffman coding](huffman-coding.md)
+- [Huffman sibling contraction](huffman-sibling-contraction.md)
+- [Solution](past-exam-of-the-computer-science-course-of-the-university-of-oxford/2015/concurrent-programming/2/a/i/solution.md)
+- [Solution](past-exam-of-the-computer-science-course-of-the-university-of-oxford/2015/concurrent-programming/2/a/ii/solution.md)
+- [Solution](past-exam-of-the-graph-theory-course-of-the-university-of-oxford/2023/2/d/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2019/functional-programming-design-and-analysis-of-algorithms/6/a/i/solution.md)
+- [Solution](past-exam-of-the-year-1-of-the-computer-science-course-of-the-university-of-oxford/2019/functional-programming-design-and-analysis-of-algorithms/6/c/solution.md)
+- [Path compression](path-compression.md)
+- [Root of a tree](root-of-a-tree.md)
+- [Rooted tree](rooted-tree.md)
+- [Sibling in a rooted tree](sibling-in-a-rooted-tree.md)
+- [Sibling leaves in a code tree](sibling-leaves-in-a-code-tree.md)
+- [Sift up](sift-up.md)

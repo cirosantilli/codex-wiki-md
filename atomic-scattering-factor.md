@@ -1,0 +1,45 @@
+# Atomic scattering factor
+
+↑ **Parent:** [Crystal basis structure factor](crystal-basis-structure-factor.md)
+
+The scattering amplitude assigned to one atom or ion as a function of momentum transfer, normalized relative to a stated scattering convention. X-ray and electron factors are different; multiplying by basis phase factors produces the total unit-cell amplitude.
+
+## ↑ Ancestors (9)
+
+1. [Crystal basis structure factor](crystal-basis-structure-factor.md)
+2. [Crystal lattice structure factor](crystal-lattice-structure-factor.md)
+3. [Crystal scattering](crystal-scattering.md)
+4. [Scattering amplitude](scattering-amplitude.md)
+5. [Quantum scattering](quantum-scattering-split.md)
+6. [Quantum mechanics](quantum-mechanics-split.md)
+7. [Branches of physics](branches-of-physics.md)
+8. [Physics](physics-split.md)
+9. [Codex Wiki](split.md)
+
+## ← Incoming links (25)
+
+- [Accidental diffraction extinction from equal atomic scattering factors](accidental-diffraction-extinction-from-equal-atomic-scattering-factors.md)
+- [Occupational diffuse scattering](occupational-diffuse-scattering.md)
+- [Solution](past-exam-of-the-condensed-matter-physics-course-of-the-university-of-oxford/2012/1/a/solution.md)
+- [Solution](past-exam-of-the-condensed-matter-physics-course-of-the-university-of-oxford/2012/1/b/solution.md)
+- [Solution](past-exam-of-the-condensed-matter-physics-course-of-the-university-of-oxford/2013/1/a/solution.md)
+- [Solution](past-exam-of-the-condensed-matter-physics-course-of-the-university-of-oxford/2016/1/a/solution.md)
+- [Solution](past-exam-of-the-condensed-matter-physics-course-of-the-university-of-oxford/2016/1/b/solution.md)
+- [Solution](past-exam-of-the-condensed-matter-physics-course-of-the-university-of-oxford/2017/1/d/solution.md)
+- [Solution](past-exam-of-the-condensed-matter-physics-course-of-the-university-of-oxford/2018/1/d/solution.md)
+- [Solution](past-exam-of-the-condensed-matter-physics-course-of-the-university-of-oxford/2018/1/e/solution.md)
+- [Solution](past-exam-of-the-condensed-matter-physics-course-of-the-university-of-oxford/2019/1/d/solution.md)
+- [Solution](past-exam-of-the-condensed-matter-physics-course-of-the-university-of-oxford/2022/1/a/ii/solution.md)
+- [Solution](past-exam-of-the-condensed-matter-physics-course-of-the-university-of-oxford/2022/1/b/ii/solution.md)
+- [Solution](past-exam-of-the-condensed-matter-physics-course-of-the-university-of-oxford/2022/1/c/i/solution.md)
+- [Solution](past-exam-of-the-condensed-matter-physics-course-of-the-university-of-oxford/2022/1/d/i/solution.md)
+- [Solution](past-exam-of-the-condensed-matter-physics-course-of-the-university-of-oxford/2022/1/d/ii/solution.md)
+- [Solution](past-exam-of-the-condensed-matter-physics-major-option-course-of-the-university-of-oxford/2016/1/a/solution.md)
+- [Solution](past-exam-of-the-condensed-matter-physics-major-option-course-of-the-university-of-oxford/2016/1/b/solution.md)
+- [Solution](past-exam-of-the-general-relativity-and-cosmology-and-condensed-matter-physics-paper-of-part-b-of-the-physics-course-of-the-university-of-oxford/2011/section-vi/5/unlettered-3/solution.md)
+- [Solution](past-exam-of-the-general-relativity-and-cosmology-and-condensed-matter-physics-paper-of-part-b-of-the-physics-course-of-the-university-of-oxford/2011/section-vi/5/unlettered-4/solution.md)
+- [Solution](past-exam-of-the-general-relativity-and-cosmology-and-condensed-matter-physics-paper-of-part-b-of-the-physics-course-of-the-university-of-oxford/2011/section-vi/5/unlettered-5/solution.md)
+- [Solution](past-exam-of-the-materials-science-course-of-the-university-of-cambridge/2017/paper-1/3/b/v/solution.md)
+- [Solution](past-exam-of-the-materials-science-course-of-the-university-of-cambridge/2019/paper-1/3/c/i/solution.md)
+- [Solution](past-exam-of-the-materials-science-course-of-the-university-of-cambridge/2019/paper-1/3/c/ii/solution.md)
+- [Zinc blende structure factor](zinc-blende-structure-factor.md)
