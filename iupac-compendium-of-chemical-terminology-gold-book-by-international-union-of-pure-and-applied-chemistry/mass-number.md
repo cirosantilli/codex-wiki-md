@@ -1,0 +1,18 @@
+<h1 id="iupac-compendium-of-chemical-terminology-gold-book-by-international-union-of-pure-and-applied-chemistry/mass-number">mass number</h1>
+
+↑ **Parent:** [IUPAC Compendium of Chemical Terminology (Gold Book) by International Union of Pure and Applied Chemistry](../iupac-compendium-of-chemical-terminology-gold-book-by-international-union-of-pure-and-applied-chemistry.md)
+
+Online text: [https://goldbook.iupac.org/terms/view/M03726](https://goldbook.iupac.org/terms/view/M03726)
+
+Cited passages: IUPAC Gold Book, mass number: total number of nuclear protons and neutrons.
+
+## ↑ Ancestors (4)
+
+1. [IUPAC Compendium of Chemical Terminology (Gold Book) by International Union of Pure and Applied Chemistry](../iupac-compendium-of-chemical-terminology-gold-book-by-international-union-of-pure-and-applied-chemistry.md)
+2. [Chemistry bibliography](../chemistry-bibliography-split.md)
+3. [Chemistry](../chemistry-split.md)
+4. [Codex Wiki](../split.md)
+
+## ← Incoming links (1)
+
+- [Mass number](../mass-number.md)

@@ -1,0 +1,26 @@
+# Gibbs free-energy Maxwell relation
+
+↑ **Parent:** [Gibbs free energy](gibbs-free-energy.md)
+
+Equality of mixed derivatives of $dG=-S\,dT+V\,dP$ gives
+
+$$
+\left(\frac{\partial S}{\partial P}\right)_T
+=-\left(\frac{\partial V}{\partial T}\right)_P.
+$$
+
+## ↑ Ancestors (8)
+
+1. [Gibbs free energy](gibbs-free-energy.md)
+2. [Thermodynamic free energy](thermodynamic-free-energy.md)
+3. [Thermodynamic potential](thermodynamic-potential.md)
+4. [Thermodynamics](thermodynamics-split.md)
+5. [Statistical physics](statistical-physics-split.md)
+6. [Branches of physics](branches-of-physics.md)
+7. [Physics](physics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (2)
+
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ii/paper-3/33c/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-2/36a/solution.md)

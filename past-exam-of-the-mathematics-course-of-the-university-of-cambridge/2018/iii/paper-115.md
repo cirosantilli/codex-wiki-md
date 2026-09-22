@@ -1,0 +1,297 @@
+# Paper 115
+
+↑ **Parent:** [Iii](../iii.md)
+
+[https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2018/paper_115.pdf](https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2018/paper_115.pdf)
+
+**Table of contents**
+
+- [1](#1)
+  - [1](#1/1)
+    - [Solution](#1/1/solution)
+    - [2](#1/1/2)
+      - [Solution](#1/1/2/solution)
+    - [3](#1/1/3)
+      - [Solution](#1/1/3/solution)
+    - [4](#1/1/4)
+      - [Solution](#1/1/4/solution)
+- [2](#2)
+  - [i](#2/i)
+    - [Solution](#2/i/solution)
+  - [ii](#2/ii)
+    - [Solution](#2/ii/solution)
+  - [iii](#2/iii)
+    - [Solution](#2/iii/solution)
+- [3](#3)
+  - [Solution](#3/solution)
+- [4](#4)
+  - [Solution](#4/solution)
+
+## 1
+
+↑ **Parent:** [Paper 115](paper-115.md)
+
+<h3 id="1/1">1</h3>
+
+↑ **Parent:** [1](#1)
+
+<h4 id="1/1/solution">Solution</h4>
+
+↑ **Parent:** [1](#1/1)
+
+The [tangent bundle](../../../fiber-bundle.md#tangent-bundle) is $TM=\bigsqcup_{p\in M}T_pM$, with its smooth vector-bundle structure from coordinate charts. A [vector field](../../../calculus.md#vector-field) is a smooth section of this bundle. The [Lie bracket of vector fields](../../../differential-geometry.md#lie-bracket-of-vector-fields) is their commutator as derivations:
+
+$$
+[X,Y](h)=X(Yh)-Y(Xh).
+$$
+
+In coordinates, $[X,Y]^k=X^j\partial_jY^k-Y^j\partial_jX^k$.
+
+The four numbered conditions here are hypotheses of one argument, so the following sections assemble its proof. Let $j:\partial M\hookrightarrow M$. Because all $X_i$ are tangent to the boundary, evaluating $\eta=\iota_{X_1}\cdots\iota_{X_n}\omega$ on a tangent vector $Y$ there evaluates the [volume form](../../../differential-form.md#volume-form) on $n+1$ vectors in the $n$-dimensional boundary tangent space. Alternation gives $\boxed{j^*\eta=0}$. This uses the [interior product of a differential form](../../../differential-form.md#interior-product) and will make the boundary restriction of the [de Rham cohomology](../../../differential-form.md#de-rham-cohomology) class vanish.
+
+<h4 id="1/1/2">2</h4>
+
+↑ **Parent:** [1](#1/1)
+
+<h5 id="1/1/2/solution">Solution</h5>
+
+↑ **Parent:** [2](#1/1/2)
+
+At any point, the linearly independent vectors $X_1,\ldots,X_n$ can be completed by $Y$ to a basis of $T_pM$. A nowhere-zero [volume form](../../../differential-form.md#volume-form) is nonzero on every basis, so
+
+$$
+\eta_p(Y)=\omega_p(X_n,\ldots,X_1,Y)\ne0.
+$$
+
+Thus $\boxed{\eta\text{ is nowhere zero}}$. In particular, if it is an [exact differential form](../../../differential-form.md#exact-differential-form) $df$, its potential has no [critical points](../../../analysis.md#critical-point). This is the role of pointwise independence in the [boundary obstruction for commuting volume-preserving vector fields](../../../differential-form.md#boundary-obstruction-for-commuting-volume-preserving-vector-fields).
+
+<h4 id="1/1/3">3</h4>
+
+↑ **Parent:** [1](#1/1)
+
+<h5 id="1/1/3/solution">Solution</h5>
+
+↑ **Parent:** [3](#1/1/3)
+
+Let $\Phi_t,\Psi_s$ be the [local flows](../../../differential-geometry.md#local-flow) of $X,Y$. The derivative of the pullback of $Y$ by $\Phi_t$ is $\Phi_t^*[X,Y]$. Therefore $[X,Y]=0$ makes $Y$ invariant under the $X$ flow. For fixed $t$, the two curves $\Phi_t(\Psi_s(p))$ and $\Psi_s(\Phi_t(p))$ then solve the same initial-value problem for $Y$. Uniqueness gives commuting flows wherever both compositions are defined. Conversely, commutation implies invariance of $Y$ under $\Phi_t$, and differentiation at $t=0$ gives $\boxed{[X,Y]=0}$. This proves [vanishing Lie bracket is equivalent to commuting local flows](../../../differential-geometry.md#vanishing-lie-bracket-is-equivalent-to-commuting-local-flows).
+
+For the contraction $\eta$, commute each [Lie derivative](../../../differential-form.md#lie-derivative-of-a-differential-form) past the other interior products using $[\mathcal L_{X_i},\iota_{X_j}]=\iota_{[X_i,X_j]}=0$. Each $\mathcal L_{X_i}\omega$ is zero by volume preservation. [Cartan's magic formula](../../../differential-form.md#cartan-s-magic-formula) $d\iota_X=\mathcal L_X-\iota_Xd$, applied successively, now gives
+
+$$
+d\eta=\sum_{i=1}^n(-1)^{i-1}\iota_{X_1}\cdots\widehat{\iota_{X_i}}\cdots\iota_{X_n}\mathcal L_{X_i}\omega
++(-1)^n\iota_{X_1}\cdots\iota_{X_n}d\omega=0.
+$$
+
+The last term vanishes since $\omega$ has top degree. Hence $\boxed{\eta\text{ is closed}}$.
+
+<h4 id="1/1/4">4</h4>
+
+↑ **Parent:** [1](#1/1)
+
+<h5 id="1/1/4/solution">Solution</h5>
+
+↑ **Parent:** [4](#1/1/4)
+
+By the preceding sections, $\eta$ is a nowhere-zero [closed differential form](../../../differential-form.md#closed-differential-form) and $j^*\eta=0$. Injectivity of $j^*:H^1_{\rm dR}(M)\to H^1_{\rm dR}(\partial M)$ gives $[\eta]=0$. The definition of [de Rham cohomology](../../../differential-form.md#de-rham-cohomology) then gives
+
+$$
+\boxed{\eta=df}
+$$
+
+for a smooth $f$, with no [critical points](../../../analysis.md#critical-point). If the boundary were connected, $j^*df=0$ would make $f$ constant there. A nonconstant function on a compact manifold attains both extrema; a value differing from the common boundary value gives an interior extremum, contradicting $df\ne0$. If $f$ were constant everywhere there would be the same contradiction. Empty boundary is also impossible, because an extremum would necessarily be interior. Thus $\boxed{\partial M\text{ has at least two connected components}}$, the [boundary obstruction for commuting volume-preserving vector fields](../../../differential-form.md#boundary-obstruction-for-commuting-volume-preserving-vector-fields).
+
+The [solid torus](../../../topology.md#solid-torus) $S^1\times D^2$ retracts onto its first circle. Its degree-one [de Rham cohomology](../../../differential-form.md#de-rham-cohomology) is generated by that circle's angular one-form, which restricts to a nonzero class on $S^1\times S^1$; hence the restriction map is injective. Its boundary is connected. Extensions of the two specified coordinate [vector fields](../../../calculus.md#vector-field) would be tangent there and would satisfy all the forbidden conditions. Therefore **no such pair of extensions exists, for any volume form**.
+
+<h2 id="2">2</h2>
+
+↑ **Parent:** [Paper 115](paper-115.md)
+
+<h3 id="2/i">i</h3>
+
+↑ **Parent:** [2](#2)
+
+<h4 id="2/i/solution">Solution</h4>
+
+↑ **Parent:** [I](#2/i)
+
+A smooth rank-$r$ [smooth distribution](../../../differential-geometry.md#distribution-differential-geometry) $D\subset TM$ is [involutive distribution](../../../differential-geometry.md#involutive-distribution) if the [Lie bracket of vector fields](../../../differential-geometry.md#lie-bracket-of-vector-fields) of two local sections remains a section. It is an [integrable distribution](../../../differential-geometry.md#integrable-distribution) if every point lies on an immersed $r$-dimensional [integral manifold](../../../differential-geometry.md#integral-manifold) with tangent spaces equal to $D$. The [Frobenius theorem](../../../differential-geometry.md#frobenius-theorem) says these conditions are equivalent, and gives local coordinates with $D=\operatorname{span}(\partial_1,\ldots,\partial_r)$.
+
+For necessity, fields tangent to an [integral manifold](../../../differential-geometry.md#integral-manifold) have brackets tangent to it: they annihilate functions vanishing on the manifold, and so does their commutator. For sufficiency, induct on $r$. The rank-zero case is immediate. Straighten a nonvanishing local section using the [flow-box theorem](../../../differential-geometry.md#straightening-theorem) to obtain $\partial_1\in D$. Choose a frame $\partial_1,Y_2,\ldots,Y_r$ with the $Y_i$ having no $\partial_1$ component. Involutivity gives $\partial_1Y=A Y$ for the column of these fields and a smooth matrix $A$. Solve the matrix ordinary differential equation $\partial_1B=-BA$, with $B=I$ on $x_1=0$. It stays invertible, and $Z=BY$ satisfies $\partial_1Z=0$. On the transverse slice, the $Z_i$ span an involutive rank-$(r-1)$ distribution. The induction hypothesis supplies adapted slice coordinates; extend them independently of $x_1$. These give the required rank-$r$ coordinate distribution and its integral manifolds.
+
+For the [real Heisenberg group](../../../lie-algebra.md#heisenberg-group), multiplication is
+
+$$
+(x,y,z)(a,b,c)=(x+a,y+b,z+c+xb).
+$$
+
+Differentiating left translation at the identity gives its [left-invariant frame of the real Heisenberg group](../../../lie-algebra.md#left-invariant-frame-of-the-real-heisenberg-group):
+
+$$
+\boxed{E_1=\partial_x,\qquad E_2=\partial_y+x\partial_z,\qquad E_3=\partial_z.}
+$$
+
+Then $[E_1,E_2]=E_3$ and the other basis brackets vanish. Since $E_3\notin\operatorname{span}(E_1,E_2)$, the [Heisenberg horizontal distribution](../../../lie-algebra.md#heisenberg-horizontal-distribution) is not involutive, hence not integrable by the [Frobenius theorem](../../../differential-geometry.md#frobenius-theorem).
+
+<h3 id="2/ii">ii</h3>
+
+↑ **Parent:** [2](#2)
+
+<h4 id="2/ii/solution">Solution</h4>
+
+↑ **Parent:** [Ii](#2/ii)
+
+Using the [left-invariant frame of the real Heisenberg group](../../../lie-algebra.md#left-invariant-frame-of-the-real-heisenberg-group), horizontality gives
+
+$$
+\dot x=\alpha,\qquad \dot y=\beta,\qquad \dot z=x\beta.
+$$
+
+For an arbitrary starting point $(x_0,y_0,z_0)$,
+
+$$
+\boxed{x(t)=x_0+\int_0^t\alpha(s)\,ds,\qquad
+y(t)=y_0+\int_0^t\beta(s)\,ds,\qquad
+z(t)=z_0+\int_0^t\left(x_0+\int_0^s\alpha(r)\,dr\right)\beta(s)\,ds.}
+$$
+
+This is the control equation for the [Heisenberg horizontal distribution](../../../lie-algebra.md#heisenberg-horizontal-distribution). The final coordinate records a signed area-like integral, so changing the path in the $(x,y)$ plane can change the endpoint in the central direction.
+
+<h3 id="2/iii">iii</h3>
+
+↑ **Parent:** [2](#2)
+
+<h4 id="2/iii/solution">Solution</h4>
+
+↑ **Parent:** [Iii](#2/iii)
+
+The printed hint is impossible: if $\int_0^1f=0$, then
+
+$$
+\int_0^1f(s)\left(\int_0^sf(t)\,dt\right)ds
+=\frac12\left(\int_0^1f\right)^2=0.
+$$
+
+Changing the order of integration gives the same zero, so the additional condition involving $\int tf$ cannot repair it. Using the same function in both proposed controls cannot generate an arbitrary third coordinate.
+
+Instead, put $\Delta=P_z-P_xP_y/2$, $a=2(\Delta+P_x)$, and choose two different oscillatory controls:
+
+$$
+\boxed{\alpha(t)=P_x+a\cos(2\pi t),\qquad
+\beta(t)=P_y+2\pi\sin(2\pi t).}
+$$
+
+Their integrals give $x(t)=P_xt+a\sin(2\pi t)/(2\pi)$ and $y(t)=P_yt+1-\cos(2\pi t)$, hence $x(1)=P_x$ and $y(1)=P_y$. The third endpoint is
+
+$$
+z(1)=\int_0^1x(t)\beta(t)\,dt
+=\frac{P_xP_y}{2}-P_x+\frac a2=P_z.
+$$
+
+The resulting curve is smooth and horizontal at every time, proving [smooth horizontal reachability in the real Heisenberg group](../../../lie-algebra.md#smooth-horizontal-reachability-in-the-real-heisenberg-group).
+
+If the [Heisenberg horizontal distribution](../../../lie-algebra.md#heisenberg-horizontal-distribution) were an [integrable distribution](../../../differential-geometry.md#integrable-distribution), every horizontal curve from the identity would remain in its maximal connected integral leaf. Reachability would force that two-dimensional leaf to be the whole three-dimensional group, contradicting the local leaf coordinates of the [Frobenius theorem](../../../differential-geometry.md#frobenius-theorem). The bracket computation in part (i) gives the same obstruction directly.
+
+<h2 id="3">3</h2>
+
+↑ **Parent:** [Paper 115](paper-115.md)
+
+<h3 id="3/solution">Solution</h3>
+
+↑ **Parent:** [3](#3)
+
+In coordinates, expanding $d\alpha$ and the [Lie bracket of vector fields](../../../differential-geometry.md#lie-bracket-of-vector-fields) shows
+
+$$
+d\alpha(X,Y)=X(\alpha(Y))-Y(\alpha(X))-\alpha([X,Y]).
+$$
+
+The terms differentiating components of $X,Y$ cancel against the bracket, leaving $(\partial_i\alpha_j-\partial_j\alpha_i)X^iY^j$. This is the [exterior derivative of a one-form evaluated on vector fields](../../../differential-form.md#exterior-derivative-of-a-one-form-evaluated-on-vector-fields).
+
+A [connection on a vector bundle](../../../fiber-bundle.md#connection-vector-bundle) is a linear map $\nabla:\Gamma(E)\to\Omega^1(E)$ satisfying $\nabla(fs)=df\otimes s+f\nabla s$; evaluation on $X$ defines $\nabla_Xs$. Its [curvature form of a connection](../../../fiber-bundle.md#curvature-form) is $d_A^2$, locally $F_A=dA+A\wedge A$. Direct expansion, using the displayed exterior-derivative identity, gives
+
+$$
+\boxed{F_A(X,Y)s=\nabla_X\nabla_Ys-\nabla_Y\nabla_Xs-\nabla_{[X,Y]}s.}
+$$
+
+The derivative terms on a scalar multiplying $s$ cancel, and the expression is also linear over smooth functions in $X,Y$. Thus it is an alternating tensor with values in $\operatorname{End}(E)$, namely an element of $\Omega^2(\operatorname{End}(E))$.
+
+The [dual connection](../../../fiber-bundle.md#dual-connection) and [tensor product connection](../../../fiber-bundle.md#tensor-product-connection) induce the [endomorphism bundle connection](../../../fiber-bundle.md#endomorphism-bundle-connection) on $E^*\otimes E$:
+
+$$
+(\widetilde\nabla_X\phi)(s)=\nabla_X(\phi s)-\phi(\nabla_Xs).
+$$
+
+Expanding twice cancels the cross terms and gives
+
+$$
+([\widetilde\nabla_X,\widetilde\nabla_Y]\phi)(s)
+=[\nabla_X,\nabla_Y](\phi s)-\phi([\nabla_X,\nabla_Y]s).
+$$
+
+Here $\phi,s$ are local smooth sections; derivatives are not defined for isolated fiber elements without extensions. Subtract the corresponding $\widetilde\nabla_{[X,Y]}$ identity to get the [curvature of an endomorphism bundle connection](../../../fiber-bundle.md#curvature-of-an-endomorphism-bundle-connection):
+
+$$
+\boxed{F_{\operatorname{End}(A)}(X,Y)\phi=[F_A(X,Y),\phi].}
+$$
+
+This vanishes for all $\phi$ exactly when each $F_A(X,Y)$ is central in the full matrix algebra, hence scalar. For rank $r>0$, $\omega=r^{-1}\operatorname{tr}F_A$ is a smooth two-form and
+
+$$
+\boxed{F_{\operatorname{End}(A)}=0\quad\Longleftrightarrow\quad F_A=\omega\,\operatorname{id}_E.}
+$$
+
+Conversely scalar curvature commutes with every endomorphism. This is the [scalar-curvature criterion for a flat endomorphism connection](../../../fiber-bundle.md#scalar-curvature-criterion-for-a-flat-endomorphism-connection); it permits a nonflat connection on $E$ itself.
+
+<h2 id="4">4</h2>
+
+↑ **Parent:** [Paper 115](paper-115.md)
+
+<h3 id="4/solution">Solution</h3>
+
+↑ **Parent:** [4](#4)
+
+Use the [energy of a curve](../../../riemannian-geometry.md#energy-of-a-curve) normalization
+
+$$
+E(\gamma)=\frac12\int_a^b|\dot\gamma|_g^2\,dt.
+$$
+
+For a variation $F(s,t)$ put $T=\partial_tF$ and $V=\partial_sF$. The [Levi-Civita connection](../../../general-relativity.md#levi-civita-connection) is torsion free, so $\nabla_sT=\nabla_tV$. Differentiating energy once gives $E'=[\langle V,T\rangle]_a^b-\int\langle V,\nabla_tT\rangle$. Along a geodesic, $\nabla_tT=0$. Differentiating again, commuting covariant derivatives, and integrating by parts gives the [second variation of geodesic energy](../../../riemannian-geometry.md#second-variation-of-geodesic-energy):
+
+$$
+\boxed{E''(0)=
+[\langle\nabla_sV,T\rangle]_a^b+
+\int_a^b\bigl(|\nabla_tV|^2-\langle R(V,T)T,V\rangle\bigr)\,dt.}
+$$
+
+The curvature convention is $R(X,Y)Z=\nabla_X\nabla_YZ-\nabla_Y\nabla_XZ-\nabla_{[X,Y]}Z$, consistent with the specified positive [sectional curvature](../../../second-fundamental-form.md#sectional-curvature). Indeed $\nabla_s\nabla_tV=\nabla_t\nabla_sV+R(V,T)V$, and $\langle R(V,T)V,T\rangle=-\langle R(V,T)T,V\rangle$. The endpoint term vanishes for fixed endpoints or for periodic variations of a closed geodesic. The integral is the [Riemannian index form](../../../riemannian-geometry.md#riemannian-index-form) $I(V,V)$.
+
+Let $\dim M=2m$. [Parallel transport](../../../fiber-bundle.md#parallel-transport) around the closed geodesic preserves the metric and orientation, so lies in the [special orthogonal group](../../../linear-algebra.md#special-orthogonal-group). It fixes the nonzero tangent $T$, and its restriction to $T^\perp$ is an orientation-preserving orthogonal map of odd dimension $2m-1$. An [odd-dimensional special orthogonal transformation has a fixed vector](../../../linear-algebra.md#odd-dimensional-special-orthogonal-transformation-has-a-fixed-vector): nonreal eigenvalues occur in conjugate pairs, while an odd-dimensional real orthogonal map with determinant one must have an eigenvalue $+1$. Choose a nonzero fixed vector $v$ normal to $T$ and parallel-transport it along the curve. It gives a nonzero smooth periodic normal field $V$ with $\nabla_tV=0$.
+
+For the exponential variation $\gamma_s(t)=\exp_{\gamma(t)}(sV(t))$, the endpoints match periodically. Strictly positive [sectional curvature](../../../second-fundamental-form.md#sectional-curvature) gives
+
+$$
+E''(0)=-\int\langle R(V,T)T,V\rangle\,dt<0,\qquad E'(0)=0.
+$$
+
+Thus $E(\gamma_s)<E(\gamma)$ for small nonzero $s$. By the [Cauchy-Schwarz inequality](../../../probability-and-statistics.md#cauchy-schwarz-inequality),
+
+$$
+L(\gamma_s)^2\leq2(b-a)E(\gamma_s)
+<2(b-a)E(\gamma)=L(\gamma)^2,
+$$
+
+where the final equality uses the geodesic's constant speed. This proves the [instability of a closed geodesic in positive even-dimensional curvature](../../../riemannian-geometry.md#instability-of-a-closed-geodesic-in-positive-even-dimensional-curvature).
+
+For an embedded closed geodesic, sufficiently small variations remain embeddings, hence give a [smooth isotopy](../../../differential-geometry.md#smooth-isotopy) with strictly shorter curves. For a nonembedded closed geodesic the construction gives a smooth deformation through immersions; an isotopy class of embeddings is not literally defined for such a curve. The stated isotopy conclusion therefore uses the usual embedded-curve interpretation, while the shorter-loop variation holds without it.
+
+## ↑ Ancestors (8)
+
+1. [Iii](../iii.md)
+2. [2018](../../2018.md)
+3. [Past exam of the mathematics course of the University of Cambridge](../../../past-exam-of-the-mathematics-course-of-the-university-of-cambridge.md)
+4. [Mathematics course of the University of Cambridge](../../../university-of-cambridge.md#mathematics-course-of-the-university-of-cambridge)
+5. [Course of the University of Cambridge](../../../university-of-cambridge.md#course-of-the-university-of-cambridge)
+6. [University of Cambridge](../../../university-of-cambridge.md)
+7. [List of universities](../../../README.md#list-of-universities)
+8. [Codex Wiki](../../../README.md)

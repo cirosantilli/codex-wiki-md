@@ -1,0 +1,17 @@
+# Gerhard H. Herzberg
+
+↑ **Parent:** [Chemistry author](chemistry-author-split.md)
+
+**Table of contents**
+
+- [Work by Gerhard H. Herzberg](work-by-gerhard-h-herzberg.md)
+
+## ↑ Ancestors (3)
+
+1. [Chemistry author](chemistry-author-split.md)
+2. [Chemistry](chemistry-split.md)
+3. [Codex Wiki](split.md)
+
+## ← Incoming links (1)
+
+- [Hydrogen chloride: Constants of diatomic molecules by Klaus P. Huber and others](hydrogen-chloride-constants-of-diatomic-molecules-by-klaus-p-huber-and-others.md)

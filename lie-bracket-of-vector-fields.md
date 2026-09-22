@@ -1,0 +1,90 @@
+# Lie bracket of vector fields
+
+↑ **Parent:** [Differential geometry](differential-geometry-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Lie_bracket_of_vector_fields)
+
+The Lie bracket is the vector field defined as a commutator of derivations,
+
+$$
+[X,Y]f=X(Yf)-Y(Xf).
+$$
+
+In coordinates, if $X=X^i\partial_i$ and $Y=Y^i\partial_i$, then $[X,Y]^k=X^i\partial_iY^k-Y^i\partial_iX^k$.
+
+**Table of contents**
+
+- [Vanishing Lie bracket is equivalent to commuting local flows](vanishing-lie-bracket-is-equivalent-to-commuting-local-flows.md)
+- [Coordinate invariance of the Lie bracket](coordinate-invariance-of-the-lie-bracket.md)
+- [Commuting coordinate basis](commuting-coordinate-basis.md)
+  - [Noncommuting orthonormal polar frame](noncommuting-orthonormal-polar-frame.md)
+
+## ↑ Ancestors (5)
+
+1. [Differential geometry](differential-geometry-split.md)
+2. [Geometry and topology](geometry-and-topology-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (60)
+
+- [Cartan's magic formula](cartan-s-magic-formula.md)
+- [Commutator identity for an endomorphism connection](commutator-identity-for-an-endomorphism-connection.md)
+- [Commutator identity for Lie derivatives](commutator-identity-for-lie-derivatives.md)
+- [Commuting coordinate basis](commuting-coordinate-basis.md)
+- [Complete vector fields need not be closed under addition or Lie brackets](complete-vector-fields-need-not-be-closed-under-addition-or-lie-brackets.md)
+- [Differentiating left-invariant matrix fields](differentiating-left-invariant-matrix-fields.md)
+- [Distribution (differential geometry)](distribution-differential-geometry.md)
+- [Exterior derivative of a one-form evaluated on vector fields](exterior-derivative-of-a-one-form-evaluated-on-vector-fields.md)
+- [Fundamental theorem of Riemannian geometry](fundamental-theorem-of-riemannian-geometry.md)
+- [Infinitesimal left-action sign convention](infinitesimal-left-action-sign-convention.md)
+- [Involutive distribution](involutive-distribution.md)
+- [Koszul formula](koszul-formula.md)
+- [Lie derivative of a vector field](lie-derivative-of-a-vector-field.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-68/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-1/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-14/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-15/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-15/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-60/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-19/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-19/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-19/5/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-17/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-17/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-14/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-15/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-15/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-17/1/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-17/2/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-17/2/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-17/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-20/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-20/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-56/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-56/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-49/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-49/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-50/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-15/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-17/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-115/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-115/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-309/3/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-309/3/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-313/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-313/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-115/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-115/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-115/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-115/1/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-115/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-115/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-1/38d/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-115/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-313/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-115/2/e/solution.md)
+- [Right-invariant vector fields realize the opposite Lie algebra](right-invariant-vector-fields-realize-the-opposite-lie-algebra.md)
+- [Symmetry of the second fundamental form](symmetry-of-the-second-fundamental-form.md)
+- [Tangency under the Lie bracket](tangency-under-the-lie-bracket.md)
+- [Torsion tensor](torsion-tensor.md)

@@ -1,0 +1,81 @@
+# Virtual memory
+
+↑ **Parent:** [Operating system](operating-system.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Virtual_memory)
+
+[Virtual memory](virtual-memory.md) gives an [operating-system process](process-computing.md) an [address space](address-space.md) whose [virtual addresses](virtual-address.md) are translated to [physical addresses](physical-address.md) under [operating system](operating-system.md) control. In a system using [paging](paging.md), each resident [memory page](memory-page.md) maps to a [page frame](page-frame.md); [page tables](page-table.md) describe the mappings and access permissions, while the [memory management unit](memory-management-unit.md) enforces them. The same [virtual address](virtual-address.md) in two [operating-system processes](process-computing.md) can refer to different [page frames](page-frame.md). A deliberate shared mapping can instead make different [virtual addresses](virtual-address.md) refer to the same [page frame](page-frame.md). [Arpaci-Dusseau and Arpaci-Dusseau, OSTEP chapter 13: Address Spaces](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)
+
+For example, with 256-[byte](byte.md) [memory pages](memory-page.md), let process A map virtual page `0x12` to [page frame](page-frame.md) `0x07`, and process B map virtual page `0x12` to [page frame](page-frame.md) `0x09`. Their identical [virtual address](virtual-address.md) `0x1234` then denotes [physical address](physical-address.md) `0x0734` in A and `0x0934` in B. The address acquires meaning from the current [address space](address-space.md), not just its numerical value. See [paging](paging.md) for the calculation.
+
+This separation makes programs easier to place in [computer memory](computer-memory.md): consecutive [virtual addresses](virtual-address.md) need not occupy consecutive [page frames](page-frame.md). It also provides isolation and controlled sharing. [Virtual memory](virtual-memory.md) does not require secondary storage: a system can translate and protect [virtual addresses](virtual-address.md) while keeping every allocated [memory page](memory-page.md) resident in [computer memory](computer-memory.md). [Demand paging](demand-paging.md) adds allocation or loading on first use, and can support an [address space](address-space.md) larger than available [computer memory](computer-memory.md); the amount that can be used at once is still limited. Keeping a [working set](working-set.md) resident avoids [memory thrashing](thrashing-computer-science.md).
+
+An early concrete implementation was Manchester's Atlas. Kilburn, Edwards, Lanigan and Sumner's April 1962 paper describes automatically combining fast core storage with drum storage, transferring 512-word blocks and translating their addresses through page address registers. Its attraction was to spare programmers explicit transfers between these storage levels. This historical use of secondary storage is one application of [virtual memory](virtual-memory.md), rather than a requirement of every [virtual memory](virtual-memory.md) system. The accessible text below is a reprint of the paper. [Kilburn et al., One-Level Storage System, 1962, sections 1 and 3](https://www.dcs.gla.ac.uk/~wpc/grcs/kilburn.pdf)
+
+**Table of contents**
+
+- [Address space](address-space.md)
+  - [Virtual address](virtual-address.md)
+- [Address translation](address-translation.md)
+- [Memory management unit](memory-management-unit.md)
+- [Memory protection](memory-protection.md)
+- [Copy-on-write](copy-on-write.md)
+  - [Copy-on-write fault handling](copy-on-write-fault-handling.md)
+  - [Copy-on-write page accounting](copy-on-write-page-accounting.md)
+- [Thrashing (computer science)](thrashing-computer-science.md)
+- [Working set](working-set.md)
+  - [Working set size](working-set-size.md)
+- [Resident set](resident-set.md)
+- [Memory-mapped file](memory-mapped-file.md)
+  - [Backing file](backing-file.md)
+  - [mmap](mmap.md)
+    - [munmap](munmap.md)
+  - [Memory-mapped file offset translation](memory-mapped-file-offset-translation.md)
+  - [Shared file mapping](shared-file-mapping.md)
+  - [Private file mapping](private-file-mapping.md)
+  - [Memory-mapped file synchronization](memory-mapped-file-synchronization.md)
+    - [msync](msync.md)
+- [Memory segmentation](memory-segmentation.md)
+- [Paging](paging.md)
+  - [Memory page](memory-page.md)
+  - [Page frame](page-frame.md)
+  - [Demand paging](demand-paging.md)
+  - [Page replacement](page-replacement.md)
+    - [CLOCK page replacement](clock-page-replacement.md)
+    - [LRU replacement](lru-replacement.md)
+      - [LRU stack property](lru-stack-property.md)
+    - [FIFO page replacement](fifo-page-replacement.md)
+    - [Page-reference trace](page-reference-trace.md)
+    - [Optimal page replacement](optimal-page-replacement.md)
+    - [Bélády's anomaly](belady-s-anomaly.md)
+    - [Dirty memory page](dirty-memory-page.md)
+      - [Page writeback](page-writeback.md)
+    - [Page-replacement cost accounting](page-replacement-cost-accounting.md)
+  - [Page fault](page-fault.md)
+    - [Page fault rate](page-fault-rate.md)
+  - [Translation lookaside buffer](translation-lookaside-buffer.md)
+    - [TLB hit](tlb-hit.md)
+    - [TLB miss](tlb-miss.md)
+    - [Address space identifier](address-space-identifier.md)
+  - [Page table](page-table.md)
+    - [Page table entry](page-table-entry.md)
+    - [Multi-level page table](multi-level-page-table.md)
+      - [Two-level address translation](two-level-address-translation.md)
+      - [Sparse page table allocation](sparse-page-table-allocation.md)
+      - [Sv39 page table](sv39-page-table.md)
+    - [Page table walk](page-table-walk.md)
+
+## ↑ Ancestors (3)
+
+1. [Operating system](operating-system.md)
+2. [Computer science](computer-science-split.md)
+3. [Codex Wiki](split.md)
+
+## ← Incoming links (7)
+
+- [Direct memory access](direct-memory-access.md)
+- [Kernel (operating system)](kernel-operating-system.md)
+- [Memory-mapped file](memory-mapped-file.md)
+- [Operating system](operating-system.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ia/paper-5/7/d/solution.md)
+- [Process (computing)](process-computing.md)
+- [Virtual memory](virtual-memory.md)

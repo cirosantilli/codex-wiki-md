@@ -1,0 +1,51 @@
+<h1 id="2/solution">Solution</h1>
+
+↑ **Parent:** [2](../2.md)
+
+**[Superstring theory](../../../../../superstring-theory.md) offers a common quantum framework for gravity, gauge fields and matter; obtaining a particular viable low-energy vacuum is the additional task.** Its organizing idea is that particle species are different quantum states of one extended object, with interactions determined by joining and splitting worldsheets. This makes unification more substantive than placing independent field theories alongside one another.
+
+The central gravitational fact is the massless spin-two state in every consistent closed [superstring theory](../../../../../superstring-theory.md). Its transverse symmetric polarization is the [graviton](../../../../../graviton.md). Decoupling of unphysical polarizations gives the spacetime gauge transformation $\delta g_{ab}=\nabla_a\xi_b+\nabla_b\xi_a$, and low-energy consistency requires the universal coupling of this field to energy-momentum. In the small-curvature limit its interactions reproduce [Einstein field equations](../../../../../einstein-field-equations.md). The [string nonlinear sigma model](../../../../../string-nonlinear-sigma-model.md) makes this particularly concrete: quantum [worldsheet Weyl anomaly](../../../../../worldsheet-weyl-anomaly.md) cancellation constrains the background metric and other fields, and its leading metric equation is an Einstein equation. Higher powers of $\alpha'$ describe finite-string-length corrections rather than arbitrary independent gravitational couplings.
+
+The gravitational effective action in the string frame has the schematic form
+
+$$
+S_{\rm eff}\sim\frac1{\kappa_0^2}\int d^{10}x\sqrt{-g}\,e^{-2\varphi}
+\left[R+4(\nabla\varphi)^2-\frac1{12}H_{abc}H^{abc}+\cdots\right].
+$$
+
+Here $H=dB$, and the omitted terms include gauge fields, fermions and the appropriate Ramond fields. The [dilaton](../../../../../dilaton.md) supplies the [string coupling](../../../../../string-coupling.md) $g_s=e^{\varphi_0}$, while the [string tension](../../../../../string-tension.md) sets $\ell_s=\sqrt{\alpha'}$. Here $\kappa_0^2\sim\ell_s^8$ is the [dilaton](../../../../../dilaton.md)-independent normalization. Splitting $\varphi=\varphi_0+\delta\varphi$ gives the physical gravitational coupling $\kappa_{10}^2\sim g_s^2\ell_s^8$. Thus the coupling and length scale organize both the spectrum and interactions. A varying [dilaton](../../../../../dilaton.md) is a physical field, not just a freely adjustable numerical coupling.
+
+Extended strings also change the ultraviolet question. An interaction worldsheet has no invariant pointlike splitting location, and the integration over smooth surfaces replaces many short-distance configurations responsible for divergences in point-particle gravity. Infinite oscillator towers and modular invariance are essential to that reorganization. This does not mean that every amplitude in every background is automatically finite: worldsheet degenerations can produce ordinary infrared divergences, and tadpoles can signal an inconsistent chosen vacuum. A credible quantum theory must account for these effects, rather than discard them. The proposal is nevertheless a systematic perturbative framework for quantum gravity with a physical scale $\ell_s$ and controlled expansions in $g_s$ and curvature.
+
+Matter and nongravitational forces have equally concrete origins. In an [RNS string](../../../../../spinning-string.md), the [GSO projection](../../../../../gso-projection.md) removes the tachyon and produces spacetime [supersymmetry](../../../../../supersymmetry-split.md), with [Ramond sector](../../../../../ramond-sector.md) states furnishing spacetime fermions. Gauge bosons arise from current-algebra states of a [heterotic string](../../../../../heterotic-string.md) or from open strings ending on [D-branes](../../../../../d-brane.md). For coincident [D-branes](../../../../../d-brane.md), endpoint labels produce matrix-valued gauge fields: the [Chan-Paton factors](../../../../../chan-paton-factor.md) generate the nonabelian gauge structure. Open strings joining different brane stacks can carry bifundamental matter. These mechanisms permit gauge interactions and matter to coexist with closed-string gravity in one string background.
+
+Consistency greatly restricts the starting theories. The flat critical superstrings live in ten spacetime dimensions. The perturbative possibilities include [type IIA superstring theory](../../../../../type-iia-superstring-theory.md), [type IIB superstring theory](../../../../../type-iib-superstring-theory.md), [type I superstring theory](../../../../../type-i-string-theory.md), and the heterotic theories with gauge algebras $\mathfrak e_8\oplus\mathfrak e_8$ or $\mathfrak{so}(32)$. Cancellation of [gauge anomalies](../../../../../gauge-anomaly.md) and gravitational anomalies constrains these choices; it is not permissible to assign arbitrary chiral particle content and ignore its quantum consistency. The standard mechanism combines an anomalous variation with an appropriate transformation of the antisymmetric tensor. This provides a link between the allowed matter spectrum, gauge groups and geometry.
+
+To connect ten dimensions to four, take a suitable [compactification in string theory](../../../../../compactification-in-string-theory.md). If the internal six-dimensional space is small enough, low-energy observers see only zero modes; excited [Kaluza-Klein modes](../../../../../kaluza-klein-mode.md) have masses of order the inverse compactification size. The metric, form fields and gauge fields on the internal space then determine four-dimensional fields and their couplings. Integrating the gravitational term over an internal volume $V_6$ gives the scale dependence $G_4\sim g_s^2\ell_s^8/V_6$, illustrating how apparently separate low-energy constants arise from the same [dilaton](../../../../../dilaton.md) and geometry.
+
+A [Calabi-Yau threefold](../../../../../calabi-yau-threefold.md) is a useful supersymmetry-preserving choice. A [heterotic Calabi-Yau compactification](../../../../../heterotic-calabi-yau-compactification.md) with a suitable holomorphic gauge bundle can preserve four-dimensional $\mathcal N=1$ [supersymmetry](../../../../../supersymmetry-split.md) and generate chiral matter. Internal Dirac zero modes determine the light fermions; their index gives the net chirality, while bundle structure and possible Wilson lines determine the surviving gauge group. In the standard embedding, the net generation number is the internal [Euler characteristic](../../../../../euler-characteristic.md) divided by two, up to orientation conventions. A realistic construction must supply the correct generation content and couplings, not merely some chiral fermions. Unmodified type II compactification on a [Calabi-Yau threefold](../../../../../calabi-yau-threefold.md) instead has $\mathcal N=2$ in four dimensions; obtaining a less supersymmetric spectrum requires further ingredients such as orientifold projections, branes or fluxes.
+
+This is where [orientifolds](../../../../../orientifold.md) and [flux compactification](../../../../../flux-compactification.md) can become useful. Projection and brane choices can reduce [supersymmetry](../../../../../supersymmetry-split.md) and engineer chiral gauge sectors. Fluxes and nonperturbative effects can generate a potential for [moduli of a string compactification](../../../../../modulus-of-a-string-compactification.md), which otherwise appear as additional massless scalar fields controlling volumes, shapes, gauge-bundle parameters or the [dilaton](../../../../../dilaton.md). [Moduli stabilization](../../../../../moduli-stabilization.md) is therefore part of a plausible model, alongside [supersymmetry](../../../../../supersymmetry-split.md) breaking and a suitable vacuum energy. These ingredients must obey charge-cancellation and consistency conditions; they are not arbitrary additions to an otherwise complete four-dimensional model.
+
+The relation among the candidate theories further supports a unified interpretation. [T-duality](../../../../../t-duality.md) exchanges momentum and winding and relates type IIA and type IIB on circles. Strong/weak coupling dualities relate other descriptions. The strong-coupling limit of type IIA exposes an additional dimension with radius
+
+$$
+R_{11}=g_s\ell_s,
+$$
+
+leading to an eleven-dimensional [M-theory](../../../../../m-theory.md) description. [D-branes](../../../../../d-brane.md) provide nonperturbative objects needed in these relations. The duality web suggests that apparently different perturbative superstrings describe limits of a larger structure, rather than unrelated theories competing only by choice of notation.
+
+A plausible theory of everything must finally reproduce the [Standard Model](../../../../../standard-model-split.md) gauge group, representations, symmetry breaking and interaction strengths, together with gravity. It must explain or accommodate mass hierarchies, suppress unwanted light fields and processes, and identify a consistent cosmological background. [String theory](../../../../../string-theory-split.md) supplies mechanisms and consistency conditions for these tasks. The multiplicity of possible compactifications means that the observed low-energy theory is not fixed simply by writing a ten-dimensional string action. **The case for the framework rests on its joint treatment of quantum gravity, matter and gauge forces; a complete phenomenological theory additionally requires a specified, dynamically viable vacuum and its predictions.**
+
+## ↑ Ancestors (10)
+
+1. [2](../2.md)
+2. [Paper 48](../../paper-48-split.md)
+3. [Iii](../../split.md)
+4. [2014](../../../split.md)
+5. [Past exam of the mathematics course of the University of Cambridge](../../../../split.md)
+6. [Mathematics course of the University of Cambridge](../../../../../mathematics-course-of-the-university-of-cambridge.md)
+7. [Course of the University of Cambridge](../../../../../course-of-the-university-of-cambridge.md)
+8. [University of Cambridge](../../../../../university-of-cambridge-split.md)
+9. [List of universities](../../../../../list-of-universities.md)
+10. [Codex Wiki](../../../../../split.md)

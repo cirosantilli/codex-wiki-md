@@ -1,0 +1,62 @@
+# Orbital element
+
+↑ **Parent:** [Kepler orbit](kepler-orbit.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Orbital_element)
+
+An orbital element is one of a set of parameters specifying an orbit at a chosen epoch. For a Kepler orbit, the semi-major axis and eccentricity determine its size and shape, while angular elements determine its orientation and the body's position.
+
+**Table of contents**
+
+- [Argument of periapsis](argument-of-periapsis.md)
+- [True longitude](true-longitude.md)
+- [Orbital plane](orbital-plane.md)
+- [Osculating orbital element](osculating-orbital-element.md)
+  - [Astrocentric osculating-element oscillations](astrocentric-osculating-element-oscillations.md)
+- [True anomaly](true-anomaly.md)
+- [Orbital phase](orbital-phase.md)
+  - [Phase-mixed orbit](phase-mixed-orbit.md)
+    - [Line density on a Kepler orbit](line-density-on-a-kepler-orbit.md)
+      - [Cross-sectional-area current](cross-sectional-area-current.md)
+    - [Phase-mixed radial probability of a Kepler orbit](phase-mixed-radial-probability-of-a-kepler-orbit.md)
+- [Mean anomaly](mean-anomaly.md)
+  - [Kepler's equation](kepler-s-equation.md)
+- [Eccentric anomaly](eccentric-anomaly.md)
+- [Orbital node](orbital-node.md)
+  - [Ascending node](ascending-node.md)
+    - [Longitude of ascending node](longitude-of-ascending-node.md)
+- [Orbital inclination](orbital-inclination.md)
+  - [Orbital-frame rotation from inclination and node](orbital-frame-rotation-from-inclination-and-node.md)
+  - [Mutual inclination](mutual-inclination.md)
+    - [Mutual inclination of nearly edge-on orbits](mutual-inclination-of-nearly-edge-on-orbits.md)
+  - [Invariable plane](invariable-plane.md)
+    - [Inclination to the invariable plane of two orbital planes](inclination-to-the-invariable-plane-of-two-orbital-planes.md)
+  - [Edge-on orbit](edge-on-orbit.md)
+  - [Orbital-plane orientation degeneracy](orbital-plane-orientation-degeneracy.md)
+- [Longitude of periapsis](longitude-of-periapsis.md)
+- [Mean longitude](mean-longitude.md)
+- [Mean motion](mean-motion.md)
+  - [Orbital period](orbital-period.md)
+  - [Synodic period](synodic-period.md)
+
+## ↑ Ancestors (6)
+
+1. [Kepler orbit](kepler-orbit.md)
+2. [Celestial mechanics](celestial-mechanics.md)
+3. [Classical mechanics](classical-mechanics-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (11)
+
+- [Asymmetric resonant-argument libration](asymmetric-resonant-argument-libration.md)
+- [Lagrange planetary equations](lagrange-planetary-equations.md)
+- [Osculating orbital element](osculating-orbital-element.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-59/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-316/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-316/2/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-316/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-316/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-316/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-316/2/a/solution.md)
+- [Resonant pendulum energy](resonant-pendulum-energy.md)

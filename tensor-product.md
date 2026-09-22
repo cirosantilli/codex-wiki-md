@@ -1,0 +1,184 @@
+# Tensor product
+
+↑ **Parent:** [Multilinear algebra](multilinear-algebra.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Tensor_product)
+
+A [tensor product](tensor-product.md) turns a [bilinear map](bilinear-map.md) into a [linear map](linear-map.md). For [vector spaces](vector-space-split.md) $V,W$ over the same [field](field.md) $F$, its elements are finite sums of [pure tensors](pure-tensor.md) $v\otimes w$, subject to [bilinearity](bilinearity.md):
+
+$$
+\begin{aligned}
+(v+v')\otimes w&=v\otimes w+v'\otimes w,\\
+v\otimes(w+w')&=v\otimes w+v\otimes w',\\
+(av)\otimes w&=a(v\otimes w)=v\otimes(aw).
+\end{aligned}
+$$
+
+The [scalar](scalar.md) $a$ belongs to $F$; writing $V\otimes_F W$ makes this choice explicit. These rules preserve separate [linearity](linearity.md) while allowing arbitrary [linear combinations](linear-combination.md) of products.[§9D, 9.71–9.74, printed pp. 372–373: tensor products, bilinearity, and bases](linear-algebra-done-right-by-sheldon-axler-4th-edition.md)
+
+For a concrete example, take $V=W=\mathbb R^2$, with [basis vectors](basis-vector.md) $e_1,e_2$ in the first copy and $f_1,f_2$ in the second. The four [tensor-product basis](tensor-product-basis.md) elements are
+
+$$
+e_1\otimes f_1,\quad e_1\otimes f_2,\quad e_2\otimes f_1,\quad e_2\otimes f_2.
+$$
+
+The [pure tensor](pure-tensor.md) made from $v=2e_1+e_2$ and $w=-f_1+3f_2$ expands to
+
+$$
+v\otimes w=-2e_1\otimes f_1+6e_1\otimes f_2-e_2\otimes f_1+3e_2\otimes f_2.
+$$
+
+Each [basis vector](basis-vector.md) in one factor can interact with each [basis vector](basis-vector.md) in the other. This is why [dimensions](dimension-vector-space.md) multiply; the [tensor-product coefficient matrix](tensor-product-coefficient-matrix.md) displays these four interactions as a two-by-two grid.
+
+The [tensor product](tensor-product.md) is different from the [Cartesian product](cartesian-product.md) $V\times W$. With componentwise [vector addition](vector-addition.md) and [scalar multiplication](scalar-multiplication.md), the latter contains pairs and has [dimension](dimension-vector-space.md) $\dim V+\dim W$. The map $\tau(v,w)=v\otimes w$ is [bilinear](bilinear-map.md), generally neither [linear](linearity.md) on that [Cartesian product](cartesian-product.md) nor [injective](injective-function.md) nor [surjective](surjective-function.md). In our example, $\tau(2v,2w)=4\tau(v,w)$, and $\tau(2v,w/2)=\tau(v,w)$; the [separability of a tensor](separability-of-a-tensor.md) explains why some outputs cannot be reached at all. Both spaces happen to have [dimension](dimension-vector-space.md) four when $V=W=\mathbb R^2$, but this coincidence does not identify their structures.
+
+**Table of contents**
+
+- [Universal property of a tensor product](universal-property-of-a-tensor-product.md)
+- [Tensor-product basis](tensor-product-basis.md)
+  - [Tensor-product coefficient matrix](tensor-product-coefficient-matrix.md)
+- [Separability of a tensor](separability-of-a-tensor.md)
+- [Two-factor tensor rank](two-factor-tensor-rank.md)
+- [Tensor algebra](tensor-algebra.md)
+  - [Truncated tensor algebra](truncated-tensor-algebra.md)
+  - [Tensor power](tensor-power.md)
+    - [Tensor square](tensor-square.md)
+  - [Symmetric algebra](symmetric-algebra.md)
+    - [Symmetric power](symmetric-power.md)
+      - [Weight-transfer proof of irreducibility of symmetric powers](weight-transfer-proof-of-irreducibility-of-symmetric-powers.md)
+      - [Symmetric powers of the three-dimensional SU2 representation](symmetric-powers-of-the-three-dimensional-su2-representation.md)
+      - [Character generating series of symmetric powers](character-generating-series-of-symmetric-powers.md)
+      - [Symmetric square](symmetric-square.md)
+        - [Traceless symmetric square of the defining even orthogonal representation](traceless-symmetric-square-of-the-defining-even-orthogonal-representation.md)
+          - [Tensor-square decomposition of the defining even orthogonal representation](tensor-square-decomposition-of-the-defining-even-orthogonal-representation.md)
+        - [Symmetric square of a direct sum](symmetric-square-of-a-direct-sum.md)
+        - [Symmetric trace-free square of the defining orthogonal representation](symmetric-trace-free-square-of-the-defining-orthogonal-representation.md)
+
+## ↑ Ancestors (6)
+
+1. [Multilinear algebra](multilinear-algebra.md)
+2. [Linear algebra](linear-algebra-split.md)
+3. [Algebra](algebra-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (118)
+
+- [Additivity of quantum relative entropy](additivity-of-quantum-relative-entropy.md)
+- [Affine module sheaf](affine-module-sheaf.md)
+- [Category theory](category-theory-split.md)
+- [Cellular chains of a product of finite CW complexes](cellular-chains-of-a-product-of-finite-cw-complexes.md)
+- [Characteristic two](characteristic-two.md)
+- [Cohomology cross product](cohomology-cross-product.md)
+- [Complexification of a real vector bundle](complexification-of-a-real-vector-bundle.md)
+- [Determinant line bundle](determinant-line-bundle.md)
+- [Determinantal form of a symmetric-group character](determinantal-form-of-a-symmetric-group-character.md)
+- [Dual abelian variety](dual-abelian-variety.md)
+- [Eilenberg–Zilber theorem](eilenberg-zilber-theorem.md)
+- [Equational criterion for flatness](equational-criterion-for-flatness.md)
+- [Flow definition of the Lie derivative of a tensor field](flow-definition-of-the-lie-derivative-of-a-tensor-field.md)
+- [Formal associative deformation](formal-associative-deformation.md)
+- [Formal power series module](formal-power-series-module.md)
+- [Hadamard transform](hadamard-transform.md)
+- [Hartree equations](hartree-equations.md)
+- [Hilbert tensor product](hilbert-tensor-product.md)
+- [Holomorphic Picard group](holomorphic-picard-group.md)
+- [Independent quaternion classes over rational numbers](independent-quaternion-classes-over-rational-numbers.md)
+- [Jones-Wenzl color](jones-wenzl-color.md)
+- [Massive two-form at closed-string level two](massive-two-form-at-closed-string-level-two.md)
+- [Nonintegrability of a radial triangular Fourier cutoff in three dimensions](nonintegrability-of-a-radial-triangular-fourier-cutoff-in-three-dimensions.md)
+- [Orthogonal-invariant scattering channels](orthogonal-invariant-scattering-channels.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-19/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-60/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-63/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-1/1/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-23/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-47/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-17/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-25/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-45/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-55/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-2/1/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-31/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-37/2/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-1/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-17/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-19/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-24/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-24/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-4/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-58/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-10/8/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-2/5/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-2/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-2/6/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-34/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-57/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-14/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-58/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-58/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-60/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-60/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ii/paper-2/19f/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-18/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-18/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-3/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-50/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-3/33c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-3/39a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-2/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ii/paper-1/33d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ii/paper-3/33d/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-22/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-16/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-49/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-49/1/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-17/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-17/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-41/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-50/1/b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-61/3/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-62/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-62/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-15/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-50/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-102/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-115/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-4/18g/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-4/22f/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-113/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-115/2/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-128/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-340/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-323/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-101/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-324/4/a/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-324/1/c/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-323/2/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-323/4/i/solution.md)
+- [Pauli decomposition of a qubit-environment isometry](pauli-decomposition-of-a-qubit-environment-isometry.md)
+- [Pauli-string commutation parity](pauli-string-commutation-parity.md)
+- [Picard scheme of a curve](picard-scheme-of-a-curve.md)
+- [Product Laplacian eigenspace decomposition](product-laplacian-eigenspace-decomposition.md)
+- [Pullback of a mixed tensor by a diffeomorphism](pullback-of-a-mixed-tensor-by-a-diffeomorphism.md)
+- [Quantum register](quantum-register.md)
+- [Rationalization of a topological space](rationalization-of-a-topological-space.md)
+- [Representation ring of a compact group](representation-ring-of-a-compact-group.md)
+- [Separability of a tensor](separability-of-a-tensor.md)
+- [Sign conjugation for the tensor-Hom identification](sign-conjugation-for-the-tensor-hom-identification.md)
+- [Sullivan fibre-model theorem](sullivan-fibre-model-theorem.md)
+- [Tangle category](tangle-category.md)
+- [Tensor field](tensor-field.md)
+- [Tensor product](tensor-product.md)
+- [Tensor-product basis](tensor-product-basis.md)
+- [Tensor product of central simple algebras](tensor-product-of-central-simple-algebras.md)
+- [Tensor product of chain complexes](tensor-product-of-chain-complexes.md)
+- [Tensor product of commutative algebras](tensor-product-of-commutative-algebras.md)
+- [Tensor product of globally generated line bundles](tensor-product-of-globally-generated-line-bundles.md)
+- [Tensor product of group representations](tensor-product-of-group-representations.md)
+- [Tensor product of Lie algebra representations](tensor-product-of-lie-algebra-representations.md)
+- [Tensor product of linear maps](tensor-product-of-linear-maps.md)
+- [Tensor-product operator](tensor-product-operator.md)
+- [Tensor-square decomposition of the defining symplectic representation](tensor-square-decomposition-of-the-defining-symplectic-representation.md)
+- [Weil pairing for an abelian variety](weil-pairing-for-an-abelian-variety.md)
+- [Yang-Baxter equation](yang-baxter-equation.md)

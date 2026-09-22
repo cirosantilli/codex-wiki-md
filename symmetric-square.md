@@ -1,0 +1,61 @@
+# Symmetric square
+
+↑ **Parent:** [Symmetric power](symmetric-power.md)
+
+The symmetric square is the quotient of $V\otimes V$ by $v\otimes w-w\otimes v$, and records symmetric tensors of rank two.
+
+**Table of contents**
+
+- [Traceless symmetric square of the defining even orthogonal representation](traceless-symmetric-square-of-the-defining-even-orthogonal-representation.md)
+  - [Tensor-square decomposition of the defining even orthogonal representation](tensor-square-decomposition-of-the-defining-even-orthogonal-representation.md)
+- [Symmetric square of a direct sum](symmetric-square-of-a-direct-sum.md)
+- [Symmetric trace-free square of the defining orthogonal representation](symmetric-trace-free-square-of-the-defining-orthogonal-representation.md)
+
+## ↑ Ancestors (10)
+
+1. [Symmetric power](symmetric-power.md)
+2. [Symmetric algebra](symmetric-algebra.md)
+3. [Tensor algebra](tensor-algebra.md)
+4. [Tensor product](tensor-product.md)
+5. [Multilinear algebra](multilinear-algebra.md)
+6. [Linear algebra](linear-algebra-split.md)
+7. [Algebra](algebra-split.md)
+8. [Area of mathematics](area-of-mathematics.md)
+9. [Mathematics](mathematics-split.md)
+10. [Codex Wiki](split.md)
+
+## ← Incoming links (33)
+
+- [A2 defining tensor crystals](a2-defining-tensor-crystals.md)
+- [Characteristic two](characteristic-two.md)
+- [Crystal of the defining odd-orthogonal representation](crystal-of-the-defining-odd-orthogonal-representation.md)
+- [Exterior and symmetric squares of the seven-dimensional G2 representation](exterior-and-symmetric-squares-of-the-seven-dimensional-g2-representation.md)
+- [Lowest levels of a fully transverse ND bosonic string](lowest-levels-of-a-fully-transverse-nd-bosonic-string.md)
+- [Lowest light-cone levels of an open bosonic string](lowest-light-cone-levels-of-an-open-bosonic-string.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-5/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-2/1/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-2/2/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-3/19f/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-19/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-4/2/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-6/3/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-2/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ii/paper-4/15f/b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-49/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-102/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-4/18g/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-102/3/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-102/5/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-306/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-4/19i/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-102/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-102/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-307/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-102/5/solution.md)
+- [Symmetric trace-free square of the defining orthogonal representation](symmetric-trace-free-square-of-the-defining-orthogonal-representation.md)
+- [Tensor square](tensor-square.md)
+- [Tensor-square decomposition of the defining even orthogonal representation](tensor-square-decomposition-of-the-defining-even-orthogonal-representation.md)
+- [Tensor-square decomposition of the defining so5 representation](tensor-square-decomposition-of-the-defining-so5-representation.md)
+- [Tensor-square decomposition of the defining sp4 representation](tensor-square-decomposition-of-the-defining-sp4-representation.md)
+- [Tensor-square decomposition of the defining symplectic representation](tensor-square-decomposition-of-the-defining-symplectic-representation.md)
+- [Traceless symmetric square of the defining even orthogonal representation](traceless-symmetric-square-of-the-defining-even-orthogonal-representation.md)

@@ -1,0 +1,61 @@
+# Enriched category
+
+↑ **Parent:** [Category theory](category-theory-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Enriched_category)
+
+For a monoidal category $(\mathcal V,\otimes,I)$, a $\mathcal V$-enriched category has hom-objects in $\mathcal V$, composition morphisms $\mathcal C(B,C)\otimes\mathcal C(A,B)\to\mathcal C(A,C)$, and unit morphisms $I\to\mathcal C(A,A)$ satisfying associativity and unit laws.
+
+**Table of contents**
+
+- [Commutative-monoid enrichment](commutative-monoid-enrichment.md)
+  - [Transported addition on the multiplicative natural-number monoid](transported-addition-on-the-multiplicative-natural-number-monoid.md)
+- [Underlying category of an enriched category](underlying-category-of-an-enriched-category.md)
+- [Self-enrichment of a closed symmetric monoidal category](self-enrichment-of-a-closed-symmetric-monoidal-category.md)
+- [Poset-enriched adjunction](poset-enriched-adjunction.md)
+  - [Left adjoint relation is a function](left-adjoint-relation-is-a-function.md)
+- [Semi-additive category](semi-additive-category.md)
+  - [Biproduct](biproduct.md)
+    - [Biproduct-induced addition of morphisms](biproduct-induced-addition-of-morphisms.md)
+    - [Countable biproducts in an additive category force triviality](countable-biproducts-in-an-additive-category-force-triviality.md)
+  - [Additive category](additive-category.md)
+    - [Semisimple category](semisimple-category.md)
+    - [Additive category with truncated primary torsion](additive-category-with-truncated-primary-torsion.md)
+    - [Additive functor](additive-functor.md)
+      - [Right-exact additive functor](right-exact-additive-functor.md)
+    - [Abelian category](abelian-category.md)
+      - [Cofinitary abelian category](cofinitary-abelian-category.md)
+      - [Finitary abelian category](finitary-abelian-category.md)
+        - [Coproduct-to-product comparison in a finitary abelian category](coproduct-to-product-comparison-in-a-finitary-abelian-category.md)
+      - [Category of abelian groups](category-of-abelian-groups.md)
+      - [Abelian category with enough projectives](abelian-category-with-enough-projectives.md)
+      - [Hereditary abelian category with enough projectives](hereditary-abelian-category-with-enough-projectives.md)
+      - [Kernel squares in an abelian category](kernel-squares-in-an-abelian-category.md)
+      - [Zero-cokernel criterion for epimorphisms](zero-cokernel-criterion-for-epimorphisms.md)
+      - [Pullback stability of epimorphisms in an abelian category](pullback-stability-of-epimorphisms-in-an-abelian-category.md)
+        - [Pullback of an epimorphism is a pushout in an abelian category](pullback-of-an-epimorphism-is-a-pushout-in-an-abelian-category.md)
+      - [Every abelian category is regular](every-abelian-category-is-regular.md)
+      - [Image and coimage in an abelian category](image-and-coimage-in-an-abelian-category.md)
+        - [Coimage](coimage.md)
+      - [Exact sequence in an abelian category](exact-sequence-in-an-abelian-category.md)
+        - [Short exact sequence in an abelian category](short-exact-sequence-in-an-abelian-category.md)
+          - [Schanuel lemma in an abelian category](schanuel-lemma-in-an-abelian-category.md)
+          - [Pullback of a short exact sequence in an abelian category](pullback-of-a-short-exact-sequence-in-an-abelian-category.md)
+        - [Five lemma](five-lemma.md)
+          - [Five lemma via image factorization](five-lemma-via-image-factorization.md)
+        - [Snake lemma](snake-lemma.md)
+      - [Complex in an abelian category](complex-in-an-abelian-category.md)
+        - [Additive indexing category for chain complexes](additive-indexing-category-for-chain-complexes.md)
+        - [Homology object](homology-object.md)
+          - [Self-duality of homology](self-duality-of-homology.md)
+
+## ↑ Ancestors (5)
+
+1. [Category theory](category-theory-split.md)
+2. [Foundations of mathematics](foundations-of-mathematics-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (1)
+
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-119/5/a/solution.md)

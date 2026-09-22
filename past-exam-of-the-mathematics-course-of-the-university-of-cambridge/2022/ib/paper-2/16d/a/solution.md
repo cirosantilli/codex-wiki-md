@@ -1,0 +1,31 @@
+<h1 id="16d/a/solution">Solution</h1>
+
+↑ **Parent:** [A](../a.md)
+
+The [Maxwell equation](../../../../../../maxwell-equations.md) $\nabla\times\mathbf E=-\partial\mathbf B/\partial t$, integrated over a fixed spanning surface $S$, gives by [Stokes theorem](../../../../../../stokes-theorem.md)
+
+$$
+\oint_{\partial S}\mathbf E\cdot d\mathbf l
+=-\int_S\frac{\partial\mathbf B}{\partial t}\cdot d\mathbf S
+=-\frac{d}{dt}\int_S\mathbf B\cdot d\mathbf S.
+$$
+
+Thus the [electromotive force](../../../../../../electromotive-force.md) and [magnetic flux](../../../../../../magnetic-flux.md) obey [Faraday's law](../../../../../../faraday-s-law-of-induction.md)
+
+$$
+\boxed{\mathcal E=-\frac{d\Phi_B}{dt}}.
+$$
+
+## ↑ Ancestors (11)
+
+1. [A](../a.md)
+2. [16D](../../16d.md)
+3. [Paper 2](../../../paper-2-split.md)
+4. [Ib](../../../split.md)
+5. [2022](../../../../split.md)
+6. [Past exam of the mathematics course of the University of Cambridge](../../../../../split.md)
+7. [Mathematics course of the University of Cambridge](../../../../../../mathematics-course-of-the-university-of-cambridge.md)
+8. [Course of the University of Cambridge](../../../../../../course-of-the-university-of-cambridge.md)
+9. [University of Cambridge](../../../../../../university-of-cambridge-split.md)
+10. [List of universities](../../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../../split.md)

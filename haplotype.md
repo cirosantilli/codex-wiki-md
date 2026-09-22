@@ -1,0 +1,61 @@
+# Haplotype
+
+↑ **Parent:** [Genotype](genotype.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Haplotype)
+
+A haplotype is the set of [alleles](allele.md) on one chromosome across specified [genetic loci](genetic-locus.md). Closely linked markers without intervening [genetic recombination](genetic-recombination.md) are transmitted as one haplotype; they are not independent observations of inheritance.
+
+**Table of contents**
+
+- [Haplotype frequency](haplotype-frequency.md)
+- [Haplotype estimation](haplotype-estimation.md)
+- [Haplotype block](haplotype-block.md)
+
+## ↑ Ancestors (4)
+
+1. [Genotype](genotype.md)
+2. [Genetics](genetics.md)
+3. [Biology](biology-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (39)
+
+- [Allelic correlation](allelic-correlation.md)
+- [Chromosomal crossover](chromosomal-crossover.md)
+- [Chromosome](chromosome.md)
+- [Complete genetic linkage](complete-genetic-linkage.md)
+- [Four-gamete test](four-gamete-test.md)
+- [Genetic linkage](genetic-linkage.md)
+- [Genetic locus](genetic-locus.md)
+- [Genetic map](genetic-map.md)
+- [Genetic marker](genetic-marker.md)
+- [Genetic recombination](genetic-recombination.md)
+- [Genotype](genotype.md)
+- [Genotyping](genotyping.md)
+- [Haplotype block](haplotype-block.md)
+- [Homologous chromosome](homologous-chromosome.md)
+- [Homozygote](homozygote.md)
+- [Identity by state](identity-by-state.md)
+- [Independent assortment](independent-assortment.md)
+- [Linkage disequilibrium](linkage-disequilibrium.md)
+- [Linkage-disequilibrium decay under recombination](linkage-disequilibrium-decay-under-recombination.md)
+- [Linkage equilibrium](linkage-equilibrium.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-29/6/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-29/6/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-40/5/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-40/5/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-39/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-45/1/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-45/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-45/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-45/4/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-45/4/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-45/1/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-45/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-45/2/f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-45/3/f/solution.md)
+- [Phase averaging in a linkage likelihood](phase-averaging-in-a-linkage-likelihood.md)
+- [Phase-known genotype](phase-known-genotype.md)
+- [Population bottleneck](population-bottleneck.md)
+- [Recessive affected-sib-pair likelihood](recessive-affected-sib-pair-likelihood.md)
+- [Recombination fraction](recombination-fraction.md)

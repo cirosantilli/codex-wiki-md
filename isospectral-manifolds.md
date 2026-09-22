@@ -1,0 +1,60 @@
+# Isospectral manifolds
+
+↑ **Parent:** [Spectral geometry](spectral-geometry.md)
+
+Two [Riemannian manifolds](riemannian-manifold.md) are isospectral for a specified [differential operator](differential-operator.md) if their [eigenvalues](eigenvalue.md), counted with multiplicities and with the same [boundary conditions](boundary-condition.md), agree. [Riemannian isometries](riemannian-isometry.md) preserve the [Laplace-Beltrami operator](laplace-beltrami-operator.md) [spectrum](spectrum-functional-analysis.md), but the converse can fail. The [transplantation theorem](transplantation-theorem.md) and the [Sunada theorem](sunada-theorem.md) give systematic constructions.
+
+**Table of contents**
+
+- [Compact isospectral sets of closed surfaces](compact-isospectral-sets-of-closed-surfaces.md)
+- [Tetra and Didi](tetra-and-didi.md)
+- [Finiteness of isospectral hyperbolic surfaces](finiteness-of-isospectral-hyperbolic-surfaces.md)
+- [Sunada theorem](sunada-theorem.md)
+  - [Sunada orbital heat-trace formula](sunada-orbital-heat-trace-formula.md)
+  - [Sunada unitary equivalence without a finite heat trace](sunada-unitary-equivalence-without-a-finite-heat-trace.md)
+  - [Intersection test for nonisometric finite covers](intersection-test-for-nonisometric-finite-covers.md)
+    - [Generic isolation of lifted simple geodesics](generic-isolation-of-lifted-simple-geodesics.md)
+    - [Cycle intersections count intersections of lifted curves](cycle-intersections-count-intersections-of-lifted-curves.md)
+  - [Cone-torus construction of genus-four Sunada surfaces](cone-torus-construction-of-genus-four-sunada-surfaces.md)
+    - [Lambert quadrilateral construction of a cone torus](lambert-quadrilateral-construction-of-a-cone-torus.md)
+  - [Triangle cover construction for Sunada surfaces](triangle-cover-construction-for-sunada-surfaces.md)
+    - [Reflection intertwining of triangle-cover coset actions](reflection-intertwining-of-triangle-cover-coset-actions.md)
+  - [Curvature markers distinguishing finite-cover quotients](curvature-markers-distinguishing-finite-cover-quotients.md)
+  - [Area separation of convergent Sunada families](area-separation-of-convergent-sunada-families.md)
+  - [Binary family of nonhomeomorphic Sunada quotients](binary-family-of-nonhomeomorphic-sunada-quotients.md)
+- [Transplantation theorem](transplantation-theorem.md)
+  - [Orthogonalization of a transplantation matrix](orthogonalization-of-a-transplantation-matrix.md)
+  - [Seven-triangle Dirichlet transplantation](seven-triangle-dirichlet-transplantation.md)
+  - [Four-tile mixed-boundary transplantation between a disk and a nonorientable surface](four-tile-mixed-boundary-transplantation-between-a-disk-and-a-nonorientable-surface.md)
+  - [Eight-tile Neumann transplantation across orientability](eight-tile-neumann-transplantation-across-orientability.md)
+  - [Pure Neumann reflection transplantation preserves Euler characteristic](pure-neumann-reflection-transplantation-preserves-euler-characteristic.md)
+  - [Transplantation by reflection parity](transplantation-by-reflection-parity.md)
+  - [Propeller domains](propeller-domains.md)
+- [Spectral rigidity](spectral-rigidity.md)
+  - [Wolpert generic spectral rigidity theorem](wolpert-generic-spectral-rigidity-theorem.md)
+
+## ↑ Ancestors (7)
+
+1. [Spectral geometry](spectral-geometry.md)
+2. [Riemannian geometry](riemannian-geometry-split.md)
+3. [Differential geometry](differential-geometry-split.md)
+4. [Geometry and topology](geometry-and-topology-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (13)
+
+- [Euler characteristic from the heat trace of a bordered surface](euler-characteristic-from-the-heat-trace-of-a-bordered-surface.md)
+- [Isospectral stabilization by a small flat torus](isospectral-stabilization-by-a-small-flat-torus.md)
+- [Order-sixteen Gassmann pair](order-sixteen-gassmann-pair.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-20/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-20/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-20/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-22/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-22/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-22/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-19/2/solution.md)
+- [Short-vector cancellation for flat tori](short-vector-cancellation-for-flat-tori.md)
+- [Spectral geometry](spectral-geometry.md)
+- [Triangle cover construction for Sunada surfaces](triangle-cover-construction-for-sunada-surfaces.md)

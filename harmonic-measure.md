@@ -1,0 +1,60 @@
+# Harmonic measure
+
+↑ **Parent:** [Planar Brownian motion](planar-brownian-motion.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Harmonic_measure)
+
+The harmonic measure of a boundary set $A\subseteq\partial D$ viewed from $x\in D$ is the probability that Brownian motion started at $x$ first exits $D$ through $A$. As a function of $x$, it is harmonic in $D$.
+
+**Table of contents**
+
+- [Brownian exit law from a quadrant](brownian-exit-law-from-a-quadrant.md)
+- [Harmonic capacity from infinity in the upper half-plane](harmonic-capacity-from-infinity-in-the-upper-half-plane.md)
+  - [Reflection lower bound for harmonic hull capacity](reflection-lower-bound-for-harmonic-hull-capacity.md)
+  - [Radius gives no positive lower bound for disconnected harmonic hull capacity](radius-gives-no-positive-lower-bound-for-disconnected-harmonic-hull-capacity.md)
+  - [Subadditivity of harmonic hull capacity](subadditivity-of-harmonic-hull-capacity.md)
+- [Harmonic-measure asymptotic at infinity](harmonic-measure-asymptotic-at-infinity.md)
+- [Möbius calculation of circular Brownian exit](mobius-calculation-of-circular-brownian-exit.md)
+- [Reflection identity for Brownian exit from a half-disc](reflection-identity-for-brownian-exit-from-a-half-disc.md)
+- [Bottom-boundary harmonic measure of a strip](bottom-boundary-harmonic-measure-of-a-strip.md)
+- [Upper-half-plane harmonic measure of the positive half-axis](upper-half-plane-harmonic-measure-of-the-positive-half-axis.md)
+- [Planar Brownian annulus hitting probability](planar-brownian-annulus-hitting-probability.md)
+- [Brownian entrance law to a disc from infinity](brownian-entrance-law-to-a-disc-from-infinity.md)
+
+## ↑ Ancestors (8)
+
+1. [Planar Brownian motion](planar-brownian-motion.md)
+2. [Brownian motion](brownian-motion-split.md)
+3. [Stochastic process](stochastic-process-split.md)
+4. [Probability theory](probability-theory-split.md)
+5. [Probability and statistics](probability-and-statistics-split.md)
+6. [Area of mathematics](area-of-mathematics.md)
+7. [Mathematics](mathematics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (25)
+
+- [Boundary approach forces a small SLE Bessel gap](boundary-approach-forces-a-small-sle-bessel-gap.md)
+- [Conformal invariance of planar Brownian motion](conformal-invariance-of-planar-brownian-motion.md)
+- [Half-plane capacity is bounded by squared diameter](half-plane-capacity-is-bounded-by-squared-diameter.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-31/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-39/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-27/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-35/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-27/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-27/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-27/1/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-27/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-29/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-29/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-29/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-203/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-203/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-203/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-201/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-203/1/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-203/1/d/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-201/5/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-203/1/b/ii/solution.md)
+- [Poisson kernel for the upper half-plane](poisson-kernel-for-the-upper-half-plane.md)
+- [Potential theory](potential-theory.md)
+- [Real boundary bounds for a unit-disc H-hull](real-boundary-bounds-for-a-unit-disc-h-hull.md)

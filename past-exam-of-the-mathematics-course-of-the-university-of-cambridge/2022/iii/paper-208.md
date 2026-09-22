@@ -1,0 +1,331 @@
+# Paper 208
+
+↑ **Parent:** [Iii](../iii.md)
+
+[https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2022/paper_208.pdf](https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2022/paper_208.pdf)
+
+**Table of contents**
+
+- [1](#1)
+  - [a](#1/a)
+    - [Solution](#1/a/solution)
+  - [b](#1/b)
+    - [Solution](#1/b/solution)
+- [2](#2)
+  - [a](#2/a)
+    - [Solution](#2/a/solution)
+  - [b](#2/b)
+    - [Solution](#2/b/solution)
+  - [c](#2/c)
+    - [Solution](#2/c/solution)
+  - [d](#2/d)
+    - [Solution](#2/d/solution)
+- [3](#3)
+  - [a](#3/a)
+    - [Solution](#3/a/solution)
+  - [b](#3/b)
+    - [Solution](#3/b/solution)
+  - [c](#3/c)
+    - [Solution](#3/c/solution)
+  - [d](#3/d)
+    - [Solution](#3/d/solution)
+
+## 1
+
+↑ **Parent:** [Paper 208](paper-208.md)
+
+<h3 id="1/a">a</h3>
+
+↑ **Parent:** [1](#1)
+
+<h4 id="1/a/solution">Solution</h4>
+
+↑ **Parent:** [A](#1/a)
+
+Let
+
+$$
+M(\lambda)=\mathbb Ee^{\lambda X},
+\qquad
+\psi(\lambda)=\log M(\lambda).
+$$
+
+The [entropy functional](../../../probability-inequality.md#entropy-functional) satisfies
+
+$$
+\frac{\operatorname{Ent}(e^{\lambda X})}{M(\lambda)}
+=\lambda\psi'(\lambda)-\psi(\lambda).
+$$
+
+Hence the assumed inequality gives
+
+$$
+\left(\frac{\psi(\lambda)}{\lambda}\right)'
+=\frac{\lambda\psi'(\lambda)-\psi(\lambda)}{\lambda^2}
+\leq\frac\nu2.
+$$
+
+Because $\mathbb EX=0$, $\psi(\lambda)/\lambda\to0$ as $\lambda\to0$. Integrating from zero to $\lambda$ when $\lambda>0$, and from $\lambda$ to zero and then multiplying by the negative number $\lambda$ when $\lambda<0$, gives in both cases
+
+$$
+\psi(\lambda)\leq\frac{\nu\lambda^2}{2}.
+$$
+
+**Thus $\mathbb Ee^{\lambda X}\leq e^{\nu\lambda^2/2}$ for every real $\lambda$, which is precisely the [sub-Gaussian random variable](../../../probability-and-statistics.md#sub-gaussian-distribution) bound with variance parameter $\nu$. This integration is the [Herbst argument](../../../probability-inequality.md#herbst-argument).**
+
+<h3 id="1/b">b</h3>
+
+↑ **Parent:** [1](#1)
+
+<h4 id="1/b/solution">Solution</h4>
+
+↑ **Parent:** [B](#1/b)
+
+Set
+
+$$
+Z=\frac{e^{\lambda X}}{M(\lambda)},
+\qquad \mathbb EZ=1.
+$$
+
+Under the probability measure with density $Z$, the [Jensen inequality](../../../real-analysis.md#jensen-s-inequality) for the concave logarithm gives
+
+$$
+\frac{\operatorname{Ent}(e^{\lambda X})}{M(\lambda)}
+=\mathbb E[Z\log Z]
+\leq\log\mathbb E[Z^2]
+=\log\frac{M(2\lambda)}{M(\lambda)^2}.
+$$
+
+The sub-Gaussian assumption with variance parameter $\nu/4$ gives $M(2\lambda)\leq e^{\nu\lambda^2/2}$. A second application of [Jensen inequality](../../../real-analysis.md#jensen-s-inequality) gives $M(\lambda)\geq e^{\lambda\mathbb EX}=1$. Consequently
+
+$$
+\operatorname{Ent}(e^{\lambda X})
+\leq\frac{\nu\lambda^2}{2}M(\lambda),
+$$
+
+as required.
+
+## 2
+
+↑ **Parent:** [Paper 208](paper-208.md)
+
+<h3 id="2/a">a</h3>
+
+↑ **Parent:** [2](#2)
+
+<h4 id="2/a/solution">Solution</h4>
+
+↑ **Parent:** [A](#2/a)
+
+Write $X_{-i}$ for all coordinates except $X_i$, let $X_i'$ be an [independent random variable](../../../random-variable.md#independent-random-variables) with the same distribution as $X_i$, and let $Z_i'=f(X_1,\ldots,X_i',\ldots,X_n)$. Three equivalent forms of the [Efron–Stein inequality](../../../probability-inequality.md#efron-stein-inequality) are
+
+$$
+\operatorname{Var}(Z)
+\leq\sum_{i=1}^n\mathbb E\operatorname{Var}(Z\mid X_{-i}),
+$$
+
+
+
+$$
+\operatorname{Var}(Z)
+\leq\sum_{i=1}^n\mathbb E(Z-Z_i)^2
+$$
+
+for arbitrary square-integrable $Z_i$ measurable with respect to $X_{-i}$, and
+
+$$
+\operatorname{Var}(Z)
+\leq\frac12\sum_{i=1}^n\mathbb E(Z-Z_i')^2.
+$$
+
+The first is the sharp choice within the second because [conditional expectation](../../../measure-theory.md#conditional-expectation) is the least-squares projection. The first and third right sides are equal because two conditionally independent copies have expected squared difference twice their [conditional variance](../../../variance.md#conditional-variance).
+
+<h3 id="2/b">b</h3>
+
+↑ **Parent:** [2](#2)
+
+<h4 id="2/b/solution">Solution</h4>
+
+↑ **Parent:** [B](#2/b)
+
+The [bounded differences property](../../../probability-inequality.md#bounded-differences-property) with constants $c_i$ means
+
+$$
+|f(x)-f(x')|\leq c_i
+$$
+
+whenever $x$ and $x'$ differ only in coordinate $i$. Conditional on $X_{-i}$, the range of $Z$ is therefore at most $c_i$. The range bound on variance gives
+
+$$
+\operatorname{Var}(Z\mid X_{-i})\leq\frac{c_i^2}{4}.
+$$
+
+Substitution into the [Efron–Stein inequality](../../../probability-inequality.md#efron-stein-inequality) yields
+
+$$
+\boxed{\operatorname{Var}(Z)\leq\frac14\sum_{i=1}^nc_i^2.}
+$$
+
+<h3 id="2/c">c</h3>
+
+↑ **Parent:** [2](#2)
+
+<h4 id="2/c/solution">Solution</h4>
+
+↑ **Parent:** [C](#2/c)
+
+Changing $X_k$ while keeping all other coordinates fixed changes every candidate linear form by at most
+
+$$
+2\max_{1\leq\ell\leq m}|A_{k,\ell}|.
+$$
+
+The maximum of finitely many functions obeys the same bound, so part b applies with $c_k=2\max_\ell|A_{k,\ell}|$. Therefore
+
+$$
+\boxed{\operatorname{Var}(Z)
+\leq\sum_{k=1}^n
+\left(\max_{1\leq\ell\leq m}|A_{k,\ell}|\right)^2.}
+$$
+
+<h3 id="2/d">d</h3>
+
+↑ **Parent:** [2](#2)
+
+<h4 id="2/d/solution">Solution</h4>
+
+↑ **Parent:** [D](#2/d)
+
+Let $\ell^*$ be a maximizing index for the original sample. Since $Z_i'$ is at least the value of its $\ell^*$th linear form,
+
+$$
+(Z-Z_i')_+
+\leq\{(X_i-X_i')A_{i,\ell^*}\}_+,
+$$
+
+and hence
+
+$$
+(Z-Z_i')_+^2
+\leq(X_i-X_i')^2A_{i,\ell^*}^2.
+$$
+
+The one-sided replacement form of the [Efron–Stein inequality](../../../probability-inequality.md#efron-stein-inequality) is
+
+$$
+\operatorname{Var}(Z)
+\leq\sum_i\mathbb E(Z-Z_i')_+^2.
+$$
+
+For independent uniform signs, $\mathbb E[(X_i-X_i')^2\mid X]=2$. It follows that
+
+$$
+\operatorname{Var}(Z)
+\leq2\mathbb E\sum_iA_{i,\ell^*}^2
+\leq2\max_{1\leq\ell\leq m}\sum_iA_{i,\ell}^2.
+$$
+
+## 3
+
+↑ **Parent:** [Paper 208](paper-208.md)
+
+<h3 id="3/a">a</h3>
+
+↑ **Parent:** [3](#3)
+
+<h4 id="3/a/solution">Solution</h4>
+
+↑ **Parent:** [A](#3/a)
+
+The empty-bin indicators are not independent. For distinct $i,k$,
+
+$$
+\mathbb P(Z_i=Z_k=1)=\left(1-\frac2n\right)^m,
+$$
+
+whereas $\mathbb P(Z_i=1)\mathbb P(Z_k=1)=(1-1/n)^{2m}$.
+
+Each bin is empty precisely when all $m$ balls avoid it, so
+
+$$
+\mathbb EZ_i=\left(1-\frac1n\right)^m.
+$$
+
+The [linearity of expectation](../../../probability-theory.md#linearity-of-expectation) does not require independence and gives
+
+$$
+\boxed{\mathbb EZ=n\left(1-\frac1n\right)^m.}
+$$
+
+<h3 id="3/b">b</h3>
+
+↑ **Parent:** [3](#3)
+
+<h4 id="3/b/solution">Solution</h4>
+
+↑ **Parent:** [B](#3/b)
+
+Moving one ball can destroy at most one empty bin and create at most one empty bin; the net number of empty bins therefore changes by at most one. Thus $f$ has the [bounded differences property](../../../probability-inequality.md#bounded-differences-property) with $c_j=1$ for all $m$ ball coordinates. The upper- and lower-tail forms of the [McDiarmid inequality](../../../probability-inequality.md#mcdiarmid-s-inequality) give, for $t>0$,
+
+$$
+\boxed{\mathbb P(Z-\mathbb EZ\geq t)
+\leq e^{-2t^2/m},
+\qquad
+\mathbb P(Z-\mathbb EZ\leq-t)
+\leq e^{-2t^2/m}.}
+$$
+
+<h3 id="3/c">c</h3>
+
+↑ **Parent:** [3](#3)
+
+<h4 id="3/c/solution">Solution</h4>
+
+↑ **Parent:** [C](#3/c)
+
+Let $B$ be the set of bins that are occupied in configuration $x$ but empty in configuration $y$. For each $b\in B$, choose the lowest-numbered ball $j_b$ lying in $b$ under $x$. Then $\alpha_{j_b}(x)=1$ and $x_{j_b}\ne y_{j_b}$. Distinct bins choose distinct balls, so
+
+$$
+|B|\leq\sum_{j=1}^m\alpha_j(x)\mathbf1_{\{x_j\ne y_j\}}.
+$$
+
+Every increase in the number of empty bins is accounted for by a newly empty bin, while newly occupied bins only decrease that number. Hence $f(y)-f(x)\leq|B|$, proving the stated inequality.
+
+<h3 id="3/d">d</h3>
+
+↑ **Parent:** [3](#3)
+
+<h4 id="3/d/solution">Solution</h4>
+
+↑ **Parent:** [D](#3/d)
+
+Exactly one lowest-numbered ball is selected in each occupied bin, so
+
+$$
+\sum_{j=1}^m\alpha_j(x)
+=n-f(x)\leq n,
+\qquad
+\sum_{j=1}^m\alpha_j(x)^2\leq n.
+$$
+
+Part c supplies the corresponding one-sided coordinate certificate. The product-space [entropy method for certifiable functions](../../../probability-inequality.md#entropy-method-for-certifiable-functions) states that a function with such a certificate of squared size at most $v$ has both centered tails bounded by $e^{-t^2/(2v)}$. Taking $v=n$ gives
+
+$$
+\boxed{\mathbb P(Z-\mathbb EZ\geq t)
+\leq e^{-t^2/(2n)},
+\qquad
+\mathbb P(Z-\mathbb EZ\leq-t)
+\leq e^{-t^2/(2n)}.}
+$$
+
+## ↑ Ancestors (8)
+
+1. [Iii](../iii.md)
+2. [2022](../../2022.md)
+3. [Past exam of the mathematics course of the University of Cambridge](../../../past-exam-of-the-mathematics-course-of-the-university-of-cambridge.md)
+4. [Mathematics course of the University of Cambridge](../../../university-of-cambridge.md#mathematics-course-of-the-university-of-cambridge)
+5. [Course of the University of Cambridge](../../../university-of-cambridge.md#course-of-the-university-of-cambridge)
+6. [University of Cambridge](../../../university-of-cambridge.md)
+7. [List of universities](../../../README.md#list-of-universities)
+8. [Codex Wiki](../../../README.md)

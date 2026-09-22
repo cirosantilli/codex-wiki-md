@@ -1,0 +1,58 @@
+# Indicator random variable
+
+↑ **Parent:** [Expected value](expected-value.md)
+
+An [indicator random variable](indicator-random-variable.md) is the [indicator function](indicator-function.md) of an [event](event.md) $A$ in a [probability space](probability-space.md): $\mathbf1_A$ is one when $A$ occurs and zero otherwise. It has a [Bernoulli distribution](bernoulli-distribution.md) with parameter $p=\mathbb P(A)$, so $\mathbb E[\mathbf1_A]=p$ and $\operatorname{Var}(\mathbf1_A)=p(1-p)$. Even an [event](event.md) described without numbers becomes a numerical [random variable](random-variable-split.md) in this way.
+
+For a finite collection of [events](event.md), their [indicator random variables](indicator-random-variable.md) add up to the number that occur. [Linearity of expectation](linearity-of-expectation.md) therefore turns an average count into a sum of [probabilities](probability.md), without requiring [independence](independent-random-variables.md). The [fixed point count of a uniform random permutation](fixed-point-count-of-a-uniform-random-permutation.md) provides an example where the indicators are [dependent random variables](statistical-dependence.md).
+
+## ↑ Ancestors (6)
+
+1. [Expected value](expected-value.md)
+2. [Probability theory](probability-theory-split.md)
+3. [Probability and statistics](probability-and-statistics-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (39)
+
+- [Bernoulli distribution](bernoulli-distribution.md)
+- [Conditional independence](conditional-independence.md)
+- [Covariance induced by a shared latent variable](covariance-induced-by-a-shared-latent-variable.md)
+- [Discrete probability distribution](discrete-probability-distribution-split.md)
+- [Expected number of coordinatewise maxima](expected-number-of-coordinatewise-maxima.md)
+- [Expected subgraph count in the Erdős-Rényi model](expected-subgraph-count-in-the-erdos-renyi-model.md)
+- [Fano's inequality via an error indicator](fano-s-inequality-via-an-error-indicator.md)
+- [Finite population correction](finite-population-correction.md)
+- [Fixed point count of a uniform random permutation](fixed-point-count-of-a-uniform-random-permutation.md)
+- [Indicator random variable](indicator-random-variable.md)
+- [Limsup of events](limsup-of-events.md)
+- [Linearity of expectation](linearity-of-expectation.md)
+- [Linkage disequilibrium](linkage-disequilibrium.md)
+- [Multinomial distribution](multinomial-distribution.md)
+- [Parity construction of pairwise independent bits](parity-construction-of-pairwise-independent-bits.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/ia/paper-2/11f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-36/2/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-36/3/b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-36/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ia/paper-2/11f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-9/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-12/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-322/1/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-201/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-207/1/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-207/1/a/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ia/paper-2/12f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ib/paper-4/9h/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-3/17g/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-339/2/c/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ii/paper-1/17g/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-1/17h/b/i/solution.md)
+- [Poisson distribution](poisson-distribution.md)
+- [Random variable](random-variable-split.md)
+- [Second moment method](second-moment-method.md)
+- [Separate chaining](separate-chaining.md)
+- [Shared-uniform counterexample to the second Borel-Cantelli lemma](shared-uniform-counterexample-to-the-second-borel-cantelli-lemma.md)
+- [Stein-Chen bound with the Poisson Stein factor](stein-chen-bound-with-the-poisson-stein-factor.md)
+- [Stein-Chen method](stein-chen-method.md)

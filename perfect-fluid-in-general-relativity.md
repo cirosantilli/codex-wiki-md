@@ -1,0 +1,71 @@
+# Perfect fluid in general relativity
+
+↑ **Parent:** [Stress-energy tensor](stress-energy-tensor.md)
+
+A relativistic perfect fluid has energy density $\rho$, isotropic pressure $p$ and unit timelike four-velocity $u$. Projecting $\nabla_aT^{ab}=0$ along and orthogonally to $u$ gives its energy and Euler equations.
+
+For a [perfect fluid](perfect-fluid.md), the relativistic stress tensor is $T_{ab}=(\rho+p)u_au_b+pg_{ab}$ in signature $(-,+,+,+)$ with $u^au_a=-1$.
+
+**Table of contents**
+
+- [Canonical scalar stress as a perfect fluid](canonical-scalar-stress-as-a-perfect-fluid.md)
+  - [Conformal density of a canonical scalar field](conformal-density-of-a-canonical-scalar-field.md)
+- [Canonical vorticity of a relativistic fluid](canonical-vorticity-of-a-relativistic-fluid.md)
+- [Variational action for relativistic potential flow](variational-action-for-relativistic-potential-flow.md)
+- [Particle number conservation in a relativistic fluid](particle-number-conservation-in-a-relativistic-fluid.md)
+- [Specific enthalpy per particle](specific-enthalpy-per-particle.md)
+  - [Barotropic relativistic sound speed](barotropic-relativistic-sound-speed.md)
+- [Perfect-fluid alignment in a static spacetime](perfect-fluid-alignment-in-a-static-spacetime.md)
+- [Stiff fluid](stiff-fluid.md)
+  - [Homogeneous free scalar as a stiff fluid](homogeneous-free-scalar-as-a-stiff-fluid.md)
+    - [Cosmological contraction with a free homogeneous scalar](cosmological-contraction-with-a-free-homogeneous-scalar.md)
+      - [Newtonian-potential Hankel modes in stiff contraction](newtonian-potential-hankel-modes-in-stiff-contraction.md)
+        - [Vacuum-normalized Newtonian spectrum in stiff contraction](vacuum-normalized-newtonian-spectrum-in-stiff-contraction.md)
+- [Relativistic perfect-fluid energy equation](relativistic-perfect-fluid-energy-equation.md)
+- [Relativistic Euler equation](relativistic-euler-equation.md)
+  - [Weak-field slow-motion equations for a relativistic fluid](weak-field-slow-motion-equations-for-a-relativistic-fluid.md)
+  - [Hydrostatic equilibrium along a Killing vector](hydrostatic-equilibrium-along-a-killing-vector.md)
+    - [Stationary radiation density](stationary-radiation-density.md)
+      - [Radiation fluid has no regular free surface](radiation-fluid-has-no-regular-free-surface.md)
+    - [Barotropic hydrostatic first integral](barotropic-hydrostatic-first-integral.md)
+- [Tolman–Oppenheimer–Volkoff equation](tolman-oppenheimer-volkoff-equation.md)
+  - [Stellar compactness](stellar-compactness.md)
+  - [Regular central expansion of the TOV equations](regular-central-expansion-of-the-tov-equations.md)
+  - [Interior Schwarzschild metric](interior-schwarzschild-metric.md)
+    - [Central pressure of a constant-density relativistic star](central-pressure-of-a-constant-density-relativistic-star.md)
+      - [Dominant-energy compactness bound for an incompressible star](dominant-energy-compactness-bound-for-an-incompressible-star.md)
+  - [Buchdahl's theorem](buchdahl-s-theorem.md)
+    - [High-density core bound from TOV compactness](high-density-core-bound-from-tov-compactness.md)
+
+## ↑ Ancestors (5)
+
+1. [Stress-energy tensor](stress-energy-tensor.md)
+2. [General relativity](general-relativity-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (22)
+
+- [Barotropic relativistic sound speed](barotropic-relativistic-sound-speed.md)
+- [Barotropic stellar equation of state](barotropic-stellar-equation-of-state.md)
+- [Constant-equation-of-state conformal Riccati equation](constant-equation-of-state-conformal-riccati-equation.md)
+- [Friedmann effective potential for a constant-equation-of-state fluid](friedmann-effective-potential-for-a-constant-equation-of-state-fluid.md)
+- [Momentum density](momentum-density.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-70/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-72/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-57/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-57/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-49/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-54/1/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-54/1/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-311/2/d/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-310/1/a/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-310/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ii/paper-4/37c/a/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ii/paper-4/37c/b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-309/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-309/4/d/solution.md)
+- [Perfect fluid](perfect-fluid.md)
+- [Separately conserved cosmological fluids](separately-conserved-cosmological-fluids.md)
+- [Tolman–Oppenheimer–Volkoff equation](tolman-oppenheimer-volkoff-equation.md)

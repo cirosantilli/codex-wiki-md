@@ -1,0 +1,61 @@
+# Phase coexistence curve
+
+↑ **Parent:** [Gibbs free energy](gibbs-free-energy.md)
+
+Two phases coexist where their molar Gibbs free energies agree. Differentiating that equality along the coexistence curve relates its slope to the entropy and volume jumps.
+
+**Table of contents**
+
+- [Triple point](triple-point.md)
+- [Vapor pressure](vapor-pressure.md)
+- [Maxwell construction](maxwell-construction.md)
+- [Phase diagram](phase-diagram.md)
+  - [Solidus](solidus.md)
+  - [Lever rule](lever-rule.md)
+  - [Bicritical point](bicritical-point.md)
+  - [Liquidus](liquidus.md)
+    - [Freezing-point depression](freezing-point-depression.md)
+  - [Eutectic system](eutectic-system.md)
+    - [Eutectic composition](eutectic-composition.md)
+    - [Eutectic temperature](eutectic-temperature.md)
+- [First-order phase transition](first-order-phase-transition.md)
+  - [Two-phase scalar coexistence endpoint conditions](two-phase-scalar-coexistence-endpoint-conditions.md)
+  - [Spin-flop transition](spin-flop-transition.md)
+  - [Classical nucleation theory](classical-nucleation-theory.md)
+    - [Critical nucleus](critical-nucleus.md)
+    - [Arrhenius nucleation time](arrhenius-nucleation-time.md)
+- [Latent heat](latent-heat.md)
+  - [Stefan number](stefan-number.md)
+    - [Latent-to-sensible heat ratio](latent-to-sensible-heat-ratio.md)
+  - [Clausius-Clapeyron relation](clausius-clapeyron-relation.md)
+    - [Ideal-vapor Clausius-Clapeyron approximation](ideal-vapor-clausius-clapeyron-approximation.md)
+      - [Integrated Clausius-Clapeyron relation](integrated-clausius-clapeyron-relation.md)
+        - [Stipulated vapor-pressure calculation](stipulated-vapor-pressure-calculation.md)
+        - [Latent heat from a vapor-pressure slope](latent-heat-from-a-vapor-pressure-slope.md)
+    - [Saturation-pressure equilibrium measurement](saturation-pressure-equilibrium-measurement.md)
+    - [Common-pressure melting-point slope](common-pressure-melting-point-slope.md)
+      - [Negative melting-point slope of water](negative-melting-point-slope-of-water.md)
+
+## ↑ Ancestors (8)
+
+1. [Gibbs free energy](gibbs-free-energy.md)
+2. [Thermodynamic free energy](thermodynamic-free-energy.md)
+3. [Thermodynamic potential](thermodynamic-potential.md)
+4. [Thermodynamics](thermodynamics-split.md)
+5. [Statistical physics](statistical-physics-split.md)
+6. [Branches of physics](branches-of-physics.md)
+7. [Physics](physics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (10)
+
+- [Clausius-Clapeyron relation](clausius-clapeyron-relation.md)
+- [Latent heat](latent-heat.md)
+- [Liquid-gas critical point](liquid-gas-critical-point.md)
+- [Negative melting-point slope of water](negative-melting-point-slope-of-water.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-2/36a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/ii/paper-4/35c/a/solution.md)
+- [Saturation-pressure equilibrium measurement](saturation-pressure-equilibrium-measurement.md)
+- [Two-phase scalar coexistence endpoint conditions](two-phase-scalar-coexistence-endpoint-conditions.md)
+- [Van der Waals liquid-gas coexistence](van-der-waals-liquid-gas-coexistence.md)
+- [Vapor pressure](vapor-pressure.md)

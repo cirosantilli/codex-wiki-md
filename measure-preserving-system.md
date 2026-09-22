@@ -1,0 +1,60 @@
+# Measure-preserving system
+
+↑ **Parent:** [Measure-preserving transformation](measure-preserving-transformation.md)
+
+A measure-preserving system is a measure space $(X,\mathcal B,\mu)$ together with a [measure-preserving transformation](measure-preserving-transformation.md) $T$. In ergodic theory the measure is commonly a probability measure.
+
+**Table of contents**
+
+- [Factor of a measure-preserving system](factor-of-a-measure-preserving-system.md)
+  - [Factor map between measure-preserving systems](factor-map-between-measure-preserving-systems.md)
+    - [Compact extension of a measure-preserving system](compact-extension-of-a-measure-preserving-system.md)
+      - [Finite-fiber compact extension](finite-fiber-compact-extension.md)
+      - [Positive-measure almost periodic indicator in a compact extension](positive-measure-almost-periodic-indicator-in-a-compact-extension.md)
+    - [Relatively almost periodic observable](relatively-almost-periodic-observable.md)
+      - [Localization of relative almost periodicity to base sets](localization-of-relative-almost-periodicity-to-base-sets.md)
+
+## ↑ Ancestors (8)
+
+1. [Measure-preserving transformation](measure-preserving-transformation.md)
+2. [Ergodic theory](ergodic-theory.md)
+3. [Measure theory](measure-theory-split.md)
+4. [Real analysis](real-analysis-split.md)
+5. [Analysis](analysis-split.md)
+6. [Area of mathematics](area-of-mathematics.md)
+7. [Mathematics](mathematics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (31)
+
+- [Almost periodic observable](almost-periodic-observable.md)
+- [Compact measure-preserving system](compact-measure-preserving-system.md)
+- [Completely positive entropy](completely-positive-entropy.md)
+- [Decay of autocorrelation implies weak convergence of an observable](decay-of-autocorrelation-implies-weak-convergence-of-an-observable.md)
+- [Ergodic decomposition](ergodic-decomposition.md)
+- [Factor map between measure-preserving systems](factor-map-between-measure-preserving-systems.md)
+- [Factor of a measure-preserving system](factor-of-a-measure-preserving-system.md)
+- [Finite one-sided generator of an invertible system forces zero entropy](finite-one-sided-generator-of-an-invertible-system-forces-zero-entropy.md)
+- [Furstenberg multiple recurrence theorem](furstenberg-multiple-recurrence-theorem.md)
+- [Generating measurable partition](generating-measurable-partition.md)
+- [Invariant measure](invariant-measure.md)
+- [Kolmogorov-Sinai generator theorem](kolmogorov-sinai-generator-theorem.md)
+- [Linear growth bound for integrable observables](linear-growth-bound-for-integrable-observables.md)
+- [Nonnegative ergodic averages with infinite integral](nonnegative-ergodic-averages-with-infinite-integral.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-30/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-30/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-30/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-14/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-14/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-14/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-108/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-108/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-108/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-108/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-108/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-108/1/solution.md)
+- [Poincaré recurrence theorem](poincare-recurrence-theorem.md)
+- [Shannon-McMillan-Breiman theorem](shannon-mcmillan-breiman-theorem.md)
+- [Spectral measure of a Koopman observable](spectral-measure-of-a-koopman-observable.md)
+- [SZ property](sz-property.md)
+- [Triangular ergodic averaging lemma](triangular-ergodic-averaging-lemma.md)

@@ -1,0 +1,72 @@
+# Chemical kinetics
+
+↑ **Parent:** [Chemical reaction](chemical-reaction.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Chemical_kinetics)
+
+[Chemical kinetics](chemical-kinetics.md) studies how quickly [chemical reactions](chemical-reaction.md) proceed and how their [reaction rates](reaction-rate.md) depend on composition and conditions. It connects a measured change in [concentration](concentration.md) to a [rate law](rate-law.md), then uses a [rate equation](rate-equation.md) to predict future [concentrations](concentration.md). This makes it useful for choosing how long to wait for conversion and for testing a proposed [reaction mechanism](reaction-mechanism.md). Changing [temperature](temperature.md), [reactant](reactant.md) [concentrations](concentration.md), or the presence of a [catalyst](catalyst.md) can change [reaction rates](reaction-rate.md); see [Flowers et al., Chemistry 2e, §12.2: factors affecting reaction rates](https://openstax.org/books/chemistry-2e/pages/12-2-factors-affecting-reaction-rates).
+
+[Chemical equilibrium](chemical-equilibrium.md) specifies the eventual balance under given constraints; [chemical kinetics](chemical-kinetics.md) determines how rapidly it is approached. At fixed [temperature](temperature.md) and [pressure](pressure.md), a decrease in [Gibbs free energy](gibbs-free-energy.md) favours conversion but does not guarantee a fast [chemical reaction](chemical-reaction.md): reaching a [transition state](transition-state.md) can require crossing a substantial barrier. Thus a mixture can change imperceptibly over an observation period without being at [chemical equilibrium](chemical-equilibrium.md). The distinction separates which direction is favoured from how long conversion takes. See [12.5 Collision Theory](chemistry-2e-by-paul-flowers-and-others/12-5-collision-theory.md) (§12.5: collision theory and reaction barriers) and [Chemistry 2e, §16.1: spontaneity and speed](https://openstax.org/books/chemistry-2e/pages/16-1-spontaneity).
+
+**Table of contents**
+
+- [Activation energy](activation-energy.md)
+  - [Apparent activation energy](apparent-activation-energy.md)
+  - [Arrhenius equation](arrhenius-equation.md)
+    - [Pre-exponential factor](pre-exponential-factor.md)
+    - [Arrhenius plot](arrhenius-plot.md)
+    - [Modified Arrhenius equation](modified-arrhenius-equation.md)
+    - [Conductometric determination of activation energy](conductometric-determination-of-activation-energy.md)
+- [Reaction mechanism](reaction-mechanism.md)
+  - [Reaction intermediate](reaction-intermediate.md)
+  - [Reaction coordinate](reaction-coordinate.md)
+    - [Potential energy surface](potential-energy-surface.md)
+    - [Energy profile (chemistry)](energy-profile-chemistry.md)
+      - [Potential-energy profile](potential-energy-profile.md)
+      - [Reaction energy barrier](reaction-energy-barrier.md)
+  - [Elementary reaction](elementary-reaction.md)
+    - [Molecularity](molecularity.md)
+- [Catalysis](catalysis.md)
+  - [Catalytic cycle](catalytic-cycle.md)
+  - [Catalytic barriers and reaction free energy](catalytic-barriers-and-reaction-free-energy.md)
+  - [Reversible catalytic relaxation](reversible-catalytic-relaxation.md)
+  - [Catalytic selectivity](catalytic-selectivity.md)
+  - [Catalyst deactivation](catalyst-deactivation.md)
+  - [Homogeneous catalysis](homogeneous-catalysis.md)
+  - [Heterogeneous catalysis](heterogeneous-catalysis.md)
+    - [Catalysed peroxide comparison](catalysed-peroxide-comparison.md)
+  - [Catalyst](catalyst.md)
+    - [Transition state theory](transition-state-theory.md)
+      - [Gibbs energy of activation](gibbs-energy-of-activation.md)
+        - [Enthalpy of activation](enthalpy-of-activation.md)
+        - [Entropy of activation](entropy-of-activation.md)
+- [Transition state](transition-state.md)
+- [Reaction rate](reaction-rate.md)
+  - [Disappearance rate](disappearance-rate.md)
+  - [Rate law](rate-law.md)
+    - [Integrated rate law](integrated-rate-law.md)
+    - [Order of reaction](order-of-reaction.md)
+      - [First-order reaction](first-order-reaction.md)
+      - [Zero-order reaction](zero-order-reaction.md)
+      - [Second-order reaction](second-order-reaction.md)
+        - [Conductometric saponification assay](conductometric-saponification-assay.md)
+      - [Pseudo-first-order reaction](pseudo-first-order-reaction.md)
+- [Rate constant](rate-constant.md)
+
+## ↑ Ancestors (3)
+
+1. [Chemical reaction](chemical-reaction.md)
+2. [Chemistry](chemistry-split.md)
+3. [Codex Wiki](split.md)
+
+## ← Incoming links (10)
+
+- [Acid dissociation constant](acid-dissociation-constant.md)
+- [Catalyst](catalyst.md)
+- [Chain-growth propagation](chain-growth-propagation.md)
+- [Chemical equilibrium](chemical-equilibrium.md)
+- [Chemical kinetics](chemical-kinetics.md)
+- [Electrolysis](electrolysis.md)
+- [Enzyme](enzyme.md)
+- [Metabolism](metabolism.md)
+- [Ribozyme](ribozyme.md)
+- [Stable radical](stable-radical.md)

@@ -1,0 +1,237 @@
+# Gaussian integral
+
+↑ **Parent:** [Integral](integral.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Gaussian_integral)
+
+The [Gaussian integral](gaussian-integral.md) gives the exact area under a [Gaussian function](gaussian-function.md). For a positive [real number](real-number.md) $a$,
+
+$$
+\boxed{I(a)=\int_{-\infty}^{\infty}e^{-ax^2}\,dx=\sqrt{\frac\pi a}.}
+$$
+
+This is a finite [improper integral](improper-integral.md) over the whole [real line](real-line.md). For example, $I(1)=\sqrt\pi\approx1.772454$ and $I(4)=\sqrt\pi/2\approx0.886227$. Increasing $a$ from one to four narrows the curve and halves its area, while its height at zero stays one. The [change of variables](change-of-variables-formula.md) $u=\sqrt a\,x$ explains the factor $a^{-1/2}$.
+
+<a id="image-narrower-gaussian-curves-have-less-area-unless-their-height-is-adjusted"></a>
+![](gaussian-integral-width-and-area.png)
+
+**[Figure 10](#image-narrower-gaussian-curves-have-less-area-unless-their-height-is-adjusted). Narrower Gaussian curves have less area unless their height is adjusted**. Left: the full-line areas of $e^{-x^2}$ and $e^{-4x^2}$ are $\sqrt\pi$ and $\sqrt\pi/2$. Right: multiplication by $\sqrt{a/\pi}$ makes both areas one. Shading shows the plotted finite interval; the stated areas refer to the whole [real line](real-line.md).
+
+The useful consequence is an exact normalization. For $a>0$ and any real center $\mu$,
+
+$$
+p_a(x)=\sqrt{\frac a\pi}\,e^{-a(x-\mu)^2},\qquad
+\int_{\mathbb R}p_a(x)\,dx=1.
+$$
+
+This is a [probability density function](probability-density-function.md) for a [normal distribution](normal-distribution.md) with [expected value](expected-value.md) $\mu$ and [variance](variance-split.md) $1/(2a)$. A narrower [probability density function](probability-density-function.md) must be taller to keep total [probability](probability.md) one. In the usual notation $a=1/(2\sigma^2)$, the prefactor is $1/(\sigma\sqrt{2\pi})$, where $\sigma$ is the [standard deviation](standard-deviation.md).
+
+The same area calculation makes the one-dimensional [heat kernel](heat-kernel.md)
+
+$$
+K(x,t)=\frac1{\sqrt{4\pi Dt}}e^{-x^2/(4Dt)},\qquad D>0,\quad t>0,
+$$
+
+integrate to one in $x$, with $D$ the [diffusion coefficient](diffusion-coefficient.md). A spreading [Gaussian function](gaussian-function.md) can therefore preserve total mass while its height falls. This links the [Gaussian integral](gaussian-integral.md) with both the [normal distribution](normal-distribution.md) and the [diffusion equation](diffusion-equation-split.md).
+
+Finite intervals lead to the [error function](error-function.md), rather than this single constant:
+
+$$
+\operatorname{erf}(z)=\frac2{\sqrt\pi}\int_0^z e^{-u^2}\,du,\qquad
+\int_{-R}^{R}e^{-ax^2}\,dx
+=\sqrt{\frac\pi a}\operatorname{erf}(\sqrt a\,R),\quad R\ge0.
+$$
+
+The complementary tail is described by the [complementary error function](complementary-error-function.md). These definitions and their real-axis limits are given in the NIST reference. [NIST Digital Library of Mathematical Functions, §7.2, equations 7.2.1–7.2.4](https://dlmf.nist.gov/7.2)
+
+The [polar-coordinate proof of the Gaussian integral](polar-coordinate-proof-of-the-gaussian-integral.md) explains why $\pi$ appears in an integral of a function defined on a line: squaring its area creates a rotationally symmetric integral on a plane. Substitution $t=x^2$ also gives $\Gamma(1/2)=2\int_0^\infty e^{-x^2}\,dx=\sqrt\pi$, connecting the result with the [Gamma function](gamma-function.md).
+
+**Table of contents**
+
+- [Polar-coordinate proof of the Gaussian integral](polar-coordinate-proof-of-the-gaussian-integral.md)
+- [Linear-source multivariate Gaussian integral](linear-source-multivariate-gaussian-integral.md)
+- [Dawson function](dawson-function.md)
+  - [Gaussian drift primitives](gaussian-drift-primitives.md)
+- [Error function](error-function.md)
+  - [Quadrant asymptotics of the error function](quadrant-asymptotics-of-the-error-function.md)
+  - [Complementary error function](complementary-error-function.md)
+    - [Faddeeva function](faddeeva-function.md)
+      - [Gaussian pole integral](gaussian-pole-integral.md)
+
+## ↑ Ancestors (7)
+
+1. [Integral](integral.md)
+2. [Calculus](calculus-split.md)
+3. [Real analysis](real-analysis-split.md)
+4. [Analysis](analysis-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (166)
+
+- [Bargmann-Fock space](bargmann-fock-space.md)
+- [Bose-gas phase-only action](bose-gas-phase-only-action.md)
+- [Complementary error function](complementary-error-function.md)
+- [Complex beta integral](complex-beta-integral.md)
+- [Constant term of a nonholomorphic Eisenstein series](constant-term-of-a-nonholomorphic-eisenstein-series.md)
+- [Equipartition theorem](equipartition-theorem.md)
+- [Euclidean massive loop integral](euclidean-massive-loop-integral.md)
+- [Exponential moment of an absolute standard normal variable](exponential-moment-of-an-absolute-standard-normal-variable.md)
+- [Flat-prior elimination of a Gaussian common mean](flat-prior-elimination-of-a-gaussian-common-mean.md)
+- [Fourier-cutoff oscillator functional determinant](fourier-cutoff-oscillator-functional-determinant.md)
+- [Gamma function](gamma-function.md)
+- [Gamma integral](gamma-integral.md)
+- [Gaussian approximation to a nonresonant thermonuclear rate](gaussian-approximation-to-a-nonresonant-thermonuclear-rate.md)
+- [Gaussian autoregressive kernel variance correction](gaussian-autoregressive-kernel-variance-correction.md)
+- [Gaussian beam](gaussian-beam.md)
+- [Gaussian beam with one transverse coordinate](gaussian-beam-with-one-transverse-coordinate.md)
+- [Gaussian covariance differentiation identity](gaussian-covariance-differentiation-identity.md)
+- [Gaussian envelope in a Klein-Gordon medium](gaussian-envelope-in-a-klein-gordon-medium.md)
+- [Gaussian function](gaussian-function.md)
+- [Gaussian integral](gaussian-integral.md)
+- [Gaussian-over-Rayleigh inclination distribution](gaussian-over-rayleigh-inclination-distribution.md)
+- [Gaussian path integral](gaussian-path-integral.md)
+- [Gaussian peak behind Stirling's formula](gaussian-peak-behind-stirling-s-formula.md)
+- [Gaussian saddle and endpoint dominance by angle](gaussian-saddle-and-endpoint-dominance-by-angle.md)
+- [Gaussian saddle coalescing with a simple pole](gaussian-saddle-coalescing-with-a-simple-pole.md)
+- [Gaussian scalar packet in a linear incompressible flow](gaussian-scalar-packet-in-a-linear-incompressible-flow.md)
+- [Gaussian variational energy for the harmonic oscillator](gaussian-variational-energy-for-the-harmonic-oscillator.md)
+- [Ground-state overlap after sudden oscillator displacement](ground-state-overlap-after-sudden-oscillator-displacement.md)
+- [Heisenberg uncertainty relation](heisenberg-uncertainty-relation.md)
+- [Inverse-angular-momentum velocity integration](inverse-angular-momentum-velocity-integration.md)
+- [Laplace endpoint estimate](laplace-endpoint-estimate.md)
+- [Linear-source multivariate Gaussian integral](linear-source-multivariate-gaussian-integral.md)
+- [Logarithmic-potential two-integral distribution](logarithmic-potential-two-integral-distribution.md)
+- [Mehler formula for Hermite functions](mehler-formula-for-hermite-functions.md)
+- [Moment-generating function of a chi-squared distribution](moment-generating-function-of-a-chi-squared-distribution.md)
+- [Normal distribution](normal-distribution.md)
+- [Optical coherence time](optical-coherence-time.md)
+- [Oscillatory Gaussian integral with negative phase](oscillatory-gaussian-integral-with-negative-phase.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-32/6/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-42/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/ib/paper-1/7b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/ib/paper-2/18d/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-25/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-48/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-51/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-51/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-65/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-65/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-65/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-69/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-69/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-22/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-29/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-41/6/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-48/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-48/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-48/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/ib/paper-2/19d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-30/6/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-50/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-76/5/a/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-28/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-42/6/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-72/1/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-72/1/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-72/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-79/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-3/24j/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-4/10d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-28/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-42/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-49/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-88/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-10/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-10/7/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-42/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-51/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ib/paper-3/5c/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-1/10e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-42/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-51/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-82/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-86/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ib/paper-4/6b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-48/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-48/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-62/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ia/paper-2/12f/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-3/15d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-3/30e/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-3/38a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-46/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-7/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-70/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-47/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-49/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-51/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-59/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-76/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-44/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-67/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-70/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-75/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ia/paper-2/12f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-46/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-58/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-81/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ia/paper-2/10f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-43/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-46/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-46/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-48/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-62/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-72/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-76/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-8/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-81/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ia/paper-2/4f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-3/15b/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-126/5/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-304/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-304/3/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-335/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-336/1/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ib/paper-2/17b/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-304/1/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-306/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-336/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ib/paper-3/15a/e/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-2/31b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-2/36a/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-4/31b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-304/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-304/2/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-336/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-2/34b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-336/1/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-350/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ia/paper-1/12f/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ia/paper-1/7a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-4/35a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ia/paper-3/10b/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ib/paper-4/14c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ib/paper-4/4c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ii/paper-1/35b/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-327/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-304/1/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-4/31e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-337/2/f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-304/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-344/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-303/1/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-304/3/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-304/3/a/ii/solution.md)
+- [Phase-space path integral](phase-space-path-integral.md)
+- [Quantum harmonic oscillator](quantum-harmonic-oscillator.md)
+- [Quantum variational principle](quantum-variational-principle.md)
+- [Real-time winding representation of a quantum rotor kernel](real-time-winding-representation-of-a-quantum-rotor-kernel.md)
+- [Regulated complex Fresnel integral](regulated-complex-fresnel-integral.md)
+- [Schwinger parameterization](schwinger-parameterization.md)
+- [Signed spatial filter model of a simple cell](signed-spatial-filter-model-of-a-simple-cell.md)
+- [Slant optical depth of an isothermal atmosphere](slant-optical-depth-of-an-isothermal-atmosphere.md)
+- [Stirling correction by Gaussian moments](stirling-correction-by-gaussian-moments.md)
+- [Stirling formula](stirling-formula.md)
+- [Time-sliced equivalence of phase-space and configuration-space path integrals](time-sliced-equivalence-of-phase-space-and-configuration-space-path-integrals.md)
+- [Zero-dimensional quartic perturbation series](zero-dimensional-quartic-perturbation-series.md)

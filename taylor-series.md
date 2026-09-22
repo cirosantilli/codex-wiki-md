@@ -1,0 +1,185 @@
+# Taylor series
+
+↑ **Parent:** [Taylor's theorem](taylor-s-theorem.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Taylor_series)
+
+For a [function](function-split.md) with [derivatives](derivative.md) of every order at $a$, its [Taylor series](taylor-series.md) is the [power series](power-series.md)
+
+$$
+\sum_{n=0}^{\infty}\frac{f^{(n)}(a)}{n!}(x-a)^n.
+$$
+
+Its [partial sums](partial-sum.md) are [Taylor polynomials](taylor-polynomial.md). At $a=0$ it is called a [Maclaurin series](maclaurin-series.md). Forming the coefficients, proving that its [partial sums](partial-sum.md) form a [convergent sequence](convergent-sequence.md), and proving that their [limit](limit-of-a-function.md) equals $f(x)$ are separate tasks. A [smooth function](smooth-function.md) provides all the coefficients, but a [real analytic function](real-analytic-function.md) is additionally represented locally by the resulting [power series](power-series.md).
+
+For the [exponential function](exponential-function.md), every [derivative](derivative.md) of $e^x$ at zero equals one, giving
+
+$$
+e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!}.
+$$
+
+Here equality holds for every real $x$: the [Taylor remainder](taylor-remainder.md) is bounded by $e^{|x|}|x|^{N+1}/(N+1)!$, which tends to zero for each fixed $x$. At $x=1$, the degree-five [Taylor polynomial](taylor-polynomial.md) is $163/60\approx2.71666667$, and the absolute difference from $e$ is less than $e/720$. The [factorial](factorial.md) denominator eventually overwhelms every fixed power, allowing local [derivative](derivative.md) information to reconstruct this [function](function-split.md) throughout the real line.
+
+The [geometric series](geometric-series.md) shows why the region of validity matters. For $f(x)=1/(1-x)$, the [Taylor series](taylor-series.md) at zero is $\sum_{k\geq0}x^k$, with [radius of convergence](radius-of-convergence.md) one. For $x\ne1$, its finite [Taylor polynomial](taylor-polynomial.md) satisfies the exact identity
+
+$$
+\frac1{1-x}-\sum_{k=0}^N x^k=\frac{x^{N+1}}{1-x}.
+$$
+
+At $x=1/2$ and $N=5$, the remainder is $1/32$. At $x=0.9$, the same degree-five [polynomial](polynomial-split.md) has value $4.68559$ and remainder $5.31441$, although the [Taylor series](taylor-series.md) still converges to $10$ there. Convergence of the infinite expression does not guarantee accuracy from a particular small number of terms. For $|x|>1$, even the terms fail to tend to zero, so this [power series](power-series.md) cannot represent the [function](function-split.md). The standard expansions and the conditions for [convergent series](convergent-series.md) are discussed in [OpenStax, working with Taylor series](https://openstax.org/books/calculus-volume-2/pages/6-4-working-with-taylor-series).
+
+<a id="image-geometric-partial-sums-converge-slowly-near-their-convergence-boundary-while-a-smooth-flat-function-has-an-identically-zero-taylor-series"></a>
+![](taylor-series-convergence-and-flatness.png)
+
+**[Figure 21](#image-geometric-partial-sums-converge-slowly-near-their-convergence-boundary-while-a-smooth-flat-function-has-an-identically-zero-taylor-series). Geometric partial sums converge slowly near their convergence boundary, while a smooth flat function has an identically zero Taylor series**.
+
+A stronger caution comes from the [flat function](flat-function.md)
+
+$$
+h(x)=\begin{cases}e^{-1/x^2},&x\ne0,\\0,&x=0.\end{cases}
+$$
+
+It is a [smooth function](smooth-function.md) with $h^{(n)}(0)=0$ for every $n$, so every [Taylor polynomial](taylor-polynomial.md) at zero is zero and its [Taylor series](taylor-series.md) converges everywhere to zero. Nevertheless $h(1/2)=e^{-4}>0$. Off zero, repeated [differentiation](differentiation.md) produces a [polynomial](polynomial-split.md) in $1/x$ times $e^{-1/x^2}$; the exponential decay makes each required [limit](limit-of-a-function.md) at zero vanish. This explains how all the local coefficients can miss a positive [function](function-split.md) arbitrarily close to the centre. [Real analyticity](real-analytic-function.md) supplies the additional condition that rules out this behavior.
+
+**Table of contents**
+
+- [Maclaurin series](maclaurin-series.md)
+
+## ↑ Ancestors (7)
+
+1. [Taylor's theorem](taylor-s-theorem.md)
+2. [Calculus](calculus-split.md)
+3. [Real analysis](real-analysis-split.md)
+4. [Analysis](analysis-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (127)
+
+- [Analytic continuation](analytic-continuation.md)
+- [Catenary from hyperbolic cosine](catenary-from-hyperbolic-cosine.md)
+- [Cauchy-Hadamard theorem](cauchy-hadamard-theorem.md)
+- [Centre manifold theorem for a discrete dynamical system](centre-manifold-theorem-for-a-discrete-dynamical-system.md)
+- [Commutator expansion for exponential conjugation](commutator-expansion-for-exponential-conjugation.md)
+- [Compactified approximation from endpoint asymptotics](compactified-approximation-from-endpoint-asymptotics.md)
+- [Complex analysis](complex-analysis-split.md)
+- [Differential calculus](differential-calculus.md)
+- [Einstein solid](einstein-solid.md)
+- [Electric dipole](electric-dipole.md)
+- [Entire function](entire-function.md)
+- [Even function](even-function.md)
+- [Even multiplicity of unit-circle roots of a nonnegative trigonometric polynomial](even-multiplicity-of-unit-circle-roots-of-a-nonnegative-trigonometric-polynomial.md)
+- [Finite Fresnel integrals](finite-fresnel-integrals.md)
+- [Flat function](flat-function.md)
+- [Fourth-order two-step advection stencil](fourth-order-two-step-advection-stencil.md)
+- [Harmonic optical trap](harmonic-optical-trap.md)
+- [Holomorphic function](holomorphic-function.md)
+- [Hyperbolic cosine](hyperbolic-cosine.md)
+- [Hyperbolic sine](hyperbolic-sine.md)
+- [Leading Taylor term](leading-taylor-term.md)
+- [Maclaurin series](maclaurin-series.md)
+- [Mayer f-function](mayer-f-function.md)
+- [Mellin transform of an interval indicator](mellin-transform-of-an-interval-indicator.md)
+- [Multiplicity of a zero](multiplicity-of-a-zero.md)
+- [Nonpolynomial entire function has a centre with no zero Taylor coefficient](nonpolynomial-entire-function-has-a-centre-with-no-zero-taylor-coefficient.md)
+- [Nonvanishing of a nonprincipal Dirichlet L-function at one](nonvanishing-of-a-nonprincipal-dirichlet-l-function-at-one.md)
+- [Normalized univalent function](normalized-univalent-function.md)
+- [Odd function](odd-function.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/ib/paper-1/7e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-41/3/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-53/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/ia/paper-1/12c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/ia/paper-3/9a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/ib/paper-2/16b/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-40/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-54/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/ib/paper-3/13e/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/ib/paper-3/13e/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/ib/paper-4/8b/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-40/2/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-62/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-67/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-9/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-69/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-4/2f/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-86/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ib/paper-4/4h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-2/11g/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-7/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-79/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ib/paper-1/3f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ib/paper-2/12a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ii/paper-4/8b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ia/paper-2/7a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ib/paper-4/4e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-32/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ii/paper-4/32c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-76/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-76/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ia/paper-1/10f/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-19/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-25/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-7/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ii/paper-1/2f/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/ib/paper-4/19h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-67/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-67/4/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ia/paper-1/11e/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ib/paper-4/4g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-5/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-5/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-5/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-5/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ia/paper-4/12c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-18/5/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ia/paper-2/1a/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ia/paper-2/1a/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-1/13a/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-1/2a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-4/8d/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-105/1/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-203/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ib/paper-3/13f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-3/2f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ib/paper-1/2f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ib/paper-4/14d/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-3/30a/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-105/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-150/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-336/1/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-336/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-346/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ib/paper-2/12b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-3/30d/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ib/paper-1/12g/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ib/paper-1/17b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ib/paper-2/12b/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ib/paper-2/16d/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-105/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ib/paper-1/3g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ib/paper-2/16d/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-2/11f/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-2/14d/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-3/5j/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-4/15d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-4/39c/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-303/1/b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-309/3/b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-316/3/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/ia/paper-1/9e/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-346/2/solution.md)
+- [Polynomial multiples of a Gaussian flat function](polynomial-multiples-of-a-gaussian-flat-function.md)
+- [Power series](power-series.md)
+- [Quantum harmonic oscillator](quantum-harmonic-oscillator.md)
+- [Real analytic function](real-analytic-function.md)
+- [Residue](residue.md)
+- [Richardson extrapolation](richardson-extrapolation.md)
+- [Small-angle approximation](small-angle-approximation.md)
+- [Small-argument expansion of the exponential integral](small-argument-expansion-of-the-exponential-integral.md)
+- [Small-argument expansion of the hyperbolic tangent](small-argument-expansion-of-the-hyperbolic-tangent.md)
+- [Square-root splitting of a double polynomial root](square-root-splitting-of-a-double-polynomial-root.md)
+- [Taylor expansion](taylor-expansion.md)
+- [Taylor expansion from a periodic derivative equation](taylor-expansion-from-a-periodic-derivative-equation.md)
+- [Taylor polynomial](taylor-polynomial.md)
+- [Taylor's theorem](taylor-s-theorem.md)
+- [Taylor series](taylor-series.md)

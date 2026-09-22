@@ -1,0 +1,62 @@
+# Uniform boundedness principle
+
+↑ **Parent:** [Banach space](banach-space-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Uniform_boundedness_principle)
+
+If a family of bounded linear operators from a Banach space to a normed space is pointwise bounded, then their operator norms are uniformly bounded.
+
+**Table of contents**
+
+- [Weak boundedness implies norm boundedness](weak-boundedness-implies-norm-boundedness.md)
+- [Uniform bound from pointwise absolute summability of dual evaluations](uniform-bound-from-pointwise-absolute-summability-of-dual-evaluations.md)
+
+## ↑ Ancestors (7)
+
+1. [Banach space](banach-space-split.md)
+2. [Normed vector space](normed-vector-space.md)
+3. [Functional analysis](functional-analysis-split.md)
+4. [Analysis](analysis-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (38)
+
+- [Compact operators send weak convergence to norm convergence](compact-operators-send-weak-convergence-to-norm-convergence.md)
+- [Completely continuous operator](completely-continuous-operator.md)
+- [Generic unbounded Fourier sums at a fixed point](generic-unbounded-fourier-sums-at-a-fixed-point.md)
+- [Johnson's continuity theorem for irreducible normed representations](johnson-s-continuity-theorem-for-irreducible-normed-representations.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-58/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-6/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-6/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-7/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-6/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-4/22f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-6/1/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-69/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-8/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-8/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-2/22f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-9/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ii/paper-1/22h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-5/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-7/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-64/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-5/2/11/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-106/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-3/21f/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-106/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-106/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-106/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-3/22h/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ii/paper-1/22h/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-106/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-4/22f/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-106/1/solution.md)
+- [Renorming a separately continuous Banach algebra](renorming-a-separately-continuous-banach-algebra.md)
+- [Silverman-Toeplitz theorem](silverman-toeplitz-theorem.md)
+- [Weak boundedness implies norm boundedness](weak-boundedness-implies-norm-boundedness.md)
+- [Weak-star convergence in BV](weak-star-convergence-in-bv.md)
+- [Weakly bounded set](weakly-bounded-set.md)
+- [Weakly compact set is norm bounded](weakly-compact-set-is-norm-bounded.md)
+- [Weakly convergent sequence is bounded](weakly-convergent-sequence-is-bounded.md)

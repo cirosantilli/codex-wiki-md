@@ -1,0 +1,60 @@
+# Fuchsian differential equation
+
+↑ **Parent:** [Complex analysis](complex-analysis-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Fuchsian_differential_equation)
+
+A Fuchsian differential equation has only regular singular points, including possibly the point at infinity.
+
+**Table of contents**
+
+- [Accessory parameter](accessory-parameter.md)
+- [Regular singular point](regular-singular-point.md)
+  - [Logarithmically divergent derivative at a regular singular endpoint](logarithmically-divergent-derivative-at-a-regular-singular-endpoint.md)
+  - [Frobenius method](frobenius-method.md)
+    - [Undetermined coefficient at Frobenius resonance](undetermined-coefficient-at-frobenius-resonance.md)
+    - [Square-root reduction of a regular-singular differential equation](square-root-reduction-of-a-regular-singular-differential-equation.md)
+    - [Frobenius solution](frobenius-solution.md)
+    - [Hyperbolic reduction of a regular-singular differential equation](hyperbolic-reduction-of-a-regular-singular-differential-equation.md)
+    - [Terminating Frobenius series](terminating-frobenius-series.md)
+- [Ordinary point criterion for a second-order equation](ordinary-point-criterion-for-a-second-order-equation.md)
+- [Characteristic exponent at a regular singular point](characteristic-exponent-at-a-regular-singular-point.md)
+- [Regular singular point criterion for a second-order equation](regular-singular-point-criterion-for-a-second-order-equation.md)
+  - [Regular singular point at infinity](regular-singular-point-at-infinity.md)
+  - [Logarithmic solution from a repeated Frobenius exponent](logarithmic-solution-from-a-repeated-frobenius-exponent.md)
+- [Irregular singular point](irregular-singular-point.md)
+  - [Poincaré rank](poincare-rank.md)
+- [Riemann's differential equation](riemann-s-differential-equation.md)
+  - [Papperitz symbol](papperitz-symbol.md)
+    - [Fuchs relation](fuchs-relation.md)
+    - [Möbius transformation of a Papperitz symbol](mobius-transformation-of-a-papperitz-symbol.md)
+    - [Dependent-variable rescaling of a Papperitz symbol](dependent-variable-rescaling-of-a-papperitz-symbol.md)
+- [Gauss hypergeometric equation](gauss-hypergeometric-equation.md)
+  - [Euler's hypergeometric transformation](euler-s-hypergeometric-transformation.md)
+  - [Hypergeometric connection formula at one](hypergeometric-connection-formula-at-one.md)
+  - [Hypergeometric function](hypergeometric-function.md)
+    - [Euler integral for the hypergeometric function](euler-integral-for-the-hypergeometric-function.md)
+  - [Pfaff transformation](pfaff-transformation.md)
+  - [Second local hypergeometric solution](second-local-hypergeometric-solution.md)
+  - [Hypergeometric connection formula at infinity](hypergeometric-connection-formula-at-infinity.md)
+  - [Hypergeometric cancellation identity](hypergeometric-cancellation-identity.md)
+    - [Elementary specialization of a hypergeometric solution](elementary-specialization-of-a-hypergeometric-solution.md)
+      - [Hypergeometric cosine identity](hypergeometric-cosine-identity.md)
+      - [Hypergeometric sine identity](hypergeometric-sine-identity.md)
+
+## ↑ Ancestors (5)
+
+1. [Complex analysis](complex-analysis-split.md)
+2. [Analysis](analysis-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (7)
+
+- [Accessory parameter](accessory-parameter.md)
+- [Fuchs relation](fuchs-relation.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-1/8a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ii/paper-4/6b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-1/14a/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ii/paper-4/7e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-4/7e/solution.md)

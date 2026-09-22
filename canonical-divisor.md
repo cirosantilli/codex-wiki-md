@@ -1,0 +1,61 @@
+# Canonical divisor
+
+↑ **Parent:** [Riemann-Roch theorem](riemann-roch-theorem.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Canonical_divisor)
+
+A canonical divisor is the divisor of any nonzero rational differential. Its divisor class is independent of the differential and has degree $2g-2$.
+
+**Table of contents**
+
+- [Rational differential on an algebraic curve](rational-differential-on-an-algebraic-curve.md)
+  - [Algebraic residue of a rational differential](algebraic-residue-of-a-rational-differential.md)
+- [Valuation of a rational differential](valuation-of-a-rational-differential.md)
+- [Canonical Riemann-Roch space](canonical-riemann-roch-space.md)
+- [Canonical divisor of the projective line](canonical-divisor-of-the-projective-line.md)
+- [Genus of a smooth plane curve](genus-of-a-smooth-plane-curve.md)
+  - [No smooth plane curve has genus two](no-smooth-plane-curve-has-genus-two.md)
+  - [Smooth plane quartic](smooth-plane-quartic.md)
+    - [Projective closure of y cubed equals x to the fourth plus one](projective-closure-of-y-cubed-equals-x-to-the-fourth-plus-one.md)
+    - [Klein quartic](klein-quartic.md)
+      - [Plane model y plus x cubed plus xy cubed equals zero of the Klein quartic](plane-model-y-plus-x-cubed-plus-xy-cubed-equals-zero-of-the-klein-quartic.md)
+      - [Ramification of the x-coordinate on the Klein quartic](ramification-of-the-x-coordinate-on-the-klein-quartic.md)
+    - [Line section of a smooth plane quartic](line-section-of-a-smooth-plane-quartic.md)
+    - [Gonality of a smooth plane quartic](gonality-of-a-smooth-plane-quartic.md)
+- [Canonical map](canonical-map.md)
+  - [Canonical genus-four curve as a quadric-cubic intersection](canonical-genus-four-curve-as-a-quadric-cubic-intersection.md)
+
+## ↑ Ancestors (7)
+
+1. [Riemann-Roch theorem](riemann-roch-theorem.md)
+2. [Divisor on an algebraic curve](divisor-on-an-algebraic-curve.md)
+3. [Algebraic geometry](algebraic-geometry-split.md)
+4. [Geometry and topology](geometry-and-topology-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (23)
+
+- [Line section of a smooth plane quartic](line-section-of-a-smooth-plane-quartic.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-23/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-2/23h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-21/5/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-21/5/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ii/paper-4/23g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-26/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ii/paper-4/23h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-13/5/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-13/5/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-18/2/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/ii/paper-4/20f/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-20/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-20/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-3/24i/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-3/24f/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-4/24f/a/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-3/24f/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ii/paper-4/24i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-2/25g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-125/1/a/solution.md)
+- [Rational normal scroll](rational-normal-scroll.md)
+- [Rationality of a smooth projective genus-zero curve](rationality-of-a-smooth-projective-genus-zero-curve.md)

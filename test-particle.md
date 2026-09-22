@@ -1,0 +1,44 @@
+# Test particle
+
+↑ **Parent:** [Particle dynamics](particle-dynamics.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Test_particle)
+
+A [test particle](test-particle.md) is an idealized body whose own fields and effect on its environment are negligible. Its motion probes an externally prescribed field. A gravitational [test particle](test-particle.md) follows a [timelike geodesic](timelike-geodesic.md) when nongravitational forces are absent; appreciable self-gravity requires a more complete treatment.
+
+## ↑ Ancestors (5)
+
+1. [Particle dynamics](particle-dynamics.md)
+2. [Classical mechanics](classical-mechanics-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (27)
+
+- [Angular momentum and the escape energy threshold](angular-momentum-and-the-escape-energy-threshold.md)
+- [Circular orbit as continuous free fall](circular-orbit-as-continuous-free-fall.md)
+- [Equivalence principle](equivalence-principle.md)
+- [Escape-energy balance diagram](escape-energy-balance-diagram.md)
+- [Escape velocity](escape-velocity.md)
+- [Exact tidal acceleration between separated masses](exact-tidal-acceleration-between-separated-masses.md)
+- [Flat-background scalar-force theory of gravity](flat-background-scalar-force-theory-of-gravity.md)
+- [Free fall](free-fall.md)
+- [General relativity](general-relativity-split.md)
+- [Geodesic conserved quantity from a Killing vector](geodesic-conserved-quantity-from-a-killing-vector.md)
+- [Gravitational acceleration](gravitational-acceleration.md)
+- [Gravitational field](gravitational-field.md)
+- [Gravity magnitude versus tidal gradient](gravity-magnitude-versus-tidal-gradient.md)
+- [Inverse-square potential](inverse-square-potential.md)
+- [Newton's law of universal gravitation](newton-s-law-of-universal-gravitation.md)
+- [Newtonian gravitational field](newtonian-gravitational-field.md)
+- [Newtonian gravitational potential](newtonian-gravitational-potential.md)
+- [Newtonian potential of a point mass](newtonian-potential-of-a-point-mass.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-61/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-63/2/solution.md)
+- [Point-mass tidal stretching and squeezing](point-mass-tidal-stretching-and-squeezing.md)
+- [Radial free fall from rest](radial-free-fall-from-rest.md)
+- [Standard gravitational parameter](standard-gravitational-parameter.md)
+- [Test particle](test-particle.md)
+- [Tidal force](tidal-force.md)
+- [Timelike geodesic](timelike-geodesic.md)
+- [Weak equivalence principle](weak-equivalence-principle.md)

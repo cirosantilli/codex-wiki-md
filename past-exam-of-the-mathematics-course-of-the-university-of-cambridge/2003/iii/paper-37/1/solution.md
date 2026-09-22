@@ -1,0 +1,34 @@
+<h1 id="1/solution">Solution</h1>
+
+↑ **Parent:** [1](../1.md)
+
+A [decision problem](../../../../../decision-problem.md) is in [NP](../../../../../np-complexity.md) if every yes-instance has a [complexity certificate](../../../../../certificate-complexity.md) of length bounded by a polynomial in the input length, and a deterministic verifier can check that certificate in [polynomial time](../../../../../polynomial-time.md). More precisely, for some polynomial $p$ and verifier $V$,
+
+$$
+w\in L\quad\Longleftrightarrow\quad\exists z,\ |z|\leq p(|w|),\quad V(w,z)=1,
+$$
+
+where $V$ runs in [polynomial time](../../../../../polynomial-time.md). Equivalently, a nondeterministic machine decides the problem in [polynomial time](../../../../../polynomial-time.md). A problem is [NP-complete](../../../../../np-completeness.md) if it belongs to [NP](../../../../../np-complexity.md) and is [NP-hard](../../../../../np-hardness.md): every problem in [NP](../../../../../np-complexity.md) has a [polynomial-time many-one reduction](../../../../../polynomial-time-many-one-reduction.md) to it. Such a reduction maps instances $w$ to instances $r(w)$ with $w\in L$ if and only if $r(w)$ is a yes-instance of the target problem.
+
+For [3-SAT](../../../../../3-sat.md), the [complexity certificate](../../../../../certificate-complexity.md) is one truth value for each [Boolean variable](../../../../../boolean-variable.md). Check every [Boolean literal](../../../../../boolean-literal.md), negate its variable's truth value when appropriate, evaluate the disjunction in each [Boolean clause](../../../../../clause-of-a-boolean-formula.md), and check their conjunction. This takes time linear in the encoded [Boolean formula](../../../../../boolean-formula.md), apart from equally polynomial bookkeeping for variable names. A satisfying assignment passes; an unsatisfiable [Boolean formula](../../../../../boolean-formula.md) has no passing assignment. Thus **[3-SAT](../../../../../3-sat.md) belongs to [NP](../../../../../np-complexity.md)**.
+
+For the diagram's [three-colour clause gadget](../../../../../three-colour-clause-gadget.md), name the three colours by the [graph triangle](../../../../../triangle-in-a-graph.md) $T,F,X$. Each input $a,b,\bar c$ is adjacent to $X$, so each has colour $T$ or $F$. Suppose that none has colour $T$. Then all three have colour $F$. Because $x_1$ is adjacent to $a$ and $x_2$ to $b$, neither has colour $F$. The [edge](../../../../../edge-of-a-graph.md) $x_1x_2$ forces these two colours to be $T$ and $X$ in some order. The [graph triangle](../../../../../triangle-in-a-graph.md) $x_1,x_2,x_3$ now forces $x_3$ to have colour $F$. Since $x_4$ is adjacent to $x_3$ and $T$, it must have colour $X$. The [graph triangle](../../../../../triangle-in-a-graph.md) $x_4,x_5,T$ forces $x_5$ to have colour $F$. But $x_5$ is adjacent to $\bar c$, which also has colour $F$, contradicting a proper [graph colouring](../../../../../graph-coloring.md). Therefore **at least one input has colour $T$**.
+
+To give the [polynomial-time many-one reduction](../../../../../polynomial-time-many-one-reduction.md), use one common palette [graph triangle](../../../../../triangle-in-a-graph.md) $T,F,X$. For each [Boolean variable](../../../../../boolean-variable.md) $v$, create two [graph vertices](../../../../../vertex-graph-theory.md) $v,\bar v$ and join them to each other and to $X$. This [Boolean-pair colouring gadget](../../../../../boolean-pair-colouring-gadget.md) forces them to have opposite colours $T,F$. For each [Boolean clause](../../../../../clause-of-a-boolean-formula.md), introduce five fresh auxiliary [graph vertices](../../../../../vertex-graph-theory.md) and the [edges](../../../../../edge-of-a-graph.md) of the [three-colour clause gadget](../../../../../three-colour-clause-gadget.md), identifying its inputs with that clause's three [Boolean literal](../../../../../boolean-literal.md) [vertices](../../../../../vertex-graph-theory.md) and using the common $T$. In the notation of the diagram, its ten additional [edges](../../../../../edge-of-a-graph.md) are the two triangles $x_1x_2x_3$ and $x_4x_5T$, the bridge $x_3x_4$, and the three input [edges](../../../../../edge-of-a-graph.md). With $r$ variables and $m$ clauses the constructed [undirected graph](../../../../../undirected-graph.md) has $3+2r+5m$ [vertices](../../../../../vertex-graph-theory.md) and at most $3+3r+10m$ [edges](../../../../../edge-of-a-graph.md). Repeated literals do not affect the argument. Its construction takes [polynomial time](../../../../../polynomial-time.md).
+
+A proper [graph colouring](../../../../../graph-coloring.md) defines a consistent truth assignment by declaring $v$ true precisely when its [vertex](../../../../../vertex-graph-theory.md) has colour $T$. The only-if result just proved makes every clause true. Conversely, a satisfying assignment colours every literal [vertex](../../../../../vertex-graph-theory.md) consistently, and the supplied if-direction extends each satisfied clause's colours to its fresh auxiliary [vertices](../../../../../vertex-graph-theory.md). These extensions do not conflict, since different clauses share only already-coloured palette and literal [vertices](../../../../../vertex-graph-theory.md). Thus the [Boolean formula](../../../../../boolean-formula.md) is satisfiable exactly when the constructed [undirected graph](../../../../../undirected-graph.md) is three-colourable. Since [3-SAT](../../../../../3-sat.md) is [NP-complete](../../../../../np-completeness.md), composition of reductions proves [NP-hardness](../../../../../np-hardness.md) of the [three-colourability problem](../../../../../three-colourability-problem.md).
+
+Finally, a list of three colour labels, one for each [graph vertex](../../../../../vertex-graph-theory.md), is a [complexity certificate](../../../../../certificate-complexity.md) for the [three-colourability problem](../../../../../three-colourability-problem.md). Checking all [edges](../../../../../edge-of-a-graph.md) takes $O(|V|+|E|)$ time. Hence this problem is in [NP](../../../../../np-complexity.md) as well, and **the [three-colourability problem](../../../../../three-colourability-problem.md) is [NP-complete](../../../../../np-completeness.md)**.
+
+## ↑ Ancestors (10)
+
+1. [1](../1.md)
+2. [Paper 37](../../paper-37-split.md)
+3. [Iii](../../split.md)
+4. [2003](../../../split.md)
+5. [Past exam of the mathematics course of the University of Cambridge](../../../../split.md)
+6. [Mathematics course of the University of Cambridge](../../../../../mathematics-course-of-the-university-of-cambridge.md)
+7. [Course of the University of Cambridge](../../../../../course-of-the-university-of-cambridge.md)
+8. [University of Cambridge](../../../../../university-of-cambridge-split.md)
+9. [List of universities](../../../../../list-of-universities.md)
+10. [Codex Wiki](../../../../../split.md)

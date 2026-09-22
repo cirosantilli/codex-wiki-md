@@ -1,0 +1,50 @@
+# Phosphate
+
+↑ **Parent:** [Chemical substance](chemical-substance.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Phosphate)
+
+**Table of contents**
+
+- [Inorganic phosphate](inorganic-phosphate.md)
+
+## ↑ Ancestors (3)
+
+1. [Chemical substance](chemical-substance.md)
+2. [Chemistry](chemistry-split.md)
+3. [Codex Wiki](split.md)
+
+## ← Incoming links (33)
+
+- [Active site](active-site.md)
+- [Adenosine](adenosine.md)
+- [Adenosine diphosphate](adenosine-diphosphate.md)
+- [Adenosine monophosphate](adenosine-monophosphate.md)
+- [Adenosine triphosphate](adenosine-triphosphate.md)
+- [Base pair](base-pair.md)
+- [CheZ](chez.md)
+- [Deoxyribonucleic acid](deoxyribonucleic-acid.md)
+- [Deoxyribose](deoxyribose.md)
+- [Disulfide bond](disulfide-bond.md)
+- [Energy coupling](energy-coupling.md)
+- [Glycerophospholipid](glycerophospholipid.md)
+- [Inorganic phosphate](inorganic-phosphate.md)
+- [Ligand-dependent membrane phosphorylation experiment](ligand-dependent-membrane-phosphorylation-experiment.md)
+- [Lipid](lipid.md)
+- [Nucleic acid](nucleic-acid.md)
+- [Nucleic acid double helix](nucleic-acid-double-helix.md)
+- [Nucleoside](nucleoside.md)
+- [Nucleotide](nucleotide.md)
+- [Phosphatidylcholine](phosphatidylcholine.md)
+- [Phosphodiester bond](phosphodiester-bond.md)
+- [Phospholipid](phospholipid.md)
+- [Phosphorylation](phosphorylation.md)
+- [Protein kinase](protein-kinase.md)
+- [Protein phosphatase](protein-phosphatase.md)
+- [Receptor tyrosine kinase](receptor-tyrosine-kinase.md)
+- [Reversible receptor phosphorylation model](reversible-receptor-phosphorylation-model.md)
+- [Ribonucleic acid](ribonucleic-acid.md)
+- [Ribose](ribose.md)
+- [Ribozyme](ribozyme.md)
+- [Triglyceride](triglyceride.md)
+- [Triose phosphate](triose-phosphate.md)
+- [Tyrosine residue](tyrosine-residue.md)

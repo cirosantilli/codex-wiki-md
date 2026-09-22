@@ -1,0 +1,216 @@
+# Likelihood function
+
+↑ **Parent:** [Maximum-likelihood estimator](maximum-likelihood-estimator.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Likelihood_function)
+
+For a fixed observed sample $x$, a [likelihood function](likelihood-function.md) is
+
+$$
+L(\theta;x)=f_\theta(x),\qquad \theta\in\Theta,
+$$
+
+where $f_\theta$ is the [probability mass function](probability-mass-function.md) or [probability density function](probability-density-function.md) of the observations under the [statistical parameter](statistical-parameter.md) $\theta$. All densities must be defined relative to the same parameter-independent [dominating measure](dominating-measure.md). The sample is fixed; the parameter is the function's argument. With [independent and identically distributed random variables](independent-and-identically-distributed-random-variables.md), the joint mass or density factors as $L(\theta;x)=\prod_{i=1}^n f_\theta(x_i)$. This definition and the distinction between sampling [probability](probability.md) and parameter uncertainty are explained in [MIT 18.05, Reading 10b, sections 3 and 3.2](https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/mit18_05_s22_class10-prep-b.pdf).
+
+For an observed ordered sequence of ten independent [Bernoulli trials](bernoulli-trial.md) containing eight successes and two failures, each success contributes $p$ and each failure contributes $1-p$, giving
+
+$$
+L_{\mathrm{ordered}}(p)=p^8(1-p)^2,\qquad 0\leq p\leq1.
+$$
+
+If the observation is instead only the total count $K=8$, its [binomial distribution](binomial-distribution.md) [probability mass function](probability-mass-function.md) sums over the $\binom{10}{8}=45$ possible ordered sequences:
+
+$$
+L_{\mathrm{count}}(p)=\binom{10}{8}p^8(1-p)^2=45L_{\mathrm{ordered}}(p).
+$$
+
+The raw heights differ: at $p=0.8$ they are approximately $0.0067108864$ and $0.301989888$. Their [maximum-likelihood estimates](maximum-likelihood-estimator.md) are identical. More generally, multiplication by any finite positive constant $c(x)$ independent of $\theta$ leaves the maximizing parameter values and all [likelihood ratios](likelihood-ratio.md) unchanged. Multiplication by a parameter-dependent factor can change the [MLE](maximum-likelihood-estimator.md); dropping such a factor is not justified. Relative likelihood height $L(\theta;x)/L(\widehat\theta;x)$ sets the peak to one, without making the area under the curve one.
+
+Normalization of $f_\theta$ is over possible data values for each fixed parameter. It imposes no requirement that $\int_\Theta L(\theta;x)\,d\theta=1$. For example, the ordered [Bernoulli trials](bernoulli-trial.md) [likelihood](likelihood-function.md) above has
+
+$$
+\int_0^1p^8(1-p)^2\,dp=\frac19-\frac2{10}+\frac1{11}=\frac1{495}.
+$$
+
+Its integral is not one, and its values are not [posterior probabilities](posterior-probability.md) for $p$. When the [Bayesian posterior](bayesian-posterior.md) is defined, [Bayes' theorem](bayes-theorem.md) multiplies the [likelihood](likelihood-function.md) by a [prior density](prior-density.md) and normalizes that product. Choosing to normalize a [likelihood function](likelihood-function.md) alone is an additional choice, such as using a [uniform prior](uniform-prior.md) in those parameter coordinates, rather than part of the definition of [likelihood](likelihood-function.md).
+
+For observations with a [probability density function](probability-density-function.md), the [probability](probability.md) of an exact sample point is zero. If a scalar density is continuous at the observed value $x$, then
+
+$$
+\mathbb P_\theta\bigl(x\leq X\leq x+\varepsilon\bigr)=f_\theta(x)\varepsilon+o(\varepsilon),\qquad \varepsilon\downarrow0.
+$$
+
+Thus the density compares probabilities of small, equal observation intervals at different parameter values; it is not itself the [probability](probability.md) of that exact real number. The equal-width factor is independent of the parameter. This gives visual intuition for density [likelihoods](likelihood-function.md), as in [MIT 18.05, Reading 10b, section 4](https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/mit18_05_s22_class10-prep-b.pdf). The [normal distribution](normal-distribution.md) example in [maximum-likelihood estimator](maximum-likelihood-estimator.md) makes the comparison explicit. If only rounded intervals are recorded, their integrated probabilities give the exact observation [likelihood](likelihood-function.md); using midpoint densities is an approximation.
+
+**Table of contents**
+
+- [Log-likelihood](log-likelihood.md)
+- [Marginal likelihood from a nuisance-free statistic](marginal-likelihood-from-a-nuisance-free-statistic.md)
+- [Conditional likelihood](conditional-likelihood.md)
+  - [Saddlepoint conditional likelihood adjustment](saddlepoint-conditional-likelihood-adjustment.md)
+- [Observed-data likelihood](observed-data-likelihood.md)
+- [Bayesian deviance](bayesian-deviance.md)
+- [Conditional maximum likelihood](conditional-maximum-likelihood.md)
+- [Profile likelihood](profile-likelihood.md)
+  - [Modified profile likelihood](modified-profile-likelihood.md)
+    - [Modified profile likelihood for inverse Gaussian shape](modified-profile-likelihood-for-inverse-gaussian-shape.md)
+    - [Modified profile likelihood for exponential regression](modified-profile-likelihood-for-exponential-regression.md)
+  - [Gamma-ratio marginal and profile likelihood identity](gamma-ratio-marginal-and-profile-likelihood-identity.md)
+  - [Profile log-likelihood](profile-log-likelihood.md)
+
+## ↑ Ancestors (8)
+
+1. [Maximum-likelihood estimator](maximum-likelihood-estimator.md)
+2. [Maximum likelihood estimation](maximum-likelihood-estimation.md)
+3. [Statistical modelling](statistical-modelling-split.md)
+4. [Statistical model](statistical-model-split.md)
+5. [Probability and statistics](probability-and-statistics-split.md)
+6. [Area of mathematics](area-of-mathematics.md)
+7. [Mathematics](mathematics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (144)
+
+- [Allele-sharing sufficiency for recessive linkage](allele-sharing-sufficiency-for-recessive-linkage.md)
+- [Bayesian network structure score](bayesian-network-structure-score.md)
+- [Bayesian posterior](bayesian-posterior.md)
+- [Bayesian statistics](bayesian-statistics.md)
+- [Capture-recapture model](capture-recapture-model.md)
+- [Conditional maximum likelihood](conditional-maximum-likelihood.md)
+- [Cox rank-likelihood deletion consistency](cox-rank-likelihood-deletion-consistency.md)
+- [Discrete uniform endpoint posterior](discrete-uniform-endpoint-posterior.md)
+- [EM likelihood monotonicity](em-likelihood-monotonicity.md)
+- [Empty component under an improper prior](empty-component-under-an-improper-prior.md)
+- [Endpoint maximum likelihood for a singular location density](endpoint-maximum-likelihood-for-a-singular-location-density.md)
+- [Felsenstein pruning algorithm](felsenstein-pruning-algorithm.md)
+- [Fisherian conditional inference](fisherian-conditional-inference.md)
+- [Flat-prior elimination of a Gaussian common mean](flat-prior-elimination-of-a-gaussian-common-mean.md)
+- [Gamma prior for an inverse-gamma scale](gamma-prior-for-an-inverse-gamma-scale.md)
+- [Gaussian change-point posterior with proper priors](gaussian-change-point-posterior-with-proper-priors.md)
+- [Gaussian innovation likelihood](gaussian-innovation-likelihood.md)
+- [Gaussian likelihood](gaussian-likelihood.md)
+- [Incomplete-trio transmission-selection bias](incomplete-trio-transmission-selection-bias.md)
+- [Kalman filter](kalman-filter.md)
+- [Likelihood function](likelihood-function.md)
+- [Likelihood principle](likelihood-principle.md)
+- [Likelihood reconstruction from posterior simulation](likelihood-reconstruction-from-posterior-simulation.md)
+- [Lincoln-Petersen estimator](lincoln-petersen-estimator.md)
+- [Location-scale invariant simulation test for a Gaussian variance component](location-scale-invariant-simulation-test-for-a-gaussian-variance-component.md)
+- [Log-likelihood](log-likelihood.md)
+- [Mark and recapture](mark-and-recapture.md)
+- [Maximum likelihood estimation](maximum-likelihood-estimation.md)
+- [Maximum-likelihood estimator](maximum-likelihood-estimator.md)
+- [Normal-inverse-gamma prior](normal-inverse-gamma-prior.md)
+- [Parametric statistical model](parametric-statistical-model.md)
+- [Partial pooling](partial-pooling.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-32/6/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-40/4/a/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-40/4/a/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-40/4/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-40/4/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/ib/paper-1/12h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-42/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-37/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-39/4/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-43/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-45/1/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-45/1/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-45/1/vi/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-45/3/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-48/5/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-4/13i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-4/27j/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-43/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-44/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-48/5/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-48/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-1/27i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-1/5j/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-42/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-44/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-44/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-47/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-47/6/b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-36/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-36/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-36/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-36/2/f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-36/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-36/4/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-38/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-40/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-32/2/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-32/2/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-33/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-33/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-36/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-38/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ii/paper-3/27k/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ii/paper-4/13j/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-40/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-34/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-34/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-30/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-31/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-35/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-35/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-35/1/f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-35/1/g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-35/1/h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-35/4/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-35/4/g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-36/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-36/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-36/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-39/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-34/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-42/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-3/20h/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-207/2/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-207/2/f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-208/2/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-208/2/2/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-208/4/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ib/paper-3/20h/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-2/26k/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ii/paper-4/12j/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-206/1/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-206/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-206/5/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-207/2/b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-207/3/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-207/3/b/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-216/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ib/paper-1/7h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-4/13j/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-216/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-216/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-218/5/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-218/5/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-219/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ib/paper-2/8h/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-1/13j/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-4/28j/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-219/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-350/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ib/paper-1/19h/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-3/28j/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ib/paper-1/6h/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/ib/paper-4/17h/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-326/3/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ib/paper-1/18h/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ib/paper-2/6h/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-219/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-4/13j/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-216/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-219/1/d/solution.md)
+- [Pedigree likelihood](pedigree-likelihood.md)
+- [Piecewise-constant covariate approximation](piecewise-constant-covariate-approximation.md)
+- [Poisson change-point posterior](poisson-change-point-posterior.md)
+- [Pseudo-marginal Metropolis–Hastings algorithm](pseudo-marginal-metropolis-hastings-algorithm.md)
+- [Random-slope linear mixed model](random-slope-linear-mixed-model.md)
+- [Restricted maximum likelihood](restricted-maximum-likelihood.md)
+- [Scalar static-state Kalman update](scalar-static-state-kalman-update.md)
+- [Stationary Gaussian AR1 likelihood](stationary-gaussian-ar1-likelihood.md)
+- [Statistical inference](statistical-inference-split.md)
+- [Unbiased likelihood estimator](unbiased-likelihood-estimator.md)
+- [Zeros trick](zeros-trick.md)

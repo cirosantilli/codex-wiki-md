@@ -1,0 +1,48 @@
+# Differential rotation
+
+↑ **Parent:** [Astrophysical fluid dynamics](astrophysical-fluid-dynamics-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Differential_rotation)
+
+Differential rotation means that different parts of a rotating body or fluid have different angular velocities. An axisymmetric rotational [velocity field](velocity-field.md) can be written $\mathbf u=R\Omega(R,z)\mathbf e_\phi$.
+
+## ↑ Ancestors (5)
+
+1. [Astrophysical fluid dynamics](astrophysical-fluid-dynamics-split.md)
+2. [Fluid mechanics](fluid-mechanics-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (31)
+
+- [Axisymmetric magnetic winding](axisymmetric-magnetic-winding.md)
+- [Diffusive establishment time of a wound toroidal field](diffusive-establishment-time-of-a-wound-toroidal-field.md)
+- [Exact quadratic-shear magnetic flux solution](exact-quadratic-shear-magnetic-flux-solution.md)
+- [Gyroscopic pumping in a star](gyroscopic-pumping-in-a-star.md)
+- [Nondiffusive convective angular momentum transport](nondiffusive-convective-angular-momentum-transport.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-35/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-36/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-38/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-38/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-46/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-46/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-62/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-62/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-68/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-73/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-76/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-76/1/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-76/1/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-76/2/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-76/2/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-76/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-70/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-74/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-74/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-59/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-57/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-314/4/a/solution.md)
+- [Shearing-coordinate magnetic flux equation](shearing-coordinate-magnetic-flux-equation.md)
+- [Steady toroidal induction by spherical differential rotation](steady-toroidal-induction-by-spherical-differential-rotation.md)
+- [Stellar rotation-activity feedback](stellar-rotation-activity-feedback.md)
+- [Stellar thermal-wind balance](stellar-thermal-wind-balance.md)

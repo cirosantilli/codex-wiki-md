@@ -1,0 +1,491 @@
+# Paper 41
+
+↑ **Parent:** [Iii](../iii.md)
+
+[https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2005/Paper41.pdf](https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2005/Paper41.pdf)
+
+**Table of contents**
+
+- [1](#1)
+  - [Solution](#1/solution)
+- [2](#2)
+  - [Solution](#2/solution)
+  - [i](#2/i)
+    - [Solution](#2/i/solution)
+  - [ii](#2/ii)
+    - [Solution](#2/ii/solution)
+- [3](#3)
+  - [i](#3/i)
+    - [Solution](#3/i/solution)
+  - [ii](#3/ii)
+    - [Solution](#3/ii/solution)
+  - [iii](#3/iii)
+    - [Solution](#3/iii/solution)
+- [4](#4)
+  - [Solution](#4/solution)
+- [5](#5)
+  - [i](#5/i)
+    - [Solution](#5/i/solution)
+  - [ii](#5/ii)
+    - [Solution](#5/ii/solution)
+  - [iii](#5/iii)
+    - [Solution](#5/iii/solution)
+  - [iv](#5/iv)
+    - [Solution](#5/iv/solution)
+
+## 1
+
+↑ **Parent:** [Paper 41](paper-41.md)
+
+<h3 id="1/solution">Solution</h3>
+
+↑ **Parent:** [1](#1)
+
+`scan` reads the numerical prices, including the three missing-value markers, into a vector. The data must be read row by row for the subsequent factor construction to match them. The [sample size](../../../probability-and-statistics.md#sample-size) available for analysis is therefore $37$, rather than $40$. The numerical summary describes the observed prices: the [sample median](../../../probability-theory.md#sample-median) is £43.54 and the [sample mean](../../../variance.md#sample-mean) is £46.94. The upper tail, particularly the boots, raises the [sample mean](../../../variance.md#sample-mean) above the [sample median](../../../probability-theory.md#sample-median). These summaries mix very different products and are not adjusted country comparisons.
+
+The two character scans create labels. `gl(8,5,length=40,labels=item)` makes a [regression factor](../../../statistical-modelling.md#regression-factor) with each of eight item labels repeated five times. `gl(5,1,length=40,labels=country)` cycles through the five country labels once for each item. For a [regression factor](../../../statistical-modelling.md#regression-factor) and numerical response, the two `plot` commands produce grouped [box plots](../../../probability-and-statistics.md#box-plot). The country [box plots](../../../probability-and-statistics.md#box-plot) suggest lower US prices, while the item [box plots](../../../probability-and-statistics.md#box-plot) show particularly expensive boots and inexpensive cardigans. They are descriptive displays of this small basket, with different item compositions where prices are missing; they cannot separate country effects from item effects.
+
+The first `lm` fits an additive [two-way analysis of variance](../../../linear-regression.md#two-way-analysis-of-variance):
+
+$$
+p_{ij}=a+c_j+d_i+\varepsilon_{ij},\qquad c_{\mathrm{UK}}=0,\quad d_{\mathrm{jeans}}=0.
+$$
+
+The constraints are R's usual [treatment coding](../../../statistical-modelling.md#treatment-coding). The [normal linear model](../../../statistical-modelling.md#normal-linear-model) used for the printed tests assumes [independent](../../../random-variable.md#independent-random-variables) errors with common [variance](../../../variance.md) and approximately a [normal distribution](../../../probability-theory.md#normal-distribution), and no item-by-country [interaction](../../../statistical-model.md#interaction-statistics) in the mean. Missing prices are omitted, leaving $37$ responses and $1+4+7=12$ independent mean coefficients. Thus the [residual degrees of freedom](../../../statistical-modelling.md#residual-degrees-of-freedom) are $37-12=25$. This deletion is defensible for the conditional price model when missingness does not depend on the unobserved error after conditioning on the two factors; the output itself does not establish such a [missing-data mechanism](../../../probability-and-statistics.md#missing-data-mechanism).
+
+The `anova` tables report [sequential sums of squares](../../../linear-regression.md#sequential-sum-of-squares), rather than order-independent adjusted effects. If $R_0,R_C,R_I,R_{CI}$ are the [residual sums of squares](../../../linear-regression.md#residual-sum-of-squares) from the intercept-only, country-only, item-only and additive fits, the first order allocates $R_0-R_C$ to country and $R_C-R_{CI}$ to item. The second order allocates $R_0-R_I$ to item and $R_I-R_{CI}$ to country. Both allocations sum to the same total explained sum of squares, and both end with the same [residual sum of squares](../../../linear-regression.md#residual-sum-of-squares) $659.4$. The three missing combinations destroy [balanced factorial orthogonality](../../../linear-regression.md#balanced-factorial-orthogonality), so the allocation changes with order. To test country after allowing for items, use the country row in the second table; to test item after allowing for countries, use the item row in the first table. The first-entered rows do not supply those adjusted tests.
+
+Each [mean square in ANOVA](../../../linear-regression.md#mean-square-in-anova) divides its [sum of squares in ANOVA](../../../linear-regression.md#sum-of-squares-in-anova) by its [statistical degrees of freedom](../../../statistical-inference.md#statistical-degrees-of-freedom), and each printed [F-statistic](../../../probability-and-statistics.md#f-statistic) divides that [mean square in ANOVA](../../../linear-regression.md#mean-square-in-anova) by $659.4/25=26.38$. In particular, the adjusted country [partial F-test](../../../probability-and-statistics.md#partial-f-test-for-nested-linear-models) has
+
+$$
+F=\frac{1616.7/4}{659.4/25}=15.32,
+$$
+
+with an $F_{4,25}$ reference [F-distribution](../../../continuous-probability-distribution.md#f-distribution) and [p-value](../../../statistical-modelling.md#p-value) approximately $1.86\times10^{-6}$. The adjusted item [partial F-test](../../../probability-and-statistics.md#partial-f-test-for-nested-linear-models) gives $F=91.58$ on $7,25$ [statistical degrees of freedom](../../../statistical-inference.md#statistical-degrees-of-freedom). Both factors contribute strongly under the additive [normal linear model](../../../statistical-modelling.md#normal-linear-model). The larger item [sum of squares in ANOVA](../../../linear-regression.md#sum-of-squares-in-anova) measures the much greater differences between these products, but is not evidence that every pair of items differs significantly.
+
+The intercept $50.799$ is the fitted UK price for the reference jeans, not their observed price and not the overall [sample mean](../../../variance.md#sample-mean). Each country [regression coefficient](../../../linear-regression.md#regression-coefficient) is its adjusted price difference from the UK, assumed common across items: Sweden is £5.224 lower, France £10.708 lower, Germany £7.676 lower and the US £21.328 lower. Each item [regression coefficient](../../../linear-regression.md#regression-coefficient) is its adjusted difference from the reference jeans, assumed common across countries. Thus the fitted UK boots price is $50.799+52.854=103.653$, and the fitted US boots price is $103.653-21.328=82.325$.
+
+The coefficient [standard errors](../../../statistical-inference.md#standard-error) come from $s^2(X^TX)^{-1}$, where $s^2=659.4/25$ and $X$ is the [design matrix](../../../linear-regression.md#design-matrix). Dividing each estimate by its [standard error](../../../statistical-inference.md#standard-error) gives the displayed [Student t-test](../../../statistical-modelling.md#student-s-t-test) statistic, with $25$ [statistical degrees of freedom](../../../statistical-inference.md#statistical-degrees-of-freedom). The stars summarize the corresponding two-sided [p-values](../../../statistical-modelling.md#p-value). The individual tests compare each indicated country or item with its reference level, conditional on all other additive terms; they are neither tests of every pairwise comparison nor a simultaneous [confidence interval](../../../statistical-inference.md#confidence-interval) procedure. In particular, Sweden's [p-value](../../../statistical-modelling.md#p-value) $0.0626$ provides weaker evidence than the other country contrasts, and does not establish equality with the UK. The intercept test has little substantive relevance, and interpreting many individual stars also raises [multiple hypothesis testing](../../../statistical-modelling.md#multiple-hypothesis-testing) issues.
+
+The [residual standard error](../../../statistical-modelling.md#residual-standard-error) $s=5.136$ measures unexplained prices in pounds. With total corrected sum of squares $T$, the [coefficient of determination](../../../linear-regression.md#coefficient-of-determination) and [adjusted coefficient of determination](../../../linear-regression.md#adjusted-coefficient-of-determination) are
+
+$$
+R^2=1-\frac{659.4}{T}=0.9647,\qquad
+\overline R^2=1-\frac{659.4/25}{T/36}=0.9492.
+$$
+
+Much of this impressive fit is due to the large differences between items. The overall [F-test](../../../probability-and-statistics.md#f-test) compares the additive fit with a constant mean: $F=((T-659.4)/11)/(659.4/25)=62.12$ on $11,25$ [statistical degrees of freedom](../../../statistical-inference.md#statistical-degrees-of-freedom). It tests that all eleven non-intercept coefficients vanish, not that the additive model is adequate. [Regression diagnostics](../../../linear-regression.md#regression-diagnostics) should examine [regression residuals](../../../probability-and-statistics.md#regression-residual), changing price variability across items and possible [interaction](../../../statistical-model.md#interaction-statistics). Percentage differences may be more plausible than common pound differences, motivating a [natural logarithm](../../../calculus.md#natural-logarithm) of price. No random sample of countries or products, and no independent replication of a price within a cell, is supplied; broad claims about all designer goods or the causes of country differences require more than these conditional tests.
+
+Finally, `Item*Country` expands to both main effects and their full [interaction](../../../statistical-model.md#interaction-statistics). A cell-means parameterization has one separate fitted mean for every observed cell. With one response per cell its [design matrix](../../../linear-regression.md#design-matrix) has row [matrix rank](../../../vector-space.md#matrix-rank) $37$, while the full $8\times5$ layout nominally has $40$ coefficients. Three coefficient combinations are aliased because their cells are missing. This is [saturation of an unreplicated two-factor regression](../../../linear-regression.md#saturation-of-an-unreplicated-two-factor-regression): every observed price is fitted exactly and the [residual degrees of freedom](../../../statistical-modelling.md#residual-degrees-of-freedom) are zero. **The final fit has zero residuals, $R^2=1$ and no residual-based estimate of the error variance or ordinary interaction significance test.** The printed numerical summary will mark three coefficients unestimable; coefficient [standard errors](../../../statistical-inference.md#standard-error), tests and adjusted $R^2$ involve undefined division by zero, potentially appearing as `NaN` or `Inf` according to numerical roundoff. Perfect interpolation here is a consequence of a [saturated statistical model](../../../statistical-modelling.md#saturated-statistical-model), not evidence for a superior predictive model.
+
+## 2
+
+↑ **Parent:** [Paper 41](paper-41.md)
+
+<h3 id="2/solution">Solution</h3>
+
+↑ **Parent:** [2](#2)
+
+Write $a$ for the scalar intercept denoted $\mu$ in the question, to distinguish it from the individual means $\mu_i$. The [log-likelihood](../../../statistical-modelling.md#log-likelihood) of the [independent](../../../random-variable.md#independent-random-variables) [Poisson observations](../../../discrete-probability-distribution.md#poisson-observation) is
+
+$$
+\ell(a,\beta)=\sum_i\left[y_i(a+\beta x_i)-e^{a+\beta x_i}-\log(y_i!)\right].
+$$
+
+Differentiating gives the [score equations](../../../statistical-modelling.md#score-equation) for an interior [maximum-likelihood estimator](../../../statistical-modelling.md#maximum-likelihood-estimator):
+
+$$
+\boxed{\sum_i(y_i-\widehat\mu_i)=0,\qquad
+\sum_i x_i(y_i-\widehat\mu_i)=0,\qquad
+\widehat\mu_i=e^{\widehat a+\widehat\beta x_i}.}
+$$
+
+In particular, when $m=\sum_i y_i>0$,
+
+$$
+e^{\widehat a}=\frac{m}{\sum_i e^{\widehat\beta x_i}},\qquad
+\frac{\sum_i x_i e^{\widehat\beta x_i}}{\sum_i e^{\widehat\beta x_i}}
+=\frac{\sum_i x_i y_i}{m}.
+$$
+
+The left side is a weighted covariate mean whose derivative is its weighted [variance](../../../variance.md), so it is strictly increasing when the covariates are not all equal. An interior solution is unique if the observed count-weighted mean is strictly between the smallest and largest covariates. At an extreme it may require a limiting slope, and if all counts are zero the maximum occurs as $a\to-\infty$, rather than at finite parameters. Constant covariates make the slope and intercept unidentifiable.
+
+Put $S_j=\sum_i x_i^j\mu_i$. The negative [Hessian matrix](../../../calculus.md#hessian-matrix) is deterministic at given parameters and is also the [Fisher information matrix](../../../statistical-modelling.md#fisher-information-matrix):
+
+$$
+I(a,\beta)=\begin{pmatrix}S_0&S_1\\ S_1&S_2\end{pmatrix},\qquad
+I(a,\beta)^{-1}=\frac1{S_0S_2-S_1^2}
+\begin{pmatrix}S_2&-S_1\\-S_1&S_0\end{pmatrix}.
+$$
+
+Under the usual interior, increasing-information regularity for [asymptotic normality of a maximum likelihood estimator](../../../statistical-modelling.md#asymptotic-normality-of-a-maximum-likelihood-estimator), replace the unknown means by their fitted values and read the lower-right entry:
+
+$$
+\boxed{\operatorname{Var}(\widehat\beta)\approx
+\frac{\sum_i\widehat\mu_i}{(\sum_i\widehat\mu_i)(\sum_i x_i^2\widehat\mu_i)-(\sum_i x_i\widehat\mu_i)^2}.}
+$$
+
+Equivalently, [Poisson slope information after eliminating an intercept](../../../statistical-modelling.md#poisson-slope-information-after-eliminating-an-intercept) is $\sum_i\mu_i(x_i-\bar x_\mu)^2$, with $\bar x_\mu=S_1/S_0$. This explains both the positive denominator for varying covariates and the loss of slope information when their spread is small.
+
+<h3 id="2/i">i</h3>
+
+↑ **Parent:** [2](#2)
+
+<h4 id="2/i/solution">Solution</h4>
+
+↑ **Parent:** [I](#2/i)
+
+The [Poisson deviance](../../../statistical-modelling.md#poisson-deviance) compares the fitted [Poisson regression](../../../statistical-modelling.md#poisson-regression) with a [saturated statistical model](../../../statistical-modelling.md#saturated-statistical-model):
+
+$$
+D=2\sum_i\left[y_i\log\frac{y_i}{\widehat\mu_i}-(y_i-\widehat\mu_i)\right],
+$$
+
+using $0\log0=0$. If the usual [deviance goodness-of-fit test](../../../statistical-modelling.md#deviance-goodness-of-fit-test) approximation is adequate, compare $27.2$ with a [chi-squared distribution](../../../probability-theory.md#chi-squared-distribution) on $29$ [statistical degrees of freedom](../../../statistical-inference.md#statistical-degrees-of-freedom). Its upper-tail [p-value](../../../statistical-modelling.md#p-value) is about $0.561$, and $D/29=0.938$. **There is no detected lack of fit or evidence of substantial overdispersion from this deviance.** This neither proves the [Poisson regression](../../../statistical-modelling.md#poisson-regression) correct nor establishes that the slope is nonzero. Small expected counts, dependence or inadequate covariate specification can undermine the reference approximation, so [deviance residuals](../../../statistical-modelling.md#deviance-residual) and other [regression diagnostics](../../../linear-regression.md#regression-diagnostics) still matter.
+
+<h3 id="2/ii">ii</h3>
+
+↑ **Parent:** [2](#2)
+
+<h4 id="2/ii/solution">Solution</h4>
+
+↑ **Parent:** [Ii](#2/ii)
+
+The [Wald test](../../../statistical-modelling.md#wald-test) of $H_0:\beta=0$ uses
+
+$$
+Z=\frac{6.73}{8.04}=0.837,
+$$
+
+with an approximate [standard normal distribution](../../../probability-theory.md#standard-normal-distribution) under the null. Its two-sided [p-value](../../../statistical-modelling.md#p-value) is $0.403$, and the approximate $95\%$ [Wald confidence interval](../../../statistical-inference.md#wald-confidence-interval) is
+
+$$
+\boxed{6.73\pm1.96(8.04)=(-9.03,22.49).}
+$$
+
+**There is no convincing evidence of a covariate effect, and the slope is very imprecisely estimated.** The model can fit acceptably while its slope is statistically indistinguishable from zero. In the [Poisson regression](../../../statistical-modelling.md#poisson-regression), a unit covariate increase multiplies the mean by $e^\beta$; exponentiating the two interval limits shows how poorly this multiplier is determined on the stated scale. One might compare with an intercept-only model using a [likelihood-ratio test](../../../statistical-modelling.md#likelihood-ratio-test), but its numerical deviance difference is not supplied. Failure to reject does not establish no effect.
+
+## 3
+
+↑ **Parent:** [Paper 41](paper-41.md)
+
+<h3 id="3/i">i</h3>
+
+↑ **Parent:** [3](#3)
+
+<h4 id="3/i/solution">Solution</h4>
+
+↑ **Parent:** [I](#3/i)
+
+Expanding the [ordinary least squares](../../../statistical-modelling.md#ordinary-least-squares) objective gives
+
+$$
+Q(\beta)=Y^TY-2\beta^TX^TY+\beta^TX^TX\beta,
+\qquad \nabla Q=2X^T(X\beta-Y),\quad \nabla^2Q=2X^TX.
+$$
+
+For a nonzero vector $v$, $v^TX^TXv=\|Xv\|^2>0$, since the [design matrix](../../../linear-regression.md#design-matrix) has [matrix rank](../../../vector-space.md#matrix-rank) $p$. The [Hessian matrix](../../../calculus.md#hessian-matrix) is therefore [positive-definite](../../../linear-algebra.md#positive-definite-bilinear-form), and $Q$ is strictly [convex](../../../real-analysis.md#convex-function). Solving its [normal equations](../../../statistical-modelling.md#normal-equation) gives the unique [least-squares estimator](../../../statistical-modelling.md#ordinary-least-squares-estimators):
+
+$$
+\boxed{\widehat\beta=(X^TX)^{-1}X^TY.}
+$$
+
+Indeed, expansion about this stationary point and $X^T(Y-X\widehat\beta)=0$ give $Q(\beta)=Q(\widehat\beta)+(\beta-\widehat\beta)^TX^TX(\beta-\widehat\beta)$, which also proves the global minimum directly.
+
+Define the [hat matrix](../../../statistical-modelling.md#hat-matrix) $H=X(X^TX)^{-1}X^T$. It is a [symmetric matrix](../../../linear-algebra.md#symmetric-matrix) and an [idempotent linear map](../../../vector-space.md#projection-linear-algebra), since $H^T=H$ and $H^2=H$, and its image is the column space of $X$. Thus $H$ is the [orthogonal projection](../../../hilbert-space.md#orthogonal-projection) onto the fitted mean space. The [fitted values](../../../linear-regression.md#fitted-values) are $HY$ and the [regression residual](../../../probability-and-statistics.md#regression-residual) vector is $(I-H)Y$. Because $I-H$ is also a [symmetric matrix](../../../linear-algebra.md#symmetric-matrix) and an [idempotent linear map](../../../vector-space.md#projection-linear-algebra),
+
+$$
+\boxed{Q(\widehat\beta)=Y^T(I-H)^T(I-H)Y=Y^T(I-H)Y.}
+$$
+
+These minimization and projection identities do not need errors with a [normal distribution](../../../probability-theory.md#normal-distribution); the [normal linear model](../../../statistical-modelling.md#normal-linear-model) becomes relevant to the distributional calculations.
+
+<h3 id="3/ii">ii</h3>
+
+↑ **Parent:** [3](#3)
+
+<h4 id="3/ii/solution">Solution</h4>
+
+↑ **Parent:** [Ii](#3/ii)
+
+Put $G=I-H$. Since $GX=0$, the [regression residual](../../../probability-and-statistics.md#regression-residual) vector is $\widehat\varepsilon=G\varepsilon$. A linear transformation of a [multivariate normal distribution](../../../probability-and-statistics.md#multivariate-normal-distribution) is again [multivariate normal](../../../probability-and-statistics.md#multivariate-normal-distribution), so
+
+$$
+\boxed{\widehat\varepsilon\sim N_n(0,\sigma^2G),\qquad G=I-H.}
+$$
+
+This is a singular [multivariate normal distribution](../../../probability-and-statistics.md#multivariate-normal-distribution) supported on $\ker X^T$, with dimension $n-p$. In particular,
+
+$$
+\operatorname{Var}(\widehat\varepsilon_i)=\sigma^2(1-h_{ii}),\qquad
+\operatorname{Cov}(\widehat\varepsilon_i,\widehat\varepsilon_j)=-\sigma^2h_{ij}\quad(i\ne j).
+$$
+
+Consequently [regression residuals](../../../probability-and-statistics.md#regression-residual) are neither independent nor identically distributed even under the stated model. Their linear constraints include $X^T\widehat\varepsilon=0$, and, if the [design matrix](../../../linear-regression.md#design-matrix) contains an intercept, their sum is zero.
+
+Choose an [orthonormal basis](../../../linear-algebra.md#orthonormal-basis) of the residual space. The coordinates of $G\varepsilon$ in that basis are $n-p$ [independent](../../../random-variable.md#independent-random-variables) $N(0,\sigma^2)$ variables, proving
+
+$$
+\frac{Q(\widehat\beta)}{\sigma^2}\sim\chi^2_{n-p},\qquad
+s^2=\frac{Q(\widehat\beta)}{n-p}.
+$$
+
+For $n>p$, $s^2$ is an [unbiased estimator](../../../statistical-modelling.md#unbiased-estimator) of $\sigma^2$. Orthogonality of $H$ and $G$ gives zero cross-[covariance](../../../variance.md#covariance), so the [Gaussian](../../../probability-theory.md#normal-distribution) fitted and residual vectors are [independent](../../../random-variable.md#independent-random-variables). This explains why an appropriate residual-versus-fitted diagnostic has no systematic mean relationship under the model. If $n=p$, no residual information remains for these diagnostics or the variance estimate.
+
+For $h_{ii}<1$, use [standardized regression residuals](../../../probability-and-statistics.md#standardized-regression-residual) $r_i=\widehat\varepsilon_i/[s\sqrt{1-h_{ii}}]$ to account for the different residual [variances](../../../variance.md). The diagonal $h_{ii}$ is the [regression leverage](../../../statistical-modelling.md#regression-leverage); $h_{ii}=1$ makes that residual identically zero and cannot be diagnosed by this standardization. With known $\sigma$, the corresponding individually standardized residual has an exact [standard normal distribution](../../../probability-theory.md#standard-normal-distribution). With estimated $s$, the [internally studentized residual](../../../probability-and-statistics.md#standardized-regression-residual) is not exactly normal or a [Student t-distribution](../../../continuous-probability-distribution.md#student-s-t-distribution), and the residuals remain correlated; a normal reference plot is a diagnostic approximation.
+
+Plot the [regression residuals](../../../probability-and-statistics.md#regression-residual) or [standardized regression residuals](../../../probability-and-statistics.md#standardized-regression-residual) against [fitted values](../../../linear-regression.md#fitted-values) and each covariate. A persistent curve suggests a misspecified mean, while a fan-shaped spread suggests [heteroscedasticity](../../../statistical-modelling.md#heteroscedastic); a [scale-location plot](../../../linear-regression.md#scale-location-plot) helps separate these. A [quantile-quantile plot](../../../probability-and-statistics.md#q-q-plot) against normal quantiles checks tails, skewness and possible [regression outliers](../../../linear-regression.md#regression-outlier). Plot residuals against observation order or time to look for unexplained serial patterns, recognizing that projection already induces the displayed residual [covariances](../../../variance.md#covariance). Inspect [regression leverage](../../../statistical-modelling.md#regression-leverage) together with [Cook's distance](../../../statistical-modelling.md#cook-s-distance) for [influential observations](../../../linear-regression.md#influential-observation). Such patterns motivate revising the model; absence of a visible pattern does not prove all its assumptions.
+
+<h3 id="3/iii">iii</h3>
+
+↑ **Parent:** [3](#3)
+
+<h4 id="3/iii/solution">Solution</h4>
+
+↑ **Parent:** [Iii](#3/iii)
+
+The response errors have standard deviations proportional to $|\mu_i|$. Thus, when fitted means approximate the true means, increasing absolute [fitted values](../../../linear-regression.md#fitted-values) tends to accompany increasing residual spread. A residual-versus-fitted plot shows a fan for positive means, or spread increasing away from zero for means of either sign. Standardization by one common residual standard deviation, even with the usual [regression leverage](../../../statistical-modelling.md#regression-leverage) correction, does not remove this systematic [heteroscedasticity](../../../statistical-modelling.md#heteroscedastic).
+
+Under independent errors the exact [covariance matrix](../../../variance.md#covariance-matrix) after fitting is
+
+$$
+\operatorname{Cov}(\widehat\varepsilon)=G\,\operatorname{diag}(k\mu_1^2,\ldots,k\mu_n^2)\,G,
+\qquad G=I-H,
+$$
+
+where $k>0$ is the common proportionality constant. Hence the simple fan description is a diagnostic tendency, not an assertion that each fitted residual has exactly [variance](../../../variance.md) $k\mu_i^2$.
+
+For positive responses, the intended [variance-stabilizing transformation](../../../statistical-inference.md#variance-stabilizing-transformation) is the [natural logarithm](../../../calculus.md#natural-logarithm). The [delta method](../../../statistical-inference.md#delta-method) gives
+
+$$
+\operatorname{Var}(\log Y_i)\approx\frac{\operatorname{Var}(Y_i)}{\mu_i^2}=k,\qquad
+\mathbb E(\log Y_i)\approx\log\mu_i-\frac{k}{2}.
+$$
+
+**Use $\log Y_i$ for positive data with modest relative error, then refit and check the transformed mean and residual structure.** In particular, if the original mean was $X_i^T\beta$, the transformed mean is approximately $\log(X_i^T\beta)-k/2$, not automatically a linear function of the original covariates.
+
+There is a domain qualification in the literal printed model: a nondegenerate [normal distribution](../../../probability-theory.md#normal-distribution) has negative support. For positive $\mu_i$, the probability of $Y_i\leq0$ is $\Phi(-1/\sqrt{k})$, so a real $\log Y_i$ is not defined throughout the stated sampling model. When $k$ is small this is a negligible-tail approximation, not an exact transformation to normal errors. If signed values must be retained and all $\mu_i\ne0$, write $Y_i=\mu_i(1+\sqrt{k}Z_i)$ with standard [normal](../../../probability-theory.md#normal-distribution) $Z_i$. Then
+
+$$
+\log|Y_i|=\log|\mu_i|+\log|1+\sqrt{k}Z_i|.
+$$
+
+The second term has a common distribution with finite [variance](../../../variance.md), so [log absolute value stabilization of a normal scale family](../../../statistical-inference.md#log-absolute-value-stabilization-of-a-normal-scale-family) is exact, but loses the sign of the mean and does not produce normal errors. Zeros and a zero mean are excluded from this transform. Alternatively retain the response scale and fit the stated variance model with [weighted least squares](../../../statistical-modelling.md#weighted-least-squares) weights proportional to $1/\widehat\mu_i^2$ where the means stay away from zero. No arbitrary addition of a constant before taking logarithms exactly solves the given variance relation.
+
+## 4
+
+↑ **Parent:** [Paper 41](paper-41.md)
+
+<h3 id="4/solution">Solution</h3>
+
+↑ **Parent:** [4](#4)
+
+`read.table(...,header=T)` reads four grouped rows with column names. The displayed outcome counts give the observed risks $0.1519,0.2145,0.2611,0.5111$ in the indicated factor order. `rbind` in the first test pools over predisposition: the two rows represent no cannabis use and some use, with event/non-event counts $(341,1775)$ and $(82,238)$. Thus the pooled risks are $341/2116=0.1612$ and $82/320=0.2563$. This test concerns the marginal [statistical association](../../../causal-inference.md#statistical-association) between use and outcome, not an association adjusted for predisposition.
+
+Under independence, expected counts in the two-by-two [contingency table](../../../statistical-modelling.md#contingency-table) are $E_{ij}=O_{i+}O_{+j}/N$. The ordinary [Pearson chi-squared statistic](../../../statistical-modelling.md#pearson-chi-squared-statistic) is $17.5183$. The printed $16.8618$ is reproduced by the default two-by-two [Yates continuity correction](../../../statistical-modelling.md#yates-s-correction-for-continuity):
+
+$$
+X_Y^2=\sum_{i,j}\frac{(|O_{ij}-E_{ij}|-1/2)^2}{E_{ij}}=16.8618.
+$$
+
+All absolute differences here exceed one half. Comparison with a [chi-squared distribution](../../../probability-theory.md#chi-squared-distribution) on one [statistical degree of freedom](../../../statistical-inference.md#statistical-degrees-of-freedom) gives $p=4.02\times10^{-5}$. **There is strong evidence of marginal association.** The simplified output omits the usual continuity-correction wording, but its numerical value shows which statistic was used.
+
+`attach` makes the data columns available by name, and `tot=with+without` obtains group sizes $1936,275,180,45$. The grouped [binomial regression](../../../statistical-modelling.md#binomial-regression) fits $Y_g\sim\operatorname{Bin}(n_g,\pi_g)$, with response $Y_g/n_g$ and prior weights $n_g$. These weights tell R the binomial denominator; treating the four proportions as four equally precise individual observations would be wrong. The default [logit link](../../../statistical-modelling.md#logit) is
+
+$$
+\eta_g=\log\frac{\pi_g}{1-\pi_g},\qquad
+\pi_g=\frac{e^{\eta_g}}{1+e^{\eta_g}}.
+$$
+
+Let $A$ indicate some use and $B$ indicate predisposition. The additive [logistic regression](../../../statistical-modelling.md#logistic-regression) specifies $\eta=a+bA+cB$. Its [log-likelihood](../../../statistical-modelling.md#log-likelihood), including the binomial constants, is
+
+$$
+\ell=\sum_g\left[\log\binom{n_g}{Y_g}+Y_g\eta_g-n_g\log(1+e^{\eta_g})\right].
+$$
+
+Differentiation gives [score equations](../../../statistical-modelling.md#score-equation) $X^T(Y-n\pi)=0$ and [Fisher information matrix](../../../statistical-modelling.md#fisher-information-matrix) $X^TWX$, where $W_{gg}=n_g\pi_g(1-\pi_g)$. [Fisher scoring](../../../statistical-modelling.md#scoring-algorithm) solves these equations, and the inverse fitted [Fisher information matrix](../../../statistical-modelling.md#fisher-information-matrix) gives the reported approximate coefficient [variances](../../../variance.md). The number of scoring iterations records numerical convergence, not degrees of freedom or statistical evidence.
+
+The intercept corresponds to no use and no predisposition and gives baseline fitted risk $\operatorname{logit}^{-1}(-1.73881)=0.1495$. The additive coefficients imply common adjusted [odds ratios](../../../statistical-modelling.md#odds-ratio):
+
+$$
+\boxed{\operatorname{OR}_{A\mid B}=e^{0.53847}=1.713,\qquad
+\operatorname{OR}_{B\mid A}=e^{0.82824}=2.289.}
+$$
+
+They multiply the odds, not the risks. The [Wald tests](../../../statistical-modelling.md#wald-test) divide the estimates by their [standard errors](../../../statistical-inference.md#standard-error) and use a [standard normal distribution](../../../probability-theory.md#standard-normal-distribution); both predictors have small two-sided [p-values](../../../statistical-modelling.md#p-value). Approximate $95\%$ [confidence intervals](../../../statistical-inference.md#confidence-interval) for these [odds ratios](../../../statistical-modelling.md#odds-ratio) are $(1.296,2.266)$ and $(1.685,3.110)$, obtained by exponentiating the log-scale intervals. The intercept test against zero asks whether the reference risk equals one half, and is not a test of either exposure association. The binomial dispersion is assumed to be one because $\operatorname{Var}(Y_g)=n_g\pi_g(1-\pi_g)$; the output does not demonstrate independence or rule out extra-binomial variation.
+
+There are four grouped probabilities and three fitted coefficients, leaving one [residual degree of freedom](../../../statistical-modelling.md#residual-degrees-of-freedom). The fitted risks are approximately $(0.1495,0.2314,0.2869,0.4080)$. The [binomial deviance](../../../statistical-modelling.md#binomial-deviance) compares this fit with the four unrestricted observed proportions:
+
+$$
+D=2\sum_g\left[Y_g\log\frac{Y_g}{n_g\widehat\pi_g}
++(n_g-Y_g)\log\frac{n_g-Y_g}{n_g(1-\widehat\pi_g)}\right]=3.0733.
+$$
+
+The [deviance goodness-of-fit test](../../../statistical-modelling.md#deviance-goodness-of-fit-test) against $\chi^2_1$ has [p-value](../../../statistical-modelling.md#p-value) $0.0796$. The common-odds-ratio fit is not rejected at $5\%$, although the doubly exposed group's observed risk exceeds its fitted risk appreciably and suggests possible [interaction](../../../statistical-model.md#interaction-statistics).
+
+The second formula adds $\delta AB$. Its four coefficients fit all four probabilities, making a [saturated statistical model](../../../statistical-modelling.md#saturated-statistical-model) with zero grouped [residual degrees of freedom](../../../statistical-modelling.md#residual-degrees-of-freedom). The near-zero deviance is roundoff from exact interpolation; it supplies no remaining grouped lack-of-fit test. Unlike Q1's unreplicated Gaussian fit, however, these grouped responses represent many independent Bernoulli trials, and their binomial [variances](../../../variance.md) are specified by their sizes and probabilities. Coefficient [standard errors](../../../statistical-inference.md#standard-error) remain available from binomial information without estimating dispersion from the zero residual degrees of freedom.
+
+Indeed, let $\eta_{ab}=\log[Y_{ab}/(n_{ab}-Y_{ab})]$ be the fitted cell [logit link](../../../statistical-modelling.md#logit) value. The saturated coefficients are
+
+$$
+a=\eta_{00},\qquad b=\eta_{10}-\eta_{00},\qquad
+c=\eta_{01}-\eta_{00},\qquad
+\delta=\eta_{11}-\eta_{10}-\eta_{01}+\eta_{00}.
+$$
+
+These calculations yield the printed estimates. The [delta method](../../../statistical-inference.md#delta-method) gives $\operatorname{Var}(\widehat\eta_{ab})\approx1/Y_{ab}+1/(n_{ab}-Y_{ab})$, and independent groups make the [variance](../../../variance.md) of $\widehat\delta$ the sum of all eight reciprocal counts. Its square root is $0.37857$, reproducing the printed [standard error](../../../statistical-inference.md#standard-error).
+
+The saturated [logistic regression](../../../statistical-modelling.md#logistic-regression) describes the conditional [odds ratios](../../../statistical-modelling.md#odds-ratio) as follows:
+
+$$
+\operatorname{OR}_{A\mid B=0}=e^{0.42235}=1.526,\qquad
+\operatorname{OR}_{A\mid B=1}=e^{0.42235+0.66230}=2.958,
+$$
+
+
+
+$$
+\operatorname{OR}_{B\mid A=0}=e^{0.67989}=1.974,\qquad
+\operatorname{OR}_{B\mid A=1}=e^{0.67989+0.66230}=3.827.
+$$
+
+Thus the main coefficients now concern effects at the other factor's reference level. [Logistic interaction as a ratio of odds ratios](../../../statistical-modelling.md#logistic-interaction-as-a-ratio-of-odds-ratios) gives $e^\delta=1.939$, with approximate $95\%$ [confidence interval](../../../statistical-inference.md#confidence-interval) $(0.923,4.073)$. The interaction [Wald test](../../../statistical-modelling.md#wald-test) has $p=0.0802$, while the nested [likelihood-ratio test](../../../statistical-modelling.md#likelihood-ratio-test) uses deviance difference $3.0733$ on one [statistical degree of freedom](../../../statistical-inference.md#statistical-degrees-of-freedom) and has $p=0.0796$. **The data suggest a larger odds association in predisposed subjects, but do not establish this interaction at the conventional $5\%$ level.** This conclusion is specific to the odds scale; absolute-risk differences can vary even with no logit-scale interaction.
+
+The [Akaike information criterion](../../../statistical-modelling.md#akaike-information-criterion) is $-2\widehat\ell+2k$. The additive fit has $k=3$ and AIC $31.766$; the interaction fit has $k=4$ and AIC $30.692$. The extra coefficient improves twice the log-likelihood by $3.0733$ but incurs penalty $2$, so AIC falls by only $1.0733$. It weakly favors the larger fit rather than decisively establishing an interaction, and AIC is not a [p-value](../../../statistical-modelling.md#p-value).
+
+The marginal [odds ratio](../../../statistical-modelling.md#odds-ratio) $1.793$ and the fitted conditional [odds ratios](../../../statistical-modelling.md#odds-ratio) are different quantities. Predisposition is associated with both use frequency and outcome, so [confounding](../../../causal-inference.md#confounding) is a substantive possibility; [noncollapsibility of the odds ratio](../../../statistical-modelling.md#noncollapsibility-of-the-odds-ratio) also means marginal and conditional odds ratios need not agree. This is an observational association analysis with only one adjustment factor. It does not by itself establish a causal effect, exclude other [confounding](../../../causal-inference.md#confounding), or validate the assumed independent binomial sampling.
+
+## 5
+
+↑ **Parent:** [Paper 41](paper-41.md)
+
+<h3 id="5/i">i</h3>
+
+↑ **Parent:** [5](#5)
+
+<h4 id="5/i/solution">Solution</h4>
+
+↑ **Parent:** [I](#5/i)
+
+Let $\Delta C$ and $\Delta E$ be the new-minus-standard mean cost and survival increments. The [incremental cost-effectiveness ratio](../../../statistical-inference.md#incremental-cost-effectiveness-ratio) is
+
+$$
+\boxed{\widehat{\operatorname{ICER}}=\frac{1800}{45}=\text{£40 per additional survival day}.}
+$$
+
+Using $365$ days per year, this is £14,600 per additional life-year. It is not cost per quality-adjusted life-year because no quality-of-life adjustment is supplied. Both point-estimated increments are positive, so the new intervention exchanges higher cost for longer survival; this is not dominance.
+
+<h3 id="5/ii">ii</h3>
+
+↑ **Parent:** [5](#5)
+
+<h4 id="5/ii/solution">Solution</h4>
+
+↑ **Parent:** [Ii](#5/ii)
+
+Assume the two trial arms are independent samples, their cost and survival means have a valid joint [normal approximation](../../../convergence-of-random-variables.md#normal-approximation), and the supplied [standard errors](../../../statistical-inference.md#standard-error) and [correlation coefficient](../../../variance.md#pearson-correlation-coefficient) estimate the joint uncertainty in their mean differences. This could follow from a [central limit theorem](../../../convergence-of-random-variables.md#central-limit-theorem) for patient-level cost/survival pairs, with finite second moments and suitably handled survival follow-up. The supplied [covariance matrix](../../../variance.md#covariance-matrix) for $(\widehat{\Delta C},\widehat{\Delta E})$ is
+
+$$
+\widehat\Sigma=\begin{pmatrix}300^2&0.5(300)(15)\\0.5(300)(15)&15^2\end{pmatrix}
+=\begin{pmatrix}90000&2250\\2250&225\end{pmatrix}.
+$$
+
+The off-diagonal entry has units pounds times days, and must not be discarded. Independence of trial arms does not mean cost and survival increments are independent: patient-level cost and survival are paired within each arm.
+
+For a proposed ratio $r$, the null assertion is $\Delta C-r\Delta E=0$. Its estimated [variance](../../../variance.md) is $90000-4500r+225r^2$. [Fieller's theorem](../../../statistical-inference.md#fieller-s-theorem) inverts the associated two-sided normal tests. With $q=\Phi^{-1}(0.975)\approx1.96$, retain $r$ when
+
+$$
+(1800-45r)^2\leq q^2(90000-4500r+225r^2).
+$$
+
+Expanding gives
+
+$$
+(2025-225q^2)r^2+(-162000+4500q^2)r+(3240000-90000q^2)\leq0.
+$$
+
+The leading coefficient is positive, since $45>q(15)$; the effect increment is separated from zero at this level. With $q^2=3.841459$, the polynomial is approximately
+
+$$
+1160.672r^2-144713.435r+2894268.706.
+$$
+
+It is nonpositive between its two real roots. The resulting approximate $95\%$ [Fieller confidence set](../../../statistical-inference.md#fieller-s-theorem) is therefore a bounded [confidence interval](../../../statistical-inference.md#confidence-interval):
+
+$$
+\boxed{\operatorname{ICER}\in[25.02,99.66]\text{ pounds per additional survival day}.}
+$$
+
+On the $365$-day life-year scale the endpoints are approximately £9,133 and £36,376. Exact coverage would need an exact pivot with its corresponding critical value; using estimated covariance and a [central limit theorem](../../../convergence-of-random-variables.md#central-limit-theorem) makes this an asymptotic interval. In other data, a poorly determined denominator can give unbounded or disconnected [Fieller confidence sets](../../../statistical-inference.md#fieller-s-theorem), which should not be replaced by an artificially bounded interval.
+
+An alternative is a paired [bootstrap](../../../statistical-modelling.md#bootstrapping-statistics): independently resample patients within each randomized arm, keeping each patient's cost and survival together; recompute both mean differences and their ratio in each replicate. The $2.5\%$ and $97.5\%$ empirical ratio quantiles give a [percentile bootstrap confidence interval](../../../statistical-modelling.md#percentile-bootstrap-confidence-interval). The raw paired data are needed to calculate it, so the numerical endpoints cannot be obtained from this summary table alone. Near-zero bootstrap effect increments or sign changes warn that ordinary ratio-percentile intervals may be unreliable; one should retain the joint cost/effect uncertainty or invert a suitable bootstrap test instead.
+
+A simpler first-order alternative is the [delta method](../../../statistical-inference.md#delta-method). For $r=\Delta C/\Delta E$, the gradient is $(1/\Delta E,-\Delta C/\Delta E^2)$, giving
+
+$$
+\widehat{\operatorname{Var}}(\widehat r)=\frac{90000+40^2(225)-2(40)(2250)}{45^2}=133.333.
+$$
+
+The resulting approximate [Wald confidence interval](../../../statistical-inference.md#wald-confidence-interval) is $40\pm1.96\sqrt{133.333}=(17.37,62.63)$ pounds per day. Its symmetric first-order form misses the denominator's nonlinear effect, explaining its marked difference from the [Fieller confidence set](../../../statistical-inference.md#fieller-s-theorem); it is not the preferred ratio interval here.
+
+<h3 id="5/iii">iii</h3>
+
+↑ **Parent:** [5](#5)
+
+<h4 id="5/iii/solution">Solution</h4>
+
+↑ **Parent:** [Iii](#5/iii)
+
+The [incremental cost-effectiveness ratio](../../../statistical-inference.md#incremental-cost-effectiveness-ratio) must be read with the signs of both increments. A negative ratio can mean either greater effectiveness at lower cost, which is favorable, or lower effectiveness at greater cost, which is unfavorable. A positive ratio can likewise lie in either the more-costly/more-effective or cheaper/less-effective quadrant. Thus ordering ratio values without locating the [cost-effectiveness plane](../../../statistical-inference.md#cost-effectiveness-plane) quadrant can reverse a decision.
+
+The [incremental cost-effectiveness ratio](../../../statistical-inference.md#incremental-cost-effectiveness-ratio) is undefined at a zero effect increment and extremely unstable near it. Its [sampling distribution](../../../statistical-modelling.md#sampling-distribution) can be highly skewed and its mean may fail to exist; a usual symmetric [confidence interval](../../../statistical-inference.md#confidence-interval) or an interval spanning positive and negative ratios can conceal that instability. Cost-effect correlation must be retained, as the [Fieller confidence set](../../../statistical-inference.md#fieller-s-theorem) calculation illustrates.
+
+Interpretation also requires a specified comparator, effect unit, costing perspective, follow-up horizon and willingness-to-pay threshold. Different comparator choices give different incremental ratios, and lower ratios alone do not settle decisions across differently scaled outcomes. Longer survival need not mean a proportional quality-of-life gain; extrapolation, censored outcomes and omitted costs can affect the increments. Point estimates conceal both sampling uncertainty and uncertainty in these assumptions.
+
+For a positive effect increment, comparison with a threshold $\lambda$ is equivalent to $\Delta C/\Delta E<\lambda$. For negative effect increments that inequality reverses when multiplied by $\Delta E$, so a rule that blindly compares all ratios with $\lambda$ is wrong. **Use the signs and joint cost/effect uncertainty, or the incremental net monetary benefit $\lambda\Delta E-\Delta C$, rather than the ratio alone.** No particular threshold is given in the paper, so the point estimate does not establish whether reimbursement should occur.
+
+<h3 id="5/iv">iv</h3>
+
+↑ **Parent:** [5](#5)
+
+<h4 id="5/iv/solution">Solution</h4>
+
+↑ **Parent:** [Iv](#5/iv)
+
+One presentation is the [cost-effectiveness plane](../../../statistical-inference.md#cost-effectiveness-plane), with $\Delta E$ horizontally and $\Delta C$ vertically. Plot the point estimate $(45,1800)$ with a joint [confidence region](../../../statistical-inference.md#confidence-region) or paired [bootstrap](../../../statistical-modelling.md#bootstrapping-statistics) cloud. Its position shows the tradeoff quadrant, while the cloud shows uncertainty, dependence and possible dominance. A willingness-to-pay threshold $\lambda$ is the line $\Delta C=\lambda\Delta E$ through the origin. Points below that line have positive [incremental net monetary benefit](../../../statistical-inference.md#incremental-net-monetary-benefit), including points in quadrants where a ratio rule would fail. The point-estimated switch occurs at $\lambda=40$ pounds per day.
+
+A second presentation is a [cost-effectiveness acceptability curve](../../../statistical-inference.md#cost-effectiveness-acceptability-curve), giving an uncertainty-based measure of cost-effectiveness for a range of thresholds. For paired [bootstrap](../../../statistical-modelling.md#bootstrapping-statistics) increments $(\Delta E^{*(b)},\Delta C^{*(b)})$, plot
+
+$$
+\widehat p(\lambda)=\frac1B\sum_{b=1}^B
+\mathbf1\{\lambda\Delta E^{*(b)}-\Delta C^{*(b)}>0\}.
+$$
+
+This counts positive net benefits, not merely ratios below the threshold, so it handles all quadrants. Using [Bayesian inference](../../../statistical-inference.md#bayesian-statistics) the curve is the [posterior probability](../../../statistical-inference.md#posterior-probability) that [incremental net monetary benefit](../../../statistical-inference.md#incremental-net-monetary-benefit) is positive; a frequentist bootstrap curve is a resampling summary, not literally a probability that a fixed parameter is positive.
+
+Here the estimated [incremental net monetary benefit](../../../statistical-inference.md#incremental-net-monetary-benefit) and its [standard error](../../../statistical-inference.md#standard-error) are
+
+$$
+\widehat{\operatorname{INMB}}(\lambda)=45\lambda-1800,\qquad
+s_{\mathrm{INMB}}(\lambda)=\sqrt{225\lambda^2-4500\lambda+90000}.
+$$
+
+Thus a [normal approximation](../../../convergence-of-random-variables.md#normal-approximation) uncertainty curve is
+
+$$
+\widehat p(\lambda)\approx
+\Phi\!\left(\frac{45\lambda-1800}{\sqrt{225\lambda^2-4500\lambda+90000}}\right).
+$$
+
+It passes through one half at £40 per day. Alternatively display the [incremental net monetary benefit](../../../statistical-inference.md#incremental-net-monetary-benefit) curve itself with approximate pointwise $95\%$ bands $45\lambda-1800\pm1.96s_{\mathrm{INMB}}(\lambda)$. **The plane preserves the joint uncertainty; the acceptability curve shows how the threshold changes the cost-effectiveness assessment.** Neither presentation chooses society's willingness-to-pay threshold.
+
+## ↑ Ancestors (8)
+
+1. [Iii](../iii.md)
+2. [2005](../../2005.md)
+3. [Past exam of the mathematics course of the University of Cambridge](../../../past-exam-of-the-mathematics-course-of-the-university-of-cambridge.md)
+4. [Mathematics course of the University of Cambridge](../../../university-of-cambridge.md#mathematics-course-of-the-university-of-cambridge)
+5. [Course of the University of Cambridge](../../../university-of-cambridge.md#course-of-the-university-of-cambridge)
+6. [University of Cambridge](../../../university-of-cambridge.md)
+7. [List of universities](../../../README.md#list-of-universities)
+8. [Codex Wiki](../../../README.md)

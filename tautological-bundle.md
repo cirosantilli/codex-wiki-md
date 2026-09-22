@@ -1,0 +1,61 @@
+# Tautological bundle
+
+↑ **Parent:** [Vector bundle](vector-bundle.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Tautological_bundle)
+
+The tautological bundle over a projective space has as its fiber over a line precisely that line. The real tautological line bundle over $\mathbb{RP}^m$ has first Stiefel-Whitney class equal to the degree-one generator.
+
+**Table of contents**
+
+- [Complex tautological bundle on a Grassmannian](complex-tautological-bundle-on-a-grassmannian.md)
+  - [Classification of complex vector bundles by a Grassmannian](classification-of-complex-vector-bundles-by-a-grassmannian.md)
+    - [Rank-two complex vector bundles over the four-sphere](rank-two-complex-vector-bundles-over-the-four-sphere.md)
+    - [Close orthogonal projections identify their image bundles](close-orthogonal-projections-identify-their-image-bundles.md)
+    - [Finite-dimensional embedding of a complex vector bundle](finite-dimensional-embedding-of-a-complex-vector-bundle.md)
+- [Complex tautological line bundle](complex-tautological-line-bundle.md)
+  - [Punctured line bundles do not determine their duality sign](punctured-line-bundles-do-not-determine-their-duality-sign.md)
+  - [Unitary transitions of the tautological line over the projective line](unitary-transitions-of-the-tautological-line-over-the-projective-line.md)
+  - [Global holomorphic sections of the complex tautological line bundle vanish](global-holomorphic-sections-of-the-complex-tautological-line-bundle-vanish.md)
+  - [Hyperplane line bundle](hyperplane-line-bundle.md)
+    - [Hyperplane class](hyperplane-class.md)
+    - [Nontrivial hyperplane powers on a compact projective submanifold](nontrivial-hyperplane-powers-on-a-compact-projective-submanifold.md)
+    - [Tensor powers of the hyperplane line bundle](tensor-powers-of-the-hyperplane-line-bundle.md)
+- [Quaternionic tautological line bundle](quaternionic-tautological-line-bundle.md)
+- [Real tautological line bundle](real-tautological-line-bundle.md)
+
+## ↑ Ancestors (7)
+
+1. [Vector bundle](vector-bundle.md)
+2. [Fiber bundle](fiber-bundle-split.md)
+3. [Algebraic topology](algebraic-topology-split.md)
+4. [Geometry and topology](geometry-and-topology-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (24)
+
+- [Complex K-theory of odd-dimensional real projective space](complex-k-theory-of-odd-dimensional-real-projective-space.md)
+- [Complexification of a real vector bundle](complexification-of-a-real-vector-bundle.md)
+- [K-theory of the sphere bundle of copies of a complexified real tautological line](k-theory-of-the-sphere-bundle-of-copies-of-a-complexified-real-tautological-line.md)
+- [Mod-two restriction from complex to real projective space](mod-two-restriction-from-complex-to-real-projective-space.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-18/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-114/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-114/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-114/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-118/2/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-118/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-142/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-142/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-142/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-142/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-115/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-118/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-142/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-118/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-114/3/solution.md)
+- [Projective bundle](projective-bundle.md)
+- [Quaternionic tautological line bundle](quaternionic-tautological-line-bundle.md)
+- [Sections of a projective bundle](sections-of-a-projective-bundle.md)
+- [Stabilized tangent bundle of real projective space](stabilized-tangent-bundle-of-real-projective-space.md)
+- [Universal quotient bundle on a real Grassmannian](universal-quotient-bundle-on-a-real-grassmannian.md)

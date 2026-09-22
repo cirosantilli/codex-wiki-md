@@ -1,0 +1,45 @@
+# Ultraviolet cutoff
+
+↑ **Parent:** [Effective field theory](effective-field-theory.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Ultraviolet_cutoff)
+
+An ultraviolet cutoff removes modes above a chosen energy or momentum scale. An [effective field theory](effective-field-theory.md) encodes the influence of those omitted short-distance modes in its couplings.
+
+## ↑ Ancestors (5)
+
+1. [Effective field theory](effective-field-theory.md)
+2. [Quantum field theory](quantum-field-theory-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (28)
+
+- [Cosmological constant problem](cosmological-constant-problem.md)
+- [Finite higher-point scalar vertex](finite-higher-point-scalar-vertex.md)
+- [Gaussian variational kernel for a gradient quartic interaction](gaussian-variational-kernel-for-a-gradient-quartic-interaction.md)
+- [Mode-number regularization of soliton masses](mode-number-regularization-of-soliton-masses.md)
+- [Momentum-cutoff two-point function in six-dimensional cubic scalar theory](momentum-cutoff-two-point-function-in-six-dimensional-cubic-scalar-theory.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-72/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-72/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-64/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-46/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-46/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-51/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-55/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-43/3/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-48/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-49/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-45/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-42/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-43/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-50/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-303/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-303/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-304/2/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-303/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-304/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-344/1/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-337/1/e/solution.md)
+- [Radial critical-mass subtraction in dimensions three to five](radial-critical-mass-subtraction-in-dimensions-three-to-five.md)
+- [Wilsonian coarse-grained statistical Hamiltonian](wilsonian-coarse-grained-statistical-hamiltonian.md)

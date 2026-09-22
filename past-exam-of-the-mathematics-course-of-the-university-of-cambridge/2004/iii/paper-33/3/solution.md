@@ -1,0 +1,36 @@
+<h1 id="3/solution">Solution</h1>
+
+↑ **Parent:** [3](../3.md)
+
+For a connected undirected weighted [graph](../../../../../graph-split.md), a [spanning tree](../../../../../spanning-tree.md) connects all [vertices](../../../../../vertex-graph-theory.md) without a [graph cycle](../../../../../cycle-in-a-graph.md). A [minimum spanning tree](../../../../../minimum-spanning-tree.md) minimizes the sum of its [edge](../../../../../edge-of-a-graph.md) weights. Disconnected input has no [spanning tree](../../../../../spanning-tree.md), although the same methods produce a minimum spanning [forest](../../../../../forest.md). Negative [edge](../../../../../edge-of-a-graph.md) weights and ties cause no difficulty; a [tree](../../../../../tree-graph-theory.md) always contains exactly $|V|-1$ [edges](../../../../../edge-of-a-graph.md).
+
+The central exchange argument is the [minimum spanning tree cut property](../../../../../minimum-spanning-tree-cut-property.md). Suppose a [forest](../../../../../forest.md) $F$ is contained in some [minimum spanning tree](../../../../../minimum-spanning-tree.md) $T$, and consider a cut with no [edge](../../../../../edge-of-a-graph.md) of $F$ crossing it. Let $e$ be a lightest crossing [edge](../../../../../edge-of-a-graph.md). If $e\notin T$, adding it creates a [graph cycle](../../../../../cycle-in-a-graph.md); the [graph path](../../../../../path-in-a-graph.md) in $T$ between its endpoints contains a crossing [edge](../../../../../edge-of-a-graph.md) $f$. That $f$ is not in $F$, and $w(e)\leq w(f)$. Thus $T-f+e$ is another [spanning tree](../../../../../spanning-tree.md) with no larger weight and still contains $F$. It is also minimum and contains $F\cup\{e\}$. This proves that the chosen [edge](../../../../../edge-of-a-graph.md) is safe, rather than merely asserting a greedy choice.
+
+[Kruskal's algorithm](../../../../../kruskal-s-algorithm.md) sorts all [edges](../../../../../edge-of-a-graph.md) by increasing weight, starts with the empty [forest](../../../../../forest.md), and adds an [edge](../../../../../edge-of-a-graph.md) precisely when its endpoints are in different components. Each added [edge](../../../../../edge-of-a-graph.md) is lightest across a component cut respected by the current [forest](../../../../../forest.md). The exchange proof inductively keeps the [forest](../../../../../forest.md) inside a [minimum spanning tree](../../../../../minimum-spanning-tree.md); connectedness makes the final [forest](../../../../../forest.md) a [spanning tree](../../../../../spanning-tree.md), hence an optimum. Sorting takes $O(|E|\log|E|)$ comparisons, and even a simple component-merging implementation takes only polynomial additional work. Efficient component tracking improves that overhead further.
+
+[Prim's algorithm](../../../../../prim-s-algorithm.md) instead grows a single [tree](../../../../../tree-graph-theory.md), repeatedly adding a lightest [edge](../../../../../edge-of-a-graph.md) from its [vertex](../../../../../vertex-graph-theory.md) set to the outside. The same cut argument proves correctness. A dense implementation using an array runs in $O(|V|^2)$ comparisons. The dual [minimum spanning tree cycle property](../../../../../minimum-spanning-tree-cycle-property.md) says a uniquely heaviest [edge](../../../../../edge-of-a-graph.md) of a [graph cycle](../../../../../cycle-in-a-graph.md) belongs to no [minimum spanning tree](../../../../../minimum-spanning-tree.md): exchanging it for a lighter crossing [edge](../../../../../edge-of-a-graph.md) strictly improves any [tree](../../../../../tree-graph-theory.md) containing it. Ties must be handled carefully; a merely nonunique heaviest [edge](../../../../../edge-of-a-graph.md) can occur in an optimum.
+
+Complexity classes are formally classes of [decision problems](../../../../../decision-problem.md), so use the version asking whether a [graph](../../../../../graph-split.md) has a [spanning tree](../../../../../spanning-tree.md) of total weight at most a supplied threshold $K$. Assume [integer](../../../../../integer.md) or rational weights and threshold are encoded in binary. The input length includes all these bits, not only the numbers of [vertices](../../../../../vertex-graph-theory.md) and [edges](../../../../../edge-of-a-graph.md). [P](../../../../../p-complexity.md) consists of [decision problems](../../../../../decision-problem.md) decidable by a deterministic algorithm in time polynomial in that input length. [NP](../../../../../np-complexity.md) consists of those with polynomial-size [complexity certificates](../../../../../certificate-complexity.md) verified in deterministic [polynomial time](../../../../../polynomial-time.md), equivalently decidable in [polynomial time](../../../../../polynomial-time.md) by a nondeterministic machine.
+
+Kruskal's algorithm constructs the optimum and compares its weight with $K$. Binary [integer](../../../../../integer.md) comparisons and sums are polynomial-time operations. Rational comparisons can be made by cross multiplication, and their summed numerator and denominator have polynomially bounded bit length: a product of input denominators has bit length no greater than the sum of their bit lengths. The combinatorial algorithm makes polynomially many such operations. Hence **the minimum-spanning-tree [decision problem](../../../../../decision-problem.md) is in P**; the optimization version likewise has a polynomial-time algorithm.
+
+For membership in NP, the [complexity certificate](../../../../../certificate-complexity.md) is a list of $|V|-1$ selected [edges](../../../../../edge-of-a-graph.md). Check that every [edge](../../../../../edge-of-a-graph.md) is present, that the [edges](../../../../../edge-of-a-graph.md) connect all [vertices](../../../../../vertex-graph-theory.md) and contain no [graph cycle](../../../../../cycle-in-a-graph.md), and that their total weight is at most $K$. A [graph](../../../../../graph-split.md) search and binary arithmetic do this in [polynomial time](../../../../../polynomial-time.md). A successful [complexity certificate](../../../../../certificate-complexity.md) need not establish that its [tree](../../../../../tree-graph-theory.md) is minimum: it proves the threshold question's yes-answer. Conversely, a yes-instance has such a [tree](../../../../../tree-graph-theory.md) as a [complexity certificate](../../../../../certificate-complexity.md). Therefore
+
+$$
+\boxed{\text{the minimum-spanning-tree decision problem belongs to both P and NP}.}
+$$
+
+Membership in NP does not [arithmetic mean](../../../../../arithmetic-mean.md) NP-hardness; here the explicit greedy algorithm provides the stronger tractability result.
+
+## ↑ Ancestors (10)
+
+1. [3](../3.md)
+2. [Paper 33](../../paper-33-split.md)
+3. [Iii](../../split.md)
+4. [2004](../../../split.md)
+5. [Past exam of the mathematics course of the University of Cambridge](../../../../split.md)
+6. [Mathematics course of the University of Cambridge](../../../../../mathematics-course-of-the-university-of-cambridge.md)
+7. [Course of the University of Cambridge](../../../../../course-of-the-university-of-cambridge.md)
+8. [University of Cambridge](../../../../../university-of-cambridge-split.md)
+9. [List of universities](../../../../../list-of-universities.md)
+10. [Codex Wiki](../../../../../split.md)

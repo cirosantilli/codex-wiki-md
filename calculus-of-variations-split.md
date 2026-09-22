@@ -1,0 +1,62 @@
+# Calculus of variations
+
+↑ **Parent:** [Analysis](analysis-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Calculus_of_variations)
+
+Calculus of variations finds [stationary points](stationary-point.md) of [functionals](functional.md), often among [functions](function-split.md) or [regular curves](regular-curve.md).
+
+**Table of contents**
+
+- [Quadratic minor null Lagrangian](quadratic-minor-null-lagrangian.md)
+- [Brachistochrone problem](brachistochrone-problem.md)
+- [Travel-time minimization with speed proportional to squared radius](travel-time-minimization-with-speed-proportional-to-squared-radius.md)
+- [Gamma-convergence](gamma-convergence.md)
+- [Variational problem](variational-problem.md)
+- [Direct method in the calculus of variations](direct-method-in-the-calculus-of-variations.md)
+  - [Weak lower semicontinuity of convex gradient energies](weak-lower-semicontinuity-of-convex-gradient-energies.md)
+  - [Symmetric elliptic Dirichlet energy with a nonpositive potential](symmetric-elliptic-dirichlet-energy-with-a-nonpositive-potential.md)
+  - [Screened sine-Gordon energy](screened-sine-gordon-energy.md)
+    - [Failure of the source-size bound for the screened sine-Gordon equation](failure-of-the-source-size-bound-for-the-screened-sine-gordon-equation.md)
+  - [Minimizing sequence](minimizing-sequence.md)
+  - [Bounded slope condition](bounded-slope-condition.md)
+  - [Comparison principle for convex variational integrals](comparison-principle-for-convex-variational-integrals.md)
+- [Functional](functional.md)
+  - [Quadratic functional](quadratic-functional.md)
+  - [Epigraph](epigraph.md)
+  - [Functional derivative](functional-derivative.md)
+    - [Functional chain rule](functional-chain-rule.md)
+  - [Energy functional](energy-functional.md)
+    - [Critical point of an energy functional](critical-point-of-an-energy-functional.md)
+    - [p-energy](p-energy.md)
+  - [Lagrangian](lagrangian.md)
+    - [Lagrangian function in constrained optimization](lagrangian-function-in-constrained-optimization.md)
+  - [Variation](variation.md)
+    - [First variation](first-variation.md)
+      - [Fundamental lemma of the calculus of variations](fundamental-lemma-of-the-calculus-of-variations.md)
+- [Stationary point](stationary-point.md)
+- [Dirichlet principle](dirichlet-principle.md)
+  - [Sharp radial Dirichlet energy inequality](sharp-radial-dirichlet-energy-inequality.md)
+- [Optical ray in cylindrical coordinates](optical-ray-in-cylindrical-coordinates.md)
+  - [Helical extremal](helical-extremal.md)
+- [Noether theorem](noether-theorem.md)
+  - [Noether second theorem](noether-second-theorem.md)
+    - [Noether identity for abelian scalar gauge symmetry](noether-identity-for-abelian-scalar-gauge-symmetry.md)
+  - [Noether conserved quantity for a mechanical point symmetry](noether-conserved-quantity-for-a-mechanical-point-symmetry.md)
+- [Second variation](second-variation.md)
+  - [Jacobi equation](jacobi-equation.md)
+  - [Conjugate point](conjugate-point.md)
+    - [Multiplicity of a conjugate point](multiplicity-of-a-conjugate-point.md)
+    - [Nonpositive sectional curvature excludes conjugate points](nonpositive-sectional-curvature-excludes-conjugate-points.md)
+  - [Wirtinger inequality](wirtinger-inequality.md)
+    - [Periodic Wirtinger inequality](periodic-wirtinger-inequality.md)
+
+## ↑ Ancestors (4)
+
+1. [Analysis](analysis-split.md)
+2. [Area of mathematics](area-of-mathematics.md)
+3. [Mathematics](mathematics-split.md)
+4. [Codex Wiki](split.md)
+
+## ← Incoming links (1)
+
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ib/paper-4/16b/solution.md)

@@ -1,0 +1,47 @@
+# Molar gas constant
+
+↑ **Parent:** [Ideal gas](ideal-gas.md)
+
+The molar gas constant is the product of the [Avogadro constant](avogadro-constant.md) and the [Boltzmann constant](boltzmann-constant.md). It converts the particle-number form of the [ideal gas law](ideal-gas-law.md), $pV=Nk_BT$, into the amount-of-substance form $pV=nRT$, using $N=nN_A$ with $n$ measured in [moles](mole-unit.md).
+
+## ↑ Ancestors (6)
+
+1. [Ideal gas](ideal-gas.md)
+2. [Thermodynamics](thermodynamics-split.md)
+3. [Statistical physics](statistical-physics-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (30)
+
+- [Activation energy](activation-energy.md)
+- [Adenosine triphosphate](adenosine-triphosphate.md)
+- [Adiabatic compression](adiabatic-compression.md)
+- [Arrhenius equation](arrhenius-equation.md)
+- [Catalyst](catalyst.md)
+- [Catalytic barriers and reaction free energy](catalytic-barriers-and-reaction-free-energy.md)
+- [Chemical equilibrium](chemical-equilibrium.md)
+- [Chemical potential of an ideal gas](chemical-potential-of-an-ideal-gas.md)
+- [Dulong-Petit law](dulong-petit-law.md)
+- [Entropy change in free expansion](entropy-change-in-free-expansion.md)
+- [Equipartition theorem](equipartition-theorem.md)
+- [Gas thermometer](gas-thermometer.md)
+- [Heat capacity](heat-capacity.md)
+- [Heat capacity ratio](heat-capacity-ratio.md)
+- [Ideal gas law](ideal-gas-law.md)
+- [Ideal-vapor Clausius-Clapeyron approximation](ideal-vapor-clausius-clapeyron-approximation.md)
+- [Internal energy](internal-energy.md)
+- [Internal energy of an ideal gas](internal-energy-of-an-ideal-gas.md)
+- [Isothermal compressibility](isothermal-compressibility.md)
+- [Isothermal ideal-gas work](isothermal-ideal-gas-work.md)
+- [Mayer's relation](mayer-s-relation.md)
+- [Membrane transport](membrane-transport.md)
+- [Molar heat capacity](molar-heat-capacity.md)
+- [Nernst equilibrium potential](nernst-equilibrium-potential.md)
+- [Quasistatic process](quasistatic-process.md)
+- [Solvation free energy](solvation-free-energy.md)
+- [Stipulated bond dissociation model](stipulated-bond-dissociation-model.md)
+- [Thermodynamic activity](thermodynamic-activity.md)
+- [Van der Waals equation](van-der-waals-equation.md)
+- [Virial expansion](virial-expansion.md)

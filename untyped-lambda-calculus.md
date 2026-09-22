@@ -1,0 +1,62 @@
+# Untyped lambda calculus
+
+↑ **Parent:** [Lambda calculus](lambda-calculus.md)
+
+The untyped lambda calculus forms terms from variables, abstraction, and application without assigning types.
+
+**Table of contents**
+
+- [Eta conversion](eta-conversion.md)
+- [Combinatory logic](combinatory-logic.md)
+  - [Bracket abstraction](bracket-abstraction.md)
+  - [Combinatory logic term](combinatory-logic-term.md)
+    - [Weak combinatory reduction](weak-combinatory-reduction.md)
+- [Head normal form](head-normal-form.md)
+  - [Böhm tree](bohm-tree.md)
+    - [Finite Böhm approximant](finite-bohm-approximant.md)
+    - [Böhm transformation](bohm-transformation.md)
+      - [Böhm-out lemma](bohm-out-lemma.md)
+        - [Böhm separation theorem](bohm-separation-theorem.md)
+  - [Unsolvable lambda term](unsolvable-lambda-term.md)
+    - [Easy lambda term](easy-lambda-term.md)
+  - [Solvable lambda term](solvable-lambda-term.md)
+- [Beta reduction](beta-reduction.md)
+  - [Diamond property of a reduction relation](diamond-property-of-a-reduction-relation.md)
+    - [Church-Rosser property of a reduction relation](church-rosser-property-of-a-reduction-relation.md)
+  - [Parallel beta reduction](parallel-beta-reduction.md)
+    - [Complete development of a lambda term](complete-development-of-a-lambda-term.md)
+  - [Normal-order beta reduction](normal-order-beta-reduction.md)
+    - [Standardization theorem for beta reduction](standardization-theorem-for-beta-reduction.md)
+    - [Normal-order normalization theorem](normal-order-normalization-theorem.md)
+  - [Capture-avoiding substitution](capture-avoiding-substitution.md)
+  - [Beta equivalence](beta-equivalence.md)
+    - [Undecidability of beta equivalence](undecidability-of-beta-equivalence.md)
+  - [Beta-redex](beta-redex.md)
+  - [Beta-normal form](beta-normal-form.md)
+- [Combinator](combinator.md)
+  - [Omega combinator](omega-combinator.md)
+  - [Fixed-point combinator](fixed-point-combinator.md)
+    - [Turing fixed-point combinator](turing-fixed-point-combinator.md)
+    - [Curry fixed-point combinator](curry-fixed-point-combinator.md)
+    - [Fixed-point theorem for the untyped lambda calculus](fixed-point-theorem-for-the-untyped-lambda-calculus.md)
+    - [Recursively enumerable fixed-point combinators](recursively-enumerable-fixed-point-combinators.md)
+
+## ↑ Ancestors (6)
+
+1. [Lambda calculus](lambda-calculus.md)
+2. [Computability theory](computability-theory.md)
+3. [Foundations of mathematics](foundations-of-mathematics-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (8)
+
+- [Lambda representation of partial computable functions](lambda-representation-of-partial-computable-functions.md)
+- [Omega combinator](omega-combinator.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-20/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-25/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-120/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-135/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-135/3/solution.md)
+- [Typed lambda term](typed-lambda-term.md)

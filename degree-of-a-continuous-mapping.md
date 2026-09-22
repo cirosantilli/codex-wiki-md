@@ -1,0 +1,62 @@
+# Degree of a continuous mapping
+
+↑ **Parent:** [Homology (mathematics)](homology-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Degree_of_a_continuous_mapping)
+
+For a map $f:S^m\to S^m$, the degree is the integer by which $f_*$ multiplies a chosen generator of $H_m(S^m;\mathbb Z)$. It is invariant under [homotopy](homotopy.md).
+
+**Table of contents**
+
+- [Mod-two degree of a map between closed manifolds](mod-two-degree-of-a-map-between-closed-manifolds.md)
+- [Nonzero degree from a sphere obstructs manifold products](nonzero-degree-from-a-sphere-obstructs-manifold-products.md)
+- [Degrees of maps of the zero-sphere](degrees-of-maps-of-the-zero-sphere.md)
+- [Relative mapping degree](relative-mapping-degree.md)
+  - [Graph intersection formula for mapping degree](graph-intersection-formula-for-mapping-degree.md)
+  - [Quotient-sphere degree identity](quotient-sphere-degree-identity.md)
+- [Local degree of a continuous map](local-degree-of-a-continuous-map.md)
+  - [Local degrees of arbitrary integer value](local-degrees-of-arbitrary-integer-value.md)
+  - [Degree as a sum of local degrees](degree-as-a-sum-of-local-degrees.md)
+- [Degree under suspension](degree-under-suspension.md)
+  - [Sphere maps of arbitrary integer degree](sphere-maps-of-arbitrary-integer-degree.md)
+- [Degree of a map between oriented manifolds](degree-of-a-map-between-oriented-manifolds.md)
+  - [Cup-power obstruction to nonzero degree](cup-power-obstruction-to-nonzero-degree.md)
+  - [Arbitrary-degree maps to a surface of genus two](arbitrary-degree-maps-to-a-surface-of-genus-two.md)
+  - [Collapse map of degree one onto a sphere](collapse-map-of-degree-one-onto-a-sphere.md)
+  - [Surjective degree-zero sphere-to-torus map](surjective-degree-zero-sphere-to-torus-map.md)
+  - [Multiplicativity of mapping degree](multiplicativity-of-mapping-degree.md)
+  - [Homotopy invariance of mapping degree](homotopy-invariance-of-mapping-degree.md)
+  - [Degree does not classify general manifold maps](degree-does-not-classify-general-manifold-maps.md)
+  - [Degree by integration of a pullback volume form](degree-by-integration-of-a-pullback-volume-form.md)
+  - [Spherical degree by area pullback](spherical-degree-by-area-pullback.md)
+  - [Degree-one maps between closed oriented surfaces](degree-one-maps-between-closed-oriented-surfaces.md)
+  - [Prime-degree sphere map forces primary torsion](prime-degree-sphere-map-forces-primary-torsion.md)
+  - [Degrees of maps factoring through real projective space](degrees-of-maps-factoring-through-real-projective-space.md)
+- [Antipodal map](antipodal-map.md)
+  - [Fixed-point-free sphere maps are homotopic to the antipodal map](fixed-point-free-sphere-maps-are-homotopic-to-the-antipodal-map.md)
+  - [Odd map between spheres](odd-map-between-spheres.md)
+    - [Cohomological obstruction to separately odd sphere multiplication](cohomological-obstruction-to-separately-odd-sphere-multiplication.md)
+    - [Odd maps pull back the real tautological line bundle](odd-maps-pull-back-the-real-tautological-line-bundle.md)
+  - [Invariant primitive under a finite group action](invariant-primitive-under-a-finite-group-action.md)
+    - [Top-degree differential forms on even-dimensional real projective space are exact](top-degree-differential-forms-on-even-dimensional-real-projective-space-are-exact.md)
+- [Degree of a Euclidean homeomorphism](degree-of-a-euclidean-homeomorphism.md)
+- [Degree of a factor swap](degree-of-a-factor-swap.md)
+
+## ↑ Ancestors (6)
+
+1. [Homology (mathematics)](homology-split.md)
+2. [Algebraic topology](algebraic-topology-split.md)
+3. [Geometry and topology](geometry-and-topology-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (8)
+
+- [Capacity preservation under uniform limits](capacity-preservation-under-uniform-limits.md)
+- [Connected sum of oriented manifolds](connected-sum-of-oriented-manifolds.md)
+- [Degree of a Euclidean homeomorphism](degree-of-a-euclidean-homeomorphism.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-20/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-2/21f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-114/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-114/1/solution.md)
+- [Pinch map](pinch-map.md)

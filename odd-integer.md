@@ -1,0 +1,48 @@
+# Odd integer
+
+↑ **Parent:** [Parity (mathematics)](parity-mathematics.md)
+
+An odd integer is not divisible by two; equivalently, it has the form $2k+1$.
+
+## ↑ Ancestors (6)
+
+1. [Parity (mathematics)](parity-mathematics.md)
+2. [Integer](integer.md)
+3. [Number theory](number-theory-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (31)
+
+- [Alternating bilinear form](alternating-bilinear-form.md)
+- [Assumptions of the bounded monotone sequence theorem](assumptions-of-the-bounded-monotone-sequence-theorem.md)
+- [Bipartite graph](bipartite-graph.md)
+- [Cauchy sequence](cauchy-sequence.md)
+- [Cayley graphs of the integers](cayley-graphs-of-the-integers.md)
+- [Chinese remainder theorem for noncoprime moduli](chinese-remainder-theorem-for-noncoprime-moduli.md)
+- [Closure under a binary operation](closure-under-a-binary-operation.md)
+- [Distinct Fermat numbers are coprime](distinct-fermat-numbers-are-coprime.md)
+- [Factor base](factor-base.md)
+- [Fermat number](fermat-number.md)
+- [Generators of a finite cyclic group](generators-of-a-finite-cyclic-group.md)
+- [Group isomorphism](group-isomorphism.md)
+- [Independent events](independent-events.md)
+- [Invariant form on an irreducible sl2 module](invariant-form-on-an-irreducible-sl2-module.md)
+- [Leading Taylor term](leading-taylor-term.md)
+- [Limit inferior](limit-inferior.md)
+- [Limit inferior and limit superior](limit-inferior-and-limit-superior.md)
+- [Multiplicity of a root](multiplicity-of-a-root.md)
+- [Nicomachus's theorem](nicomachus-s-theorem.md)
+- [Odd prime](odd-prime.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-102/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-115/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-129/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-2/1i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/ii/paper-2/20h/b/solution.md)
+- [Perfect matching](perfect-matching.md)
+- [Recognition criterion for triangular numbers](recognition-criterion-for-triangular-numbers.md)
+- [Sieve of Eratosthenes](sieve-of-eratosthenes.md)
+- [Simple random walk on the integer line](simple-random-walk-on-the-integer-line.md)
+- [Subsequential limit](subsequential-limit.md)
+- [Triangular number](triangular-number.md)

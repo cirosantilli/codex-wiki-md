@@ -1,0 +1,60 @@
+# Interstellar medium
+
+↑ **Parent:** [Milky Way](milky-way.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Interstellar_medium)
+
+The interstellar medium is the gas, dust, magnetic field, and energetic-particle population between stars in a galaxy.
+
+**Table of contents**
+
+- [Superbubble](superbubble.md)
+  - [Adiabatic superbubble similarity solution](adiabatic-superbubble-similarity-solution.md)
+    - [Central energy input in a similarity solution](central-energy-input-in-a-similarity-solution.md)
+    - [Energy normalization of a continuously driven spherical shock](energy-normalization-of-a-continuously-driven-spherical-shock.md)
+    - [Continuity equation for a superbubble similarity solution](continuity-equation-for-a-superbubble-similarity-solution.md)
+- [Supernova remnant](supernova-remnant.md)
+  - [Adiabatic phase of a supernova remnant](adiabatic-phase-of-a-supernova-remnant.md)
+- [Molecular cloud](molecular-cloud.md)
+  - [Carbon-monoxide tracer of molecular hydrogen](carbon-monoxide-tracer-of-molecular-hydrogen.md)
+- [Interstellar dust](interstellar-dust.md)
+  - [Interstellar extinction](interstellar-extinction.md)
+- [H II region](h-ii-region.md)
+  - [Ionization front](ionization-front.md)
+    - [Ionization-front growth from an exponentially brightening source](ionization-front-growth-from-an-exponentially-brightening-source.md)
+  - [Photoionization equilibrium](photoionization-equilibrium.md)
+    - [Ionization-bounded nebula](ionization-bounded-nebula.md)
+    - [Recombination integral for a power-law nebula](recombination-integral-for-a-power-law-nebula.md)
+      - [Critical ionizing photon rate of a cored power-law nebula](critical-ionizing-photon-rate-of-a-cored-power-law-nebula.md)
+    - [Recombination time](recombination-time.md)
+    - [Case B recombination](case-b-recombination.md)
+  - [Hydrogen-ionizing photon production rate](hydrogen-ionizing-photon-production-rate.md)
+    - [Blackbody ionizing photon function](blackbody-ionizing-photon-function.md)
+    - [Ionizing photon escape fraction](ionizing-photon-escape-fraction.md)
+    - [Mean ionizing photon energy of a power-law spectrum](mean-ionizing-photon-energy-of-a-power-law-spectrum.md)
+  - [Strömgren sphere](stromgren-sphere.md)
+    - [Nested hydrogen-helium ionization zones](nested-hydrogen-helium-ionization-zones.md)
+    - [Strömgren radius](stromgren-radius.md)
+    - [Ionization-front growth of a Strömgren sphere](ionization-front-growth-of-a-stromgren-sphere.md)
+    - [Dusty Strömgren sphere](dusty-stromgren-sphere.md)
+- [Neutral-hydrogen 21-centimeter line](neutral-hydrogen-21-centimeter-line.md)
+- [Cosmic ray](cosmic-ray.md)
+
+## ↑ Ancestors (6)
+
+1. [Milky Way](milky-way.md)
+2. [Galaxy](galaxy-split.md)
+3. [Astrophysics](astrophysics-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (8)
+
+- [Nucleosynthesis](nucleosynthesis.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-35/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-40/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-42/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-63/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-347/3/a/solution.md)
+- [Quadratic gas-history enrichment model](quadratic-gas-history-enrichment-model.md)
+- [Retained-ejecta chemical evolution](retained-ejecta-chemical-evolution.md)

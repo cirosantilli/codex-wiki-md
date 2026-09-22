@@ -1,0 +1,48 @@
+# Cumulant
+
+↑ **Parent:** [Cumulant-generating function](cumulant-generating-function.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Cumulant)
+
+The $n$th cumulant is the coefficient of $t^n/n!$ in the [cumulant-generating function](cumulant-generating-function.md). The first two [cumulants](cumulant.md) are the [expected value](expected-value.md) and [variance](variance-split.md); the third is the third [central moment](central-moment.md).
+
+## ↑ Ancestors (8)
+
+1. [Cumulant-generating function](cumulant-generating-function.md)
+2. [Moment-generating function](moment-generating-function.md)
+3. [Probability distribution](probability-distribution.md)
+4. [Probability theory](probability-theory-split.md)
+5. [Probability and statistics](probability-and-statistics-split.md)
+6. [Area of mathematics](area-of-mathematics.md)
+7. [Mathematics](mathematics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (28)
+
+- [Bispectrum](bispectrum.md)
+- [Compound binomial distribution](compound-binomial-distribution.md)
+- [Compound geometric distribution](compound-geometric-distribution.md)
+- [Compound Poisson cumulants](compound-poisson-cumulants.md)
+- [Covariance of quadratic transforms of a linear process](covariance-of-quadratic-transforms-of-a-linear-process.md)
+- [Cumulant](cumulant.md)
+- [Cumulant composition for a random sum](cumulant-composition-for-a-random-sum.md)
+- [Edgeworth series](edgeworth-series.md)
+- [Fredholm determinant](fredholm-determinant.md)
+- [One-loop shell quartic renormalization](one-loop-shell-quartic-renormalization.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-27/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-32/6/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-62/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-41/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-41/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-42/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-42/6/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-42/6/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-43/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ii/paper-2/34e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-42/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-37/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-37/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-37/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-208/1/1/7/solution.md)
+- [Shifted gamma distribution](shifted-gamma-distribution.md)
+- [Three-cumulant shifted gamma approximation](three-cumulant-shifted-gamma-approximation.md)
+- [Trispectrum](trispectrum.md)

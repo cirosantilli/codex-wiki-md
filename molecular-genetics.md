@@ -1,0 +1,40 @@
+# Molecular genetics
+
+↑ **Parent:** [Genetics](genetics.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Molecular_genetics)
+
+**Table of contents**
+
+- [Plasmid](plasmid.md)
+- [Genetic transformation](genetic-transformation.md)
+- [Replica plating](replica-plating.md)
+- [Genome](genome.md)
+- [DNA sequencing](dna-sequencing.md)
+- [Sequence alignment](sequence-alignment.md)
+- [Polymerase chain reaction](polymerase-chain-reaction.md)
+- [Northern blot](northern-blot.md)
+- [DNA replication](dna-replication.md)
+  - [Semiconservative replication](semiconservative-replication.md)
+  - [DNA polymerase](dna-polymerase.md)
+  - [DNA replication inhibitor](dna-replication-inhibitor.md)
+    - [Hydroxyurea](hydroxyurea.md)
+- [DNA repair](dna-repair.md)
+- [Gene expression](gene-expression.md)
+  - [Galactose induction](galactose-induction.md)
+  - [Promoter (genetics)](promoter-genetics.md)
+  - [Transcription factor](transcription-factor.md)
+  - [Transcription (biology)](transcription-biology.md)
+    - [RNA polymerase](rna-polymerase.md)
+    - [Coding strand](coding-strand.md)
+  - [Translation (biology)](translation-biology.md)
+    - [Genetic code](genetic-code.md)
+      - [Codon](codon.md)
+        - [Stop codon](stop-codon.md)
+      - [Reading frame](reading-frame.md)
+- [Non-coding DNA](non-coding-dna.md)
+
+## ↑ Ancestors (3)
+
+1. [Genetics](genetics.md)
+2. [Biology](biology-split.md)
+3. [Codex Wiki](split.md)

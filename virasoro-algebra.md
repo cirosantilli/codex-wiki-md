@@ -1,0 +1,63 @@
+# Virasoro algebra
+
+↑ **Parent:** [Holomorphic stress-energy tensor](holomorphic-stress-energy-tensor.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Virasoro_algebra)
+
+The Virasoro algebra is the central extension of the algebra of holomorphic vector fields on a circle. Its generators are the Laurent modes of the holomorphic stress-energy tensor, and its central term is controlled by the [central charge](central-charge.md) $c$.
+
+**Table of contents**
+
+- [Virasoro character](virasoro-character.md)
+- [Virasoro Verma module](virasoro-verma-module.md)
+  - [Level-two Virasoro descendant Gram matrix](level-two-virasoro-descendant-gram-matrix.md)
+- [Unitary highest-weight Virasoro module](unitary-highest-weight-virasoro-module.md)
+- [Sugawara construction](sugawara-construction.md)
+  - [Coset construction](coset-construction.md)
+- [Unitary Virasoro discrete series](unitary-virasoro-discrete-series.md)
+- [Virasoro generator](virasoro-generator.md)
+- [Virasoro zero-mode shift](virasoro-zero-mode-shift.md)
+- [Virasoro central extension](virasoro-central-extension.md)
+  - [Free-boson Virasoro central term](free-boson-virasoro-central-term.md)
+
+## ↑ Ancestors (8)
+
+1. [Holomorphic stress-energy tensor](holomorphic-stress-energy-tensor.md)
+2. [Two-dimensional conformal field theory](two-dimensional-conformal-field-theory.md)
+3. [Worldsheet](worldsheet.md)
+4. [Bosonic string theory](bosonic-string-theory.md)
+5. [String theory](string-theory-split.md)
+6. [Branches of physics](branches-of-physics.md)
+7. [Physics](physics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (29)
+
+- [Bosonic ND boundary-changing conformal weight](bosonic-nd-boundary-changing-conformal-weight.md)
+- [Coset construction](coset-construction.md)
+- [Ghost Virasoro zero-mode convention](ghost-virasoro-zero-mode-convention.md)
+- [Ising Virasoro modules from a Majorana fermion](ising-virasoro-modules-from-a-majorana-fermion.md)
+- [Level-two Virasoro descendant Gram matrix](level-two-virasoro-descendant-gram-matrix.md)
+- [No-ghost theorem below the critical bosonic dimension](no-ghost-theorem-below-the-critical-bosonic-dimension.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-64/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-67/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-51/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-51/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-51/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-51/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-49/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-52/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-46/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-51/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-46/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-49/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-306/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-306/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-306/2/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-306/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-306/2/3/solution.md)
+- [Primary state](primary-state.md)
+- [Radial quantization](radial-quantization.md)
+- [Sugawara construction](sugawara-construction.md)
+- [Unitary Virasoro discrete series](unitary-virasoro-discrete-series.md)
+- [Virasoro character](virasoro-character.md)
+- [Witt algebra](witt-algebra.md)

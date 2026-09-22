@@ -1,0 +1,80 @@
+# Monoid
+
+↑ **Parent:** [Semigroup](semigroup.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Monoid)
+
+A [monoid](monoid.md) is a [semigroup](semigroup.md) with a two-sided [identity element](identity-element.md) $e$: $e\ast a=a\ast e=a$ for every element $a$. [Associativity](associative-property.md) handles the grouping of a nonempty sequence; the [identity element](identity-element.md) also supplies the result for an empty sequence. This makes the same rules apply to combining zero, one, or many contributions. [Group Theory (v4.01) by James S. Milne](group-theory-v4-01-by-james-s-milne.md).
+
+The nonnegative [integers](integer.md) $\{0,1,2,\ldots\}$ with [addition](addition.md) form a [commutative monoid](commutative-monoid.md), with [identity element](identity-element.md) zero. They do not form a [group](group-split.md): a positive [integer](integer.md) has no [additive inverse](additive-inverse.md) in that [set](set-split.md). All [words over an alphabet](string.md) with [concatenation](concatenation.md) form a [free monoid](free-monoid.md), whose [identity element](identity-element.md) is the [empty word](empty-word.md). The [full transformation monoid](full-transformation-monoid.md) consists of all [self-maps](self-map.md) of a [set](set-split.md), with [function composition](function-composition.md) and the [identity function](identity-function.md).
+
+These examples explain why [monoids](monoid.md) are useful: accumulation needs an operation and a starting value, but it need not be reversible. Adding counts, joining [strings](string.md), and composing transformations all share the same grouping and identity laws. Requiring every element to have an [inverse element](inverse-element.md) gives a [group](group-split.md), a stronger structure suitable for reversible operations.
+
+**Table of contents**
+
+- [Inverse element](inverse-element.md)
+- [Transformation monoid](transformation-monoid.md)
+  - [Full transformation monoid](full-transformation-monoid.md)
+- [Monoid action](monoid-action.md)
+  - [Right monoid action](right-monoid-action.md)
+    - [Exponential of right monoid actions](exponential-of-right-monoid-actions.md)
+      - [Exponential of right group actions](exponential-of-right-group-actions.md)
+  - [Equivariant map of monoid sets](equivariant-map-of-monoid-sets.md)
+  - [M-set](m-set.md)
+- [Monoid homomorphism](monoid-homomorphism.md)
+- [Monoid automorphism](monoid-automorphism.md)
+- [Free monoid](free-monoid.md)
+- [Commutative monoid](commutative-monoid.md)
+  - [Free commutative monoid](free-commutative-monoid.md)
+  - [Cancellative commutative monoid](cancellative-commutative-monoid.md)
+    - [Congruence submonoid of the positive integers](congruence-submonoid-of-the-positive-integers.md)
+      - [Nonunique factorization in a congruence submonoid](nonunique-factorization-in-a-congruence-submonoid.md)
+    - [Irreducible element of a commutative monoid](irreducible-element-of-a-commutative-monoid.md)
+    - [Torsion-free cancellative commutative monoid](torsion-free-cancellative-commutative-monoid.md)
+  - [Category of commutative monoids](category-of-commutative-monoids.md)
+
+## ↑ Ancestors (8)
+
+1. [Semigroup](semigroup.md)
+2. [Associative property](associative-property.md)
+3. [Binary operation](binary-operation.md)
+4. [Algebraic operation](algebraic-operation.md)
+5. [Algebra](algebra-split.md)
+6. [Area of mathematics](area-of-mathematics.md)
+7. [Mathematics](mathematics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (33)
+
+- [Balanced finite-monoid reduction circuit](balanced-finite-monoid-reduction-circuit.md)
+- [Commutative monoid](commutative-monoid.md)
+- [Endomorphism](endomorphism.md)
+- [Exponential of right group actions](exponential-of-right-group-actions.md)
+- [Exponential of right monoid actions](exponential-of-right-monoid-actions.md)
+- [Exponentiation by squaring](exponentiation-by-squaring.md)
+- [Free monoid](free-monoid.md)
+- [Full transformation monoid](full-transformation-monoid.md)
+- [Function composition](function-composition.md)
+- [Identity element](identity-element.md)
+- [Initial object criterion for a covariant local topos](initial-object-criterion-for-a-covariant-local-topos.md)
+- [Inverse element](inverse-element.md)
+- [List monad](list-monad.md)
+- [List-monad algebras are monoids](list-monad-algebras-are-monoids.md)
+- [Magma (algebra)](magma-algebra.md)
+- [Monoid](monoid.md)
+- [Monoid automorphism](monoid-automorphism.md)
+- [Monoid homomorphism](monoid-homomorphism.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-17/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-20/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-87/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-23/5/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-74/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-74/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-74/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-18/6/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-119/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-119/3/solution.md)
+- [Right monoid action](right-monoid-action.md)
+- [Semigroup](semigroup.md)
+- [Semiring](semiring.md)
+- [Shift monad on order-preserving maps of natural numbers](shift-monad-on-order-preserving-maps-of-natural-numbers.md)
+- [Transformation monoid](transformation-monoid.md)

@@ -1,0 +1,62 @@
+# Definable power set
+
+↑ **Parent:** [Set theory](set-theory-split.md)
+
+The definable power set $\mathcal D(X)=\operatorname{Def}(X)$ consists of the [subsets](subset.md) of $X$ definable over the [first-order structure](first-order-structure.md) $(X,\in)$ by a [first-order formula](first-order-formula.md) with parameters from $X$. [Satisfaction for a set structure](satisfaction-for-a-set-structure.md) makes this a definable operation in [ZF](zermelo-fraenkel-set-theory.md). Iterating it produces the [constructible hierarchy](constructible-hierarchy.md) and the [relative constructible hierarchy](relative-constructible-hierarchy.md); their unions are the [constructible universe](constructible-universe.md) and the [relative constructible universe](relative-constructible-universe.md).
+
+**Table of contents**
+
+- [Finite relation closure for set-theoretic coding](finite-relation-closure-for-set-theoretic-coding.md)
+- [Constructible hierarchy](constructible-hierarchy.md)
+  - [Constructible sets of low rank can appear at later stages](constructible-sets-of-low-rank-can-appear-at-later-stages.md)
+  - [Absoluteness of constructible levels](absoluteness-of-constructible-levels.md)
+    - [Constructible-level absoluteness over ZF](constructible-level-absoluteness-over-zf.md)
+  - [Constructible universe](constructible-universe.md)
+    - [Shepherdson's wall](shepherdson-s-wall.md)
+    - [Axiom of constructibility](axiom-of-constructibility.md)
+    - [Separation proof in the constructible universe](separation-proof-in-the-constructible-universe.md)
+    - [Constructible universe theorem](constructible-universe-theorem.md)
+    - [Diamond theorem in the constructible universe](diamond-theorem-in-the-constructible-universe.md)
+    - [Countability of constructible omega-one](countability-of-constructible-omega-one.md)
+    - [Hereditarily countable constructible sets appear below omega-one](hereditarily-countable-constructible-sets-appear-below-omega-one.md)
+    - [Constructible power set](constructible-power-set.md)
+    - [Relative constructible universe](relative-constructible-universe.md)
+      - [Inner models with all reals preserve omega-one](inner-models-with-all-reals-preserve-omega-one.md)
+      - [Relative constructible hierarchy](relative-constructible-hierarchy.md)
+        - [Relative condensation lemma](relative-condensation-lemma.md)
+        - [Relative constructible level recognition](relative-constructible-level-recognition.md)
+        - [Coded relative constructible stage](coded-relative-constructible-stage.md)
+          - [Stage histories appear below every limit constructible level](stage-histories-appear-below-every-limit-constructible-level.md)
+      - [Relative constructible universe can violate the continuum hypothesis](relative-constructible-universe-can-violate-the-continuum-hypothesis.md)
+  - [Condensation sentence for the constructible hierarchy](condensation-sentence-for-the-constructible-hierarchy.md)
+  - [Well-order code](well-order-code.md)
+  - [Coding level of the constructible hierarchy](coding-level-of-the-constructible-hierarchy.md)
+  - [Condensation lemma for the constructible universe](condensation-lemma-for-the-constructible-universe.md)
+
+## ↑ Ancestors (5)
+
+1. [Set theory](set-theory-split.md)
+2. [Foundations of mathematics](foundations-of-mathematics-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (17)
+
+- [Coded relative constructible stage](coded-relative-constructible-stage.md)
+- [Constructible power set](constructible-power-set.md)
+- [Constructible sets of low rank can appear at later stages](constructible-sets-of-low-rank-can-appear-at-later-stages.md)
+- [Constructible universe](constructible-universe.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-19/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-121/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-121/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-121/2/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-121/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-121/2/ii/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-121/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-121/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-121/2/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-128/1/a/i/solution.md)
+- [Relative constructible hierarchy](relative-constructible-hierarchy.md)
+- [Relative constructible universe](relative-constructible-universe.md)
+- [Stage histories appear below every limit constructible level](stage-histories-appear-below-every-limit-constructible-level.md)

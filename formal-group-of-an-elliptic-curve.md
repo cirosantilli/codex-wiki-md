@@ -1,0 +1,60 @@
+# Formal group of an elliptic curve
+
+↑ **Parent:** [Formal group law](formal-group-law.md)
+
+The local parameter $z=-x/y$ at the identity of a Weierstrass curve expresses addition as a formal group law. Over a local field it describes points reducing to the identity.
+
+**Table of contents**
+
+- [Initial coefficients of the elliptic formal group at infinity](initial-coefficients-of-the-elliptic-formal-group-at-infinity.md)
+- [Formal kernel of a minimal Weierstrass equation](formal-kernel-of-a-minimal-weierstrass-equation.md)
+  - [Two-prime formal-kernel test for nontorsion](two-prime-formal-kernel-test-for-nontorsion.md)
+- [Torsion-free formal subgroup for a short Weierstrass equation](torsion-free-formal-subgroup-for-a-short-weierstrass-equation.md)
+- [Formal coordinates on a short Weierstrass curve](formal-coordinates-on-a-short-weierstrass-curve.md)
+- [Formal-group morphism induced by an isogeny](formal-group-morphism-induced-by-an-isogeny.md)
+- [Filtration of elliptic-curve points over a local field](filtration-of-elliptic-curve-points-over-a-local-field.md)
+
+## ↑ Ancestors (10)
+
+1. [Formal group law](formal-group-law.md)
+2. [Elliptic curve](elliptic-curve.md)
+3. [Genus one curve](genus-one-curve.md)
+4. [Geometric genus](geometric-genus.md)
+5. [Normalization of an algebraic curve](normalization-of-an-algebraic-curve-split.md)
+6. [Algebraic geometry](algebraic-geometry-split.md)
+7. [Geometry and topology](geometry-and-topology-split.md)
+8. [Area of mathematics](area-of-mathematics.md)
+9. [Mathematics](mathematics-split.md)
+10. [Codex Wiki](split.md)
+
+## ← Incoming links (29)
+
+- [Formal kernel of a minimal Weierstrass equation](formal-kernel-of-a-minimal-weierstrass-equation.md)
+- [Kernel of reduction of an elliptic curve](kernel-of-reduction-of-an-elliptic-curve.md)
+- [Ordinary reduction of an elliptic curve](ordinary-reduction-of-an-elliptic-curve.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-19/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-24/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-32/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-27/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-27/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-28/2/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-28/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-26/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-23/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-27/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-22/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-22/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-22/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-125/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-125/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-125/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-125/2/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-125/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-125/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-125/5/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-125/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-125/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-125/1/c/solution.md)
+- [Rational torsion of a diagonal cubic](rational-torsion-of-a-diagonal-cubic.md)
+- [Supersingular reduction of an elliptic curve](supersingular-reduction-of-an-elliptic-curve.md)
+- [Surjectivity of good reduction over a local field](surjectivity-of-good-reduction-over-a-local-field.md)

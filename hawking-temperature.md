@@ -1,0 +1,61 @@
+# Hawking temperature
+
+↑ **Parent:** [Black-hole thermodynamics](black-hole-thermodynamics.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Hawking_temperature)
+
+In units $G=\hbar=c=k_B=1$, a stationary black hole with surface gravity $\kappa$ has Hawking temperature $T_H=\kappa/(2\pi)$.
+
+**Table of contents**
+
+- [Euclidean black-hole regularity condition](euclidean-black-hole-regularity-condition.md)
+  - [Euclidean metric near a simple static horizon](euclidean-metric-near-a-simple-static-horizon.md)
+  - [Euclidean temperature and signed horizon surface gravity](euclidean-temperature-and-signed-horizon-surface-gravity.md)
+  - [Euclidean horizon period under a regular radial conformal factor](euclidean-horizon-period-under-a-regular-radial-conformal-factor.md)
+- [Hawking radiation](hawking-radiation.md)
+  - [Collapse vacuum for Hawking radiation](collapse-vacuum-for-hawking-radiation.md)
+  - [Black-hole evaporation](black-hole-evaporation.md)
+    - [Semiclassical cubic mass law for Schwarzschild evaporation](semiclassical-cubic-mass-law-for-schwarzschild-evaporation.md)
+    - [Stefan-Boltzmann estimate of Schwarzschild evaporation time](stefan-boltzmann-estimate-of-schwarzschild-evaporation-time.md)
+  - [Hawking exponential ray map](hawking-exponential-ray-map.md)
+    - [Thermal ratio of Hawking Bogoliubov coefficients](thermal-ratio-of-hawking-bogoliubov-coefficients.md)
+  - [Greybody factor](greybody-factor.md)
+  - [Black hole information paradox](black-hole-information-paradox.md)
+
+## ↑ Ancestors (6)
+
+1. [Black-hole thermodynamics](black-hole-thermodynamics.md)
+2. [Black hole](black-hole.md)
+3. [General relativity](general-relativity-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (27)
+
+- [Collapse vacuum for Hawking radiation](collapse-vacuum-for-hawking-radiation.md)
+- [Euclidean horizon period under a regular radial conformal factor](euclidean-horizon-period-under-a-regular-radial-conformal-factor.md)
+- [Euclidean temperature and signed horizon surface gravity](euclidean-temperature-and-signed-horizon-surface-gravity.md)
+- [Extremal black hole](extremal-black-hole.md)
+- [First law for the Kerr-Newman family](first-law-for-the-kerr-newman-family.md)
+- [Laws of black-hole mechanics](laws-of-black-hole-mechanics.md)
+- [Laws of thermodynamics](laws-of-thermodynamics.md)
+- [Negative heat capacity of a Schwarzschild black hole](negative-heat-capacity-of-a-schwarzschild-black-hole.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-57/4/vi/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-62/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-62/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-63/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-66/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-54/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-58/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-51/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-51/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-52/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-311/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-311/4/c/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-311/4/c/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-311/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-311/4/d/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-311/2/b/solution.md)
+- [Signed surface gravity of a de Sitter horizon](signed-surface-gravity-of-a-de-sitter-horizon.md)
+- [Stefan-Boltzmann estimate of Schwarzschild evaporation time](stefan-boltzmann-estimate-of-schwarzschild-evaporation-time.md)
+- [Surface gravity of a five-dimensional charged black hole](surface-gravity-of-a-five-dimensional-charged-black-hole.md)

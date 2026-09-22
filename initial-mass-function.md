@@ -1,0 +1,61 @@
+# Initial mass function
+
+↑ **Parent:** [Star formation](star-formation.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Initial_mass_function)
+
+The initial mass function is the distribution of stellar birth masses. It records the mass scales selected by cloud fragmentation, accretion, feedback, and stellar multiplicity.
+
+**Table of contents**
+
+- [Power-law initial-mass-function tail coordinate](power-law-initial-mass-function-tail-coordinate.md)
+
+## ↑ Ancestors (6)
+
+1. [Star formation](star-formation.md)
+2. [Stellar astrophysics](stellar-astrophysics-split.md)
+3. [Astrophysics](astrophysics-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (39)
+
+- [Birth-age distribution under constant star formation](birth-age-distribution-under-constant-star-formation.md)
+- [Closed-box metallicity distribution](closed-box-metallicity-distribution.md)
+- [Critical initial mass function slope for impulsive disruption](critical-initial-mass-function-slope-for-impulsive-disruption.md)
+- [Cumulative and birth stellar metallicities](cumulative-and-birth-stellar-metallicities.md)
+- [Delayed iron enrichment](delayed-iron-enrichment.md)
+- [Evolutionary-state selection by stellar lifetimes](evolutionary-state-selection-by-stellar-lifetimes.md)
+- [Galaxy stellar mass](galaxy-stellar-mass.md)
+- [Mass-to-light ratio of a power-law stellar population](mass-to-light-ratio-of-a-power-law-stellar-population.md)
+- [Metallicity distribution in a leaky box](metallicity-distribution-in-a-leaky-box.md)
+- [Metallicity distribution in the half-rate infall model](metallicity-distribution-in-the-half-rate-infall-model.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-40/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-42/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-62/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-72/1/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-72/1/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-72/3/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-65/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-65/1/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-65/1/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-65/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-65/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-65/3/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-65/3/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-65/4/vii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-60/1/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-60/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-60/3/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-60/4/iv/solution.md)
+- [1](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-322/1.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-322/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-349/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-349/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-347/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-349/2/solution.md)
+- [Population III star](population-iii-star.md)
+- [Power-law initial-mass-function tail coordinate](power-law-initial-mass-function-tail-coordinate.md)
+- [Quadratic gas-history enrichment model](quadratic-gas-history-enrichment-model.md)
+- [Starburst galaxy](starburst-galaxy.md)
+- [Stellar yield](stellar-yield.md)

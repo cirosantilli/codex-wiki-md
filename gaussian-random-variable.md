@@ -1,0 +1,71 @@
+# Gaussian random variable
+
+↑ **Parent:** [Normal distribution](normal-distribution.md)
+
+A [Gaussian random variable](gaussian-random-variable.md) is a [random variable](random-variable-split.md) whose [probability distribution](probability-distribution.md) is a [normal distribution](normal-distribution.md). For $\sigma>0$, write $X=\mu+\sigma Z$ with a [standard normal random variable](standard-normal-random-variable.md) $Z$; conversely, [standardization of a normal random variable](standardization-of-a-normal-random-variable.md) recovers $Z=(X-\mu)/\sigma$. For example, $X\sim N(100,15^2)$ has [mean](expected-value.md) $100$, [standard deviation](standard-deviation.md) $15$, and [variance](variance-split.md) $225$. The outcome $x=115$ corresponds to [standard score](standard-score.md) $z=1$, one [standard deviation](standard-deviation.md) above the [mean](expected-value.md).
+
+Some definitions also allow a [Gaussian random variable](gaussian-random-variable.md) with $\sigma=0$. This means $X=\mu$ [almost surely](almost-sure-convergence.md), with [variance](variance-split.md) zero and [probability distribution](probability-distribution.md) equal to the [Dirac measure](dirac-measure.md) $\delta_\mu$. It has no [probability density function](probability-density-function.md) with respect to [Lebesgue measure](lebesgue-measure.md): $\mathbb P(X=\mu)=1$. The positive-scale density formula and division by $\sigma$ apply only when $\sigma>0$. MIT's constructive definition explicitly includes the constant case. [MIT 6.436, Lecture 14, §2: degenerate normal distributions](https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/ceb423b6a703abd60429367b733f45bf_MIT6_436JF18_lec14.pdf).
+
+**Table of contents**
+
+- [Gaussian series with square-summable coefficients](gaussian-series-with-square-summable-coefficients.md)
+  - [Almost sure convergence criterion for an independent Gaussian series](almost-sure-convergence-criterion-for-an-independent-gaussian-series.md)
+    - [Threshold stopping of an independent Gaussian series](threshold-stopping-of-an-independent-gaussian-series.md)
+- [Standard normal random variable](standard-normal-random-variable.md)
+
+## ↑ Ancestors (7)
+
+1. [Normal distribution](normal-distribution.md)
+2. [Probability distribution](probability-distribution.md)
+3. [Probability theory](probability-theory-split.md)
+4. [Probability and statistics](probability-and-statistics-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (44)
+
+- [Almost sure convergence criterion for an independent Gaussian series](almost-sure-convergence-criterion-for-an-independent-gaussian-series.md)
+- [Chi-bar-squared distribution](chi-bar-squared-distribution.md)
+- [Complex Wishart matrix](complex-wishart-matrix.md)
+- [Continuous-time Gaussian white noise](continuous-time-gaussian-white-noise.md)
+- [Exponential moment of a Gaussian linear functional](exponential-moment-of-a-gaussian-linear-functional.md)
+- [Exponential moment of an absolute standard normal variable](exponential-moment-of-an-absolute-standard-normal-variable.md)
+- [First Gaussian chaos](first-gaussian-chaos.md)
+- [Fixed exponential perturbation of a Gaussian empirical mean](fixed-exponential-perturbation-of-a-gaussian-empirical-mean.md)
+- [Gaussian exponential martingale with deterministic variance](gaussian-exponential-martingale-with-deterministic-variance.md)
+- [Gaussian marginals do not imply a Gaussian random field](gaussian-marginals-do-not-imply-a-gaussian-random-field.md)
+- [Gaussian phase averaging](gaussian-phase-averaging.md)
+- [Gaussian random variable](gaussian-random-variable.md)
+- [Gaussian sign-correlation identity](gaussian-sign-correlation-identity.md)
+- [Half-normal distribution](half-normal-distribution.md)
+- [Integral of Brownian motion](integral-of-brownian-motion.md)
+- [Isserlis's theorem](isserlis-s-theorem.md)
+- [Mean-square integral](mean-square-integral.md)
+- [Ornstein-Uhlenbeck multiplicative amplification](ornstein-uhlenbeck-multiplicative-amplification.md)
+- [Ornstein-Uhlenbeck transition distribution](ornstein-uhlenbeck-transition-distribution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-29/6/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-29/6/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-36/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-75/3/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-69/3/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-9/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-39/6/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-42/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-28/2/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-29/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ii/paper-1/26k/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-74/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-335/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-217/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-217/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/ii/paper-3/30k/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-203/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-203/3/a/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-344/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-4/26k/b/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-202/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-202/2/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-211/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-344/1/e/solution.md)
+- [Test-function pairing with a Gaussian free field](test-function-pairing-with-a-gaussian-free-field.md)

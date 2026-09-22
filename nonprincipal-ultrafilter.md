@@ -1,0 +1,61 @@
+# Nonprincipal ultrafilter
+
+↑ **Parent:** [Ultrafilter](ultrafilter.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Nonprincipal_ultrafilter)
+
+A nonprincipal ultrafilter contains no finite set. On an infinite set it contains the [cofinite filter](cofinite-filter.md).
+
+**Table of contents**
+
+- [Small set is absent from a complete nonprincipal ultrafilter](small-set-is-absent-from-a-complete-nonprincipal-ultrafilter.md)
+
+## ↑ Ancestors (7)
+
+1. [Ultrafilter](ultrafilter.md)
+2. [Filter (set theory)](filter-set-theory.md)
+3. [Set theory](set-theory-split.md)
+4. [Foundations of mathematics](foundations-of-mathematics-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (38)
+
+- [Boolean ultrafilter-power-set adjunction](boolean-ultrafilter-power-set-adjunction.md)
+- [Cofinite set](cofinite-set.md)
+- [Countable saturation of a nonprincipal ultraproduct over omega](countable-saturation-of-a-nonprincipal-ultraproduct-over-omega.md)
+- [Countable saturation of an ultraproduct over omega](countable-saturation-of-an-ultraproduct-over-omega.md)
+- [Diagonal argument for ultrapower cardinality](diagonal-argument-for-ultrapower-cardinality.md)
+- [Infinite field of positive characteristic from an ultraproduct](infinite-field-of-positive-characteristic-from-an-ultraproduct.md)
+- [Membership in a free filter is detected by its ultrafilter extensions](membership-in-a-free-filter-is-detected-by-its-ultrafilter-extensions.md)
+- [Omega-measurable cardinal](omega-measurable-cardinal.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-10/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-21/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-12/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-24/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-24/7/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-27/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-27/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-24/4/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-25/11/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-25/7/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-14/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-26/7/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-27/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-25/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-20/8/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-10/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-9/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-121/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-135/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-135/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2020/ii/paper-4/16h/c/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-116/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-120/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-116/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-119/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-116/1/a/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-144/2/c/iii/solution.md)
+- [Ultrafilter construction of a Banach limit](ultrafilter-construction-of-a-banach-limit.md)
+- [Ultrafilter with arithmetic-progression-rich members](ultrafilter-with-arithmetic-progression-rich-members.md)
+- [Ultraproduct proof of the Ehrenfeucht-Mostowski theorem](ultraproduct-proof-of-the-ehrenfeucht-mostowski-theorem.md)

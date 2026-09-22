@@ -1,0 +1,47 @@
+# Dimensionless quantity
+
+↑ **Parent:** [Physical quantity](physical-quantity.md)
+
+A dimensionless quantity has zero exponent for every base physical dimension. It can be formed by dividing two quantities with the same dimensions, such as $x=r/R$ or $q=m/M$. Its value is independent of the choice of units for those dimensions. The quantities $GM^2/R$ and $Lt$ both have dimensions of energy, so $RLt/(GM^2)$ is dimensionless. A [dimensionless variable](dimensionless-variable.md) is such a quantity used as an unknown or independent variable in an equation.
+
+## ↑ Ancestors (3)
+
+1. [Physical quantity](physical-quantity.md)
+2. [Physics](physics-split.md)
+3. [Codex Wiki](split.md)
+
+## ← Incoming links (33)
+
+- [Acid dissociation constant](acid-dissociation-constant.md)
+- [Activation energy](activation-energy.md)
+- [Arrhenius equation](arrhenius-equation.md)
+- [Catalyst](catalyst.md)
+- [Chromatic aberration](chromatic-aberration.md)
+- [Coefficient of kinetic friction](coefficient-of-kinetic-friction.md)
+- [Conductometric saponification assay](conductometric-saponification-assay.md)
+- [Control theory](control-theory-split.md)
+- [Controllability](controllability.md)
+- [Covalent bond](covalent-bond.md)
+- [Double integrator](double-integrator.md)
+- [Drag coefficient](drag-coefficient.md)
+- [Electric susceptibility](electric-susceptibility.md)
+- [Feedback delay](feedback-delay.md)
+- [Focal ratio](focal-ratio.md)
+- [Gaussian filtering with exact observations](gaussian-filtering-with-exact-observations.md)
+- [Magnification](magnification.md)
+- [Maxwell speed distribution](maxwell-speed-distribution.md)
+- [Modified Arrhenius equation](modified-arrhenius-equation.md)
+- [Normal distribution](normal-distribution.md)
+- [Order of reaction](order-of-reaction.md)
+- [Permittivity](permittivity.md)
+- [pH](ph.md)
+- [Power law](power-law.md)
+- [Proportional-integral control](proportional-integral-control.md)
+- [Random walk](random-walk.md)
+- [Reversible catalytic relaxation](reversible-catalytic-relaxation.md)
+- [Reynolds number](reynolds-number.md)
+- [Scale factor (cosmology)](scale-factor-cosmology.md)
+- [Scattering efficiency](scattering-efficiency.md)
+- [Second-order reaction](second-order-reaction.md)
+- [Standard normal random variable](standard-normal-random-variable.md)
+- [Standard score](standard-score.md)

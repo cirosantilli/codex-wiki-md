@@ -1,0 +1,61 @@
+# Confounding
+
+↑ **Parent:** [Causal inference](causal-inference-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Confounding)
+
+Confounding is distortion of an exposure-outcome association by common causes or associated background variables.
+
+**Table of contents**
+
+- [Case mix](case-mix.md)
+  - [Risk-adjusted provider comparison](risk-adjusted-provider-comparison.md)
+- [Simpson's paradox](simpson-s-paradox.md)
+- [Confounder](confounder.md)
+
+## ↑ Ancestors (5)
+
+1. [Causal inference](causal-inference-split.md)
+2. [Probability and statistics](probability-and-statistics-split.md)
+3. [Area of mathematics](area-of-mathematics.md)
+4. [Mathematics](mathematics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (37)
+
+- [Case–control study](case-control-study.md)
+- [Case mix](case-mix.md)
+- [Cross-sectional study](cross-sectional-study.md)
+- [Intention-to-treat analysis](intention-to-treat-analysis.md)
+- [Multiple linear regression](multiple-linear-regression.md)
+- [Noncollapsibility of the odds ratio](noncollapsibility-of-the-odds-ratio.md)
+- [Observational study](observational-study.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-28/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-40/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-41/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-44/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-44/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-46/2/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-41/4/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-34/1/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-34/1/g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-34/1/h/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-34/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-37/5/c/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-41/1/a/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-35/1/c/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-207/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-207/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-207/3/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-207/3/f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/ii/paper-2/5j/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-207/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-221/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-221/4/b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-207/1/1/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-207/1/f/solution.md)
+- [Population stratification](population-stratification.md)
+- [Random-intercept attenuation of marginal logistic slopes](random-intercept-attenuation-of-marginal-logistic-slopes.md)
+- [Statistical association](statistical-association.md)
+- [Subgroup analysis in meta-analysis](subgroup-analysis-in-meta-analysis.md)
+- [Treatment contamination](treatment-contamination.md)
+- [Within-family Mendelian randomization](within-family-mendelian-randomization.md)

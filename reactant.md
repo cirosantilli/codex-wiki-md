@@ -1,0 +1,45 @@
+# Reactant
+
+↑ **Parent:** [Chemical reaction](chemical-reaction.md)
+
+A [chemical species](chemical-species.md) consumed in a [chemical reaction](chemical-reaction.md).
+
+## ↑ Ancestors (3)
+
+1. [Chemical reaction](chemical-reaction.md)
+2. [Chemistry](chemistry-split.md)
+3. [Codex Wiki](split.md)
+
+## ← Incoming links (31)
+
+- [Activation energy](activation-energy.md)
+- [Adenosine triphosphate](adenosine-triphosphate.md)
+- [Catalyst](catalyst.md)
+- [Catalyst deactivation](catalyst-deactivation.md)
+- [Chemical equation](chemical-equation.md)
+- [Chemical kinetics](chemical-kinetics.md)
+- [Chemical reaction](chemical-reaction.md)
+- [Conductometric determination of activation energy](conductometric-determination-of-activation-energy.md)
+- [Conductometric saponification assay](conductometric-saponification-assay.md)
+- [Disappearance rate](disappearance-rate.md)
+- [Disulfide bond](disulfide-bond.md)
+- [Elementary reaction](elementary-reaction.md)
+- [Energy coupling](energy-coupling.md)
+- [Energy profile (chemistry)](energy-profile-chemistry.md)
+- [Enthalpy of activation](enthalpy-of-activation.md)
+- [Entropy of activation](entropy-of-activation.md)
+- [Enzyme](enzyme.md)
+- [Extent of reaction](extent-of-reaction.md)
+- [First-order reaction](first-order-reaction.md)
+- [Gibbs energy of activation](gibbs-energy-of-activation.md)
+- [Henderson-Hasselbalch equation](henderson-hasselbalch-equation.md)
+- [Heterogeneous catalysis](heterogeneous-catalysis.md)
+- [Homogeneous catalysis](homogeneous-catalysis.md)
+- [Limiting reagent](limiting-reagent.md)
+- [Permanganate-iron titration](permanganate-iron-titration.md)
+- [Potential-energy profile](potential-energy-profile.md)
+- [Rate constant](rate-constant.md)
+- [Redox titration](redox-titration.md)
+- [Second-order reaction](second-order-reaction.md)
+- [Transition state](transition-state.md)
+- [Zero-order reaction](zero-order-reaction.md)

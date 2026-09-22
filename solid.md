@@ -1,0 +1,35 @@
+# Solid
+
+↑ **Parent:** [State of matter](state-of-matter.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Solid)
+
+## ↑ Ancestors (6)
+
+1. [State of matter](state-of-matter.md)
+2. [Thermodynamics](thermodynamics-split.md)
+3. [Statistical physics](statistical-physics-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (19)
+
+- [Bond-dissociation energy](bond-dissociation-energy.md)
+- [Born-Haber cycle](born-haber-cycle.md)
+- [Crystallographic defect](crystallographic-defect.md)
+- [Dulong-Petit law](dulong-petit-law.md)
+- [Einstein solid](einstein-solid.md)
+- [Fluid](fluid.md)
+- [Ice-melting calorimetry](ice-melting-calorimetry.md)
+- [Ionic bonding](ionic-bonding.md)
+- [Latent heat](latent-heat.md)
+- [Latent heat of fusion](latent-heat-of-fusion.md)
+- [Negative melting-point slope of water](negative-melting-point-slope-of-water.md)
+- [Physical properties of salts](physical-properties-of-salts.md)
+- [Solid electrolyte](solid-electrolyte.md)
+- [Standard enthalpy of formation](standard-enthalpy-of-formation.md)
+- [Thermal diffusivity](thermal-diffusivity.md)
+- [Thermal expansion](thermal-expansion.md)
+- [Vapor pressure](vapor-pressure.md)
+- [Wet-ice bias in fusion calorimetry](wet-ice-bias-in-fusion-calorimetry.md)
+- [Work function](work-function.md)

@@ -1,0 +1,45 @@
+# Two-isogeny formula
+
+↑ **Parent:** [Two-isogeny descent](two-isogeny-descent.md)
+
+For $E:y^2=x(x^2+ax+b)$, set $b^{\prime}=a^2-4b$ and $E^{\prime}:Y^2=X(X^2-2aX+b^{\prime})$. The [isogeny of elliptic curves](isogeny-of-elliptic-curves.md) with kernel $\{O,(0,0)\}$ is $\phi(x,y)=(x+a+b/x,\ y(1-b/x^2))$. Its dual is $\widehat\phi(X,Y)=((X-2a+b^{\prime}/X)/4,\ Y(1-b^{\prime}/X^2)/8)$. The maps extend over their exceptional affine points and satisfy $\widehat\phi\phi=[2]$.
+
+## ↑ Ancestors (12)
+
+1. [Two-isogeny descent](two-isogeny-descent.md)
+2. [Kummer map of an elliptic curve](kummer-map-of-an-elliptic-curve.md)
+3. [Mordell-Weil group](mordell-weil-group.md)
+4. [Elliptic curve](elliptic-curve.md)
+5. [Genus one curve](genus-one-curve.md)
+6. [Geometric genus](geometric-genus.md)
+7. [Normalization of an algebraic curve](normalization-of-an-algebraic-curve-split.md)
+8. [Algebraic geometry](algebraic-geometry-split.md)
+9. [Geometry and topology](geometry-and-topology-split.md)
+10. [Area of mathematics](area-of-mathematics.md)
+11. [Mathematics](mathematics-split.md)
+12. [Codex Wiki](split.md)
+
+## ← Incoming links (22)
+
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-24/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-21/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-21/1/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-32/2/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-32/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-32/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-32/4/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-27/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-27/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-26/2/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-27/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-22/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-22/5/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-22/5/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-125/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-125/5/solution.md)
+- [Rank-one elliptic curve with coefficients eight and minus seven](rank-one-elliptic-curve-with-coefficients-eight-and-minus-seven.md)
+- [Rank-one elliptic curve with roots zero two and ten](rank-one-elliptic-curve-with-roots-zero-two-and-ten.md)
+- [Rank-two elliptic curve with cubic x cubed minus seventeen x](rank-two-elliptic-curve-with-cubic-x-cubed-minus-seventeen-x.md)
+- [Rank-zero elliptic curve with cubic x cubed plus x](rank-zero-elliptic-curve-with-cubic-x-cubed-plus-x.md)
+- [Rank-zero elliptic curve with roots zero three and four](rank-zero-elliptic-curve-with-roots-zero-three-and-four.md)
+- [Two-isogeny index formula over a number field](two-isogeny-index-formula-over-a-number-field.md)

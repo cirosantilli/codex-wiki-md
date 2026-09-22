@@ -1,0 +1,70 @@
+# Presheaf category
+
+↑ **Parent:** [Functor category](functor-category.md)
+
+The presheaf category on a [small category](small-category.md) $\mathcal C$ is the [functor category](functor-category.md) $[\mathcal C^{\mathrm{op}},\mathbf{Set}]$. Its limits and colimits are computed pointwise.
+
+Each object is a [presheaf on a category](presheaf-category-theory.md), and its morphisms are [natural transformations](natural-transformation.md).
+
+**Table of contents**
+
+- [Canonical colimit presentation of a presheaf](canonical-colimit-presentation-of-a-presheaf.md)
+- [Free cocompletion](free-cocompletion.md)
+- [Grothendieck topology](grothendieck-topology.md)
+  - [Double-negation topology](double-negation-topology.md)
+    - [Separating tower site with vanishing product](separating-tower-site-with-vanishing-product.md)
+  - [Zariski coverage on finitely presented rings](zariski-coverage-on-finitely-presented-rings.md)
+  - [Coverage on a category](coverage-on-a-category.md)
+    - [Rigid coverage](rigid-coverage.md)
+    - [J-irreducible object of a site](j-irreducible-object-of-a-site.md)
+  - [Site (category theory)](site-category-theory.md)
+  - [Atomic topology](atomic-topology.md)
+    - [Atomic finite-surjection site](atomic-finite-surjection-site.md)
+      - [Primitive element of an atomic finite-surjection sheaf](primitive-element-of-an-atomic-finite-surjection-sheaf.md)
+        - [Primitive decomposition of an atomic finite-surjection sheaf](primitive-decomposition-of-an-atomic-finite-surjection-sheaf.md)
+        - [Primitive-element kernel rigidity lemma](primitive-element-kernel-rigidity-lemma.md)
+      - [Descent identities for the atomic finite-surjection site](descent-identities-for-the-atomic-finite-surjection-site.md)
+    - [Common-refinement condition for nonempty-sieve coverage](common-refinement-condition-for-nonempty-sieve-coverage.md)
+  - [Subcanonical topology](subcanonical-topology.md)
+  - [Sheaf on a site](sheaf-on-a-site.md)
+- [Sieve (category theory)](sieve-category-theory.md)
+  - [Dense sieve](dense-sieve.md)
+  - [J-closed sieve](j-closed-sieve.md)
+- [Presheaf topos](presheaf-topos.md)
+  - [Slice-small presheaf construction](slice-small-presheaf-construction.md)
+  - [Exponential in a presheaf category](exponential-in-a-presheaf-category.md)
+
+## ↑ Ancestors (8)
+
+1. [Functor category](functor-category.md)
+2. [Functor](functor.md)
+3. [Category](category-split.md)
+4. [Category theory](category-theory-split.md)
+5. [Foundations of mathematics](foundations-of-mathematics-split.md)
+6. [Area of mathematics](area-of-mathematics.md)
+7. [Mathematics](mathematics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (21)
+
+- [Five adjoints for constant presheaves on open sets](five-adjoints-for-constant-presheaves-on-open-sets.md)
+- [Free cocompletion](free-cocompletion.md)
+- [Global sections functor](global-sections-functor.md)
+- [Indecomposable projective object](indecomposable-projective-object.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-17/2/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-17/6/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-20/1/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-26/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-23/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-23/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-21/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-75/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-23/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-23/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-20/4/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-119/6/a/solution.md)
+- [Presheaf topos](presheaf-topos.md)
+- [Rigid coverage](rigid-coverage.md)
+- [Small projective object](small-projective-object.md)
+- [Yoneda embedding detects split epimorphisms](yoneda-embedding-detects-split-epimorphisms.md)
+- [Yoneda embedding preserves exponentials](yoneda-embedding-preserves-exponentials.md)

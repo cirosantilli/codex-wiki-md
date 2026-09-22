@@ -1,0 +1,61 @@
+# Light ray
+
+↑ **Parent:** [Geometrical optics](geometrical-optics.md)
+
+A path of light propagation in the [geometrical optics](geometrical-optics.md) approximation. In a smoothly varying propagation speed, [Fermat principle](fermat-principle.md) makes its travel time stationary.
+
+**Table of contents**
+
+- [Circular light ray in a linear speed profile](circular-light-ray-in-a-linear-speed-profile.md)
+
+## ↑ Ancestors (5)
+
+1. [Geometrical optics](geometrical-optics.md)
+2. [Optics](optics-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (41)
+
+- [Achromatic lens](achromatic-lens.md)
+- [Aperture](aperture.md)
+- [Aperture truncation of etendue](aperture-truncation-of-etendue.md)
+- [Axial chromatic aberration](axial-chromatic-aberration.md)
+- [Basic radiance](basic-radiance.md)
+- [Beam collection at fixed radiant flux](beam-collection-at-fixed-radiant-flux.md)
+- [Chromatic aberration](chromatic-aberration.md)
+- [Circular light ray in a linear speed profile](circular-light-ray-in-a-linear-speed-profile.md)
+- [Coma (optics)](coma-optics.md)
+- [Conjugate pinholes in confocal microscopy](conjugate-pinholes-in-confocal-microscopy.md)
+- [Conservation of etendue](conservation-of-etendue.md)
+- [Etendue](etendue.md)
+- [Etendue bench measurement](etendue-bench-measurement.md)
+- [Etendue concentration limit](etendue-concentration-limit.md)
+- [Field of view](field-of-view.md)
+- [Focal length](focal-length.md)
+- [Focal ratio](focal-ratio.md)
+- [Focus (optics)](focus-optics.md)
+- [Geometrical optics](geometrical-optics.md)
+- [Image formation](image-formation.md)
+- [Infrared](infrared.md)
+- [Lens (optics)](lens-optics.md)
+- [Limb darkening](limb-darkening.md)
+- [Optical aberration](optical-aberration.md)
+- [Optical path length](optical-path-length.md)
+- [Optical pinhole](optical-pinhole.md)
+- [Optical power](optical-power.md)
+- [Optical tweezers](optical-tweezers.md)
+- [Optics](optics-split.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/ib/paper-2/15a/solution.md)
+- [Point-mass gravitational lens](point-mass-gravitational-lens.md)
+- [Point-mass lens deflection and focusing](point-mass-lens-deflection-and-focusing.md)
+- [Radiance](radiance.md)
+- [Real image](real-image.md)
+- [Seidel coma pupil mapping](seidel-coma-pupil-mapping.md)
+- [Specular reflection](specular-reflection.md)
+- [Thin lens](thin-lens.md)
+- [Transverse magnification](transverse-magnification.md)
+- [Vacuum conservation of specific intensity](vacuum-conservation-of-specific-intensity.md)
+- [Virtual image](virtual-image.md)
+- [Wavefront](wavefront.md)

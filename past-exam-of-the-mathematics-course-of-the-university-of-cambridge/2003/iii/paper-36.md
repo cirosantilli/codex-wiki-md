@@ -1,0 +1,272 @@
+# Paper 36
+
+↑ **Parent:** [Iii](../iii.md)
+
+[https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2003/Paper36.pdf](https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2003/Paper36.pdf)
+
+**Table of contents**
+
+- [1](#1)
+  - [Solution](#1/solution)
+- [2](#2)
+  - [Solution](#2/solution)
+- [3](#3)
+  - [Solution](#3/solution)
+- [4](#4)
+  - [Solution](#4/solution)
+
+## 1
+
+↑ **Parent:** [Paper 36](paper-36.md)
+
+<h3 id="1/solution">Solution</h3>
+
+↑ **Parent:** [1](#1)
+
+For a [linear code](../../../coding-theory.md#linear-code) $X\leq\mathbb F^n$, its [dual code](../../../coding-theory.md#dual-code) is
+
+$$
+X^\perp=\{y\in\mathbb F^n:\sum_{i=1}^n x_i y_i=0\text{ for every }x\in X\}.
+$$
+
+The standard [bilinear form](../../../linear-algebra.md#bilinear-form) is nondegenerate. The map $\mathbb F^n\to X^*$ obtained by restricting the dot-product functional to $X$ is [surjective](../../../algebra.md#surjective-function): extend a functional from a [basis](../../../vector-space.md#basis) of $X$ to a [basis](../../../vector-space.md#basis) of $\mathbb F^n$, then use the nondegenerate [dot product](../../../linear-algebra.md#dot-product) to represent it. Its [kernel](../../../linear-algebra.md#kernel-of-a-linear-map) is $X^\perp$. The [rank-nullity theorem](../../../linear-algebra.md#rank-nullity-theorem) therefore gives
+
+$$
+\boxed{\dim X^\perp=n-\dim X.}
+$$
+
+The first proposed description of the [dual code](../../../coding-theory.md#dual-code) is **false without self-orthogonality**. At length three take $X=\langle(1,0,0)\rangle$. It has the specified [dimension](../../../vector-space.md#dimension-vector-space), but
+
+$$
+X^\perp=\{(0,a,b):a,b\in\mathbb F_2\},
+$$
+
+whereas $\langle X,(1,1,1)\rangle$ contains $(1,0,0)$ and $(1,1,1)$, neither of which is in $X^\perp$. The natural corrected statement is the [odd-length binary self-orthogonal dual extension](../../../coding-theory.md#odd-length-binary-self-orthogonal-dual-extension): if also $X\subseteq X^\perp$, every word of $X$ has even [Hamming weight](../../../coding-theory.md#hamming-weight), the all-ones word lies in $X^\perp$ but not in $X$, and [dimensions](../../../vector-space.md#dimension-vector-space) then give $X^\perp=X\oplus\langle\mathbf1\rangle$.
+
+For a binary [self-dual code](../../../coding-theory.md#self-dual-code), $x\cdot x=0$ for every $x\in X$. In $\mathbb F_2$, this equals $\sum_i x_i$, so every [codeword](../../../coding-theory.md#codeword) has even [Hamming weight](../../../coding-theory.md#hamming-weight). Thus $\mathbf1\cdot x=0$ for all $x$, giving $\mathbf1\in X^\perp=X$. The [dimension](../../../vector-space.md#dimension-vector-space) identity yields $2\dim X=n$, so $n$ is even. Alternatively $\mathbf1\in X$ and $\mathbf1\cdot\mathbf1=0$ itself gives evenness. Hence **the second assertion is true**.
+
+For every $n=2m$, use
+
+$$
+X=\{(u,u):u\in\mathbb F_2^m\},\qquad G=(I_m\mid I_m).
+$$
+
+This [linear code](../../../coding-theory.md#linear-code) has [dimension](../../../vector-space.md#dimension-vector-space) $m$, and $(u,u)\cdot(v,v)=2(u\cdot v)=0$. Therefore $X\subseteq X^\perp$; both have [dimension](../../../vector-space.md#dimension-vector-space) $m$, so equality holds. This constructs a binary [self-dual code](../../../coding-theory.md#self-dual-code) at every even length. Conversely the [dimension](../../../vector-space.md#dimension-vector-space) identity already proves **every self-dual length-$n$ [linear code](../../../coding-theory.md#linear-code) has [dimension](../../../vector-space.md#dimension-vector-space) $n/2$**.
+
+For a nonbinary example, over $\mathbb F_5$ take $X=\langle(1,2)\rangle$. Its generator has self-product $1+2^2=0$ in $\mathbb F_5$, so $X\subseteq X^\perp$. Both are one-dimensional, proving
+
+$$
+\boxed{\langle(1,2)\rangle\leq\mathbb F_5^2\text{ is self-dual}.}
+$$
+
+## 2
+
+↑ **Parent:** [Paper 36](paper-36.md)
+
+<h3 id="2/solution">Solution</h3>
+
+↑ **Parent:** [2](#2)
+
+A [finite field](../../../algebra.md#finite-field) is a [field](../../../algebra.md#field) with finitely many elements. Its characteristic is the least positive integer $p$ for which $p\cdot1=0$; such an integer exists because the additive group is finite. If $p=ab$ with $1<a,b<p$, then $(a\cdot1)(b\cdot1)=0$ although neither factor is zero, impossible in a [field](../../../algebra.md#field). Hence $p$ is prime, and the multiples of $1$ form its [prime field](../../../algebra.md#prime-field) $\mathbb F_p$. The whole [field](../../../algebra.md#field) is a finite-dimensional [vector space](../../../vector-space.md) over this subfield, say of [dimension](../../../vector-space.md#dimension-vector-space) $s\geq1$, so its cardinality is $p^s$. Thus **$q=p^s$ and its characteristic is $p$**.
+
+For existence, let $K$ be a [splitting field](../../../galois-theory.md#splitting-field) over $\mathbb F_p$ of $P(T)=T^{p^s}-T$. Since $P'(T)=-1$, it has exactly $p^s$ distinct roots. Its root set $F$ contains $0,1$ and is closed under addition and multiplication, because iterated [Frobenius endomorphism](../../../galois-theory.md#frobenius-endomorphism) gives
+
+$$
+(a+b)^{p^s}=a^{p^s}+b^{p^s},\qquad (ab)^{p^s}=a^{p^s}b^{p^s}.
+$$
+
+It is also closed under additive inverses, and for $a\ne0$, $(a^{-1})^{p^s}=(a^{p^s})^{-1}=a^{-1}$. Thus $F$ is a [field](../../../algebra.md#field) with exactly $p^s$ elements. Since it contains every root, it is the entire [splitting field](../../../galois-theory.md#splitting-field). This proves existence.
+
+For uniqueness, let $L$ be any [field](../../../algebra.md#field) with $p^s$ elements. Its nonzero multiplicative group has order $p^s-1$, so [Lagrange's theorem](../../../group-theory.md#lagrange-s-theorem) gives $a^{p^s}=a$ for every $a\in L$, including zero. Hence $L$ is a [splitting field](../../../galois-theory.md#splitting-field) of the same [polynomial](../../../polynomial.md). Here is the embedding argument giving uniqueness, rather than merely invoking it by name. Extend the identity on $\mathbb F_p$ from one root at a time. If an embedding is already defined on $E$ and a new root $\alpha$ has [minimal polynomial of an algebraic element](../../../galois-theory.md#minimal-polynomial-of-an-algebraic-element) $h$ over $E$, the transported [polynomial](../../../polynomial.md) divides $P$ and therefore has a root $b$ in $L$. Evaluation at $b$ induces an embedding $E[T]/(h)\to L$, extending the existing embedding to $E(\alpha)$. Repeating for the finitely many roots embeds the constructed [field](../../../algebra.md#field) $F$ in $L$. They have the same finite cardinality, so this embedding is an [isomorphism](../../../algebra.md#isomorphism). Thus **the [field](../../../algebra.md#field) of order $p^s$ is unique up to [isomorphism](../../../algebra.md#isomorphism)**.
+
+We prove cyclicity of the multiplicative group, also establishing the more general [finite multiplicative subgroup of a field is cyclic](../../../algebra.md#finite-multiplicative-subgroup-of-a-field-is-cyclic) result. Let $H$ be a finite subgroup of a [field](../../../algebra.md#field)'s multiplicative group, and let $e$ be the least common multiple of all element orders. For every prime $\ell$ dividing $e$, choose an element whose order has the maximal $\ell$-power $\ell^{a_\ell}$; raising it to the factor of its order coprime to $\ell$ gives an element of order $\ell^{a_\ell}$. Since the group is abelian, the product of these elements has order $\prod_\ell\ell^{a_\ell}=e$: for commuting elements of coprime orders, an equation $(ab)^t=1$ forces $a^t=b^{-t}$ into the intersection of their cyclic subgroups, which is trivial, so both orders divide $t$. Every member of $H$ is a root of $T^e-1$. The [Lagrange root bound over a field](../../../polynomial.md#lagrange-root-bound-over-a-field) gives $|H|\leq e$, while the element just constructed has order $e$ and gives $e\leq|H|$. Thus equality holds and that element generates $H$. In particular
+
+$$
+\boxed{\mathbb F_{p^s}^{\times}\cong\mathbb Z/(p^s-1)\mathbb Z.}
+$$
+
+For the [field with nine elements](../../../algebra.md#field-with-nine-elements), use $\mathbb F_3[u]/(u^2+1)$. The [polynomial](../../../polynomial.md) has no root in $\mathbb F_3$, since its squares are $0,1$, so the quotient is a [field](../../../algebra.md#field). In the [basis](../../../vector-space.md#basis) $(1,u)$, a vector $(a,b)$ represents $a+bu$, and
+
+$$
+(a,b)+(c,d)=(a+c,b+d),\qquad(a,b)(c,d)=(ac-bd,ad+bc)
+$$
+
+with coefficients reduced modulo three. Put $\beta=1+u$. Then $\beta^2=2u$, $\beta^4=2=-1$, and $\beta^8=1$, proving that $\beta$ is a [primitive element of a finite field](../../../algebra.md#primitive-element-of-a-finite-field) of order eight. Its complete power/vector table is
+
+$$
+\begin{array}{c|c|c}
+\text{label}&\text{element}&\text{vector in }(1,u)\\\hline
+a_0&0&(0,0)\\
+a_1&\beta^0=1&(1,0)\\
+a_2&\beta&(1,1)\\
+a_3&\beta^2&(0,2)\\
+a_4&\beta^3&(1,2)\\
+a_5&\beta^4&(2,0)\\
+a_6&\beta^5&(2,2)\\
+a_7&\beta^6&(0,1)\\
+a_8&\beta^7&(2,1)
+\end{array}
+$$
+
+For completeness, the full addition and multiplication tables in these labels are displayed below. The subscripts are element labels; they are not the scalar residues of $\mathbb F_3$.
+
+$$
+\begin{array}{c|rrrrrrrrr}
++ & a_0 & a_1 & a_2 & a_3 & a_4 & a_5 & a_6 & a_7 & a_8\\\hline
+a_0 & a_0 & a_1 & a_2 & a_3 & a_4 & a_5 & a_6 & a_7 & a_8\\
+a_1 & a_1 & a_5 & a_8 & a_4 & a_6 & a_0 & a_3 & a_2 & a_7\\
+a_2 & a_2 & a_8 & a_6 & a_1 & a_5 & a_7 & a_0 & a_4 & a_3\\
+a_3 & a_3 & a_4 & a_1 & a_7 & a_2 & a_6 & a_8 & a_0 & a_5\\
+a_4 & a_4 & a_6 & a_5 & a_2 & a_8 & a_3 & a_7 & a_1 & a_0\\
+a_5 & a_5 & a_0 & a_7 & a_6 & a_3 & a_1 & a_4 & a_8 & a_2\\
+a_6 & a_6 & a_3 & a_0 & a_8 & a_7 & a_4 & a_2 & a_5 & a_1\\
+a_7 & a_7 & a_2 & a_4 & a_0 & a_1 & a_8 & a_5 & a_3 & a_6\\
+a_8 & a_8 & a_7 & a_3 & a_5 & a_0 & a_2 & a_1 & a_6 & a_4
+\end{array}
+$$
+
+$$
+\begin{array}{c|rrrrrrrrr}
+\times & a_0 & a_1 & a_2 & a_3 & a_4 & a_5 & a_6 & a_7 & a_8\\\hline
+a_0 & a_0 & a_0 & a_0 & a_0 & a_0 & a_0 & a_0 & a_0 & a_0\\
+a_1 & a_0 & a_1 & a_2 & a_3 & a_4 & a_5 & a_6 & a_7 & a_8\\
+a_2 & a_0 & a_2 & a_3 & a_4 & a_5 & a_6 & a_7 & a_8 & a_1\\
+a_3 & a_0 & a_3 & a_4 & a_5 & a_6 & a_7 & a_8 & a_1 & a_2\\
+a_4 & a_0 & a_4 & a_5 & a_6 & a_7 & a_8 & a_1 & a_2 & a_3\\
+a_5 & a_0 & a_5 & a_6 & a_7 & a_8 & a_1 & a_2 & a_3 & a_4\\
+a_6 & a_0 & a_6 & a_7 & a_8 & a_1 & a_2 & a_3 & a_4 & a_5\\
+a_7 & a_0 & a_7 & a_8 & a_1 & a_2 & a_3 & a_4 & a_5 & a_6\\
+a_8 & a_0 & a_8 & a_1 & a_2 & a_3 & a_4 & a_5 & a_6 & a_7
+\end{array}
+$$
+
+A nonzero element $\alpha=\beta^j$ satisfies $\alpha^4=1$ exactly when $8\mid4j$, so $j$ is even. Thus, with $e=1$,
+
+$$
+\boxed{\{\alpha:\alpha^4=e\}=\{(1,0),(2,0),(0,1),(0,2)\}.}
+$$
+
+## 3
+
+↑ **Parent:** [Paper 36](paper-36.md)
+
+<h3 id="3/solution">Solution</h3>
+
+↑ **Parent:** [3](#3)
+
+A [root of unity over a finite field](../../../algebra.md#root-of-unity-over-a-finite-field) is an element $a\in\overline{\mathbb F}_q$ satisfying $a^n=1$, with $n\geq1$; the [algebraic closure](../../../algebra.md#algebraic-closure) is essential because all roots need not lie in the base [field](../../../algebra.md#field). Write $p=\operatorname{char}\mathbb F_q$ and $n=p^a m$, where $p\nmid m$. In characteristic $p$,
+
+$$
+T^n-1=(T^m-1)^{p^a}.
+$$
+
+The latter [polynomial](../../../polynomial.md) has $m$ distinct roots, since the derivative $mT^{m-1}$ is nonzero at every root. Those roots are closed under multiplication and inversion and contain $1$, so $E(n,q)$ is a finite multiplicative subgroup of a [field](../../../algebra.md#field). The proof in the preceding solution makes it a [cyclic group](../../../group.md#cyclic-group). In particular
+
+$$
+\boxed{|E(n,q)|=m,\qquad |E(n,q)|=n\text{ if }\gcd(n,q)=1.}
+$$
+
+This also explains why the coprimality qualification is needed.
+
+The [multiplicative group of a finite field](../../../algebra.md#multiplicative-group-of-a-finite-field) $\mathbb F_{q^s}^{\times}$ is cyclic of order $q^s-1$. It contains the entire group of $m$th roots precisely when $m\mid q^s-1$. For necessity, a generator of $E(n,q)$ has order $m$ and [Lagrange's theorem](../../../group-theory.md#lagrange-s-theorem) applies. For sufficiency, a [cyclic group](../../../group.md#cyclic-group) whose order is divisible by $m$ contains $m$ roots of $T^m-1$; since there are exactly $m$ roots in the [algebraic closure](../../../algebra.md#algebraic-closure), these are all of them. Hence the least positive extension degree is
+
+$$
+\boxed{s=\operatorname{ord}_m(q)\quad(m>1),\qquad s=1\quad(m=1).}
+$$
+
+Here $\operatorname{ord}_m(q)$ is the [multiplicative order](../../../number-theory.md#multiplicative-order) of the residue class of $q$ modulo $m$. If $n$ is coprime to $q$, replace $m$ by $n$. Existence of this order follows because $q$ is a unit modulo $m$.
+
+A primitive $n$th [root of unity over a finite field](../../../algebra.md#root-of-unity-over-a-finite-field) has [multiplicative order](../../../number-theory.md#multiplicative-order) exactly $n$. If $p\mid n$, no such element exists, since all roots have order dividing $m<n$. If $\gcd(n,q)=1$, choose a generator $\zeta$ of $E(n,q)$. The element $\zeta^j$ has order $n/\gcd(n,j)$, so it is primitive precisely when $\gcd(n,j)=1$. Therefore **there are $\varphi(n)$ primitive roots**, with $\varphi$ the [Euler totient function](../../../number-theory.md#euler-totient-function).
+
+If $\omega$ is primitive of order $n$, then $\omega\in\mathbb F_{q^\ell}$ exactly when $\omega^{q^\ell}=\omega$, equivalently $n\mid q^\ell-1$. The implication from that equality to membership follows because the roots of $T^{q^\ell}-T$ form $\mathbb F_{q^\ell}$, as proved in the preceding solution. Consequently
+
+$$
+\boxed{\min\{\ell\geq1:\omega\in\mathbb F_{q^\ell}\}=\operatorname{ord}_n(q)}
+$$
+
+for $n>1$, and the degree is one for $n=1$. This is also the length of the [finite-field Frobenius automorphism](../../../algebra.md#finite-field-frobenius-automorphism) orbit of $\omega$.
+
+Using the same $(1,u)$ [basis](../../../vector-space.md#basis) of $\mathbb F_9$ as before, the fourth roots of unity are
+
+$$
+\boxed{E(4,9)=\{1,-1,u,-u\}=\{(1,0),(2,0),(0,1),(0,2)\}.}
+$$
+
+There are four, they are already in $\mathbb F_9$, and the primitive fourth roots are the two vectors $(0,1)$ and $(0,2)$.
+
+## 4
+
+↑ **Parent:** [Paper 36](paper-36.md)
+
+<h3 id="4/solution">Solution</h3>
+
+↑ **Parent:** [4](#4)
+
+A [cyclic code](../../../coding-theory.md#cyclic-code) of length $n$ over $\mathbb F_q$ is a [linear code](../../../coding-theory.md#linear-code) invariant under $(c_0,\ldots,c_{n-1})\mapsto(c_{n-1},c_0,\ldots,c_{n-2})$. Associate the word with $c(T)=\sum_{i=0}^{n-1}c_iT^i$. The shift is multiplication by $T$ modulo $T^n-1$, so shift-invariant linear subspaces are exactly the [ideals](../../../commutative-algebra.md#ideal) of $\mathbb F_q[T]/(T^n-1)$. The inverse image of such an [ideal](../../../commutative-algebra.md#ideal) in $\mathbb F_q[T]$ is principal and contains $T^n-1$; hence it is generated by a unique [monic](../../../polynomial.md#monic-polynomial) divisor $g$ of $T^n-1$. The code has [basis](../../../vector-space.md#basis) $g,Tg,\ldots,T^{n-\deg g-1}g$, and [dimension](../../../vector-space.md#dimension-vector-space) $n-\deg g$.
+
+The [defining zeros of a cyclic code](../../../coding-theory.md#zero-of-a-cyclic-code) are the roots of its generator $g$ in a [splitting field](../../../galois-theory.md#splitting-field). Since $g\mid T^n-1$, each is a [root of unity over a finite field](../../../algebra.md#root-of-unity-over-a-finite-field). Every [codeword](../../../coding-theory.md#codeword) vanishes at each such root. If the characteristic divides $n$, root multiplicities must additionally be retained; in the Hamming construction below the modulus has no repeated roots.
+
+**The unrestricted ternary cyclic-equivalence assertion is false.** At $s=2$ it would give a cyclic $[4,2,3]_3$ code. But
+
+$$
+T^4-1=(T-1)(T+1)(T^2+1)
+$$
+
+over $\mathbb F_3$, with the quadratic irreducible. A dimension-two [cyclic code](../../../coding-theory.md#cyclic-code) needs a degree-two generator, so its only possibilities are $T^2-1$ and $T^2+1$. Each is a weight-two [codeword](../../../coding-theory.md#codeword). Therefore neither has minimum distance three, and no code equivalent to the ternary $[4,2,3]$ Hamming code can be cyclic. A valid general version of the asserted construction assumes **odd $s$**. The usual distance-three Hamming parameters also require $s\geq2$; when $s=1$ the code is the length-one zero code.
+
+Here is the construction with its precise qualification. A [ternary Hamming code](../../../coding-theory.md#ternary-hamming-code) has a [parity-check matrix](../../../coding-theory.md#parity-check-matrix) whose columns represent each one-dimensional subspace of $\mathbb F_3^s$ once. There are $n=(3^s-1)/2$ such subspaces. Its [rank](../../../linear-algebra.md#rank-one-quadratic-form) is $s$, because the coordinate lines are included. Its minimum distance is at least three, because no column is zero and no two are proportional. For $s\geq2$, two independent vectors and their sum determine three distinct columns, and, after adjusting their nonzero representative scalars, give a weight-three linear relation. Thus its parameters are $[n,n-s,3]_3$. Permuting columns and changing their nonzero representatives produces a [monomial equivalence of linear codes](../../../coding-theory.md#monomial-equivalence-of-linear-codes).
+
+Take odd $s\geq3$ and choose $\alpha\in\mathbb F_{3^s}^{\times}$ of order $n$. Since $n$ is odd, $-1$ is not in the cyclic subgroup generated by $\alpha$. Hence $1,\alpha,\ldots,\alpha^{n-1}$ lie in distinct one-dimensional $\mathbb F_3$-subspaces: a proportional pair would have ratio $1$ or $-1$, neither possible for two distinct powers in this list. By their number they represent all [projective points](../../../projective-space.md#projective-point). Consequently
+
+$$
+C=\{c\in\mathbb F_3^n:\sum_{i=0}^{n-1}c_i\alpha^i=0\}
+$$
+
+is monomially equivalent to the [ternary Hamming code](../../../coding-theory.md#ternary-hamming-code). Since $\alpha^n=1$, evaluation at $\alpha$ descends to $\mathbb F_3[T]/(T^n-1)$ and its [kernel](../../../linear-algebra.md#kernel-of-a-linear-map) is an [ideal](../../../commutative-algebra.md#ideal), so $C$ is cyclic.
+
+The degree of $\alpha$ over $\mathbb F_3$ is $s$. If it were $d<s$, its generated [field](../../../algebra.md#field) would have $3^d$ elements and its element order would give
+
+$$
+n\leq3^d-1\leq3^{s-1}-1<\frac{3^s-1}{2}=n,
+$$
+
+a contradiction. Its [minimal polynomial of an algebraic element](../../../galois-theory.md#minimal-polynomial-of-an-algebraic-element) therefore has degree $s$. Applying Frobenius to a [polynomial](../../../polynomial.md) relation shows that $\alpha,\alpha^3,\ldots,\alpha^{3^{s-1}}$ are its roots; they are distinct by the same field-degree argument. Their product [polynomial](../../../polynomial.md) is the [monic](../../../polynomial.md#monic-polynomial) [minimal polynomial of an algebraic element](../../../galois-theory.md#minimal-polynomial-of-an-algebraic-element), and it divides $T^n-1$. Thus
+
+$$
+\boxed{g(T)=\prod_{j=0}^{s-1}(T-\alpha^{3^j}),\qquad Z(C)=\{\alpha^{3^j}:0\leq j<s\}.}
+$$
+
+This identifies all the defining zeros. For $s=3$, $n=13$, the defining exponents are $1,3,9$ modulo $13$.
+
+There is also a uniform construction for all $s\geq2$, explaining the missing qualification. Let $\beta$ generate $\mathbb F_{3^s}^{\times}$, which has order $2n$. The powers $1,\beta,\ldots,\beta^{n-1}$ represent all [projective points](../../../projective-space.md#projective-point), since proportional powers differ by exponent $0$ or $n$ modulo $2n$. But $\beta^n=-1$, so the [kernel](../../../linear-algebra.md#kernel-of-a-linear-map) of $c\mapsto c(\beta)$ is an [ideal](../../../commutative-algebra.md#ideal) modulo $T^n+1$, a [negacyclic code](../../../coding-theory.md#negacyclic-code). Multiplication by $T$ gives $(-c_{n-1},c_0,\ldots,c_{n-2})$, preserving its [kernel](../../../linear-algebra.md#kernel-of-a-linear-map). This code is always equivalent to the [ternary Hamming code](../../../coding-theory.md#ternary-hamming-code). If $s$ is odd, $n$ is odd too, and the substitution $T\mapsto-T$, or coordinate scaling $c_i\mapsto(-1)^ic_i$, changes this negacyclic construction into the cyclic one. In fact $\alpha=-\beta$ then has order $n$. These explicit constructions prove the qualified assertion rather than relying on a theorem name.
+
+For decoding, use the printed $13\times3$ matrix $H$ with received words as row vectors; the conventional $3\times13$ [parity-check matrix](../../../coding-theory.md#parity-check-matrix) is $H^T$. The received word's [syndrome](../../../coding-theory.md#syndrome) is
+
+$$
+s=rH=(2,0,2)\quad\text{in }\mathbb F_3^3.
+$$
+
+A single-symbol error of value $a$ at position $i$ has [syndrome](../../../coding-theory.md#syndrome) $a h_i$, where $h_i$ is row $i$ of the printed matrix. Here
+
+$$
+(2,0,2)=2(1,0,1)=2h_6.
+$$
+
+Therefore subtract $2$ at the sixth coordinate, changing its received value $1$ to $2$ modulo three. The decoded [codeword](../../../coding-theory.md#codeword) is
+
+$$
+\boxed{(2,1,2,0,1,2,0,0,2,1,1,2,0).}
+$$
+
+Its [syndrome](../../../coding-theory.md#syndrome) is zero. The thirteen projective rows and the two nonzero scalars give all $26$ nonzero [syndromes](../../../coding-theory.md#syndrome) exactly once, so this is the unique [codeword](../../../coding-theory.md#codeword) at distance one. It is the transmitted word under the usual assumption of at most one symbol error. If positions $1,2,5$ are designated check positions, their independent unit rows make the other ten symbols systematic data, namely $(2,0,2,0,0,2,1,1,2,0)$.
+
+## ↑ Ancestors (8)
+
+1. [Iii](../iii.md)
+2. [2003](../../2003.md)
+3. [Past exam of the mathematics course of the University of Cambridge](../../../past-exam-of-the-mathematics-course-of-the-university-of-cambridge.md)
+4. [Mathematics course of the University of Cambridge](../../../university-of-cambridge.md#mathematics-course-of-the-university-of-cambridge)
+5. [Course of the University of Cambridge](../../../university-of-cambridge.md#course-of-the-university-of-cambridge)
+6. [University of Cambridge](../../../university-of-cambridge.md)
+7. [List of universities](../../../README.md#list-of-universities)
+8. [Codex Wiki](../../../README.md)

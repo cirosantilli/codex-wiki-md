@@ -1,0 +1,126 @@
+# Diffusion
+
+↑ **Parent:** [Thermodynamics](thermodynamics-split.md)
+
+Diffusion is net transport associated with random microscopic motion. A localized patch of a dilute [solute](solute.md) can spread through a stationary [solvent](solvent.md): individual [molecules](molecule.md) move in both directions, but more cross from the crowded side of an imaginary surface than from the less crowded side. This imbalance gives a net [diffusive flux](diffusive-flux.md) down the [concentration](concentration.md) [gradient](gradient.md); the [molecules](molecule.md) do not need to sense which direction has lower [concentration](concentration.md). At uniform [concentration](concentration.md), microscopic exchanges continue even though the net [diffusive flux](diffusive-flux.md) vanishes. [Heidi Nepf, MIT: random motion and Fick's law](https://ocw.mit.edu/courses/1-061-transport-processes-in-the-environment-fall-2008/8260e3e1577cd739ce85143510d9c165_lec_01.pdf)
+
+The distinction from [advection](advection.md) is easiest to see in a dye patch. Uniform bulk motion carries its centre downstream; [diffusion](diffusion.md) broadens it relative to that centre. Both can happen together. A moving or spreading patch by itself does not identify the mechanism: a nonuniform [velocity field](velocity-field.md) can also stretch a patch. [Nepf, MIT: advection and diffusion of a release](https://ocw.mit.edu/courses/1-061-transport-processes-in-the-environment-fall-2008/c96f9a75576238ac2c4e0e73b84e8072_lec_05.pdf)
+
+<a id="image-diffusion-broadens-a-patch-uniform-advection-translates-it"></a>
+![](molecular-diffusion-profiles.png)
+
+**[Figure 15](#image-diffusion-broadens-a-patch-uniform-advection-translates-it). Diffusion broadens a patch; uniform advection translates it**. Original model curves, not measured data. Each panel starts with the same [Gaussian distribution](normal-distribution.md) of dye, with [standard deviation](standard-deviation.md) $\sigma_0=0.50\,\mathrm{mm}$. The chosen [diffusion coefficient](diffusion-coefficient.md) is $D=0.20\,\mathrm{mm^2\,h^{-1}}$ where enabled; the chosen bulk speed is $u=0.60\,\mathrm{mm\,h^{-1}}$ where enabled. The vertical axis is [concentration](concentration.md) divided by its spatial integral, so every curve has area one. Pure uniform [advection](advection.md) preserves width and peak height; [diffusion](diffusion.md) lowers the peak while preserving the total dye.
+
+For a dilute nonreacting [solute](solute.md) in a uniform medium at fixed [temperature](temperature.md), [Fick's first law](fick-s-first-law.md) models the relative [diffusive flux](diffusive-flux.md) as $\mathbf j=-D\nabla C$, with scalar [diffusion coefficient](diffusion-coefficient.md) $D>0$ of units $\mathrm{m^2\,s^{-1}}$. Here $C$ is the [amount of substance](amount-of-substance.md) per unit [volume](volume-thermodynamics.md), so $\mathbf j$ has units $\mathrm{mol\,m^{-2}\,s^{-1}}$. With carrier [velocity field](velocity-field.md) $\mathbf u$, the total [flux](flux.md) is $C\mathbf u+\mathbf j$. The [continuity equation](continuity-equation.md), with no sources or [chemical reactions](chemical-reaction.md), gives
+
+$$
+\frac{\partial C}{\partial t}+\nabla\cdot(C\mathbf u)=\nabla\cdot(D\nabla C).
+$$
+
+For constant $D$ and [incompressible flow](incompressible-flow.md), this reduces to $C_t+\mathbf u\cdot\nabla C=D\nabla^2C$, where $\nabla^2$ is the [Laplacian](laplacian.md). In a stationary carrier it is the [diffusion equation](diffusion-equation-split.md). These assumptions matter: variable $D$ must remain inside the [divergence](divergence.md), and changing sources require extra terms. [Nepf, MIT: conservation with advective and diffusive fluxes](https://ocw.mit.edu/courses/1-061-transport-processes-in-the-environment-fall-2008/5536a0bf7f3bd0b21fde2169b93a4b5a_lec_02.pdf)
+
+The useful surprise is the common mathematics: [thermal conduction](thermal-conduction.md) smooths [temperature](temperature.md) through the analogous [heat equation](heat-equation.md), while [molecular diffusion](molecular-diffusion.md) smooths composition. This analogy already motivated the original formulation of [Fick's laws](fick-s-laws.md). [Fick (1855), On liquid diffusion: the analogy with heat conduction](https://doi.org/10.1080/14786445508641925) However, the [thermal diffusivity](thermal-diffusivity.md) and the [solutal diffusivity](solutal-diffusivity.md) need not be equal. A [diffusive time scale](diffusive-time-scale.md) $t_D\sim L^2/D$ means that crossing ten times the distance requires roughly one hundred times the time. This is why [molecular diffusion](molecular-diffusion.md) is especially effective across thin layers, and why [chaotic advection](chaotic-advection.md) can assist mixing by making those layers thinner. Physical [diffusion](diffusion.md) is a transport mechanism, distinct from the broader probabilistic class of [Markov diffusion](markov-diffusion.md).
+
+**Table of contents**
+
+- [Molecular diffusion](molecular-diffusion.md)
+- [Rotational diffusion](rotational-diffusion.md)
+
+## ↑ Ancestors (5)
+
+1. [Thermodynamics](thermodynamics-split.md)
+2. [Statistical physics](statistical-physics-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (88)
+
+- [Airy global modes of a linearly confined Ginzburg-Landau equation](airy-global-modes-of-a-linearly-confined-ginzburg-landau-equation.md)
+- [Antibody surface plasmon resonance experiment](antibody-surface-plasmon-resonance-experiment.md)
+- [Ballistic transport](ballistic-transport.md)
+- [Benjamin-Feir stability condition](benjamin-feir-stability-condition.md)
+- [Brownian motion](brownian-motion-split.md)
+- [Catalyst deactivation](catalyst-deactivation.md)
+- [Cell conservation in a swimming suspension](cell-conservation-in-a-swimming-suspension.md)
+- [Cell membrane](cell-membrane.md)
+- [Chaotic advection](chaotic-advection.md)
+- [Chemical potential](chemical-potential.md)
+- [Chemical synapse](chemical-synapse.md)
+- [Cytosol dialysis](cytosol-dialysis.md)
+- [Deterministic alignment of an initially isotropic orientation distribution](deterministic-alignment-of-an-initially-isotropic-orientation-distribution.md)
+- [Diffusion](diffusion.md)
+- [Diffusion on a graph](diffusion-on-a-graph.md)
+- [Electrolyte](electrolyte.md)
+- [Fluid mosaic model](fluid-mosaic-model.md)
+- [Frozen-temperature approximation](frozen-temperature-approximation.md)
+- [Gyrotactic orientation Fokker-Planck equation](gyrotactic-orientation-fokker-planck-equation.md)
+- [Ice layer between freshwater and cold brine](ice-layer-between-freshwater-and-cold-brine.md)
+- [Instantaneous interface kinetics](instantaneous-interface-kinetics.md)
+- [Isoelectric point](isoelectric-point.md)
+- [Isopycnic centrifugation](isopycnic-centrifugation.md)
+- [Kinetic theory](kinetic-theory.md)
+- [Kuramoto-Sivashinsky equation](kuramoto-sivashinsky-equation.md)
+- [Marginal equilibrium at a mush-liquid boundary](marginal-equilibrium-at-a-mush-liquid-boundary.md)
+- [Mass spectrograph](mass-spectrograph.md)
+- [Morphogen](morphogen.md)
+- [Morphogen gradient](morphogen-gradient.md)
+- [Neurotransmitter clearance](neurotransmitter-clearance.md)
+- [Oseen approximation](oseen-approximation.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-44/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-44/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-46/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-46/1/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-46/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-46/3/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-43/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-43/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-46/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-46/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-51/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-51/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-71/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-71/7/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-76/4/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-76/5/a/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-76/5/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-77/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-2/13e/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-2/13e/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ii/paper-2/13e/e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-75/3/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-75/3/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-75/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-75/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-79/1/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ii/paper-3/13b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-81/4/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-81/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-74/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-74/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-84/3/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-84/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-86/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-87/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-87/2/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-87/2/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-87/2/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-75/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-81/3/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-81/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2011/ii/paper-3/13b/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-35/1/c/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-66/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-68/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-78/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-332/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-332/2/solution.md)
+- [Periodic heat and transport comparison](periodic-heat-and-transport-comparison.md)
+- [Phospholipid](phospholipid.md)
+- [Porous gravity current with background flow](porous-gravity-current-with-background-flow.md)
+- [Quasistatic temperature of a conductively cooled film](quasistatic-temperature-of-a-conductively-cooled-film.md)
+- [Reynolds pipe-and-dye experiment](reynolds-pipe-and-dye-experiment.md)
+- [Salt bridge](salt-bridge.md)
+- [Stagnant mushy-layer model](stagnant-mushy-layer-model.md)
+- [Streakline](streakline.md)
+- [Taylor dispersion in a parabolic porous-layer velocity profile](taylor-dispersion-in-a-parabolic-porous-layer-velocity-profile.md)

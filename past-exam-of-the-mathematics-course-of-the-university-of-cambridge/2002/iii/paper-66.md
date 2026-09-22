@@ -1,0 +1,340 @@
+# Paper 66
+
+↑ **Parent:** [Iii](../iii.md)
+
+[https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2002/Paper66.pdf](https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2002/Paper66.pdf)
+
+**Table of contents**
+
+- [1](#1)
+  - [Solution](#1/solution)
+- [2](#2)
+  - [Solution](#2/solution)
+- [3](#3)
+  - [Solution](#3/solution)
+- [4](#4)
+  - [a](#4/a)
+    - [Solution](#4/a/solution)
+  - [b](#4/b)
+    - [Solution](#4/b/solution)
+  - [c](#4/c)
+    - [Solution](#4/c/solution)
+
+## 1
+
+↑ **Parent:** [Paper 66](paper-66.md)
+
+<h3 id="1/solution">Solution</h3>
+
+↑ **Parent:** [1](#1)
+
+Use $Q=T_3+Y$ and $T_a=\tau_a/2$. For each generation $r=e,\mu,\tau$, the [leptons](../../../standard-model.md#lepton) are
+
+$$
+L_r=\binom{\nu_{rL}}{\ell_{rL}}:\ (\mathbf2,-\tfrac12),\qquad R_r=\ell_{rR}:\ (\mathbf1,-1).
+$$
+
+Both are color singlets. The conjugate antilepton fields transform in the conjugate representations and have opposite [hypercharge](../../../standard-model.md#hypercharge); they are already included by the conjugate fields in the Lagrangian. The two components of $L_r$ have [electric charges](../../../electromagnetism.md#electric-charge) $0,-1$, and $R_r$ has charge $-1$. There is no right-handed [neutrino](../../../standard-model.md#neutrino) [representation](../../../representation-theory.md#group-representation) in this field content. These assignments use the [electroweak representation and hypercharge table](../../../standard-model.md#electroweak-representation-and-hypercharge-table) in the same [hypercharge](../../../standard-model.md#hypercharge) normalization as the [scalar](../../../vector-space.md#scalar) doublet.
+
+For a doublet of [hypercharge](../../../standard-model.md#hypercharge) $Y$, define
+
+$$
+D_\mu=\partial_\mu-ig\frac{\tau_a}{2}A_{a\mu}-ig'YB_\mu.
+$$
+
+The $SU(2)$ term is absent for a singlet. Under the local transformation $\psi\mapsto e^{iY\omega}U\psi$, the [gauge fields](../../../relativistic-quantum-field.md#gauge-field) transform so that $D_\mu\psi\mapsto e^{iY\omega}U D_\mu\psi$. Consequently the required [gauge-covariant kinetic terms](../../../quantum-field-theory.md#gauge-covariant-kinetic-term) are
+
+$$
+\mathcal L_{\rm kin}=\sum_r\bigl(i\bar L_r\gamma^\mu D_\mu L_r+i\bar R_r\gamma^\mu D_\mu R_r\bigr)+(D_\mu\phi)^\dagger D^\mu\phi.
+$$
+
+The fields of definite [chirality](../../../relativistic-quantum-field.md#chirality-physics) are defined with $P_{L,R}=(1\mp\gamma_5)/2$. Since $\bar L$ has [hypercharge](../../../standard-model.md#hypercharge) $+1/2$, the [Yukawa interaction](../../../standard-model.md#yukawa-interaction)
+
+$$
+\mathcal L_Y=-\sum_{r,s}\bar L_r\phi\,(Y_\ell)_{rs}R_s+\mathrm{h.c.}
+$$
+
+is invariant: its [hypercharges](../../../standard-model.md#hypercharge) add to zero, and $\bar L\phi$ contracts the two doublet indices. A bare charged-lepton [mass](../../../classical-mechanics.md#mass) violates these assignments. No renormalizable [neutrino](../../../standard-model.md#neutrino) Yukawa term is available without a right-handed [neutrino](../../../standard-model.md#neutrino). A [gauge-invariant](../../../relativistic-quantum-field.md#gauge-invariance) [scalar potential](../../../quantum-field-theory.md#scalar-potential) depending on $\phi^\dagger\phi$ can select the nonzero vacuum, without altering these kinetic and Yukawa constructions.
+
+There is an explicit local [unitary gauge](../../../standard-model.md#unitary-gauge) transformation whenever $r_\phi=(|\phi_1|^2+|\phi_2|^2)^{1/2}\ne0$:
+
+$$
+U_\phi=\frac1{r_\phi}\begin{pmatrix}\phi_2&-\phi_1\\\phi_1^*&\phi_2^*\end{pmatrix},\qquad U_\phi^\dagger U_\phi=I,\qquad\det U_\phi=1,\qquad U_\phi\phi=\binom0{r_\phi}.
+$$
+
+Thus, with the real field $\rho=\sqrt2r_\phi-v$,
+
+$$
+\boxed{\phi=\frac{v+\rho}{\sqrt2}\binom01.}
+$$
+
+This proves the [polar coordinates for the electroweak Higgs doublet](../../../standard-model.md#polar-coordinates-for-the-electroweak-higgs-doublet) constructively. The gauge choice is local about the nonzero vacuum; it need not be nonsingular at zeros of the doublet.
+
+The three identical-generation [kinetic terms](../../../quantum-field-theory.md#kinetic-term) permit unitary flavor changes. A [singular value decomposition](../../../linear-algebra.md#singular-value-decomposition) gives $U_L^\dagger Y_\ell U_R=\operatorname{diag}(y_e,y_\mu,y_\tau)$ with $y_r\ge0$. Rotate both components of each left doublet together, and the right singlets independently. In this basis,
+
+$$
+\boxed{\mathcal L_Y=-\sum_r m_r\left(1+\frac\rho v\right)\bar\ell_r\ell_r,\qquad m_r=\frac{y_rv}{\sqrt2}.}
+$$
+
+The left/right cross terms combine into this [Dirac mass](../../../relativistic-quantum-field.md#dirac-mass-term). Since the [neutrinos](../../../standard-model.md#neutrino) have no [mass](../../../classical-mechanics.md#mass) [matrix](../../../vector-space.md#matrix), their simultaneous left rotation preserves a diagonal [charged current](../../../standard-model.md#charged-current). This is [charged-lepton Yukawa matrix diagonalization](../../../standard-model.md#charged-lepton-yukawa-matrix-diagonalization); the [neutrinos](../../../standard-model.md#neutrino) remain massless in the stated renormalizable model.
+
+The [scalar](../../../vector-space.md#scalar) [kinetic term](../../../quantum-field-theory.md#kinetic-term) gives
+
+$$
+(D_\mu\phi)^\dagger D^\mu\phi=\frac12(\partial_\mu\rho)^2+\frac{(v+\rho)^2}{8}\bigl[g^2(A_{1\mu}A_1^\mu+A_{2\mu}A_2^\mu)+(gA_{3\mu}-g'B_\mu)^2\bigr].
+$$
+
+Introduce $s_W=g'/\sqrt{g^2+g'^2}$ and $c_W=g/\sqrt{g^2+g'^2}$. The combinations $W^+=(A_1-iA_2)/\sqrt2$, $W^-=(W^+)^*$, $Z=c_WA_3-s_WB$ and $A_\gamma=s_WA_3+c_WB$ therefore diagonalize the quadratic terms:
+
+$$
+\mathcal L_{\rm mass}=M_W^2W_\mu^+W^{-\mu}+\frac12M_Z^2Z_\mu Z^\mu,\qquad\boxed{M_W=\frac{gv}{2},\quad M_Z=\frac{v\sqrt{g^2+g'^2}}2=\frac{M_W}{c_W},\quad M_\gamma=0.}
+$$
+
+The factor $1/2$ applies to the real neutral field, not to the complex charged field. The massless [photon](../../../quantum-mechanics.md#photon) corresponds to the unbroken generator $T_3+Y$, which annihilates the vacuum. This gives the [electroweak doublet gauge-boson mass matrix](../../../standard-model.md#electroweak-doublet-gauge-boson-mass-matrix) and its diagonal spectrum.
+
+## 2
+
+↑ **Parent:** [Paper 66](paper-66.md)
+
+<h3 id="2/solution">Solution</h3>
+
+↑ **Parent:** [2](#2)
+
+Take [metric](../../../topological-analysis.md#metric) $g_{\mu\nu}=\operatorname{diag}(1,-1,-1,-1)$ and write $M=M_W$. The outgoing electron and [antineutrino](../../../standard-model.md#antineutrino) momenta are $k$ and $k'$. Up to an irrelevant overall phase, the [amplitude](../../../physics.md#wave-amplitude) is
+
+$$
+\mathcal M=\frac{g}{2\sqrt2}\epsilon_\mu\bar u(k)\gamma^\mu(1-\gamma_5)v(k').
+$$
+
+A [fermion spin sum](../../../relativistic-quantum-field.md#fermion-spin-sum) gives
+
+$$
+\sum_{\rm final}|\mathcal M|^2=\frac{g^2}{8}\epsilon_\mu\epsilon_\nu^*T^{\mu\nu},\qquad T^{\mu\nu}=\operatorname{Tr}\bigl[\not k\gamma^\mu(1-\gamma_5)\not k'\gamma^\nu(1-\gamma_5)\bigr].
+$$
+
+Anticommuting $\gamma_5$ through the massless [momentum](../../../classical-mechanics.md#momentum) and [gamma matrix](../../../algebra.md#gamma-matrices), and using $(1-\gamma_5)^2=2(1-\gamma_5)$, reduces the [trace](../../../linear-algebra.md#matrix-trace) to twice the four-gamma [trace](../../../linear-algebra.md#matrix-trace) minus twice its $\gamma_5$ counterpart. In particular its symmetric part is
+
+$$
+T_S^{\mu\nu}=8\bigl(k^\mu k'^\nu+k^\nu k'^\mu-g^{\mu\nu}k\cdot k'\bigr).
+$$
+
+The epsilon-tensor part is antisymmetric and contributes neither to the unpolarized polarization sum nor to the real linear polarization used below. There is no extra factor for selecting the [neutrino](../../../standard-model.md#neutrino) [helicity](../../../special-relativity.md#helicity): the chiral vertex has already done so.
+
+The external massless equations imply $p_\mu J^\mu=0$ for $p=k+k'$, so $p_\mu T^{\mu\nu}=0$. With $k\cdot k'=M^2/2$, averaging over the three initial [spin](../../../quantum-mechanics.md#spin) states gives
+
+$$
+\overline{|\mathcal M|^2}=\frac{g^2}{24}\left(-g_{\mu\nu}+\frac{p_\mu p_\nu}{M^2}\right)T^{\mu\nu}=\boxed{\frac{g^2M^2}{3}}.
+$$
+
+Indeed $-g_{\mu\nu}T_S^{\mu\nu}=16k\cdot k'=8M^2$. This is a [massive-vector spin average](../../../relativistic-quantum-field.md#massive-vector-spin-average), not an average over the final [spins](../../../quantum-mechanics.md#spin).
+
+In the rest frame, eliminating the [momentum](../../../classical-mechanics.md#momentum) delta function and integrating the remaining radial delta function $\delta(M-2|\mathbf k|)$ reduces the [two-body Lorentz-invariant phase space](../../../relativistic-quantum-field.md#two-body-lorentz-invariant-phase-space) to $d\Phi_2=d\Omega/(32\pi^2)$. Therefore
+
+$$
+\frac{d\Gamma}{d\Omega}=\frac{|\mathcal M|^2}{64\pi^2M},\qquad\boxed{\Gamma_{\rm unpol}=\frac{g^2M}{48\pi}}.
+$$
+
+This derives the [massless leptonic W decay width](../../../standard-model.md#massless-leptonic-w-decay-width) without invoking a precomputed decay formula.
+
+For the specified polarization there is no initial [spin average](../../../relativistic-quantum-field.md#spin-average). Put $\mathbf k=(M/2)\widehat{\mathbf n}$, $\mathbf k'=-(M/2)\widehat{\mathbf n}$ and $\widehat n_z=\cos\theta$. The contraction selects
+
+$$
+T_S^{33}=8\left(-\frac{M^2}{2}\cos^2\theta+\frac{M^2}{2}\right)=4M^2\sin^2\theta.
+$$
+
+It follows that
+
+$$
+\boxed{\sum_{\rm final}|\mathcal M_z|^2=\frac{g^2M^2}{2}\sin^2\theta,\quad\frac{d\Gamma_z}{d\Omega}=\frac{g^2M}{128\pi^2}\sin^2\theta,\quad\Gamma_z=\frac{g^2M}{48\pi}.}
+$$
+
+Here $\int\sin^2\theta\,d\Omega=8\pi/3$. The total rate agrees with the spin-averaged result, but its normalized polar distribution is $(1/\Gamma_z)d\Gamma_z/d\cos\theta=3(1-\cos^2\theta)/4$ instead of the isotropic unpolarized distribution. This is [polarized massless leptonic W decay](../../../standard-model.md#polarized-massless-leptonic-w-decay).
+
+## 3
+
+↑ **Parent:** [Paper 66](paper-66.md)
+
+<h3 id="3/solution">Solution</h3>
+
+↑ **Parent:** [3](#3)
+
+Let $t^A$ be [Hermitian](../../../hilbert-space.md#hermitian-operator) color generators with $\operatorname{Tr}(t^At^B)=\delta^{AB}/2$, and take $D_\mu=\partial_\mu-ig_sG_\mu^At^A$. In explicit [spinor](../../../algebra.md#spinor), color and flavor indices the massless [kinetic term](../../../quantum-field-theory.md#kinetic-term) is
+
+$$
+\mathcal L_q=i\sum_{\alpha,\beta,i,j,f}\bar q_{\alpha if}(\gamma^\mu)_{\alpha\beta}\bigl[\delta_{ij}\partial_\mu-ig_sG_\mu^A(t^A)_{ij}\bigr]q_{\beta jf}.
+$$
+
+The full [Quantum chromodynamics](../../../standard-model.md#quantum-chromodynamics) [Lagrangian](../../../calculus-of-variations.md#lagrangian) also has $-G_{\mu\nu}^AG^{A\mu\nu}/4$. A local color [gauge transformation](../../../electromagnetism.md#gauge-transformation) acts as
+
+$$
+q_{\alpha if}(x)\mapsto V_{ij}(x)q_{\alpha jf}(x),\qquad \bar q_{\alpha if}\mapsto\bar q_{\alpha jf}(V^\dagger)_{ji},\qquad G_\mu\mapsto VG_\mu V^\dagger-\frac{i}{g_s}(\partial_\mu V)V^\dagger.
+$$
+
+Thus $D_\mu q\mapsto VD_\mu q$ and the [kinetic term](../../../quantum-field-theory.md#kinetic-term) is [gauge-invariant](../../../relativistic-quantum-field.md#gauge-invariance).
+
+Since the [gauge coupling](../../../relativistic-quantum-field.md#gauge-coupling) is independent of flavor and [chirality](../../../relativistic-quantum-field.md#chirality-physics), the classical internal global transformations are $q_L\mapsto U_Lq_L$, $q_R\mapsto U_Rq_R$, with constant flavor matrices $U_L,U_R\in U(2)$. Equivalently these consist of $SU(2)_L\times SU(2)_R$, a common vector phase, and a singlet axial phase $q\mapsto e^{i\eta\gamma_5}q$, modulo shared discrete factors. The vector phase measures [quark](../../../standard-model.md#quark) number, or [baryon number](../../../standard-model.md#baryon-number) after dividing its generator by three. The nonsinglet axial rotations may be written $q\mapsto e^{-i\theta_a\gamma_5\tau_a/2}q$. At the quantum level the singlet axial phase is anomalous; the exact continuous internal [symmetry](../../../physics.md#symmetry-physics) is $SU(2)_L\times SU(2)_R\times U(1)_V$ up to those discrete identifications. The usual spacetime Poincaré transformations also leave the theory invariant; the massless classical theory has [dilation](../../../vector-space.md#uniform-dilation) [symmetry](../../../physics.md#symmetry-physics), which is broken by quantum running. These distinctions are [massless two-flavor QCD symmetries](../../../standard-model.md#massless-two-flavor-qcd-symmetries).
+
+At equal time the canonical relations, including all indices, are
+
+$$
+\boxed{\{q_{\alpha if}(t,\mathbf x),q_{\beta jg}^\dagger(t,\mathbf y)\}=\delta_{\alpha\beta}\delta_{ij}\delta_{fg}\delta^{(3)}(\mathbf x-\mathbf y),\qquad\{q,q\}=\{q^\dagger,q^\dagger\}=0.}
+$$
+
+No constraint removes any of the four [spinor](../../../algebra.md#spinor) components of the [Dirac field](../../../relativistic-quantum-field.md#dirac-field) in these equal-time relations.
+
+To evaluate the [axial charges](../../../relativistic-quantum-field.md#axial-charge), first prove the elementary [bilinear](../../../linear-algebra.md#bilinear-map) identity. For any constant [matrix](../../../vector-space.md#matrix) $K$ on the [spinor](../../../algebra.md#spinor)/flavor space,
+
+$$
+[\int q_I^\dagger K_{IJ}q_J\,d^3y,q_K(x)]=-K_{KJ}q_J(x),\qquad [\int q^\dagger Kq\,d^3y,q_K^\dagger(x)]=q_I^\dagger(x)K_{IK}.
+$$
+
+For example $[q_I^\dagger q_J,q_K]=q_I^\dagger\{q_J,q_K\}-\{q_I^\dagger,q_K\}q_J$; the spatial delta function collapses the [integral](../../../calculus.md#integral). This proves the charge action directly from the [canonical anticommutation relations](../../../quantum-mechanics.md#canonical-anticommutation-relations).
+
+For $K_a=\gamma_5\tau_a/2$, anticommutation of $\gamma^0$ and $\gamma_5$ then gives
+
+$$
+[Q_{5,a},q]=-K_aq,\qquad[Q_{5,a},\bar q]=q^\dagger K_a\gamma^0=-\bar qK_a.
+$$
+
+The charge is an even operator, so its [commutator](../../../lie-algebra.md#commutator) obeys the ordinary product rule. Consequently
+
+$$
+[Q_{5,a},S]=-\bar q(K_a+K_a)q=-\bar q\gamma_5\tau_aq=\boxed{iP_a}.
+$$
+
+Similarly, using $\gamma_5^2=1$ and the [Pauli matrices](../../../algebra.md#pauli-matrices) identity $\{\tau_a,\tau_b\}=2\delta_{ab}I$,
+
+$$
+[Q_{5,a},P_b]=-\frac i2\bar q\bigl(\tau_a\tau_b+\tau_b\tau_a\bigr)q=\boxed{-i\delta_{ab}S}.
+$$
+
+Composite fields can be defined with a common symmetry-preserving regulator; these nonsinglet identities have no color axial anomaly. This is the [nonsinglet axial charge algebra of quark densities](../../../standard-model.md#nonsinglet-axial-charge-algebra-of-quark-densities).
+
+If every conserved [axial charge](../../../relativistic-quantum-field.md#axial-charge) left the vacuum invariant, the vacuum expectation of each such [commutator](../../../lie-algebra.md#commutator) would vanish. A nonzero [quark chiral condensate](../../../standard-model.md#quark-chiral-condensate) instead makes $\langle[Q_{5,a},P_b]\rangle=-i\delta_{ab}\langle S\rangle\ne0$ for $a=b$. It therefore diagnoses spontaneous breaking of the nonsinglet [chiral symmetry](../../../standard-model.md#chiral-symmetry). In the massless two-flavor limit, the observed hadronic pattern is described by $SU(2)_L\times SU(2)_R\to SU(2)_V$, with three [Goldstone boson](../../../critical-phenomenon.md#goldstone-boson) modes identified with the [pions](../../../standard-model.md#pion). The vacuum condensate is a dynamical property of QCD, not something derivable from the canonical algebra alone. The light [pion](../../../standard-model.md#pion) multiplet and absence of parity-degenerate light hadrons support this pattern; the singlet axial anomaly prevents interpreting an additional singlet mode as a fourth [Goldstone boson](../../../critical-phenomenon.md#goldstone-boson).
+
+For equal nonzero masses, add $\mathcal L_m=-m\bar qq$. It is invariant under local color [gauge transformation](../../../electromagnetism.md#gauge-transformation)s and common vector flavor rotations, but not under independent left/right rotations. The exact continuous [flavor symmetry](../../../standard-model.md#flavor-symmetry) becomes $SU(2)_V\times U(1)_V$. The [kinetic term](../../../quantum-field-theory.md#kinetic-term) and canonical [anticommutators](../../../vector-space.md#anticommutator) are unchanged, and the two proved equal-time [commutators](../../../lie-algebra.md#commutator) still hold. The charges, however, are no longer conserved:
+
+$$
+\boxed{\partial_\mu A_a^\mu=mP_a,\qquad A_a^\mu=\tfrac12\bar q\gamma^\mu\gamma_5\tau_aq,\qquad\dot Q_{5,a}=m\int P_a\,d^3x.}
+$$
+
+The first equation follows from the massive [Dirac equations](../../../relativistic-quantum-field.md#dirac-equation), or the last from $H_m=m\int S$ and $\dot Q=i[H,Q]$. This is the [flavor-nonsinglet axial Ward identity with equal quark masses](../../../standard-model.md#flavor-nonsinglet-axial-ward-identity-with-equal-quark-masses). The [pions](../../../standard-model.md#pion) become [pseudo-Goldstone bosons](../../../quantum-field-theory.md#pseudo-goldstone-boson) with $m_\pi^2=O(m)$, rather than exact massless modes. To leading order, in the convention $S=\bar uu+\bar dd$, $f_\pi^2m_\pi^2=-m\langle S\rangle+O(m^2)$. The condensate persists for small masses, but the [symmetry](../../../physics.md#symmetry-physics) is now explicitly broken, so the exact-symmetry Goldstone argument is replaced by an approximate one. The singlet anomaly and [gauge symmetry](../../../relativistic-quantum-field.md#gauge-invariance) are unaffected.
+
+## 4
+
+↑ **Parent:** [Paper 66](paper-66.md)
+
+<h3 id="4/a">a</h3>
+
+↑ **Parent:** [4](#4)
+
+<h4 id="4/a/solution">Solution</h4>
+
+↑ **Parent:** [A](#4/a)
+
+A loop [integral](../../../calculus.md#integral) in a theory with dimensionless classical couplings can contain a logarithmic [ultraviolet divergence](../../../perturbative-quantum-field-theory.md#ultraviolet-divergence). After subtraction, an expression such as $\log(-p^2/\mu^2)$ remains; one must specify the [momentum](../../../classical-mechanics.md#momentum) scale at which the measured or [renormalized coupling](../../../perturbative-quantum-field-theory.md#renormalized-coupling) is fixed. A logarithm of a dimensionful [momentum](../../../classical-mechanics.md#momentum) alone is not meaningful. In [dimensional regularization](../../../perturbative-quantum-field-theory.md#dimensional-regularization), the same necessity appears through $\lambda_{\rm bare}=\mu^{d_\lambda}\,Z_\lambda\lambda(\mu)$ in the continued dimension, with $d_\lambda$ tending to zero in the physical dimension.
+
+Thus the [renormalization](../../../perturbative-quantum-field-theory.md#renormalization) prescription introduces an arbitrary [renormalization scale](../../../perturbative-quantum-field-theory.md#renormalization-scale), even when no [mass](../../../classical-mechanics.md#mass) or length occurs in the classical action. Physical quantities cannot depend on its arbitrary choice: explicit logarithms cancel the implicit change of the [running coupling](../../../perturbative-quantum-field-theory.md#running-coupling), governed by $\mu\,d\lambda/d\mu=\beta(\lambda)$. A nonzero [renormalization-group beta function](../../../perturbative-quantum-field-theory.md#beta-function-physics) is a quantum scale anomaly. An integration constant may encode the same data as a dimensionful scale, which is [dimensional transmutation](../../../perturbative-quantum-field-theory.md#dimensional-transmutation). **The scale labels a [renormalization](../../../perturbative-quantum-field-theory.md#renormalization) condition, not a new arbitrary measurable parameter.** At a true [fixed point](../../../function.md#fixed-point) the coupling need not run; the use of a subtraction scale is then a convention rather than an intrinsic generated physical scale.
+
+<h3 id="4/b">b</h3>
+
+↑ **Parent:** [4](#4)
+
+<h4 id="4/b/solution">Solution</h4>
+
+↑ **Parent:** [B](#4/b)
+
+Set
+
+$$
+y=\frac{4\pi}{\alpha_\lambda}=\frac{(4\pi)^2}{\lambda^2},\qquad t=\log\mu^2.
+$$
+
+The chain rule gives
+
+$$
+\frac{dy}{dt}=-(4\pi)^2\lambda^{-3}\beta(\lambda)=\beta_0+\frac{\beta_1}{y}+O(y^{-2}).
+$$
+
+For the [ultraviolet](../../../optics.md#ultraviolet) expansion take $\beta_0>0$ and $L=\log(\mu^2/\Lambda^2)\gg1$. The leading solution is $y\sim\beta_0L$. Substituting it in the next term gives $dy/dL=\beta_0+\beta_1/(\beta_0L)+O(\log L/L^2)$, whose integration yields
+
+$$
+\boxed{\frac{4\pi}{\alpha_\lambda}=\beta_0L+\frac{\beta_1}{\beta_0}\log L+O\!\left(\frac{\log L}{L}\right).}
+$$
+
+Choosing $\Lambda$ removes the additive constant. This proves the two displayed leading terms of the [two-loop asymptotic running coupling](../../../perturbative-quantum-field-theory.md#two-loop-asymptotic-running-coupling).
+
+**The printed remainder is too small in general.** This can be checked even for an exactly two-loop [renormalization-group beta function](../../../perturbative-quantum-field-theory.md#beta-function-physics), so it does not depend on unknown higher-loop effects. Put $c=\beta_1/\beta_0$. Separating variables and fixing the integration constant gives
+
+$$
+y-c\log\!\left(\frac{y+c}{\beta_0}\right)=\beta_0L.
+$$
+
+Expanding this identity one order further gives
+
+$$
+y=\beta_0L+c\log L+\frac{c^2}{\beta_0}\frac{\log L+1}{L}+O\!\left(\frac{(\log L)^2}{L^2}\right).
+$$
+
+The $\log L/L$ term cannot be absorbed into a fixed change of $\Lambda$. For example, with $\beta_0=\beta_1=1$, the exact implicit relation is $y-\log(y+1)=L$, and the next term is $(\log L+1)/L$, which is not $O(1/L)$. The unspecified $O(y^{-2})$ contribution to the [differential equation](../../../differential-equation.md) changes the constant coefficient of $1/L$, while the coefficient $\beta_1^2/\beta_0^3$ of $\log L/L$ is already fixed. Only special cases such as $\beta_1=0$ avoid this particular obstruction.
+
+The asymptotic formula also presupposes an asymptotically free [ultraviolet](../../../optics.md#ultraviolet) regime. If $\beta_0=0$, division by it is invalid and the leading scaling changes. If $\beta_0<0$, the weak-coupling asymptotic direction is generally toward the [infrared](../../../optics.md#infrared) and the logarithmic variable must be chosen accordingly. These qualifications distinguish the valid perturbative solution from an unconditional formula.
+
+<h3 id="4/c">c</h3>
+
+↑ **Parent:** [4](#4)
+
+<h4 id="4/c/solution">Solution</h4>
+
+↑ **Parent:** [C](#4/c)
+
+Use the canonically normalized Abelian coupling $g_1=-\sqrt{5/3}\,g'$, with $g_2=g$ and $g_3=g_s$, and write $\alpha_i=g_i^2/(4\pi)$. The sign in $g_1$ is a generator convention; its square is what enters running and matching. Let $\alpha_5=g_5^2/(4\pi)$ and $L_X=\log(M_X^2/\mu^2)$. To leading order,
+
+$$
+\frac{d}{d\log\mu^2}\frac1{\alpha_i}=\frac{b_i}{4\pi},\qquad\frac1{\alpha_i(\mu)}=\frac1{\alpha_5}-\frac{b_i}{4\pi}L_X.
+$$
+
+Use exactly the common-flavor coefficients stipulated for this model:
+
+$$
+b_3=11-\frac{2n_f}{3},\qquad b_2=\frac{22}{3}-\frac{2n_f}{3},\qquad b_1=-\frac{2n_f}{3}.
+$$
+
+The same $n_f$ cancels from their differences. In particular $b_3-b_2=11/3$ and $b_2-b_1=22/3$, so eliminating the unified coupling gives
+
+$$
+\frac1{\alpha_2}-\frac1{\alpha_s}=\frac{11}{12\pi}L_X,\qquad\frac1{\alpha_1}-\frac1{\alpha_2}=\frac{22}{12\pi}L_X=2\left(\frac1{\alpha_2}-\frac1{\alpha_s}\right).
+$$
+
+At the low reference scale, $e=g\sin\theta_W=g'\cos\theta_W$. With $w=\sin^2\theta_W$ this means
+
+$$
+\alpha_2^{-1}=\frac w\alpha,\qquad\alpha_1^{-1}=\frac{3(1-w)}{5\alpha}.
+$$
+
+The last difference equation becomes $3(1-w)/(5\alpha)-w/\alpha=2(w/\alpha-1/\alpha_s)$. Solving gives
+
+$$
+\boxed{\sin^2\theta_W=\frac16+\frac{5\alpha}{9\alpha_s}.}
+$$
+
+Substitute this into the first difference equation to obtain
+
+$$
+\boxed{\log\frac{M_X}{\mu}=\frac\pi{11}\left(\frac1\alpha-\frac{8}{3\alpha_s}\right),\qquad M_X=\mu\exp\!\left[\frac\pi{11}\left(\frac1\alpha-\frac{8}{3\alpha_s}\right)\right].}
+$$
+
+All low-scale couplings on the right must be evaluated at the same specified $\mu$. A dimensionful $M_X$ cannot be fixed by dimensionless coupling values without such a reference scale. The result is independent of the common $n_f$ in these differences, although $\alpha_5$ is not. An inferred $M_X>\mu$ requires $\alpha^{-1}>8/(3\alpha_s)$, and perturbative matching requires a positive small $\alpha_5$.
+
+This is the [one-loop SU(5) prediction with common flavor coefficients](../../../perturbative-quantum-field-theory.md#one-loop-su-5-prediction-with-common-flavor-coefficients). It is the prediction of the supplied simplified coefficient model, not the full matter-and-Higgs calculation for a realistic [SU(5) grand unified theory](../../../perturbative-quantum-field-theory.md#su-5-grand-unified-theory). Actual [representations](../../../representation-theory.md#group-representation), intermediate thresholds and higher-loop terms change the running and require the corresponding matching calculation.
+
+## ↑ Ancestors (8)
+
+1. [Iii](../iii.md)
+2. [2002](../../2002.md)
+3. [Past exam of the mathematics course of the University of Cambridge](../../../past-exam-of-the-mathematics-course-of-the-university-of-cambridge.md)
+4. [Mathematics course of the University of Cambridge](../../../university-of-cambridge.md#mathematics-course-of-the-university-of-cambridge)
+5. [Course of the University of Cambridge](../../../university-of-cambridge.md#course-of-the-university-of-cambridge)
+6. [University of Cambridge](../../../university-of-cambridge.md)
+7. [List of universities](../../../README.md#list-of-universities)
+8. [Codex Wiki](../../../README.md)

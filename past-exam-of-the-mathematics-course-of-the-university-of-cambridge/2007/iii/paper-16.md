@@ -1,0 +1,202 @@
+# Paper 16
+
+↑ **Parent:** [Iii](../iii.md)
+
+[https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2007/Paper16.pdf](https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2007/Paper16.pdf)
+
+**Table of contents**
+
+- [1](#1)
+  - [Solution](#1/solution)
+- [2](#2)
+  - [Solution](#2/solution)
+- [3](#3)
+  - [Solution](#3/solution)
+- [4](#4)
+  - [Solution](#4/solution)
+- [5](#5)
+  - [i](#5/i)
+    - [Solution](#5/i/solution)
+  - [ii](#5/ii)
+    - [Solution](#5/ii/solution)
+
+## 1
+
+↑ **Parent:** [Paper 16](paper-16.md)
+
+<h3 id="1/solution">Solution</h3>
+
+↑ **Parent:** [1](#1)
+
+The [cellular homology of complex projective space](../../../algebraic-topology.md#cellular-homology-of-complex-projective-space) gives one integral generator $[\mathbb{CP}^j]$ in each degree $2j$, for $0\le j\le2$, and zero in odd degrees. Since these groups are free, the [Künneth theorem](../../../cohomology.md#kunneth-theorem) gives the [homology cross product](../../../cohomology.md#homology-cross-product) basis
+
+$$
+\boxed{[\mathbb{CP}^i]\times[\mathbb{CP}^j],\qquad0\le i,j\le2,\qquad\text{degree }2(i+j).}
+$$
+
+Thus the ranks in degrees $0,2,4,6,8$ are $1,2,3,2,1$, respectively, and every other [integral homology](../../../homology.md#integral-homology) group vanishes.
+
+Let $h$ be the normalized [hyperplane class](../../../fiber-bundle.md#hyperplane-class), with $\langle h^2,[\mathbb{CP}^2]\rangle=1$, and write $a=p_1^*h$, $b=p_2^*h$. The [cohomology ring of complex projective space](../../../algebraic-topology.md#cohomology-ring-of-complex-projective-space) and the [Künneth theorem](../../../cohomology.md#kunneth-theorem) give $H^*(\mathbb{CP}^2\times\mathbb{CP}^2;\mathbb Z)=\mathbb Z[a,b]/(a^3,b^3)$. If $d$ is the [diagonal embedding](../../../geometry-and-topology.md#diagonal-map), then $d^*a=d^*b=h$. Hence each of $a^2,ab,b^2$ evaluates as one on the diagonal's [fundamental class](../../../cohomology.md#fundamental-class). These three classes are dual to the three degree-four product generators, so the [diagonal class of complex projective space](../../../algebraic-topology.md#diagonal-class-of-complex-projective-space) gives
+
+$$
+\boxed{[\Delta]=[\mathbb{CP}^2]\times[\mathrm{pt}]+[\mathbb{CP}^1]\times[\mathbb{CP}^1]+[\mathrm{pt}]\times[\mathbb{CP}^2].}
+$$
+
+Equivalently its [Poincare dual](../../../cohomology.md#poincare-dual) is $a^2+ab+b^2$. The signs are positive with the complex and product [orientations](../../../algebraic-topology.md#orientation-of-a-simplex).
+
+## 2
+
+↑ **Parent:** [Paper 16](paper-16.md)
+
+<h3 id="2/solution">Solution</h3>
+
+↑ **Parent:** [2](#2)
+
+Use the standard [CW complex](../../../algebraic-topology.md#cw-complex) structure on the [real projective plane](../../../differential-geometry.md#real-projective-plane), with one cell $e_r$ for each $r=0,1,2$. The attaching map of the two-cell winds twice around the one-cell, so the [cellular chain complex](../../../homology.md#cellular-chain-complex) has $de_2=2e_1$ and $de_1=0$.
+
+The product cells $e_{ij}=e_i\times e_j$, $0\le i,j\le2$, give nine cells, in dimensions $0,1,2,3,4$ with counts $1,2,3,2,1$. The [cellular chains of a product of finite CW complexes](../../../homology.md#cellular-chains-of-a-product-of-finite-cw-complexes) have boundary $d(e_i\times e_j)=de_i\times e_j+(-1)^ie_i\times de_j$. In the ordered bases
+
+$$
+C_1=(e_{10},e_{01}),\quad C_2=(e_{20},e_{11},e_{02}),\quad C_3=(e_{21},e_{12}),\quad C_4=(e_{22}),
+$$
+
+the nonzero matrices are
+
+$$
+d_2=\begin{pmatrix}2&0&0\\0&0&2\end{pmatrix},\qquad
+d_3=\begin{pmatrix}0&0\\2&-2\\0&0\end{pmatrix},\qquad
+d_4=\begin{pmatrix}2\\2\end{pmatrix},\qquad d_1=0.
+$$
+
+In particular $d_2d_3=d_3d_4=0$. The degree-one [homology](../../../homology.md) is $\mathbb Z^2/2\mathbb Z^2$. The degree-two [cellular cycles](../../../homology.md#cellular-cycle) are $\mathbb Ze_{11}$, and the [cellular boundaries](../../../homology.md#cellular-boundary) there are $2\mathbb Ze_{11}$. The degree-three cycles are $\mathbb Z(e_{21}+e_{12})$, whose double is the boundary of $e_{22}$. Finally $d_4$ is injective. This computes the [integral homology of two real projective planes](../../../differential-geometry.md#integral-homology-of-two-real-projective-planes):
+
+$$
+\boxed{H_r(\mathbb{RP}^2\times\mathbb{RP}^2;\mathbb Z)=
+\begin{cases}\mathbb Z,&r=0,\\(\mathbb Z/2)^2,&r=1,\\\mathbb Z/2,&r=2,3,\\0,&\text{otherwise}.\end{cases}}
+$$
+
+The degree-three torsion is the [Tor functor](../../../algebra.md#tor-functor) contribution in the [Künneth theorem](../../../cohomology.md#kunneth-theorem); it would be missed by retaining only tensor products of the two factors' homology groups.
+
+## 3
+
+↑ **Parent:** [Paper 16](paper-16.md)
+
+<h3 id="3/solution">Solution</h3>
+
+↑ **Parent:** [3](#3)
+
+For an open subset $U\subseteq B$, let $E_U=\pi^{-1}(U)$ and define the degree-preserving module map
+
+$$
+\Phi_U:\bigoplus_{j=1}^vH^{*-k_j}(U;\mathbb Q)\longrightarrow H^*(E_U;\mathbb Q),\qquad
+(b_j)_j\longmapsto\sum_j\pi^*b_j\smile c_j|_{E_U}.
+$$
+
+Using the prescribed fiber basis identifies its domain with the tensor product in the question. We prove that $\Phi_B$ is an [isomorphism](../../../algebra.md#isomorphism), giving the [Leray-Hirsch theorem](../../../fiber-bundle.md#leray-hirsch-theorem) in this setting.
+
+First suppose $U$ is a trivializing patch. The [cohomological Künneth theorem over a field](../../../cohomology.md#cohomological-kunneth-theorem-over-a-field) identifies $H^*(U\times F;\mathbb Q)$ with the finite free graded $H^*(U;\mathbb Q)$-module on a homogeneous basis of $H^*(F;\mathbb Q)$. The required finiteness is supplied by the finite list $c_1,\ldots,c_v$ spanning the fiber's total cohomology. Express the restrictions of the $c_j$ in this product basis. A coefficient multiplying a fiber basis element of degree $k_i$ belongs to $H^{k_j-k_i}(U;\mathbb Q)$; thus no coefficient can increase fiber degree. The degree-zero blocks are invertible on every path component, because restriction at every point gives a basis. Their inverses are again degree-zero cohomology classes.
+
+After inverting those blocks, the remaining change-of-basis map is $I+N$, where $N$ strictly lowers fiber degree. There are only finitely many fiber degrees, so $N$ is [nilpotent](../../../commutative-algebra.md#nilpotent) and $(I+N)^{-1}=I-N+N^2-\cdots$ is a finite sum. This proves the [local basis criterion for Leray-Hirsch classes](../../../fiber-bundle.md#local-basis-criterion-for-leray-hirsch-classes) and therefore the isomorphism on every trivializing patch, without requiring the patch to be contractible.
+
+Now use a finite trivializing open cover $U_1,\ldots,U_r$, supplied by [compactness](../../../topology.md#compact-space) of $B$. Induct on $r$. Put $U=U_1\cup\cdots\cup U_{r-1}$ and $V=U_r$. The intersection $U\cap V$ is covered by the at most $r-1$ trivializing open sets $U_i\cap V$, so the induction hypothesis applies to $U$, $V$ and $U\cap V$.
+
+Take the direct sum of shifted [Mayer–Vietoris sequences](../../../algebraic-topology.md#mayer-vietoris-sequence) for the base and compare it with the sequence for $E_U\cup E_V$. Restriction commutes with multiplication by each global [cohomology class](../../../cohomology.md#cohomology-class) $c_j$. The connecting homomorphism also commutes: multiply the cochain representatives on the right by the restriction of a global cocycle representing $c_j$, and use $d(b\smile c_j)=db\smile c_j$. Consequently the maps $\Phi$ form a morphism of exact sequences. The [Five lemma](../../../category-theory.md#five-lemma) makes $\Phi_{U\cup V}$ an isomorphism, completing the [finite-cover proof of the Leray-Hirsch theorem](../../../fiber-bundle.md#finite-cover-proof-of-the-leray-hirsch-theorem).
+
+This is an additive graded module isomorphism. It does not assert that the fiber classes have the same multiplicative relations in the total space.
+
+## 4
+
+↑ **Parent:** [Paper 16](paper-16.md)
+
+<h3 id="4/solution">Solution</h3>
+
+↑ **Parent:** [4](#4)
+
+The space is the [mapping torus](../../../algebraic-topology.md#mapping-torus) of the [antipodal map](../../../homology.md#antipodal-map) $A:S^2\to S^2$. Its [mapping degree](../../../homology.md#degree-of-a-continuous-mapping) is $(-1)^3=-1$, so transporting a fiber orientation once around the base circle reverses it. **$X$ is nonorientable.**
+
+On integral fiber [homology](../../../homology.md), $A_*$ is the identity in degree zero and minus the identity in degree two. The [Wang sequence](../../../algebraic-topology.md#wang-sequence), whose relevant map is $1-A_*$, therefore gives
+
+$$
+H_0(X;\mathbb Z)=H_1(X;\mathbb Z)=\mathbb Z,\qquad H_2(X;\mathbb Z)=\mathbb Z/2,\qquad H_3(X;\mathbb Z)=0.
+$$
+
+The [universal coefficient theorem for cohomology](../../../cohomology.md#universal-coefficient-theorem-for-cohomology) shifts the torsion contribution into degree three, because $\operatorname{Ext}_{\mathbb Z}(\mathbb Z/2,\mathbb Z)=\mathbb Z/2$. Hence
+
+$$
+\boxed{H^q(X;\mathbb Z)=\begin{cases}\mathbb Z,&q=0,1,\\\mathbb Z/2,&q=3,\\0,&\text{otherwise}.\end{cases}}
+$$
+
+Let $t\in H^1(X;\mathbb Z)$ be pulled back from the base circle, and $u$ the nonzero degree-three class. The square of the circle class vanishes, so $t^2=0$. All other products of positive-degree classes land above dimension three and vanish. This gives the [cohomology ring of the antipodal two-sphere mapping torus](../../../algebraic-topology.md#cohomology-ring-of-the-antipodal-two-sphere-mapping-torus)
+
+$$
+\boxed{H^*(X;\mathbb Z)=\mathbb Z[t,u]/(t^2,tu,u^2,2u),\qquad |t|=1,\ |u|=3.}
+$$
+
+Modulo two, $A^*$ is the identity on fiber cohomology. The cohomological [Wang sequence](../../../algebraic-topology.md#wang-sequence) shows that restriction $H^2(X;\mathbb F_2)\to H^2(S^2;\mathbb F_2)$ is onto; choose $y$ mapping to its generator. The classes $1,y$ restrict to a fiber basis, so the [Leray-Hirsch theorem](../../../fiber-bundle.md#leray-hirsch-theorem) makes the total cohomology free over $H^*(S^1;\mathbb F_2)$ on those two classes. Write $\bar t$ for the mod-two base class. The basis is $1,\bar t,y,\bar t y$, and in particular $\bar t y\ne0$. Since $\bar t^2=0$ by pullback and $y^2=0$ by dimension, the [mod-two cohomology ring of the antipodal two-sphere mapping torus](../../../algebraic-topology.md#mod-two-cohomology-ring-of-the-antipodal-two-sphere-mapping-torus) is
+
+$$
+\boxed{H^*(X;\mathbb F_2)=\mathbb F_2[\bar t,y]/(\bar t^2,y^2),\qquad |\bar t|=1,\ |y|=2.}
+$$
+
+The argument of Question 3 works over any field, so its use here over $\mathbb F_2$ is justified. The ring agrees with that of $S^1\times S^2$; a cohomology ring alone does not determine orientability.
+
+## 5
+
+↑ **Parent:** [Paper 16](paper-16.md)
+
+<h3 id="5/i">i</h3>
+
+↑ **Parent:** [5](#5)
+
+<h4 id="5/i/solution">Solution</h4>
+
+↑ **Parent:** [I](#5/i)
+
+The [surface group](../../../algebraic-topology.md#fundamental-group-of-a-surface) of a closed oriented genus-two [surface](../../../topology.md#topological-surface) $Y$ has presentation
+
+$$
+\pi_1(Y)=\langle a_1,b_1,a_2,b_2\mid[a_1,b_1][a_2,b_2]=1\rangle.
+$$
+
+Send $a_1\mapsto(12)$, $a_2\mapsto(123)$ and $b_1,b_2\mapsto1$. The relation holds and the images generate $S_3$, giving a surjective [group homomorphism](../../../group-theory.md#group-homomorphism). Its normal kernel defines a connected six-sheeted regular [covering space](../../../algebraic-topology.md#covering-space) $\widetilde Y\to Y$, with [deck transformation group](../../../algebraic-topology.md#deck-transformation-group) $S_3$.
+
+The covering surface is closed and inherits an [orientation](../../../algebraic-topology.md#orientation-of-a-simplex). Multiplicativity of the [Euler characteristic](../../../homology.md#euler-characteristic) gives $\chi(\widetilde Y)=6\chi(Y)=6(-2)=-12$, so $2-2g=-12$ and $\boxed{g=7}$. A nonidentity [deck transformation](../../../algebraic-topology.md#deck-transformation) of a connected cover fixes no point: if it fixed one, uniqueness of path lifts would force it to be the identity everywhere. Thus this supplies the requested **free $S_3$ action**. It is a case of [finite groups act freely on suitable closed orientable surfaces](../../../algebraic-topology.md#finite-groups-act-freely-on-suitable-closed-orientable-surfaces).
+
+<h3 id="5/ii">ii</h3>
+
+↑ **Parent:** [5](#5)
+
+<h4 id="5/ii/solution">Solution</h4>
+
+↑ **Parent:** [Ii](#5/ii)
+
+For an $n$-dimensional [singular simplex](../../../homology.md#singular-simplex) $\sigma$ and a degree-$p$ [singular cochain](../../../cohomology.md#singular-cochain) $\alpha$, use the front-face/back-face convention
+
+$$
+\sigma\frown\alpha=\alpha(\sigma|[v_0,\ldots,v_p])\,\sigma|[v_p,\ldots,v_n],
+$$
+
+and set it to zero for $p>n$. Extend linearly over $R$. Passing to [homology](../../../homology.md) classes of cycles and [cohomology](../../../cohomology.md) classes of cocycles defines the [cap product](../../../cohomology.md#cap-product) $H_n(X;R)\times H^p(X;R)\to H_{n-p}(X;R)$.
+
+For a continuous map $f$, the [cochain pullback](../../../cohomology.md#cochain-pullback) satisfies $(f^*\alpha)(\tau)=\alpha(f\circ\tau)$, and the induced chain map sends $\sigma$ to $f\circ\sigma$. Since composition commutes with restrictions to faces,
+
+$$
+\begin{aligned}
+f_*(\sigma\frown f^*\alpha)
+&=\alpha(f\circ\sigma|[v_0,\ldots,v_p])\,(f\circ\sigma|[v_p,\ldots,v_n])\\
+&=(f\circ\sigma)\frown\alpha.
+\end{aligned}
+$$
+
+The identity holds on chains, so it descends directly to classes and proves the [naturality of the cap product](../../../cohomology.md#naturality-of-the-cap-product): $f_*(x\frown f^*\alpha)=f_*(x)\frown\alpha$. No additional well-definedness verification is required here.
+
+## ↑ Ancestors (8)
+
+1. [Iii](../iii.md)
+2. [2007](../../2007.md)
+3. [Past exam of the mathematics course of the University of Cambridge](../../../past-exam-of-the-mathematics-course-of-the-university-of-cambridge.md)
+4. [Mathematics course of the University of Cambridge](../../../university-of-cambridge.md#mathematics-course-of-the-university-of-cambridge)
+5. [Course of the University of Cambridge](../../../university-of-cambridge.md#course-of-the-university-of-cambridge)
+6. [University of Cambridge](../../../university-of-cambridge.md)
+7. [List of universities](../../../README.md#list-of-universities)
+8. [Codex Wiki](../../../README.md)

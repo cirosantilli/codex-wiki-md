@@ -1,0 +1,65 @@
+# Fluorescence
+
+↑ **Parent:** [Physical optics](physical-optics.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Fluorescence)
+
+[Fluorescence](fluorescence.md) is [photon emission](photon-emission.md) following [photon absorption](photon-absorption.md) by matter: an [excited state](excited-state.md) releases some of its [energy](energy.md) as [light](light.md). A [fluorophore](fluorophore.md) can therefore mark where something is, while its [fluorescence emission spectrum](fluorescence-emission-spectrum.md) and [fluorescence lifetime](fluorescence-lifetime.md) report different aspects of its environment. [Fluorescein](fluorescein.md) is one example; [FRET](forster-resonance-energy-transfer.md) exploits a competing route for excitation [energy](energy.md) rather than requiring a second emitted [photon](photon.md).
+
+The usual molecular sequence is excitation, relaxation, then emission, as in the [Jablonski diagram](jablonski-diagram.md). The emitted [photon](photon.md) commonly has lower [energy](energy.md) and longer [wavelength](wavelength.md), giving a [Stokes shift](stokes-shift.md); the exceptions are discussed below.[Stokes Shift in Fluorescence Spectroscopy, Figure 4 and relaxation discussion](what-is-the-stokes-shift-by-edinburgh-instruments.md)
+
+**Table of contents**
+
+- [Fluorophore](fluorophore.md)
+- [Jablonski diagram](jablonski-diagram.md)
+- [Stokes shift](stokes-shift.md)
+- [Fluorescence excitation spectrum](fluorescence-excitation-spectrum.md)
+- [Fluorescence emission spectrum](fluorescence-emission-spectrum.md)
+- [Fluorescence quantum yield](fluorescence-quantum-yield.md)
+- [Photobleaching](photobleaching.md)
+- [Fluorescence lifetime](fluorescence-lifetime.md)
+  - [Time-correlated single-photon counting](time-correlated-single-photon-counting.md)
+    - [Fluorescence instrument response](fluorescence-instrument-response.md)
+    - [Fluorescence lifetime measurement with pulsed excitation](fluorescence-lifetime-measurement-with-pulsed-excitation.md)
+- [Fluorescence microscope](fluorescence-microscope.md)
+  - [Fluorescence excitation filter](fluorescence-excitation-filter.md)
+  - [Fluorescence emission filter](fluorescence-emission-filter.md)
+  - [Confocal microscopy](confocal-microscopy.md)
+    - [Conjugate pinholes in confocal microscopy](conjugate-pinholes-in-confocal-microscopy.md)
+    - [Confocal optical sectioning](confocal-optical-sectioning.md)
+    - [Confocal excitation and detection point spread function](confocal-excitation-and-detection-point-spread-function.md)
+    - [Confocal pinhole throughput](confocal-pinhole-throughput.md)
+    - [Fluorescent bead experiment for confocal microscopy](fluorescent-bead-experiment-for-confocal-microscopy.md)
+
+## ↑ Ancestors (5)
+
+1. [Physical optics](physical-optics.md)
+2. [Optics](optics-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (23)
+
+- [Confocal excitation and detection point spread function](confocal-excitation-and-detection-point-spread-function.md)
+- [Confocal microscopy](confocal-microscopy.md)
+- [Confocal optical sectioning](confocal-optical-sectioning.md)
+- [Conjugate pinholes in confocal microscopy](conjugate-pinholes-in-confocal-microscopy.md)
+- [Etendue concentration limit](etendue-concentration-limit.md)
+- [Flow cytometric DNA-content assay](flow-cytometric-dna-content-assay.md)
+- [Flow cytometry](flow-cytometry.md)
+- [Fluorescence](fluorescence.md)
+- [Fluorescence excitation spectrum](fluorescence-excitation-spectrum.md)
+- [Fluorescence lifetime measurement with pulsed excitation](fluorescence-lifetime-measurement-with-pulsed-excitation.md)
+- [Fluorescence microscope](fluorescence-microscope.md)
+- [Fluorescent bead experiment for confocal microscopy](fluorescent-bead-experiment-for-confocal-microscopy.md)
+- [Förster resonance energy transfer](forster-resonance-energy-transfer.md)
+- [FRET donor](fret-donor.md)
+- [FRET donor lifetime](fret-donor-lifetime.md)
+- [FRET donor quantum yield](fret-donor-quantum-yield.md)
+- [FRET efficiency](fret-efficiency.md)
+- [FRET photobleaching controls](fret-photobleaching-controls.md)
+- [FRET sensitized emission](fret-sensitized-emission.md)
+- [Jablonski diagram](jablonski-diagram.md)
+- [Point spread function](point-spread-function.md)
+- [Soap film between coaxial rings](soap-film-between-coaxial-rings.md)
+- [Western blot antibody detection](western-blot-antibody-detection.md)

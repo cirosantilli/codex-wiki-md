@@ -1,0 +1,124 @@
+# Discrete probability distribution
+
+↑ **Parent:** [Probability distribution](probability-distribution.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Discrete_probability_distribution)
+
+A [discrete probability distribution](discrete-probability-distribution-split.md) is a [probability distribution](probability-distribution.md) concentrated on a finite or [countable set](countable-set.md) of possible values $S$: a [random variable](random-variable-split.md) $X$ with this law satisfies $\mathbb P(X\in S)=1$. Its [probability mass function](probability-mass-function.md) assigns a [probability](probability.md) to each value:
+
+$$
+p_X(x)=\mathbb P(X=x),\qquad p_X(x)\geq0,\qquad \sum_{x\in S}p_X(x)=1.
+$$
+
+Thus the [probability](probability.md) of an event is obtained by adding masses, rather than integrating a [probability density function](probability-density-function.md). The possible values need not be equally spaced, or even integers. When the relevant moments are finite, its [expected value](expected-value.md) and [variance](variance-split.md) are
+
+$$
+\mu=\mathbb E X=\sum_{x\in S}xp_X(x),\qquad
+\operatorname{Var}(X)=\sum_{x\in S}(x-\mu)^2p_X(x)=\mathbb E[X^2]-\mu^2.
+$$
+
+For a constructed example, assign values $0,2,5$ masses $0.5,0.3,0.2$. They sum to one; $\mathbb P(X\geq2)=0.3+0.2=0.5$, $\mathbb E X=0(0.5)+2(0.3)+5(0.2)=1.6$, and $\mathbb E[X^2]=4(0.3)+25(0.2)=6.2$. Hence the [variance](variance-split.md) is $6.2-1.6^2=3.64$. A [mean](expected-value.md) can lie between possible values: no outcome here equals $1.6$.
+
+The useful organizing question is what an experiment records. One yes/no [indicator random variable](indicator-random-variable.md) gives a [Bernoulli distribution](bernoulli-distribution.md); a success count in a fixed number of [independent](independent-random-variables.md) attempts gives a [binomial distribution](binomial-distribution.md); the attempt number of the first success gives a [geometric distribution](geometric-distribution.md). A [Poisson distribution](poisson-distribution.md) describes an event count under different assumptions. Naming the quantity first helps prevent selecting a familiar formula for the wrong experiment.
+
+**Table of contents**
+
+- [Benford law](benford-law.md)
+  - [Scale invariance of decimal significands](scale-invariance-of-decimal-significands.md)
+    - [Decimal significand](decimal-significand.md)
+  - [Benford law from logarithmic uniformity](benford-law-from-logarithmic-uniformity.md)
+  - [Benford frequencies for powers of an integer](benford-frequencies-for-powers-of-an-integer.md)
+- [Discrete uniform distribution](discrete-uniform-distribution.md)
+  - [Nondecreasing uniform samples](nondecreasing-uniform-samples.md)
+- [Bernoulli distribution](bernoulli-distribution.md)
+  - [Estimating Bernoulli variance](estimating-bernoulli-variance.md)
+  - [Bernoulli trial](bernoulli-trial.md)
+  - [Bernoulli thinning](bernoulli-thinning.md)
+- [Geometric distribution](geometric-distribution.md)
+  - [Memorylessness of the geometric distribution](memorylessness-of-the-geometric-distribution.md)
+  - [Geometric return count before absorption](geometric-return-count-before-absorption.md)
+  - [Geometric count under Bernoulli thinning](geometric-count-under-bernoulli-thinning.md)
+  - [Capped geometric waiting time](capped-geometric-waiting-time.md)
+  - [Coupon collector problem](coupon-collector-problem.md)
+    - [Poissonized coupon completion time and count](poissonized-coupon-completion-time-and-count.md)
+    - [Waiting time to observe both Bernoulli outcomes](waiting-time-to-observe-both-bernoulli-outcomes.md)
+    - [Coupon collector waiting-time variance](coupon-collector-waiting-time-variance.md)
+- [Negative binomial distribution](negative-binomial-distribution.md)
+  - [Negative binomial stopping argument](negative-binomial-stopping-argument.md)
+  - [Poisson-gamma mixture](poisson-gamma-mixture.md)
+- [Binomial distribution](binomial-distribution.md)
+  - [Binomial proportion](binomial-proportion.md)
+    - [Grouped Bernoulli failure counts](grouped-bernoulli-failure-counts.md)
+  - [Zero-event binomial upper confidence bound](zero-event-binomial-upper-confidence-bound.md)
+  - [Zero-truncated binomial distribution](zero-truncated-binomial-distribution.md)
+  - [Fourth centered moment of a binomial distribution](fourth-centered-moment-of-a-binomial-distribution.md)
+  - [Sample proportion](sample-proportion.md)
+  - [Binomial likelihood](binomial-likelihood.md)
+- [Hypergeometric distribution](hypergeometric-distribution.md)
+  - [Finite population correction](finite-population-correction.md)
+  - [Multivariate hypergeometric distribution](multivariate-hypergeometric-distribution.md)
+- [Multinomial distribution](multinomial-distribution.md)
+  - [Multinomial aggregation](multinomial-aggregation.md)
+  - [Constrained Poisson and multinomial likelihood equivalence](constrained-poisson-and-multinomial-likelihood-equivalence.md)
+  - [Negative multinomial distribution](negative-multinomial-distribution.md)
+    - [Finite-sample bias in a negative multinomial probability estimator](finite-sample-bias-in-a-negative-multinomial-probability-estimator.md)
+  - [Multinomial central limit theorem](multinomial-central-limit-theorem.md)
+  - [Uniform balls-in-bins allocation](uniform-balls-in-bins-allocation.md)
+    - [Poisson limit for occupancy fractions](poisson-limit-for-occupancy-fractions.md)
+  - [Multinomial likelihood](multinomial-likelihood.md)
+    - [Multinomial deviance](multinomial-deviance.md)
+  - [Categorical distribution](categorical-distribution.md)
+- [Poisson binomial distribution](poisson-binomial-distribution.md)
+- [Poisson distribution](poisson-distribution.md)
+  - [Skellam distribution](skellam-distribution.md)
+  - [Mixed Poisson distribution](mixed-poisson-distribution.md)
+    - [Overdispersion of nondegenerate mixed Poisson counts](overdispersion-of-nondegenerate-mixed-poisson-counts.md)
+    - [Posterior mean from adjacent mixed Poisson probabilities](posterior-mean-from-adjacent-mixed-poisson-probabilities.md)
+  - [Poisson entropy monotonicity](poisson-entropy-monotonicity.md)
+  - [Stein-Chen method](stein-chen-method.md)
+    - [Stein-Chen bound with the Poisson Stein factor](stein-chen-bound-with-the-poisson-stein-factor.md)
+    - [Poisson approximation with dependency neighborhoods](poisson-approximation-with-dependency-neighborhoods.md)
+    - [Poisson Stein equation](poisson-stein-equation.md)
+  - [Poisson size-bias identity](poisson-size-bias-identity.md)
+  - [Upper-truncated Poisson distribution](upper-truncated-poisson-distribution.md)
+  - [Poisson mixture](poisson-mixture.md)
+    - [Poisson-uniform posterior mean](poisson-uniform-posterior-mean.md)
+    - [Shifted-exponential Poisson mixture](shifted-exponential-poisson-mixture.md)
+      - [Shifted-exponential Poisson count recursion](shifted-exponential-poisson-count-recursion.md)
+  - [Zero-truncated Poisson distribution](zero-truncated-poisson-distribution.md)
+    - [Parity estimator for a zero-truncated Poisson count](parity-estimator-for-a-zero-truncated-poisson-count.md)
+  - [Addition of independent Poisson random variables](addition-of-independent-poisson-random-variables.md)
+  - [Poisson approximation bound for dependent Bernoulli variables](poisson-approximation-bound-for-dependent-bernoulli-variables.md)
+  - [Poisson observation model](poisson-observation-model.md)
+    - [Poisson observation](poisson-observation.md)
+  - [Zero-inflated Poisson distribution](zero-inflated-poisson-distribution.md)
+    - [Zero-inflated Poisson regression](zero-inflated-poisson-regression.md)
+      - [Posterior structural-zero probability](posterior-structural-zero-probability.md)
+      - [Component and marginal effects in zero-inflated regression](component-and-marginal-effects-in-zero-inflated-regression.md)
+      - [EM algorithm for zero-inflated Poisson regression](em-algorithm-for-zero-inflated-poisson-regression.md)
+  - [Poisson central limit theorem](poisson-central-limit-theorem.md)
+    - [Poisson cumulative probability at its growing mean](poisson-cumulative-probability-at-its-growing-mean.md)
+  - [Poisson-multinomial conditioning](poisson-multinomial-conditioning.md)
+    - [Poisson trick](poisson-trick.md)
+      - [Flat log-rate marginalization gives the multinomial likelihood](flat-log-rate-marginalization-gives-the-multinomial-likelihood.md)
+        - [Gaussian log-rate correction to the Poisson trick](gaussian-log-rate-correction-to-the-poisson-trick.md)
+  - [Normal approximation to the Poisson distribution](normal-approximation-to-the-poisson-distribution.md)
+
+## ↑ Ancestors (6)
+
+1. [Probability distribution](probability-distribution.md)
+2. [Probability theory](probability-theory-split.md)
+3. [Probability and statistics](probability-and-statistics-split.md)
+4. [Area of mathematics](area-of-mathematics.md)
+5. [Mathematics](mathematics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (8)
+
+- [Benford law](benford-law.md)
+- [Discrete probability distribution](discrete-probability-distribution-split.md)
+- [Kolmogorov-Smirnov test](kolmogorov-smirnov-test.md)
+- [Mixed probability distribution](mixed-probability-distribution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-33/1/solution.md)
+- [Probability mass](probability-mass.md)
+- [Probability mass function](probability-mass-function.md)
+- [Return level](return-level.md)

@@ -1,0 +1,332 @@
+# Paper 336
+
+↑ **Parent:** [Iii](../iii.md)
+
+[https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2026/III%20Paper%20336.pdf](https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2026/III%20Paper%20336.pdf)
+
+**Table of contents**
+
+- [1](#1)
+  - [1](#1/1)
+    - [Solution](#1/1/solution)
+    - [2](#1/1/2)
+      - [Solution](#1/1/2/solution)
+- [2](#2)
+  - [1](#2/1)
+    - [Solution](#2/1/solution)
+  - [2](#2/2)
+    - [Solution](#2/2/solution)
+    - [3](#2/2/3)
+      - [Solution](#2/2/3/solution)
+- [3](#3)
+  - [Solution](#3/solution)
+
+## 1
+
+↑ **Parent:** [Paper 336](paper-336.md)
+
+<h3 id="1/1">1</h3>
+
+↑ **Parent:** [1](#1)
+
+<h4 id="1/1/solution">Solution</h4>
+
+↑ **Parent:** [1](#1/1)
+
+Write the [Schläfli contour integral for Legendre polynomials](../../../differential-equation.md#schlafli-contour-integral-for-legendre-polynomials) as
+
+$$
+P_n(\mu)=\frac1{2\pi i}\oint
+\frac{e^{n\phi(z)}}{2^{n}(z-\mu)}\,dz,
+\qquad
+\phi(z)=\log\frac{z^2-1}{z-\mu}.
+$$
+
+The [saddle points](../../../analysis.md#saddle-point) satisfy
+
+$$
+\phi'(z)=\frac{2z}{z^2-1}-\frac1{z-\mu}=0,
+\qquad
+z^2-2\mu z+1=0.
+$$
+
+For $\mu=\cos\theta$, they are $z_\pm=e^{\pm i\theta}$. Deforming the contour through both conjugate saddles and using the local Gaussian contributions from the [method of steepest descent](../../../analysis.md#method-of-steepest-descent) gives conjugate exponentials. Their sum is the [Debye asymptotic for Legendre polynomials](../../../differential-equation.md#debye-asymptotic-for-legendre-polynomials)
+
+$$
+\boxed{
+P_n(\cos\theta)
+\sim
+\sqrt{\frac{2}{\pi n\sin\theta}}
+\cos\left[\left(n+\frac12\right)\theta-\frac\pi4\right]}.
+$$
+
+Both saddles are required for the real oscillatory answer.
+
+<h4 id="1/1/2">2</h4>
+
+↑ **Parent:** [1](#1/1)
+
+<h5 id="1/1/2/solution">Solution</h5>
+
+↑ **Parent:** [2](#1/1/2)
+
+Put $s=|\xi|$. Since $\cosh\xi=\cosh s$, the saddle points are $e^{\pm s}$. The contour deformation relevant to the prescribed contour passes through the dominant saddle $z=e^s$. There,
+
+$$
+\frac{z^2-1}{2(z-\cosh s)}=e^s.
+$$
+
+The quadratic saddle factor and the remaining amplitude give the [Hyperbolic Debye asymptotic for Legendre polynomials](../../../differential-equation.md#hyperbolic-debye-asymptotic-for-legendre-polynomials)
+
+$$
+\boxed{
+P_n(\cosh\xi)
+\sim
+\frac{\exp[(n+\tfrac12)|\xi|]}
+{\sqrt{2\pi n\sinh|\xi|}}},
+\qquad \xi\ne0.
+$$
+
+The second saddle gives an exponentially subdominant contribution on this contour. At $\xi=0$ the saddles coalesce and this formula is nonuniform; the exact endpoint value is $P_n(1)=1$.
+
+<h2 id="2">2</h2>
+
+↑ **Parent:** [Paper 336](paper-336.md)
+
+<h3 id="2/1">1</h3>
+
+↑ **Parent:** [2](#2)
+
+<h4 id="2/1/solution">Solution</h4>
+
+↑ **Parent:** [1](#2/1)
+
+Set $\delta=\sqrt\epsilon$. The outer scale found below shows that the inner expansion requires the four asymptotic scales
+
+$$
+1,\qquad\delta,\qquad\epsilon\log\epsilon,\qquad\epsilon.
+$$
+
+Solving successively with $f_j(1)=0$ and matching the free homogeneous terms gives
+
+$$
+\boxed{
+\begin{aligned}
+f(r)\sim{}&
+1-r^{-1/2}
++\sqrt{\pi\epsilon}\,(1-r^{-1/2})\\
+&+\epsilon\log\epsilon\,(1-r^{-1/2})\\
+&+\epsilon\left[
+-\sqrt r+\log r+\pi+\frac C4
+-\left(\pi+\frac C4-1\right)r^{-1/2}
+\right].
+\end{aligned}}
+$$
+
+This is valid for fixed $r=O(1)$.
+
+To verify the differential-equation hierarchy, let $L[y]=y''+3y'/(2r)$. The leading terms satisfy
+
+$$
+L[f_0]=L[f_1]=0,
+\qquad
+f_0=1-r^{-1/2},
+\qquad
+f_1=\sqrt\pi f_0.
+$$
+
+At order $\epsilon$,
+
+$$
+L[f_2]=-f_0f_0',
+$$
+
+whose particular integral is $-\sqrt r+\log r+1$; the displayed homogeneous multiple of $1-r^{-1/2}$ is fixed by matching.
+
+<h3 id="2/2">2</h3>
+
+↑ **Parent:** [2](#2)
+
+<h4 id="2/2/solution">Solution</h4>
+
+↑ **Parent:** [2](#2/2)
+
+Introduce the stretched coordinate
+
+$$
+\rho=\epsilon r,\qquad F(\rho)=f(r).
+$$
+
+The equation becomes
+
+$$
+F_{\rho\rho}+\frac{3}{2\rho}F_\rho+FF_\rho=0,
+\qquad F\to1\quad(\rho\to\infty).
+$$
+
+Seek the three-term [outer expansion](../../../differential-equation.md#outer-expansion)
+
+$$
+F=1+\sqrt\epsilon F_1+\epsilon F_2+\cdots.
+$$
+
+At first order,
+
+$$
+\left(\rho^{3/2}e^\rho F_1'\right)'=0,
+$$
+
+so decay at infinity and matching give
+
+$$
+F_1=-\frac12E_{3/2}(\rho).
+$$
+
+At the next order,
+
+$$
+\left(\rho^{3/2}e^\rho F_2'\right)'
+=\frac14E_{3/2}(\rho).
+$$
+
+Using the function $Y$ supplied in the question, the matched decaying solution is
+
+$$
+\boxed{
+F(\rho)\sim
+1-\frac{\sqrt\epsilon}{2}E_{3/2}(\rho)
++\frac{\epsilon}{4}
+\left[-2\sqrt\pi\,E_{3/2}(\rho)+Y(\rho)\right]}.
+$$
+
+Here $Y$ is the stated particular solution normalized to decay at infinity.
+
+<h4 id="2/2/3">3</h4>
+
+↑ **Parent:** [2](#2/2)
+
+<h5 id="2/2/3/solution">Solution</h5>
+
+↑ **Parent:** [3](#2/2/3)
+
+Use $\rho=\epsilon r=\delta^2r$ in the supplied small-$\rho$ expansions. The outer approximation re-expanded in inner variables is
+
+$$
+\begin{aligned}
+F\sim{}&
+1-r^{-1/2}
++\delta\sqrt\pi(1-r^{-1/2})\\
+&+\delta^2\left[
+-\sqrt r+\log r+\log\epsilon
++\pi+\frac C4
+-\left(\log\epsilon+\pi+\frac C4-1\right)r^{-1/2}
+\right].
+\end{aligned}
+$$
+
+This is exactly the large-$r$ re-expansion of the inner result in part 1. In particular, the identity
+
+$$
+\log\rho=\log\epsilon+\log r
+$$
+
+forces the [switchback term](../../../differential-equation.md#switchback-term) $\epsilon\log\epsilon(1-r^{-1/2})$. The coefficient of the homogeneous $E_{3/2}$ contribution at outer order $\epsilon$ is fixed to $-2\sqrt\pi$, while the remaining inner homogeneous constant is fixed to $\pi+C/4-1$. Thus the two [matched asymptotic expansions](../../../differential-equation.md#matched-asymptotic-expansion) agree term by term in $1\ll r\ll\epsilon^{-1}$.
+
+<h2 id="3">3</h2>
+
+↑ **Parent:** [Paper 336](paper-336.md)
+
+<h3 id="3/solution">Solution</h3>
+
+↑ **Parent:** [3](#3)
+
+Introduce the slow time $T=\epsilon t$ and write
+
+$$
+v_0=A(T)e^{i\omega t}+\overline{A(T)}e^{-i\omega t}.
+$$
+
+At leading order the relaxation equation gives
+
+$$
+Z_0=
+2|A|^2
++\frac{A^2}{1+2i\omega\tau}e^{2i\omega t}
++\frac{\overline A^2}{1-2i\omega\tau}e^{-2i\omega t}
++K e^{-t/\tau}.
+$$
+
+The last term is the freely decaying initial transient; it does not alter the long-time solvability condition.
+
+At order $\epsilon$, eliminating the resonant $e^{i\omega t}$ forcing is the [solvability condition in the method of multiple scales](../../../differential-equation.md#solvability-condition-in-the-method-of-multiple-scales). It gives
+
+$$
+\boxed{
+\frac{dA}{dT}
+=A\left[1-(\alpha+i\beta)|A|^2\right]},
+\qquad
+\alpha+i\beta
+=\frac{3+4i\omega\tau}{1+2i\omega\tau}.
+$$
+
+Write $A=Re^{i\varphi}$ and let $R(0)=R_0$, $\varphi(0)=\varphi_0$. Then
+
+$$
+R'=R(1-\alpha R^2),
+\qquad
+\varphi'=-\beta R^2.
+$$
+
+With
+
+$$
+D(T)=1+\alpha R_0^2(e^{2T}-1),
+$$
+
+their explicit solutions are
+
+$$
+\boxed{
+R(T)=\frac{R_0e^T}{\sqrt{D(T)}}},
+\qquad
+\boxed{
+\varphi(T)=\varphi_0-\frac{\beta}{2\alpha}\log D(T)}.
+$$
+
+The complete real leading approximation, uniform for $t=O(\epsilon^{-1})$, is therefore
+
+$$
+\boxed{
+v(t)\sim2R(\epsilon t)
+\cos\!\left[\omega t+\varphi(\epsilon t)\right]},
+$$
+
+
+
+$$
+\boxed{
+\begin{aligned}
+Z(t)\sim{}&
+2R(\epsilon t)^2\\
+&+\frac{2R(\epsilon t)^2}
+{\sqrt{1+4\omega^2\tau^2}}
+\cos\!\left[
+2\omega t+2\varphi(\epsilon t)
+-\tan^{-1}(2\omega\tau)
+\right]
++K e^{-t/\tau}.
+\end{aligned}}
+$$
+
+The constant $K$ is chosen from the initial value of $Z$ after subtracting the mean and second-harmonic pieces. If the initial transient is not required, set $K=0$.
+
+## ↑ Ancestors (8)
+
+1. [Iii](../iii.md)
+2. [2026](../../2026.md)
+3. [Past exam of the mathematics course of the University of Cambridge](../../../past-exam-of-the-mathematics-course-of-the-university-of-cambridge.md)
+4. [Mathematics course of the University of Cambridge](../../../university-of-cambridge.md#mathematics-course-of-the-university-of-cambridge)
+5. [Course of the University of Cambridge](../../../university-of-cambridge.md#course-of-the-university-of-cambridge)
+6. [University of Cambridge](../../../university-of-cambridge.md)
+7. [List of universities](../../../README.md#list-of-universities)
+8. [Codex Wiki](../../../README.md)

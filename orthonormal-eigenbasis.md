@@ -1,0 +1,91 @@
+# Orthonormal eigenbasis
+
+↑ **Parent:** [Finite-dimensional spectral theorem](finite-dimensional-spectral-theorem.md)
+
+An orthonormal eigenbasis of a [linear operator](linear-operator.md) is an [orthonormal basis](orthonormal-basis.md) consisting of [eigenvectors](eigenvector.md). Each [vector](vector.md) can be reconstructed from its scalar components along those mutually perpendicular unit directions. With the convention that the [inner product](inner-product.md) is linear in its first argument,
+
+$$
+x=\sum_j\langle x,e_j\rangle e_j,\qquad
+Ax=\sum_j\lambda_j\langle x,e_j\rangle e_j.
+$$
+
+The [finite-dimensional spectral theorem](finite-dimensional-spectral-theorem.md) supplies such a basis for a [self-adjoint operator](self-adjoint-operator.md). In its two-dimensional example, the [coordinates](coordinate-linear-algebra.md) of $x=(1,0)^T$ are $1/\sqrt2$ along $e_+$ and $-1/\sqrt2$ along $e_-$. The operator multiplies those coordinates by $3$ and $1$, and reconstruction gives $Ax=(2,1)^T$.
+
+Repeated [eigenvalues](eigenvalue.md) permit different orthonormal choices within one [eigenspace](eigenspace.md), so the basis need not be unique. The [spectral projection of a self-adjoint matrix](spectral-projection-of-a-self-adjoint-matrix.md) onto that entire [eigenspace](eigenspace.md) is unique: it keeps the geometrically meaningful component without choosing individual axes inside it.
+
+## ↑ Ancestors (8)
+
+1. [Finite-dimensional spectral theorem](finite-dimensional-spectral-theorem.md)
+2. [Self-adjoint operator](self-adjoint-operator.md)
+3. [Operator theory](linear-operator-theory-split.md)
+4. [Linear algebra](linear-algebra-split.md)
+5. [Algebra](algebra-split.md)
+6. [Area of mathematics](area-of-mathematics.md)
+7. [Mathematics](mathematics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (63)
+
+- [Coaxial symmetric tensors](coaxial-symmetric-tensors.md)
+- [Compact elliptic spectral theorem](compact-elliptic-spectral-theorem.md)
+- [Coordinate (linear algebra)](coordinate-linear-algebra.md)
+- [Coordinate vector](coordinate-vector.md)
+- [Davis-Kahan curvature lemma](davis-kahan-curvature-lemma.md)
+- [Diagonalizable matrix](diagonalizable-matrix.md)
+- [Exact two-dimensional power iteration](exact-two-dimensional-power-iteration.md)
+- [Expectation value](expectation-value.md)
+- [Fidelity of commuting mixed states](fidelity-of-commuting-mixed-states.md)
+- [Finite-dimensional spectral theorem](finite-dimensional-spectral-theorem.md)
+- [Heat kernel trace formula](heat-kernel-trace-formula.md)
+- [Hermitian effect variational principle](hermitian-effect-variational-principle.md)
+- [Hermitian Rayleigh quotient range](hermitian-rayleigh-quotient-range.md)
+- [Joint spectrum](joint-spectrum.md)
+- [Lavrentiev regularization](lavrentiev-regularization.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-42/3/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-13/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ia/paper-3/11a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/ia/paper-3/1d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-20/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ib/paper-2/18f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ii/paper-3/38c/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/ii/paper-3/38c/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-20/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-76/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-53/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-78/5/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-19/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-7/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-7/4/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-7/5/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/iii/paper-7/5/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-12/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-16/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-16/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-36/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-3/10f/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/ib/paper-3/10f/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-323/2/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-323/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-215/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-215/4/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-205/6/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-339/1/e/solution.md)
+- [Poincare inequality for a reversible Markov chain](poincare-inequality-for-a-reversible-markov-chain.md)
+- [Positive-definiteness threshold in a two-by-two family](positive-definiteness-threshold-in-a-two-by-two-family.md)
+- [Power iteration convergence for a diagonalizable matrix](power-iteration-convergence-for-a-diagonalizable-matrix.md)
+- [Power iteration eigenpair diagnostics](power-iteration-eigenpair-diagnostics.md)
+- [Power method](power-method.md)
+- [Principal stress](principal-stress.md)
+- [Quantum quench](quantum-quench.md)
+- [Rayleigh quotient](rayleigh-quotient.md)
+- [Real spectral theorem](real-spectral-theorem.md)
+- [Spectral expansion of the Riemannian heat kernel](spectral-expansion-of-the-riemannian-heat-kernel.md)
+- [Spectral kernel expansion of a reversible chain](spectral-kernel-expansion-of-a-reversible-chain.md)
+- [Spectral projection of a self-adjoint matrix](spectral-projection-of-a-self-adjoint-matrix.md)
+- [Spectrum of lazy random walk on the hypercube](spectrum-of-lazy-random-walk-on-the-hypercube.md)
+- [Sum of the largest eigenvalues](sum-of-the-largest-eigenvalues.md)
+- [Threshold semidefinite program for the largest eigenvalues](threshold-semidefinite-program-for-the-largest-eigenvalues.md)
+- [Two-by-two positive-definiteness test](two-by-two-positive-definiteness-test.md)
+- [Two-column dominant-subspace condition](two-column-dominant-subspace-condition.md)
+- [Two-level sudden quench](two-level-sudden-quench.md)
+- [Variational method](variational-method.md)

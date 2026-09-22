@@ -1,0 +1,60 @@
+# Rossby wave
+
+↑ **Parent:** [Geophysical fluid dynamics](geophysical-fluid-dynamics-split.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Rossby_wave)
+
+A Rossby wave is a low-frequency wave restored by the spatial variation of planetary or background potential vorticity. On a beta plane its phase commonly propagates westward.
+
+**Table of contents**
+
+- [Rossby-wave equation for a sheared zonal current](rossby-wave-equation-for-a-sheared-zonal-current.md)
+  - [Local Rossby-wave dispersion relation in a zonal jet](local-rossby-wave-dispersion-relation-in-a-zonal-jet.md)
+    - [Stationary Rossby waves in a sinusoidal zonal jet](stationary-rossby-waves-in-a-sinusoidal-zonal-jet.md)
+- [Linear Rossby-wave equation](linear-rossby-wave-equation.md)
+  - [Shallow-water Rossby-wave dispersion relation](shallow-water-rossby-wave-dispersion-relation.md)
+    - [Reflection of a Rossby wave at a meridional wall](reflection-of-a-rossby-wave-at-a-meridional-wall.md)
+    - [Rossby-wave isofrequency circle](rossby-wave-isofrequency-circle.md)
+- [Topographic Rossby-wave dispersion relation](topographic-rossby-wave-dispersion-relation.md)
+  - [Square-basin topographic Rossby mode](square-basin-topographic-rossby-mode.md)
+  - [Step-trapped topographic Rossby wave](step-trapped-topographic-rossby-wave.md)
+    - [Double Kelvin-wave adjustment at a depth step](double-kelvin-wave-adjustment-at-a-depth-step.md)
+    - [Long-wave transport along a depth step](long-wave-transport-along-a-depth-step.md)
+- [Barotropic Rossby wave](barotropic-rossby-wave.md)
+  - [Stationary Rossby-wave ray envelope](stationary-rossby-wave-ray-envelope.md)
+- [Baroclinic Rossby wave](baroclinic-rossby-wave.md)
+  - [Rossby wave in a log-pressure atmosphere](rossby-wave-in-a-log-pressure-atmosphere.md)
+
+## ↑ Ancestors (5)
+
+1. [Geophysical fluid dynamics](geophysical-fluid-dynamics-split.md)
+2. [Fluid mechanics](fluid-mechanics-split.md)
+3. [Branches of physics](branches-of-physics.md)
+4. [Physics](physics-split.md)
+5. [Codex Wiki](split.md)
+
+## ← Incoming links (24)
+
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-48/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-72/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-73/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-73/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-80/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-80/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-77/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-77/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-77/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-81/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-79/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-79/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-333/3/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-333/4/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-333/3/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-333/4/d/solution.md)
+- [Quasi-geostrophic mountain wave](quasi-geostrophic-mountain-wave.md)
+- [Resonant topographic quasi-geostrophic wave](resonant-topographic-quasi-geostrophic-wave.md)
+- [Rossby-wave isofrequency circle](rossby-wave-isofrequency-circle.md)
+- [Rossby-wave PV mixing and zonal momentum](rossby-wave-pv-mixing-and-zonal-momentum.md)
+- [Shallow-water Rossby-wave dispersion relation](shallow-water-rossby-wave-dispersion-relation.md)
+- [Stationary Rossby-wave ray envelope](stationary-rossby-wave-ray-envelope.md)
+- [Step-trapped topographic Rossby wave](step-trapped-topographic-rossby-wave.md)
+- [Thermally damped quasi-geostrophic mountain wave](thermally-damped-quasi-geostrophic-mountain-wave.md)

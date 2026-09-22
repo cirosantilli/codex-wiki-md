@@ -1,0 +1,472 @@
+# Paper 167
+
+↑ **Parent:** [Iii](../iii.md)
+
+[https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2025/III_Paper_167.pdf](https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2025/III_Paper_167.pdf)
+
+**Table of contents**
+
+- [1](#1)
+  - [i](#1/i)
+    - [Solution](#1/i/solution)
+  - [ii](#1/ii)
+    - [Solution](#1/ii/solution)
+  - [iii](#1/iii)
+    - [a](#1/iii/a)
+      - [Solution](#1/iii/a/solution)
+    - [b](#1/iii/b)
+      - [Solution](#1/iii/b/solution)
+- [2](#2)
+  - [a](#2/a)
+    - [Solution](#2/a/solution)
+  - [b](#2/b)
+    - [Solution](#2/b/solution)
+  - [c](#2/c)
+    - [Solution](#2/c/solution)
+- [3](#3)
+  - [i](#3/i)
+    - [Solution](#3/i/solution)
+  - [ii](#3/ii)
+    - [Solution](#3/ii/solution)
+  - [iii](#3/iii)
+    - [Solution](#3/iii/solution)
+  - [iv](#3/iv)
+    - [Solution](#3/iv/solution)
+- [4](#4)
+  - [i](#4/i)
+    - [Solution](#4/i/solution)
+  - [ii](#4/ii)
+    - [Solution](#4/ii/solution)
+  - [iii](#4/iii)
+    - [Solution](#4/iii/solution)
+  - [iv](#4/iv)
+    - [Solution](#4/iv/solution)
+  - [v](#4/v)
+    - [Solution](#4/v/solution)
+  - [vi](#4/vi)
+    - [Solution](#4/vi/solution)
+
+## 1
+
+↑ **Parent:** [Paper 167](paper-167.md)
+
+<h3 id="1/i">i</h3>
+
+↑ **Parent:** [1](#1)
+
+<h4 id="1/i/solution">Solution</h4>
+
+↑ **Parent:** [I](#1/i)
+
+An [affine algebraic group](../../../lie-theory.md#linear-algebraic-group) over $k$ is an [affine variety](../../../algebraic-geometry.md#affine-algebraic-set) $G$ equipped with multiplication $G\times G\to G$, inversion $G\to G$, and an identity element satisfying the group axioms, with multiplication and inversion both [regular maps](../../../algebraic-geometry.md#morphism-of-algebraic-varieties). Dually, the [coordinate ring](../../../algebraic-geometry.md#coordinate-ring) $k[G]$ is a commutative [Hopf algebra](../../../algebra.md#hopf-algebra): multiplication on $G$ induces the comultiplication $\Delta:k[G]\to k[G]\otimes k[G]$, inversion induces the antipode, and evaluation at the identity is the counit.
+
+<h3 id="1/ii">ii</h3>
+
+↑ **Parent:** [1](#1)
+
+<h4 id="1/ii/solution">Solution</h4>
+
+↑ **Parent:** [Ii](#1/ii)
+
+Choose algebra generators $f_1,\ldots,f_r$ of the finitely generated [coordinate ring](../../../algebraic-geometry.md#coordinate-ring) $k[G]$. The right regular action is locally finite: writing
+
+$$
+\Delta(f_i)=\sum_j f_{ij}\otimes h_{ij}
+$$
+
+shows that every right translate of $f_i$ lies in the finite span of the $f_{ij}$. Hence all the $f_i$ lie in some finite-dimensional translation-stable subspace $V\subseteq k[G]$.
+
+This gives a rational representation $\rho:G\to\operatorname{GL}(V)$. If $g\in\ker\rho$, then $f_i(xg)=f_i(x)$ for every $i$ and $x$. Setting $x=e$ gives $f_i(g)=f_i(e)$ for every algebra generator, and therefore for every regular function on $G$. Regular functions separate closed points of an affine variety, so $g=e$. Thus $\rho$ is a [faithful representation of an affine algebraic group](../../../lie-theory.md#faithful-representation-of-an-affine-algebraic-group).
+
+<h3 id="1/iii">iii</h3>
+
+↑ **Parent:** [1](#1)
+
+<h4 id="1/iii/a">a</h4>
+
+↑ **Parent:** [Iii](#1/iii)
+
+<h5 id="1/iii/a/solution">Solution</h5>
+
+↑ **Parent:** [A](#1/iii/a)
+
+For $G=\mathbb G_a$, write $k[G]=k[t]$. Under the [left-right regular representation of an affine algebraic group](../../../lie-theory.md#left-right-regular-representation-of-an-affine-algebraic-group),
+
+$$
+((a,b)f)(t)=f(t-a+b),
+$$
+
+so the action factors through the difference map $\mathbb G_a\times\mathbb G_a\to\mathbb G_a$. The degree filtration
+
+$$
+k\subset k[t]_{\leq1}\subset k[t]_{\leq2}\subset\cdots
+$$
+
+is stable and has trivial one-dimensional successive quotients. The module is indecomposable; every nonzero submodule contains a nonzero translation difference of lower degree and, on iteration using suitable translations, meets the unique invariant line $k\cdot1$.
+
+For every finite-dimensional rational $G$-module $V$, the matrix-coefficient construction gives
+
+$$
+\operatorname{Hom}_G(V,k[G])\cong V^*,
+\qquad
+\lambda\longmapsto\bigl(v\mapsto[g\mapsto\lambda(gv)]\bigr).
+$$
+
+On the other hand,
+
+$$
+\operatorname{Hom}_G(k[G],V)=0.
+$$
+
+Indeed, a nonzero finite-dimensional quotient of $k[G]$ would have a simple quotient. Every simple rational representation of the [unipotent algebraic group](../../../lie-theory.md#unipotent-algebraic-group) $\mathbb G_a$ is trivial, so this would give a nonzero translation-invariant functional on $k[t]$. No such functional exists: if $c_j$ is its first nonzero value on a monomial, translating a sufficiently high monomial produces a nonzero coefficient times $c_j$, contradicting invariance.
+
+<h4 id="1/iii/b">b</h4>
+
+↑ **Parent:** [Iii](#1/iii)
+
+<h5 id="1/iii/b/solution">Solution</h5>
+
+↑ **Parent:** [B](#1/iii/b)
+
+For $G=\mathbb G_m$, write $k[G]=k[t,t^{-1}]$. Since
+
+$$
+((a,b)t^r)(x)=(a^{-1}xb)^r=a^{-r}b^rt^r,
+$$
+
+the [weight-space decomposition](../../../semisimple-lie-algebra.md#weight-space) is
+
+$$
+k[G]=\bigoplus_{r\in\mathbb Z}k_{(-r,r)}
+$$
+
+as a $G\times G$-representation.
+
+If $V=\bigoplus_rV_r$ is the weight decomposition of a finite-dimensional $G$-module, the matrix-coefficient argument again gives $\operatorname{Hom}_G(V,k[G])\cong V^*$. A map from $k[G]$ to $V$ is independently determined by the image in $V_r$ of the basis vector $t^r$; only finitely many $V_r$ are nonzero. Thus
+
+$$
+\operatorname{Hom}_G(k[G],V)
+\cong\bigoplus_rV_r
+\cong V
+$$
+
+as vector spaces.
+
+## 2
+
+↑ **Parent:** [Paper 167](paper-167.md)
+
+<h3 id="2/a">a</h3>
+
+↑ **Parent:** [2](#2)
+
+<h4 id="2/a/solution">Solution</h4>
+
+↑ **Parent:** [A](#2/a)
+
+An element $g\in G(k)$ is [semisimple](../../../lie-theory.md#semisimple-element-of-an-affine-algebraic-group) when its image in a faithful finite-dimensional representation is diagonalizable, and [unipotent](../../../lie-theory.md#unipotent-element-of-an-affine-algebraic-group) when that image has every eigenvalue equal to one. These conditions are independent of the faithful representation. The [Jordan decomposition in an affine algebraic group](../../../lie-theory.md#jordan-decomposition-in-an-affine-algebraic-group) is the unique factorization
+
+$$
+g=g_sg_u=g_ug_s
+$$
+
+with $g_s$ semisimple and $g_u$ unipotent.
+
+In $G=\operatorname{GL}_2$, matrices with two distinct eigenvalues form a dense open subset and are semisimple, so semisimple elements are dense. Their full locus is not open: a scalar matrix is semisimple, but every neighbourhood of it contains a nontrivial Jordan block. The group also has nonidentity unipotent matrices.
+
+For a contrasting example take $G=\mathbb G_a\times\mathbb G_m$. Its semisimple locus is $\{0\}\times\mathbb G_m$, which is closed and not dense, while $(a,1)$ for $a\ne0$ is unipotent and $(0,t)$ for $t\ne1$ is semisimple.
+
+<h3 id="2/b">b</h3>
+
+↑ **Parent:** [2](#2)
+
+<h4 id="2/b/solution">Solution</h4>
+
+↑ **Parent:** [B](#2/b)
+
+The [derived subgroup of an affine algebraic group](../../../lie-theory.md#derived-subgroup-of-an-affine-algebraic-group) $[G,G]$ is the closed subgroup generated by the commutators $xyx^{-1}y^{-1}$. If $G$ is connected, the image of every finite product of commutator maps is connected and contains the identity. The closures of these images form an increasing sequence; once their dimensions stabilize, the stable member is closed under products and inverses and equals $[G,G]$. Hence $[G,G]$ is connected.
+
+Now suppose the connected group $G$ is solvable. The [Lie-Kolchin theorem](../../../lie-theory.md#lie-kolchin-theorem) conjugates a faithful representation of $G$ into the upper triangular matrices. Every commutator then has all diagonal entries equal to one, so every element of $[G,G]$ is [unipotent](../../../lie-theory.md#unipotent-element-of-an-affine-algebraic-group). Moreover $[G,G]$ lies in the upper unitriangular group, whose superdiagonal filtration is a central series. It is therefore a [nilpotent group](../../../group-theory.md#nilpotent-group).
+
+A [diagonalizable algebraic group](../../../lie-theory.md#diagonalizable-group) is a closed subgroup of a product of copies of $\mathbb G_m$. A [unipotent algebraic group](../../../lie-theory.md#unipotent-algebraic-group) has only unipotent elements, while a semisimple algebraic group here means one all of whose elements are semisimple. A [reductive algebraic group](../../../lie-theory.md#reductive-group) is smooth, connected, affine, and has trivial connected normal unipotent radical.
+
+<h3 id="2/c">c</h3>
+
+↑ **Parent:** [2](#2)
+
+<h4 id="2/c/solution">Solution</h4>
+
+↑ **Parent:** [C](#2/c)
+
+The [Kolchin theorem](../../../lie-theory.md#kolchin-theorem) conjugates a faithful representation of a [unipotent algebraic group](../../../lie-theory.md#unipotent-algebraic-group) $U$ into the upper unitriangular group $U_n$. Let $U_n^{(r)}$ consist of matrices whose first $r-1$ superdiagonals vanish. Matrix multiplication gives
+
+$$
+[U_n^{(r)},U_n^{(s)}]\subseteq U_n^{(r+s)}.
+$$
+
+Since $U_n^{(n)}=1$, this filtration is a finite [central series](../../../group-theory.md#central-series), so $U_n$ and every subgroup of it are [nilpotent groups](../../../group-theory.md#nilpotent-group). Hence $U$ is nilpotent.
+
+The converse fails: $\mathbb G_m$ is abelian, hence nilpotent, but its nonidentity points are semisimple rather than unipotent.
+
+## 3
+
+↑ **Parent:** [Paper 167](paper-167.md)
+
+<h3 id="3/i">i</h3>
+
+↑ **Parent:** [3](#3)
+
+<h4 id="3/i/solution">Solution</h4>
+
+↑ **Parent:** [I](#3/i)
+
+Let $I=I(H)\subseteq k[G]$. Choose finitely many generators of $I$ and a finite-dimensional $G$-submodule $U\subseteq k[G]$ containing them, using local finiteness of the right regular action. Set $W=U\cap I$. Right translation by $H$ preserves $I$, so $H$ stabilizes $W$. Conversely, if $gW=W$, every chosen generator $f$ has $R_gf\in I$, and evaluation at the identity gives $f(g)=0$. Thus $g\in H$, and $\operatorname{Stab}_G(W)=H$.
+
+Put $d=\dim W$ and take $V=\bigwedge^dU$. The line
+
+$$
+\ell=\bigwedge^dW\in\mathbb P(V)
+$$
+
+determines $W$ uniquely, so its stabilizer is the stabilizer of $W$, namely $H$.
+
+<h3 id="3/ii">ii</h3>
+
+↑ **Parent:** [3](#3)
+
+<h4 id="3/ii/solution">Solution</h4>
+
+↑ **Parent:** [Ii](#3/ii)
+
+A flat [algebraic-group torsor](../../../lie-theory.md#algebraic-group-torsor) $X\to Y$ is a faithfully flat morphism with a right $H$-action for which
+
+$$
+X\times H\longrightarrow X\times_YX,
+\qquad(x,h)\longmapsto(x,xh),
+$$
+
+is an isomorphism.
+
+The orbit $G\ell$ is a locally closed subvariety of $\mathbb P(V)$ by the orbit theorem for algebraic-group actions. The fibers of the orbit map $G\to G\ell$ are precisely the right cosets of $H=\operatorname{Stab}_G(\ell)$, and the displayed action map is therefore an isomorphism. The theorem on quotients of affine algebraic groups by closed subgroups says that $G/H$ exists and $G\to G/H$ is faithfully flat; the induced map $G/H\to G\ell$ is an isomorphism. Hence the orbit map is a flat $H$-torsor.
+
+<h3 id="3/iii">iii</h3>
+
+↑ **Parent:** [3](#3)
+
+<h4 id="3/iii/solution">Solution</h4>
+
+↑ **Parent:** [Iii](#3/iii)
+
+For $G=\operatorname{SL}_2$ and the upper triangular [Borel subgroup](../../../lie-theory.md#borel-subgroup) $B$, the quotient is $G/B\cong\mathbb P^1$: a matrix is sent to the line spanned by its first column. Over $U_0=\{[1:t]\}$ use the section
+
+$$
+s_0(t)=\begin{pmatrix}1&0\\t&1\end{pmatrix},
+$$
+
+and over $U_1=\{[s:1]\}$ use
+
+$$
+s_1(s)=\begin{pmatrix}s&-1\\1&0\end{pmatrix}.
+$$
+
+Every matrix above $U_i$ is uniquely $s_i(u)b$ with $b\in B$. Thus each inverse image is $U_i\times B$, proving that $G\to G/B$ is a Zariski $B$-torsor.
+
+<h3 id="3/iv">iv</h3>
+
+↑ **Parent:** [3](#3)
+
+<h4 id="3/iv/solution">Solution</h4>
+
+↑ **Parent:** [Iv](#3/iv)
+
+For $G=\mathbb G_m$ and $H=\mu_2$, the quotient is
+
+$$
+\mathbb G_m\longrightarrow\mathbb G_m,
+\qquad z\longmapsto z^2.
+$$
+
+It is a faithfully flat $\mu_2$-torsor, including in characteristic two where $\mu_2$ is nonreduced. It is not a Zariski torsor: a local section over any nonempty open set would put a square root of the coordinate $t$ in the function field $k(t)$, but $t$ is not a square there.
+
+Take $V=k\oplus k$ with $z\in\mathbb G_m$ acting by $z\cdot(x,y)=(x,z^2y)$, and let $\ell=k(1,1)$. The equality $z\ell=\ell$ holds exactly when $z^2=1$, so the scheme-theoretic stabilizer is $\mu_2$.
+
+## 4
+
+↑ **Parent:** [Paper 167](paper-167.md)
+
+<h3 id="4/i">i</h3>
+
+↑ **Parent:** [4](#4)
+
+<h4 id="4/i/solution">Solution</h4>
+
+↑ **Parent:** [I](#4/i)
+
+Embed the space $\mathcal B$ of complete isotropic flags into
+
+$$
+\prod_{i=1}^n\operatorname{Gr}(i,V).
+$$
+
+The incidence conditions $F_i\subset F_{i+1}$ and isotropy equations $\langle F_i,F_i\rangle=0$ are closed polynomial conditions. Since the [Grassmannian](../../../differential-geometry.md#grassmannian) is projective, $\mathcal B$ is a projective algebraic variety.
+
+Every complete isotropic flag extends to a [symplectic basis](../../../linear-algebra.md#symplectic-basis). A symplectic change of basis carries any such flag to any other, so $G=\operatorname{Sp}_{2n}$ acts transitively. The stabilizer $B$ of the standard flag consists of the upper triangular symplectic matrices. It is closed, connected, and solvable. The [Lie-Kolchin theorem](../../../lie-theory.md#lie-kolchin-theorem) shows that every connected solvable subgroup fixes a complete flag in $V$; preservation of the symplectic form makes the resulting flag isotropic after taking its first half. Such a subgroup is conjugate into $B$, so $B$ is maximal and hence a [Borel subgroup](../../../lie-theory.md#borel-subgroup).
+
+<h3 id="4/ii">ii</h3>
+
+↑ **Parent:** [4](#4)
+
+<h4 id="4/ii/solution">Solution</h4>
+
+↑ **Parent:** [Ii](#4/ii)
+
+Choose the maximal torus
+
+$$
+T=\{\operatorname{diag}(t_1,\ldots,t_n,t_1^{-1},\ldots,t_n^{-1})\}
+$$
+
+and write $\varepsilon_i(t)=t_i$. Then
+
+$$
+\mathfrak{sp}_{2n}=\mathfrak t\oplus\bigoplus_{\alpha\in\Phi}\mathfrak g_\alpha,
+$$
+
+where the type-$C_n$ root system is
+
+$$
+\Phi=\{\mathord\pm\varepsilon_i\mathbin\pm\varepsilon_j:i<j\}
+\cup\{\mathord\pm2\varepsilon_i:1\leq i\leq n\}.
+$$
+
+Here $X^*(T)=\bigoplus_i\mathbb Z\varepsilon_i$ and $X_*(T)=\bigoplus_i\mathbb Z\varepsilon_i^\vee$. The [root datum](../../../lie-theory.md#root-datum) has
+
+$$
+(\varepsilon_i-\varepsilon_j)^\vee=\varepsilon_i^\vee-\varepsilon_j^\vee,
+\quad
+(\varepsilon_i+\varepsilon_j)^\vee=\varepsilon_i^\vee+\varepsilon_j^\vee,
+\quad
+(2\varepsilon_i)^\vee=\varepsilon_i^\vee,
+$$
+
+with the corresponding negatives.
+
+<h3 id="4/iii">iii</h3>
+
+↑ **Parent:** [4](#4)
+
+<h4 id="4/iii/solution">Solution</h4>
+
+↑ **Parent:** [Iii](#4/iii)
+
+The normalizer of $T$ permutes the $n$ symplectic coordinate planes and may interchange the two basis vectors in each plane. Modulo $T$, these operations give every signed permutation of $(\varepsilon_1,\ldots,\varepsilon_n)$. Therefore
+
+$$
+W=N_G(T)/T\cong(\mathbb Z/2\mathbb Z)^n\rtimes S_n,
+$$
+
+the [signed symmetric group](../../../lie-theory.md#hyperoctahedral-group), generated by adjacent coordinate transpositions and one sign change.
+
+<h3 id="4/iv">iv</h3>
+
+↑ **Parent:** [4](#4)
+
+<h4 id="4/iv/solution">Solution</h4>
+
+↑ **Parent:** [Iv](#4/iv)
+
+For each signed permutation $w\in W$, choose its symplectic signed-permutation matrix $\dot w\in N_G(T)$. The [Bruhat decomposition of a reductive algebraic group](../../../lie-theory.md#bruhat-decomposition) is the explicit disjoint union
+
+$$
+\operatorname{Sp}_{2n}
+=\bigsqcup_{w\in(\mathbb Z/2)^n\rtimes S_n}B\dot wB.
+$$
+
+To prove existence, compare the standard isotropic flag $F_\bullet$ with $gF_\bullet$. The ranks
+
+$$
+r_{ij}=\dim(F_i\cap gF_j)
+$$
+
+together with the symplectic orthogonality relations determine a unique signed permutation $w$. Symplectic row and column operations from $B$ then reduce $g$ to $\dot w$, so $g\in B\dot wB$. Conversely, the same intersection dimensions are constant on a double coset and recover $w$, proving disjointness. This is symplectic Gaussian elimination and establishes the claimed decomposition.
+
+<h3 id="4/v">v</h3>
+
+↑ **Parent:** [4](#4)
+
+<h4 id="4/v/solution">Solution</h4>
+
+↑ **Parent:** [V](#4/v)
+
+Put $i_0=0$ and $d_j=i_j-i_{j-1}$. The stabilizer
+
+$$
+P_I=\operatorname{Stab}_G(F_{i_1}<\cdots<F_{i_r})
+$$
+
+is the standard [parabolic subgroup](../../../lie-theory.md#parabolic-subgroup) containing $B$ obtained by allowing arbitrary changes of basis inside the successive blocks. Its [Levi subgroup](../../../lie-theory.md#levi-subgroup) is
+
+$$
+L_I\cong
+\operatorname{GL}_{d_1}\times\cdots\times
+\operatorname{GL}_{d_r}\times
+\operatorname{Sp}_{2(n-i_r)}.
+$$
+
+The fiber of $\pi_I$ over the displayed partial flag is $P_I/B$. Choosing a complete refinement amounts to choosing complete flags in every quotient $F_{i_j}/F_{i_{j-1}}$ and a complete isotropic flag in $F_{i_r}^{\perp}/F_{i_r}$. Hence
+
+$$
+\pi_I^{-1}(F_I)
+\cong\mathcal B(L_I),
+$$
+
+the [flag variety of an algebraic group](../../../lie-theory.md#generalized-flag-variety) $L_I$; explicitly it is the product of the complete flag varieties of the listed general linear and symplectic factors.
+
+<h3 id="4/vi">vi</h3>
+
+↑ **Parent:** [4](#4)
+
+<h4 id="4/vi/solution">Solution</h4>
+
+↑ **Parent:** [Vi](#4/vi)
+
+The center consists of scalar symplectic transformations:
+
+$$
+Z_G=\mu_2=\operatorname{Spec}k[z,z^{-1}]/(z^2-1).
+$$
+
+This description retains the nonreduced center in characteristic two. Since $Z_G$ is a finite central subgroup scheme, the invariant ring $k[G]^{Z_G}$ is finitely generated and
+
+$$
+\operatorname{PSp}(V)=G/Z_G=\operatorname{Spec}k[G]^{Z_G}
+$$
+
+is an [affine algebraic group](../../../lie-theory.md#linear-algebraic-group); the quotient map is finite and faithfully flat.
+
+The quotient torus is $T/\mu_2$. Its character and cocharacter lattices are
+
+$$
+X^*(T/\mu_2)=
+\left\{\sum_i a_i\varepsilon_i:\sum_i a_i\equiv0\pmod2\right\},
+$$
+
+
+
+$$
+X_*(T/\mu_2)=
+\mathbb Z^n+\mathbb Z\left(\frac12,\ldots,\frac12\right).
+$$
+
+The roots and coroots are the same type-$C_n$ sets written in part (ii), now regarded in these lattices. This is the adjoint root datum of type $C_n$.
+
+## ↑ Ancestors (8)
+
+1. [Iii](../iii.md)
+2. [2025](../../2025.md)
+3. [Past exam of the mathematics course of the University of Cambridge](../../../past-exam-of-the-mathematics-course-of-the-university-of-cambridge.md)
+4. [Mathematics course of the University of Cambridge](../../../university-of-cambridge.md#mathematics-course-of-the-university-of-cambridge)
+5. [Course of the University of Cambridge](../../../university-of-cambridge.md#course-of-the-university-of-cambridge)
+6. [University of Cambridge](../../../university-of-cambridge.md)
+7. [List of universities](../../../README.md#list-of-universities)
+8. [Codex Wiki](../../../README.md)

@@ -1,0 +1,62 @@
+# Unitary gauge
+
+↑ **Parent:** [Higgs mechanism](higgs-mechanism.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Unitary_gauge)
+
+Unitary gauge uses a gauge transformation to remove the Goldstone fields from the Higgs multiplet, leaving the physical radial Higgs excitation and massive vector fields.
+
+**Table of contents**
+
+- [Orthogonal unitary-gauge slice near a scalar vacuum](orthogonal-unitary-gauge-slice-near-a-scalar-vacuum.md)
+
+## ↑ Ancestors (8)
+
+1. [Higgs mechanism](higgs-mechanism.md)
+2. [Higgs field](higgs-field.md)
+3. [Electroweak interaction](electroweak-interaction.md)
+4. [Standard Model](standard-model-split.md)
+5. [Quantum field theory](quantum-field-theory-split.md)
+6. [Branches of physics](branches-of-physics.md)
+7. [Physics](physics-split.md)
+8. [Codex Wiki](split.md)
+
+## ← Incoming links (38)
+
+- [Adjoint triplet Higgs spectrum](adjoint-triplet-higgs-spectrum.md)
+- [Covariantly constant vector Higgs field](covariantly-constant-vector-higgs-field.md)
+- [Gauge-invariant electron Yukawa mass](gauge-invariant-electron-yukawa-mass.md)
+- [Higgs boson coupling to Z bosons](higgs-boson-coupling-to-z-bosons.md)
+- [Higgs field potential](higgs-field-potential.md)
+- [Orthogonal unitary-gauge slice near a scalar vacuum](orthogonal-unitary-gauge-slice-near-a-scalar-vacuum.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-63/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/iii/paper-66/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-49/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-49/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/iii/paper-48/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-52/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-53/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-53/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-54/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-52/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-45/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-41/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-45/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-44/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-47/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-47/4/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-305/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-305/2/a/solution.md)
+- [A](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-305/3/a.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-305/3/a/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-305/2/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-305/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2021/iii/paper-305/3/b/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2022/iii/paper-305/3/v/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/iii/paper-305/2/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2025/iii/paper-305/1/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2026/iii/paper-305/4/i/solution.md)
+- [Physical charged-vector Lagrangian for an adjoint SU2 Higgs model](physical-charged-vector-lagrangian-for-an-adjoint-su2-higgs-model.md)
+- [Polar coordinates for the electroweak Higgs doublet](polar-coordinates-for-the-electroweak-higgs-doublet.md)
+- [R-xi gauge](r-xi-gauge.md)
+- [Scalar interactions after complete SU2 breaking](scalar-interactions-after-complete-su2-breaking.md)
+- [Shifted quartic Higgs potential normalization](shifted-quartic-higgs-potential-normalization.md)

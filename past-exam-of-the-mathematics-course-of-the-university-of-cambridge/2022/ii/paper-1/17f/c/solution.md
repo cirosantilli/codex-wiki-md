@@ -1,0 +1,29 @@
+<h1 id="17f/c/solution">Solution</h1>
+
+↑ **Parent:** [C](../c.md)
+
+[Euler's formula](../../../../../../euler-s-formula.md) for a connected plane graph is $|V|-|E|+|F|=2$. If the graph is triangle-free, every face has boundary length at least four, so
+
+$$
+2|E|\geq4|F|.
+$$
+
+Euler's formula then gives $|E|\leq2|V|-4$, so the average degree is less than four. There is a vertex of degree at most three. Delete it, color the remaining graph inductively with four colors, and restore it using a color absent from its at most three neighbors. Thus
+
+$$
+\boxed{\chi(G)\leq4}.
+$$
+
+## ↑ Ancestors (11)
+
+1. [C](../c.md)
+2. [17F](../../17f.md)
+3. [Paper 1](../../../paper-1-split.md)
+4. [Ii](../../../split.md)
+5. [2022](../../../../split.md)
+6. [Past exam of the mathematics course of the University of Cambridge](../../../../../split.md)
+7. [Mathematics course of the University of Cambridge](../../../../../../mathematics-course-of-the-university-of-cambridge.md)
+8. [Course of the University of Cambridge](../../../../../../course-of-the-university-of-cambridge.md)
+9. [University of Cambridge](../../../../../../university-of-cambridge-split.md)
+10. [List of universities](../../../../../../list-of-universities.md)
+11. [Codex Wiki](../../../../../../split.md)

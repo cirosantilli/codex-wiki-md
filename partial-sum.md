@@ -1,0 +1,92 @@
+# Partial sum
+
+↑ **Parent:** [Series (mathematics)](series-mathematics.md)  
+ⓦ [Wiki](https://en.wikipedia.org/wiki/Partial_sum)
+
+The $N$th [partial sum](partial-sum.md) of a [series](series-mathematics.md) with terms $(a_n)$ is the finite [sum](sum.md) $S_N=\sum_{n=1}^N a_n$. It records the accumulated total after $N$ additions. The terms and their [partial sums](partial-sum.md) are different [sequences](sequence.md): the terms of the [harmonic series](harmonic-series.md) get small, while their [partial sums](partial-sum.md) grow without bound.
+
+For the [telescoping series](telescoping-series.md) with terms $a_n=1/[n(n+1)]$, the first three [partial sums](partial-sum.md) are
+
+$$
+S_1=\frac12,\qquad S_2=\frac12+\frac16=\frac23,\qquad
+S_3=\frac12+\frac16+\frac1{12}=\frac34.
+$$
+
+By contrast, the [harmonic series](harmonic-series.md) gives $H_1=1$, $H_2=3/2$, and $H_3=11/6$, where $H_N$ is the [harmonic number](harmonic-number.md). Computing more [partial sums](partial-sum.md) approximates an infinite sum only when a [limit of a sequence](limit-of-a-sequence.md) exists, and the [tail of a telescoping reciprocal series](tail-of-a-telescoping-reciprocal-series.md) shows how an error estimate can certify the approximation.
+
+## ↑ Ancestors (7)
+
+1. [Series (mathematics)](series-mathematics.md)
+2. [Sequence and series](sequence-and-series.md)
+3. [Real analysis](real-analysis-split.md)
+4. [Analysis](analysis-split.md)
+5. [Area of mathematics](area-of-mathematics.md)
+6. [Mathematics](mathematics-split.md)
+7. [Codex Wiki](split.md)
+
+## ← Incoming links (64)
+
+- [Analytic continuation](analytic-continuation.md)
+- [Arithmetic work of the Dirichlet hyperbola method](arithmetic-work-of-the-dirichlet-hyperbola-method.md)
+- [Asymmetric Dirichlet hyperbola split](asymmetric-dirichlet-hyperbola-split.md)
+- [Banach space](banach-space-split.md)
+- [Boundary convergence of a power series](boundary-convergence-of-a-power-series.md)
+- [Bounded partial sums need not be Cesàro summable](bounded-partial-sums-need-not-be-cesaro-summable.md)
+- [Cesàro mean](cesaro-mean.md)
+- [Cesàro sum](cesaro-sum.md)
+- [Cesàro summation](cesaro-summation.md)
+- [Cesàro theorem for convergent sequences](cesaro-theorem-for-convergent-sequences.md)
+- [Convergence from fixed-length series blocks](convergence-from-fixed-length-series-blocks.md)
+- [Cycle lemma](cycle-lemma.md)
+- [Cycle lemma with increments at most one](cycle-lemma-with-increments-at-most-one.md)
+- [Divergent series](divergent-series.md)
+- [Divisibility chain inside a finite-sums set](divisibility-chain-inside-a-finite-sums-set.md)
+- [Dyadic-block alternation of reciprocal terms](dyadic-block-alternation-of-reciprocal-terms.md)
+- [First-order Cesàro summation of a geometric series](first-order-cesaro-summation-of-a-geometric-series.md)
+- [Geometric power-series remainder](geometric-power-series-remainder.md)
+- [Geometric progression](geometric-progression.md)
+- [Geometric series](geometric-series.md)
+- [Grandi's series](grandi-s-series.md)
+- [Harmonic series](harmonic-series.md)
+- [Integral comparison for a nonincreasing nonnegative function](integral-comparison-for-a-nonincreasing-nonnegative-function.md)
+- [Majorization of summable sequences](majorization-of-summable-sequences.md)
+- [Minkowski inequality for error aggregation](minkowski-inequality-for-error-aggregation.md)
+- [P-adic number](p-adic-number.md)
+- [Partial sum](partial-sum.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/ia/paper-1/9c/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/ia/paper-1/9c/ii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/ia/paper-1/9c/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/ia/paper-1/9c/iv/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2002/ia/paper-1/9c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-22/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/ia/paper-1/12f/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2004/ia/paper-1/12f/iii/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2005/iii/paper-31/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ia/paper-1/3f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-2/11g/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-2/11g/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/ii/paper-2/22g/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2007/iii/paper-14/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/ia/paper-1/3f/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/ia/paper-4/8e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ia/paper-1/10f/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ia/paper-1/11d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ia/paper-1/9e/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2010/ia/paper-1/9e/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/ia/paper-1/4f/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/ia/paper-1/4f/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/ia/paper-4/2e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/ia/paper-4/5e/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ia/paper-4/8d/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/ia/paper-4/8d/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2023/ii/paper-4/26k/a/solution.md)
+- [Power series](power-series.md)
+- [Second Chebyshev function](second-chebyshev-function.md)
+- [Series (mathematics)](series-mathematics.md)
+- [Summable and harmonic event probabilities](summable-and-harmonic-event-probabilities.md)
+- [Taylor series](taylor-series.md)
+- [Telescoping series](telescoping-series.md)
+- [Term test for divergence](term-test-for-divergence.md)
+- [Unsmoothing a logarithmically weighted sum](unsmoothing-a-logarithmically-weighted-sum.md)
+- [Von Mangoldt function](von-mangoldt-function.md)
+- [Weighted partial sums for Cesàro summation](weighted-partial-sums-for-cesaro-summation.md)

@@ -1,0 +1,243 @@
+# Paper 313
+
+↑ **Parent:** [Iii](../iii.md)
+
+[https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2021/paper_313.pdf](https://www.maths.cam.ac.uk/postgrad/part-iii/files/pastpapers/2021/paper_313.pdf)
+
+**Table of contents**
+
+- [1](#1)
+  - [Solution](#1/solution)
+- [2](#2)
+  - [Solution](#2/solution)
+- [3](#3)
+  - [Solution](#3/solution)
+
+## 1
+
+↑ **Parent:** [Paper 313](paper-313.md)
+
+<h3 id="1/solution">Solution</h3>
+
+↑ **Parent:** [1](#1)
+
+Let $N=(0,\ldots,0,1)$ and $S=(0,\ldots,0,-1)$ be the poles of $S^n$. The open sets $U_N=S^n\setminus\{N\}$ and $U_S=S^n\setminus\{S\}$ cover the sphere. [Stereographic projection](../../../complex-analysis.md#stereographic-projection) gives coordinate charts
+
+$$
+\phi_N(r)=\frac{(r_1,\ldots,r_n)}{1-r_{n+1}},
+\qquad
+\phi_S(r)=\frac{(r_1,\ldots,r_n)}{1+r_{n+1}}
+$$
+
+from these sets to $\mathbb R^n$. Their inverses are
+
+$$
+\phi_N^{-1}(x)=\left(\frac{2x}{1+|x|^2},
+\frac{|x|^2-1}{1+|x|^2}\right),
+\qquad
+\phi_S^{-1}(y)=\left(\frac{2y}{1+|y|^2},
+\frac{1-|y|^2}{1+|y|^2}\right).
+$$
+
+On the overlap, the transition map is
+
+$$
+\boxed{y=\phi_S\phi_N^{-1}(x)=\frac{x}{|x|^2}},
+\qquad x\neq0,
+$$
+
+which is a smooth [diffeomorphism](../../../geometry-and-topology.md#diffeomorphism) of $\mathbb R^n\setminus\{0\}$. These two compatible charts make $S^n$ a [smooth manifold](../../../differential-geometry.md#smooth-manifold) of dimension $n$.
+
+Now let $G$ be an $m$-dimensional [Lie group](../../../lie-theory.md#lie-group) and choose a basis $e_1,\ldots,e_m$ of its [tangent space](../../../differential-geometry.md#tangent-space) $T_eG$ at the identity. Define
+
+$$
+E_i(g)=(dL_g)_e e_i,
+$$
+
+where $L_g$ is [Left translation on a Lie group](../../../lie-theory.md#left-and-right-translation-on-a-lie-group). Smoothness of multiplication makes each $E_i$ a smooth [left-invariant vector field](../../../lie-theory.md#left-invariant-vector-field), and invertibility of $(dL_g)_e$ makes $E_1(g),\ldots,E_m(g)$ a basis of $T_gG$ at every point. Thus the $E_i$ form a global frame and every Lie group is a [parallelizable manifold](../../../differential-geometry.md#parallelizable-manifold).
+
+The columns of a matrix in the [special unitary group](../../../topological-group.md#special-unitary-group) $SU(2)$ are orthonormal and its determinant is one. Consequently every element has the unique form
+
+$$
+\boxed{U=\begin{pmatrix}
+z_1&-\overline z_2\\
+z_2&\overline z_1
+\end{pmatrix},
+\qquad |z_1|^2+|z_2|^2=1}.
+$$
+
+The pair $(z_1,z_2)\in\mathbb C^2\cong\mathbb R^4$ therefore identifies $SU(2)$ diffeomorphically with $S^3$. The Lie-group construction then proves that $S^3$ is parallelizable; this is the [SU(2) as the three-sphere](../../../topological-group.md#su-2-as-the-three-sphere) identification.
+
+Another example is $S^1$, which is the Lie group $U(1)$. Explicitly, at $(x,y)\in S^1$ the vector
+
+$$
+E(x,y)=-y\frac{\partial}{\partial x}+x\frac{\partial}{\partial y}
+$$
+
+is smooth, tangent, and nowhere zero, so it is a global one-vector frame. Thus $S^1$ is another [parallelizable sphere](../../../differential-geometry.md#parallelizable-sphere).
+
+## 2
+
+↑ **Parent:** [Paper 313](paper-313.md)
+
+<h3 id="2/solution">Solution</h3>
+
+↑ **Parent:** [2](#2)
+
+The [special orthogonal group](../../../linear-algebra.md#special-orthogonal-group) in three dimensions is
+
+$$
+SO(3)=\{A\in M_3(\mathbb R):A^TA=I,\ \det A=1\}.
+$$
+
+Differentiating $A(t)^TA(t)=I$ at the identity shows that its [Lie algebra](../../../lie-algebra.md) is the space of [skew-symmetric matrices](../../../linear-algebra.md#skew-symmetric-matrix). A convenient basis is
+
+$$
+J_1=\begin{pmatrix}0&0&0\\0&0&-1\\0&1&0\end{pmatrix},
+\quad
+J_2=\begin{pmatrix}0&0&1\\0&0&0\\-1&0&0\end{pmatrix},
+\quad
+J_3=\begin{pmatrix}0&-1&0\\1&0&0\\0&0&0\end{pmatrix},
+$$
+
+with $[J_a,J_b]=\epsilon_{abc}J_c$.
+
+The infinitesimal action of $\exp(tJ_a)$ on a point $x\in\mathbb R^3$ is $J_ax=e_a\times x$. It therefore generates the vector field
+
+$$
+\boxed{V_a=\epsilon_{abc}x_b\frac{\partial}{\partial x_c}}.
+$$
+
+Fundamental vector fields for this left action form an antihomomorphism with the stated convention, and direct differentiation gives
+
+$$
+\boxed{[V_a,V_b]=-\epsilon_{abc}V_c},
+$$
+
+so their span is closed under the [Lie bracket of vector fields](../../../differential-geometry.md#lie-bracket-of-vector-fields).
+
+The brackets $\{x,y\}=z$, $\{y,z\}=x$, and $\{z,x\}=y$ define the [rotational Lie-Poisson structure on R3](../../../symplectic-geometry.md#rotational-lie-poisson-structure-on-r3). With the convention that a [Hamiltonian vector field](../../../symplectic-geometry.md#hamiltonian-vector-field) acts by $X_H(f)=\{f,H\}$,
+
+$$
+X_{x_a}(x_c)=\{x_c,x_a\}=\epsilon_{abc}x_b=V_a(x_c).
+$$
+
+Hence the required Hamiltonians are simply
+
+$$
+\boxed{H_a=x_a}.
+$$
+
+The quadratic function
+
+$$
+\boxed{F=x^2+y^2+z^2}
+$$
+
+satisfies $\{F,x_a\}=0$ for all $a$, so it is a [Casimir function of a Poisson manifold](../../../symplectic-geometry.md#casimir-function-of-a-poisson-manifold). Its nonzero regular level sets $F=R^2$ are spheres. The Poisson tensor has rank two there and is tangent to each level set, so it inverts to a [symplectic form](../../../symplectic-geometry.md#symplectic-form); each sphere is a [symplectic leaf](../../../symplectic-geometry.md#symplectic-leaf). Rotations preserve both $F$ and the alternating tensor $\epsilon_{abc}$, hence preserve the restricted Poisson tensor and its inverse symplectic form. The $SO(3)$ action therefore restricts to a symplectic action on every sphere $S_R^2\subset\mathbb R^3$.
+
+## 3
+
+↑ **Parent:** [Paper 313](paper-313.md)
+
+<h3 id="3/solution">Solution</h3>
+
+↑ **Parent:** [3](#3)
+
+For the curvature two-form
+
+$$
+F=dA+A\wedge A,
+$$
+
+use the normalization
+
+$$
+\boxed{C_2=\frac1{8\pi^2}\operatorname{Tr}(F\wedge F)}
+$$
+
+for the [Second Chern form](../../../geometry-and-topology.md#second-chern-form). Graded cyclicity of the trace gives $\operatorname{Tr}(A^{\wedge4})=0$ and
+
+$$
+\operatorname{Tr}(F\wedge F)
+=\operatorname{Tr}\left(dA\wedge dA
++2dA\wedge A\wedge A\right).
+$$
+
+On the other hand,
+
+$$
+d\operatorname{Tr}(A\wedge dA)=\operatorname{Tr}(dA\wedge dA),
+$$
+
+and
+
+$$
+d\operatorname{Tr}(A\wedge A\wedge A)
+=3\operatorname{Tr}(dA\wedge A\wedge A).
+$$
+
+Thus the coefficient in the [Chern-Simons 3-form](../../../geometry-and-topology.md#chern-simons-3-form) must be
+
+$$
+\boxed{c=\frac23},
+$$
+
+and
+
+$$
+\boxed{C_2=dY,\qquad
+Y=\frac1{8\pi^2}\operatorname{Tr}\left(
+A\wedge dA+\frac23A\wedge A\wedge A\right)}.
+$$
+
+For the gauge transformation $A'=gAg^{-1}-dg\,g^{-1}$, use $d(g^{-1})=-g^{-1}(dg)g^{-1}$ and the [Maurer-Cartan equation](../../../lie-theory.md#maurer-cartan-equation). Expanding $dA'+A'\wedge A'$ makes the terms linear and quadratic in $dg\,g^{-1}$ cancel, leaving
+
+$$
+\boxed{F'=gFg^{-1}}.
+$$
+
+Invariance of the matrix trace under conjugation then gives
+
+$$
+\boxed{C_2'=\frac1{8\pi^2}\operatorname{Tr}(gFg^{-1}\wedge gFg^{-1})=C_2}.
+$$
+
+A [Yang-Mills instanton](../../../classical-field-theory-soliton.md#yang-mills-instanton) on $\mathbb R^4$ has finite Euclidean action, smooth curvature in the interior, and $F\to0$ sufficiently rapidly at infinity. Its connection therefore approaches a pure gauge on the asymptotic three-sphere,
+
+$$
+A\longrightarrow-dg\,g^{-1}
+$$
+
+up to a decaying correction, for a map $g:S^3_\infty\to SU(2)$. By [Stokes theorem](../../../calculus.md#stokes-theorem),
+
+$$
+k=\int_{\mathbb R^4}C_2
+=\int_{S^3_\infty}Y.
+$$
+
+Writing $\theta=dg\,g^{-1}$ gives $d\theta=\theta\wedge\theta$ and, for $A=-\theta$,
+
+$$
+Y=\frac1{24\pi^2}\operatorname{Tr}(\theta^{\wedge3}).
+$$
+
+Hence the [instanton number as a winding number at infinity](../../../classical-field-theory-soliton.md#instanton-number-as-a-winding-number-at-infinity) is
+
+$$
+\boxed{k=\frac1{24\pi^2}\int_{S^3_\infty}
+\operatorname{Tr}\left[(dg\,g^{-1})^{\wedge3}\right]\in\mathbb Z}.
+$$
+
+Under $SU(2)\cong S^3$, this integer is the [degree of a map between oriented manifolds](../../../homology.md#degree-of-a-map-between-oriented-manifolds) $g:S^3\to S^3$. Reversing the trace or orientation convention reverses the displayed sign.
+
+## ↑ Ancestors (8)
+
+1. [Iii](../iii.md)
+2. [2021](../../2021.md)
+3. [Past exam of the mathematics course of the University of Cambridge](../../../past-exam-of-the-mathematics-course-of-the-university-of-cambridge.md)
+4. [Mathematics course of the University of Cambridge](../../../university-of-cambridge.md#mathematics-course-of-the-university-of-cambridge)
+5. [Course of the University of Cambridge](../../../university-of-cambridge.md#course-of-the-university-of-cambridge)
+6. [University of Cambridge](../../../university-of-cambridge.md)
+7. [List of universities](../../../README.md#list-of-universities)
+8. [Codex Wiki](../../../README.md)

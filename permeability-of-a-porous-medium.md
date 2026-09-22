@@ -1,0 +1,75 @@
+# Permeability of a porous medium
+
+↑ **Parent:** [Darcy law](darcy-law.md)
+
+[Permeability of a porous medium](permeability-of-a-porous-medium.md) is the coefficient $k$ that measures how readily its connected pore geometry transmits a [fluid](fluid.md) in [Darcy law](darcy-law.md). Its units are $\mathrm{m^2}$, since $k/\mu$ converts a [pressure gradient](pressure-gradient.md) in $\mathrm{Pa\,m^{-1}}$ into a [Darcy velocity](darcy-velocity.md) in $\mathrm{m\,s^{-1}}$. Large open, well-connected passages generally give larger [permeability of a porous medium](permeability-of-a-porous-medium.md) than narrow or winding passages. [Porosity](porosity.md) alone cannot determine it: two samples can contain the same void volume but have different passage sizes and connectivity.
+
+For an unchanged framework and the basic no-slip [Newtonian fluid](newtonian-fluid.md) model, intrinsic [permeability of a porous medium](permeability-of-a-porous-medium.md) does not contain [dynamic viscosity](dynamic-viscosity.md) or [mass density](density.md). These properties instead enter [hydraulic conductivity](hydraulic-conductivity.md) $K=k\rho g/\mu$. At the same horizontal [pressure gradient](pressure-gradient.md), replacing a liquid with another of twice the [dynamic viscosity](dynamic-viscosity.md) halves [Darcy flux](darcy-velocity.md) even though $k$ stays fixed. Structural changes, such as swelling or clogging, can change $k$; the independence claim assumes the pore geometry stays fixed.[https://books.gw-project.org/hydrogeologic-properties-of-earth-materials-and-principles-of-groundwater-flow/chapter/hydraulic-conductivity/](https://books.gw-project.org/hydrogeologic-properties-of-earth-materials-and-principles-of-groundwater-flow/chapter/hydraulic-conductivity/)
+
+An [isotropic](isotropy.md) sample has scalar [permeability of a porous medium](permeability-of-a-porous-medium.md). An [anisotropic](anisotropy.md) sample requires a [tensor](tensor.md) $\boldsymbol{k}$ in $\mathbf q=-\boldsymbol{k}(\nabla p-\rho\mathbf g)/\mu$, so discharge need not be parallel to the net driving force. [Layered porous permeability](layered-porous-permeability.md) gives a concrete example: arranging individually [isotropic](isotropy.md) materials in horizontal layers produces different vertical and horizontal [effective permeabilities](effective-permeability.md).
+
+**Table of contents**
+
+- [Relative permeability](relative-permeability.md)
+  - [Phase mobility](phase-mobility.md)
+- [Effective permeability](effective-permeability.md)
+  - [Layered porous permeability](layered-porous-permeability.md)
+  - [Dilute permeability enhancement by aligned cracks](dilute-permeability-enhancement-by-aligned-cracks.md)
+  - [Effective permeability of complementary wedges](effective-permeability-of-complementary-wedges.md)
+- [Porosity](porosity.md)
+  - [Effective porosity](effective-porosity.md)
+
+## ↑ Ancestors (6)
+
+1. [Darcy law](darcy-law.md)
+2. [Porous-media flow](porous-media-flow-split.md)
+3. [Fluid mechanics](fluid-mechanics-split.md)
+4. [Branches of physics](branches-of-physics.md)
+5. [Physics](physics-split.md)
+6. [Codex Wiki](split.md)
+
+## ← Incoming links (43)
+
+- [Buoyancy-modified Darcy fingering dispersion relation](buoyancy-modified-darcy-fingering-dispersion-relation.md)
+- [Darcy flow through a homogeneous slab](darcy-flow-through-a-homogeneous-slab.md)
+- [Darcy law](darcy-law.md)
+- [Depth-dependent inclined porous-current equation](depth-dependent-inclined-porous-current-equation.md)
+- [Effective permeability](effective-permeability.md)
+- [Gravity drainage of sea-ice brine](gravity-drainage-of-sea-ice-brine.md)
+- [Hydraulic conductivity](hydraulic-conductivity.md)
+- [Hydraulic control of frost heave](hydraulic-control-of-frost-heave.md)
+- [Hydrostatic leakage through a basal seal](hydrostatic-leakage-through-a-basal-seal.md)
+- [Layered porous permeability](layered-porous-permeability.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2001/iii/paper-44/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2003/iii/paper-76/4/d/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-75/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-83/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-83/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2006/iii/paper-83/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-84/1/a/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2008/iii/paper-89/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2009/iii/paper-73/3/i/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2012/iii/paper-80/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-69/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2013/iii/paper-71/3/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-78/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-78/4/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2014/iii/paper-78/5/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2015/iii/paper-78/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2016/iii/paper-332/2/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2017/iii/paper-332/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2018/iii/paper-332/1/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-332/1/b/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2019/iii/paper-332/3/c/solution.md)
+- [Solution](past-exam-of-the-mathematics-course-of-the-university-of-cambridge/2024/iii/paper-332/1/i/solution.md)
+- [Permeability of a porous medium](permeability-of-a-porous-medium.md)
+- [Planar viscous-fingering dispersion relation](planar-viscous-fingering-dispersion-relation.md)
+- [Porosity](porosity.md)
+- [Porous gravity current with background flow](porous-gravity-current-with-background-flow.md)
+- [Porous-media flow](porous-media-flow-split.md)
+- [Porous medium](porous-medium.md)
+- [Pressure-dependent Darcy drainage](pressure-dependent-darcy-drainage.md)
+- [Pressure-limited spherical freezing in a porous medium](pressure-limited-spherical-freezing-in-a-porous-medium.md)
+- [Reactive infiltration instability](reactive-infiltration-instability.md)
+- [Relative permeability](relative-permeability.md)
+- [Unconfined aquifer with depth-dependent permeability](unconfined-aquifer-with-depth-dependent-permeability.md)
